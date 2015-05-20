@@ -5,7 +5,7 @@ repo_url: https://github.com/institut-de-genomique/microscope-user-doc
 include_search: true
 #use_directory_urls: true
 copyright: CeCILL license, Copyright &copy; 2015, CEA/Genoscope - LABGeM
-theme: readthedocs
+theme: yeti
 pages:
 - ['index.md', 'The MicroScope Platform']
 # MicroScope Platform Overview:
