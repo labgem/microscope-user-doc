@@ -1,3 +1,3 @@
-# The Microscope Platform Documentation
+# The Microscope Platform User Documentation
 
 http://microscope.readthedocs.org
