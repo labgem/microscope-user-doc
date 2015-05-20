@@ -8,3 +8,6 @@ copyright: CeCILL license, Copyright &copy; 2015, CEA/Genoscope - LABGeM
 theme: readthedocs
 pages:
 - ['index.md', 'The MicroScope Platform']
+# MicroScope Platform Overview:
+- ['interface.md', 'MicroScope Platform Overview', 'Interface']
+- ['requirements.md', 'MicroScope Platform Overview', 'Technical Requirement']
