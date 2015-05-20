@@ -10,4 +10,4 @@ pages:
 - ['index.md', 'The MicroScope Platform']
 # MicroScope Platform Overview:
 - ['interface.md', 'MicroScope Platform Overview', 'Interface']
-- ['requirement.md', 'MicroScope Platform Overview', 'Technical Requirement']
+- ['requirements.md', 'MicroScope Platform Overview', 'Technical Requirement']
