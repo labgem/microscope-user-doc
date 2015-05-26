@@ -2,6 +2,7 @@
  Technical Requirements
  ######################
 
+
 A broadband connection to the Internet is required to use the MicroScope platform, although higher-speed connections are preferable.
 A minimal screen resolution of 1280x1024 pixels is needed.
 Please enable Javascript and Popup windows.	This should be enabled by default on your web browser. Else, check your web browser documentation for further information about how to proceed.
