@@ -1,3 +1,4 @@
-# The Microscope Platform User Documentation
+$project
+========
 
-http://microscope.readthedocs.org
+The Microscope Platform User Documentation
