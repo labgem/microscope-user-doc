@@ -16,7 +16,7 @@ import os
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('../'))
 
-#from poretools import __version__ as version
+#from microscope-user-doc import __version__ as version
 version = '0.5.0'
 # -- General configuration -----------------------------------------------------
 
@@ -41,8 +41,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'poretools'
-copyright = u'2014'
+project = u'microscope-user-doc'
+copyright = u'2015'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -169,7 +169,7 @@ html_show_sphinx = False
 # html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'poretools-docs'
+htmlhelp_basename = 'microscope-user-doc'
 
 # Google analytics
 # googleanalytics_id = "UA-24167610-15"
@@ -185,7 +185,7 @@ htmlhelp_basename = 'poretools-docs'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'poretools.tex', u'poretools Documentation', u'Nick Loman and Aaron Quinlan', 'manual'),
+    ('index', 'microscope-user-doc.tex', u'LABGeM Documentation', u'LABGeM team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'gemini', u'poretools Documentation', [u'Nick Loman and Aaron Quinlan'], 1)
+    ('index', 'gemini', u'microscope-user-doc Documentation', [u'LABGeM team'], 1)
 ]
 
 
