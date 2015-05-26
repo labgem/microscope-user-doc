@@ -172,7 +172,7 @@ html_show_sphinx = False
 htmlhelp_basename = 'microscope-user-doc'
 
 # Google analytics
-# googleanalytics_id = "UA-24167610-15"
+# googleanalytics_id = ""
 
 # -- Options for LaTeX output --------------------------------------------------
 
