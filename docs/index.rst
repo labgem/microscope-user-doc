@@ -17,6 +17,9 @@ Table of contents
    content/overview
    content/mage
    content/techreq
-
+   
+=================
+Availability
+=================
 .. note::
 The MicroScope platform is available at this URL : https://www.genoscope.cns.fr/agc/microscope
