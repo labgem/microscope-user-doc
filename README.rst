@@ -1,8 +1,8 @@
 The Microscope Platform User Documentation
 ==========================================
 
-|build-status| |docs|
-
 Purpose
 -------
-Microscope Platform user documentation
+Documentation of the Microscope Platform : http://microscope.readthedocs.org/
+
+https://www.genoscope.cns.fr/agc/microscope
