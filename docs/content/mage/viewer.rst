@@ -1,6 +1,6 @@
-####
+##############
 Genome Browser
-####
+##############
 
 Genome Browser interface provides an user-friendly way to visualize and explore a replicon content 
 (cartographic map of the genome), together with the similarity results (synteny maps) obtained with other 
