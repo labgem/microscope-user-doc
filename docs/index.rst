@@ -13,10 +13,21 @@ Table of contents
 =================
 
 .. toctree::
+   :caption: MicroScope Platform Overview
    :maxdepth: 3
    
    content/overview
+
+.. toctree::
+   :caption: MaGe
+   :maxdepth: 3
+   
    content/mage
+
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 3
+   
    content/techreq
    
 =================
