@@ -35,7 +35,8 @@ How to move along the sequence ?
 
 1) You can navigate along the selected sequence by using the grey arrows located on the left and right sides of the genomic map.
 2) You can also enter directly a genomic coordinate and then click on **VIEW**.
-3) Enter a gene name (e.g. dnaA) or a gene label (e.g., ECK0001) and click on **Move to**. The map is centered on the requested Genomic object. 
+3) Enter a gene name (e.g. dnaA) or a gene label (e.g., ECK0001) and click on **Move to**. The map is centered on the requested Genomic object.
+
 If several genes have been annotated with the same gene name, the window will move to the first occurrence of these genes on the genome sequence.
 
 .. image:: img/img3.png
@@ -51,6 +52,7 @@ This is a way to quickly identify a specific gene when annotator use the Move To
 .. image:: img/imgintermediaire.png
 
 * From the toolbar below the synteny maps:
+
 .. image:: img/img5.png
 
 After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding gene, which will be framed with a black line.
