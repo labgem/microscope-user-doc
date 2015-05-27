@@ -21,12 +21,14 @@ The blue lines symbolize the coding prediction curve. They increase when coding 
 
 .. image:: img/GB_overview1.png
 
+
 What is the meaning of the Genomic Object color code ?
 ------------------------------------------------------
 
 The rectangles symbolising each Genomic Object (CDS, RNA...) follow a color code that corresponds to their annotation status, summarized below:
 
 .. image:: img/ColorCode_900.png
+
 
 How to move along the sequence ?
 --------------------------------
@@ -37,6 +39,7 @@ How to move along the sequence ?
 If several genes have been annotated with the same gene name, the window will move to the first occurrence of these genes on the genome sequence.
 
 .. image:: img/img3.png
+
 
 Why sometimes genes are framed with a black line?
 -------------------------------------------------
