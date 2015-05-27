@@ -27,7 +27,6 @@ MaGe
 Technical Requirements
 ======================
 .. toctree::
-   :caption: Technical Requirements
    :maxdepth: 3
    
    content/techreq
