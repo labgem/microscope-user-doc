@@ -250,9 +250,9 @@ What is Artemis?
 ----------------
 Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses. It also supports all six-frame translations. It has been developed at the Sanger Institute.
 
-**More**: `Link text <http://www.sanger.ac.uk/resources/software/artemis/>`_
+**More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
 
-**Reference**: 'Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5' <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
+**Reference**: 'Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
 
 How to open Artemis ?
 ---------------------
@@ -284,7 +284,7 @@ Once you have identified an alternative Start codon, you can copy its position a
 What do I do if java doesn’t work on my computer ?
 --------------------------------------------------
 
-Go to the Artemis Website: `Link text <http://www.sanger.ac.uk/resources/software/artemis/>`_
+Go to the Artemis Website: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
 
 Download Artemis and install it on your personal computer.
 
