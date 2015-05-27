@@ -171,7 +171,7 @@ What is a synteny ?
 **Synteny computation algorithm is relying on 2 kinds of relations**:
 
 * Inter-genomic : Nature of the relationship (similarity, functional class, etc) and ‘correspondence’ between genes (BBH, 1-n relation)
-*Intra-genomic : Gene ‘co-localisation’ (with a ‘gap’ parameter).
+* Intra-genomic : Gene ‘co-localisation’ (with a ‘gap’ parameter).
 
 **Correspondence relationships are**:
 
