@@ -10,3 +10,6 @@ Artemis tool can be launched at this level to examine more precisely the nucleot
 (a useful interface to correct translational start codon positions if necessary). 
 For genomic objects drawn in part of the chromosome visualized in the cartographic map, additional information 
 is listed in a table.
+
+.. image:: img/GB_overview1.png
+
