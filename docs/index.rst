@@ -20,8 +20,7 @@ MaGe
 .. toctree::
    :caption: MaGe
    :maxdepth: 3
-   :name: content/mage/mage
-   
+
    content/mage/viewer
    content/mage/displaypref
 
