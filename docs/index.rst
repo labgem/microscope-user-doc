@@ -22,8 +22,10 @@ MaGe
    :maxdepth: 3
 
    content/mage/viewer
-   content/mage/doubloonGenes
    content/mage/displaypref
+   content/mage/doubloonGenes
+   content/mage/overlapCDS
+   content/mage/bilanAnnotationExpert
 
 ======================
 Technical Requirements
