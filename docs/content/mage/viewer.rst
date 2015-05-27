@@ -49,6 +49,7 @@ Why sometimes genes are framed with a black line?
 
 This is a way to quickly identify a specific gene when annotator use the Move To functionalities:
 * From result tables: 
+
 .. image:: img/imgintermediaire.png
 
 * From the toolbar below the synteny maps:
@@ -97,6 +98,7 @@ How to access the annotation history of a genomic object ?
 
 Click on the **History icon** in located the table of genomic objects or in the Gene Annotation Editor window toolbar. 
 The history opens in a new window, allowing you to follow the annotation’s evolution as well as the identity of previous annotators. You can send an email to an annotator by clicking on his/her login name.
+
 .. image:: img/img6.png
 
 How to use the "Export to Gene Cart" button ?
@@ -150,3 +152,91 @@ If you click on a repeat region label, you obtain the detailed list of the repea
 * **Ident%**: Identity percentage between the 2 repeat units
 
 
+
+=========
+Syntenies 
+=========
+
+What is a synteny ?
+-------------------
+
+**Definitions**
+
+* Synteny: Orthologous gene set having the same local organization in species A and in species B.
+* Synton: Maximal set of orthologous gene pairs displaying a conserved organization.
+* Conserved Organization: Relative location of orthologous genes on compared genomes : permutations - insertions/deletions.
+
+.. image:: img/img7.png
+
+**Synteny computation algorithm is relying on 2 kinds of relations**:
+
+* Inter-genomic : Nature of the relationship (similarity, functional class, etc) and ‘correspondence’ between genes (BBH, 1-n relation)
+*Intra-genomic : Gene ‘co-localisation’ (with a ‘gap’ parameter).
+
+**Correspondence relationships are**:
+
+* Sequence similarity : BlastP Bidirectional Best Hit OR at least 30% identity on 80% of the shortest sequence (minLrap 0.8)
+* Co-localization: Gap = 5
+
+What are the different display modes for syntenies vizualisation?
+-----------------------------------------------------------------
+
+Two modes are available for the representation of the syntenies : 
+(1)A representation by pairs of genomes from PkGDB database and from NCBI databank. 
+(2)A representation with species grouped by taxonomy.
+
+How to switch from a mode to another one?
+-----------------------------------------
+
+The «Switch» button (1), between the genome browser and the synteny maps, allows to change your visualization mode. Also, the «Option» button (2) and «Display preference» interface (3) allow to change:
+
+* the vizualisation mode.
+* the taxon choice for the representation with species grouped by taxonomy (Phylum, Class, Order, Family, Species).
+* the default organism / taxonomy entries selection, so you can manage your own selections.
+
+.. image:: img/img8.png
+
+How to read the synteny maps with representation by pairs of genomes?
+---------------------------------------------------------------------
+
+The synteny maps are calculated for all pairs of genomes from the PkGDB database (first synteny map) or from the NCBI databank (second map). They represent the distribution of homologs of the current genome in other genomes from these databases. Each row on the map corresponds to one genome replicon (chromosome or plasmid) whose name is indicated on the left. In contrast to the genomic map, there is no scale on the synteny map: a rectangle has the same size as the CDS to which it is homolog.
+
+The color of the rectangles reflect illustrate synteny conservation, to the exception of the white color. Thus, a group of rectangles which share a common color shows that there is a conservation of the synteny between the current genome and the genome of the synteny map. Rectangles filled with white indicate homologs that don’t belong to a synteny group. The synteny maps should be read linearly: the color code has to be interpreted by replicon, i.e. by row. The same color on 2 synteny map rows doesn’t indicate any synteny relationship.
+
+When you hover the mouse pointer over a synteny gene, a short summary appears : it indicates the gene label of the homolog, as well as its gene name and product description. It also gives the identity (Id) conservation between the sequence and its homolog on the studied genome. The minLRap and maxLrap values give some indications about the alignment of the 2 proteins.
+
+The filling of a rectangle reflects the alignment quality between the 2 proteins.
+
+.. image:: img/img9.png
+
+**Exemple**:
+
+.. image:: img/img10.png
+
+How to read the synteny maps with representation grouped by taxonomy ?
+----------------------------------------------------------------------
+
+Syntenies are computed from the PkGDB database for the first map and from the NCBI databank for the second map. Each line refers to a taxon for which the name is displayed on the left side, followed by the number of different species organized in synteny in the observed genomic region. The taxonomic rank can be modified through the «Option» button.
+
+On the maps, a coloured box represents the synteny conservation with the reference gene for at least an organism of taxon of the row. Boxes have the same size that the corresponding reference gene and the synteny map is lined with Genome Browser to ease comparisons.
+
+The color of the block corresponds to species percentage which have a synteny with the reference gene. This percentage is computed by dividing the organisms number of taxon in synteny for the corresponding gene by the total organisms number of the taxon.
+
+.. image:: img/img11.png
+
+**Percentage of species in synteny**
+
+.. image:: img/img12.png
+
+How to zoom in on a synteny group ?
+-----------------------------------
+
+If you click on a synteny group, it opens a popup synton visualization window which shows a more detailled view of the syntenies.
+
+* **Representation by pairs of genomes**
+
+.. image:: img/img13.png
+
+* **Representation with species grouped by taxonomy**
+
+.. image:: img/img14.png
