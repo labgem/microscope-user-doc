@@ -1,9 +1,9 @@
 ############################
-MicroScope Platform Overview
+Interface
 ############################
 
 =========
-Interface
+Overview
 =========
 Most of result tables provides a default sort (grey-coloured column). 
 To sort results as you wish, simply click on the corresponding column header. Each click will alternate between ASC (ascending order) sort or DESC (descending order) sort. 
