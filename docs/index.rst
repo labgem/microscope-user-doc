@@ -10,7 +10,7 @@ MicroScope Platform Overview
 ============================
 .. toctree::
    :caption: MicroScope Platform Overview
-   :maxdepth: 3
+   :maxdepth: 2
    
    content/overview
 
@@ -19,7 +19,7 @@ MaGe
 ====
 .. toctree::
    :caption: MaGe
-   :maxdepth: 3
+   :maxdepth: 2
 
    content/mage/viewer
    content/mage/displaypref
@@ -32,7 +32,7 @@ Technical Requirements
 ======================
 .. toctree::
    :caption: Technical Requirements
-   :maxdepth: 3
+   :maxdepth: 2
    
    content/techreq
    
