@@ -13,6 +13,7 @@ MicroScope Platform Overview
    :maxdepth: 3
    
    content/overview
+
 ====
 MaGe
 ====
