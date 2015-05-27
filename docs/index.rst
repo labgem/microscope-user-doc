@@ -22,6 +22,7 @@ MaGe
    :maxdepth: 3
 
    content/mage/viewer
+   content/mage/doubloonGenes
    content/mage/displaypref
 
 ======================
