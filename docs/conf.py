@@ -41,7 +41,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'microscope-user-doc'
+project = u'MicroScope User Doc'
 copyright = u'2015'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -104,10 +104,10 @@ html_theme_path = ["themes"]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-html_title = None
+html_title = project + " v" + release
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
-html_short_title = project + " v" + release
+html_short_title = project
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
@@ -185,7 +185,7 @@ htmlhelp_basename = 'microscope-user-doc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-    ('index', 'microscope-user-doc.tex', u'LABGeM Documentation', u'LABGeM team', 'manual'),
+    ('index', 'microscope-user-doc.tex', u'MicroScope User Documentation', u'LABGeM team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
