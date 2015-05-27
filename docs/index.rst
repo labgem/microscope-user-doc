@@ -19,7 +19,7 @@ Table of contents
    :caption: MaGe
    :maxdepth: 3
    
-   content/mage/index.rst
+   content/mage/viewer.rst
    content/mage/displaypref.rst
 
 .. toctree::
