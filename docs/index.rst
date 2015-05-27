@@ -20,9 +20,10 @@ MaGe
 .. toctree::
    :caption: MaGe
    :maxdepth: 3
+   :name: content/mage/mage
    
-   content/mage/viewer.rst
-   content/mage/displaypref.rst
+   content/mage/viewer
+   content/mage/displaypref
 
 ======================
 Technical Requirements
