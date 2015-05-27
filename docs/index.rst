@@ -1,24 +1,21 @@
-==========================================
-The Microscope Platform User Documentation
-==========================================
-
+#################
+Table of contents
+#################
 
 Microscope Platform user documentation
 
-=================
-Table of contents
-=================
 
+============================
 MicroScope Platform Overview
-=================
+============================
 .. toctree::
    :caption: MicroScope Platform Overview
    :maxdepth: 3
    
    content/overview
-   
+====
 MaGe
-=================
+====
 .. toctree::
    :caption: MaGe
    :maxdepth: 3
@@ -26,8 +23,9 @@ MaGe
    content/mage/viewer.rst
    content/mage/displaypref.rst
 
+======================
 Technical Requirements
-=================
+======================
 .. toctree::
    :caption: Technical Requirements
    :maxdepth: 3
