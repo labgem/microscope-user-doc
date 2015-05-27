@@ -217,7 +217,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'gemini', u'microscope-user-doc Documentation', [u'LABGeM team'], 1)
+    ('index', 'gemini', u'MicroScope User Documentation', [u'LABGeM team'], 1)
 ]
 
 
