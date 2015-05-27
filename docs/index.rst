@@ -19,7 +19,8 @@ Table of contents
    :caption: MaGe
    :maxdepth: 3
    
-   content/mage/*
+   content/mage/index.rst
+   content/mage/displaypref.rst
 
 .. toctree::
    :caption: Technical Requirements
