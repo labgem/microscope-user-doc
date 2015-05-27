@@ -209,7 +209,7 @@ The filling of a rectangle reflects the alignment quality between the 2 proteins
 
 .. image:: img/img9.png
 
-**Exemple**:
+**Example**:
 
 .. image:: img/img10.png
 
@@ -240,3 +240,52 @@ If you click on a synteny group, it opens a popup synton visualization window wh
 * **Representation with species grouped by taxonomy**
 
 .. image:: img/img14.png
+
+
+=======
+Artemis 
+=======
+
+What is Artemis?
+----------------
+Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses. It also supports all six-frame translations. It has been developed at the Sanger Institute.
+
+**More**: `Link text <http://www.sanger.ac.uk/resources/software/artemis/>`_
+
+**Reference**: 'Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5' <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
+
+How to open Artemis ?
+---------------------
+
+You can access the Artemis application by using:
+
+* **Artemis region**: the sequence is loaded into Artemis but only the features corresponding to the Genomic objects located in the region which is visualized in the Genome Browser are loaded.
+* **Artemis whole genome**: the sequence is loaded into Artemis and all genome features are loaded.
+
+.. image:: img/img15.png
+
+A new window appears with the Artemis interface. All genomic objects are listed in the bottom part of the window using their labels. You can click on the right button of your mouse and select **Show Gene names** to identify the objects by their gene names instead.
+
+.. image:: img/img16.png
+
+How to use to Artemis to identify alternative Start codons ?
+------------------------------------------------------------
+
+Double click on an object to select it in the upper part of the window. The object is then positioned at its start position.
+
+**Keyboard shortcuts**:
+
+* **ctrl + Y key**: Artemis will propose the next possible Start position for your CDS. You can do this several times.
+* **ctrl + U key**: Undo your last action.
+* **ctrl + Q key**: Select the whole ORF.
+
+Once you have identified an alternative Start codon, you can copy its position and change the value in the **Gene annotation editor** window of your gene.
+
+What do I do if java doesn’t work on my computer ?
+--------------------------------------------------
+
+Go to the Artemis Website: `Link text <http://www.sanger.ac.uk/resources/software/artemis/>`_
+
+Download Artemis and install it on your personal computer.
+
+Use the Export functionality to export your genome as an EMBL file. You can then open it with your personal version of Artemis.
