@@ -36,8 +36,14 @@ The popup interface will display all the Organisms for which you have, at least,
 
 The select menu below the Change button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
 
+::
 
-**Tip**: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
+	**Tip**: After logging in, you will have access to the **My Favourite Organisms** 
+	functionality available in the **User Panel** section. Considering you have registered 
+	some favourites in our database with this interface, you’ll note that if you hover your 
+	mouse pointer the *Change* button, a popup will appear. This lists your favourite organism 
+	selection. By clicking on one of this organisms, the system will set this one as the new 
+	reference organism. This allows a quick access to a personal set of organisms.
 
 * **Item #3. Navigation Submenu:** 
 During your exploration and annotation work, this menu will indicate your position in the MicroScope’s tools tree, offering users an easy way to locate themselves on the platform.
