@@ -36,7 +36,7 @@ MaGe
 Genomic Tools
 =============
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Genomic Tools
    :maxdepth: 2
    
    content/genomic/overview
@@ -49,7 +49,7 @@ Genomic Tools
 Comparative Genomics
 ====================
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Comparative Genomics
    :maxdepth: 2
    
    content/compgenomics/phyloprofil
@@ -64,7 +64,7 @@ Comparative Genomics
 Metabolism
 ==========
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Metabolism
    :maxdepth: 2
    
    content/metabolism/microcyc
@@ -74,11 +74,11 @@ Metabolism
    content/metabolism/pathwayCuration
    content/metabolism/canoe
    
-======
-Search
-======
+========
+Searches
+========
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Searches
    :maxdepth: 2
    
    content/search/blast
@@ -89,7 +89,7 @@ Search
 Transcriptomics
 ===============
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Transcriptomics
    :maxdepth: 2
    
    content/transcriptomic/rnaseq
@@ -100,7 +100,7 @@ Transcriptomics
 Variant Discovery
 =================
 .. toctree::
-   :caption: Technical Requirements
+   :caption: Variant Discovery
    :maxdepth: 2
    
    content/expdata/NGSProjectEvo
@@ -109,7 +109,7 @@ Variant Discovery
 User Panel
 ==========
 .. toctree::
-   :caption: Technical Requirements
+   :caption: User Panel
    :maxdepth: 2
    
    content/userpanel/displaypref
