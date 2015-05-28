@@ -22,9 +22,9 @@ How to use the Main Navigation Menu?
 * **Item #1. Login Interface:** 
 Fill the username and password fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|**Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**»| |interface in order to open your account.																																								  |
-+=======================================================================================================================================================================================================+
+
+::**Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
+
 
 * **Item #2. Reference Sequence selection menu:** 
 From this menu, you can select your Reference Genome/Replicon. Click on the Change button to open a popup organism selection interface, select your reference organism, then click on the Set Selection button. This action will reload the main webpage with the data corresponding to the Organism you selected as reference.
