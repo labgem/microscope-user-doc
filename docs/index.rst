@@ -67,7 +67,7 @@ Metabolism
    :caption: Technical Requirements
    :maxdepth: 2
    
-   content/metabolism/microcys
+   content/metabolism/microcyc
    content/metabolism/kegg
    content/metabolism/metabolicprofil
    content/metabolism/syntenyPath
