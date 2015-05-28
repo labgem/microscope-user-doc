@@ -25,10 +25,12 @@ MaGe
    :maxdepth: 2
 
    content/mage/viewer
-   content/mage/displaypref
+   content/mage/editor
    content/mage/doubloonGenes
    content/mage/overlapCDS
    content/mage/bilanAnnotationExpert
+   content/mage/ecnumber
+   content/mage/newlabels
 
 =============
 Genomic Tools
