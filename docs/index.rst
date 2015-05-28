@@ -30,14 +30,14 @@ MaGe
    content/mage/overlapCDS
    content/mage/bilanAnnotationExpert
 
-======================
-Technical Requirements
-======================
+=============
+Genomic Tools
+=============
 .. toctree::
    :caption: Technical Requirements
    :maxdepth: 2
    
-   content/techreq
+   content/genomictools
    
 
 
