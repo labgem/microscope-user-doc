@@ -37,7 +37,24 @@ Genomic Tools
    :caption: Technical Requirements
    :maxdepth: 2
    
-   content/genomictools
+   content/genomic/overview
+   content/genomic/cgview
+   content/genomic/syntenyTandem
+   content/genomic/classifcog
+   content/genomic/minGeneSet
+
+====================
+Comparative Genomics
+====================
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/compgenomics/phyloprofil
+   content/compgenomics/phyloprofil
+   content/compgenomics/phyloprofil
+   content/compgenomics/phyloprofil
+
    
 
 
