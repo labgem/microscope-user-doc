@@ -51,9 +51,12 @@ Comparative Genomics
    :maxdepth: 2
    
    content/compgenomics/phyloprofil
-   content/compgenomics/phyloprofil
-   content/compgenomics/phyloprofil
-   content/compgenomics/phyloprofil
+   content/compgenomics/genomicIsland
+   content/compgenomics/linePlotForm
+   content/compgenomics/fusfis
+   content/compgenomics/GOstats
+   content/compgenomics/RefSeqstats
+   content/compgenomics/pancoreTool
 
    
 
