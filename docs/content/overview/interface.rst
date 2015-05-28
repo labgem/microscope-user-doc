@@ -24,5 +24,6 @@ Fill the username and password fields as described in the Email sent to you at a
 
 **Tip**: Considering the account creation: **we will create new accounts *only* following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
 +-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+
-| **Tip**: Considering the account creation: **we will create new accounts *only* following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.                                                                                                                                                                   |
+| **Tip**: Considering the account creation: **we will create new accounts *only* following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**»| 
+|interface in order to open your account.                                                                                                                                                                  |
 +-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+-------+----------+---------+
