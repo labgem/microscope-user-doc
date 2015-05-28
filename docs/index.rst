@@ -66,14 +66,58 @@ Metabolism
    :maxdepth: 2
    
    content/metabolism/microcys
-   content/metabolism/microcys
-   content/metabolism/microcys
-   content/metabolism/microcys
-   content/metabolism/microcys
-   content/metabolism/microcys
+   content/metabolism/kegg
+   content/metabolism/metabolicprofil
+   content/metabolism/syntenyPath
+   content/metabolism/pathwayCuration
+   content/metabolism/canoe
+   
+======
+Search
+======
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/search/blast
+   content/search/keyword
+   content/search/exportForm
+   
+===============
+Transcriptomics
+===============
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/transcriptomic/rnaseq
+   content/transcriptomic/rnaseqv2
+   content/transcriptomic/start
+
+=================
+Variant Discovery
+=================
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/expdata/NGSProjectEvo
+   
+==========
+User Panel
+==========
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/userpanel/displaypref
+   content/userpanel/displaypref
+   content/userpanel/displaypref
+   content/userpanel/displaypref
+   content/userpanel/displaypref
+   
    
 
-   
 
 
 The MicroScope platform is available at this URL: https://www.genoscope.cns.fr/agc/microscope
