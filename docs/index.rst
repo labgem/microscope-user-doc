@@ -12,10 +12,10 @@ MicroScope Platform Overview
    :caption: MicroScope Platform Overview
    :maxdepth: 2
    
-   content/interface
-   content/technical
-   content/login
-   content/latestnews
+   content/overview/interface
+   content/overview/technical
+   content/overview/login
+   content/overview/latestnews
 
 ====
 MaGe
