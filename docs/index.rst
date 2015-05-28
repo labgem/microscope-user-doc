@@ -111,10 +111,12 @@ User Panel
    :maxdepth: 2
    
    content/userpanel/displaypref
-   content/userpanel/displaypref
-   content/userpanel/displaypref
-   content/userpanel/displaypref
-   content/userpanel/displaypref
+   content/userpanel/genesbasket
+   content/userpanel/favourites
+   content/userpanel/personalinfo
+   content/userpanel/requestpassword
+   content/userpanel/rightsmanagement
+   content/userpanel/register
    
    
 
