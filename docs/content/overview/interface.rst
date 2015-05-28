@@ -54,3 +54,83 @@ Click on the button, save the file to your computer, then load it into your pref
 
 * **Item #5. Help button:**
 By clicking on this button, you’ll be redirected to the MicroScope Tutorial. You will get a list of help articles related to the tool you’re using at the moment. In case of no correspondences, you’ll be invited to browse the whole content of the tutorial.
+
+
+
+======================
+Browsing Result Tables 
+======================
+
+How to sort results?
+--------------------
+
+Most of result tables provides a default sort (grey-coloured column). 
+To sort results as you wish, simply click on the corresponding column header. Each click will alternate between ASC (*ascending order*) sort or DESC (*descending order*) sort. 
+Also, the system provides a multi-sort functionality, to sort and switch on multiple columns. Simply hold your «**SHIFT**» key and click on column headers you want to multi-sort.
+
+.. image:: img/img3.png
+
+How to filter results?
+----------------------
+
+Each result table provides a text area called «Search:» . 
+Enter some characters into this box in order to filter results: each row matching your keywords will be kept, whereas the others will be hidden dynamically.
+
+.. image:: img/img4.png
+
+How to choose the number of results to display per page?
+--------------------------------------------------------
+
+Each result table provides a select menu called «Show X Results». 
+Change the value to display the corresponding number of results per page. 
+Values are: 10 (default), 25, 50, 100 or All.
+
+.. image:: img/img5.png
+
+How to export results?
+----------------------
+
+Each result table provides buttons called Copy and CSV.
+
+::
+	WARNING: Please note that these buttons need Adobe Flash Player to be installed 
+	on your browser to work properly.
+
+
+* Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format
+
+.. image:: img/img6.png
+
+This will copy to clipboard the data below:
+
+::
+	Sequence	Label	Type	Gene	Begin	End	Length	Frame	Product	Matrix	Evidence	AMIGene Status	GC Content	GC3 Content	CAI	Mw (Da)	pI	History 
+	""	ACIAD0001	CDS	dnaA	201	1598	1398	+3	Chromosomal replication initiator protein dnaA	2	validated/Curated	no	0.4385	0.3734	0.61	52440.64	8.15 
+	""	ACIAD0002	CDS	dnaN	1834	2982	1149	+1	DNA polymerase III, beta chain	2	validated/Curated	no	0.4413	0.3708	0.58	42306.74	5.22 
+	""	ACIAD0003	CDS	recF	2998	4074	1077	+1	DNA replication, recombinaison and repair protein	1	validated/Curated	no	0.4206	0.3760	0.57	41075.48	7.03 
+	""	ACIAD0004	CDS	gyrB	4127	6595	2469	+2	DNA gyrase, subunit B (type II topoisomerase)	2	validated/Curated	no	0.4467	0.3900	0.63	91783.08	5.46 
+	""	ACIAD0005	CDS	_	6712	6948	237	-2	conserved hypothetical protein	1	validated/Curated	no	0.4262	0.3797	0.70	8917.44	6.01 
+	""	ACIAD0007	CDS	_	7336	9270	1935	-2	putative transport protein (ABC superfamily, atp_bind)	1	validated/Curated	no	0.4537	0.4047	0.62	72749.73	5.44 
+	""	ACIAD0008	CDS	_	9651	10661	1011	+3	putative RND type efflux pump involved in aminoglycoside resistance (AdeT)	2	validated/Curated	no	0.4303	0.3472	0.68	36726.96	9.34 
+	""	ACIAD0009	CDS	adeT	10910	11920	1011	+2	RND type efflux pump involved in aminoglycoside resistance	1	validated/Curated	no	0.4303	0.3858	0.56	37070.36	9.25 
+	""	ACIAD0010	CDS	_	12039	12374	336	+3	putative chaperone involved in Fe-S cluster assembly and activation (HesB-like)	2	validated/Curated	no	0.4196	0.3304	0.58	11965.77	4.21 
+	""	ACIAD0011	CDS	anmK	12436	13566	1131	-2	Anhydro-N-acetylmuramic acid kinase (AnhMurNAc kinase)	1	validated/Curated	no	0.4598	0.3581	0.59	41659.66	5.68 
+	""	ACIAD0013	CDS	tyrS	13646	14860	1215	+2	tyrosyl-tRNA synthetase	1	validated/Curated	no	0.4535	0.4222	0.59	44849.26	5.35 
+	""	ACIAD0014	CDS	_	15431	15685	255	+2	hypothetical protein	3	validated/Curated	no	0.3725	0.3412	0.70	10217.40	5.70 
+	""	ACIAD0015	CDS	_	15927	17882	1956	+3	putative 5’-nucleotidase NucA precursor	2	validated/Curated	no	0.4105	0.3190	0.56	72006.38	5.32 
+	""	ACIADrRNA16S_1	rRNA	_	18416	19945	1530	+1	16S	_	validated/Curated	no	_	_	_	_	_
+	
+* Using the *CSV* button will export your result table in a CSV file, fully compatible with spreadsheets like Microsoft Excel, or Open Office Calc
+
+.. image:: img/img7.png
+
+
+How to print results?
+---------------------
+
+Clicking on the *Print* button will display only the result table within your current window, hiding all the others HTML elements. Then, use your browser’s menu bar to print the displayed table.
+
+::
+	Tip: You can leave the «Print Mode» and go back to the original window by clicking your «ESC (Escape)» key.
+
+.. image:: img/img8.png
