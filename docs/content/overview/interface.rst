@@ -22,10 +22,9 @@ How to use the Main Navigation Menu?
 * **Item #1. Login Interface:** 
 Fill the username and password fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|**Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**»| 
-|interface in order to open your account.																																		                                                                              						  |
-+=======================================================================================================================================================================================================+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|**Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.|
++================================================================================================================================================================================================================================================+
 
 * **Item #2. Reference Sequence selection menu:** 
 From this menu, you can select your Reference Genome/Replicon. Click on the Change button to open a popup organism selection interface, select your reference organism, then click on the Set Selection button. This action will reload the main webpage with the data corresponding to the Organism you selected as reference.
@@ -34,11 +33,9 @@ The popup interface will display all the Organisms for which you have, at least,
 
 The select menu below the Change button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|**Tip**: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database | 
-|with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the  | 
-|system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.																						                                            |
-+=========================================================================================================================================================================================================+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|**Tip**: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.|
++===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================+
 
 * **Item #3. Navigation Submenu:** 
 During your exploration and annotation work, this menu will indicate your position in the MicroScope’s tools tree, offering users an easy way to locate themselves on the platform.
