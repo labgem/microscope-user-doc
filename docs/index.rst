@@ -57,6 +57,21 @@ Comparative Genomics
    content/compgenomics/GOstats
    content/compgenomics/RefSeqstats
    content/compgenomics/pancoreTool
+   
+==========
+Metabolism
+==========
+.. toctree::
+   :caption: Technical Requirements
+   :maxdepth: 2
+   
+   content/metabolism/microcys
+   content/metabolism/microcys
+   content/metabolism/microcys
+   content/metabolism/microcys
+   content/metabolism/microcys
+   content/metabolism/microcys
+   
 
    
 
