@@ -48,6 +48,7 @@ Why sometimes genes are framed with a black line?
 .. image:: img/img4.png
 
 This is a way to quickly identify a specific gene when annotator use the Move To functionalities:
+
 * From result tables: 
 
 .. image:: img/imgintermediaire.png
@@ -252,7 +253,7 @@ Artemis is a free genome viewer and annotation tool that allows visualisation of
 
 **More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
 
-**Reference**: 'Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
+**Reference**: `Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
 
 How to open Artemis ?
 ---------------------
