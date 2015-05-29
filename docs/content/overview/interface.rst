@@ -98,9 +98,7 @@ Each result table provides buttons called *Copy* and *CSV*.
 
 .. image:: img/img6.png
 
-This will copy to clipboard the data below:
-
-::
+This will copy to clipboard the data below::
 
 Sequence	Label	Type	Gene	Begin	End	Length	Frame	Product	Matrix	Evidence	AMIGene Status	GC Content	GC3 Content	CAI	Mw (Da)	pI	History 
 ""	ACIAD0001	CDS	dnaA	201	1598	1398	+3	Chromosomal replication initiator protein dnaA	2	validated/Curated	no	0.4385	0.3734	0.61	52440.64	8.15 

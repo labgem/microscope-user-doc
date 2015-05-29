@@ -12,7 +12,7 @@ After your account has been created, you will receive an automated message from 
  	This is an automated message from LABGeM: your MicroScope account is now fully active.
  	The Microscope web interface URL is : https://www.genoscope.cns.fr/agc/microscope
  	Your login : **your_username**.
- 	Your password : **your_password **
+ 	Your password : **your_password**
 	Please note that login data is confidential. You may not share your account with anyone, or allow anyone other than you personally to access or use your account.
  	Best regards,
  	LABGeM Team
