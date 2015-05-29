@@ -18,8 +18,8 @@ Yes, we provide «RSS Feeds» you can subscribe to by clicking on RSS pictures, 
 
 * in the footer of webpages:
 
-..image:: img/img15.png
+.. image:: img/img15.png
 
 * in the «Latest News» panel:
 
-..image:: img/img15.png
+.. image:: img/img16.png

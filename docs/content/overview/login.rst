@@ -8,14 +8,14 @@ How to login?
 
 After your account has been created, you will receive an automated message from LABGeM containing the required login information:
 
-.. note:: Dear annotator, 
-This is an automated message from LABGeM: your MicroScope account is now fully active. 
-The Microscope web interface URL is : https://www.genoscope.cns.fr/agc/microscope 
-Your login : **your_username** 
-Your password : **your_password **
-Please note that login data is confidential. You may not share your account with anyone, or allow anyone other than you personally to access or use your account. 
-Best regards, 
-LABGeM Team
+.. note:: Dear annotator,
+ 	This is an automated message from LABGeM: your MicroScope account is now fully active.
+ 	The Microscope web interface URL is : https://www.genoscope.cns.fr/agc/microscope
+ 	Your login : **your_username**.
+ 	Your password : **your_password **
+	Please note that login data is confidential. You may not share your account with anyone, or allow anyone other than you personally to access or use your account.
+ 	Best regards,
+ 	LABGeM Team
 
 Use this information in order to login into your account and get access to private sequences and annotation rights.
 
