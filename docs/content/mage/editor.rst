@@ -140,7 +140,7 @@ The search returns a list of MetaCyc reactions, with :
 
 And in some cases :
 
-*Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
+* Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
 	* “validated” : reaction has been manually linked to this gene by users.
 	* “annotated” : reaction has been linked to homologous gene and transferred here from a close genome.
 	* “predicted” : reaction has been linked to this gene by the pathway-tools algorithm.
