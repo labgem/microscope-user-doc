@@ -10,6 +10,6 @@ Technical Requirements
 * Supported Browsers: LABGeM team has tested the MicroScope platform with the following browsers:
 
 	* Firefox 4+ (all platforms) `http://www.mozilla-europe.org/fr/firefox/ <http://www.mozilla-europe.org/fr/firefox/>`_
-	* Internet Explorer 9.0+ (Windows) `www.microsoft.com/france/windows/internet-explorer/ <www.microsoft.com/france/windows/internet-explorer/>`_
+	* Internet Explorer 9.0+ (Windows) `www.microsoft.com/france/windows/internet-explorer/ <http://www.microsoft.com/france/windows/internet-explorer/>`_
 	* Google Chrome `http://www.google.com/chrome <http://www.google.com/chrome>`_ 
 	* Apple Safari 5.0+ (Mac OSX) `http://www.apple.com/fr/safari/ <http://www.apple.com/fr/safari/>`_ 
