@@ -2,6 +2,7 @@
 Interface
 #########
 
+
 ========
 Overview
 ========
@@ -13,6 +14,7 @@ Overview
 ===============
 Navigation Menu
 ===============
+
 
 How to use the Main Navigation Menu?
 ------------------------------------
@@ -51,6 +53,7 @@ By clicking on this button, you’ll be redirected to the MicroScope Tutorial. Y
 Browsing Result Tables 
 ======================
 
+
 How to sort results?
 --------------------
 
@@ -59,6 +62,7 @@ To sort results as you wish, simply click on the corresponding column header. Ea
 Also, the system provides a multi-sort functionality, to sort and switch on multiple columns. Simply hold your «**SHIFT**» key and click on column headers you want to multi-sort.
 
 .. image:: img/img3.png
+
 
 How to filter results?
 ----------------------
@@ -69,6 +73,7 @@ Enter some characters into this box in order to filter results: each row matchin
 
 .. image:: img/img4.png
 
+
 How to choose the number of results to display per page?
 --------------------------------------------------------
 
@@ -78,6 +83,7 @@ Values are: **10** (default), **25**, **50**, **100** or **All**.
 
 
 .. image:: img/img5.png
+
 
 How to export results?
 ----------------------
@@ -119,10 +125,11 @@ Old » New Interface
 
 The MicroScope interface changed on 3rd June 2010. Here are the tool correspondences between the old interface (developped and maintained between 2002 and May 2010) and the new one.
  
+ 
 What about the old *Viewer* interface ?
 ---------------------------------------
  
-.. image:: img/img8.png
+.. image:: img/img9.jpeg
  
 The corresponding tools are available by following this path in the **new interface**:
  
@@ -148,10 +155,11 @@ The corresponding tools are available by following this path in the **new interf
 | 11            | Options                     | **MaGe » Genome Browser Options** OR **User Panel » Display Preferences**                   |
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 
+
 What about the old *Genome Overview* interface?
 -----------------------------------------------
 
-.. image:: img/img8.png
+.. image:: img/img12.jpeg
 
 The corresponding tools are available by following this path in the **new interface**:
 
@@ -181,7 +189,7 @@ The corresponding tools are available by following this path in the **new interf
 What about the old *Explore* interface?
 ---------------------------------------
 
-.. image:: img/img9.png
+.. image:: img/img13.jpeg
 
 The corresponding tools are available by following this path in the **new interface**:
 
