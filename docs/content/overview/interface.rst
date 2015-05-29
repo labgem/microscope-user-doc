@@ -22,7 +22,7 @@ How to use the Main Navigation Menu?
 * **Item #1. Login Interface:** 
 Fill the *username* and *password* fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
 
-.. tip:: **Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
+.. tip:: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
 
 
 * **Item #2. Reference Sequence selection menu:** 
@@ -32,7 +32,7 @@ The popup interface will display all the Organisms for which you have, at least,
 
 The select menu below the *Change* button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
 
-.. note:: **Tip**: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
+.. tip:: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
 
 
 * **Item #3. Navigation Submenu:** 
@@ -104,7 +104,7 @@ How to print results?
 
 Clicking on the *Print* button will display only the result table within your current window, hiding all the others HTML elements. Then, use your browser’s menu bar to print the displayed table.
 
-.. note:: **Tip**: You can leave the «Print Mode» and go back to the original window by clicking your «**ESC (Escape)**» key.
+.. tip:: You can leave the «Print Mode» and go back to the original window by clicking your «**ESC (Escape)**» key.
 
 .. image:: img/img8.png
 
