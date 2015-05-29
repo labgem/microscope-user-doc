@@ -116,6 +116,7 @@ This will copy to clipboard the data below::
 	""	ACIAD0015	CDS	_	15927	17882	1956	+3	putative 5’-nucleotidase NucA precursor	2	validated/Curated	no	0.4105	0.3190	0.56	72006.38	5.32 
 	""	ACIADrRNA16S_1	rRNA	_	18416	19945	1530	+1	16S	_	validated/Curated	no	_	_	_	_	_
 	
+	
 * Using the *CSV* button will export your result table in a CSV file, fully compatible with spreadsheets like Microsoft Excel, or Open Office Calc
 
 .. image:: img/img7.png
