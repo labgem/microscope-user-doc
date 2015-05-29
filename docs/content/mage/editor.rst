@@ -186,7 +186,7 @@ The search returns a list of Rhea reactions, with :
 And in some cases :
 
 * Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
-	*“validated” : reaction has been manually linked to this gene by users.
+	* “validated” : reaction has been manually linked to this gene by users.
 	
 The “Reset” button deletes all results
 
