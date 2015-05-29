@@ -109,14 +109,14 @@ Clicking on the *Print* button will display only the result table within your cu
 .. image:: img/img8.png
 
 
-====================
- Old » New Interface
-====================
+===================
+Old » New Interface
+===================
 
  The MicroScope interface changed on 3rd June 2010. Here are the tool correspondences between the old interface (developped and maintained between 2002 and May 2010) and the new one.
  
- What about the old Viewer interface ?
- -------------------------------------
+What about the old Viewer interface ?
+-------------------------------------
  
  .. image:: img/img8.png
  
