@@ -90,7 +90,7 @@ How to export results?
 
 Each result table provides buttons called *Copy* and *CSV*.
 
-.. note:: WARNING: Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
+.. note:: **WARNING:** Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
 
 
 * Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format

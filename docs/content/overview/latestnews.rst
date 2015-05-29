@@ -8,7 +8,7 @@ How to be advised about MicroScope latest news?
 
 As soon as we release a new version of the Platform (new features, improvements), or if LABGeM team needs to communicate some general information about the platform, an article will be added in the «Latest News» panel, available from the **platform’s homepage**.
 
-.. image::img/img14.png
+.. image:: img/img14.png
 
 
 Is there «RSS Feeds»?
