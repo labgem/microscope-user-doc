@@ -26,7 +26,7 @@ Use this information in order to login into your account and get access to priva
 
 On the **Login Interface of the Navigation Menu** (item #1), near the *welcome guest* message,
 * fill the **username** field with **your_username**
-* fill the ●●●●●●● field with **your_password** .
+* fill the **password** field with **your_password** .
 * then click on the *LOGIN* button.
 
 **Tips:**
