@@ -66,6 +66,7 @@ How to filter results?
 Each result table provides a text area called «*Search*:» . 
 Enter some characters into this box in order to filter results: each row matching your keywords will be kept, whereas the others will be hidden dynamically.
 
+
 .. image:: img/img4.png
 
 How to choose the number of results to display per page?
@@ -74,6 +75,7 @@ How to choose the number of results to display per page?
 Each result table provides a select menu called «*Show X Results*». 
 Change the value to display the corresponding number of results per page. 
 Values are: **10** (default), **25**, **50**, **100** or **All**.
+
 
 .. image:: img/img5.png
 
@@ -86,6 +88,7 @@ Each result table provides buttons called *Copy* and *CSV*.
 
 
 * Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format
+
 
 .. image:: img/img6.png
 
@@ -106,6 +109,7 @@ Clicking on the *Print* button will display only the result table within your cu
 
 .. tip:: You can leave the «Print Mode» and go back to the original window by clicking your «**ESC (Escape)**» key.
 
+
 .. image:: img/img8.png
 
 
@@ -122,4 +126,24 @@ What about the old Viewer interface ?
  
  The corresponding tools are available by following this path in the **new interface**:
  
- 
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+|   ITEM #   |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
++============+=============================+=============================================================================================+
+| 2          | Export data                 | **Export » Download Data**                                                                  | 
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 3          | Artemis Region              | **MaGe » Genome Browser** ( Menu Bar below Synteny Maps )                                   |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 4          | Artemis All                 | **MaGe » Genome Browser** ( Menu Bar below Synteny Maps )                                   |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 5          | CGView                      | **Genomic Tools » Circular Genome Viewer**                                                  |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 6          | LinePlot                    | **Comparative Genomics » LinePlot**                                                         |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 7          | Kegg                        | **Metabolism » Kegg**                                                                       |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 8          | BioCyc                      | **Metabolism » MicroCyc**                                                                   |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 10         | Gene Cart                   | **User Panel » Gene Carts**                                                                 |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
+| 11         | Options                     | **MaGe » Genome Browser Options** OR **User Panel » Display Preferences**                   |
++------------+-----------------------------+---------------------------------------------------------------------------------------------+
