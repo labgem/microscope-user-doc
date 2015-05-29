@@ -20,17 +20,17 @@ How to use the Main Navigation Menu?
 .. image:: img/img2.png
 
 * **Item #1. Login Interface:** 
-Fill the username and password fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
+Fill the *username* and *password* fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
 
-.. note:: **Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
+.. tip:: **Tip**: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own «**Account & Right Management**» interface in order to open your account.
 
 
 * **Item #2. Reference Sequence selection menu:** 
-From this menu, you can select your Reference Genome/Replicon. Click on the Change button to open a popup organism selection interface, select your reference organism, then click on the Set Selection button. This action will reload the main webpage with the data corresponding to the Organism you selected as reference.
+From this menu, you can select your Reference Genome/Replicon. Click on the *Change* button to open a popup organism selection interface, select your reference organism, then click on the *Set Selection* button. This action will reload the main webpage with the data corresponding to the Organism you selected as reference.
 
-The popup interface will display all the Organisms for which you have, at least, Read rights. This corresponds to Public sequences + Account Restricted sequences.
+The popup interface will display all the Organisms for which you have, at least, *Read rights*. This corresponds to Public sequences + Account Restricted sequences.
 
-The select menu below the Change button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
+The select menu below the *Change* button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
 
 .. note:: **Tip**: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
 
@@ -63,7 +63,7 @@ Also, the system provides a multi-sort functionality, to sort and switch on mult
 How to filter results?
 ----------------------
 
-Each result table provides a text area called «Search:» . 
+Each result table provides a text area called «*Search*:» . 
 Enter some characters into this box in order to filter results: each row matching your keywords will be kept, whereas the others will be hidden dynamically.
 
 .. image:: img/img4.png
@@ -71,18 +71,18 @@ Enter some characters into this box in order to filter results: each row matchin
 How to choose the number of results to display per page?
 --------------------------------------------------------
 
-Each result table provides a select menu called «Show X Results». 
+Each result table provides a select menu called «*Show X Results*». 
 Change the value to display the corresponding number of results per page. 
-Values are: 10 (default), 25, 50, 100 or All.
+Values are: **10** (default), **25**, **50**, **100** or **All**.
 
 .. image:: img/img5.png
 
 How to export results?
 ----------------------
 
-Each result table provides buttons called Copy and CSV.
+Each result table provides buttons called *Copy* and *CSV*.
 
-.. note:: WARNING: Please note that these buttons need Adobe Flash Player to be installed on your browser to work properly.
+.. note:: WARNING: Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
 
 
 * Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format
@@ -92,21 +92,7 @@ Each result table provides buttons called Copy and CSV.
 This will copy to clipboard the data below:
 
 
-.. note:: Sequence	Label	Type	Gene	Begin	End	Length	Frame	Product	Matrix	Evidence	AMIGene Status	GC Content	GC3 Content	CAI	Mw (Da)	pI	History 
-""	ACIAD0001	CDS	dnaA	201	1598	1398	+3	Chromosomal replication initiator protein dnaA	2	validated/Curated	no	0.4385	0.3734	0.61	52440.64	8.15 
-""	ACIAD0002	CDS	dnaN	1834	2982	1149	+1	DNA polymerase III, beta chain	2	validated/Curated	no	0.4413	0.3708	0.58	42306.74	5.22 
-""	ACIAD0003	CDS	recF	2998	4074	1077	+1	DNA replication, recombinaison and repair protein	1	validated/Curated	no	0.4206	0.3760	0.57	41075.48	7.03 
-""	ACIAD0004	CDS	gyrB	4127	6595	2469	+2	DNA gyrase, subunit B (type II topoisomerase)	2	validated/Curated	no	0.4467	0.3900	0.63	91783.08	5.46 
-""	ACIAD0005	CDS	_	6712	6948	237	-2	conserved hypothetical protein	1	validated/Curated	no	0.4262	0.3797	0.70	8917.44	6.01 
-""	ACIAD0007	CDS	_	7336	9270	1935	-2	putative transport protein (ABC superfamily, atp_bind)	1	validated/Curated	no	0.4537	0.4047	0.62	72749.73	5.44 
-""	ACIAD0008	CDS	_	9651	10661	1011	+3	putative RND type efflux pump involved in aminoglycoside resistance (AdeT)	2	validated/Curated	no	0.4303	0.3472	0.68	36726.96	9.34 
-""	ACIAD0009	CDS	adeT	10910	11920	1011	+2	RND type efflux pump involved in aminoglycoside resistance	1	validated/Curated	no	0.4303	0.3858	0.56	37070.36	9.25 
-""	ACIAD0010	CDS	_	12039	12374	336	+3	putative chaperone involved in Fe-S cluster assembly and activation (HesB-like)	2	validated/Curated	no	0.4196	0.3304	0.58	11965.77	4.21 
-""	ACIAD0011	CDS	anmK	12436	13566	1131	-2	Anhydro-N-acetylmuramic acid kinase (AnhMurNAc kinase)	1	validated/Curated	no	0.4598	0.3581	0.59	41659.66	5.68 
-""	ACIAD0013	CDS	tyrS	13646	14860	1215	+2	tyrosyl-tRNA synthetase	1	validated/Curated	no	0.4535	0.4222	0.59	44849.26	5.35 
-""	ACIAD0014	CDS	_	15431	15685	255	+2	hypothetical protein	3	validated/Curated	no	0.3725	0.3412	0.70	10217.40	5.70 
-""	ACIAD0015	CDS	_	15927	17882	1956	+3	putative 5’-nucleotidase NucA precursor	2	validated/Curated	no	0.4105	0.3190	0.56	72006.38	5.32 
-""	ACIADrRNA16S_1	rRNA	_	18416	19945	1530	+1	16S	_	validated/Curated	no	_	_	_	_	_
+.. note:: Sequence	Label	Type	Gene	Begin	End	Length	Frame	Product	Matrix	Evidence	AMIGene Status	GC Content	GC3 Content	CAI	Mw (Da)	pI	History  ""	ACIAD0001	CDS	dnaA	201	1598	1398	+3	Chromosomal replication initiator protein dnaA	2	validated/Curated	no	0.4385	0.3734	0.61	52440.64	8.15 ""	ACIAD0002	CDS	dnaN	1834	2982	1149	+1	DNA polymerase III, beta chain	2	validated/Curated	no	0.4413	0.3708	0.58	42306.74	5.22 ""	ACIAD0003	CDS	recF	2998	4074	1077	+1	DNA replication, recombinaison and repair protein	1	validated/Curated	no	0.4206	0.3760	0.57	41075.48	7.03 ""	ACIAD0004	CDS	gyrB	4127	6595	2469	+2	DNA gyrase, subunit B (type II topoisomerase)	2	validated/Curated	no	0.4467	0.3900	0.63	91783.08	5.46 ""	ACIAD0005	CDS	_	6712	6948	237	-2	conserved hypothetical protein	1	validated/Curated	no	0.4262	0.3797	0.70	8917.44	6.01 ""	ACIAD0007	CDS	_	7336	9270	1935	-2	putative transport protein (ABC superfamily, atp_bind)	1	validated/Curated	no	0.4537	0.4047	0.62	72749.73	5.44 ""	ACIAD0008	CDS	_	9651	10661	1011	+3	putative RND type efflux pump involved in aminoglycoside resistance (AdeT)	2	validated/Curated	no	0.4303	0.3472	0.68	36726.96	9.34 ""	ACIAD0009	CDS	adeT	10910	11920	1011	+2	RND type efflux pump involved in aminoglycoside resistance	1	validated/Curated	no	0.4303	0.3858	0.56	37070.36	9.25 ""	ACIAD0010	CDS	_	12039	12374	336	+3	putative chaperone involved in Fe-S cluster assembly and activation (HesB-like)	2	validated/Curated	no	0.4196	0.3304	0.58	11965.77	4.21 ""	ACIAD0011	CDS	anmK	12436	13566	1131	-2	Anhydro-N-acetylmuramic acid kinase (AnhMurNAc kinase)	1	validated/Curated	no	0.4598	0.3581	0.59	41659.66	5.68 ""	ACIAD0013	CDS	tyrS	13646	14860	1215	+2	tyrosyl-tRNA synthetase	1	validated/Curated	no	0.4535	0.4222	0.59	44849.26	5.35 ""	ACIAD0014	CDS	_	15431	15685	255	+2	hypothetical protein	3	validated/Curated	no	0.3725	0.3412	0.70	10217.40	5.70 ""	ACIAD0015	CDS	_	15927	17882	1956	+3	putative 5’-nucleotidase NucA precursor	2	validated/Curated	no	0.4105	0.3190	0.56	72006.38	5.32 ""	ACIADrRNA16S_1	rRNA	_	18416	19945	1530	+1	16S	_	validated/Curated	no	_	_	_	_	_
 	
 * Using the *CSV* button will export your result table in a CSV file, fully compatible with spreadsheets like Microsoft Excel, or Open Office Calc
 
@@ -118,6 +104,22 @@ How to print results?
 
 Clicking on the *Print* button will display only the result table within your current window, hiding all the others HTML elements. Then, use your browser’s menu bar to print the displayed table.
 
-.. note::Tip: You can leave the «Print Mode» and go back to the original window by clicking your «ESC (Escape)» key.
+.. note:: **Tip**: You can leave the «Print Mode» and go back to the original window by clicking your «**ESC (Escape)**» key.
 
 .. image:: img/img8.png
+
+
+====================
+ Old » New Interface
+====================
+
+ The MicroScope interface changed on 3rd June 2010. Here are the tool correspondences between the old interface (developped and maintained between 2002 and May 2010) and the new one.
+ 
+ What about the old Viewer interface ?
+ -------------------------------------
+ 
+ .. image:: img/img8.png
+ 
+ The corresponding tools are available by following this path in the **new interface**:
+ 
+ 
