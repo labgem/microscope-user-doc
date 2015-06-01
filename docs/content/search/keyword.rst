@@ -17,14 +17,13 @@ How to read the interface?
 
 .. image:: img/key1.png
 
-
-	* **Item #1**. Dataset selection.
-	* **Item #2**. Fields selection.
-	* **Item #3**. optional Filters.
-	* **Item #4**. Gene Carts selection, for searching within their content. (optional)
-	* **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
-	* **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).
-	* **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
+* **Item #1**. Dataset selection.
+* **Item #2**. Fields selection.
+* **Item #3**. optional Filters.
+* **Item #4**. Gene Carts selection, for searching within their content. (optional)
+* **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
+* **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).
+* **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
 	
 * The Multiple Mode
 
