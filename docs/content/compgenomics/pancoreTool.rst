@@ -3,7 +3,7 @@ Pan/Core Genome
 ###############
 
 How to access to the pan/core-genome analysis tool?
---------------------------------------------------
+---------------------------------------------------
 
 Pan/core-Genome tool is accessible in the **Comparative Genomics** section of the main navigation menu.
 

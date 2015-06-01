@@ -26,8 +26,8 @@ How to read the interface?
 * **item C**: organism list of RefSeq Organisms (you can chose one or several organism(s)).
 * **item D**: Percentage of genes conserved in synteny with the query genome.
 * **item E**:compositional results availability :
-green : Alien Hunter (IVOM) or SIGI-HMM results are available for the query genome.
-red : Alien Hunter (IVOM) or SIGI-HMM results are not available for the query genome.
+	* **green** : Alien Hunter (IVOM) or SIGI-HMM results are available for the query genome.
+	* **red** : Alien Hunter (IVOM) or SIGI-HMM results are not available for the query genome.
 * **item F**: When one or several organism(s) of PkGDB and/or RefSeq have been chosen click here to launch the comparison.
 
 .. tip:: Try to choose related organisms to avoid too much rearrangements from distant species (use item D). The predicted regions depends of the selected organisms for comparison. If you select phylogenic unrelated organisms in term of synteny the predicted regions will then not only belong to flexible gene pool (HGT) but from taxon specific regions.
