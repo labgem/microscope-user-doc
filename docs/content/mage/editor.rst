@@ -673,3 +673,217 @@ More than 99% of the protein sequences provided by UniProtKB are derived from th
 **More**: http://www.uniprot.org/
 
 **Reference**: `UniProt Consortium. The Universal Protein Resource (UniProt) in 2010. Nucleic Acids Res. 2010 Jan;38(Database issue):D142-8 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
+
+
+
+=====
+PRIAM
+=====
+
+What is PRIAM?
+--------------
+
+PRIAM is a method for automated enzyme detection in a fully sequenced genome, based on all sequences available in the ENZYME database (http://www.expasy.ch/enzyme/). PRIAM relies on sets of position-specific score matrices (PSSMs) automatically tailored for each ENZYME entry. The whole Swiss-Prot database has been used to parametrise and to assess the method.
+
+**More**: http://priam.prabi.fr/
+
+**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_ 
+
+
+How to read PRIAM EC number results?
+------------------------------------
+
+.. image:: img/priam.png
+
+* **EC_id**: EC number
+* **Evidence**: gives the confidence level associated to the match. It can be:
+	* **high**: the match between the PRIAM profile and the sequence is very good (low Evalue and full alignment).
+	* **medium**: there is only a partial alignment between the PRIAM profile and the sequence
+	* **low**: there are better results with other PRIAM profiles matching to the sequence
+* **profil**: reference number of the PRIAM profile that matches to the sequence.
+* **lengthprof**: Length of the PRIAM profile
+* **Eval**: Evalue of the match
+* **Ident**: Identity of the match
+* **begin**: first position of the alignment
+* **end**: last position of the alignment
+* **lmatch**: length of the alignment between the sequence and the profile
+* **de**: enzyme description
+* **an**: alternative name
+* **ca**: description of the reaction catalysed
+* **cf**: cofactor needed for the reaction, if any
+* **cc**: some comments about the enzymatic activity
+
+
+
+==========================
+Predicted MetaCyc Pathways
+==========================
+
+What are MetaCyc Pathways?
+--------------------------
+
+MetaCyc pathways are metabolic networks as define in the MetaCyc Database.
+
+`Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_ 
+
+The presence or absence of a MetaCyc metabolic pathway is predicted by the Pathway-tools algorithm in this organism.
+
+`P. Karp, S. Paley, and P. Romero "The Pathway Tools Software," Bioinformatics 18:S225-32 2002 <http://www.ncbi.nlm.nih.gov/pubmed/12169551>`_
+
+
+How to read this results?
+-------------------------
+
+All pathways listed in this table are those predicted as present in this organism. Clicking on the name of a pathway opens its table of reactions content.
+
+.. image:: img/metacyc.png
+
+
+
+========
+COGnitor
+========
+
+What is COGnitor?
+-----------------
+
+COGnitor compares a sequence to the COG database by using BLASTP. Clusters of Orthologous Groups of proteins (COGs) were established by comparing protein sequences encoded in complete genomes, representing major phylogenetic lineages. Each COG consists of individual proteins or groups of paralogs from at least 3 lineages and thus corresponds to an ancient conserved domain.
+
+**More**: http://www.ncbi.nlm.nih.gov/COG/
+
+**Reference**:
+
+`Tatusov RL, Koonin EV, Lipman DJ. A genomic perspective on protein families. Science. 1997 Oct 24;278(5338):631-7. <http://www.ncbi.nlm.nih.gov/pubmed/9381173>`_
+
+How to read COGnitor results?
+-----------------------------
+
+The first column indicates the identifier of the COG family the protein is similar to. If you click on the identifier, a new window will pop-up, presenting the COG’s description page on the NCBI website. The second column gives the similarity score and the third and fourth columns give the amino acid positions between which the proteins align. The last 2 columns indicate the general class to which the COG belongs and the function describing the COG family
+
+.. tip:: A protein is classified in a COG if it has at least 3 Best Hits with proteins classified in the same COG and being members of 3 different clades. A protein can thus be classified in more than one COG.
+
+
+
+======
+FigFam
+======
+
+Coming soon...
+
+
+
+======
+PsortB
+======
+
+What is PsortB?
+---------------
+
+PsortB is an open-source tool for protein sub-cellular localization prediction in bacteria.
+
+**More**: http://www.psort.org/
+
+**Reference**: `Gardy JL et al (2005) PSORTb v.2.0: expanded prediction of bacterial protein subcellular localization and insights gained from comparative proteome analysis. Bioinformatics. Mar1;21(5):617-23. Epub 2004 Oct 22. <http://www.ncbi.nlm.nih.gov/pubmed/15501914>`_ 
+
+How to read PsortB results?
+---------------------------
+
+* The first column indicates the Localization predicted by PsortB.
+* The second column gives the score. The score typically varies between 2 and 10.
+* The third column indicates which option has been used for the genome: Gram positive (+) or Gram negative(-) bacteria.
+
+
+
+============
+InterProScan
+============
+
+What is InterPro?
+-----------------
+
+InterPro is an integrated database of predictive protein "signatures" used for the classification and automatic annotation of proteins and genomes. InterPro classifies sequences at superfamily, family and subfamily levels, predicting the occurrence of functional domains, repeats and important sites. InterPro adds in-depth annotation, including GO terms, to the protein signatures.
+
+More: http://www.ebi.ac.uk/interpro/
+
+Reference: `Hunter S, et al. InterPro: the integrative protein signature database. Nucleic Acids Res. 2009 Jan;37(Database issue):D211-5. Epub 2008 Oct 21. <http://www.ncbi.nlm.nih.gov/pubmed/18940856>`_
+
+Which databases are used in InterPro?
+-------------------------------------
+
+InterPro combines a number of databases (referred to as member databases) that use different methodologies and a varying degree of biological information on well-characterised proteins to derive protein signatures. By uniting the member databases, InterPro capitalises on their individual strengths, producing a powerful integrated database and diagnostic tool (InterProScan).
+
+The member databases use a number of approaches:
+
+* **ProDom**: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
+* **PROSITE patterns**: provider of simple regular expressions.
+* **PROSITE** and **HAMAP profiles**: provide sequence matrices.
+* **PRINTS** provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
+* **PANTHER, PIRSF, Pfam, SMART, TIGRFAMs, Gene3D** and **SUPERFAMILY**: providers of hidden Markov models (HMMs).
+
+Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. HAMAP profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
+
+How to read InterProScan results
+--------------------------------
+
+* **IP id**: Identifier of the InterPro family. Click on it to access to the full description of the InterPro entry.
+* **Method**: Method used in obtaining the result. It corresponds to one of the member databases.
+* **Method id**: Identifier of the member database family that generated the result. Click on it to access to the full description of the family.
+* **Method description**: Generic name associated with the InterPro family description
+* **Begin**: Begin of the match on the sequence
+* **End**: End of the match on the sequence
+* **Eval**: E value
+* **IP description**: Description of the InterPro family
+* **IP GO**: Gene Ontology terms associated with the InterPro family
+
+
+
+========
+SignalIP
+========
+
+What is SignalP ?
+-----------------
+
+SignalP predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms: Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. The method incorporates a prediction of cleavage sites and a signal peptide/non-signal peptide prediction based on a combination of several artificial neural networks and hidden Markov models.
+
+Reference:
+
+`Improved prediction of signal peptides: SignalP 3.0. Jannick Dyrløv Bendtsen, Henrik Nielsen, Gunnar von Heijne and Søren Brunak. J. Mol. Biol., 340:783-795, 2004. <http://www.ncbi.nlm.nih.gov/pubmed/15223320>`_
+
+
+How to read SignalP results
+---------------------------
+
+* The first column indicates the type of bacteria (Gram positive or Gram negative).
+* The second column gives the estimated probability (number between 0 and 1) that the sequence contains a signal peptide.
+* The last 2 columns indicate the positions between which the cleavage is supposed to occur.
+
+.. tip:: A signal peptide has a average size of 30 aa.
+
+
+
+=====
+TMhmm
+=====
+
+What is TMhmm?
+--------------
+
+TMHMM is a program for the prediction of transmembrane helices based on a hidden Markov model. The program reads a fasta-formatted protein sequence and predicts locations of transmembrane, intracellular and extracellular regions.
+
+**More**: http://www.cbs.dtu.dk/services/TMHMM/
+
+**References**:
+
+`Sonnhammer, E., et al. (1998) A hidden Markov model for predicting transmembrane helices in protein sequences. Proc. ISMB, 6, 175-182. <http://www.ncbi.nlm.nih.gov/pubmed/9783223>`_
+
+`Krogh, A., et al. (2001) Prediction transmembrane protein topology with a hidden markov model: application to complete genomes. J. Mol. Biol., 305, 567-580 <http://www.ncbi.nlm.nih.gov/pubmed/11152613>`_
+
+
+How to read TMhmm results
+-------------------------
+
+The table of results indicates the begin and end positions of detected alpha-helices for the protein sequence. It also gives the location (inside/outside) of the fragments in between the helices.
+
+.. tip:: As protein can be called « membranar » if it contains more than 3 alpha-helices.
+
