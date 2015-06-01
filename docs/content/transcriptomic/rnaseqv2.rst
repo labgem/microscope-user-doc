@@ -69,8 +69,7 @@ This tool evaluates the difference in expression level of genes for two experime
 * **1**. Choose an oraganism and one or several reference sequences.
 * **2**. If several choices are available, you can choose the mapping strategy.
 * **3**. If several choices are available, you can choose the experimental protocol.
-* **4**. The *p-value adjusted* (padj) column contains the p-values, adjusted for multiple testing with the Benjamini-Hochberg procedure (see the standard R function p.adjust), which controls false *discovery rate* (FDR) . It’s possible to restrict the result for the ones which are under a fixed FDR cut-off. 
-*Example : A FDR adjusted p-value (or q-value) of 0.05 implies that 5% of significant tests will result in false positives.*
+* **4**. The *p-value adjusted* (padj) column contains the p-values, adjusted for multiple testing with the Benjamini-Hochberg procedure (see the standard R function p.adjust), which controls false *discovery rate* (FDR) . It’s possible to restrict the result for the ones which are under a fixed FDR cut-off. *Example : A FDR adjusted p-value (or q-value) of 0.05 implies that 5% of significant tests will result in false positives.*
 * **5**. Select at least one B condition to compare to A condition (which will be used as reference).
 * **6**. Graphical Option :
 

@@ -90,8 +90,7 @@ This tool evaluates the difference in expression level of genes for two experime
 
 * **1**. Choose one or several reference sequences.
 * **2**. Select at least one B condition to compare to A condition (which will be used as reference).
-* **3**. The *p-value adjusted* (padj) column contains the p-values, adjusted for multiple testing with the Benjamini-Hochberg procedure (see the standard R function p.adjust), which controls *false discovery rate* (FDR) . It’s possible to restrict the result for the ones which are under a fixed FDR cut-off. 
-*Example : A FDR adjusted p-value (or q-value) of 0.05 implies that 5% of significant tests will result in false positives.*
+* **3**. The *p-value adjusted* (padj) column contains the p-values, adjusted for multiple testing with the Benjamini-Hochberg procedure (see the standard R function p.adjust), which controls *false discovery rate* (FDR) . It’s possible to restrict the result for the ones which are under a fixed FDR cut-off.  *Example : A FDR adjusted p-value (or q-value) of 0.05 implies that 5% of significant tests will result in false positives.*
 * **4**. Choose to have all the fields of the result table or a light version. The fields will be fully described in the next section.
 * **5**. If several B conditions are chosen, the fixed FDR cut-off can be fixed in all comparisons or in at least one comparisons for each gene.
 * **6**. Submit query.
