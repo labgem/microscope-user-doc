@@ -36,38 +36,39 @@ How the analysis is computed?
 
 - **MICFAM: MicroScope gene families**
 
-* **Clustering algorithm** : 
-	This tool is based on MicroScope gene families (MICFAM) which are computed using an algorithm implemented in the SiLiX software (http://lbbe.univ-lyon1.fr/-SiLiX-.html ): a single linkage clustering algorithm of homologous genes sharing an amino-acid alignment coverage and identity above a defined threshold. 
+	* **Clustering algorithm** : 
+	
+		This tool is based on MicroScope gene families (MICFAM) which are computed using an algorithm implemented in the SiLiX software (http://lbbe.univ-lyon1.fr/-SiLiX-.html ): a single linkage clustering algorithm of homologous genes sharing an amino-acid alignment coverage and identity above a defined threshold. 
 
-This algorithm operates on the “*The friends of my friends are my friends*” principle by comparing genes together. If two genes are homologous, they are clustered. Moreover, if one of this gene is already clustered with another one, these three genes are clustered into the same MICFAM. 
+		This algorithm operates on the “*The friends of my friends are my friends*” principle by comparing genes together. If two genes are homologous, they are clustered. Moreover, if one of this gene is already clustered with another one, these three genes are clustered into the same MICFAM. 
 
-Reference: `Miele V, Penel S, Duret L. Ultra-fast sequence clustering from similarity networks with SiLiX. BMC Bioinformatics. 2011 Apr 22;12:116. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3095554/>`_
+		Reference: `Miele V, Penel S, Duret L. Ultra-fast sequence clustering from similarity networks with SiLiX. BMC Bioinformatics. 2011 Apr 22;12:116. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3095554/>`_
 
-* **MICFAM parameters**: 
+	* **MICFAM parameters**: 
 	Two sets of alignment constraints are defined to compute the MICFAM families :
-	* **80/80**: 80% amino-acid identity, 80% amino-acid alignment coverage (stringent parameter)
-	* **50/80**: 50% amino-acid identity, 80% amino-acid alignment coverage (permissive parameter)
+	
+		* **80/80**: 80% amino-acid identity, 80% amino-acid alignment coverage (stringent parameter)
+		* **50/80**: 50% amino-acid identity, 80% amino-acid alignment coverage (permissive parameter)
 
 
 - **Pan-genome analysis method**
 
-* The pan-genome analysis is computed using these **MICFAM**:
-	* If a MICFAM is associated with at least one gene from every compared genomes: this MICFAM is a part of the **core-genome**.
-	* If a MICFAM is associated with [1;n[ compared genomes : It is a part of the variable-genome.
-	* If a gene is not clustered in a MICFAM, it is a **singleton** and is a part of the variable-genome.
-	* And the pan-genome represents the core-genome and variable-genome sum.
+	* The pan-genome analysis is computed using these **MICFAM**:
+		* If a MICFAM is associated with at least one gene from every compared genomes: this MICFAM is a part of the **core-genome**.
+		* If a MICFAM is associated with [1;n[ compared genomes : It is a part of the variable-genome.
+		* If a gene is not clustered in a MICFAM, it is a **singleton** and is a part of the variable-genome.
+		* And the pan-genome represents the core-genome and variable-genome sum.
 	
-* **Counting methods**: 
+	* **Counting methods**: 
 	For the family count, the MICFAM weight is 1. 
 	For the gene count, the MICFAM weight is the number of genes of the analyzed organisms clustered in this MICFAM. 
 	For singletons, the weight is 1 in every case.
 
-* **Artefact families**: 
+	* **Artefact families**: 
 	CDS flagged as artefacts are not taking into account in the computation. Moreover, if an artefact CDS is a member of a MICFAM, the artefact information is propagated in the whole MICFAM (tagged as "artefact family"). Thus, this MICFAM is not considered for the analysis.
 
-* **Exclusion of another pan/core/variable-genome**: 
-	In the case of exclusion, gene families of the excluded component (pan/core/variable-genome of an excluded set) are compared with families computed from analyzed organisms. Common gene families are removed of the analysis. 
-Some singletons can also be removed if some excluded organisms are in the analyzed set too (with exclusion of their pan-genome or variable-genome).
+	* **Exclusion of another pan/core/variable-genome**: 
+	In the case of exclusion, gene families of the excluded component (pan/core/variable-genome of an excluded set) are compared with families computed from analyzed organisms. Common gene families are removed of the analysis. Some singletons can also be removed if some excluded organisms are in the analyzed set too (with exclusion of their pan-genome or variable-genome).
 
 
 How to perform a pan-genome analysis?
@@ -106,29 +107,29 @@ After the analysis submission, a result page is provided:
 		
 5) The “**Gene annotations and export**” module allows the users to download annotations of core-genome, variable-genome and strain specific genes in a tabulated file. There is 23 columns to describe each feature:
 
-	* MICFAM_Id: MicroScope gene family identifier. Singletons are identified with a “singl” tag in this column.
-	* NbOrganismsFAM: number of organisms linked to the family. For core-genome and strain specific files, this value is constant (respectively : n and 1). For the variable-genome file, this value ranges from 1 to (n-1). (with n = the number of included organism).
-	* Organism: organism name / strain
-	* GO_id: CDS identifier
-	* Label: CDS locus tag
-	* Type: CDS or fCDS
-	* Evidence: source of the annotation and its status
-	* Gene: name of the gene
-	* Product: biological product
-	* ECnumber: Enzymatic Commission number (for enzymes only)
-	* Mutation: mutation type
-	* ProductType: classification according to the type of biological product
-	* Localization: classification according to the cellular localization of the * protein
-	* Roles: classification according to the biological role
-	* BioProcess: another classification according to the biological role
-	* PubmedID: related publication(s) about the CDS (PMID)
-	* AmigeneStatus: no/COMMON/Wrong/New
-	* Class: annotation confidence level
-	* CreationDate: date of last modification of the annotation
-	* Frame: CDS reading frame
-	* Begin: sequence begin position
-	* End: sequence end position
-	* Length: length of the CDS.
+	* *MICFAM_Id*: MicroScope gene family identifier. Singletons are identified with a “singl” tag in this column.
+	* *NbOrganismsFAM*: number of organisms linked to the family. For core-genome and strain specific files, this value is constant (respectively : n and 1). For the variable-genome file, this value ranges from 1 to (n-1). (with n = the number of included organism).
+	* *Organism*: organism name / strain
+	* *GO_id*: CDS identifier
+	* *Label*: CDS locus tag
+	* *Type*: CDS or fCDS
+	* *Evidence*: source of the annotation and its status
+	* *Gene*: name of the gene
+	* *Product*: biological product
+	* *ECnumber*: Enzymatic Commission number (for enzymes only)
+	* *Mutation*: mutation type
+	* *ProductType*: classification according to the type of biological product
+	* *Localization*: classification according to the cellular localization of the * protein
+	* *Roles*: classification according to the biological role
+	* *BioProcess*: another classification according to the biological role
+	* *PubmedID*: related publication(s) about the CDS (PMID)
+	* *AmigeneStatus*: no/COMMON/Wrong/New
+	* *Class*: annotation confidence level
+	* *CreationDate*: date of last modification of the annotation
+	* *Frame*: CDS reading frame
+	* *Begin*: sequence begin position
+	* *End*: sequence end position
+	* *Length*: length of the CDS.
 
 It also allows the users to export these genes in gene carts (availables in the **User Panel** section).
 
@@ -140,17 +141,17 @@ The analysis page provides a table of gene count for each organism, with 11 colu
 
 .. image:: img/pancore4.png
 
-* Organism: organism name and strain
-* CDS: Total number of genes in the organism (CDS+fCDS)
-* CDS without artefact fam.: Total number of genes used for the analysis. Genes members of artefact families are excluded.
-* Pan CDS: (Core CDS + Var CDS) = (CDS without artefacts - homologous CDS with excluded organisms)
-* Core CDS: CDS number in the core-genome component
-* Var CDS: CDS number in the variable-genome component
-* Strain specific CDS: CDS number in the variable-genome component specific to this strain only.
-* Core CDS (%): Core CDS percentage
-* Var CDS (%): Var CDS percentage
-* Strain spe. CDS (%): Strain specific CDS percentage
-* Excluded CDS (%): Percentage of excluded CDS (in exclusion case)
+* *Organism*: organism name and strain
+* *CDS*: Total number of genes in the organism (CDS+fCDS)
+* *CDS without artefact fam.*: Total number of genes used for the analysis. Genes members of artefact families are excluded.
+* *Pan CDS*: (Core CDS + Var CDS) = (CDS without artefacts - homologous CDS with excluded organisms)
+* *Core CDS*: CDS number in the core-genome component
+* *Var CDS*: CDS number in the variable-genome component
+* *Strain specific CDS*: CDS number in the variable-genome component specific to this strain only.
+* *Core CDS (%)*: Core CDS percentage
+* *Var CDS (%)*: Var CDS percentage
+* *Strain spe. CDS (%)*: Strain specific CDS percentage
+* *Excluded CDS (%)*: Percentage of excluded CDS (in exclusion case)
 
 
 How about figures?

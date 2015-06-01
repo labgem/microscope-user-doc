@@ -22,12 +22,18 @@ How to read the interface?
 .. image:: img/island1.png
 
 * **item A**: Use the «Change» button to set the reference genome that will be used for the comparison. The current reference genome is displayed as a subtitle at the top of the window.
+
 * **item B**: organism list of our database PkGDB (you can chose one or several organism(s)).
+
 * **item C**: organism list of RefSeq Organisms (you can chose one or several organism(s)).
+
 * **item D**: Percentage of genes conserved in synteny with the query genome.
-* **item E**:compositional results availability :
+
+* **item E**: compositional results availability :
+
 	* **green** : Alien Hunter (IVOM) or SIGI-HMM results are available for the query genome.
 	* **red** : Alien Hunter (IVOM) or SIGI-HMM results are not available for the query genome.
+	
 * **item F**: When one or several organism(s) of PkGDB and/or RefSeq have been chosen click here to launch the comparison.
 
 .. tip:: Try to choose related organisms to avoid too much rearrangements from distant species (use item D). The predicted regions depends of the selected organisms for comparison. If you select phylogenic unrelated organisms in term of synteny the predicted regions will then not only belong to flexible gene pool (HGT) but from taxon specific regions.
@@ -43,6 +49,7 @@ Results : circular view
 * **item B**: number of predicted RGP.
 
 * **item C**: navigation panel.
+
 	* **New analysis**: return to the main page of the tool.
 	* **Compared Organisms details**: display table with compared organisms name.
 	* **RGP Region Prediction table**: move to predicted RGP table.
@@ -50,6 +57,7 @@ Results : circular view
 	* **Predicted IVOM Regions table**: display Alien Hunter/IVOM regions table.
 	
 * item D: Circular view legend.
+
 	* **pink**: tRNA positions.
 	* **black**: predicted RGPs. Note that the RGP posititions are the extension of the comparisons between the suery sequence and all the compared organisms.
 	* **purple**: SIGI-HMM results.
@@ -63,6 +71,7 @@ Results : RGP description
 .. image:: img/island3.png
 
 * **item A**: RGP prediction table.
+
 	* **MoveTo**: display MaGe viewer centered on selected RGP region.
 	* **Label**: predicted RGP label (link to exploration page of the selected RGP region).
 	* **Begin**: RGP begin position.
@@ -73,6 +82,7 @@ Results : RGP description
 	* **Specificity Percentage** (one column by compared organism): % CDS in RGP not involved in a synteny. (algorithm allowed blocks of 2 consecutives genes in synteny inside RGPs).
 	
 * **item B** : overlapping SIGI and IVOM table on 50% of the smallest region = SIGIVOM regions.
+
 	* **MoveTo**: display MaGe viewer centered on selected SIGIVOM region.
 	* **Label**: predicted SIGIVOM label (link to explore selected SIGIVOM region).
 	* **Begin**: SIGIVOM begin position.
@@ -98,6 +108,7 @@ clicking on a region label (RGP or SIGIVOM region) diplay informations of the se
 * **item C**: color Intensity Balance in correlation with similarity results. Modify minLrap, maxLrap or identity % to view gene correspondences in compared organisms.
 
 * **item D**: region table : Each line in the table represents information about a gene. White background represents genes before and after the region (four genes at each side of the region).
+
 	* **MoveTo**: display MaGe viewer centered on selected gene.
 	* **Label**: gene label.
 	* **Begin**: gene begin position.
@@ -111,6 +122,7 @@ clicking on a region label (RGP or SIGIVOM region) diplay informations of the se
 	* **IVOM**: purple if gene belongs to an IVOM region.
 	* **Codon_Adaptation_index**: CAI of the gene.
 	* **Gene correspondance** (one column by compared organism): gene similarity correspondance with genes in compared organisms.
+	
 		* **red**: no similarity above the identity define in ’item 1’
 		* **red with mentionned ’no corresp’**: no similarity at all.
 		* **green**: similar gene in the compared genome abvce cut-off value (define in ’item 1’).

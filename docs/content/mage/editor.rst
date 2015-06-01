@@ -141,6 +141,7 @@ The search returns a list of MetaCyc reactions, with :
 And in some cases :
 
 * Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
+
 	* “validated” : reaction has been manually linked to this gene by users.
 	* “annotated” : reaction has been linked to homologous gene and transferred here from a close genome.
 	* “predicted” : reaction has been linked to this gene by the pathway-tools algorithm.
@@ -186,6 +187,7 @@ The search returns a list of Rhea reactions, with :
 And in some cases :
 
 * Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
+
 	* “validated” : reaction has been manually linked to this gene by users.
 	
 The “Reset” button deletes all results
@@ -305,121 +307,121 @@ Considering the Class field, here are some basic annotation rules:
 1 a/b/c: Function experimentally demonstrated in the studied organism/species/genus
 -----------------------------------------------------------------------------------
 
-Gene [optional]
-Synonyms [optional]
-Product **[mandatory]**
-EC number [optional]
-MetaCyc Reaction [optional]
-PubMedId **[mandatory]**
-ProductType **[mandatory]**
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [optional]
+* Synonyms [optional]
+* Product **[mandatory]**
+* EC number [optional]
+* MetaCyc Reaction [optional]
+* PubMedId **[mandatory]**
+* ProductType **[mandatory]**
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 2a : Function of homologous gene experimentally demonstrated in an other organism
 ---------------------------------------------------------------------------------
 
-Gene [optional]
-Synomyms [optional]
-Product **[mandatory]**
-EC number [optional]
-MetaCyc Reaction [optional]
-PubMedId **[mandatory]**
-ProductType **[mandatory]**
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [optional]
+* Synomyms [optional]
+* Product **[mandatory]**
+* EC number [optional]
+* MetaCyc Reaction [optional]
+* PubMedId **[mandatory]**
+* ProductType **[mandatory]**
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 2b : Function of strongly homologous gene
 -----------------------------------------
 
-Gene [optional]
-Synonyms [optional]
-Product **[mandatory]**
-EC number [optional]
-MetaCyc Reaction [optional]
-PubMedId [optional]
-ProductType **[mandatory]**
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [optional]
+* Synonyms [optional]
+* Product **[mandatory]**
+* EC number [optional]
+* MetaCyc Reaction [optional]
+* PubMedId [optional]
+* ProductType **[mandatory]**
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology
 -------------------------------------------------------------------------------------------------------------
 
-Gene [not allowed]
-Synonyms [not allowed]
-Product **[mandatory]**: putative function
-EC number [optional]
-MetaCyc Reaction [optional]
-PubMedId [optional]
-ProductType **[mandatory]**: putative function
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [not allowed]
+* Synonyms [not allowed]
+* Product **[mandatory]**: putative function
+* EC number [optional]
+* MetaCyc Reaction [optional]
+* PubMedId [optional]
+* ProductType **[mandatory]**: putative function
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 4 : Homologs of previously reported genes of unknown function
 -------------------------------------------------------------
 
-Gene [not allowed]
-Synonyms [not allowed]
-Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
-EC number [not allowed]
-MetaCyc Reaction [optional]
-PubMedId [optional]
-ProductType **[mandatory]**: unknown
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [not allowed]
+* Synonyms [not allowed]
+* Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
+* EC number [not allowed]
+* MetaCyc Reaction [optional]
+* PubMedId [optional]
+* ProductType **[mandatory]**: unknown
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 5 : No homology to any previously reported sequences
 ----------------------------------------------------
 
-Gene [not allowed]
-Synonyms [not allowed]
-Product **[mandatory]**: (exported/membrane) protein of unknown function
-EC number [not allowed]
-MetaCyc Reaction [optional]
-PubMedId [optional]
-ProductType **[mandatory]**: unknown
-Localization [optional]
-BioProcess [optional]
-Roles [optional]
+* Gene [not allowed]
+* Synonyms [not allowed]
+* Product **[mandatory]**: (exported/membrane) protein of unknown function
+* EC number [not allowed]
+* MetaCyc Reaction [optional]
+* PubMedId [optional]
+* ProductType **[mandatory]**: unknown
+* Localization [optional]
+* BioProcess [optional]
+* Roles [optional]
 
 
 6 : Doubtful CDS
 ----------------
 
-Gene [not allowed]
-Synonyms [not allowed]
-Product **[mandatory]** : protein of unknown function
-EC number [not allowed]
-MetaCyc Reaction [not allowed]
-PubMedId [optional]
-ProductType **[mandatory]**: unknown
-Localization [not allowed]
-BioProcess [not allowed]
-Roles [not allowed]
+* Gene [not allowed]
+* Synonyms [not allowed]
+* Product **[mandatory]** : protein of unknown function
+* EC number [not allowed]
+* MetaCyc Reaction [not allowed]
+* PubMedId [optional]
+* ProductType **[mandatory]**: unknown
+* Localization [not allowed]
+* BioProcess [not allowed]
+* Roles [not allowed]
 
 
 7 : Gene remnant
 ----------------
 
-Gene [not allowed]
-Synonyms [not allowed]
-Product **[mandatory]**: protein name (fragment)
-EC number [not allowed]
-MetaCyc Reaction [not allowed]
-PubMedId [optional]
-ProductType **[mandatory]**: unknown
-Localization [not allowed]
-BioProcess [not allowed]
-Roles [not allowed]
+* Gene [not allowed]
+* Synonyms [not allowed]
+* Product **[mandatory]**: protein name (fragment)
+* EC number [not allowed]
+* MetaCyc Reaction [not allowed]
+* PubMedId [optional]
+* ProductType **[mandatory]**: unknown
+* Localization [not allowed]
+* BioProcess [not allowed]
+* Roles [not allowed]
 
 
 =============
@@ -569,10 +571,10 @@ How to read the result table?
 * **Eval**: E value of the BLAST result
 * **OrderQ**: see BLAST results
 * **OrderB**: see BLAST results
-* **Roles**: Funtional categories associated with the protein using the Roles functional classification
-* *ECnumber**: EC number associated with the protein, if any
+* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
+* **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
-* **BioProcess**: Funtional categories associated with the protein using the BioProcess functional classification
+* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
 * **Product type**: Description of the product type of the protein
 * **PubMedId**: References linked to the annotation of the protein
 * **Class**: Confidence class of the annotation
