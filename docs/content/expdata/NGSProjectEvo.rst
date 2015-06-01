@@ -28,15 +28,15 @@ For each reported mutation, a **score**, which is meant to indicate the confiden
 
 .. image:: img/evo2.png
 
-	Local-coverage : Number of reads containing the new base with a high quality.
-	Total-coverage : Total number of reads containing the new base.
+* Local-coverage : Number of reads containing the new base with a high quality.
+* Total-coverage : Total number of reads containing the new base.
 
 indel_score=
 
 .. image:: img/evo3.png
 
-	Local-coverage : Number of reads containing the indel.
-	Total-coverage : Total number of reads mapping the mutated position.
+* Local-coverage : Number of reads containing the indel.
+* Total-coverage : Total number of reads mapping the mutated position.
 
 
 ====================
@@ -94,8 +94,7 @@ You have one table of results for each reference sequence selected. Each result 
 
 **B**. In the right part of the table, **mutations are described according to the displayed characteristics chosen by you and allocated to the clones they belong to**.
 
-	* Whatever the displayed characteristics chosen, you will have access to a full mutation description if you mouseover a mutation: 
-Mutation type | [SNP type] | Nuc. change | [Nuc. change effect] | [Codon change] | [AA change] | [AA change effect] | Numerical score | Fractional score | Sequencing technology | Read type | Source 
+	* Whatever the displayed characteristics chosen, you will have access to a full mutation description if you mouseover a mutation: Mutation type | [SNP type] | Nuc. change | [Nuc. change effect] | [Codon change] | [AA change] | [AA change effect] | Numerical score | Fractional score | Sequencing technology | Read type | Source 
 Fields in brackets are specified for SNP events only.
 
 		* *Mutation type*: ’SNP’, ’insertion’ or ’deletion’.
