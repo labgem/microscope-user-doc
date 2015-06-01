@@ -6,8 +6,8 @@ Gene annotation editor
 Overview of the annotation editor  
 =================================
 
-How to access to the Gene Annotation Editor ?
----------------------------------------------
+How to access to the Gene Annotation Editor?
+--------------------------------------------
 
 There are two ways of accessing the Gene Annotation Editor:
 
@@ -28,8 +28,8 @@ The Gene Annotation Editor window is made of 4 sections:
 * the **Method results** section. This section gives an access to the results obtained by the different tools used for the syntactic and functional annotation process.
 
 
-How to use the Gene Annotation Editor toolbar ?
------------------------------------------------
+How to use the Gene Annotation Editor toolbar?
+----------------------------------------------
 
 .. image:: img/editor1.png
 
@@ -47,8 +47,8 @@ It contains several buttons allowing access to different functionalities:
 * **BioCyc**: this functionality opens a new window showing information related to the genomic object in the BioCyc database
 
 
-How to fill the Gene Annotation form ?
---------------------------------------
+How to fill the Gene Annotation form?
+-------------------------------------
 
 As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results. 
 
@@ -57,8 +57,8 @@ As shown in the figure below, not all fields can be modified by the annotator. F
 .. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
 
 
-What are the different annotation "Status"es ?
-----------------------------------------------
+What are the different annotation "Status"es?
+---------------------------------------------
 
 * **inProgress** : the annotator has not finished the expert annotation
 * **finished** : the annotator has finished the expert annotation
@@ -68,8 +68,8 @@ What are the different annotation "Status"es ?
 * **chkStart** : the annotator suspects that a start position readjustment might be needed for the CDS, but hasn’t done it yet.
 
 
-What are the different "Type" categories ?
-------------------------------------------
+What are the different "Type" categories?
+-----------------------------------------
 
 * CDS
 * fCDS
@@ -83,8 +83,8 @@ What are the different "Type" categories ?
 * promoter
 
 
-How to fill the "Mutation" field ?
-----------------------------------
+How to fill the "Mutation" field?
+---------------------------------
 
 * **no** => Normal CDS
 * **frameshift** => CDS for which a true frame-shift has been biologically demonstrated
@@ -94,14 +94,14 @@ How to fill the "Mutation" field ?
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
 
 
-How to use the "Comments" field ?
----------------------------------
+How to use the "Comments" field?
+--------------------------------
 
 The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
 
 
-How to use the "PubmedID" field ?
----------------------------------
+How to use the "PubmedID" field?
+--------------------------------
 
 The PubMedID or PMID correspond to the index of a publication on the PubMed section of the NCBI website. You can fill this field when you want to link a publication to your annotation. If you want to enter several publications, you simply have to write the PMIDs separated by commas.
 
@@ -112,8 +112,8 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
 
-How to use the "MetaCyc reaction" field ?
------------------------------------------
+How to use the "MetaCyc reaction" field?
+----------------------------------------
 
 This field allows user to link one ore more metabolic reactions from MetaCyc (BioCyc) to the current edited gene.
 
@@ -150,8 +150,8 @@ And in some cases :
 The “Reset” button deletes all results
 
 
-How to use the "Rhea reaction" field ?
---------------------------------------
+How to use the "Rhea reaction" field?
+-------------------------------------
 
 This field allows user to link one ore more metabolic reactions from **Rhea** to the current edited gene.
 
@@ -194,8 +194,9 @@ The “Reset” button deletes all results
 
 For each reaction in the result set, check-box allows to add a reaction from the result set to the select element. All reactions selected in the multiple selection list will be saved as validated and linked to this gene. Unselecting a reaction in this list will remove this link from the curated data.
 
-What are the different "Product type" categories ?
---------------------------------------------------
+
+What are the different "Product type" categories?
+-------------------------------------------------
 
 * c : carrier
 * cp : cell process
@@ -223,8 +224,8 @@ What are the different "Product type" categories ?
 * t : transporter
 
 
-What are the different "Localization" categories ?
--------------------------------------------------- 
+What are the different "Localization" categories?
+------------------------------------------------- 
  
 * 1 : Unknown
 * 2 : Cytoplasmic
@@ -239,8 +240,8 @@ What are the different "Localization" categories ?
 * 11 : Membrane
 
 
-How to use the "Class" field ?
-------------------------------
+How to use the "Class" field?
+-----------------------------
 
 The **Class** annotation categories are useful for assigning a "confidence level" to each gene annotation. It has been inspired by the "protein name confidence" defined in **PseudoCAP** (Pseudomonas aeruginosa community annotation project).
 
@@ -260,16 +261,16 @@ The different classes are:
 * **7 : Gene remnant**
 
 
-What is the "BioProcess" classification ?
------------------------------------------
+What is the "BioProcess" classification?
+----------------------------------------
 
 This functional classification is based on the **CMR JCVI Role IDs.**
 
 This field is optionally filled in during the expert annotation process.
 
 
-What is the "Roles" classification ?
-------------------------------------
+What is the "Roles" classification?
+-----------------------------------
 
 This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
 
@@ -278,16 +279,16 @@ This functional classification corresponds to the MultiFun classification which 
 This field is optionally filled in during the expert annotation process.
 
 
-How to choose the "Class" annotation category ?
------------------------------------------------
+How to choose the "Class" annotation category?
+----------------------------------------------
 
 .. image:: img/editor8.png
 
 .. image:: img/editor9.png
 
 
-How to identify artefacts ?
----------------------------
+How to identify artefacts?
+--------------------------
 
 .. image:: img/editor10.png
 
@@ -305,7 +306,7 @@ Considering the Class field, here are some basic annotation rules:
 -----------------------------------------------------------------------------------
 
 Gene [optional]
-Synomyms [optional]
+Synonyms [optional]
 Product **[mandatory]**
 EC number [optional]
 MetaCyc Reaction [optional]
@@ -335,7 +336,7 @@ Roles [optional]
 -----------------------------------------
 
 Gene [optional]
-Synomyms [optional]
+Synonyms [optional]
 Product **[mandatory]**
 EC number [optional]
 MetaCyc Reaction [optional]
@@ -350,7 +351,7 @@ Roles [optional]
 -------------------------------------------------------------------------------------------------------------
 
 Gene [not allowed]
-Synomyms [not allowed]
+Synonyms [not allowed]
 Product **[mandatory]**: putative function
 EC number [optional]
 MetaCyc Reaction [optional]
@@ -365,7 +366,7 @@ Roles [optional]
 -------------------------------------------------------------
 
 Gene [not allowed]
-Synomyms [not allowed]
+Synonyms [not allowed]
 Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
 EC number [not allowed]
 MetaCyc Reaction [optional]
@@ -380,7 +381,7 @@ Roles [optional]
 ----------------------------------------------------
 
 Gene [not allowed]
-Synomyms [not allowed]
+Synonyms [not allowed]
 Product **[mandatory]**: (exported/membrane) protein of unknown function
 EC number [not allowed]
 MetaCyc Reaction [optional]
@@ -395,7 +396,7 @@ Roles [optional]
 ----------------
 
 Gene [not allowed]
-Synomyms [not allowed]
+Synonyms [not allowed]
 Product **[mandatory]** : protein of unknown function
 EC number [not allowed]
 MetaCyc Reaction [not allowed]
@@ -410,7 +411,7 @@ Roles [not allowed]
 ----------------
 
 Gene [not allowed]
-Synomyms [not allowed]
+Synonyms [not allowed]
 Product **[mandatory]**: protein name (fragment)
 EC number [not allowed]
 MetaCyc Reaction [not allowed]
@@ -426,8 +427,8 @@ BLAST results
 =============
 
 
-What is the meaning of the minLrap and maxLrap values ?
--------------------------------------------------------
+What is the meaning of the minLrap and maxLrap values?
+------------------------------------------------------
 
 These values are ratios of alignment lengths computed for each comparison using the BLAST software :
 
@@ -448,8 +449,8 @@ where Lmatch = length of the match, Lprot1 = length of protein 1, Lprot2 = lengt
 **if minLrap<1 and maxLrap<1** => the sequences are poorly aligned. We can observe this kind of situation in the case of gene remnants.
 
 
-What is the meaning of orderQ and orderB values ?
--------------------------------------------------
+What is the meaning of orderQ and orderB values?
+------------------------------------------------
 
 The orderQ and orderB values give an information about the rank of the BLAST hit for a protein of the query genome (orderQ) or for a protein of a databank (orderB).
 
@@ -458,3 +459,217 @@ Best bidirectional Best Hits (BBH) will have a 1:1 relationship The following Be
 .. image:: img/blast.png
 
 .. tip:: These indicators can be useful to identify fusion/fission events.
+
+
+
+=====
+Start
+=====
+
+Coming soon...
+
+
+
+======================
+Compositional features
+======================
+
+Gene compositional features
+---------------------------
+
+Coming soon...
+
+Protein compositional features
+------------------------------
+Coming soon...
+
+
+
+============
+Duplications 
+============
+
+This dataset contains the list of genes of the genome that have an identity > 25% with a minLRap > 0.75 to the selected gene.
+
+
+
+===========
+E. coli K12
+===========
+
+This menu indicates the best BLAST hit for the current Genomic Object against the genome of Escherichia coli K12, if any.
+
+This dataset is a useful reference since E. coli is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
+
+.. tip:: This dataset can help you to complete your expert annotation.
+
+
+
+===========
+B. subtilis
+===========
+
+This menu indicates the best BLAST hit for the current Genomic Object against the genome of Bacillus subtilis, if any.
+
+This dataset is a useful reference since B. subtilis is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
+
+.. tip:: This dataset can help you to complete your expert annotation.
+
+
+
+===============
+Genomes/Project
+===============
+
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are linked to the current annotation Project.
+
+These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
+
+How to read the result table?
+-----------------------------
+
+* **Label**: Label of the protein. If you click on the label, you access the Gene annotation window for that Genomic Object.
+* **Organism**: Organism name. If you click on the name, you access the organism’s sequences on the NCBI website
+* **Gene**: Gene name of the protein
+* **Evidence**: Status of the annotation.
+* **Gene**: Gene name of the genomic object
+* **Product**: Product description of the protein
+* **maxLrap**: see BLAST results
+* **minLrap**: see BLAST results
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see BLAST results
+* **OrderB** :see BLAST results
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
+
+
+
+========================
+MaGe/Curated annotations
+========================
+
+This section indicates the best BLAST hits obtained with other Genomic Objects from PkGDB which have been manually annotated/curated by other MaGe users.
+
+How to read the result table?
+-----------------------------
+
+* **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
+* **Synteny**: If you click on the magnyfying glass, it opens a synton visualisation window
+* **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
+* **Gene**: Gene name of the protein
+* **Product**: Product description of the protein
+* **maxLrap**: see BLAST results
+* **minLrap**: see BLAST results
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see BLAST results
+* **OrderB**: see BLAST results
+* **Roles**: Funtional categories associated with the protein using the Roles functional classification
+* *ECnumber**: EC number associated with the protein, if any
+* **Localization**: Cellular localisation of the protein
+* **BioProcess**: Funtional categories associated with the protein using the BioProcess functional classification
+* **Product type**: Description of the product type of the protein
+* **PubMedId**: References linked to the annotation of the protein
+* **Class**: Confidence class of the annotation
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
+
+
+============================
+Syntonome / Syntonome RefSeq 
+============================
+
+How to use the Syntonome results?
+---------------------------------
+
+This section gives access to the list of syntons which contain homologs to the studied gene in other organisms:
+
+* from PkGDB for the **Syntonome** section
+* from RefSeq for the **Syntonome RefSeq** section
+
+
+How to read the result table
+----------------------------
+
+* **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window
+* **NbGeneQ**: Number of genes involved in the synton in the studied genome
+* **NbGeneB**: Number of genes involved in the synton in the database genome
+* **Organism**: Organism name. If you click on the name, you can access the associated genome sequence on the NCBI website.
+* **Label**: Label of the database protein. If you click on the label, you can access the Gene annotation window (Syntonome) or to the corresponding NCBI entry (Syntonome RefSeq)
+* **Gene**: Gene name of the database protein
+* **Product**: Product description of the database protein
+* **maxLrap**: see BLAST results
+* **minLrap**: see BLAST results
+* **ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**:see BLAST results
+* **OrderB**:see BLAST results
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the protein of the database
+* **EndB**: End of the alignment for the protein of the database
+* **LengthB**: Length of the protein of the database
+
+
+
+=====
+HAMAP
+=====
+
+What is HAMAP?
+--------------
+
+HAMAP (High-quality Automated and Manual Annotation of microbial Proteomes) is a system, based on manual protein annotation, that identifies and semi-automatically annotates proteins that are part of well-conserved families or subfamilies: the HAMAP families. HAMAP is based on manually created family rules and is applied to bacterial, archaeal and plastid-encoded proteins.
+
+**More**: http://www.expasy.ch/sprot/hamap/
+
+**Reference**:
+
+`HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot. Lima T et al (2009) Nucleic Acids Res. 2009 Jan;37(Database issue):D471-8. <http://www.ncbi.nlm.nih.gov/pubmed/18849571>`_
+
+
+How to read HAMAP results?
+--------------------------
+
+.. image:: img/hamap.png
+
+This section is filled in when the sequence can be linked to a HAMAP family. The corresponding HAMAP family identifier is given in the first column. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
+
+The evidence column gives an indication about the strength of the hit. The value can be:
+
+* *high*: the sequence is considered to be trusted member of the HAMAP family
+* *medium*: the sequence is considered as a putative member of the HAMAP family
+
+The following columns give a description of the HAMAP family with the gene name (if any), the product description, the EC number (if any). The comments column can give you some insight into the corresponding function or the subcellular location of the protein. The last column describes a list of keywords related to the function of the HAMAP family.
+
+
+
+===============================
+Similarities SwissProt / TrEMBL
+===============================
+
+What is UniProt?
+----------------
+
+The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The mission of UniProt is to provide the scientific community with a comprehensive, high-quality and freely accessible ressource of protein sequence and functional information.
+
+The UniProt Knowledgebase consists of two sections:
+
+* **Swiss-Prot** which contains high quality manually annotated and non-redundant protein sequences. This database brings together experimental results, computed features and scientific conclusions.
+* **TrEMBL** which contains protein sequences associated with computationally generated annotation and large-scale functional characterization that await full manual annotation.
+
+More than 99% of the protein sequences provided by UniProtKB are derived from the translation of the coding sequences (CDS) which have been submitted to the public nucleic acid databases, the EMBL-Bank/GenBank/DDBJ databases. All these sequences, as well as the related data submitted by the authors, are automatically integrated into UniProtKB/TrEMBL.
+
+**More**: http://www.uniprot.org/
+
+**Reference**: `UniProt Consortium. The Universal Protein Resource (UniProt) in 2010. Nucleic Acids Res. 2010 Jan;38(Database issue):D142-8 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
