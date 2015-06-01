@@ -37,14 +37,14 @@ How the analysis is computed?
 - **MICFAM: MicroScope gene families**
 
 * **Clustering algorithm** : 
-This tool is based on MicroScope gene families (MICFAM) which are computed using an algorithm implemented in the SiLiX software (http://lbbe.univ-lyon1.fr/-SiLiX-.html ): a single linkage clustering algorithm of homologous genes sharing an amino-acid alignment coverage and identity above a defined threshold. 
+	This tool is based on MicroScope gene families (MICFAM) which are computed using an algorithm implemented in the SiLiX software (http://lbbe.univ-lyon1.fr/-SiLiX-.html ): a single linkage clustering algorithm of homologous genes sharing an amino-acid alignment coverage and identity above a defined threshold. 
 
 This algorithm operates on the “*The friends of my friends are my friends*” principle by comparing genes together. If two genes are homologous, they are clustered. Moreover, if one of this gene is already clustered with another one, these three genes are clustered into the same MICFAM. 
 
 Reference: `Miele V, Penel S, Duret L. Ultra-fast sequence clustering from similarity networks with SiLiX. BMC Bioinformatics. 2011 Apr 22;12:116. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3095554/>`_
 
 * **MICFAM parameters**: 
-Two sets of alignment constraints are defined to compute the MICFAM families :
+	Two sets of alignment constraints are defined to compute the MICFAM families :
 	* **80/80**: 80% amino-acid identity, 80% amino-acid alignment coverage (stringent parameter)
 	* **50/80**: 50% amino-acid identity, 80% amino-acid alignment coverage (permissive parameter)
 
@@ -63,10 +63,10 @@ Two sets of alignment constraints are defined to compute the MICFAM families :
 	For singletons, the weight is 1 in every case.
 
 * **Artefact families**: 
-CDS flagged as artefacts are not taking into account in the computation. Moreover, if an artefact CDS is a member of a MICFAM, the artefact information is propagated in the whole MICFAM (tagged as "artefact family"). Thus, this MICFAM is not considered for the analysis.
+	CDS flagged as artefacts are not taking into account in the computation. Moreover, if an artefact CDS is a member of a MICFAM, the artefact information is propagated in the whole MICFAM (tagged as "artefact family"). Thus, this MICFAM is not considered for the analysis.
 
 * **Exclusion of another pan/core/variable-genome**: 
-In the case of exclusion, gene families of the excluded component (pan/core/variable-genome of an excluded set) are compared with families computed from analyzed organisms. Common gene families are removed of the analysis. 
+	In the case of exclusion, gene families of the excluded component (pan/core/variable-genome of an excluded set) are compared with families computed from analyzed organisms. Common gene families are removed of the analysis. 
 Some singletons can also be removed if some excluded organisms are in the analyzed set too (with exclusion of their pan-genome or variable-genome).
 
 
@@ -80,7 +80,8 @@ At first, genomes and MICFAM parameters must be selected:
 The form is composed of two organism lists:
 
 * In the left-hand list, at least two genomes to analyze must be selected.
-* In the **optional** right-hand list, one or several genomes can be selected. In this case, the component of these organisms to exclude must be chosen (*at least two "excluded genomes" must be selected for the core and variable components*).
+* In the **optional** right-hand list, one or several genomes can be selected. In this case, the component of these organisms to exclude must be chosen (*at least two "excluded genomes" must be selected for the core and variable components*). 
+
 MICFAM parameters must be selected according to the desired confidence level.
 
 And the pan/core-genome evolution (boxplots) can be disabled with the checkbox (faster computation with many organisms).
@@ -145,7 +146,7 @@ The analysis page provides a table of gene count for each organism, with 11 colu
 * Pan CDS: (Core CDS + Var CDS) = (CDS without artefacts - homologous CDS with excluded organisms)
 * Core CDS: CDS number in the core-genome component
 * Var CDS: CDS number in the variable-genome component
-Strain specific CDS: CDS number in the variable-genome component specific to this strain only.
+* Strain specific CDS: CDS number in the variable-genome component specific to this strain only.
 * Core CDS (%): Core CDS percentage
 * Var CDS (%): Var CDS percentage
 * Strain spe. CDS (%): Strain specific CDS percentage
@@ -168,7 +169,6 @@ These graphs are in the **SVG** (Scalable Vector Graphics) format and can be dow
 The “Data” button allows the users to download formatted data. To read and plot these data with R, use the commands as follow:
 
 :: 
-
 **R commands**: data<-read.table("boxplot.txt", sep="\t", header=TRUE, check.names=FALSE) 
 boxplot(data)
 
