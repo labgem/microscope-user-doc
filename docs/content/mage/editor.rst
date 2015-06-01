@@ -290,3 +290,171 @@ How to identify artefacts ?
 ---------------------------
 
 .. image:: img/editor10.png
+
+
+
+================
+Annotation Rules  
+================
+
+.. image:: img/annotation1.png
+
+Considering the Class field, here are some basic annotation rules:
+
+1 a/b/c: Function experimentally demonstrated in the studied organism/species/genus
+-----------------------------------------------------------------------------------
+
+Gene [optional]
+Synomyms [optional]
+Product **[mandatory]**
+EC number [optional]
+MetaCyc Reaction [optional]
+PubMedId **[mandatory]**
+ProductType **[mandatory]**
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+2a : Function of homologous gene experimentally demonstrated in an other organism
+---------------------------------------------------------------------------------
+
+Gene [optional]
+Synomyms [optional]
+Product **[mandatory]**
+EC number [optional]
+MetaCyc Reaction [optional]
+PubMedId **[mandatory]**
+ProductType **[mandatory]**
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+2b : Function of strongly homologous gene
+-----------------------------------------
+
+Gene [optional]
+Synomyms [optional]
+Product **[mandatory]**
+EC number [optional]
+MetaCyc Reaction [optional]
+PubMedId [optional]
+ProductType **[mandatory]**
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology
+-------------------------------------------------------------------------------------------------------------
+
+Gene [not allowed]
+Synomyms [not allowed]
+Product **[mandatory]**: putative function
+EC number [optional]
+MetaCyc Reaction [optional]
+PubMedId [optional]
+ProductType **[mandatory]**: putative function
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+4 : Homologs of previously reported genes of unknown function
+-------------------------------------------------------------
+
+Gene [not allowed]
+Synomyms [not allowed]
+Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
+EC number [not allowed]
+MetaCyc Reaction [optional]
+PubMedId [optional]
+ProductType **[mandatory]**: unknown
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+5 : No homology to any previously reported sequences
+----------------------------------------------------
+
+Gene [not allowed]
+Synomyms [not allowed]
+Product **[mandatory]**: (exported/membrane) protein of unknown function
+EC number [not allowed]
+MetaCyc Reaction [optional]
+PubMedId [optional]
+ProductType **[mandatory]**: unknown
+Localization [optional]
+BioProcess [optional]
+Roles [optional]
+
+
+6 : Doubtful CDS
+----------------
+
+Gene [not allowed]
+Synomyms [not allowed]
+Product **[mandatory]** : protein of unknown function
+EC number [not allowed]
+MetaCyc Reaction [not allowed]
+PubMedId [optional]
+ProductType **[mandatory]**: unknown
+Localization [not allowed]
+BioProcess [not allowed]
+Roles [not allowed]
+
+
+7 : Gene remnant
+----------------
+
+Gene [not allowed]
+Synomyms [not allowed]
+Product **[mandatory]**: protein name (fragment)
+EC number [not allowed]
+MetaCyc Reaction [not allowed]
+PubMedId [optional]
+ProductType **[mandatory]**: unknown
+Localization [not allowed]
+BioProcess [not allowed]
+Roles [not allowed]
+
+
+=============
+BLAST results
+=============
+
+
+What is the meaning of the minLrap and maxLrap values ?
+-------------------------------------------------------
+
+These values are ratios of alignment lengths computed for each comparison using the BLAST software :
+
+* **minLrap** = Lmatch/min(Lprot1, Lprot2)
+* **maxLrap** = Lmatch/max(Lprot1, Lprot2)
+
+where Lmatch = length of the match, Lprot1 = length of protein 1, Lprot2 = length of protein 2.
+
+**if minLrap=1 and maxLrap=1** => the 2 proteins both align on their whole length
+
+**if minLrap=1 ans maxLrap<1** => one of the proteins is longer than the other, or the alignment is partial. Different interpretations are possible:
+
+* the longer protein is a modular protein (domain fusion/fission)
+* there is an erroneous start codon for one of the 2 genes
+* the smaller gene is a fragment (pseudogene).
+* a frameshift (due to a sequencing error or not) causes a premature stop codon in one of the genes.
+
+**if minLrap<1 and maxLrap<1** => the sequences are poorly aligned. We can observe this kind of situation in the case of gene remnants.
+
+
+What is the meaning of orderQ and orderB values ?
+-------------------------------------------------
+
+The orderQ and orderB values give an information about the rank of the BLAST hit for a protein of the query genome (orderQ) or for a protein of a databank (orderB).
+
+Best bidirectional Best Hits (BBH) will have a 1:1 relationship The following Best hits will have 1<=>n relationship
+
+.. image:: img/blast.png
+
+.. tip:: These indicators can be useful to identify fusion/fission events.
