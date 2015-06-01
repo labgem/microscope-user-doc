@@ -169,9 +169,10 @@ With **more than 10 selected genomes**, approximately 1000 combinations are samp
 These graphs are in the **SVG** (Scalable Vector Graphics) format and can be downloaded with the “SVG” button. 
 The “Data” button allows the users to download formatted data. To read and plot these data with R, use the commands as follow:
 
-:: 
-**R commands**: data<-read.table("boxplot.txt", sep="\t", header=TRUE, check.names=FALSE) 
-boxplot(data)
+**R commands**::
+
+	data<-read.table("boxplot.txt", sep="\t", header=TRUE, check.names=FALSE) 
+	boxplot(data)
 
 Venn Diagram (Organism number less than 6)
 
