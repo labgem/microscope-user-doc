@@ -2,3 +2,187 @@
 Keywords Search Tool 
 ####################
 
+
+What are Single/Multiple Modes?
+-------------------------------
+
+* **The Single Mode**: This mode is sequence-specific. It means that you can perform a keywords search within a single sequence at once, but it allows the annotator to search within one or multiple dataset at a time for the selected sequence.
+* **The Multiple Mode**: In the contrary, the Multiple Mode allows the annotator to explore by keywords the annotations of several sequences at a time, but within one dataset at once.
+
+
+How to read the interface?
+--------------------------
+
+* **The Single Mode**:
+
+.. image:: img/key1.png
+
+	* **Item #1**. Dataset selection.
+	* **Item #2**. Fields selection.
+	* **Item #3**. optional Filters.
+	* **Item #4**. Gene Carts selection, for searching within their content. (optional)
+	* **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
+	* **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).
+	* **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
+	
+* The Multiple Mode
+
+.. image:: img/key2.png
+
+
+What about the Dataset?
+-----------------------
+
+The available dataset list is project-specific, even if the main part of dataset list is common to all projects. Each dataset corresponds to a specific type of data in our database, PkGDB.
+
+Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.). Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia Coli, Bacillus Subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMhmm results, etc.). In the last two cases, the functional annotation of the candidate genes may differ from that ones in the selected hit.
+
+The use of a given dataset over another one will depend of the kind of data the annotator looks for.
+
+The common dataset are these ones:
+
+**Central table of PkGDB:**
+
+* **Gene Annotations**: allows to search into automatic and expert annotations (validated genes) of a selected sequence.
+* **MaGe Curated Annotations**: for searching within only all validated genes.
+* **My Annotated Genes**: for searching only within your own validated genes.
+* **Databank/Automatic Annotations**: refers to annotations from databank files or from our annotation pipeline.
+* **Genomic Object Features**: will return the gene or protein features such as GC%, MW, Pi, etc.
+* **Annotation Comments**: allows to search within the Comments specific field of the Gene Editor.
+* **Annotation Note**: Same as above, but within the Note field of the Gene Editor.
+
+
+**Reference Annotations**:
+
+**Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
+**Escherichia Coli**: will return BlastP/Synteny results of your selected sequence against updated Escherichia Coli annotations.
+**Bacillus Subtilis**: will return BlastP/Synteny results of your selected sequence against SubtiList data which contains Bacillus Subtilis expert annotations.
+**E. coli essential genes (Gerdes, PEC, Keio)**: will return BlastP/Synteny results of your selected sequence against Escherichia Coli essential genes.
+**P. aeruginosa essential genes**: will return BlastP/Synteny results of your selected sequence against Putida Aeruginosa essential genes.
+**B. subtilis essential genes**: will return BlastP/Synteny results of your selected sequence against Bacillus Subtilis essential genes.
+
+
+**Relational tables of PkGDB**:
+
+* **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
+* **CHP in Synteny**: will return genes of your selected sequence annotated as Conserved Hypothetical Protein and involved in a synteny.
+* **HAMAP SwissProt**: will return genes of your selected sequence matching an HAMAP ( High-quality Automated and Manual Annotation of microbial Proteomes ) family.
+* **SwissProt**: will return genes of your selected sequence matching UniProtKB/SwissProt entries (by using alignments constraints). UniProtKB/Swiss-Prot (reviewed) is a high quality manually annotated and non-redundant protein sequence database, which brings together experimental results, computed features and scientific conclusions.
+* **SwissProt EXP**: will return genes of your selected sequence matching UniProtKB/SwissProt entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **SwissProt** dataset.
+* **TrEMBL**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints). UniProtKB/TrEMBL (unreviewed) contains protein sequences associated with computationally generated annotation and large-scale functional characterization.
+* **TrEMBL EXP**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **TrEMBL** dataset.
+* **PRIAM EC Prediction**: will return genes of your selected sequence having **PRIAM** results.
+* **COG**: will return genes of your selected sequence involved in a **COG** (Clusters of Orthologous Groups of proteins).
+* **FigFam results**: will return genes of your selected sequence associated with **FigFam** results.
+* **TIGRFams**:
+* **InterPro**:
+* **KEGG Pathways**:
+* **MicroCyc Pathways**:
+* **PsortB Results**:
+* **SignalP Results**:
+* **TMhmm Results**:
+* **Coiled Coil Results**:
+* **Genes with SNP(s) and/or InDel(s)**:
+
+
+What are the Fields?
+--------------------
+
+Fields are data subgroups in a given dataset. Fields refer to specific data for a given dataset.
+
+Example: the Label field of the Gene Annotation dataset refers to the Genomic Objects Labels. If you select this field, the system will look for your keywords into the Label data contained in our databases.
+
+.. tip:: if you’re not sure about the specific Fields you should have to select in order to get some results, feel free to select by default all of the fields. With some practice, you will know how to refine your Field(s) selection in order to search for particular data.
+
+
+What are Filters?
+-----------------
+
+The Filters are useful to restrict the results by using some specific numeric data, such as an Isoelectric Point value, a given length for a CDS, an Identity % value, a minLrap / maxLrap value, etc.
+
+Filters are specific to a given dataset and their use are optional. Also it is possible to search for results by using only Filters fields, without filling some keywords in the With or Without fields.
+
+
+How to read the With / Without keyword fields and their options?
+----------------------------------------------------------------
+
+* **WITH field**: Fill the textarea with the keyword(s) you’re looking for. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will be displayed as result(s). 3 options are available:
+
+	* **All of the words**: All of the keywords filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
+	* **At least one word**: At least one of the keywords filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
+	* **Exact phrase**: The system will look for the keywords or the sentence, with an exact syntax, into the data contained in the Field(s) selection. This option is very selective.
+	
+* **WITHOUT field**: Fill the textarea with the keyword(s) you want to exclude from the potential results. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will **NOT** be displayed as result(s). 3 options are available:
+	* **All of the words**: if all of the keywords filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	* **At least one word**: if at least one of the keywords filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	* **Exact phrase**: if the keywords or the sentence, with an exact syntax, match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	
+	
+How to perform a search
+-----------------------
+
+* **Single Mode**
+
+	* **1**. Select the reference replicon you want to explore (**Item #7**)
+	* **2**. Select eventually one or more Gene(s) Cart(s) (**Item #4**, optional).
+	
+.. note:: If you select some Gene Carts, two constraints will be applied: the reference sequence previously selected AND the Gene Carts content. This means that if you select Acinetobacter baylyi ADP1 as reference sequence and then select some Gene Carts, the search will be performed on the Genomic Objects 1) contained in the Gene Cart(s) AND 2) belonging to Acinetobacter baylyi ADP1. If some of your Gene Carts contain Genomic Objects that do not belong to Acinetobacter baylyi ADP1, the search process will ignore them.
+
+	* **3**. Select one or more Datase(s) of interest (Item #1). If you select more than one Dataset, the Fields select menu will be unavailable.
+	* **4**. Eventually, restrict the Fields to a specific selection (Item #2, optional). By default, select all of the Fields.
+	* **5**. Eventually, specify your own Filters values (Item #3, optional). By default, leave the fields empty. If you select several Dataset, only the common Filters to these Dataset will be available.
+	* **6**. Fill the **With** (**Item #6**) or **Without** (**Item #5**) keywords fields.
+
+.. note:: To perform a search, you need to fill at least one of these fields: **With**, **Without**, and / or **Filters**
+
+	* **7**. Click on the **SEARCH** button.
+	* **8**. Browse the results. Matched keywords will be highlighted in yellow.
+	* **9**. Eventually, proceed to a Refined Search from the previous results, or export the results into a Gene Cart.
+	
+* **Multiple Mode**
+
+	* **1**. Select one or more reference replicon(s) you want to explore (Item #7) **OR** select one or more Gene(s) Cart(s) (Item #4, optional).
+
+.. note:: Unlike the Single Mode, the Multiple Mode allows the user to perform a search within several replicons at a time. This means that you should use the Multiple Mode if you want to perform a search within a Gene Cart containing Genomic Objects from different organisms.
+
+	* **2**. Select the Dataset of interest (Item #1) (only one Dataset at a time in this mode).
+	* **3**. Eventually, restrict the Fields to a specific selection (Item #2, optional). By default, select all of the Fields.
+	* **4**. Eventually, specify your own Filters values (Item #3, optional). By default, leave the fields empty.
+	* **5**. Fill the With (Item #6) or Without (Item #5) keywords fields.
+	
+.. note:: To perform a search, you need to fill at least one of these fields: **With**, **Without**, and / or **Filters**
+
+	* **6**. Click on the **SEARCH** button.
+	* **7**. Browse the results. Matched keywords will be highlighted in yellow.
+	* **8**. Eventually, proceed to a Refined Search from the previous results, or export the results into a Gene Cart.
+	
+	
+How to refine a search?
+-----------------------
+
+After having performed a search and assuming you got some results, you can choose to refine them by proceeding a new search within this set of results. For this, you have to proceed the exact same way than previously, except you’ll have to click on the **EXPLORE MORE** button instead of the **NEW SEARCH** one. This method provides a good way to refine successively a set of candidate genes.
+
+How to read search results?
+---------------------------
+
+How to export and save results in a Gene Cart?
+----------------------------------------------
+
+Once you get some results, an **EXPORT TO GENE CART** button will be available above the results list. Click on this button and follow the instructions about the Gene Cart functionality.
+
+
+How to explore within a Gene Cart content?
+------------------------------------------
+
+**Single Mode**:
+**Multiple Mode**:
+
+
+What is the Get Genes Button?
+-----------------------------
+
+What is the Intersect Button?
+-----------------------------
+
+What are the Empty/Not Empty Buttons?
+-------------------------------------
