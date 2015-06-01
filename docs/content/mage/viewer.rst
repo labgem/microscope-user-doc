@@ -127,7 +127,8 @@ Repeat detection is performed by the Repsek program.
 
 **More**: http://wwwabi.snv.jussieu.fr/ public/RepSeek/
 
-**Reference**: Achaz G, Boyer F, Rocha EP, Viari A, Coissac E. Repseek, a tool to retrieve approximate repeats from large DNA sequences. Bioinformatics. 2007 Jan1;23(1):119-21.
+**Reference**: `Achaz G, Boyer F, Rocha EP, Viari A, Coissac E. Repseek, a tool to retrieve approximate repeats from large DNA sequences. Bioinformatics. 2007 Jan1;23(1):119-21. <http://www.ncbi.nlm.nih.gov/pubmed/17038345>`_
+
 
 How to read the Repeat Regions table ?
 --------------------------------------
