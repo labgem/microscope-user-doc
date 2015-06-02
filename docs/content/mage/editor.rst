@@ -266,7 +266,7 @@ The different classes are:
 What is the "BioProcess" classification?
 ----------------------------------------
 
-This functional classification is based on the **CMR JCVI Role IDs.**
+This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_ 
 
 This field is optionally filled in during the expert annotation process.
 
@@ -536,7 +536,7 @@ How to read the result table?
 * **Evidence**: Status of the annotation.
 * **Gene**: Gene name of the genomic object
 * **Product**: Product description of the protein
-* **maxLrap**: see BLAST results
+* **maxLrap**: see :ref:`BLAST results`
 * **minLrap**: see BLAST results
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result

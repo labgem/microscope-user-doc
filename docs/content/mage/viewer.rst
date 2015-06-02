@@ -107,7 +107,7 @@ How to use the "Export to Gene Cart" button ?
 
 The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart. 
 If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data. 
-You can access to your gene carts via the Gene Cart Interface.
+You can access to your gene carts via the `Gene Cart Interface <../userpanel/genesbasket.html>`.
 
 Can I create a new genomic object ?
 -----------------------------------
@@ -115,10 +115,9 @@ Can I create a new genomic object ?
 The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a Genomic Object Editor window opens. 
 You have to manually fill in all fields to create your new object. You have to specify its Type, Begin, End, Frame, Mutation, Product, ... Then click on **SAVE**.
 
-**Tips**:
-
-* If you don’t have any modification rights on a sequence, the **SAVE** button is replaced by a **MAIL** button. In this case your proposition of a new genomic object is emailed to the project leader.
-* Please note that you can’t delete a genomic object from the database.
+.. tips::
+	* If you don’t have any modification rights on a sequence, the **SAVE** button is replaced by a **MAIL** button. In this case your proposition of a new genomic object is emailed to the project leader.
+	* Please note that you can’t delete a genomic object from the database.
 
 Which program is used to detect the repeats ?
 ---------------------------------------------
@@ -281,7 +280,7 @@ Double click on an object to select it in the upper part of the window. The obje
 * **ctrl + U key**: Undo your last action.
 * **ctrl + Q key**: Select the whole ORF.
 
-Once you have identified an alternative Start codon, you can copy its position and change the value in the **Gene annotation editor** window of your gene.
+Once you have identified an alternative Start codon, you can copy its position and change the value in the `Gene annotation editor <../editor.html>`_ window of your gene.
 
 What do I do if java doesn’t work on my computer ?
 --------------------------------------------------

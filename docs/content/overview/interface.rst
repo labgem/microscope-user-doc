@@ -36,7 +36,7 @@ The popup interface will display all the Organisms for which you have, at least,
 
 The select menu below the *Change* button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
 
-.. tip:: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
+.. tip:: After logging in, you will have access to the `My Favourite Organisms <../userpanel/favourites.html>` functionality available in the `User Panel <../userpanel.html>` section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
 
 
 * **Item #3. Navigation Submenu:** 
@@ -92,7 +92,7 @@ How to export results?
 
 Each result table provides buttons called *Copy* and *CSV*.
 
-.. note:: **WARNING:** Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
+.. warning:: Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
 
 
 * Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format
@@ -147,7 +147,7 @@ What about the old *Viewer* interface ?
  
 .. image:: img/img9.png
  
-The corresponding tools are available by following this path in the **new interface**:
+The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`:
  
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
@@ -177,7 +177,7 @@ What about the old *Genome Overview* interface?
 
 .. image:: img/img12.png
 
-The corresponding tools are available by following this path in the **new interface**:
+The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`:
 
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
@@ -207,7 +207,7 @@ What about the old *Explore* interface?
 
 .. image:: img/img13.png
 
-The corresponding tools are available by following this path in the **new interface**:
+The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`:
 
 +---------------+-----------------------------+-------------------------------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                             NEW INTERFACE                                                         |
