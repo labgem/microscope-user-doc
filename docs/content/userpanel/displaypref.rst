@@ -15,13 +15,13 @@ This option will define the default position of the toggleable menu displayed on
 .. figure:: img/display1.png
 	:align: center
 
-	Sidebar SHOW option
+	**Sidebar SHOW option**
 
 
 .. figure:: img/display2.png
 	:align: center
 
-	Sidebar HIDE option
+	**Sidebar HIDE option**
 
 
 
@@ -35,12 +35,12 @@ Determine the behaviour of the Synteny Maps in the Genome Browser. By default th
 .. figure:: img/display3.png
 	:align: center
 
-	Synteny maps SHOW option
+	**Synteny maps SHOW option**
 
 .. figure:: img/display4.png
 	:align: center
 
-	Synteny maps HIDE option
+	**Synteny maps HIDE option**
 
 
 * **Genome map size: 400 - 1600 pixels**
@@ -50,12 +50,12 @@ This option will determine the Genome Browser width. By default, the width is se
 .. figure:: img/display5.png
 	:align: center
 
-	400 Pixels Width
+	**400 Pixels Width**
 
 .. figure:: img/display6.png
 	:align: center
 
-	1300 Pixels Width
+	**1300 Pixels Width**
 
 * **PkGDB Organisms: Synteny map selection**
 	

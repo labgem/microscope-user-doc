@@ -72,10 +72,10 @@ Please note that an user may have also access rights for organisms you are not a
 
 *Additional data are also available:*
 
-	*Organism name*
-	*related sequences (chromosomes, plasmids)*
-	*Organism status (private/public)*
-	*the last date the user access rights has been modified by an administrator*
+	* *Organism name*
+	* *related sequences (chromosomes, plasmids)*
+	* *Organism status (private/public)*
+	* *the last date the user access rights has been modified by an administrator*
 
 .. note:: There is some restrictions about access rights an administrator can select:
 

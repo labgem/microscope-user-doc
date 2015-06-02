@@ -2,7 +2,7 @@
 Gene Carts
 ##########
 
-The result of many tools available in the MicroScope platform is a list of candidate genes which can be saved in a «Gene Cart». The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch JalView tool (http://www.jalview.org/) to perform multiple alignments, etc. Moreover these carts can be explored using the Keywords Search tool.
+The result of many tools available in the MicroScope platform is a list of candidate genes which can be saved in a «Gene Cart». The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch JalView tool (`<http://www.jalview.org/>`_) to perform multiple alignments, etc. Moreover these carts can be explored using the Keywords Search tool.
 
 .. tip:: Gene Carts content is saved within your account settings, so your selections will persist into our databases even if you logout from your session.
 
@@ -56,7 +56,7 @@ Gene Cart Overview
 
 * **Item #9. Delete Gene Cart:**
  
-	Delete definitively a Gene Cart. (**Warning: the content will also be deleted **).
+	Delete definitively a Gene Cart. ( **Warning: the content will also be deleted** ).
 
 	
 How to move Genomic Objects to another Gene Cart?
@@ -101,7 +101,7 @@ How to delete Genomic Objects from Gene Cart?
 .. image:: img/bas8.png
 
 2. Click on the **DELETE SELECTION** button.
-3. The selected Genomic Objects will be deleted from the Cart. ( **Warning: the delete will be definitive and you’ll lost the genomic objects from the Cart **).
+3. The selected Genomic Objects will be deleted from the Cart. ( **Warning: the delete will be definitive and you’ll lost the genomic objects from the Cart** ).
 
 .. image:: img/bas9.png
 
@@ -120,7 +120,7 @@ How to get the intersection between 2 Gene Carts?
 3. Click on the CARTS: **INTERSECT** button
 4. The intersection between the 2 Gene Carts content will be moved into a new Cart, called by default ’**INTERSECT**’. 
 
-.. note:: **Warning: If you need to perform another ’Intersect Operation’, do not forget to rename the Cart called ’INTERSECT’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Intersect Operation’, do not forget to rename the Cart called ’INTERSECT’. Else, the content will be overwrited.**
 
 .. image:: img/bas12.png
 
@@ -139,7 +139,7 @@ How to get the difference between 2 Gene Carts?
 3. Click on the **CARTS: DIFFERENCE** button.
 4. The difference between the 2 Gene Carts content will be moved into a new Cart, called by default ’**DIFFERENCE**’. 
 
-.. note:: **Warning: If you need to perform another ’Difference Operation’, do not forget to rename the Cart called ’DIFFERENCE’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Difference Operation’, do not forget to rename the Cart called ’DIFFERENCE’. Else, the content will be overwrited.**
 
 .. image:: img/bas15.png
 
@@ -158,7 +158,7 @@ How to merge 2 Gene Carts?
 3. Click on the **CARTS: MERGE** button.
 4. The Genomic Objects of the 2 Gene Carts will be moved into a new Cart, called by default ’**MERGE**’. 
 
-.. note:: **Warning: If you need to perform another ’Merge Operation’, do not forget to rename the Cart called ’MERGE’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Merge Operation’, do not forget to rename the Cart called ’MERGE’. Else, the content will be overwrited.**
 
 .. image:: img/bas18.png
 
