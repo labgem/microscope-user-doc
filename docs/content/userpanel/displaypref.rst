@@ -12,13 +12,15 @@ General Options
 
 This option will define the default position of the toggleable menu displayed on the left part of the interface (as known as Quick Documentation Sidebar). By default, the sidebar is visible, but you can hide it systematically by changing the option to HIDE. This chosen option will be saved into your account settings, so you only need to set it once.
 
-.. image:: img/display1.png
+.. figure:: img/display1.png
 	:figclass: align-center
+
 	Sidebar SHOW option
 
 
-.. image:: img/display2.png
+.. figure:: img/display2.png
 	:figclass: align-center
+
 	Sidebar HIDE option
 
 
@@ -30,12 +32,14 @@ Genome Browser Options
 
 Determine the behaviour of the Synteny Maps in the Genome Browser. By default the Synteny Maps are visible but you can choose to make them hidden by switching to the HIDE option. The chosen option will be saved into your account settings.
 
-.. image:: img/display3.png
+.. figure:: img/display3.png
 	:figclass: align-center
+
 	Synteny maps SHOW option
 
-.. image:: img/display4.png
+.. figure:: img/display4.png
 	:figclass: align-center
+
 	Synteny maps HIDE option
 
 
@@ -43,12 +47,14 @@ Determine the behaviour of the Synteny Maps in the Genome Browser. By default th
 
 This option will determine the Genome Browser width. By default, the width is set to 700 pixels. But if you’re using a wide-screen you may prefer a larger width for a better visual comfort.
 
-.. image:: img/display5.png
+.. figure:: img/display5.png
 	:figclass: align-center
+
 	400 Pixels Width
 
-.. image:: img/display6.png
+.. figure:: img/display6.png
 	:figclass: align-center
+
 	1300 Pixels Width
 
 * **PkGDB Organisms: Synteny map selection**
