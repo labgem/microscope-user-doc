@@ -115,8 +115,7 @@ Can I create a new genomic object ?
 The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a Genomic Object Editor window opens. 
 You have to manually fill in all fields to create your new object. You have to specify its Type, Begin, End, Frame, Mutation, Product, ... Then click on **SAVE**.
 
-.. tips::
-	* If you don’t have any modification rights on a sequence, the **SAVE** button is replaced by a **MAIL** button. In this case your proposition of a new genomic object is emailed to the project leader.
+.. tips:: * If you don’t have any modification rights on a sequence, the **SAVE** button is replaced by a **MAIL** button. In this case your proposition of a new genomic object is emailed to the project leader.
 	* Please note that you can’t delete a genomic object from the database.
 
 Which program is used to detect the repeats ?
