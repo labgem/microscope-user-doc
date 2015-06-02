@@ -58,6 +58,7 @@ This option will determine the Genome Browser width. By default, the width is se
 	1300 Pixels Width
 
 * **PkGDB Organisms: Synteny map selection**
+	
 Choose your own selection of **PkGDB Organisms** displayed in the Synteny Maps.
 
 The default selection is calculated during the sequence integration process, by considering the best synteny correspondences with the reference genome and taking the 10 best results.
