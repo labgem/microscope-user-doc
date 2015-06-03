@@ -536,12 +536,12 @@ How to read the result table?
 * **Evidence**: Status of the annotation.
 * **Gene**: Gene name of the genomic object
 * **Product**: Product description of the protein
-* **maxLrap**: see :ref:`BLAST results`
-* **minLrap**: see :ref:`BLAST results`
+* **maxLrap**: see `BLAST results`_
+* **minLrap**: see `BLAST results`_
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see :ref:`BLAST results`
-* **OrderB** :see :ref:`BLAST results`
+* **OrderQ**: see `BLAST results`_
+* **OrderB** :see `BLAST results`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length the studied protein
@@ -565,12 +565,12 @@ How to read the result table?
 * **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
 * **Gene**: Gene name of the protein
 * **Product**: Product description of the protein
-* **maxLrap**: see :ref:`BLAST results`
-* **minLrap**: see :ref:`BLAST results`
+* **maxLrap**: see `BLAST results`_
+* **minLrap**: see `BLAST results`_
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see :ref:`BLAST results`
-* **OrderB**: see :ref:`BLAST results`
+* **OrderQ**: see `BLAST results`_
+* **OrderB**: see `BLAST results`_
 * **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
@@ -613,8 +613,8 @@ How to read the result table
 * **minLrap**: see :ref:`BLAST results`
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**:see :ref:`BLAST results`
-* **OrderB**:see :ref:`BLAST results`
+* **OrderQ**: see :ref:`BLAST results`
+* **OrderB**: see :ref:`BLAST results`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
