@@ -17,7 +17,7 @@ How to read the interface?
 
 .. image:: img/key1.png
 
-* **Item #1**. `Dataset selection <What about the Dataset?>`_.
+* **Item #1**. `Dataset selection <:ref:What about the Dataset?>`_.
 * **Item #2**. `Fields selection <What are the Fields?>`_.
 * **Item #3**. `Optional Filters <What are Filters?>`_.
 * **Item #4**. Gene Carts selection, for searching within their content. (optional)
