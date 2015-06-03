@@ -85,12 +85,12 @@ How to read the table of annotated genomic objects ?
 What is the Matrix ?
 --------------------
 
-For a given genome several gene Matrices can be built for gene detection. You can select a given matrix be using the Matrix menu located below the genomic map. Then click on View: the Coding prediction curves are updated.
+For a given genome several gene Matrices can be built for gene detection. You can select a given matrix be using the **Matrix** menu located below the genomic map. Then click on **View**: the Coding prediction curves are updated.
 
 How to access a gene’s information ?
 ------------------------------------
 
-* 1) Enter a specific gene name or gene label into the right-most edit button below the genomic map, then click on Getinfo (opens an editable Genomic Object annotation window)
+* 1) Enter a specific gene name or gene label into the right-most edit button below the genomic map, then click on **Getinfo** (opens an editable Genomic Object annotation window)
 * 2) Click on a gene label in the table annotation editor (read-only window)
 * 3) Click directly on a genomic object in the genomic map (editable annotation window)
 
@@ -107,7 +107,7 @@ How to use the "Export to Gene Cart" button ?
 
 The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart. 
 If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data. 
-You can access to your gene carts via the `Gene Cart Interface <../userpanel/genesbasket.html>`.
+You can access to your gene carts via the `Gene Cart Interface <../userpanel/genesbasket.html>`_ .
 
 Can I create a new genomic object ?
 -----------------------------------
@@ -165,14 +165,14 @@ What is a synteny ?
 
 * Synteny: Orthologous gene set having the same local organization in species A and in species B.
 * Synton: Maximal set of orthologous gene pairs displaying a conserved organization.
-* Conserved Organization: Relative location of orthologous genes on compared genomes : permutations - insertions/deletions.
+* Conserved Organization: Relative location of orthologous genes on compared genomes : *permutations - insertions/deletions*.
 
 .. image:: img/img7.png
 
 **Synteny computation algorithm is relying on 2 kinds of relations**:
 
 * Inter-genomic : Nature of the relationship (similarity, functional class, etc) and ‘correspondence’ between genes (BBH, 1-n relation)
-* Intra-genomic : Gene ‘co-localisation’ (with a ‘gap’ parameter).
+* Intra-genomic : Gene ‘*co-localisation*’ (with a ‘*gap*’ parameter).
 
 **Correspondence relationships are**:
 
@@ -232,7 +232,7 @@ The color of the block corresponds to species percentage which have a synteny wi
 How to zoom in on a synteny group ?
 -----------------------------------
 
-If you click on a synteny group, it opens a popup synton visualization window which shows a more detailled view of the syntenies.
+If you click on a synteny group, it opens a popup *synton visualization window* which shows a more detailled view of the syntenies.
 
 * **Representation by pairs of genomes**
 

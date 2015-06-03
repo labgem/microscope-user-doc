@@ -245,7 +245,7 @@ What are the different "Localization" categories?
 How to use the "Class" field?
 -----------------------------
 
-The **Class** annotation categories are useful for assigning a "confidence level" to each gene annotation. It has been inspired by the "protein name confidence" defined in **PseudoCAP** (Pseudomonas aeruginosa community annotation project).
+The **Class** annotation categories are useful for assigning a "confidence level" to each gene annotation. It has been inspired by the "protein name confidence" defined in `PseudoCAP <http://www.pseudomonas.com/>`_ (Pseudomonas aeruginosa community annotation project).
 
 This information is not given by the automatic functional annotation procedure, except in case of functional annotation transfer from a genome being annotated with MaGe.
 
@@ -499,7 +499,7 @@ This dataset contains the list of genes of the genome that have an identity > 25
 E. coli K12
 ===========
 
-This menu indicates the best BLAST hit for the current Genomic Object against the genome of Escherichia coli K12, if any.
+This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli K12*, if any.
 
 This dataset is a useful reference since E. coli is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
 
@@ -511,7 +511,7 @@ This dataset is a useful reference since E. coli is a very well known bacteria, 
 B. subtilis
 ===========
 
-This menu indicates the best BLAST hit for the current Genomic Object against the genome of Bacillus subtilis, if any.
+This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Bacillus subtilis*, if any.
 
 This dataset is a useful reference since B. subtilis is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
 
@@ -537,11 +537,11 @@ How to read the result table?
 * **Gene**: Gene name of the genomic object
 * **Product**: Product description of the protein
 * **maxLrap**: see :ref:`BLAST results`
-* **minLrap**: see BLAST results
+* **minLrap**: see :ref:`BLAST results`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see BLAST results
-* **OrderB** :see BLAST results
+* **OrderQ**: see :ref:`BLAST results`
+* **OrderB** :see :ref:`BLAST results`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length the studied protein
@@ -561,16 +561,16 @@ How to read the result table?
 -----------------------------
 
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
-* **Synteny**: If you click on the magnyfying glass, it opens a synton visualisation window
+* **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window
 * **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
 * **Gene**: Gene name of the protein
 * **Product**: Product description of the protein
-* **maxLrap**: see BLAST results
-* **minLrap**: see BLAST results
+* **maxLrap**: see :ref:`BLAST results`
+* **minLrap**: see :ref:`BLAST results`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see BLAST results
-* **OrderB**: see BLAST results
+* **OrderQ**: see :ref:`BLAST results`
+* **OrderB**: see :ref:`BLAST results`
 * **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
@@ -609,12 +609,12 @@ How to read the result table
 * **Label**: Label of the database protein. If you click on the label, you can access the Gene annotation window (Syntonome) or to the corresponding NCBI entry (Syntonome RefSeq)
 * **Gene**: Gene name of the database protein
 * **Product**: Product description of the database protein
-* **maxLrap**: see BLAST results
-* **minLrap**: see BLAST results
+* **maxLrap**: see :ref:`BLAST results`
+* **minLrap**: see :ref:`BLAST results`
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**:see BLAST results
-* **OrderB**:see BLAST results
+* **OrderQ**:see :ref:`BLAST results`
+* **OrderB**:see :ref:`BLAST results`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein

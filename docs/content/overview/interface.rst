@@ -147,7 +147,7 @@ What about the old *Viewer* interface ?
  
 .. image:: img/img9.png
  
-The corresponding tools are available by following this path in the `new interface <../overview/interface.html>` :
+The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`_ :
  
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
@@ -207,7 +207,7 @@ What about the old *Explore* interface?
 
 .. image:: img/img13.png
 
-The corresponding tools are available by following this path in the `new interface <../overview/interface.html>` :
+The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`_ :
 
 +---------------+-----------------------------+-------------------------------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                             NEW INTERFACE                                                         |

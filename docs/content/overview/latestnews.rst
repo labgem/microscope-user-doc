@@ -6,7 +6,7 @@ Latest news
 How to be advised about MicroScope latest news?
 -----------------------------------------------
 
-As soon as we release a new version of the Platform (new features, improvements), or if LABGeM team needs to communicate some general information about the platform, an article will be added in the «Latest News» panel, available from the **platform’s homepage**.
+As soon as we release a new version of the Platform (new features, improvements), or if LABGeM team needs to communicate some general information about the platform, an article will be added in the «Latest News» panel, available from the `platform’s homepage <http://www.genoscope.cns.fr/agc/microscope/home/index.php>`_.
 
 .. image:: img/img14.png
 
