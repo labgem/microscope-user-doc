@@ -64,6 +64,7 @@ Choose your own selection of **PkGDB Organisms** displayed in the `Synteny Maps 
 The default selection is calculated during the sequence integration process, by considering the best synteny correspondences with the reference genome and taking the 10 best results.
 
 * **NCBI RefSeq Organisms: Synteny map selection**
+
 Choose your own selection of **RefSeq Organisms** displayed in the `Synteny Maps <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#syntenies>`_.
 
 The default selection is calculated during the sequence integration process, by considering the best synteny correspondences with the reference genome and taking the 10 best results.
