@@ -150,8 +150,7 @@ Integrative Genomics Browser
 
 Integrative Genomics Browser (IGV) is a third party software that enables the visualization of the coverage of the reference genome by transcripts and to qualitatively compare coverage for various experimental conditions. 
 
-First, click on “*Launch IGV*” button : users can use this one from the `RNA-Seq homepage <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#overview>`_ or from `Read Count <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#read-count-analysis>`_ and `DESeq Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#differential-expression-analysis. 
-`_ pages.
+First, click on “*Launch IGV*” button : users can use this one from the `RNA-Seq homepage <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#overview>`_ or from `Read Count <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#read-count-analysis>`_ and `DESeq Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#differential-expression-analysis>`_ pages.
 
 The first window appears with a lower part already displaying the annotations of the reference genome (see below).
 

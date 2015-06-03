@@ -95,6 +95,7 @@ You have one table of results for each reference sequence selected. Each result 
 **B**. In the right part of the table, **mutations are described according to the displayed characteristics chosen by you and allocated to the clones they belong to**.
 
 	* Whatever the displayed characteristics chosen, you will have access to a full mutation description if you mouseover a mutation: Mutation type | [SNP type] | Nuc. change | [Nuc. change effect] | [Codon change] | [AA change] | [AA change effect] | Numerical score | Fractional score | Sequencing technology | Read type | Source 
+	
 Fields in brackets are specified for SNP events only.
 
 		* *Mutation type*: ’SNP’, ’insertion’ or ’deletion’.

@@ -45,6 +45,7 @@ How the analysis is computed?
 		Reference: `Miele V, Penel S, Duret L. Ultra-fast sequence clustering from similarity networks with SiLiX. BMC Bioinformatics. 2011 Apr 22;12:116. <http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3095554/>`_
 
 	* **MICFAM parameters**: 
+	
 	Two sets of alignment constraints are defined to compute the MICFAM families :
 	
 		* **80/80**: 80% amino-acid identity, 80% amino-acid alignment coverage (stringent parameter)
@@ -54,20 +55,24 @@ How the analysis is computed?
 - **Pan-genome analysis method**
 
 	* The pan-genome analysis is computed using these **MICFAM**:
+		
 		* If a MICFAM is associated with at least one gene from every compared genomes: this MICFAM is a part of the **core-genome**.
 		* If a MICFAM is associated with [1;n[ compared genomes : It is a part of the variable-genome.
 		* If a gene is not clustered in a MICFAM, it is a **singleton** and is a part of the variable-genome.
 		* And the pan-genome represents the core-genome and variable-genome sum.
 	
 	* **Counting methods**: 
+	
 	For the family count, the MICFAM weight is 1. 
 	For the gene count, the MICFAM weight is the number of genes of the analyzed organisms clustered in this MICFAM. 
 	For singletons, the weight is 1 in every case.
 
 	* **Artefact families**: 
+	
 	CDS flagged as artefacts are not taking into account in the computation. Moreover, if an artefact CDS is a member of a MICFAM, the artefact information is propagated in the whole MICFAM (tagged as "artefact family"). Thus, this MICFAM is not considered for the analysis.
 
 	* **Exclusion of another pan/core/variable-genome**: 
+	
 	In the case of exclusion, gene families of the excluded component (pan/core/variable-genome of an excluded set) are compared with families computed from analyzed organisms. Common gene families are removed of the analysis. Some singletons can also be removed if some excluded organisms are in the analyzed set too (with exclusion of their pan-genome or variable-genome).
 
 
