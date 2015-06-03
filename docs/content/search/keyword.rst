@@ -21,8 +21,8 @@ How to read the interface?
 * **Item #2**. `Fields selection <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-are-the-fields>`_.
 * **Item #3**. `Optional Filters <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-are-filters>`_.
 * **Item #4**. Gene Carts selection, for searching within their content. (optional)
-* **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
-* **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).
+* **Item #5**. Words you want to match (options: *All the words / At least one word / Exact phrase*).
+* **Item #6**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
 * **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
 	
 * The Multiple Mode
@@ -71,9 +71,9 @@ The common dataset are these ones:
 * **SwissProt EXP**: will return genes of your selected sequence matching UniProtKB/SwissProt entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **SwissProt** dataset.
 * **TrEMBL**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints). UniProtKB/TrEMBL (unreviewed) contains protein sequences associated with computationally generated annotation and large-scale functional characterization.
 * **TrEMBL EXP**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **TrEMBL** dataset.
-* **PRIAM EC Prediction**: will return genes of your selected sequence having **PRIAM** results.
-* **COG**: will return genes of your selected sequence involved in a **COG** (Clusters of Orthologous Groups of proteins).
-* **FigFam results**: will return genes of your selected sequence associated with **FigFam** results.
+* **PRIAM EC Prediction**: will return genes of your selected sequence having `PRIAM <http://priam.prabi.fr/>`_ results.
+* **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
+* **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
 * **TIGRFams**:
 * **InterPro**:
 * **KEGG Pathways**:
@@ -137,7 +137,7 @@ How to perform a search
 
 	* **7**. Click on the **SEARCH** button.
 	* **8**. Browse the results. Matched keywords will be highlighted in yellow.
-	* **9**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <../userpanel/genesbasket.html>`_.
+	* **9**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_.
 	
 * **Multiple Mode**
 
@@ -154,7 +154,7 @@ How to perform a search
 
 	* **6**. Click on the **SEARCH** button.
 	* **7**. Browse the results. Matched keywords will be highlighted in yellow.
-	* **8**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <../userpanel/genesbasket.html>`_.
+	* **8**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_.
 	
 	
 How to refine a search?

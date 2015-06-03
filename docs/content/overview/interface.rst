@@ -27,7 +27,7 @@ How to use the Main Navigation Menu?
 
 Fill the *username* and *password* fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project. Furthermore, you may have annotation rights on certain sequences (if defined in your account parameters).
 
-.. tip:: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own `Account & Right Management <../userpanel/rightsmanagement.html>`_ interface in order to open your account.
+.. tip:: Considering the account creation: **we will create new accounts only following requests from project leaders**. Please ask your project leader to use his own `Account & Right Management <http://microscope.readthedocs.org/en/latest/content/userpanel/rightsmanagement.html>`_ interface in order to open your account.
 
 
 * **Item #2. Reference Sequence selection menu:** 
@@ -152,7 +152,7 @@ What about the old *Viewer* interface ?
  
 .. image:: img/img9.png
  
-The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`_ :
+The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ :
  
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
@@ -182,7 +182,7 @@ What about the old *Genome Overview* interface?
 
 .. image:: img/img12.png
 
-The corresponding tools are available by following this path in the `new interface <../overview/interface.html>` :
+The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>` :
 
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
@@ -212,7 +212,7 @@ What about the old *Explore* interface?
 
 .. image:: img/img13.png
 
-The corresponding tools are available by following this path in the `new interface <../overview/interface.html>`_ :
+The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ :
 
 +---------------+-----------------------------+-------------------------------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                             NEW INTERFACE                                                         |

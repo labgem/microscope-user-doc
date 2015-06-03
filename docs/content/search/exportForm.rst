@@ -6,7 +6,7 @@ This tool allows to retrieve from a specific organism data stored in PkGDB : com
 
 These information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, XML, Tab delimited). Moreover, data on role categories used in MicroScope, and/or MicroCyc metabolic Pathway/Genome database (PGDBs) can be downloaded too.
 
-First, select a reference replicon from the `CHANGE button (Item #2) <../overview/interface.html>_` available in the top right corner of the interface. Or select an organism from your `Favourite Organisms <../userpanel/favourites.html>`_ selection.
+First, select a reference replicon from the `CHANGE button (Item #2) <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>_` available in the top right corner of the interface. Or select an organism from your `Favourite Organisms <http://microscope.readthedocs.org/en/latest/content/userpanel/favourites.html>`_ selection.
 
 
 FASTA (http://www.ncbi.nlm.nih.gov/blast/fasta.shtml)
@@ -26,7 +26,7 @@ XML (http://en.wikipedia.org/wiki/XML)
 
 Export:
 
-* Region: corresponds to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Region: corresponds to the region where the `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ is centered.
 * (complete) Genome
 
 
@@ -35,7 +35,7 @@ GENBANK (http://www.ncbi.nlm.nih.gov/genbank/)
 
 Export:
 
-* Region: corresponds to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Region: corresponds to the region where the `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ is centered.
 * (complete) Genome
 
 
@@ -44,7 +44,7 @@ EMBL (http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html)
 
 Export:
 
-* Region: corresponds to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Region: corresponds to the region where the `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ is centered.
 * (complete) Genome
 
 
@@ -53,7 +53,7 @@ Tab(ulation) Delimited (http://en.wikipedia.org/wiki/Delimiter-separated_values)
 
 Useful for exporting data into a spreadsheet. Export:
 
-* Region: corresponds to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Region: corresponds to the region where the `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ is centered.
 * (complete) Genome
 
 
@@ -62,7 +62,7 @@ Feature Table (http://www.ncbi.nlm.nih.gov/Sequin/table.html)
 
 Export:
 
-* Region: corresponds to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Region: corresponds to the region where the `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ is centered.
 * (complete) Genome
 
 

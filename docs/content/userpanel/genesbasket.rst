@@ -188,10 +188,10 @@ Some MicroScope’s tools allow the possibility to save Genomic Objects into a G
 
 These tools are:
 
-* `Genome Browser <../mage/viewer.html>`_
-* `Genes Phyloprofile <../compgenomics/phyloprofil.html>`_
-* `Search by Keywords <../search/keyword.html>`_
-* `Evolution Projects Results <../expdata/NGSProjectEvo.html>`_
+* `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_
+* `Genes Phyloprofile <http://microscope.readthedocs.org/en/latest/content/compgenomics/phyloprofil.html>`_
+* `Search by Keywords <http://microscope.readthedocs.org/en/latest/content/search/keyword.html>`_
+* `Evolution Projects Results <http://microscope.readthedocs.org/en/latest/content/expdata/NGSProjectEvo.html>`_
 
 Overall, check for the availability of a **EXPORT TO GENE** CART button above a Genomic Objects list.
 

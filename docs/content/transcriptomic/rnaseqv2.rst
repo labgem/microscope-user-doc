@@ -48,8 +48,8 @@ As usual, results are reported in a table which is composed of 3 main sections (
 
 * **1**. Export functions. This section allows users to make all genes (or subsets of genes) available for other analysis tools. 3 main operations are possible here:
 
-	* select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <../userpanel/genesbasket.html>`_ by using the “*Export To Gene Cart*” button.
-	* See one selected gene into the `MaGe Genome Browser <../mage/viewer.html>`_ by clicking on the magnifying glass.
+	* select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ by using the “*Export To Gene Cart*” button.
+	* See one selected gene into the `MaGe Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ by clicking on the magnifying glass.
 * **2**. The second part reports the main genomic object features : Label (Link to more Genomic Object information), Type, Name, Product, Begin, End, Length, Frame.
 * **3**. RNA-Seq Result part : Read count (direct and/or reverse)
 
@@ -86,8 +86,8 @@ How to read the table of results?
 
 * **1**. Export functions. This section allows users to make all genes (or subsets of genes) available for other analysis tools. 3 main operations are possible here:
 
-	* Select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <../userpanel/genesbasket.html>`_ by using the “Export To Gene Cart” button.
-	* See one selected gene into the `MaGe Genome Browser <../mage/viewer.html>`_ by clicking on the magnifying glass.
+	* Select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ by using the “Export To Gene Cart” button.
+	* See one selected gene into the `MaGe Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ by clicking on the magnifying glass.
 	* Direct link to the selected gene in Integrative Genome Viewer.
 	* Direct link to MeV.
 	* Direct link to MicroCyC.
