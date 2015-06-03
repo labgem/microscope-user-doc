@@ -229,7 +229,7 @@ And to detect potential hot spots of mutations.
 How to use this tool?
 ---------------------
 
-This tool is based on the Java applet **CGView**.
+This tool is based on the Java applet `CG View <../genomic/cgview.html>`.
 
 .. image:: img/evo11.png
 

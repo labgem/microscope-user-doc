@@ -17,9 +17,9 @@ How to read the interface?
 
 .. image:: img/key1.png
 
-* **Item #1**. `Dataset selection <:ref:What about the Dataset?>`_.
-* **Item #2**. `Fields selection <What are the Fields?>`_.
-* **Item #3**. `Optional Filters <What are Filters?>`_.
+* **Item #1**. `Dataset selection <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-about-the-dataset>`_.
+* **Item #2**. `Fields selection <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-are-the-fields>`_.
+* **Item #3**. `Optional Filters <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-are-filters>`_.
 * **Item #4**. Gene Carts selection, for searching within their content. (optional)
 * **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
 * **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).
@@ -66,7 +66,7 @@ The common dataset are these ones:
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
 * **CHP in Synteny**: will return genes of your selected sequence annotated as Conserved Hypothetical Protein and involved in a synteny.
-* **HAMAP SwissProt**: will return genes of your selected sequence matching an HAMAP ( High-quality Automated and Manual Annotation of microbial Proteomes ) family.
+* **HAMAP SwissProt**: will return genes of your selected sequence matching an `HAMAP <http://hamap.expasy.org/>`_ ( High-quality Automated and Manual Annotation of microbial Proteomes ) family.
 * **SwissProt**: will return genes of your selected sequence matching UniProtKB/SwissProt entries (by using alignments constraints). UniProtKB/Swiss-Prot (reviewed) is a high quality manually annotated and non-redundant protein sequence database, which brings together experimental results, computed features and scientific conclusions.
 * **SwissProt EXP**: will return genes of your selected sequence matching UniProtKB/SwissProt entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **SwissProt** dataset.
 * **TrEMBL**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints). UniProtKB/TrEMBL (unreviewed) contains protein sequences associated with computationally generated annotation and large-scale functional characterization.
@@ -108,14 +108,14 @@ How to read the With / Without keyword fields and their options?
 
 * **WITH field**: Fill the textarea with the keyword(s) you’re looking for. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will be displayed as result(s). 3 options are available:
 
-	* **All of the words**: All of the keywords filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
-	* **At least one word**: At least one of the keywords filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
-	* **Exact phrase**: The system will look for the keywords or the sentence, with an exact syntax, into the data contained in the Field(s) selection. This option is very selective.
+	* **All of the words**: *All of the keywords* filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
+	* **At least one word**: *At least one of the keywords* filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
+	* **Exact phrase**: The system will look for the keywords or the sentence, *with an exact syntax*, into the data contained in the Field(s) selection. This option is very selective.
 	
-* **WITHOUT field**: Fill the textarea with the keyword(s) you want to exclude from the potential results. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will **NOT** be displayed as result(s). 3 options are available:
-	* **All of the words**: if all of the keywords filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
-	* **At least one word**: if at least one of the keywords filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
-	* **Exact phrase**: if the keywords or the sentence, with an exact syntax, match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+* **WITHOUT field**: Fill the textarea with the keyword(s) you want to *exclude* from the potential results. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will **NOT** be displayed as result(s). 3 options are available:
+	* **All of the words**: if *all of the keywords* filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	* **At least one word**: if *at least one of the keywords* filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	* **Exact phrase**: if the keywords or the sentence, *with an exact syntax*, match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
 	
 	
 How to perform a search
@@ -123,38 +123,38 @@ How to perform a search
 
 * **Single Mode**
 
-	* **1**. Select the reference replicon you want to explore (**Item #7**)
-	* **2**. Select eventually one or more Gene(s) Cart(s) (**Item #4**, optional).
+	* **1**. Select the reference replicon you want to explore (`Item #7 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_)
+	* **2**. Select eventually one or more Gene(s) Cart(s) (`Item #4 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional).
 	
 .. note:: If you select some Gene Carts, two constraints will be applied: the reference sequence previously selected AND the Gene Carts content. This means that if you select Acinetobacter baylyi ADP1 as reference sequence and then select some Gene Carts, the search will be performed on the Genomic Objects 1) contained in the Gene Cart(s) AND 2) belonging to Acinetobacter baylyi ADP1. If some of your Gene Carts contain Genomic Objects that do not belong to Acinetobacter baylyi ADP1, the search process will ignore them.
 
-	* **3**. Select one or more Datase(s) of interest (Item #1). If you select more than one Dataset, the Fields select menu will be unavailable.
-	* **4**. Eventually, restrict the Fields to a specific selection (Item #2, optional). By default, select all of the Fields.
-	* **5**. Eventually, specify your own Filters values (Item #3, optional). By default, leave the fields empty. If you select several Dataset, only the common Filters to these Dataset will be available.
-	* **6**. Fill the **With** (**Item #6**) or **Without** (**Item #5**) keywords fields.
+	* **3**. Select one or more Datase(s) of interest (`Item #1 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_). If you select more than one Dataset, the Fields select menu will be unavailable.
+	* **4**. Eventually, restrict the Fields to a specific selection (`Item #2 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, select all of the Fields.
+	* **5**. Eventually, specify your own Filters values (`Item #3 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, leave the fields empty. If you select several Dataset, only the common Filters to these Dataset will be available.
+	* **6**. Fill the **With** (`Item #6 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) or **Without** (`Item #5 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) keywords fields.
 
 .. note:: To perform a search, you need to fill at least one of these fields: **With**, **Without**, and / or **Filters**
 
 	* **7**. Click on the **SEARCH** button.
 	* **8**. Browse the results. Matched keywords will be highlighted in yellow.
-	* **9**. Eventually, proceed to a Refined Search from the previous results, or export the results into a Gene Cart.
+	* **9**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <../userpanel/genesbasket.html>`_.
 	
 * **Multiple Mode**
 
-	* **1**. Select one or more reference replicon(s) you want to explore (Item #7) **OR** select one or more Gene(s) Cart(s) (Item #4, optional).
+	* **1**. Select one or more reference replicon(s) you want to explore (`Item #7 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) **OR** select one or more Gene(s) Cart(s) (`Item #4 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional).
 
 .. note:: Unlike the Single Mode, the Multiple Mode allows the user to perform a search within several replicons at a time. This means that you should use the Multiple Mode if you want to perform a search within a Gene Cart containing Genomic Objects from different organisms.
 
-	* **2**. Select the Dataset of interest (Item #1) (only one Dataset at a time in this mode).
-	* **3**. Eventually, restrict the Fields to a specific selection (Item #2, optional). By default, select all of the Fields.
-	* **4**. Eventually, specify your own Filters values (Item #3, optional). By default, leave the fields empty.
-	* **5**. Fill the With (Item #6) or Without (Item #5) keywords fields.
+	* **2**. Select the Dataset of interest (`Item #1 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) (only one Dataset at a time in this mode).
+	* **3**. Eventually, restrict the Fields to a specific selection (`Item #2 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, select all of the Fields.
+	* **4**. Eventually, specify your own Filters values (`Item #3 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, leave the fields empty.
+	* **5**. Fill the With (`Item #6 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) or Without (`Item #5 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) keywords fields.
 	
 .. note:: To perform a search, you need to fill at least one of these fields: **With**, **Without**, and / or **Filters**
 
 	* **6**. Click on the **SEARCH** button.
 	* **7**. Browse the results. Matched keywords will be highlighted in yellow.
-	* **8**. Eventually, proceed to a Refined Search from the previous results, or export the results into a Gene Cart.
+	* **8**. Eventually, proceed to a Refined Search from the previous results, or `export the results into a Gene Cart <../userpanel/genesbasket.html>`_.
 	
 	
 How to refine a search?

@@ -16,12 +16,12 @@ RNA-Seq homepage displays the list of available projects.
 By Clicking on the arrow available on the left of each project, user can expand the associated experiment(s). 
 Users can choose to select the whole project or pick up one specific experiment by using radio buttons. 
 
-Selecting a whole project will allow the user to use *Integrative Genomics Viewer* tool (IGV - http://www.broadinstitute.org/igv/), whereas choosing a specific experiment will open the access to more functionalities:
+Selecting a whole project will allow the user to use `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#integrative-genomics-browser>`_ tool (IGV - http://www.broadinstitute.org/igv/), whereas choosing a specific experiment will open the access to more functionalities:
 
 * Overview tool (**Item #1**)
-* Read Count Analysis (**Item #2**)
-* Differential Expression Analysis (**Item #3**)
-* Integrative Genomics Viewer (**Item #4**)
+* `Read Count Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#read-count-analysis>`_  (**Item #2**)
+* `Differential Expression Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#differential-expression-analysis>`_  (**Item #3**)
+* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#integrative-genomics-browser>`_ (**Item #4**)
 
 
 Overviewing RNA-Seq experiments results
@@ -68,8 +68,8 @@ As usual, results are reported in a table which is composed of 3 main sections (
 
 * **1**. Export functions. This section allows users to make all genes (or subsets of genes) available for other analysis tools. 3 main operations are possible here:
 
-	* select subsets of genes (by selecting checkboxes on the first column) and export them into a Gene Cart by using the “Export To Gene Cart” button.
-	* See one selected gene into the MaGe Genome Browser by clicking on the magnifying glass.
+	* select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <../userpanel/genesbasket.html>`_ by using the “*Export To Gene Cart*” button.
+	* See one selected gene into the `MaGe Genome Browser <../mage/viewer.html>`_ by clicking on the magnifying glass.
 	* Direct link to the selected gene in Integrative Genome Viewer.
 	
 * **2**. The second part reports the main genomic object features : Label (Link to more Genomic Object information), Type, Name, Product, Begin, End, Length, Frame.
@@ -105,8 +105,8 @@ How to read the table of results?
 
 * **1**. Export functions. This section allows users to make all genes (or subsets of genes) available for other analysis tools. 3 main operations are possible here:
 
-	* select subsets of genes (by selecting checkboxes on the first column) and export them into a Gene Cart by using the “Export To Gene Cart” button.
-	* See one selected gene into the MaGe Genome Browser by clicking on the magnifying glass.
+	* select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <../userpanel/genesbasket.html>`_ by using the “Export To Gene Cart” button.
+	* See one selected gene into the `MaGe Genome Browser <../mage/viewer.html>`_ by clicking on the magnifying glass.
 	* Direct link to the selected gene in Integrative Genome Viewer.
 	
 * **2**. The second part reports the main genomic object features : Label (Link to more Genomic Object information), Type, Name, Product, Begin, End, Length, Frame.
@@ -150,7 +150,8 @@ Integrative Genomics Browser
 
 Integrative Genomics Browser (IGV) is a third party software that enables the visualization of the coverage of the reference genome by transcripts and to qualitatively compare coverage for various experimental conditions. 
 
-First, click on “Launch IGV” button : users can use this one from the RNA-Seq homepage or from Read Count and DESeq Analysis pages. 
+First, click on “*Launch IGV*” button : users can use this one from the `RNA-Seq homepage <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#overview>`_ or from `Read Count <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#read-count-analysis>`_ and `DESeq Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#differential-expression-analysis. 
+`_ pages.
 
 The first window appears with a lower part already displaying the annotations of the reference genome (see below).
 
