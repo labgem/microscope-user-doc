@@ -609,12 +609,12 @@ How to read the result table
 * **Label**: Label of the database protein. If you click on the label, you can access the Gene annotation window (Syntonome) or to the corresponding NCBI entry (Syntonome RefSeq)
 * **Gene**: Gene name of the database protein
 * **Product**: Product description of the database protein
-* **maxLrap**: see :ref:`BLAST results`
-* **minLrap**: see :ref:`BLAST results`
+* **maxLrap**: see `BLAST results`_
+* **minLrap**: see `BLAST results`_
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see :ref:`BLAST results`
-* **OrderB**: see :ref:`BLAST results`
+* **OrderQ**: see `BLAST results`_
+* **OrderB**: see `BLAST results`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
