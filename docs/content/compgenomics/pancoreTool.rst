@@ -162,7 +162,7 @@ How about figures?
 .. image:: img/pancore5.png
 
 These graphs allow the users to visualize the core-genome and pan-genome sizes evolutions according to the number of genomes considered in the selected genome set. 
-The last values correspond respectively to the core-genome and the pan-genome sizes. Other values are depicted by boxplots to represent all or a subset of value combinations. (for example : There is 12 combinations of 1 genome in a 12 genomes selection) 
+The last values correspond respectively to the core-genome and the pan-genome sizes. Other values are depicted by `boxplots <http://en.wikipedia.org/wiki/Box_plot>`_ to represent all or a subset of value combinations. (for example : There is 12 combinations of 1 genome in a 12 genomes selection) 
 
 With **more than 10 selected genomes**, approximately 1000 combinations are sampled within the total combination distribution (proportional stratified random sampling without replacement) to limit the combinatorial explosion. 
 

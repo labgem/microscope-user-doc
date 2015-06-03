@@ -62,7 +62,7 @@ Results : circular view
 	* **black**: predicted RGPs. Note that the RGP posititions are the extension of the comparisons between the suery sequence and all the compared organisms.
 	* **purple**: SIGI-HMM results.
 	* **blue**: Alien Hunter/IVOM results.
-	* **gray**: specific regions are particular RGP(region absent from *ALL* the compared organisms.
+	* **gray**: specific regions are particular RGP (region absent from **ALL** the compared organisms.)
 	
 	
 Results : RGP description

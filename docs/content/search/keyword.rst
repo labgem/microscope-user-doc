@@ -17,9 +17,9 @@ How to read the interface?
 
 .. image:: img/key1.png
 
-* **Item #1**. Dataset selection.
-* **Item #2**. Fields selection.
-* **Item #3**. optional Filters.
+* **Item #1**. `Dataset selection <What about the Dataset?>`_.
+* **Item #2**. `Fields selection <What are the Fields?>`_.
+* **Item #3**. `Optional Filters <What are Filters?>`_.
 * **Item #4**. Gene Carts selection, for searching within their content. (optional)
 * **Item #5**. Words you want to match (options: All the words / At least one word / Exact phrase).
 * **Item #6**. Words you don’t want to match (options: All the words / At least one word / Exact phrase).

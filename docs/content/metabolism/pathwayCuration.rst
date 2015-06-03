@@ -15,7 +15,7 @@ This tool presents a list of predicted MicroCyc pathways in a given organism, co
 
 The current state of curation is resumed at the top of the page **(1)**.
 
-It is also possible to add a new MetaCyc pathway in the organism if this one is not predicted by the BioCyc pathologic algorithm **(2)**.
+It is also possible to add a new `MetaCyc <http://metacyc.org/>`_ pathway in the organism if this one is not predicted by the `BioCyc pathologic algorithm <https://www.genoscope.cns.fr/agc/website/spip.php?article739>`_ **(2)**.
 
 .. image:: img/cur1.png
 
@@ -37,7 +37,7 @@ How to read the result table?
 
 	**5** : number of reactions in the pathway (excluding spontaneous reactions)
 
-* Above the table, an option allows users to display pathways using or not the MetaCyc hierarchy.
+* Above the table, an option allows users to display pathways using or not the MetaCyc `hierarchy <http://metacyc.org/META/class-tree?object=Pathways>`_.
 
 
 What are the different curation statuses?
@@ -51,7 +51,7 @@ The different statuses are:
 
 * **predicted**: Predicted by the BioCyc pathologic algorithm (default one).
 * **validated**: Curated as a functional pathway (all the reactions of the pathway are supposed to exist in the organism).
-* **variant needed**: The predicted pathway is not completely correct for the organism (i.e. some reactions may not be present in the organism but no better pathway definition exists in MetaCyc). Thus, a new pathway variant definition is needed.
+* **variant needed**: The predicted pathway is not completely correct for the organism (i.e. some reactions may not be present in the organism but no better pathway definition exists in `MetaCyc <http://metacyc.org/>`_). Thus, a new pathway variant definition is needed.
 * **unknown**: Not enough evidence to declare the pathway as functional (i.e. validated status).
 * **non-functionnal**: The pathway has been lost in the organism and is no more functional (i.e. due to gene loss or pseudogenisation events).
 * **deleted**: Curated as a false positive prediction.
@@ -66,7 +66,7 @@ The pathway status can be modified using the buttons "validate", "variant needed
 
 .. image:: img/cur4.png
 
-Moreover, it is possible to add a MetaCyc pathway which has not been predicted by using a keyword search tool.
+Moreover, it is possible to add a `MetaCyc <http://metacyc.org/>`_ pathway which has not been predicted by using a keyword search tool.
 
 .. image:: img/cur5.png
 
