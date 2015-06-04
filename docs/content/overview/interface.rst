@@ -105,7 +105,7 @@ Each result table provides buttons called *Copy* and *CSV*.
 
 .. image:: img/img6.png
 
-This will copy to clipboard the data below::
+This will copy to clipboard the data below:
 
 .. note:: Sequence	Label	Type	Gene	Begin	End	Length	Frame	Product	Matrix	Evidence	AMIGene Status	GC Content	GC3 Content	CAI	Mw (Da)	pI	History 
 
