@@ -6,7 +6,7 @@ Login
 How to login?
 -------------
 
-After your account has been created, you will receive an automated message from LABGeM containing the required login information:
+After your account has been created, you will receive an automated message from LABGeM containing the required login information
 
 .. note:: Dear annotator,
  	
