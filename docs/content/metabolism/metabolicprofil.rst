@@ -44,6 +44,7 @@ How to read the result table?
 * 1) Different Organisms chosen.
 * 2) Metabolic Pathways of interest.
 * 3) Completion of the pathway in this organism.
+
 	* the « reaction number » column show the number of reactions forming the complete metabolic pathway.
 	* cliking on the completion number open the BioCyc or KEGG metabolic map for this organism.
 	

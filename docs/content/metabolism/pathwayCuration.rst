@@ -15,7 +15,7 @@ This tool presents a list of predicted MicroCyc pathways in a given organism, co
 
 The current state of curation is resumed at the top of the page **(1)**.
 
-It is also possible to add a new `MetaCyc <http://metacyc.org/>`_ pathway in the organism if this one is not predicted by the `BioCyc pathologic algorithm <https://www.genoscope.cns.fr/agc/website/spip.php?article739>`_ **(2)**.
+It is also possible to add a new `MetaCyc <http://metacyc.org/>`_ pathway in the organism if this one is not predicted by the `BioCyc pathologic algorithm <http://biocyc.org/intro.shtml#pathologic>`_ **(2)**.
 
 .. image:: img/cur1.png
 

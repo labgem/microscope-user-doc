@@ -56,7 +56,7 @@ Results : circular view
 	* **Predicted SIGI Regions table**: display SIGI-HMM predicted regions table.
 	* **Predicted IVOM Regions table**: display Alien Hunter/IVOM regions table.
 	
-* item D: Circular view legend.
+* **item D**: Circular view legend.
 
 	* **pink**: tRNA positions.
 	* **black**: predicted RGPs. Note that the RGP posititions are the extension of the comparisons between the suery sequence and all the compared organisms.
@@ -91,7 +91,7 @@ Results : RGP description
 	* **SIGI Label**: SIGI region label component.
 	* **IVOM Label**: Alien Hunter/IVOM label component.
 	
-* item C :link to explore selected RGP or SIGIVOM region.
+* **item C** :link to explore selected RGP or SIGIVOM region.
 
 
 Results : RGP or SIGIVOM exploration

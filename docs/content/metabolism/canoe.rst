@@ -9,6 +9,7 @@ Introduction
 The CanOE strategy is a bioinformatics strategy set up within the MicroScope platform. It was designed in order to propose candidate genes for sequence-orphan enzymatic activities, but its results can be exploited in several more traditional bioanalysis ways.
 
 **CanOE Overview**
+
 CanOE contains four main steps.
 
 * The first step locates “genomic metabolons”, i.e. groups of co-localized genes coding proteins catalyzing reactions linked by shared metabolites, in one genome at a time. We use an adapted version of the CCCPart algorithm to do this [1].
@@ -17,6 +18,7 @@ CanOE contains four main steps.
 * In the final step, the family-based scores are used to rank members of gene families which are proposed for metabolic reactions. Full details on the inner working of the CanOE strategy may be found in its dedicated article [2].
 
 **Metabolic data used** 
+
 CanOE was designed to support the use of multiple types of metabolic data, such as KEGG [3], MetaCyc [4], Rhea [5]... Reaction and pathway data from these resources are parsed into a global metabolic network containing all known reactions, linked by biologically-relevant compounds. Details on the construction of such networks can be found in the CanOE article [2]. Currently, all available metabolons are built using a MetaCyc-based metabolic network.
 
 
