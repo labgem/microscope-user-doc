@@ -163,6 +163,7 @@ What about the old *Viewer* interface ?
 ---------------------------------------
  
 .. image:: img/img9.png
+	:width: 100%
  
 The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ :
  
@@ -193,6 +194,7 @@ What about the old *Genome Overview* interface?
 -----------------------------------------------
 
 .. image:: img/img12.png
+	:width: 100%
 
 The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>` :
 
@@ -223,6 +225,7 @@ What about the old *Explore* interface?
 ---------------------------------------
 
 .. image:: img/img13.png
+	:width: 100%
 
 The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ :
 
