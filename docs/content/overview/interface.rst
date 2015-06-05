@@ -8,9 +8,7 @@ Overview
 ========
 
 .. image:: img/img1.png
-    :width: 900px
-    :align: center
-    :height: 613px
+    :width: 100%
 
 
 ===============
