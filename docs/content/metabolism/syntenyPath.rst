@@ -24,6 +24,7 @@ How to read this table?
 -----------------------
 
 .. image:: img/path.png
+	:width: 100%
 
 * Each line of the column **Genes** list all genes and their products involved in a group of synteny with an organism of PkGDB.
 * Column **Move To** allow the visualization of this region (genes in synteny) in the Genome Browser.

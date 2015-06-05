@@ -16,6 +16,7 @@ How to read the interface?
 * **The Single Mode**:
 
 .. image:: img/key1.png
+	:width: 100%
 
 * **Item #1**. `Dataset selection <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-about-the-dataset>`_.
 * **Item #2**. `Fields selection <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#what-are-the-fields>`_.
@@ -28,6 +29,7 @@ How to read the interface?
 * The Multiple Mode
 
 .. image:: img/key2.png
+	:width: 100%
 
 
 What about the Dataset?

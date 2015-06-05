@@ -65,15 +65,18 @@ How to move Genomic Objects to another Gene Cart?
 1. Select some Genomic Objects in the Gene Cart of interest.
 
 .. image:: img/bas2.png
+	:width: 100%
 
 2. In the select menu, choose the Gene Cart where you want to copy this selection. It will be the ’destination’ Cart.
 
 .. image:: img/bas3.png
+	:width: 25%
 
 3. Click on the **MOVE SELECTION TO** button.
 4. The Genomic Objects selected in the first Cart will be deleted and moved into the ’destination’ Cart.
 
 .. image:: img/bas4.png
+	:width: 100%
 
 
 How to copy Genomic Objects to another Gene Cart?
@@ -82,15 +85,18 @@ How to copy Genomic Objects to another Gene Cart?
 1. Select some Genomic Objects in the Gene Cart of interest.
 
 .. image:: img/bas5.png
+	:width: 100%
 
 2. In the select menu, choose the Gene Cart where you want to copy this selection. It will be the ’destination’ Cart.
 
 .. image:: img/bas6.png
+	:width: 25%
 
 3. Click on the **COPY SELECTION TO** button.
 4. The Genomic Objects selected in the first Cart will be copied into the ’destination’ Cart. These Genomic Objects will remain in the first cart and won’t be deleted.
 
 .. image:: img/bas7.png
+	:width: 100%
 
 
 How to delete Genomic Objects from Gene Cart?
@@ -99,11 +105,13 @@ How to delete Genomic Objects from Gene Cart?
 1. Select some Genomic Objects in the Gene Cart of interest.
 
 .. image:: img/bas8.png
+	:width: 100%
 
 2. Click on the **DELETE SELECTION** button.
 3. The selected Genomic Objects will be deleted from the Cart. ( **Warning: the delete will be definitive and you’ll lost the genomic objects from the Cart** ).
 
 .. image:: img/bas9.png
+	:width: 100%
 
 
 How to get the intersection between 2 Gene Carts?
@@ -112,10 +120,12 @@ How to get the intersection between 2 Gene Carts?
 1. Fill **at least** 2 Gene Carts with some content.
 
 .. image:: img/bas10.png
+	:width: 100%
 
 2. In the select menu, choose the 2 Gene Carts you want to intersect. This means **you’ll get the common Genomic Objects contained in the 2 Carts**.
 
 .. image:: img/bas11.png
+	:width: 25%
 
 3. Click on the CARTS: **INTERSECT** button
 4. The intersection between the 2 Gene Carts content will be moved into a new Cart, called by default ’**INTERSECT**’. 
@@ -123,6 +133,7 @@ How to get the intersection between 2 Gene Carts?
 .. warning:: **If you need to perform another ’Intersect Operation’, do not forget to rename the Cart called ’INTERSECT’. Else, the content will be overwrited.**
 
 .. image:: img/bas12.png
+	:width: 100%
 
 
 How to get the difference between 2 Gene Carts?
@@ -131,10 +142,12 @@ How to get the difference between 2 Gene Carts?
 1. Fill **at least** 2 Gene Carts with some content.
 
 .. image:: img/bas13.png
+	:width: 100%
 
 2. In the select menu, choose the 2 Gene Carts you want to get the difference. This means **you’ll get the specific Genomic Objects of each Cart** (The common Genomic Objects will be removed).
 
 .. image:: img/bas14.png
+	:width: 25%
 
 3. Click on the **CARTS: DIFFERENCE** button.
 4. The difference between the 2 Gene Carts content will be moved into a new Cart, called by default ’**DIFFERENCE**’. 
@@ -150,10 +163,12 @@ How to merge 2 Gene Carts?
 1. Fill **at least** 2 Gene Carts with some content.
 
 .. image:: img/bas16.png
+	:width: 100%
 
 2. In the select menu, choose the 2 Gene Carts you want to merge. This means **the content of the Carts will be merged into a new one** (Doubloons will be removed).
 
 .. image:: img/bas17.png
+	:width: 25%
 
 3. Click on the **CARTS: MERGE** button.
 4. The Genomic Objects of the 2 Gene Carts will be moved into a new Cart, called by default ’**MERGE**’. 
@@ -161,6 +176,7 @@ How to merge 2 Gene Carts?
 .. warning:: **If you need to perform another ’Merge Operation’, do not forget to rename the Cart called ’MERGE’. Else, the content will be overwrited.**
 
 .. image:: img/bas18.png
+	:width: 100%
 
 
 How to rename a Gene Cart?
@@ -173,10 +189,12 @@ Please note:
 1. Click on the Cart’s name you want to change.
 
 .. image:: img/bas19.png
+	:width: 100%
 
 2. Rename the Cart as you wish. Some special characters are not accepted.
 
 .. image:: img/bas20.png
+	:width: 100%
 
 3. Click on the **OK** button.
 

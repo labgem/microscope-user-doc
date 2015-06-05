@@ -23,4 +23,4 @@ Yes, we provide «RSS Feeds» you can subscribe to by clicking on RSS pictures, 
 * in the «Latest News» panel:
 
 .. image:: img/img16.png
-	:width: 20%
+	:width: 25%

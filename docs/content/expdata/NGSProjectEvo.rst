@@ -13,6 +13,7 @@ How to begin?
 Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
 
 .. image:: img/evo1.png
+	:width: 100%
 
 * **Comparative analysis** => Click here for more details.
 * **Parallelism analysis** => Click here for more details.
@@ -53,6 +54,7 @@ How to use this tool?
 ---------------------
 
 .. image:: img/evo4.png
+	:width: 100%
 
 1. Choose one or several reference sequences.
 2. Select at least one clone or lineage in which you’d like to find mutational events, and optionally one or several clones/lineages from which the selected mutations are absent.
@@ -77,6 +79,7 @@ How to read the table of results?
 ---------------------------------
 
 .. image:: img/evo5.png
+	:width: 100%
 
 You have one table of results for each reference sequence selected. Each result table is composed of 2 main parts : A and B.
 
@@ -139,14 +142,17 @@ How to use this tool?
 First of all, choose the subject of your analysis ("**Shared Mutations**" or "**Shared Mutated GOs**") in the "Focus on" sub-section.
 
 .. image:: img/evo6.png
+	:width: 100%
 
 **The "Shared Mutations" mode**:
 
 .. image:: img/evo7.png
+	:width: 100%
 
 **The "Shared Mutated GOs" mode**:
 
 .. image:: img/evo8.png
+	:width: 100%
 
 Then, the procedure is quite similar in the two analysis modes:
 
@@ -175,6 +181,7 @@ How to read the table of results?
 **A. In the "Shared Mutations" mode:**
 
 .. image:: img/evo9.png
+	:width: 100%
 
 **1) Description of common mutations**: It depends on your definition criteria. 
 
@@ -199,6 +206,7 @@ How to read the table of results?
 **B. In the "Shared Mutated GOs" mode:**
 
 .. image:: img/evo10.png
+	:width: 100%
 
 **1) Description of common mutated GOs**:
 
@@ -233,6 +241,7 @@ How to use this tool?
 This tool is based on the Java applet `CG View <../genomic/cgview.html>`.
 
 .. image:: img/evo11.png
+	:width: 100%
 
 1. Choose a reference sequence.
 2. Select the clone for which you want to visualize the mutations.

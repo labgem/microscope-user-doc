@@ -65,6 +65,7 @@ How to use this tool?
 The pathway status can be modified using the buttons "validate", "variant needed", "unknown", "non-fonctionnal" and "delete".
 
 .. image:: img/cur4.png
+	:width: 25%
 
 Moreover, it is possible to add a `MetaCyc <http://metacyc.org/>`_ pathway which has not been predicted by using a keyword search tool.
 

@@ -52,7 +52,7 @@ This is a way to quickly identify a specific gene when annotator use the Move To
 * From result tables: 
 
 .. image:: img/imgintermediaire.png
-	:width: 25%
+	:width: 10%
 
 * From the toolbar below the synteny maps:
 
