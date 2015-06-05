@@ -52,6 +52,7 @@ This is a way to quickly identify a specific gene when annotator use the Move To
 * From result tables: 
 
 .. image:: img/imgintermediaire.png
+	:width: 25%
 
 * From the toolbar below the synteny maps:
 
@@ -196,6 +197,7 @@ The «Switch» button (1), between the genome browser and the synteny maps, allo
 * the default organism / taxonomy entries selection, so you can manage your own selections.
 
 .. image:: img/img8.png
+	:width: 100%
 
 How to read the synteny maps with representation by pairs of genomes?
 ---------------------------------------------------------------------
