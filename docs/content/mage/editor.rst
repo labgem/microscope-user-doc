@@ -644,6 +644,7 @@ How to read HAMAP results?
 --------------------------
 
 .. image:: img/hamap.png
+	:width: 100%
 
 This section is filled in when the sequence can be linked to a HAMAP family. The corresponding HAMAP family identifier is given in the first column. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
 
@@ -696,6 +697,7 @@ How to read PRIAM EC number results?
 ------------------------------------
 
 .. image:: img/priam.png
+	:width: 100%
 
 * **EC_id**: EC number
 * **Evidence**: gives the confidence level associated to the match. It can be:
