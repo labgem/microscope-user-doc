@@ -196,7 +196,7 @@ What about the old *Genome Overview* interface?
 .. image:: img/img12.png
 	:width: 100%
 
-The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>` :
+The corresponding tools are available by following this path in the `new interface <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ :
 
 +---------------+-----------------------------+---------------------------------------------------------------------------------------------+
 |   ITEM #      |    OLD INTERFACE BUTTON     |                                          NEW INTERFACE                                      |
