@@ -210,7 +210,11 @@ When you hover the mouse pointer over a synteny gene, a short summary appears : 
 
 The filling of a rectangle reflects the alignment quality between the 2 proteins.
 
+ 
+
 .. image:: img/img9.png
+
+ 
 
 **Example**:
 
