@@ -66,6 +66,7 @@ Most of result tables provides a default sort (grey-coloured column).
 To sort results as you wish, simply click on the corresponding column header. Each click will alternate between ASC (*ascending order*) sort or DESC (*descending order*) sort. 
 Also, the system provides a multi-sort functionality, to sort and switch on multiple columns. Simply hold your «**SHIFT**» key and click on column headers you want to multi-sort.
 
+
 .. image:: img/img3.png
 
 
@@ -75,6 +76,7 @@ How to filter results?
 Each result table provides a text area called «*Search*:» . 
 Enter some characters into this box in order to filter results: each row matching your keywords will be kept, whereas the others will be hidden dynamically.
 
+ 
 
 .. image:: img/img4.png
 
@@ -86,6 +88,7 @@ Each result table provides a select menu called «*Show X Results*».
 Change the value to display the corresponding number of results per page. 
 Values are: **10** (default), **25**, **50**, **100** or **All**.
 
+ 
 
 .. image:: img/img5.png
 

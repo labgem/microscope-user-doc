@@ -39,8 +39,10 @@ We shall now present the use of this interface through the exploration of severa
 
 Once several networks have been implemented, selecting the Metabolic network will be possible through the main page combobox illustrated below:
 
+ 
+
 .. image:: img/canoe1.png
-	:width: 40%
+	:width: 50%
 
 
 How can I find candidate genes for my favourite orphan enzyme?
