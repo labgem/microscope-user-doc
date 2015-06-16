@@ -3,6 +3,7 @@ Table of contents
 #################
 
 Microscope Platform user documentation
+The MicroScope platform is available at this URL: https://www.genoscope.cns.fr/agc/microscope
 
 
 ============================
@@ -121,7 +122,3 @@ User Panel
    content/userpanel/register
    
    
-
-
-
-The MicroScope platform is available at this URL: https://www.genoscope.cns.fr/agc/microscope
