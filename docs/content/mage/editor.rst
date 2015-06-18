@@ -33,7 +33,7 @@ The Gene Annotation Editor window is made of 4 sections:
 How to use the Gene Annotation Editor toolbar?
 ----------------------------------------------
 
-.. image:: img/view.png
+.. image:: img/view1.png
 
 It contains several buttons allowing access to different functionalities:
 
