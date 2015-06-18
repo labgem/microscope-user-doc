@@ -20,6 +20,8 @@ NB : requesting information via the GetInfo button only calls up a read-only Gen
 Overview of the Gene Annotation Editor
 --------------------------------------
 
+.. image:: img/overview.png
+
 The Gene Annotation Editor window is made of 4 sections:
 
 * a **toolbar** that allows access to different functionalities
@@ -31,7 +33,7 @@ The Gene Annotation Editor window is made of 4 sections:
 How to use the Gene Annotation Editor toolbar?
 ----------------------------------------------
 
-.. image:: img/editor1.png
+.. image:: img/view.png
 
 It contains several buttons allowing access to different functionalities:
 
@@ -44,7 +46,7 @@ It contains several buttons allowing access to different functionalities:
 * **PubMed**: this functionality opens a new window that shows the references that have been linked to this genomic object on PubMed
 * **KEGG**: this functionality opens the KEGG description corresponding to the annotated EC number(s)
 * **Brenda**: this functionality opens the Brenda entry corresponding to the annotated EC number(s)
-* **BioCyc**: this functionality opens a new window showing information related to the genomic object in the BioCyc database
+* **MicroCyc**: this functionality opens a new window showing information related to the genomic object in the MicroCyc database
 
 
 How to fill the Gene Annotation form?
