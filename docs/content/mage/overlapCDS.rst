@@ -1,6 +1,3 @@
-.. meta::
-   :keywords: tag overlap CDS
-
 #################
 Overlapping CDSs
 #################
