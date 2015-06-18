@@ -275,7 +275,7 @@ A new window appears with the Artemis interface. All genomic objects are listed 
 
 .. image:: img/img16.png
 
-How to use to Artemis to identify alternative Start codons ?
+How to use Artemis to identify alternative Start codons ?
 ------------------------------------------------------------
 
 Double click on an object to select it in the upper part of the window. The object is then positioned at its start position.
