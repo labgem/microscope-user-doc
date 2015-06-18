@@ -108,22 +108,34 @@ How to fill the "Mutation" field?
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
 
 
-How to use the "Comments" field?
---------------------------------
+What are the different "Product type" categories?
+-------------------------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
+* c : carrier
+* cp : cell process
+* e : enzyme
+* f : factor
+* h : extrachromosomal origin
+* l : leader peptide
+* lp : lipoprotein
+* m : membrane component
+* n : RNA
+* o : ORF of unknown function
+* pc : putative carrier
+* pcp : putative cell process
+* pe : putative enzyme
+* pf : putative factor
+* ph : phenotype
+* pm : putative membrane component
+* pr : putative regulator
+* prc : putative receptor
+* ps : putative structure
+* pt : putative transporter
+* r : regulator
+* rc : receptor
+* s : structure
+* t : transporter
 
-
-How to use the "PubmedID" field?
---------------------------------
-
-The PubMedID or PMID correspond to the index of a publication on the PubMed section of the NCBI website. You can fill this field when you want to link a publication to your annotation. If you want to enter several publications, you simply have to write the PMIDs separated by commas.
-
-You will find the PMID of a publication directly on Pubmed as shown on the figure below. You can also find PMIDs in the "References" section of the UniProt entries. 
-
-.. image:: img/editor3.png
-
-If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
 
 How to use the "MetaCyc reaction" field?
@@ -211,35 +223,6 @@ The “Reset” button deletes all results
 For each reaction in the result set, check-box allows to add a reaction from the result set to the select element. All reactions selected in the multiple selection list will be saved as validated and linked to this gene. Unselecting a reaction in this list will remove this link from the curated data.
 
 
-What are the different "Product type" categories?
--------------------------------------------------
-
-* c : carrier
-* cp : cell process
-* e : enzyme
-* f : factor
-* h : extrachromosomal origin
-* l : leader peptide
-* lp : lipoprotein
-* m : membrane component
-* n : RNA
-* o : ORF of unknown function
-* pc : putative carrier
-* pcp : putative cell process
-* pe : putative enzyme
-* pf : putative factor
-* ph : phenotype
-* pm : putative membrane component
-* pr : putative regulator
-* prc : putative receptor
-* ps : putative structure
-* pt : putative transporter
-* r : regulator
-* rc : receptor
-* s : structure
-* t : transporter
-
-
 What are the different "Localization" categories?
 ------------------------------------------------- 
  
@@ -254,6 +237,44 @@ What are the different "Localization" categories?
 * 9 : Periplasmic
 * 10 : Secreted
 * 11 : Membrane
+
+
+What is the "BioProcess" classification?
+----------------------------------------
+
+This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_ 
+
+This field is optionally filled in during the expert annotation process.
+
+
+What is the "Roles" classification?
+-----------------------------------
+
+This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
+
+**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_ 
+
+This field is optionally filled in during the expert annotation process.
+
+
+
+How to use the "PubmedID" field?
+--------------------------------
+
+The PubMedID or PMID correspond to the index of a publication on the PubMed section of the NCBI website. You can fill this field when you want to link a publication to your annotation. If you want to enter several publications, you simply have to write the PMIDs separated by commas.
+
+You will find the PMID of a publication directly on Pubmed as shown on the figure below. You can also find PMIDs in the "References" section of the UniProt entries. 
+
+.. image:: img/editor3.png
+
+If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
+
+
+How to use the "Comments" field?
+--------------------------------
+
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
+
 
 
 How to use the "Class" field?
@@ -277,30 +298,10 @@ The different classes are:
 * **7 : Gene remnant**
 
 
-What is the "BioProcess" classification?
-----------------------------------------
-
-This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_ 
-
-This field is optionally filled in during the expert annotation process.
-
-
-What is the "Roles" classification?
------------------------------------
-
-This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
-
-**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_ 
-
-This field is optionally filled in during the expert annotation process.
-
-
 How to choose the "Class" annotation category?
 ----------------------------------------------
 
 .. image:: img/editor8.png
-
-.. image:: img/editor9.png
 
 
 
@@ -599,10 +600,10 @@ How to read the result table?
 Syntonome / Syntonome RefSeq 
 ============================
 
-How to use the Syntonome results?
----------------------------------
+How to use the Syntonome / Syntonome RefSeq results?
+----------------------------------------------------
 
-This section gives access to the list of syntons which contain homologs to the studied gene in other organisms:
+These sections give access to the list of syntons which contain homologs to the studied gene in other organisms:
 
 * from PkGDB for the **Syntonome** section
 * from RefSeq for the **Syntonome RefSeq** section
@@ -655,14 +656,16 @@ How to read HAMAP results?
 .. image:: img/hamap.png
 	:width: 100%
 
-This section is filled in when the sequence can be linked to a HAMAP family. The corresponding HAMAP family identifier is given in the first column. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
+* **HAMAP Id**: gives the corresponding HAMAP family identifier. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
+* **Evidence**: gives an indication about the strength of the hit. The value can be:
+	* **high**: the sequence is considered to be trusted member of the HAMAP family.
+	* **medium**:the sequence is considered as a putative member of the HAMAP family
+* **Gene name**: gives the gene name (if any)
+* **Product**: gives the product description
+* **EC Number**: gives the EC number (if any)
+* **Comments**: gives some insight into the corresponding function or the subcellular location of the protein.
+* **Keywords**: describes a list of keywords related to the function of the HAMAP family.
 
-The evidence column gives an indication about the strength of the hit. The value can be:
-
-* *high*: the sequence is considered to be trusted member of the HAMAP family
-* *medium*: the sequence is considered as a putative member of the HAMAP family
-
-The following columns give a description of the HAMAP family with the gene name (if any), the product description, the EC number (if any). The comments column can give you some insight into the corresponding function or the subcellular location of the protein. The last column describes a list of keywords related to the function of the HAMAP family.
 
 
 
