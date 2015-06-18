@@ -96,7 +96,9 @@ Values are: **10** (default), **25**, **50**, **100** or **All**.
 How to export results?
 ----------------------
 
-Each result table provides buttons called *Copy* and *CSV*.
+Each result table provides buttons called *Copy* (1) and *CSV* (2).
+
+.. image:: img/copy.png
 
 .. warning:: Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
 
