@@ -691,6 +691,10 @@ More than 99% of the protein sequences provided by UniProtKB are derived from th
 
 
 
+How to read SwissProt and TrEMBL results?
+-----------------------------------------
+
+
 =====
 PRIAM
 =====
