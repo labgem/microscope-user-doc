@@ -49,6 +49,12 @@ It contains several buttons allowing access to different functionalities:
 * **MicroCyc**: this functionality opens a new window showing information related to the genomic object in the MicroCyc database
 
 
+
+==================================
+Expert annotation of gene function 
+==================================
+
+
 How to fill the Gene Annotation form?
 -------------------------------------
 
@@ -68,6 +74,12 @@ What are the different annotation "Status"es?
 * **Artefact** : An artefactual CDS corresponds to a false prediction by the gene detection program. An artefactual CDS should never be similar to any proteins from the databanks (except if the same erroneous annotation has been made in another genomes)
 * **chkSeq** : this status is used by the annotator to flag potential sequencing errors in the sequence. When the sequencing is performed at Genoscope, these chkSeq sequences will be sent to the people working in the finishing team. They will then check the assembly to see if the sequence quality is good or not. If needed they can perform some additional PCRs to enhance the data.
 * **chkStart** : the annotator suspects that a start position readjustment might be needed for the CDS, but hasn’t done it yet.
+
+
+How to identify artefacts?
+--------------------------
+
+.. image:: img/editor10.png
 
 
 What are the different "Type" categories?
@@ -290,11 +302,6 @@ How to choose the "Class" annotation category?
 
 .. image:: img/editor9.png
 
-
-How to identify artefacts?
---------------------------
-
-.. image:: img/editor10.png
 
 
 
