@@ -17,6 +17,7 @@ MicroScope Platform Overview
    :maxdepth: 2
    
    content/overview/interface
+   content/overview/expert
    content/overview/technical
    content/overview/login
    content/overview/latestnews
