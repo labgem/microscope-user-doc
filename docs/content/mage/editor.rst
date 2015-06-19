@@ -434,51 +434,28 @@ Considering the Class field, here are some basic annotation rules:
 * Roles [not allowed]
 
 
-=============
-BLAST results
-=============
-
-
-What is the meaning of the minLrap and maxLrap values?
-------------------------------------------------------
-
-These values are ratios of alignment lengths computed for each comparison using the BLAST software :
-
-* **minLrap** = Lmatch/min(Lprot1, Lprot2)
-* **maxLrap** = Lmatch/max(Lprot1, Lprot2)
-
-where Lmatch = length of the match, Lprot1 = length of protein 1, Lprot2 = length of protein 2.
-
-**if minLrap=1 and maxLrap=1** => the 2 proteins both align on their whole length
-
-**if minLrap=1 ans maxLrap<1** => one of the proteins is longer than the other, or the alignment is partial. Different interpretations are possible:
-
-* the longer protein is a modular protein (domain fusion/fission)
-* there is an erroneous start codon for one of the 2 genes
-* the smaller gene is a fragment (pseudogene).
-* a frameshift (due to a sequencing error or not) causes a premature stop codon in one of the genes.
-
-**if minLrap<1 and maxLrap<1** => the sequences are poorly aligned. We can observe this kind of situation in the case of gene remnants.
-
-
-What is the meaning of orderQ and orderB values?
-------------------------------------------------
-
-The orderQ and orderB values give an information about the rank of the BLAST hit for a protein of the query genome (orderQ) or for a protein of a databank (orderB).
-
-Best bidirectional Best Hits (BBH) will have a 1:1 relationship The following Best hits will have 1<=>n relationship
-
-.. image:: img/blast.png
-
-.. tip:: These indicators can be useful to identify fusion/fission events.
-
-
-
 =====
 Start
 =====
 
-Coming soon...
+*In progress*
+
+This menu gives the beginning and the end of the gene sequence according to different softwares. If the indicated start and stops seems to be wrong when compared to those given by the softwares, you can correct them by using Artemis (see `Artemis <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#artemis>`_).
+
+.. image:: img/start.png
+
+* **Strand**: indicates if the CDS is on the direct strand (D) or on the reverse strand (R).
+* **Begin**: give the leftmost beginning of the CDS according to the expert or automatic annotation
+* **End**: give the leftmost beginning of the CDS according to the expert or automatic annotation
+* **AMIGene Start**: gives the start according to AMIGene
+* **AMIGene Lpcod**: gives the coding probability on the lenght End-Begin +1 according to AMIGene
+* **AMIGene Apcod**: gives the lenght End-AMstart +1 according to AMIGene
+* **Matrix**: gives the matrix number (see `Overview <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_)
+* **SHOW Begin**: gives the position of the first nucelic acid of the CDS according to SHOW 
+* **SHOW End**: gives the position of the last nucelic acid of the CDS according to SHOW
+* **SHOW Proba** : gives the coding probability on the lenght End-SHOW begin +1 according to SHOW
+* **Prodigal Begin**: 
+* **Prodigal End**:  
 
 
 
@@ -501,6 +478,8 @@ Coming soon...
 Duplications 
 ============
 
+.. image:: img/duplications.png
+
 This dataset contains the list of genes of the genome that have an identity > 25% with a minLRap > 0.75 to the selected gene.
 
 
@@ -508,6 +487,8 @@ This dataset contains the list of genes of the genome that have an identity > 25
 ===========
 E. coli K12
 ===========
+
+.. image:: img/ecoli.png
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli K12*, if any.
 
@@ -520,6 +501,8 @@ This dataset is a useful reference since E. coli is a very well known bacteria, 
 ===========
 B. subtilis
 ===========
+
+.. image:: img/subtilis.png
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Bacillus subtilis*, if any.
 
@@ -551,7 +534,7 @@ How to read the result table?
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
 * **OrderQ**: see `BLAST results`_
-* **OrderB** :see `BLAST results`_
+* **OrderB** : see `BLAST results`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length the studied protein
