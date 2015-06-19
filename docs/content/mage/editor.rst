@@ -778,6 +778,9 @@ COGnitor compares a sequence to the COG database by using BLASTP. Clusters of Or
 How to read COGnitor results?
 -----------------------------
 
+.. image:: img/cog.png
+
+
 The first column indicates the identifier of the COG family the protein is similar to. If you click on the identifier, a new window will pop-up, presenting the COG’s description page on the NCBI website. The second column gives the similarity score and the third and fourth columns give the amino acid positions between which the proteins align. The last 2 columns indicate the general class to which the COG belongs and the function describing the COG family
 
 .. tip:: A protein is classified in a COG if it has at least 3 Best Hits with proteins classified in the same COG and being members of 3 different clades. A protein can thus be classified in more than one COG.
@@ -807,6 +810,9 @@ PsortB is an open-source tool for protein sub-cellular localization prediction i
 
 How to read PsortB results?
 ---------------------------
+
+.. image:: img/psortb.png
+
 
 * The first column indicates the Localization predicted by PsortB.
 * The second column gives the score. The score typically varies between 2 and 10.
@@ -845,6 +851,9 @@ Diagnostically, these resources have different areas of optimum application owin
 How to read InterProScan results
 --------------------------------
 
+.. image:: img/inter.png
+
+
 * **IP id**: Identifier of the InterPro family. Click on it to access to the full description of the InterPro entry.
 * **Method**: Method used in obtaining the result. It corresponds to one of the member databases.
 * **Method id**: Identifier of the member database family that generated the result. Click on it to access to the full description of the family.
@@ -874,6 +883,8 @@ Reference:
 How to read SignalP results
 ---------------------------
 
+.. image:: img/signal.png
+
 * The first column indicates the type of bacteria (Gram positive or Gram negative).
 * The second column gives the estimated probability (number between 0 and 1) that the sequence contains a signal peptide.
 * The last 2 columns indicate the positions between which the cleavage is supposed to occur.
@@ -902,6 +913,8 @@ TMHMM is a program for the prediction of transmembrane helices based on a hidden
 
 How to read TMhmm results
 -------------------------
+
+.. image:: img/tmhmm.png
 
 The table of results indicates the begin and end positions of detected alpha-helices for the protein sequence. It also gives the location (inside/outside) of the fragments in between the helices.
 
