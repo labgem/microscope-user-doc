@@ -529,12 +529,12 @@ How to read the result table?
 * **Evidence**: Status of the annotation.
 * **Gene**: Gene name of the genomic object
 * **Product**: Product description of the protein
-* **maxLrap**: see `BLAST results <>`_
-* **minLrap**: see `BLAST results <>`_
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <>`_
-* **OrderB** : see `BLAST results <>`_
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB** : see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length the studied protein
@@ -558,12 +558,12 @@ How to read the result table?
 * **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
 * **Gene**: Gene name of the protein
 * **Product**: Product description of the protein
-* **maxLrap**: see `BLAST results <>`_
-* **minLrap**: see `BLAST results <>`_
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <>`_
-* **OrderB**: see `BLAST results <>`_
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
@@ -602,12 +602,12 @@ How to read the result table
 * **Label**: Label of the database protein. If you click on the label, you can access the Gene annotation window (Syntonome) or to the corresponding NCBI entry (Syntonome RefSeq)
 * **Gene**: Gene name of the database protein
 * **Product**: Product description of the database protein
-* **maxLrap**: see `BLAST results <>`_
-* **minLrap**: see `BLAST results <>`_
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <>`_
-* **OrderB**: see `BLAST results <>`_
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
