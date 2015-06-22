@@ -559,6 +559,8 @@ This section indicates the best BLAST hits obtained with other Genomic Objects f
 How to read the result table?
 -----------------------------
 
+.. image:: img/mage.png
+
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window
 * **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
@@ -600,6 +602,8 @@ These sections give access to the list of syntons which contain homologs to the 
 
 How to read the result table
 ----------------------------
+
+.. image:: img/synt.png
 
 * **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window
 * **NbGeneQ**: Number of genes involved in the synton in the studied genome
