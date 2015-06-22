@@ -683,6 +683,8 @@ More than 99% of the protein sequences provided by UniProtKB are derived from th
 How to read SwissProt and TrEMBL results?
 -----------------------------------------
 
+.. image:: img/swiss.png
+
 
 =====
 PRIAM
@@ -780,7 +782,20 @@ The first column indicates the identifier of the COG family the protein is simil
 FigFam
 ======
 
-Coming soon...
+*In progress*
+
+What is FigFam?
+---------------
+
+
+How to read FigFam results?
+---------------------------
+
+.. image:: img/figfam.png
+
+* **FIGFAM id**: ID number of the FigFam family the protein is part of
+* **FIGFAM Description**: gives the description of the product of the family
+* **EC number**: gives the EC number
 
 
 
