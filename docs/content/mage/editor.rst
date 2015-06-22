@@ -446,7 +446,7 @@ This menu gives the beginning and the end of the gene sequence according to diff
 
 * **Strand**: indicates if the CDS is on the direct strand (D) or on the reverse strand (R).
 * **Begin**: give the leftmost beginning of the CDS according to the expert or automatic annotation
-* **End**: give the leftmost beginning of the CDS according to the expert or automatic annotation
+* **End**: give the ending of the CDS according to the expert or automatic annotation
 * **AMIGene Start**: gives the start according to AMIGene
 * **AMIGene Lpcod**: gives the coding probability on the lenght End-Begin +1 according to AMIGene
 * **AMIGene Apcod**: gives the lenght End-AMstart +1 according to AMIGene
@@ -454,8 +454,8 @@ This menu gives the beginning and the end of the gene sequence according to diff
 * **SHOW Begin**: gives the position of the first nucelic acid of the CDS according to SHOW 
 * **SHOW End**: gives the position of the last nucelic acid of the CDS according to SHOW
 * **SHOW Proba** : gives the coding probability on the lenght End-SHOW begin +1 according to SHOW
-* **Prodigal Begin**: 
-* **Prodigal End**:  
+* **Prodigal Begin**: give the beginning of the CDS according to the expert or automatic annotation
+* **Prodigal End**:  give the ending of the CDS according to the expert or automatic annotation
 
 
 
@@ -466,11 +466,17 @@ Compositional features
 Gene compositional features
 ---------------------------
 
-Coming soon...
+*In progress*
+
+.. image:: img/gene.png
+
 
 Protein compositional features
 ------------------------------
-Coming soon...
+
+*In progress*
+
+.. image:: img/protein.png
 
 
 
