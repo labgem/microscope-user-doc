@@ -1059,15 +1059,56 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **More:** http://antismash.secondarymetabolites.org/
 
-References: 
+**References:** 
 
-antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
-Kai Blin, Marnix H. Medema, Daniyal Kazempour, Michael A. Fischbach, Rainer Breitling, Eriko Takano, & Tilmann Weber
-Nucleic Acids Research (2013) doi: 10.1093/nar/gkt449.
+`Blin K., et al. (2013) antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
+Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`
 
-antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.
-Marnix H. Medema, Kai Blin, Peter Cimermancic, Victor de Jager, Piotr Zakrzewski, Michael A. Fischbach, Tilmann Weber, Rainer Breitling & Eriko Takano
-Nucleic Acids Research (2011) doi: 10.1093/nar/gkr466
+`Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. (2011) <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`
+
+What type of secondary metabolites can antiSMASH 2.0.2 predict ?
+----------------------------------------------------------------
+*NRPS/PKS type metabolites:
+-Polyketide synthases: Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, Type IV PKS
+-Non-ribosomal peptide synthetase
+
+*Ribosomal encoded metabolite
+Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate
+
+*Other: Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
 
+How to read antiSMASH 2.0.2 results ?
+-------------------------------------
+
+AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
+
+The antiSMASH annotation dataset 
+.. image:: img/antismash_annotation.png
+*antiSMASH annotation: gene annotation proposed by the tool
+*domains detected: predicted domains, if any.
+*cluster: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
+
+The antiSMASH domains dataset
+.. image:: img/antismash_domains.png
+
+*Type: domain type
+*Subtype: protein type proposed by antiSMASH
+*Begin: begin of the match on the sequence
+*End: end of the match on the sequence
+*Score: BLAST score
+*E-value: BLAST E-value
+
+how can I visualize the clusters predicted by antiSMASH ?
+---------------------------------------------------------
+
+You can access to the AntiSMASH cluster visualization window from the last column of the antiSMASH annotation table.
+This window allows you to visualize the full antiSMASH cluster prediction and its genomic context. In case of NRPS/PKS cluster type, the predicted peptide monomer composition is indicated as well.
+All informations regarding the CDS present in the graphical representation are available in a table below the graphical representation of the cluster.
+
+.. image:: img/antismash_cluster_visualisation.png
+
+what is the meaning of the domain color code in the AntiSMASH cluster visualisation window ?
+--------------------------------------------------------------------------------------------
+.. image:: img/color_code_antismash_domains
 
