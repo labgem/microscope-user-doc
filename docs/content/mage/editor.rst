@@ -1086,20 +1086,20 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 
 .. image:: img/antismash_annotation.png
 
-* antiSMASH annotation: gene annotation proposed by the tool
-* domains detected: predicted domains, if any.
-* cluster: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
+* **antiSMASH annotation**: gene annotation proposed by the tool
+* **domains detected**: predicted domains, if any.
+* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
 
 **The antiSMASH domains dataset:**
 
 .. image:: img/antismash_domains.png
 
-* Type: domain type
-* Subtype: protein type proposed by antiSMASH
-* Begin: begin of the match on the sequence
-* End: end of the match on the sequence
-* Score: BLAST score
-* E-value: BLAST E-value
+* **Type**: domain type
+* **Subtype**: protein type proposed by antiSMASH
+* **Begin**: begin of the match on the sequence
+* **End**: end of the match on the sequence
+* **Score**: BLAST score
+* **E-value**: BLAST E-value
 
 how can I visualize the clusters predicted by antiSMASH ?
 ---------------------------------------------------------
