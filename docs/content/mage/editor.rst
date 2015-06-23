@@ -1068,14 +1068,13 @@ Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.ni
 
 What type of secondary metabolites can antiSMASH 2.0.2 predict ?
 ----------------------------------------------------------------
-*NRPS/PKS type metabolites:
+* **NRPS/PKS type metabolites:**
 -Polyketide synthases: Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, Type IV PKS
 -Non-ribosomal peptide synthetase
 
-*Ribosomal encoded metabolite
-Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate
+* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate
 
-*Other: Cluster containing a secondary metabolite-related protein that does not fit into any other category
+* **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
 
 How to read antiSMASH 2.0.2 results ?
