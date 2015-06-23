@@ -1112,5 +1112,5 @@ All informations regarding the CDS present in the graphical representation are a
 
 what is the meaning of the domain color code in the AntiSMASH cluster visualisation window ?
 --------------------------------------------------------------------------------------------
-.. image:: img/color_code_antismash_domains
+.. image:: img/color_code_antismash_domains.png
 
