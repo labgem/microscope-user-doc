@@ -531,7 +531,7 @@ How to read the result table?
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window (if any)
 * **Gene**: Gene name of the protein
-* **Synonyms**: alternative name for the gene (if any)
+* **Synonyms**: Alternative name for the gene (if any)
 * **Product**: Product description of the protein
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
@@ -553,15 +553,15 @@ How to read the result table?
 * **LengthB**: Length of the database protein
 * **Essentiality**: Indicates if this protein is essential for the organism or no
 * **PubMedId**: PubMed references linked to the annotation of the protein
-* **Locustag MG1655**:
-* **Locustag W3110**:
+* **Locustag MG1655**: locus tag of the gene in the regulon of LeuO in E Coli K12 **(??)**
+* **Locustag W3110**: locus tag of the gene in the NarP regulon of E Coli K12 **(??)**
 * **Protein complex**: Indicates if the database protein is part of a protein complex
 * **Transporter classification**: If the database protein is a transporter, indicates the family this transporter is part of
-* **Transcription regulator family**:
-* **Proteases**:
-* **Structure(PDB)id**:
-* **GO cellular process**:
-* **GO molecular function**:
+* **Transcription regulator family**: If the database protein is a transcription regulator, indicates the family this transcription regulator is part of
+* **Proteases**: If the database protein is a protease, indicates the family this protease is part of
+* **Structure(PDB)id**: Gives the Id number which correspond to the database protein's structure on `Protein Data Bank <http://www.rcsb.org/pdb/home/home.do>`_  
+* **GO cellular process**: Gives the cellular process according to `Gene Ontology <http://geneontology.org/page/documentation>`_ 
+* **GO molecular function**: Gives the molecular process according to `Gene Ontology <http://geneontology.org/page/documentation>`_
 
 
 
