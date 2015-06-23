@@ -514,6 +514,7 @@ How to read the result table?
 E. coli K12
 ===========
 
+*In progress*
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli K12*, if any.
 
@@ -535,7 +536,7 @@ How to read the result table?
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
 * **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
-* **Reaction**:
+* **Reaction**: Reaction implying the protein (given by Rhea and MetaCyc), if any
 * **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
 * **Localization**: Cellular localisation of the protein
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
@@ -550,12 +551,12 @@ How to read the result table?
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
-* **Essentiality**:
-* **PubMedId**: References linked to the annotation of the protein
+* **Essentiality**: Indicates if this protein is essential for the organism or no
+* **PubMedId**: PubMed references linked to the annotation of the protein
 * **Locustag MG1655**:
 * **Locustag W3110**:
-* **Protein complex**:
-* **Transporter classification**:
+* **Protein complex**: Indicates if the database protein is part of a protein complex
+* **Transporter classification**: If the database protein is a transporter, indicates the family this transporter is part of
 * **Transcription regulator family**:
 * **Proteases**:
 * **Structure(PDB)id**:
@@ -589,9 +590,9 @@ How to read the result table?
 * **Product**: Product description of the protein
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
-* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
-* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
-* **Reaction**:
+* **Roles**: Functional categories associated with the protein using the **Roles** functional classification
+* **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
+* **Reaction**: Reaction implying the protein (given by Rhea and MetaCyc), if any
 * **Localization**: Cellular localisation of the protein
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
@@ -605,8 +606,8 @@ How to read the result table?
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
-* **Essentiality**:
-* **PubMedId**: References linked to the annotation of the protein
+* **Essentiality**: Indicates if this protein is essential for the organism or no
+* **PubMedId**: PubMed references linked to the annotation of the protein
 
 
 
@@ -670,7 +671,7 @@ How to read the result table?
 * **Localization**: Cellular localisation of the protein
 * **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
 * **Product type**: Description of the product type of the protein
-* **PubMedId**: References linked to the annotation of the protein
+* **PubMedId**: PubMed references linked to the annotation of the protein
 * **Class**: Confidence class of the annotation
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
@@ -782,8 +783,8 @@ How to read SwissProt and TrEMBL results?
 
 .. image:: img/swiss.png
 
-* **PB id**: 
-* **Exp**: 
+* **PB id**: Uniprot ID of the database protein. If you click on this Id, you can access the Uniprot profile of the protein, giving you various informations about it.
+* **Exp**: Indicates if there is PubMed references for the database protein. If there is at least one article, the mention "IPMed?" is written in this column. 
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **ident%**: Percentage of identity between the studied protein and the database protein
@@ -793,10 +794,10 @@ How to read SwissProt and TrEMBL results?
 * **Gene**: Gene name of the database protein
 * **Description**: Product description of the database protein
 * **EC Number**: gives the EC number (if any)
-* **Keywords**:
-* **PubMedId**:
+* **Keywords**: Keyords associated to the protein function and roles
+* **PubMedId**: References linked to the annotation of the protein
 * **Organism**: Organism name. If you click on the name, you can access the associated genome sequence on the NCBI website.
-* **Strain**:
+* **Strain**: Strain where the gene of the database is localized 
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
