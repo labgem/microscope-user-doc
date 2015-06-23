@@ -1046,3 +1046,28 @@ The table of results indicates the begin and end positions of detected alpha-hel
 
 .. tip:: As protein can be called « membranar » if it contains more than 3 alpha-helices.
 
+=========
+AntiSMASH
+=========
+
+
+What is antiSMASH ?
+-------------------
+
+antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
+
+
+**More:** http://antismash.secondarymetabolites.org/
+
+References: 
+
+antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
+Kai Blin, Marnix H. Medema, Daniyal Kazempour, Michael A. Fischbach, Rainer Breitling, Eriko Takano, & Tilmann Weber
+Nucleic Acids Research (2013) doi: 10.1093/nar/gkt449.
+
+antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.
+Marnix H. Medema, Kai Blin, Peter Cimermancic, Victor de Jager, Piotr Zakrzewski, Michael A. Fischbach, Tilmann Weber, Rainer Breitling & Eriko Takano
+Nucleic Acids Research (2011) doi: 10.1093/nar/gkr466
+
+
+
