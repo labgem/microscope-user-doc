@@ -484,9 +484,29 @@ Protein compositional features
 Duplications 
 ============
 
-.. image:: img/duplications.png
 
 This dataset contains the list of genes of the genome that have an identity > 25% with a minLRap > 0.75 to the selected gene.
+
+How to read the result table?
+-----------------------------
+
+.. image:: img/duplications.png
+
+* **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
+* **Gene**: Gene name of the protein
+* **Product**: Product description of the protein
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
 
 
 
@@ -494,7 +514,6 @@ This dataset contains the list of genes of the genome that have an identity > 25
 E. coli K12
 ===========
 
-.. image:: img/ecoli.png
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli K12*, if any.
 
@@ -503,18 +522,92 @@ This dataset is a useful reference since E. coli is a very well known bacteria, 
 .. tip:: This dataset can help you to complete your expert annotation.
 
 
+How to read the result table?
+-----------------------------
+
+.. image:: img/ecoli.png
+
+* **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
+* **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window (if any)
+* **Gene**: Gene name of the protein
+* **Synonyms**: alternative name for the gene (if any)
+* **Product**: Product description of the protein
+* **ECnumber**: EC number associated with the protein, if any
+* **Product type**: Description of the product type of the protein
+* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
+* **Reaction**:
+* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
+* **Localization**: Cellular localisation of the protein
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
+* **Essentiality**:
+* **PubMedId**: References linked to the annotation of the protein
+* **Locustag MG1655**:
+* **Locustag W3110**:
+* **Protein complex**:
+* **Transporter classification**:
+* **Transcription regulator family**:
+* **Proteases**:
+* **Structure(PDB)id**:
+* **GO cellular process**:
+* **GO molecular function**:
+
+
+
 
 ===========
 B. subtilis
 ===========
 
-.. image:: img/subtilis.png
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Bacillus subtilis*, if any.
 
 This dataset is a useful reference since B. subtilis is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
 
 .. tip:: This dataset can help you to complete your expert annotation.
+
+
+How to read the result table?
+-----------------------------
+
+.. image:: img/subtilis.png
+
+* **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
+* **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window (if any)
+* **Gene**: Gene name of the protein
+* **Synonyms**: alternative name for the gene (if any)
+* **Product**: Product description of the protein
+* **ECnumber**: EC number associated with the protein, if any
+* **Product type**: Description of the product type of the protein
+* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
+* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
+* **Reaction**:
+* **Localization**: Cellular localisation of the protein
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
+* **Essentiality**:
+* **PubMedId**: References linked to the annotation of the protein
+
 
 
 
@@ -543,7 +636,7 @@ How to read the result table?
 * **OrderB** : see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
-* **LengthQ**: Length the studied protein
+* **LengthQ**: Length of the studied protein
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
@@ -581,7 +674,7 @@ How to read the result table?
 * **Class**: Confidence class of the annotation
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
-* **LengthQ**: Length the studied protein
+* **LengthQ**: Length of the studied protein
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
@@ -688,6 +781,29 @@ How to read SwissProt and TrEMBL results?
 -----------------------------------------
 
 .. image:: img/swiss.png
+
+* **PB id**: 
+* **Exp**: 
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Gene**: Gene name of the database protein
+* **Description**: Product description of the database protein
+* **EC Number**: gives the EC number (if any)
+* **Keywords**:
+* **PubMedId**:
+* **Organism**: Organism name. If you click on the name, you can access the associated genome sequence on the NCBI website.
+* **Strain**:
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the protein of the database
+* **EndB**: End of the alignment for the protein of the database
+* **LengthB**: Length of the protein of the database
+
 
 
 =====
