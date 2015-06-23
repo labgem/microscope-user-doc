@@ -1051,8 +1051,8 @@ AntiSMASH
 =========
 
 
-What is antiSMASH ?
--------------------
+What is antiSMASH?
+------------------
 
 antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
 
@@ -1066,8 +1066,8 @@ Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.ni
 
 `Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`_
 
-What type of secondary metabolites can antiSMASH 2.0.2 predict ?
-----------------------------------------------------------------
+What type of secondary metabolites can antiSMASH 2.0.2 predict?
+---------------------------------------------------------------
 * **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, Type IV PKS), Non-ribosomal peptide synthetase
 
 
@@ -1077,8 +1077,8 @@ What type of secondary metabolites can antiSMASH 2.0.2 predict ?
 * **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
 
-How to read antiSMASH 2.0.2 results ?
--------------------------------------
+How to read antiSMASH 2.0.2 results?
+------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
 
@@ -1101,8 +1101,8 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 * **Score**: BLAST score
 * **E-value**: BLAST E-value
 
-how can I visualize the clusters predicted by antiSMASH ?
----------------------------------------------------------
+How can I visualize the clusters predicted by antiSMASH?
+--------------------------------------------------------
 
 You can access to the AntiSMASH cluster visualization window from the last column of the antiSMASH annotation table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context. In case of NRPS/PKS cluster type, the predicted peptide monomer composition is indicated as well.
@@ -1110,7 +1110,7 @@ All informations regarding the CDS present in the graphical representation are a
 
 .. image:: img/antismash_cluster_visualisation.png
 
-what is the meaning of the domain color code in the AntiSMASH cluster visualisation window ?
---------------------------------------------------------------------------------------------
+What is the meaning of the domain color code in the AntiSMASH cluster visualisation window?
+-------------------------------------------------------------------------------------------
 .. image:: img/color_code_antismash_domains.png
 
