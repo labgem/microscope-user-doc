@@ -1062,9 +1062,9 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 **References:** 
 
 `Blin K., et al. (2013) antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
-Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`
+Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`_
 
-`Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. (2011) <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`
+`Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`_
 
 What type of secondary metabolites can antiSMASH 2.0.2 predict ?
 ----------------------------------------------------------------
@@ -1085,19 +1085,19 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 
 The antiSMASH annotation dataset 
 .. image:: img/antismash_annotation.png
-*antiSMASH annotation: gene annotation proposed by the tool
-*domains detected: predicted domains, if any.
-*cluster: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
+* antiSMASH annotation: gene annotation proposed by the tool
+* domains detected: predicted domains, if any.
+* cluster: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
 
 The antiSMASH domains dataset
 .. image:: img/antismash_domains.png
 
-*Type: domain type
-*Subtype: protein type proposed by antiSMASH
-*Begin: begin of the match on the sequence
-*End: end of the match on the sequence
-*Score: BLAST score
-*E-value: BLAST E-value
+* Type: domain type
+* Subtype: protein type proposed by antiSMASH
+* Begin: begin of the match on the sequence
+* End: end of the match on the sequence
+* Score: BLAST score
+* E-value: BLAST E-value
 
 how can I visualize the clusters predicted by antiSMASH ?
 ---------------------------------------------------------
