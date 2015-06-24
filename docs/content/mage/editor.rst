@@ -536,7 +536,7 @@ How to read the result table?
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
 * **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
-* **Reaction**: Reaction implying the protein (given by Rhea and MetaCyc), if any
+* **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
 * **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
 * **Localization**: Cellular localisation of the protein
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
@@ -586,13 +586,12 @@ How to read the result table?
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Synteny**: If you click on the magnifying glass, it opens a synton visualisation window (if any)
 * **Gene**: Gene name of the protein
-* **Synonyms**: alternative name for the gene (if any)
+* **Synonyms**: Alternative name of the gene (if any)
 * **Product**: Product description of the protein
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
-* **Roles**: Functional categories associated with the protein using the **Roles** functional classification
-* **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
-* **Reaction**: Reaction implying the protein (given by Rhea and MetaCyc), if any
+* **BioProcess**: Functional categories associated with the protein using the **BioProcess** Functional classification
+* **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
 * **Localization**: Cellular localisation of the protein
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
