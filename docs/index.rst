@@ -100,6 +100,9 @@ Transcriptomics
    content/transcriptomic/rnaseq
    content/transcriptomic/rnaseqv2
    content/transcriptomic/start
+   Type: Page Redirect
+   From URL: /NGSOverview.html
+   To URL: /content/transcriptomic/rnaseqv2.html
 
 =================
 Variant Discovery
