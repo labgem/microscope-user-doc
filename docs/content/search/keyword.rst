@@ -57,10 +57,15 @@ The common dataset are these ones:
 **Reference Annotations**:
 
 **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
+
 **Escherichia Coli**: will return BlastP/Synteny results of your selected sequence against updated Escherichia Coli annotations.
+
 **Bacillus Subtilis**: will return BlastP/Synteny results of your selected sequence against SubtiList data which contains Bacillus Subtilis expert annotations.
+
 **E. coli essential genes (Gerdes, PEC, Keio)**: will return BlastP/Synteny results of your selected sequence against Escherichia Coli essential genes.
+
 **P. aeruginosa essential genes**: will return BlastP/Synteny results of your selected sequence against Putida Aeruginosa essential genes.
+
 **B. subtilis essential genes**: will return BlastP/Synteny results of your selected sequence against Bacillus Subtilis essential genes.
 
 
