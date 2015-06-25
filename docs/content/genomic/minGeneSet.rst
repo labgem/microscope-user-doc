@@ -16,4 +16,7 @@ To find the homologs, the tool analyses the similarity results between the genes
 * share a BBH relationship with a minLRap >0.5
 * belong to a synteny group
 
+
+.. image:: img/mingenset.png
+
 **Reference**: `Gil R, Silva FJ, Peretó J, Moya A. Determination of the core of a minimal bacterial gene set. Microbiol Mol Biol Rev. 2004 Sep;68(3):518-37. <http://www.ncbi.nlm.nih.gov/pubmed/15353568>`_
