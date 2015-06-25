@@ -27,7 +27,7 @@ How to read the result table?
 
 * The table is composed of 5 columns:
 
-	**1** : buttons to change the pathway status (validated, unknown, non-fonctionnal, deleted)
+	**1** : buttons to change the pathway status (validated, unknown, non-functional, deleted)
 
 	**2** : current curation status of the pathway
 
@@ -53,7 +53,7 @@ The different statuses are:
 * **validated**: Curated as a functional pathway (all the reactions of the pathway are supposed to exist in the organism).
 * **variant needed**: The predicted pathway is not completely correct for the organism (i.e. some reactions may not be present in the organism but no better pathway definition exists in `MetaCyc <http://metacyc.org/>`_). Thus, a new pathway variant definition is needed.
 * **unknown**: Not enough evidence to declare the pathway as functional (i.e. validated status).
-* **non-functionnal**: The pathway has been lost in the organism and is no more functional (i.e. due to gene loss or pseudogenisation events).
+* **non-functional**: The pathway has been lost in the organism and is no more functional (i.e. due to gene loss or pseudogenisation events).
 * **deleted**: Curated as a false positive prediction.
 
 A complete pathway cannot be deleted.
@@ -62,7 +62,7 @@ A complete pathway cannot be deleted.
 How to use this tool?
 ---------------------
 
-The pathway status can be modified using the buttons "validate", "variant needed", "unknown", "non-fonctionnal" and "delete".
+The pathway status can be modified using the buttons "validate", "variant needed", "unknown", "non-functional" and "delete".
 
 .. image:: img/cur4.png
 	:width: 25%

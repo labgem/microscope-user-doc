@@ -54,7 +54,7 @@ Reactions table
 
 .. image:: img/meta3.png
 
-Clicking on a metabolic pathway in the result table allows to access to the detailled reaction table of this pathway. This table summarizes for each selected organism the presence/absence of genes coding for enzymes necessary for each reaction of the pathway.
+Clicking on a metabolic pathway in the result table allows to access to the detailed reaction table of this pathway. This table summarizes for each selected organism the presence/absence of genes coding for enzymes necessary for each reaction of the pathway.
 
 * 1) Selected organisms.
 * 2) Reactions required to perform this metabolic pathway.

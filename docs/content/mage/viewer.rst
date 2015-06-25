@@ -238,7 +238,7 @@ The color of the block corresponds to species percentage which have a synteny wi
 How to zoom in on a synteny group ?
 -----------------------------------
 
-If you click on a synteny group, it opens a popup *synton visualization window* which shows a more detailled view of the syntenies.
+If you click on a synteny group, it opens a popup *synton visualization window* which shows a more detailed view of the syntenies.
 
 * **Representation by pairs of genomes**
 

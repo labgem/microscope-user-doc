@@ -6,9 +6,9 @@ This interface allows the user to search for potentially horizontally transferre
 
 RGP finder method is mainly a comparative method. Algorithm first starts with identification of synteny breaks (at least 5kb) between a query genome and other close ones from the our database, the RGPs.
 
-Then it ’scan’ RGPs for well known HGT features (tRNA hotspot, mobility genes) to help characterize them. In addition, two compositional methods are also used to capture other kinds of signals of the query sequence. AlienHunter (Vernikos and Parkhill, 2006) and SIGI-HMM (Waack et al., 2006). GC deviation is also compute. Consensus regions between comparative and compositionnal results can be viewed and explored.
+Then it ’scan’ RGPs for well known HGT features (tRNA hotspot, mobility genes) to help characterize them. In addition, two compositional methods are also used to capture other kinds of signals of the query sequence. AlienHunter (Vernikos and Parkhill, 2006) and SIGI-HMM (Waack et al., 2006). GC deviation is also compute. Consensus regions between comparative and compositional results can be viewed and explored.
 
-AlienHunter : An Interpolated Variable Order Motif (IVOM) exploits compositionnal biases using variable order motif distributions (2mer to 8mer). The tool is launched with it’s defaut values and results are stored in databases for each query genome.
+AlienHunter : An Interpolated Variable Order Motif (IVOM) exploits compositional biases using variable order motif distributions (2mer to 8mer). The tool is launched with it’s default values and results are stored in databases for each query genome.
 
 SIGI-HMM : SIGI-HMM is a sequence composition method that is part of the Columbo package. This method uses a Hidden MArkov Model (HMM) and measures codon usage to identify possible Genomic Islands (GIs).
 
@@ -59,7 +59,7 @@ Results : circular view
 * **item D**: Circular view legend.
 
 	* **pink**: tRNA positions.
-	* **black**: predicted RGPs. Note that the RGP posititions are the extension of the comparisons between the suery sequence and all the compared organisms.
+	* **black**: predicted RGPs. Note that the RGP posititions are the extension of the comparisons between the query sequence and all the compared organisms.
 	* **purple**: SIGI-HMM results.
 	* **blue**: Alien Hunter/IVOM results.
 	* **gray**: specific regions are particular RGP (region absent from **ALL** the compared organisms.)
@@ -99,7 +99,7 @@ Results : RGP or SIGIVOM exploration
 
 .. image:: img/island4.png
 
-clicking on a region label (RGP or SIGIVOM region) diplay informations of the selected region.
+clicking on a region label (RGP or SIGIVOM region) display informations of the selected region.
 
 * **item A**: region label, begin position, end position.
 
@@ -121,7 +121,7 @@ clicking on a region label (RGP or SIGIVOM region) diplay informations of the se
 	* **SIGI**: purple if gene belongs to a SIGI-HMM region.
 	* **IVOM**: purple if gene belongs to an IVOM region.
 	* **Codon_Adaptation_index**: CAI of the gene.
-	* **Gene correspondance** (one column by compared organism): gene similarity correspondance with genes in compared organisms.
+	* **Gene correspondence** (one column by compared organism): gene similarity correspondence with genes in compared organisms.
 	
 		* **red**: no similarity above the identity define in ’item 1’
 		* **red with mentionned ’no corresp’**: no similarity at all.

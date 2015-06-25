@@ -4,7 +4,7 @@ Access Rights Management
 
 This interface is made for« Organism Administrators » and allows management of users access rights on organisms.
 
-.. note:: **Only annotators defined as «Organism Administrators» are allowed to use this functionality. By default, «Organism Administrators» are users who submit a Delivery of Service asking for a Genome integration into MicroScope: when the organism is delivered by LABGeM team on the MicroScope platform, the Delivery of service submitter is set with an additionnal access right, that will allow him to manage access rights of other users on corresponding organisms**
+.. note:: **Only annotators defined as «Organism Administrators» are allowed to use this functionality. By default, «Organism Administrators» are users who submit a Delivery of Service asking for a Genome integration into MicroScope: when the organism is delivered by LABGeM team on the MicroScope platform, the Delivery of service submitter is set with an additional access right, that will allow him to manage access rights of other users on corresponding organisms**
 
 
 How to read the interface?
@@ -49,14 +49,14 @@ To change the user access rights, simply select the desired access level from th
 
 .. image:: img/man2.png
 
-All users having access to the corresponding organism are grouped by access right level: firest, **Administrators**, then users having **View & Annotate** access rights and at the end, users having View Only access rights.
+All users having access to the corresponding organism are grouped by access right level: first, **Administrators**, then users having **View & Annotate** access rights and at the end, users having View Only access rights.
 
 *Additional data about users are also available:*
 
 	* *User name*
 	* *User email*
 	* *User account creation date*
-	* *User last login date on MicroScope (and not necessarly on the organism you are looking at)*
+	* *User last login date on MicroScope (and not necessarily on the organism you are looking at)*
 	* *the last date the user access rights has been modified by an administrator*
 
 * «**Order by Users**» View
@@ -68,7 +68,7 @@ For a given user, will be listed all the organisms for which:
 	* user have access rights
 	* you have administrator access level
 
-Please note that an user may have also access rights for organisms you are not administrator of. In this case, corresponding orgainsms will not be displayed.
+Please note that an user may have also access rights for organisms you are not administrator of. In this case, corresponding organisms will not be displayed.
 
 *Additional data are also available:*
 

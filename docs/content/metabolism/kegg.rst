@@ -24,4 +24,4 @@ KEGG maps (4) and genes involved in each metabolic pathway (3) are also displaye
 
 In the table (3), each line describes a gene related to an enzymatic reaction of this pathway. EC numbers (enzymatic functions) are useful to construct these links. The « region » column indicates the genes presence/absence in the region of interest.
 
-On the KEGG maps (4), reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow. More details are available by cliking on items of the map and. The Reload button allows the user to come back in this his exploration work.
+On the KEGG maps (4), reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow. More details are available by clicking on items of the map and. The Reload button allows the user to come back in this his exploration work.

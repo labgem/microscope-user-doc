@@ -112,7 +112,7 @@ After the analysis submission, a result page is provided:
 		
 5) The “**Gene annotations and export**” module allows the users to download annotations of core-genome, variable-genome and strain specific genes in a tabulated file. There is 23 columns to describe each feature:
 
-	* *MICFAM_Id*: MicroScope gene family identifier. Singletons are identified with a “singl” tag in this column.
+	* *MICFAM_Id*: MicroScope gene family identifier. Singletons are identified with a “single” tag in this column.
 	* *NbOrganismsFAM*: number of organisms linked to the family. For core-genome and strain specific files, this value is constant (respectively : n and 1). For the variable-genome file, this value ranges from 1 to (n-1). (with n = the number of included organism).
 	* *Organism*: organism name / strain
 	* *GO_id*: CDS identifier

@@ -77,7 +77,7 @@ The common dataset are these ones:
 * **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
 * **TIGRFams**:
-* **InterPro**:
+* **InterPro**: 
 * **KEGG Pathways**:
 * **MicroCyc Pathways**:
 * **PsortB Results**:
@@ -108,15 +108,15 @@ Filters are specific to a given dataset and their use are optional. Also it is p
 How to read the With / Without keyword fields and their options?
 ----------------------------------------------------------------
 
-* **WITH field**: Fill the textarea with the keyword(s) you’re looking for. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will be displayed as result(s). 3 options are available:
+* **WITH field**: Fill the text area with the keyword(s) you’re looking for. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will be displayed as result(s). 3 options are available:
 
-	* **All of the words**: *All of the keywords* filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
-	* **At least one word**: *At least one of the keywords* filled in the textarea must match the data contained in the Field(s) selection in order to get a result.
+	* **All of the words**: *All of the keywords* filled in the text area must match the data contained in the Field(s) selection in order to get a result.
+	* **At least one word**: *At least one of the keywords* filled in the text area must match the data contained in the Field(s) selection in order to get a result.
 	* **Exact phrase**: The system will look for the keywords or the sentence, *with an exact syntax*, into the data contained in the Field(s) selection. This option is very selective.
 	
-* **WITHOUT field**: Fill the textarea with the keyword(s) you want to *exclude* from the potential results. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will **NOT** be displayed as result(s). 3 options are available:
-	* **All of the words**: if *all of the keywords* filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
-	* **At least one word**: if *at least one of the keywords* filled in the textarea match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+* **WITHOUT field**: Fill the text area with the keyword(s) you want to *exclude* from the potential results. If the keyword matches some data contained in the Field(s) selection, the corresponding Genomic Object(s) will **NOT** be displayed as result(s). 3 options are available:
+	* **All of the words**: if *all of the keywords* filled in the text area match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
+	* **At least one word**: if *at least one of the keywords* filled in the text area match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
 	* **Exact phrase**: if the keywords or the sentence, *with an exact syntax*, match the data contained in the Field(s) selection, the corresponding Genomic Object will be excluded from results.
 	
 	
@@ -130,7 +130,7 @@ How to perform a search
 	
 .. note:: If you select some Gene Carts, two constraints will be applied: the reference sequence previously selected AND the Gene Carts content. This means that if you select Acinetobacter baylyi ADP1 as reference sequence and then select some Gene Carts, the search will be performed on the Genomic Objects 1) contained in the Gene Cart(s) AND 2) belonging to Acinetobacter baylyi ADP1. If some of your Gene Carts contain Genomic Objects that do not belong to Acinetobacter baylyi ADP1, the search process will ignore them.
 
-	* **3**. Select one or more Datase(s) of interest (`Item #1 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_). If you select more than one Dataset, the Fields select menu will be unavailable.
+	* **3**. Select one or more data of interest (`Item #1 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_). If you select more than one Dataset, the Fields select menu will be unavailable.
 	* **4**. Eventually, restrict the Fields to a specific selection (`Item #2 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, select all of the Fields.
 	* **5**. Eventually, specify your own Filters values (`Item #3 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_, optional). By default, leave the fields empty. If you select several Dataset, only the common Filters to these Dataset will be available.
 	* **6**. Fill the **With** (`Item #6 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) or **Without** (`Item #5 <http://microscope.readthedocs.org/en/latest/content/search/keyword.html#how-to-read-the-interface>`_) keywords fields.

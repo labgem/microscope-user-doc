@@ -199,7 +199,7 @@ The keyword search will look for all Rhea reactions having an identifier, a name
 
 Rhea reactions are present in 4 exemplary according to the direction :
 
-* bidirectionnal : <=>
+* bidirectional : <=>
 * left to right : =>
 * right to left : <=
 * unknown (master reaction) : <?>
@@ -535,9 +535,9 @@ How to read the result table?
 * **Product**: Product description of the protein
 * **ECnumber**: EC number associated with the protein, if any
 * **Product type**: Description of the product type of the protein
-* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
+* **Roles**: Functional categories associated with the protein using the **Roles** functional classification
 * **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
-* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
+* **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
 * **Localization**: Cellular localisation of the protein
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
@@ -665,10 +665,10 @@ How to read the result table?
 * **Eval**: E value of the BLAST result
 * **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **Roles**: Funtional categories associated with the protein using the **Roles** functional classification
+* **Roles**: Functional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
-* **BioProcess**: Funtional categories associated with the protein using the **BioProcess** functional classification
+* **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
 * **Product type**: Description of the product type of the protein
 * **PubMedId**: PubMed references linked to the annotation of the protein
 * **Class**: Confidence class of the annotation
@@ -793,7 +793,7 @@ How to read SwissProt and TrEMBL results?
 * **Gene**: Gene name of the database protein
 * **Description**: Product description of the database protein
 * **EC Number**: gives the EC number (if any)
-* **Keywords**: Keyords associated to the protein function and roles
+* **Keywords**: Keywords associated to the protein function and roles
 * **PubMedId**: References linked to the annotation of the protein
 * **Organism**: Organism name. If you click on the name, you can access the associated genome sequence on the NCBI website.
 * **Strain**: Strain where the gene of the database is localized 
@@ -828,12 +828,12 @@ How to read PRIAM EC number results?
 
 * **EC_id**: EC number
 * **Evidence**: gives the confidence level associated to the match. It can be:
-	* **high**: the match between the PRIAM profile and the sequence is very good (low Evalue and full alignment).
+	* **high**: the match between the PRIAM profile and the sequence is very good (low E value and full alignment).
 	* **medium**: there is only a partial alignment between the PRIAM profile and the sequence
 	* **low**: there are better results with other PRIAM profiles matching to the sequence
 * **profil**: reference number of the PRIAM profile that matches to the sequence.
 * **lengthprof**: Length of the PRIAM profile
-* **Eval**: Evalue of the match
+* **Eval**: E value of the match
 * **Ident**: Identity of the match
 * **begin**: first position of the alignment
 * **end**: last position of the alignment

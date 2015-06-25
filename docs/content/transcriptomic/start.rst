@@ -8,7 +8,7 @@ Getting Started
 
 RNA-Seq homepage displays the list of available projects.
 
-By Clicking on the arrow available on the left of each project, user can expand the associated functionnalities.
+By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
 
 .. image:: img/start1.png
 
@@ -21,7 +21,7 @@ Selecting a project will allow the user to use :
 
 Variant Discovery homepage displays the list of available projects.
 
-By Clicking on the arrow available on the left of each project, user can expand the associated functionnalities.
+By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
 
 .. image:: img/start2.png
 

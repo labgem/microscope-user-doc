@@ -15,8 +15,8 @@ on the Update Data button.
 How do we use these informations?
 ---------------------------------
 
-The E-mail adress you’ll provide is the most important information we need, considering we’ll send our official communications 
-to this E-mail adress. So, make sure to give us an active and functional E-mail adress.
+The E-mail address you’ll provide is the most important information we need, considering we’ll send our official communications 
+to this E-mail address. So, make sure to give us an active and functional E-mail address.
 
 Please note that we do not make any commercial use of this professional informations. 
 The data is useful for LABGeM to make is own statistics about users, and will not be transmitted to 
