@@ -498,7 +498,7 @@ Protein compositional features
 * **Charged**: 
 * **Basic**: 
 * **Acidic**: 
-* **PI**: give the value of the protein isoelectric point 
+* **PI**: gives the value of the protein isoelectric point 
 * **Oxyphobic Index**: 
 
 
