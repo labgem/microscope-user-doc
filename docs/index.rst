@@ -101,6 +101,7 @@ Transcriptomics
    content/transcriptomic/rnaseqOverview
    content/transcriptomic/rnaseqReadCountAnalysis
    content/transcriptomic/rnaseqDiffExprAnalysis
+   content/transcriptomic/rnaseqIGV
    content/transcriptomic/NGSOverview
    content/transcriptomic/NGSReadCountAnalysis
    content/transcriptomic/NGSDiffExprAnalysis
