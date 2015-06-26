@@ -30,7 +30,7 @@ MaGe
    :maxdepth: 2
 
    content/mage/viewer
-   content/mage/editor
+   content/mage/info
    content/mage/doubloonGenes
    content/mage/overlapCDS
    content/mage/bilanAnnotationExpert
