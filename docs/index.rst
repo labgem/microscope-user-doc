@@ -87,7 +87,7 @@ Searches
    :maxdepth: 2
    
    content/search/blast
-   content/search/keyword
+   content/search/keywords
    content/search/exportForm
    
 ===============
