@@ -466,9 +466,18 @@ Compositional features
 Gene compositional features
 ---------------------------
 
-*In progress*
+This section gives the different compositional features of the studied gene, determined by ??.
 
 .. image:: img/gene.png
+
+* **GC Content**: 
+* **GC1 Content**: 
+* **GC2 Content**: 
+* **GC3 Content**: 
+* **CAI**: 
+* **GCskew**: 
+* **R/Y ratio**: 
+
 
 
 Protein compositional features
@@ -477,6 +486,21 @@ Protein compositional features
 *In progress*
 
 .. image:: img/protein.png
+
+* **Mw (Da)**: gives the molecular weight of the protein (Da)
+* **Hydrophobicity**: 
+* **Tiny**: 
+* **Small**: 
+* **Aliphatic**: 
+* **Aromatic**: 
+* **NonPolar**: 
+* **Polar**: 
+* **Charged**: 
+* **Basic**: 
+* **Acidic**: 
+* **PI**: give the value of the protein isoelectric point 
+* **Oxyphobic Index**: 
+
 
 
 
