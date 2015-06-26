@@ -169,8 +169,11 @@ How to refine a search?
 
 After having performed a search and assuming you got some results, you can choose to refine them by proceeding a new search within this set of results. For this, you have to proceed the exact same way than previously, except you’ll have to click on the **EXPLORE MORE** button instead of the **NEW SEARCH** one. This method provides a good way to refine successively a set of candidate genes.
 
+
 How to read search results?
 ---------------------------
+
+
 
 How to export and save results in a Gene Cart?
 ----------------------------------------------
