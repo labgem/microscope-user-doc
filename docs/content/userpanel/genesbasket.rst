@@ -208,7 +208,7 @@ These tools are:
 
 * `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_
 * `Genes Phyloprofile <http://microscope.readthedocs.org/en/latest/content/compgenomics/phyloprofil.html>`_
-* `Search by Keywords <http://microscope.readthedocs.org/en/latest/content/search/keyword.html>`_
+* `Search by Keywords <http://microscope.readthedocs.org/en/latest/content/search/keywords.html>`_
 * `Evolution Projects Results <http://microscope.readthedocs.org/en/latest/content/expdata/NGSProjectEvo.html>`_
 
 Overall, check for the availability of a **EXPORT TO GENE** CART button above a Genomic Objects list.
