@@ -1,11 +1,6 @@
-##################
-Evolution Projects
-##################
-
-*In progress* 
-
-
-
+#################################################################
+PALOMA - Polymorphism Analyses in Light Of MAssive DNA sequencing 
+#################################################################
 
 ===========
 First steps
@@ -42,6 +37,7 @@ indel_score=
 
 * Local-coverage : Number of reads containing the indel.
 * Total-coverage : Total number of reads mapping the mutated position.
+
 
 
 ====================
