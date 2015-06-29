@@ -114,6 +114,7 @@ Variant Discovery
    :maxdepth: 2
    
    content/expdata/NGSProjectEvo
+   content/expdata/sniperRes
    
 ==========
 User Panel
