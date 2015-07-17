@@ -1,8 +1,7 @@
 ##################
 Evolution Projects
 ##################
-
-*In progress* 
+ 
 
 
 
