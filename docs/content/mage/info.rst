@@ -302,7 +302,7 @@ How to choose the "Class" annotation category?
 ----------------------------------------------
 
 .. image:: img/editor8.png
-
+	:width: 80%
 
 
 
@@ -311,6 +311,8 @@ Annotation Rules
 ================
 
 .. image:: img/annotation1.png
+	:width: 80%
+
 
 Considering the Class field, here are some basic annotation rules:
 
