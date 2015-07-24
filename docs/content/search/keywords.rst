@@ -219,10 +219,6 @@ How to explore within a Gene Cart content?
 .. image:: img/key5.png
 
 
-What is the Intersect Button?
------------------------------
-The intersect button allows you to cross your two last researches. 
-
 What are the Empty/Not Empty Buttons?
 -------------------------------------
 
