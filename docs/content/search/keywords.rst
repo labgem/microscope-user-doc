@@ -194,9 +194,9 @@ Your search results will be displayed in a tab:
 **BioProcess**: functional categories associated with the protein using the BioProcess functional classification
 **Product Type**: description of the product type of the protein
 **PubMed ID**: PubMed references linked to the annotation of the protein
-**Class**: indicates the class of the annotation (`click here<http://microscope.readthedocs.org/en/latest/content/mage/info.html#how-to-use-the-class-field>`_ for more informations).
+**Class**: indicates the class of the annotation (`click here <http://microscope.readthedocs.org/en/latest/content/mage/info.html#how-to-use-the-class-field>`_ for more informations).
 **Evidence**: indicates if the annotation is automatic or manually validated
-**Status**:  indicates the status of the expert annotation. (`click here<http://microscope.readthedocs.org/en/latest/content/mage/info.html#what-are-the-different-annotation-status-es>`_ for more informations)
+**Status**:  indicates the status of the expert annotation. (`click here <http://microscope.readthedocs.org/en/latest/content/mage/info.html#what-are-the-different-annotation-status-es>`_ for more informations)
 **Mutation**: indicates if there is or no a mutation on the gene
 AMIGene Status: no/Wrong/New
 
