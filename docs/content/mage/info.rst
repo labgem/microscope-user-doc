@@ -302,7 +302,7 @@ How to choose the "Class" annotation category?
 ----------------------------------------------
 
 .. image:: img/editor8.png
-	:width: 50%
+	:width: 70%
 
 
 
