@@ -81,13 +81,13 @@ Export the MicroCyc Pathway/Genome Database data into a `tar.gz <http://en.wikip
 Role Classification
 -------------------
 
-Get the complete `Role Classification <http://microscope.readthedocs.org/en/latest/content/mage/editor.html#what-is-the-roles-classification>`_ in a text format.
+Get the complete `Role Classification <http://microscope.readthedocs.org/en/latest/content/mage/info.html#what-is-the-roles-classification>`_ in a text format.
 
 
 BioProcess Classification
 -------------------------
 
-Get the complete `BioProcess Classification <http://microscope.readthedocs.org/en/latest/content/mage/editor.html#what-is-the-bioprocess-classification>`_ in a text format.
+Get the complete `BioProcess Classification <http://microscope.readthedocs.org/en/latest/content/mage/info.html#what-is-the-bioprocess-classification>`_ in a text format.
 
 
 Noncoding DNA

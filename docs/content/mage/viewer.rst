@@ -286,7 +286,7 @@ Double click on an object to select it in the upper part of the window. The obje
 * **ctrl + U key**: Undo your last action.
 * **ctrl + Q key**: Select the whole ORF.
 
-Once you have identified an alternative Start codon, you can copy its position and change the value in the `Gene annotation editor <http://microscope.readthedocs.org/en/latest/content/mage/editor.html>`_ window of your gene.
+Once you have identified an alternative Start codon, you can copy its position and change the value in the `Gene annotation editor <http://microscope.readthedocs.org/en/latest/content/mage/info.html>`_ window of your gene.
 
 What do I do if java doesn’t work on my computer ?
 --------------------------------------------------

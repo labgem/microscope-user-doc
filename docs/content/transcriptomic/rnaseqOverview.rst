@@ -16,9 +16,9 @@ Users can choose to select the whole project or pick up one specific experiment 
 Selecting a whole project will allow the user to use `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#integrative-genomics-browser>`_ tool (IGV - http://www.broadinstitute.org/igv/), whereas choosing a specific experiment will open the access to more functionalities:
 
 * Overview tool (**Item #1**)
-* `Read Count Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#read-count-analysis>`_  (**Item #2**)
-* `Differential Expression Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#differential-expression-analysis>`_  (**Item #3**)
-* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#integrative-genomics-browser>`_ (**Item #4**)
+* `Read Count Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqReadCountAnalysis.html>`_  (**Item #2**)
+* `Differential Expression Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqDiffExprAnalysis.html>`_  (**Item #3**)
+* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqIGV.html>`_ (**Item #4**)
 
 
 Overviewing RNA-Seq experiments results
