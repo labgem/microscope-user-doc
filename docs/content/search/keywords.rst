@@ -173,6 +173,32 @@ After having performed a search and assuming you got some results, you can choos
 How to read search results?
 ---------------------------
 
+Your search results will be displayed in a tab:
+
+.. image:: img/key3.png
+
+**MoveTo**: If you click on the magnifying lense, the Genome Browser will popup for this Genomic Object
+**Label**: it gives you the label of the genomic object. If you click on it, the Gene Annotation Editor will popup for this Genomic Object
+**Type**: CDS, fCDS, tRNA, rRNA misc_RNA...
+**Begin**: begin position of the genomic object on the sequence
+**End**: end position of the genomic object on the sequence
+**Lenght**: length of the genomic object, in nucleotides
+**Frame**: reading frame of the genomic object
+**Gene**: gene name if any
+**Synonyms**: alternative name for the gene (if any)
+**Product**: product description of the protein
+**Roles**: functional categories associated with the protein using the Roles functional classification
+**EC Number**: EC number associated with the protein, if any
+**Reaction**: if any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
+**Localization**: cellular localization of the protein
+**BioProcess**: functional categories associated with the protein using the BioProcess functional classification
+**Product Type**: description of the product type of the protein
+**PubMed ID**: PubMed references linked to the annotation of the protein
+**Class**: indicates the class of the annotation (`click here<http://microscope.readthedocs.org/en/latest/content/mage/info.html#how-to-use-the-class-field>`_ for more informations).
+**Evidence**: indicates if the annotation is automatic or manually validated
+**Status**:  indicates the status of the expert annotation. (`click here<http://microscope.readthedocs.org/en/latest/content/mage/info.html#what-are-the-different-annotation-status-es>`_ for more informations)
+**Mutation**: indicates if there is or no a mutation on the gene
+AMIGene Status: no/Wrong/New
 
 
 How to export and save results in a Gene Cart?
@@ -184,15 +210,22 @@ Once you get some results, an **EXPORT TO GENE CART** button will be available a
 How to explore within a Gene Cart content?
 ------------------------------------------
 
-**Single Mode**:
-**Multiple Mode**:
+**Single mode**: once you've selected your organism, select the Gene Cart you want to explore. Then click on "Search".
 
+.. image:: img/key4.png
 
-What is the Get Genes Button?
------------------------------
+**Multiple mode**: select "OR Explore within cart(s)", then click on the Gene Cart(s) you want to explore. Finally, click on "Search"
+
+.. image:: img/key5.png
+
 
 What is the Intersect Button?
 -----------------------------
+The intersect button allows you to cross your two last researches. 
 
 What are the Empty/Not Empty Buttons?
 -------------------------------------
+
+Those buttons allow you to display only the results which have one or more selected fields that are empty/not empty. For example, you're looking for every gene that has the word "ATPase" in its product name, and amongst those results you only want to get those which have the "Gene" field completed. For this purpose, after searching for "ATPase" and seeing the results of your query, you have to select the "gene" field, and then click on the "Not empty" button.
+
+.. image:: img/field.png
