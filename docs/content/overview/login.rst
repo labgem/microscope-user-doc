@@ -37,7 +37,7 @@ On the `Login Interface of the Navigation Menu <http://microscope.readthedocs.or
 
 Once you’re logged, the Login Interface will be replaced by your Firstname, your Lastname and a *LOGOUT* button.
 
-On your first login, you’ll be redirected to the `Personal Informations Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/personalinfo.htmll>`_ where you’ll be prompted to fill in or update required data before using the platform.
+On your first login, you’ll be redirected to the `Personal Informations Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/personalinfo.html>`_ where you’ll be prompted to fill in or update required data before using the platform.
 
 .. note:: **For security reasons, as soon as you finished your daily work, do not forget to click on the LOGOUT button in order to close the session and disconnect yourself from our servers.**
 
