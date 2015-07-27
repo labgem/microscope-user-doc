@@ -6,7 +6,7 @@ This tool allows to retrieve from a specific organism data stored in PkGDB : com
 
 These information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, XML, Tab delimited). Moreover, data on role categories used in MicroScope, and/or MicroCyc metabolic Pathway/Genome database (PGDBs) can be downloaded too.
 
-First, select a reference replicon from the `CHANGE button (Item #2) <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>_` available in the top right corner of the interface. Or select an organism from your `Favourite Organisms <http://microscope.readthedocs.org/en/latest/content/userpanel/favourites.html>`_ selection.
+First, select a reference replicon from the `CHANGE button (Item #2) <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ available in the top right corner of the interface. Or select an organism from your `Favourite Organisms <http://microscope.readthedocs.org/en/latest/content/userpanel/favourites.html>`_ selection.
 
 
 FASTA (http://www.ncbi.nlm.nih.gov/blast/fasta.shtml)
