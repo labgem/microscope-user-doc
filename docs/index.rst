@@ -34,8 +34,8 @@ MaGe
    content/mage/doubloonGenes
    content/mage/overlapCDS
    content/mage/bilanAnnotationExpert
-   content/mage/ecnumber
-   content/mage/newlabels
+   content/mage/badEC
+   content/mage/labelOldNew
 
 =============
 Genomic Tools
@@ -125,7 +125,7 @@ User Panel
    
    content/userpanel/displaypref
    content/userpanel/genesbasket
-   content/userpanel/favourites
+   content/userpanel/favorites
    content/userpanel/personalinfo
    content/userpanel/requestpassword
    content/userpanel/rightsmanagement
