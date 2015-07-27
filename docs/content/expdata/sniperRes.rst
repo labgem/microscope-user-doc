@@ -9,6 +9,18 @@ First steps
 How to begin?
 -------------
 
+Variant Discovery homepage displays the list of available projects.
+
+By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
+
+.. image:: img/palo.png
+
+Selecting a project will allow the user to use :
+
+* `Overview tool <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqOverview.html>`_ (**Item #1**)
+* `Analysis <http://microscope.readthedocs.org/en/latest/content/expdata/NGSProjectEvo.html>`_ (**Item #2**)
+* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqIGV.html>`_ (IGV - http://www.broadinstitute.org/igv/) (**Item #3**)
+
 Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
 
 .. image:: img/evo1.png
