@@ -222,6 +222,6 @@ How to explore within a Gene Cart content?
 What are the Empty/Not Empty Buttons?
 -------------------------------------
 
-Those buttons allow you to display only the results which have one or more selected fields that are empty/not empty. For example, you're looking for every gene that has the word "ATPase" in its product name, and amongst those results you only want to get those which have the "Gene" field completed. For this purpose, after searching for "ATPase" and seeing the results of your query, you have to select the "gene" field, and then click on the "Not empty" button.
+Those buttons allow you to get results where the selected fields are empty/not empty. For example, you're looking for all the genes that have the word "ATPase" in their product name, and amongst those results you only want to get those which have the "Gene" field completed. For this purpose, after searching for "ATPase" and seeing the results of your query, you have to select the "gene" field, and then click on the "Not empty" button.
 
 .. image:: img/field.png
