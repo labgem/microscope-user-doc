@@ -81,15 +81,15 @@ The common dataset are these ones:
 * **PRIAM EC Prediction**: will return genes of your selected sequence having `PRIAM <http://priam.prabi.fr/>`_ results.
 * **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
-* **TIGRFams**:
-* **InterPro**: 
-* **KEGG Pathways**:
-* **MicroCyc Pathways**:
-* **PsortB Results**:
-* **SignalP Results**:
-* **TMhmm Results**:
-* **Coiled Coil Results**:
-* **Genes with SNP(s) and/or InDel(s)**:
+* **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries
+* **InterPro**: will return genes of your selected sequence matching InterPro entries
+* **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
+* **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
+* **PsortB Results**: will return genes of your selected sequence matching PSortB entries
+* **SignalP Results**: will return genes of your selected sequence matching SignalP entries
+* **TMhmm Results**: will return genes of your selected sequence matching TMhmm entries
+* **Coiled Coil Results**: will return genes of your selected sequence that code for proteins with a coiled coil structure
+* **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s).
 
 
 What are the Fields?
