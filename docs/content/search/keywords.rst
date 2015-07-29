@@ -25,8 +25,10 @@ How to read the interface?
 * **Item #5**. Words you want to match (options: *All the words / At least one word / Exact phrase*).
 * **Item #6**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
 * **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
+
+
 	
-* The Multiple Mode
+* **The Multiple Mode**
 
 .. image:: img/key2.png
 	:width: 100%
