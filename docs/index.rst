@@ -128,7 +128,7 @@ User Panel
    content/userpanel/favorites
    content/userpanel/personalinfo
    content/userpanel/requestpassword
-   content/userpanel/rightsmanagement
+   content/userpanel/manageaccessrights
    content/userpanel/register
    
    
