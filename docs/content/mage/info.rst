@@ -1086,38 +1086,38 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **References:** 
 
+`Tilmann W., et al. (2015) antiSMASH 3.0 - a comprehensive resource for the genome mining of biosynthetic gene clusters Nucleic Acids Research. Jul 1;43(W1):W237-43. <http://www.ncbi.nlm.nih.gov/pubmed/25948579>`_
+
 `Blin K., et al. (2013) antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
 Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`_
 
 `Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`_
 
-What type of secondary metabolites can antiSMASH 2.0.2 predict?
+What type of secondary metabolites can antiSMASH 3.0.5 predict?
 ---------------------------------------------------------------
-* **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, Type IV PKS), Non-ribosomal peptide synthetase
+* **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, other PKS), Non-ribosomal peptide synthetase
 
 
-* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate
-
+* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate, arylpolyene, resorcinol, ladderane, PUFA, linaridin, cyanobactin, glycocin, lassopeptide, sactipeptide, bottromycin, microcin, microviridin, proteusin, blactam, amglyccycl
 
 * **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
-
-How to read antiSMASH 2.0.2 results?
+How to read antiSMASH 3.0.5 results?
 ------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
 
 **The antiSMASH annotation dataset:**
 
-.. image:: img/antismash_annotation.png
+.. image:: img/antiSMASH3_annotation.PNG
 
+* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
 * **antiSMASH annotation**: gene annotation proposed by the tool
 * **domains detected**: predicted domains, if any.
-* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the AntiSMASH cluster visualisation window.
 
 **The antiSMASH domains dataset:**
 
-.. image:: img/antismash_domains.png
+.. image:: img/antiSMASH3_domain.PNG
 
 * **Type**: domain type
 * **Subtype**: protein type proposed by antiSMASH
@@ -1129,13 +1129,6 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the AntiSMASH cluster visualization window from the last column of the antiSMASH annotation table.
-This window allows you to visualize the full antiSMASH cluster prediction and its genomic context. In case of NRPS/PKS cluster type, the predicted peptide monomer composition is indicated as well.
-All informations regarding the CDS present in the graphical representation are available in a table below the graphical representation of the cluster.
-
-.. image:: img/antismash_cluster_visualisation.png
-
-What is the meaning of the domain color code in the AntiSMASH cluster visualisation window?
--------------------------------------------------------------------------------------------
-.. image:: img/color_code_antismash_domains.png
+You can access to the AntiSMASH cluster visualization window from the Cluster column of the antiSMASH annotation table.
+This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
