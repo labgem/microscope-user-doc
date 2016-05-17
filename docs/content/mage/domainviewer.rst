@@ -22,7 +22,7 @@ All informations regarding the CDS present in the graphical representation are a
 
 .. image:: img/antiSMASH3_Feature.PNG
 
-The **Tailoringcluster** table provide information about gene which may be involve in tailoring reaction. By clicking on the number, you can access to the Pubmad related article.
+The **Tailoringcluster** table provide information about gene which may be involve in tailoring reaction. By clicking on the number, you can access to the Pubmed related article.
 
 .. image:: img/antiSMASH3_Tailoringcluster.PNG
 
