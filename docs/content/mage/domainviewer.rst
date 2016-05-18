@@ -2,6 +2,10 @@
 AntiSMASH cluster visualization
 ######################
 
+What is antiSMASH?
+------------------
+
+Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about antiSMASH
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
@@ -12,7 +16,7 @@ In case of NRPS/PKS cluster type, the predicted peptide monomer composition is i
 
 .. image:: img/antiSMASH3_viewer.PNG
 
-The **Knowncluster** table provide information about known cluster in MIBiG database
+The **Knowncluster** table provide information about similar cluster in MIBiG database. The Minimum Information about a Biosynthetic Gene cluster (MIBiG) can help to know more on biosynthetic gene clusters and their molecular products.
 
 `Medema M.H., et al. (2015) Minimum Information about a Biosynthetic Gene cluster. Nat Chem Biol. Sep;11(9):625-31. <http://www.ncbi.nlm.nih.gov/pubmed/26284661>`_
 
