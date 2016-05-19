@@ -20,10 +20,6 @@ In case of NRPS/PKS cluster type, the predicted peptide monomer composition may 
 |
 |
 
-You can zoom on the image by clicking the magnifying glass (open a new tab), if needed you can change the picture's size by changing 'zoom' option in the URL
-
-.. image:: img/antiSMASH3_zoom.PNG
-
 Thanks to `https://cdkdepict-openchem.rhcloud.com/depict.html <https://cdkdepict-openchem.rhcloud.com/depict.html>`_ for Picture's displays 
 
 |
