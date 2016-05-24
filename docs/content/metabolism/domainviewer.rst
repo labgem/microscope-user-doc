@@ -10,8 +10,9 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the AntiSMASH cluster visualization window from the Cluster column of the antiSMASH annotation table.
+You can access to the AntiSMASH cluster visualization window from the Cluster column of any antiSMASH result table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
+
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction is displayed.
 
 .. image:: img/antiSMASH3_viewer.PNG
@@ -26,9 +27,10 @@ Thanks to `https://cdkdepict-openchem.rhcloud.com/depict.html <https://cdkdepict
 |
 
 
-The **Knowncluster** table provide information about similar cluster in MIBiG database. The Minimum Information about a Biosynthetic Gene cluster (MIBiG) can help to know more on biosynthetic gene clusters and their molecular products.
+The **MIGiB Clusters Similarities** table provide information about similar cluster in MIBiG database. The Minimum Information about a Biosynthetic Gene cluster (MIBiG) can help to know more on biosynthetic gene clusters and their molecular products.
 
 `Medema M.H., et al. (2015) Minimum Information about a Biosynthetic Gene cluster. Nat Chem Biol. Sep;11(9):625-31. <http://www.ncbi.nlm.nih.gov/pubmed/26284661>`_
+
 
 .. image:: img/antiSMASH3_Knowncluster.PNG
 
@@ -37,7 +39,7 @@ The **Knowncluster** table provide information about similar cluster in MIBiG da
 |
 
 
-All informations regarding the CDS present in the graphical representation are available in the **Features** table below the graphical representation of the cluster.
+All informations regarding the CDS present in the graphical representation are available in the ** Genomic Objects** table below the graphical representation of the cluster.
 
 .. image:: img/antiSMASH3_Feature.PNG
 
@@ -45,7 +47,11 @@ All informations regarding the CDS present in the graphical representation are a
 |
 
 
-The **Tailoringcluster** table provide information about gene which may be involve in tailoring reaction. By clicking on the number, you can access to the Pubmed related article.
+The **Tailoring Clusters Similarities** table provide information about gene which may be involve in tailoring reaction. By clicking on the number, you can access to the Pubmed related article.
+
+The 6 first column help to know more about the predict tailoring cluster, the "label" column give MicroScope gene label.
+the next 3 column: TC protein id , TC gene name and Protein description give information about tailoring gene in this tailoring cluster and the last 3 column give match information between tailoring gene and MicroScope one.
+
 
 .. image:: img/antiSMASH3_Tailoringcluster.PNG
 
