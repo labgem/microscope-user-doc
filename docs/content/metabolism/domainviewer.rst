@@ -12,8 +12,14 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the AntiSMASH cluster visualization window from the Cluster column of any antiSMASH result table.
+You can access to the **AntiSMASH cluster visualization** window from the Cluster column of any antiSMASH result table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
+You can also use the main navigation menu in the **Metabolism** section to obtain the **AntiSMASH predictions** page.
+This page enumerates all secondary metabolite cluster detected for the choosen sequence and its replicons.
+
+
+What informations are in this window?
+--------------------------------------------------------
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction is displayed.
 
@@ -51,8 +57,8 @@ All informations regarding the CDS present in the graphical representation are a
 
 The **Tailoring Clusters Similarities** table provide information about gene which may be involve in tailoring reaction. By clicking on the number, you can access to the Pubmed related article.
 
-The 6 first column help to know more about the predict tailoring cluster, the "label" column give MicroScope gene label.
-the next 3 column: TC protein id , TC gene name and Protein description give information about tailoring gene in this tailoring cluster and the last 3 column give match information between tailoring gene and MicroScope one.
+The 6 first columns help to know more about the predict tailoring clusters, the *label* column give MicroScope gene label.
+The next 3 columns: *TC protein id* , *TC gene name* and *Protein description* give informations about tailoring genes in this tailoring cluster and the last 3 columns give match informations between tailoring gene and MicroScope one.
 
 
 .. image:: img/antiSMASH3_Tailoringcluster.PNG
