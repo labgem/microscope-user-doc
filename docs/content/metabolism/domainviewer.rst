@@ -5,7 +5,9 @@ AntiSMASH cluster visualization
 What is antiSMASH?
 ------------------
 
-Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about antiSMASH
+Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about `antiSMASH <http://antismash.secondarymetabolites.org/about.html>`_
+
+
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
