@@ -1,6 +1,6 @@
-######################
-AntiSMASH Prediction 
-######################
+#########
+AntiSMASH 
+#########
 
 What is antiSMASH?
 ------------------
