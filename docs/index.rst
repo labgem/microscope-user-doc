@@ -78,6 +78,8 @@ Metabolism
    content/metabolism/syntenyPath
    content/metabolism/pathwayCuration
    content/metabolism/canoe
+   content/metabolism/antismash
+
    
 ========
 Searches
