@@ -27,6 +27,6 @@ This table enumerates all secondary metabolite clusters detected for the selecte
 How to explore this secondary metabolite cluster?
 ---------------------------------------
 
-The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer>`_ 
+The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_ 
 can be accessed by clicking on any cluster number in the **Cluster** field.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
