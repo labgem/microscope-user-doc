@@ -12,7 +12,7 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the **AntiSMASH cluster visualization** window from the Cluster column of any antiSMASH result table.
+You can access to the **AntiSMASH cluster visualization** window by clicking on the number indicated in the Cluster field of the antiSMASH result table.
 
 You can also use the main navigation menu in the **Metabolism** section to obtain the **AntiSMASH predictions** page.
 This page enumerates all secondary metabolite cluster detected for the selected organism and its replicons.
