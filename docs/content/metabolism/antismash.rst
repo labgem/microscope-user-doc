@@ -14,16 +14,19 @@ How to access to the antiSMASH predictions?
 
 AntiSMASH predictions are accessible through the **Metabolism** section, in the main navigation menu.
 
+.. image:: img/antiSMASH3_metabolism.PNG 
+
 What is this table?
 ------------------
 
-This table enumerates all secondary metabolite cluster detected for the choosen sequence and its replicons
+This table enumerates all secondary metabolite clusters detected for the selected organism and its replicons.
 
-.. image:: img/antiSMASH3_prediction.PNG
+.. image:: img/antiSMASH._prediction.PNG 
+
 
 How to explore this secondary metabolite cluster?
 ---------------------------------------
 
 The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer>`_ 
-can be accessed by clicking on any cluster number in the **Cluster** column.
+can be accessed by clicking on any cluster number in the **Cluster** field.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
