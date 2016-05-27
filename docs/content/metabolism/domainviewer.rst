@@ -20,9 +20,17 @@ This page enumerates all secondary metabolite cluster detected for the selected 
 
 What informations are in this window?
 --------------------------------------------------------
-This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
+This window allows you to visualize the antiSMASH cluster prediction and its genomic context.
+
+The boxes in the middle of the viewer ( on the blue line) represent the predicted domains of the predicted secondary metabolite genes.  
+The other boxes in the viewer represent the genomic object of the region. Only some type of genomic object are allowed ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element').   
+
+You can mouse over all the boxes in the **viewer** to have summarized information about them, for the genomic object one, the data are also in the **Genomic Objects** table below.
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction and its visualization are displayed.
+
+If some 'misc_feature' object exist in this area, they will appear at the bottom of the viewer.
+
 
 .. image:: img/antiSMASH3_viewer.PNG
 
