@@ -12,20 +12,20 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the **AntiSMASH cluster visualization** window by clicking on the number indicated in the Cluster field of the antiSMASH result table.
+You can access to the **AntiSMASH cluster visualization** window by clicking on the number indicated in the Cluster field in the antiSMASH result table.
 
 You can also use the main navigation menu in the **Metabolism** section to obtain the **AntiSMASH predictions** page.
-This page enumerates all secondary metabolite cluster detected for the selected organism and its replicons.
+This page enumerates all secondary metabolite clusters detected for the selected organism and its replicons.
 
 
 What informations are in this window?
 --------------------------------------------------------
-This window allows you to visualize the antiSMASH cluster prediction and its genomic context.
+This window allows you to visualize the antiSMASH cluster predictions and its genomic context.
 
 The boxes in the middle of the viewer ( on the blue line) represent the predicted domains of the predicted secondary metabolite genes.  
-The other boxes in the viewer represent the genomic object of the region. Only some type of genomic object are allowed ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element').   
+The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element').   
 
-You can mouse over all the boxes in the **viewer** to have summarized information about them, for the genomic object one, the data are also in the **Genomic Objects** table below.
+All the boxes in the **viewer** can be mouse over to obtain summarized informations about them, for the genomic object one, the data are also in the **Genomic Objects** table below.
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction and its visualization are displayed.
 
