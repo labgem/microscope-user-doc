@@ -22,14 +22,13 @@ What informations are in this window?
 --------------------------------------------------------
 This window allows you to visualize the antiSMASH cluster predictions and its genomic context.
 
-The boxes in the middle of the viewer ( on the blue line) represent the predicted domains of the predicted secondary metabolite genes.  
-The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element').   
+The boxes in the middle of the viewer (on the blue line) represent the predicted domains of the predicted secondary metabolite genes.  
+The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element'). 'misc_feature' object will appear at the bottom of the viewer. 
 
-All the boxes in the **viewer** can be mouse over to obtain summarized informations about them, for the genomic object one, the data are also in the **Genomic Objects** table below.
+All the boxes in the **viewer** can be mouse over to obtain summarized informations about them. The genomic object data are also described in the **Genomic Objects** table below. 
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction and its visualization are displayed.
 
-If some 'misc_feature' object exist in this area, they will appear at the bottom of the viewer.
 
 
 .. image:: img/antiSMASH3_viewer.PNG
@@ -64,10 +63,10 @@ The **Genomic Objects** table provides informations regarding the genomic object
 |
 
 
-The **Tailoring Clusters Similarities** table provides informations about genes which may be involved in tailoring reactions. By clicking on the number, you can access to the Pubmed related article.
+The **Tailoring Clusters Similarities** table provides informations about genes which may be involved in tailoring reactions. By clicking on the number, you can access to the Pubmed related publication.
 
 * The 6 first columns help to know more about the predict tailoring clusters. 
-* *Label* column give the MicroScope gene label.
+* *Label* column gives the MicroScope gene label.
 * *TC protein id* , *TC gene name* and *Protein description* give informations about genes which compose the tailoring cluster.
 * *% identity*, *Coverage* and *e-values* give some mathematical informations about the match between tailoring gene and MicroScope one.
 
