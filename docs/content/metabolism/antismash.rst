@@ -12,7 +12,7 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 How to access to the antiSMASH predictions?
 -----------------------------------------------
 
-AntiSMASH predictions are accessible through the **Metabolism** section, in the main navigation menu.
+AntiSMASH predictions are available through the **Metabolism** section, in the main navigation menu.
 
 .. image:: img/antiSMASH3_metabolism.PNG 
 
@@ -24,7 +24,7 @@ This table enumerates all secondary metabolite clusters detected for the selecte
 .. image:: img/antiSMASH._prediction.PNG 
 
 
-How to explore this secondary metabolite cluster?
+How to explore this secondary metabolite clusters?
 ---------------------------------------
 
 The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_ 
