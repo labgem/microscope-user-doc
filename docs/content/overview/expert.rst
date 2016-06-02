@@ -205,6 +205,8 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **References:** 
 
+`Tilmann W., et al. (2015) antiSMASH 3.0 - a comprehensive resource for the genome mining of biosynthetic gene clusters Nucleic Acids Research. Jul 1;43(W1):W237-43. <http://www.ncbi.nlm.nih.gov/pubmed/25948579>`_
+
 `Blin K., et al. (2013) antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
 Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`_
 
