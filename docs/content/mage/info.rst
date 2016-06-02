@@ -1111,7 +1111,7 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 
 .. image:: img/antiSMASH3_annotation.PNG
 
-* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the `AntiSMASH cluster visualisation window <https://microscope.readthedocs.io/en/latest/content/mage/domainviewer.html>`_.
+* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the `AntiSMASH cluster visualisation window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_.
 * **antiSMASH annotation**: gene annotation proposed by the tool
 * **domains detected**: predicted domains, if any.
 
