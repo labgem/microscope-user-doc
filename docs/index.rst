@@ -47,7 +47,7 @@ Genomic Tools
    content/genomic/overview
    content/genomic/cgview
    content/genomic/syntenyTandem
-   content/genomic/classifcog
+   content/genomic/classifCOG
    content/genomic/minGeneSet
 
 ====================
