@@ -1160,7 +1160,7 @@ dbCAN
 What is dbCAN?
 ------------------
 
-`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the _`CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family. 
+`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family. 
 Citations: `Yin Y*, Mao X*, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_ 
 
 
