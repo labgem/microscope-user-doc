@@ -10,6 +10,14 @@ The CARD is a rigorously curated collection of known resistance determinants and
 Know  more about `CARD <https://card.mcmaster.ca/home>`_
 
 
+**References:** 
+
+`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
+
+
+`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+
+
 What is RGI?
 -------------------------------------------------------
 
