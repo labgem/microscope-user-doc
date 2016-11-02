@@ -31,8 +31,6 @@ How to access to the Antibiotic Resistance predictions?
 
 CARD predictions are available through the **Comparative Genomics** section, in the main navigation menu.
 
-.. image:: img/CARD_compgen.PNG 
-
 What are these tables?
 --------------------------------------------------------
 
