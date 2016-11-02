@@ -1180,3 +1180,40 @@ LengthQ: length of the sequence
 Eval: Evalues of the alignment
 Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is. 
 
+=========
+CARD
+=========
+
+
+What is CARD?
+------------------
+The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+
+
+Citations: 
+
+`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
+
+
+`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+
+
+How to read CARD results:
+
+.. image:: img/CARD.PNG
+
+* **Rank**: rank of the hit
+* **ARO id**: ARO number with redirection on CARD website
+* **Organism**: organism of the reference sequence
+* **Hit Type**: Perfect, Strict or Loose
+* **Score**: BLAST score
+* **Name**: name of the reference gene
+* **Synonyms**: other possible name
+* **Description**: description of the hit
+* **Pubmed**: link of related publications
+* **Eval**: BLAST E-value
+* **ident**: Blast identity
+* **Resistance to**: Antibiotic link to the reference gene
+
+You can access to the `CARD Result page <https://microscope.readthedocs.io/en/latest/content/compgenomics/card.html>`_ by clicking on the Comparative Genomics menu at **Antibiotic Resistance**.
+
