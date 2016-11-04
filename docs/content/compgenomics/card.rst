@@ -21,7 +21,7 @@ Know  more about `CARD <https://card.mcmaster.ca/home>`_
 What is RGI?
 -------------------------------------------------------
 
-Resistance Gene Identifier (RGI) predicts antibiotic resistance genes from genome sequence data. The RGI integrates the ARO, bioinformatics models and molecular reference sequence data to broadly analyze antibiotic resistance at the genome level.
+Resistance Gene Identifier (RGI) predicts antibiotic resistance genes from genome sequence data. The RGI integrates ARO, bioinformatics models and molecular reference sequence data to broadly analyze antibiotic resistance at the genome level.
 
 Know  more about `RGI <https://card.mcmaster.ca/analyze/rgi>`_
 
@@ -34,14 +34,11 @@ CARD predictions are available through the **Comparative Genomics** section, in 
 What are these tables?
 --------------------------------------------------------
 
-The table **CARD Proteins Homologs**, show all hits for all CDS which pass the Perfect or Strict algorithms with the **protein homolog model**.
+The table **CARD Proteins Homologs** shows all CDS hits which pass the Perfect or Strict algorithms for the **protein homolog model**.
 
-- The **Perfect** algorithm detects perfect matches to the curated reference sequences and mutations in CARD.
-- The **Strict** algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene.
+- The **Perfect** algorithm detects perfect matches from the curated reference sequences and mutations in CARD.
+- The **Strict** algorithm detects previously unknown variants of known AMR genes.
 - The **Loose** algorithm works outside of the detection model cut-offs to provide detection of new, emergent threats and more distant homologs of AMR genes, but will also catalog homologous sequences and spurious partial hits that may not have a role in AMR.
-
-The **Xref** column can have some accession from PDB (3FTJ), DNAAccession (CM000441.2), PubChem (3021). 
-
 
 .. image:: img/CARD_Homologs.PNG 
 
@@ -49,4 +46,6 @@ The table **CARD Proteins Variants**, show all hits for all CDS which pass the P
 
 .. image:: img/CARD_Variants.PNG
 
-You can acces the CARD database by clicking on any **ARO id**
+The **Xref** column can include some accession from PDB (3FTJ), DNAAccession (CM000441.2), PubChem (3021).
+
+You can access the CARD database by clicking on any **ARO id**
