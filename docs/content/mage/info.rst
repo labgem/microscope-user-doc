@@ -1218,5 +1218,5 @@ How to read CARD results:
 * **Mechanisms**: Mechanism involve in Antibiotic Resistance
 * **Pubmed**: link of related publications
 
-You can access to the `CARD Result page <https://microscope.readthedocs.io/en/latest/content/compgenomics/card.html>`_ by clicking on the Comparative Genomics menu at **Antibiotic Resistance**.
+You can access to the `CARD Result page <https://microscope.readthedocs.io/en/latest/content/compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
 
