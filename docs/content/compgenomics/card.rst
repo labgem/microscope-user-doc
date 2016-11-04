@@ -1,6 +1,6 @@
-#########
-CARD
-#########
+######################
+Antibiotic Resistance
+######################
 
 What is CARD?
 -------------------------------------------------------
@@ -34,7 +34,7 @@ CARD predictions are available through the **Comparative Genomics** section, in 
 What are these tables?
 --------------------------------------------------------
 
-The table **CARD Results**, show all hits for all CDS which pass the Perfect or Strict algorithms.
+The table **CARD Proteins Homologs**, show all hits for all CDS which pass the Perfect or Strict algorithms with the **protein homolog model**.
 
 - The **Perfect** algorithm detects perfect matches to the curated reference sequences and mutations in CARD.
 - The **Strict** algorithm detects previously unknown variants of known AMR genes, including secondary screen for key mutations, using detection models with curated similarity cut-offs to ensure the detected variant is likely a functional AMR gene.
@@ -43,10 +43,10 @@ The table **CARD Results**, show all hits for all CDS which pass the Perfect or 
 The **Xref** column can have some accession from PDB (3FTJ), DNAAccession (CM000441.2), PubChem (3021). 
 
 
-.. image:: img/CARD_Results.PNG 
+.. image:: img/CARD_Homologs.PNG 
 
-The table **CARD AB Results**, show the antibiotic and the resistance mechanisms for each CDS which may have the resistance.
+The table **CARD Proteins Variants**, show all hits for all CDS which pass the Perfect or Strict algorithms with the **protein variant model**.
 
-.. image:: img/CARD_AB_Results.PNG
+.. image:: img/CARD_Variants.PNG
 
 You can acces the CARD database by clicking on any **ARO id**
