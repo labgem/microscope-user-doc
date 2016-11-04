@@ -42,7 +42,7 @@ The table **CARD Proteins Homologs** shows all CDS hits which pass the Perfect o
 
 .. image:: img/CARD_Homologs.PNG 
 
-The table **CARD Proteins Variants**, show all hits for all CDS which pass the Perfect or Strict algorithms with the **protein variant model**.
+The table **CARD Proteins Variants** shows all CDS hits which pass the Perfect or Strict algorithms for the **protein variant model**.
 
 .. image:: img/CARD_Variants.PNG
 
