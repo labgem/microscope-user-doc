@@ -34,7 +34,7 @@ CARD predictions are available through the **Comparative Genomics** section, in 
 What are these tables?
 --------------------------------------------------------
 
-The table **CARD Proteins Homologs** shows all CDS hits which pass the Perfect or Strict algorithms for the **protein homolog model**.
+The table **CARD Proteins Homologs** shows all CDS results with a Perfect or Strict hit for the **protein homolog model**.
 
 - The **Perfect** algorithm detects perfect matches from the curated reference sequences and mutations in CARD.
 - The **Strict** algorithm detects previously unknown variants of known AMR genes.
@@ -42,10 +42,8 @@ The table **CARD Proteins Homologs** shows all CDS hits which pass the Perfect o
 
 .. image:: img/CARD_Homologs.PNG 
 
-The table **CARD Proteins Variants** shows all CDS hits which pass the Perfect or Strict algorithms for the **protein variant model**.
+The table **CARD Proteins Variants** shows all CDS results with a Perfect or Strict hit for the **protein variant model**.
 
 .. image:: img/CARD_Variants.PNG
 
-The **Xref** column can include some accession from PDB (3FTJ), DNAAccession (CM000441.2), PubChem (3021).
-
-You can access the CARD database by clicking on any **ARO id**
+You can access the CARD database entry by clicking on any **ARO id**
