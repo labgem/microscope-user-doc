@@ -1204,19 +1204,19 @@ How to read CARD results:
 
 .. image:: img/CARD_Variants_annot.PNG
 
-* **ARO id**: ARO number with redirection on CARD website
+* **ARO id**: ARO number with a link on CARD website
 * **Hit Type**: Perfect, Strict or Loose
-* **Score**: BLAST score
-* **Eval**: BLAST E-value
-* **ident**: Blast identity
-* **Name**: name of the reference gene
-* **Synonyms**: other possible name
+* **Score**: Blast bitscore
+* **Eval**: Blast e-value
+* **ident**: Blast aa identity %
+* **Name**: name of the protein/gene in CARD
+* **Synonyms**: synonym names
 * **Organism**: organism of the reference sequence
-* **SNP**: Single Nucleotide Polymorphism
-* **Description**: description of the hit
-* **Resistance to**: Antibiotic link to the reference gene
-* **Mechanisms**: Mechanism involve in Antibiotic Resistance
-* **Pubmed**: link of related publications
+* **SNP**: predicted SNPs confering the resistance
+* **Description**: description of the protein/gene in CARD
+* **Resistance to**: antibiotic terms related to the resistance
+* **Mechanisms**: mechanism involved in Antibiotic Resistance
+* **Pubmed**: related publications
 
-You can access to the `CARD Result page <https://microscope.readthedocs.io/en/latest/content/compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
 
