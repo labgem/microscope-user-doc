@@ -64,6 +64,7 @@ Comparative Genomics
    content/compgenomics/GOstats
    content/compgenomics/RefSeqstats
    content/compgenomics/pancoreTool
+   content/compgenomics/card
    
 ==========
 Metabolism
