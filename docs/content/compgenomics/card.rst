@@ -34,6 +34,8 @@ CARD predictions are available through the **Comparative Genomics** section, in 
 What are these tables?
 --------------------------------------------------------
 
+The **General Information** table summarize informations about CARD results for the selected organism.
+
 The table **CARD Proteins Homologs** shows all CDS results with a Perfect or Strict hit for the **protein homolog model**.
 
 - The **Perfect** algorithm detects perfect matches from the curated reference sequences and mutations in CARD.
@@ -46,4 +48,6 @@ The table **CARD Proteins Variants** shows all CDS results with a Perfect or Str
 
 .. image:: img/CARD_Variants.PNG
 
-You can access the CARD database entry by clicking on any **ARO id**
+For both table, you can export the genes by clicking on **Export to Gene Cart**.
+
+You can access the CARD database entry by clicking on any **ARO id**.
