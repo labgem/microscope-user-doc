@@ -8,17 +8,17 @@ The Basic Local Alignment Search Tool finds regions of local similarity between 
 Blast Searches
 ########################
 
-We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement.
+We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement.  
 
-BlastN run the user nucleotide query against nucleotide sequence in PkGDB.
-tBlastN run the user proteique query against nucleotide sequence in PkGDB (reverse translation).
-BlastP run the user proteique query against proteique sequence in PkGDB.
-BlastX run the user nucleotide query against proteique sequence in PkGDB (translation).
+BlastN run the user nucleotide query against nucleotide sequence in PkGDB.  
+tBlastN run the user proteique query against nucleotide sequence in PkGDB (reverse translation).  
+BlastP run the user proteique query against proteique sequence in PkGDB.  
+BlastX run the user nucleotide query against proteique sequence in PkGDB (translation).  
 
-The fields: 
-- % identity 
-- % query coverage (alignement length)/(query length)
-can be use to filter blast result.
+The fields:   
+- % identity   
+- % query coverage (alignement length)/(query length)  
+can be use to filter blast result.  
 
 .. image:: img/blast.png
 
@@ -26,7 +26,7 @@ can be use to filter blast result.
 Pattern Searches
 ########################
 
-We use `EMBOSS <http://emboss.sourceforge.net/apps/>`_ tools to run pattern search. 
+We use `EMBOSS <http://emboss.sourceforge.net/apps/>`_ tools to run pattern search (fuzznuc and fuzzpro). 
 
 Protein and nucleic pattern search require a pattern in `prosite format <http://prosite.expasy.org/scanprosite/scanprosite_doc.html>`_
 
