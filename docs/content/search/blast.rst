@@ -8,17 +8,25 @@ The Basic Local Alignment Search Tool finds regions of local similarity between 
 Blast Searches
 ########################
 
-We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement.  
+We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement.   
 
-BlastN run the user nucleotide query against nucleotide sequence in PkGDB.  
-tBlastN run the user proteique query against nucleotide sequence in PkGDB (reverse translation).  
-BlastP run the user proteique query against proteique sequence in PkGDB.  
-BlastX run the user nucleotide query against proteique sequence in PkGDB (translation).  
+**BlastN** run the user nucleotide query against nucleotide sequence in PkGDB.
+ 
+**tBlastN** run the user proteique query against nucleotide sequence in PkGDB (reverse translation).
+ 
+**BlastP** run the user proteique query against proteique sequence in PkGDB.
+ 
+**BlastX** run the user nucleotide query against proteique sequence in PkGDB (translation).
 
-The fields:   
-- % identity   
-- % query coverage (alignement length)/(query length)  
-can be use to filter blast result.  
+
+The fields:
+
+- % identity
+
+- % query coverage (alignement length)/(query length)
+
+can be use to filter blast result.   
+
 
 .. image:: img/blast.png
 
@@ -31,7 +39,7 @@ We use `EMBOSS <http://emboss.sourceforge.net/apps/>`_ tools to run pattern sear
 Protein and nucleic pattern search require a pattern in `prosite format <http://prosite.expasy.org/scanprosite/scanprosite_doc.html>`_
 
 - The standard IUPAC one-letter codes for the amino acids are used.
-- The symbol `x' is used for a position where any amino acid is accepted (N for any nucleotide).
+- The symbol 'x' is used for a position where any amino acid is accepted (N for any nucleotide).
 - Ambiguities are indicated by listing the acceptable amino acids for a given position, between square brackets `[ ]'. For example: [ALT]   stands for Ala or Leu or Thr.
 - Ambiguities are also indicated by listing between a pair of curly brackets `{ }' the amino acids that are not accepted at a given         position. For example: {AM} stands for any amino acid except Ala and Met.
 - Each element in a pattern is separated from its neighbor by a `-'.
