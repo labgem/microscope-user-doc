@@ -8,7 +8,7 @@ The Basic Local Alignment Search Tool finds regions of local similarity between 
 Blast Searches
 ########################
 
-We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement.   
+We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement. All query must be in fasta format.
 
 **BlastN** run the user nucleotide query against nucleotide sequence in PkGDB.
  
@@ -28,7 +28,7 @@ The fields:
 can be use to filter blast result.   
 
 
-.. image:: img/blast.png
+.. image:: img/blast.PNG
 
 ########################
 Pattern Searches
@@ -61,4 +61,4 @@ This pattern describes all sequences which contain the subsequence 'IIRIFHLRNI'.
   **ATTCCAGATC**
 This pattern describes all sequences which contain the subsequence 'ATTCCAGATC'.
 
-.. image:: img/pattern.png
+.. image:: img/pattern.PNG
