@@ -12,11 +12,11 @@ We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run bla
 
 **BlastN** run the user nucleotide query against nucleotide sequence in PkGDB.
  
-**tBlastN** run the user proteique query against nucleotide sequence in PkGDB (reverse translation).
+**tBlastN** run the user protein query against nucleotide sequence in PkGDB (reverse translation).
  
-**BlastP** run the user proteique query against proteique sequence in PkGDB.
+**BlastP** run the user protein query against protein sequence in PkGDB.
  
-**BlastX** run the user nucleotide query against proteique sequence in PkGDB (translation).
+**BlastX** run the user nucleotide query against protein sequence in PkGDB (translation).
 
 
 The fields:
