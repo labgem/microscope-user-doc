@@ -20,7 +20,7 @@ NB : requesting information via the GetInfo button only calls up a read-only Gen
 Overview of the Gene Annotation Editor
 --------------------------------------
 
-.. image:: img/overview.png
+.. image:: img/overview.PNG
 
 The Gene Annotation Editor window is made of 4 sections:
 
@@ -45,7 +45,6 @@ It contains several buttons allowing access to different functionalities:
 * **Phyloprofile**: this tool provides a list of all CDSs (from all replicons) that have the same phylogenetic profile (presence/absence of homologue in others species) than the current genomic object. Note: query can be slow.
 * **PubMed**: this functionality opens a new window that shows the references that have been linked to this genomic object on PubMed
 * **KEGG**: this functionality opens the KEGG description corresponding to the annotated EC number(s)
-* **Brenda**: this functionality opens the Brenda entry corresponding to the annotated EC number(s)
 * **MicroCyc**: this functionality opens a new window showing information related to the genomic object in the MicroCyc database
 
 
@@ -58,12 +57,15 @@ Expert annotation of gene function
 How to fill the Gene Annotation form?
 -------------------------------------
 
-As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results. 
+As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results.
 
 .. image:: img/editor2.png
 
-.. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
+.. tip:: If one of the required field is missing or wrongly filled a warning will appear when you click on the "save" button.
 
+This form may change according to the type of genomic object you are working on. The absence/presence of form fields is shown in the figure below.
+
+.. image:: img/editor1.PNG
 
 What are the different annotation "Status"es?
 ---------------------------------------------
@@ -90,10 +92,11 @@ What are the different "Type" categories?
 * tRNA
 * rRNA
 * misc_RNA
-* intron
-* exon
+* tmRNA
+* ncRNA
 * IS
 * misc_feature
+* mobile_element
 * promoter
 
 
@@ -106,6 +109,8 @@ How to fill the "Mutation" field?
 * **partial** => the CDS is a gene fragment
 * **gene remnant** => the CDS is a highly degraded gene fragment
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
+* **pyrrolysine** => the CDS contains a pyrrolysine in its sequence
+* **complete**
 
 
 What are the different "Product type" categories?
@@ -250,7 +255,7 @@ This field is optionally filled in during the expert annotation process.
 What is the "Roles" classification?
 -----------------------------------
 
-This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
+This functional classification corresponds to the MultiFunction classification which has been developed by Monica Riley for E. coli 
 
 **Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_ 
 
@@ -270,10 +275,10 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
 
-How to use the "Comments" field?
+How to use the "Additional Data" field?
 --------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
+The **Additional Data** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field contain several options, all are optional.
 
 
 
