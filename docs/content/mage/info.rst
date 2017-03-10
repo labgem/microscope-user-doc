@@ -642,11 +642,11 @@ How to read the result table?
 
 
 
-===============
-Genomes/Project
-===============
+=================
+Favourite Genomes
+=================
 
-This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are linked to the current annotation Project.
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are in your favourite genome selection .
 
 These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
 
