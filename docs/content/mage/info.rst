@@ -283,6 +283,7 @@ How to use the "Additional Data" field?
 ----------------------------------------
 
 The **Additional Data** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field contain several options, all are optional.
+
  - SMILES field have to be filled with the `Simplified molecular-input line-entry system <https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system>`_ (SMILES) code of the predicted product.
  - Interaction field may contains data about interaction partners.
  - Phenotype is for describing the phenotype aspect of the considered object.
