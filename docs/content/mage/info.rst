@@ -45,6 +45,7 @@ It contains several buttons allowing access to different functionalities:
 * **Phyloprofile**: this tool provides a list of all CDSs (from all replicons) that have the same phylogenetic profile (presence/absence of homologue in others species) than the current genomic object. Note: query can be slow.
 * **PubMed**: this functionality opens a new window that shows the references that have been linked to this genomic object on PubMed
 * **KEGG**: this functionality opens the KEGG description corresponding to the annotated EC number(s)
+* **Brenda**: this functionality opens the Brenda entry corresponding to the annotated EC number(s)
 * **MicroCyc**: this functionality opens a new window showing information related to the genomic object in the MicroCyc database
 
 
@@ -96,7 +97,6 @@ What are the different "Type" categories?
 * ncRNA
 * IS
 * misc_feature
-* mobile_element
 * promoter
 
 
@@ -274,20 +274,25 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
+How to use the Note" field?
+----------------------------------------
+This field can be filled with any data you find usefull, be aware that this field can be use for submission file.
+
 
 How to use the "Additional Data" field?
---------------------------------
+----------------------------------------
 
 The **Additional Data** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field contain several options, all are optional.
-
+ - SMILES field have to be filled with the `Simplified molecular-input line-entry system <https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system>`_ (SMILES) code of the predicted product.
+ - Interaction field may contains data about interaction partners.
+ - Phenotype is for describing the phenotype aspect of the considered object.
+ - Comments can be filled with data which doesn't correspond to any other options.
 
 
 How to use the "Class" field?
 -----------------------------
 
 The **Class** annotation categories are useful for assigning a "confidence level" to each gene annotation. It has been inspired by the "protein name confidence" defined in `PseudoCAP <http://www.pseudomonas.com/>`_ (Pseudomonas aeruginosa community annotation project).
-
-This information is not given by the automatic functional annotation procedure, except in case of functional annotation transfer from a genome being annotated with MaGe.
 
 The different classes are:
 
