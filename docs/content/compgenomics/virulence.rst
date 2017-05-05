@@ -39,7 +39,7 @@ VirulenceDB predictions are available through the Comparative Genomics section, 
 How virulence predictions are made ?
 -------------------------------------------------------
 
-Genomic objects predicted by the Microscope platform are blasted against the three virulence database using blastp.
+Genomic objects predicted by the Microscope platform are blasted against the three virulence databases using blastp.
 Blast results are filtered using **e-value** lower than 1e :sup:`-2`, **identities** upper than 30% and **minlrap** upper than 0.8 .
 
 
@@ -47,7 +47,7 @@ How to use this tool ?
 -------------------------------------------------------
 
 
-You can access your virulence predictions results according to the taxonomy of your strain (minimal identity threshold = 30 %)
+You can access your virulence predictions according to the taxonomy of your strain (minimal identity threshold = 30 %)
 
 .. image:: img/filtrevirulence.PNG
 
