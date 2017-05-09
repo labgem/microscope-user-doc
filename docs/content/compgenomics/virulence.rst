@@ -9,7 +9,7 @@ VirulenceDB is a virulence genes database build using three sets of data:
 
 •	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
 •	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
-•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli ref).
 
 The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
 New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
