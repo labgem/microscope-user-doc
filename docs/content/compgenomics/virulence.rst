@@ -12,7 +12,7 @@ VirulenceDB is a virulence genes database build using three sets of data:
 •	A manually curated dataset of reference virulence genes for Escherichia coli (Coli ref).
 
 The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
-New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+New virulence factors have also been added to VirulenceFinder and Coli ref database to describe as best as possible the gene functions.
 
 |
 
