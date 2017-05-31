@@ -1,5 +1,5 @@
 ######################
-Antibiotic Resistance
+Resistome
 ######################
 
 What is CARD?
