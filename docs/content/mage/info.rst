@@ -1219,7 +1219,7 @@ How to read CARD results:
 * **Mechanisms**: mechanism involved in Antibiotic Resistance
 * **PubMedId**: related publications
 
-You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
 ==========
@@ -1289,4 +1289,4 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
 
   2.1 Antiphagocytosis
 
-You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.
+You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
