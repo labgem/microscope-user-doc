@@ -64,8 +64,8 @@ Comparative Genomics
    content/compgenomics/GOstats
    content/compgenomics/RefSeqstats
    content/compgenomics/pancoreTool
-   content/compgenomics/card
-   content/compgenomics/virulence
+   content/compgenomics/Resistome
+   content/compgenomics/Virulome
 
 ==========
 Metabolism
