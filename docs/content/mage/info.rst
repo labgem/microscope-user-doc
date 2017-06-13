@@ -744,43 +744,6 @@ How to read the result table
 * **EndB**: End of the alignment for the protein of the database
 * **LengthB**: Length of the protein of the database
 
-
-
-=====
-HAMAP
-=====
-
-What is HAMAP?
---------------
-
-HAMAP (High-quality Automated and Manual Annotation of microbial Proteomes) is a system, based on manual protein annotation, that identifies and semi-automatically annotates proteins that are part of well-conserved families or subfamilies: the HAMAP families. HAMAP is based on manually created family rules and is applied to bacterial, archaeal and plastid-encoded proteins.
-
-**More**: http://www.expasy.ch/sprot/hamap/
-
-**Reference**:
-
-`HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot. Lima T et al (2009) Nucleic Acids Res. 2009 Jan;37(Database issue):D471-8. <http://www.ncbi.nlm.nih.gov/pubmed/18849571>`_
-
-
-How to read HAMAP results?
---------------------------
-
-.. image:: img/hamap.png
-	:width: 100%
-
-* **HAMAP Id**: gives the corresponding HAMAP family identifier. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
-* **Evidence**: gives an indication about the strength of the hit. The value can be:
-	* **high**: the sequence is considered to be trusted member of the HAMAP family.
-	* **medium**:the sequence is considered as a putative member of the HAMAP family
-* **Gene name**: gives the gene name (if any)
-* **Product**: gives the product description
-* **EC Number**: gives the EC number (if any)
-* **Comments**: gives some insight into the corresponding function or the subcellular location of the protein.
-* **Keywords**: describes a list of keywords related to the function of the HAMAP family.
-
-
-
-
 ===============================
 Similarities SwissProt / TrEMBL
 ===============================
@@ -991,11 +954,14 @@ InterPro combines a number of databases (referred to as member databases) that u
 
 The member databases use a number of approaches:
 
-* **ProDom**: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
-* **PROSITE patterns**: provider of simple regular expressions.
-* **PROSITE** and **HAMAP profiles**: provide sequence matrices.
-* **PRINTS** provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
-* **PANTHER, PIRSF, Pfam, SMART, TIGRFAMs, Gene3D** and **SUPERFAMILY**: providers of hidden Markov models (HMMs).
+* `PRODOM <http://prodom.prabi.fr/prodom/current/html/home.php>`_: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
+* `PROFILE <http://prosite.expasy.org/>`_ (PROSITE patterns): provider of simple regular expressions.
+* `PROFILE <http://prosite.expasy.org/>`_ and `HAMAP <http://hamap.expasy.org/cgi-bin/unirule/unirule_browse.cgi?browse=description&context=HAMAP>`_: provide sequence matrices.
+* `PRINTS <http://130.88.97.239/dbbrowser/sprint/>`_ provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
+* `PANTHER <http://www.pantherdb.org/>`_, `PIRSF <http://pir.georgetown.edu/>`_,  `PFAM <http://pfam.xfam.org/>`_, `SMART <http://smart.embl-heidelberg.de/>`_, `TIGRFAMs <http://www.jcvi.org/cgi-bin/tigrfams/index.cgi>`_, `GENE3D <http://www.cathdb.info/>`_ and `SSF <http://supfam.org/SUPERFAMILY/>`_ (SUPERFAMILY): providers of hidden Markov models (HMMs). 
+* `CDD <https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml>`_ Conserved Domains and Protein Classification 
+* `SFLD <http://sfld.rbvi.ucsf.edu/django/>`_ A hierarchical classification of enzymes that relates specific sequence-structure features to specific chemical capabilities
+
 
 Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. `HAMAP`_ profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
 
