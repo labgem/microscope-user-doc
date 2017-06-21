@@ -39,7 +39,7 @@ How to move along the sequence ?
 
 If several genes have been annotated with the same gene name, the window will move to the first occurrence of these genes on the genome sequence.
 
-.. image:: img/img3.png
+.. image:: img/viewer_navigate.png
 
 
 Why sometimes genes are framed with a black line?
