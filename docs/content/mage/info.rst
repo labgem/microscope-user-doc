@@ -3,7 +3,7 @@ Gene annotation editor
 ######################
 
 =================================
-Overview of the annotation editor  
+Overview of the annotation editor
 =================================
 
 How to access to the Gene Annotation Editor?
@@ -51,7 +51,7 @@ It contains several buttons allowing access to different functionalities:
 
 
 ==================================
-Expert annotation of gene function 
+Expert annotation of gene function
 ==================================
 
 
@@ -220,7 +220,7 @@ And in some cases :
 * Genes of the organism already linked to this reaction (eg. first row of the example). Genes are flagged with :
 
 	* “validated” : reaction has been manually linked to this gene by users.
-	
+
 The “Reset” button deletes all results
 
 **How to link a new reaction :**
@@ -229,8 +229,8 @@ For each reaction in the result set, check-box allows to add a reaction from the
 
 
 What are the different "Localization" categories?
-------------------------------------------------- 
- 
+-------------------------------------------------
+
 * 1 : Unknown
 * 2 : Cytoplasmic
 * 3 : Fimbrial
@@ -247,7 +247,7 @@ What are the different "Localization" categories?
 What is the "BioProcess" classification?
 ----------------------------------------
 
-This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_ 
+This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_
 
 This field is optionally filled in during the expert annotation process.
 
@@ -257,7 +257,7 @@ What is the "Roles" classification?
 
 This functional classification corresponds to the MultiFunction classification which has been developed by Monica Riley for E. coli 
 
-**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_ 
+**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_
 
 This field is optionally filled in during the expert annotation process.
 
@@ -268,7 +268,7 @@ How to use the "PubmedID" field?
 
 The PubMedID or PMID correspond to the index of a publication on the PubMed section of the NCBI website. You can fill this field when you want to link a publication to your annotation. If you want to enter several publications, you simply have to write the PMIDs separated by commas.
 
-You will find the PMID of a publication directly on Pubmed as shown on the figure below. You can also find PMIDs in the "References" section of the UniProt entries. 
+You will find the PMID of a publication directly on Pubmed as shown on the figure below. You can also find PMIDs in the "References" section of the UniProt entries.
 
 .. image:: img/editor3.png
 
@@ -318,7 +318,7 @@ How to choose the "Class" annotation category?
 
 
 ================
-Annotation Rules  
+Annotation Rules
 ================
 
 .. image:: img/annotation1.png
@@ -464,7 +464,7 @@ This menu gives the beginning and the end of the gene sequence according to diff
 * **AMIGene Lpcod**: gives the coding probability on the lenght End-Begin +1 according to AMIGene
 * **AMIGene Apcod**: gives the lenght End-AMstart +1 according to AMIGene
 * **Matrix**: gives the matrix number (see `Overview <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_)
-* **SHOW Begin**: gives the position of the first nucelic acid of the CDS according to SHOW 
+* **SHOW Begin**: gives the position of the first nucelic acid of the CDS according to SHOW
 * **SHOW End**: gives the position of the last nucelic acid of the CDS according to SHOW
 * **SHOW Proba** : gives the coding probability on the lenght End-SHOW begin +1 according to SHOW
 * **Prodigal Begin**: give the beginning of the CDS according to the expert or automatic annotation
@@ -483,13 +483,13 @@ This section gives the different compositional features of the studied gene, det
 
 .. image:: img/gene.png
 
-* **GC Content**: 
-* **GC1 Content**: 
-* **GC2 Content**: 
-* **GC3 Content**: 
-* **CAI**: 
-* **GCskew**: 
-* **R/Y ratio**: 
+* **GC Content**:
+* **GC1 Content**:
+* **GC2 Content**:
+* **GC3 Content**:
+* **CAI**:
+* **GCskew**:
+* **R/Y ratio**:
 
 
 
@@ -501,24 +501,24 @@ Protein compositional features
 .. image:: img/protein.png
 
 * **Mw (Da)**: gives the molecular weight of the protein (Da)
-* **Hydrophobicity**: 
-* **Tiny**: 
-* **Small**: 
-* **Aliphatic**: 
-* **Aromatic**: 
-* **NonPolar**: 
-* **Polar**: 
-* **Charged**: 
-* **Basic**: 
-* **Acidic**: 
-* **PI**: gives the value of the protein isoelectric point 
-* **Oxyphobic Index**: 
+* **Hydrophobicity**:
+* **Tiny**:
+* **Small**:
+* **Aliphatic**:
+* **Aromatic**:
+* **NonPolar**:
+* **Polar**:
+* **Charged**:
+* **Basic**:
+* **Acidic**:
+* **PI**: gives the value of the protein isoelectric point
+* **Oxyphobic Index**:
 
 
 
 
 ============
-Duplications 
+Duplications
 ============
 
 
@@ -596,8 +596,8 @@ How to read the result table?
 * **Transporter classification**: If the database protein is a transporter, indicates the family this transporter is part of
 * **Transcription regulator family**: If the database protein is a transcription regulator, indicates the family this transcription regulator is part of
 * **Proteases**: If the database protein is a protease, indicates the family this protease is part of
-* **Structure(PDB)id**: Gives the Id number which correspond to the database protein's structure on `Protein Data Bank <http://www.rcsb.org/pdb/home/home.do>`_  
-* **GO cellular process**: Gives the cellular process according to `Gene Ontology <http://geneontology.org/page/documentation>`_ 
+* **Structure(PDB)id**: Gives the Id number which correspond to the database protein's structure on `Protein Data Bank <http://www.rcsb.org/pdb/home/home.do>`_
+* **GO cellular process**: Gives the cellular process according to `Gene Ontology <http://geneontology.org/page/documentation>`_
 * **GO molecular function**: Gives the molecular process according to `Gene Ontology <http://geneontology.org/page/documentation>`_
 
 
@@ -718,7 +718,7 @@ How to read the result table?
 
 
 ============================
-Syntonome / Syntonome RefSeq 
+Syntonome / Syntonome RefSeq
 ============================
 
 How to use the Syntonome / Syntonome RefSeq results?
@@ -820,7 +820,7 @@ How to read SwissProt and TrEMBL results?
 .. image:: img/swiss.png
 
 * **PB id**: Uniprot ID of the database protein. If you click on this Id, you can access the Uniprot profile of the protein, giving you various informations about it.
-* **Exp**: Indicates if there is PubMed references for the database protein. If there is at least one article, the mention "IPMed?" is written in this column. 
+* **Exp**: Indicates if there is PubMed references for the database protein. If there is at least one article, the mention "IPMed?" is written in this column.
 * **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
 * **ident%**: Percentage of identity between the studied protein and the database protein
@@ -833,7 +833,7 @@ How to read SwissProt and TrEMBL results?
 * **Keywords**: Keywords associated to the protein function and roles
 * **PubMedId**: References linked to the annotation of the protein
 * **Organism**: Organism name. If you click on the name, you can access the associated genome sequence on the NCBI website.
-* **Strain**: Strain where the gene of the database is localized 
+* **Strain**: Strain where the gene of the database is localized
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -854,7 +854,7 @@ PRIAM is a method for automated enzyme detection in a fully sequenced genome, ba
 
 **More**: http://priam.prabi.fr/
 
-**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_ 
+**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
 
 
 How to read PRIAM EC number results?
@@ -892,7 +892,7 @@ What are MetaCyc Pathways?
 
 MetaCyc pathways are metabolic networks as define in the MetaCyc Database.
 
-`Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_ 
+`Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_
 
 The presence or absence of a MetaCyc metabolic pathway is predicted by the  `Pathway-tools <http://bioinformatics.ai.sri.com/ptools/>`_ algorithm in this organism.
 
@@ -968,7 +968,7 @@ PsortB is an open-source tool for protein sub-cellular localization prediction i
 
 **More**: http://www.psort.org/
 
-**Reference**: `Gardy JL et al (2005) PSORTb v.2.0: expanded prediction of bacterial protein subcellular localization and insights gained from comparative proteome analysis. Bioinformatics. Mar1;21(5):617-23. Epub 2004 Oct 22. <http://www.ncbi.nlm.nih.gov/pubmed/15501914>`_ 
+**Reference**: `Gardy JL et al (2005) PSORTb v.2.0: expanded prediction of bacterial protein subcellular localization and insights gained from comparative proteome analysis. Bioinformatics. Mar1;21(5):617-23. Epub 2004 Oct 22. <http://www.ncbi.nlm.nih.gov/pubmed/15501914>`_
 
 How to read PsortB results?
 ---------------------------
@@ -1095,7 +1095,7 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **More:** http://antismash.secondarymetabolites.org/
 
-**References:** 
+**References:**
 
 `Tilmann W., et al. (2015) antiSMASH 3.0 - a comprehensive resource for the genome mining of biosynthetic gene clusters Nucleic Acids Research. Jul 1;43(W1):W237-43. <http://www.ncbi.nlm.nih.gov/pubmed/25948579>`_
 
@@ -1162,7 +1162,7 @@ How to read LipoP results:
 .. image:: img/lipoP.PNG
 Type: type of the signal peptide (SPI or SPII)
 Score: detection score
-Margin: difference between the best and the second best score. 
+Margin: difference between the best and the second best score.
 Pos1 and Pos2 indicate the positions between which the cleavage is supposed to occur
 
 =========
@@ -1173,8 +1173,8 @@ dbCAN
 What is dbCAN?
 ------------------
 
-`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family. 
-Citations: `Yin Y*, Mao X*, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_ 
+`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family.
+Citations: `Yin Y*, Mao X*, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_
 
 
 How to read dbCAN results:
@@ -1189,45 +1189,114 @@ BeginQ: position, on the sequence, of the beginning of the alignment between the
 EndQ: position, on the sequence, of the end of the alignment between the sequence and the HMM
 LengthQ: length of the sequence
 Eval: Evalues of the alignment
-Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is. 
+Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
 
-=========
-CARD
-=========
-
-
-What is CARD?
-------------------
-The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+	=========
+	CARD
+	=========
 
 
-Citations: 
-
-`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
-
-
-`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+	What is CARD?
+	------------------
+	The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 
-How to read CARD results:
+	Citations:
 
-.. image:: img/CARD_Homologs_annot.PNG
+	`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
 
-.. image:: img/CARD_Variants_annot.PNG
 
-* **ARO id**: ARO number with a link on CARD website
-* **Hit Type**: Perfect, Strict or Loose
-* **Score**: Blast bitscore
-* **Eval**: Blast e-value
-* **Ident**: Blast aa identity %
-* **CARD Name**: name of the protein/gene in CARD
-* **CARD Synonyms**: synonym names
-* **CARD Organism**: organism of the reference sequence
-* **CARD SNP**: predicted SNPs confering the resistance
-* **CARD Description**: description of the protein/gene in CARD
-* **Resistance to**: antibiotic terms related to the resistance
-* **Mechanisms**: mechanism involved in Antibiotic Resistance
-* **PubMedId**: related publications
+	`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
 
-You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
 
+	How to read CARD results:
+
+	.. image:: img/CARD_Homologs_annot.PNG
+
+	.. image:: img/CARD_Variants_annot.PNG
+
+	* **ARO id**: ARO number with a link on CARD website
+	* **Hit Type**: Perfect, Strict or Loose
+	* **Score**: Blast bitscore
+	* **Eval**: Blast e-value
+	* **Ident**: Blast aa identity %
+	* **CARD Name**: name of the protein/gene in CARD
+	* **CARD Synonyms**: synonym names
+	* **CARD Organism**: organism of the reference sequence
+	* **CARD SNP**: predicted SNPs confering the resistance
+	* **CARD Description**: description of the protein/gene in CARD
+	* **Resistance to**: antibiotic terms related to the resistance
+	* **Mechanisms**: mechanism involved in Antibiotic Resistance
+	* **PubMedId**: related publications
+
+	You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+
+
+	==========
+	Virulence
+	==========
+
+
+	What is VirulenceDB?
+	-------------------------------------------------------
+
+	VirulenceDB is a virulence genes database build using three sets of data:
+
+	•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
+	•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
+	•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+
+	The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
+	New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+
+	|
+
+	Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
+
+	Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
+
+	|
+
+	**References:**
+
+	|
+
+	Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+
+	Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+	J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
+
+
+	How to read the table of results?
+
+
+	•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
+	•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
+	•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
+
+	|
+
+	**Additionnal information on VF classes:**
+
+	|
+
+	They are divided into 4 main classes as proposed by VFDB:
+
+	•	Offensive virulence factors
+	•	Defensive virulence factors
+	•	Nonspecific virulence factors
+	•	Regulation of virulence-associated genes
+
+	A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
+
+	So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
+
+	1. Offensive virulence factors
+
+	  1.1 Invasion
+
+	2. Defensive virulence factors
+
+	  2.1 Antiphagocytosis
+
+	You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.

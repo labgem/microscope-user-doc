@@ -6,6 +6,8 @@ CanOE
 Introduction
 ------------
 
+.. warning:: This tool is no longer maintained. Published results are still available  `here <https://www.genoscope.cns.fr/agc/microscope/metabolism/canoe.php>`_. 
+
 The CanOE strategy is a bioinformatics strategy set up within the MicroScope platform. It was designed in order to propose candidate genes for sequence-orphan enzymatic activities, but its results can be exploited in several more traditional bioanalysis ways.
 
 **CanOE Overview**
