@@ -20,7 +20,7 @@ NB : requesting information via the GetInfo button only calls up a read-only Gen
 Overview of the Gene Annotation Editor
 --------------------------------------
 
-.. image:: img/overview.PNG
+.. image:: img/overview0.png
 
 The Gene Annotation Editor window is made of 4 sections:
 
@@ -60,13 +60,10 @@ How to fill the Gene Annotation form?
 
 As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results.
 
-.. image:: img/editor2.png
+.. image:: img/editor2.PNG
 
-.. tip:: If one of the required field is missing or wrongly filled a warning will appear when you click on the "save" button.
+.. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
 
-This form may change according to the type of genomic object you are working on. The absence/presence of form fields is shown in the figure below.
-
-.. image:: img/editor1.PNG
 
 What are the different annotation "Status"es?
 ---------------------------------------------
@@ -93,8 +90,8 @@ What are the different "Type" categories?
 * tRNA
 * rRNA
 * misc_RNA
-* tmRNA
-* ncRNA
+* intron
+* exon
 * IS
 * misc_feature
 * promoter
@@ -109,8 +106,6 @@ How to fill the "Mutation" field?
 * **partial** => the CDS is a gene fragment
 * **gene remnant** => the CDS is a highly degraded gene fragment
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
-* **pyrrolysine** => the CDS contains a pyrrolysine in its sequence
-* **complete**
 
 
 What are the different "Product type" categories?
@@ -255,7 +250,7 @@ This field is optionally filled in during the expert annotation process.
 What is the "Roles" classification?
 -----------------------------------
 
-This functional classification corresponds to the MultiFunction classification which has been developed by Monica Riley for E. coli 
+This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
 
 **Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_
 
@@ -274,26 +269,20 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
-How to use the Note" field?
-----------------------------------------
-This field can be filled with any data you find usefull, be aware that this field can be use for submission file.
 
+How to use the "Comments" field?
+--------------------------------
 
-How to use the "Additional Data" field?
-----------------------------------------
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
 
-The **Additional Data** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field contain several options, all are optional.
-
- - SMILES field have to be filled with the `Simplified molecular-input line-entry system <https://en.wikipedia.org/wiki/Simplified_molecular-input_line-entry_system>`_ (SMILES) code of the predicted product.
- - Interaction field may contains data about interaction partners.
- - Phenotype is for describing the phenotype aspect of the considered object.
- - Comments can be filled with data which doesn't correspond to any other options.
 
 
 How to use the "Class" field?
 -----------------------------
 
 The **Class** annotation categories are useful for assigning a "confidence level" to each gene annotation. It has been inspired by the "protein name confidence" defined in `PseudoCAP <http://www.pseudomonas.com/>`_ (Pseudomonas aeruginosa community annotation project).
+
+This information is not given by the automatic functional annotation procedure, except in case of functional annotation transfer from a genome being annotated with MaGe.
 
 The different classes are:
 
@@ -648,11 +637,11 @@ How to read the result table?
 
 
 
-=================
-Favourite Genomes
-=================
+===============
+Genomes/Project
+===============
 
-This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are in your favourite genome selection .
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are linked to the current annotation Project.
 
 These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
 
@@ -754,43 +743,6 @@ How to read the result table
 * **BeginB**: Start of the alignment for the protein of the database
 * **EndB**: End of the alignment for the protein of the database
 * **LengthB**: Length of the protein of the database
-
-
-
-=====
-HAMAP
-=====
-
-What is HAMAP?
---------------
-
-HAMAP (High-quality Automated and Manual Annotation of microbial Proteomes) is a system, based on manual protein annotation, that identifies and semi-automatically annotates proteins that are part of well-conserved families or subfamilies: the HAMAP families. HAMAP is based on manually created family rules and is applied to bacterial, archaeal and plastid-encoded proteins.
-
-**More**: http://www.expasy.ch/sprot/hamap/
-
-**Reference**:
-
-`HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot. Lima T et al (2009) Nucleic Acids Res. 2009 Jan;37(Database issue):D471-8. <http://www.ncbi.nlm.nih.gov/pubmed/18849571>`_
-
-
-How to read HAMAP results?
---------------------------
-
-.. image:: img/hamap.png
-	:width: 100%
-
-* **HAMAP Id**: gives the corresponding HAMAP family identifier. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
-* **Evidence**: gives an indication about the strength of the hit. The value can be:
-	* **high**: the sequence is considered to be trusted member of the HAMAP family.
-	* **medium**:the sequence is considered as a putative member of the HAMAP family
-* **Gene name**: gives the gene name (if any)
-* **Product**: gives the product description
-* **EC Number**: gives the EC number (if any)
-* **Comments**: gives some insight into the corresponding function or the subcellular location of the protein.
-* **Keywords**: describes a list of keywords related to the function of the HAMAP family.
-
-
-
 
 ===============================
 Similarities SwissProt / TrEMBL
@@ -1028,6 +980,7 @@ How to read InterProScan results
 
 
 
+
 =======
 SignalP
 =======
@@ -1191,112 +1144,113 @@ LengthQ: length of the sequence
 Eval: Evalues of the alignment
 Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
 
-	=========
-	CARD
-	=========
+=========
+Resistome
+=========
 
 
-	What is CARD?
-	------------------
-	The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+What is CARD?
+------------------
+
+The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 
-	Citations:
+Citations:
 
-	`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
-
-
-	`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
 
 
-	How to read CARD results:
-
-	.. image:: img/CARD_Homologs_annot.PNG
-
-	.. image:: img/CARD_Variants_annot.PNG
-
-	* **ARO id**: ARO number with a link on CARD website
-	* **Hit Type**: Perfect, Strict or Loose
-	* **Score**: Blast bitscore
-	* **Eval**: Blast e-value
-	* **Ident**: Blast aa identity %
-	* **CARD Name**: name of the protein/gene in CARD
-	* **CARD Synonyms**: synonym names
-	* **CARD Organism**: organism of the reference sequence
-	* **CARD SNP**: predicted SNPs confering the resistance
-	* **CARD Description**: description of the protein/gene in CARD
-	* **Resistance to**: antibiotic terms related to the resistance
-	* **Mechanisms**: mechanism involved in Antibiotic Resistance
-	* **PubMedId**: related publications
-
-	You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
 
 
-	==========
-	Virulence
-	==========
+How to read CARD results:
+
+.. image:: img/CARD_Homologs_annot.PNG
+
+.. image:: img/CARD_Variants_annot.PNG
+
+* **ARO id**: ARO number with a link on CARD website
+* **Hit Type**: Perfect, Strict or Loose
+* **Score**: Blast bitscore
+* **Eval**: Blast e-value
+* **Ident**: Blast aa identity %
+* **CARD Name**: name of the protein/gene in CARD
+* **CARD Synonyms**: synonym names
+* **CARD Organism**: organism of the reference sequence
+* **CARD SNP**: predicted SNPs confering the resistance
+* **CARD Description**: description of the protein/gene in CARD
+* **Resistance to**: antibiotic terms related to the resistance
+* **Mechanisms**: mechanism involved in Antibiotic Resistance
+* **PubMedId**: related publications
+
+You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
-	What is VirulenceDB?
-	-------------------------------------------------------
-
-	VirulenceDB is a virulence genes database build using three sets of data:
-
-	•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
-	•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
-	•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
-
-	The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
-	New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
-
-	|
-
-	Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
-
-	Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
-
-	|
-
-	**References:**
-
-	|
-
-	Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
-
-	Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-	J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
+==========
+Virulome
+==========
 
 
-	How to read the table of results?
+What is VirulenceDB?
+-------------------------------------------------------
+
+VirulenceDB is a virulence genes database build using three sets of data:
+
+•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
+•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
+•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+
+The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
+New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+
+|
+
+Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
+
+Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
+
+|
+
+**References:**
+
+|
+
+Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+
+Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
 
 
-	•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
-	•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
-	•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
+How to read the table of results?
 
-	|
 
-	**Additionnal information on VF classes:**
+•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
+•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
+•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
 
-	|
+|
 
-	They are divided into 4 main classes as proposed by VFDB:
+**Additionnal information on VF classes:**
 
-	•	Offensive virulence factors
-	•	Defensive virulence factors
-	•	Nonspecific virulence factors
-	•	Regulation of virulence-associated genes
+|
 
-	A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
+They are divided into 4 main classes as proposed by VFDB:
 
-	So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
+•	Offensive virulence factors
+•	Defensive virulence factors
+•	Nonspecific virulence factors
+•	Regulation of virulence-associated genes
 
-	1. Offensive virulence factors
+A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
 
-	  1.1 Invasion
+So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
 
-	2. Defensive virulence factors
+1. Offensive virulence factors
 
-	  2.1 Antiphagocytosis
+  1.1 Invasion
 
-	You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.
+2. Defensive virulence factors
+
+  2.1 Antiphagocytosis
+
+You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
