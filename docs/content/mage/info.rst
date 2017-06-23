@@ -744,43 +744,6 @@ How to read the result table
 * **EndB**: End of the alignment for the protein of the database
 * **LengthB**: Length of the protein of the database
 
-
-
-=====
-HAMAP
-=====
-
-What is HAMAP?
---------------
-
-HAMAP (High-quality Automated and Manual Annotation of microbial Proteomes) is a system, based on manual protein annotation, that identifies and semi-automatically annotates proteins that are part of well-conserved families or subfamilies: the HAMAP families. HAMAP is based on manually created family rules and is applied to bacterial, archaeal and plastid-encoded proteins.
-
-**More**: http://www.expasy.ch/sprot/hamap/
-
-**Reference**:
-
-`HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot. Lima T et al (2009) Nucleic Acids Res. 2009 Jan;37(Database issue):D471-8. <http://www.ncbi.nlm.nih.gov/pubmed/18849571>`_
-
-
-How to read HAMAP results?
---------------------------
-
-.. image:: img/hamap.png
-	:width: 100%
-
-* **HAMAP Id**: gives the corresponding HAMAP family identifier. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
-* **Evidence**: gives an indication about the strength of the hit. The value can be:
-	* **high**: the sequence is considered to be trusted member of the HAMAP family.
-	* **medium**:the sequence is considered as a putative member of the HAMAP family
-* **Gene name**: gives the gene name (if any)
-* **Product**: gives the product description
-* **EC Number**: gives the EC number (if any)
-* **Comments**: gives some insight into the corresponding function or the subcellular location of the protein.
-* **Keywords**: describes a list of keywords related to the function of the HAMAP family.
-
-
-
-
 ===============================
 Similarities SwissProt / TrEMBL
 ===============================
@@ -991,11 +954,14 @@ InterPro combines a number of databases (referred to as member databases) that u
 
 The member databases use a number of approaches:
 
-* **ProDom**: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
-* **PROSITE patterns**: provider of simple regular expressions.
-* **PROSITE** and **HAMAP profiles**: provide sequence matrices.
-* **PRINTS** provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
-* **PANTHER, PIRSF, Pfam, SMART, TIGRFAMs, Gene3D** and **SUPERFAMILY**: providers of hidden Markov models (HMMs).
+* `PRODOM <http://prodom.prabi.fr/prodom/current/html/home.php>`_: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
+* `PROFILE <http://prosite.expasy.org/>`_ (PROSITE patterns): provider of simple regular expressions.
+* `PROFILE <http://prosite.expasy.org/>`_ and `HAMAP <http://hamap.expasy.org/cgi-bin/unirule/unirule_browse.cgi?browse=description&context=HAMAP>`_: provide sequence matrices.
+* `PRINTS <http://130.88.97.239/dbbrowser/sprint/>`_ provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
+* `PANTHER <http://www.pantherdb.org/>`_, `PIRSF <http://pir.georgetown.edu/>`_,  `PFAM <http://pfam.xfam.org/>`_, `SMART <http://smart.embl-heidelberg.de/>`_, `TIGRFAMs <http://www.jcvi.org/cgi-bin/tigrfams/index.cgi>`_, `GENE3D <http://www.cathdb.info/>`_ and `SSF <http://supfam.org/SUPERFAMILY/>`_ (SUPERFAMILY): providers of hidden Markov models (HMMs). 
+* `CDD <https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml>`_ Conserved Domains and Protein Classification 
+* `SFLD <http://sfld.rbvi.ucsf.edu/django/>`_ A hierarchical classification of enzymes that relates specific sequence-structure features to specific chemical capabilities
+
 
 Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. `HAMAP`_ profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
 
@@ -1180,112 +1146,113 @@ LengthQ: length of the sequence
 Eval: Evalues of the alignment
 Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
 
-	=========
-	CARD
-	=========
+=========
+Resistome
+=========
 
 
-	What is CARD?
-	------------------
-	The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+What is CARD?
+------------------
+
+The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 
-	Citations:
+Citations:
 
-	`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
-
-
-	`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
 
 
-	How to read CARD results:
-
-	.. image:: img/CARD_Homologs_annot.PNG
-
-	.. image:: img/CARD_Variants_annot.PNG
-
-	* **ARO id**: ARO number with a link on CARD website
-	* **Hit Type**: Perfect, Strict or Loose
-	* **Score**: Blast bitscore
-	* **Eval**: Blast e-value
-	* **Ident**: Blast aa identity %
-	* **CARD Name**: name of the protein/gene in CARD
-	* **CARD Synonyms**: synonym names
-	* **CARD Organism**: organism of the reference sequence
-	* **CARD SNP**: predicted SNPs confering the resistance
-	* **CARD Description**: description of the protein/gene in CARD
-	* **Resistance to**: antibiotic terms related to the resistance
-	* **Mechanisms**: mechanism involved in Antibiotic Resistance
-	* **PubMedId**: related publications
-
-	You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
 
 
-	==========
-	Virulence
-	==========
+How to read CARD results:
+
+.. image:: img/CARD_Homologs_annot.PNG
+
+.. image:: img/CARD_Variants_annot.PNG
+
+* **ARO id**: ARO number with a link on CARD website
+* **Hit Type**: Perfect, Strict or Loose
+* **Score**: Blast bitscore
+* **Eval**: Blast e-value
+* **Ident**: Blast aa identity %
+* **CARD Name**: name of the protein/gene in CARD
+* **CARD Synonyms**: synonym names
+* **CARD Organism**: organism of the reference sequence
+* **CARD SNP**: predicted SNPs confering the resistance
+* **CARD Description**: description of the protein/gene in CARD
+* **Resistance to**: antibiotic terms related to the resistance
+* **Mechanisms**: mechanism involved in Antibiotic Resistance
+* **PubMedId**: related publications
+
+You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
-	What is VirulenceDB?
-	-------------------------------------------------------
-
-	VirulenceDB is a virulence genes database build using three sets of data:
-
-	•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
-	•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
-	•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
-
-	The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
-	New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
-
-	|
-
-	Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
-
-	Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
-
-	|
-
-	**References:**
-
-	|
-
-	Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
-
-	Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-	J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
+==========
+Virulome
+==========
 
 
-	How to read the table of results?
+What is VirulenceDB?
+-------------------------------------------------------
+
+VirulenceDB is a virulence genes database build using three sets of data:
+
+•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
+•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
+•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+
+The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
+New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+
+|
+
+Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
+
+Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
+
+|
+
+**References:**
+
+|
+
+Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+
+Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
 
 
-	•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
-	•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
-	•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
+How to read the table of results?
 
-	|
 
-	**Additionnal information on VF classes:**
+•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
+•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
+•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
 
-	|
+|
 
-	They are divided into 4 main classes as proposed by VFDB:
+**Additionnal information on VF classes:**
 
-	•	Offensive virulence factors
-	•	Defensive virulence factors
-	•	Nonspecific virulence factors
-	•	Regulation of virulence-associated genes
+|
 
-	A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
+They are divided into 4 main classes as proposed by VFDB:
 
-	So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
+•	Offensive virulence factors
+•	Defensive virulence factors
+•	Nonspecific virulence factors
+•	Regulation of virulence-associated genes
 
-	1. Offensive virulence factors
+A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
 
-	  1.1 Invasion
+So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
 
-	2. Defensive virulence factors
+1. Offensive virulence factors
 
-	  2.1 Antiphagocytosis
+  1.1 Invasion
 
-	You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.
+2. Defensive virulence factors
+
+  2.1 Antiphagocytosis
+
+You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.

@@ -1,6 +1,6 @@
-#########
-AntiSMASH 
-#########
+#####################
+Secondary metabolites 
+#####################
 
 What is antiSMASH?
 ------------------
