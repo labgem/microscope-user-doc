@@ -16,7 +16,7 @@ Integrons acquire new genes as part of gene cassettes. These are simple structur
 Circular gene cassettes are integrated by site-specific recombination between attI and attC, a process mediated by the intI. This process is reversible, and cassettes can be excised as free circular DNA elements.
 Insertion at the attI site allows expression of an incoming cassettte, driven by the adjacent Pc promoter.
 
-..image:img/integronfunctionning.png
+.. image:: img/integronfunctionning.png
 
 IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
 This tool also annotates gene casettes however we use our own annotations to make it run.
@@ -26,7 +26,7 @@ IntegronFinder distinguishes 3 types of elements:
 •	In0 element: integron integrase only, without any attC site nearby
 •	CALIN element: Cluster of attC sites Lacking INtegrase nearby. A rule of thumb to avoid false positive is to filter out singleton of attC site.
 
-..image:img/IFelements.png
+.. image:: img/IFelements.png
 
 |
 
