@@ -31,6 +31,7 @@ IntegronFinder distinguishes 3 types of elements:
 |
 
 Know more about `Integrons <https://www.researchgate.net/publication/262533269_Integrons_Past_Present_and_Future>`_
+
 Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
 
 |
@@ -40,6 +41,7 @@ Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/
 |
 
 `Gillings MR. 2014. Integrons: past, present, and future<http://mmbr.asm.org/content/78/2/257.full.pdf+html?sid=37df918b-9e26-4064-83a8-1576a4012c7d>`. Microbiol Mol Biol Rev 78:257–277. 10.1128/MMBR.00056-13.
+
 `Identification and analysis of integrons and cassette arrays in bacterial genomes<doi: 10.1093/nar/gkw319>`. Jean Cury; Thomas Jove; Marie Touchon; Bertrand Neron; Eduardo PC Rocha. Nucleic Acids Research 2016;
 doi: 10.1093/nar/gkw319
 
