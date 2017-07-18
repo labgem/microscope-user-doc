@@ -20,7 +20,7 @@ NB : requesting information via the GetInfo button only calls up a read-only Gen
 Overview of the Gene Annotation Editor
 --------------------------------------
 
-.. image:: img/overview.png
+.. image:: img/overview0.png
 
 The Gene Annotation Editor window is made of 4 sections:
 
@@ -58,14 +58,14 @@ Expert annotation of gene function
 How to fill the Gene Annotation form?
 -------------------------------------
 
-As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results.
+As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results. If your are working on other object than CDS, you may have a different form, if a required field for CDS appear in your form, it's still required.
 
-.. image:: img/editor2.png
+.. image:: img/editor2.PNG
 
 .. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
 
 
-What are the different annotation "Status"es?
+What are the different annotation "Status"?
 ---------------------------------------------
 
 * **inProgress** : the annotator has not finished the expert annotation
@@ -106,37 +106,27 @@ How to fill the "Mutation" field?
 * **partial** => the CDS is a gene fragment
 * **gene remnant** => the CDS is a highly degraded gene fragment
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
+* **pyrrolysine** => the CDS contains a pyrrolysine in its sequence
 
 
 What are the different "Product type" categories?
 -------------------------------------------------
 
-* c : carrier
-* cp : cell process
+* u : unknown
+* n : RNA
 * e : enzyme
 * f : factor
-* h : extrachromosomal origin
-* l : leader peptide
-* lp : lipoprotein
-* m : membrane component
-* n : RNA
-* o : ORF of unknown function
-* pc : putative carrier
-* pcp : putative cell process
-* pe : putative enzyme
-* pf : putative factor
-* ph : phenotype
-* pm : putative membrane component
-* pr : putative regulator
-* prc : putative receptor
-* ps : putative structure
-* pt : putative transporter
 * r : regulator
+* c : carrier
+* t : transporter
 * rc : receptor
 * s : structure
-* t : transporter
-
-
+* l : leader peptide
+* m : membrane component
+* lp : lipoprotein
+* cp : cell process
+* ph : phenotype
+* h : extrachromosomal origin
 
 How to use the "MetaCyc reaction" field?
 ----------------------------------------
@@ -270,10 +260,10 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
 
-How to use the "Comments" field?
+How to use the "Additional data" field?
 --------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
 
 
 
@@ -286,17 +276,14 @@ This information is not given by the automatic functional annotation procedure, 
 
 The different classes are:
 
-* **1a : Function experimentally demonstrated in the studied strain**
-* **1b : Function experimentally demonstrated in the studied species**
-* **1c : Function experimentally demonstrated in the studied genus**
-* **2a : Function of homologous gene experimentally demonstrated in an other organism**
-* **2b : Function of strongly homologous gene**
-* **3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology**
-* **4 : Homologs of previously reported genes of unknown function**
-* **5 : No homology to any previously reported sequences**
-* **6 : Doubtful CDS**. A doubtful CDS is a CDS for which the annotator is not sure that it codes for a protein. If this CDS really seems like a false prediction, he will then choose the **Artefact** status.
-* **7 : Gene remnant**
-
+* **1a : Function from experimental evidences in the studied strain**
+* **1b : Function from experimental evidences in the studied species**
+* **1c : Function from experimental evidences in the studied genus**
+* **2a : Function from experimental evidences in other organisms**
+* **2b : Function from indirect experimental evidences (e.g. phenotypes)**
+* **3 : Putative function from multiple computational evidences**
+* **4 : Unknown function but conserved in other organisms**
+* **5 : Unknown function**
 
 How to choose the "Class" annotation category?
 ----------------------------------------------
@@ -310,130 +297,102 @@ How to choose the "Class" annotation category?
 Annotation Rules
 ================
 
-.. image:: img/annotation1.png
+.. image:: img/new_annotation.png
 	:width: 80%
 
 
 Considering the Class field, here are some basic annotation rules:
 
-1 a/b/c: Function experimentally demonstrated in the studied organism/species/genus
+.. image:: img/coherence_rule.png
+
+1 a/b/c: Function from experimental evidences in the studied organism/species/genus
 -----------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synonyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
-* PubMedId **[mandatory]**
-* ProductType **[mandatory]**
+* PubMedId **[known]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-2a : Function of homologous gene experimentally demonstrated in an other organism
+2a : Function from experimental evidences in other organism
 ---------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synomyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
-* PubMedId **[mandatory]**
-* ProductType **[mandatory]**
+* PubMedId **[known]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-2b : Function of strongly homologous gene
------------------------------------------
+2b : Function from indirect experimental evidences (e.g. phenotypes)
+----------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synonyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology
+3 : Putative function from multiple computational evidences
 -------------------------------------------------------------------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]**: putative function
+* Product **[putative function]**: 
 * EC number [optional]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: putative function
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-4 : Homologs of previously reported genes of unknown function
+4 : Unknown function but conserved in other organisms
 -------------------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
+* Product **[conserved ... protein of unknown function ... ]**
 * EC number [not allowed]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: unknown
+* ProductType **[u : unknown]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-5 : No homology to any previously reported sequences
+5 : Unknown function 
 ----------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]**: (exported/membrane) protein of unknown function
+* Product **[protein of unknown function]**
 * EC number [not allowed]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: unknown
+* ProductType **[u : unknown]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
-
-
-6 : Doubtful CDS
-----------------
-
-* Gene [not allowed]
-* Synonyms [not allowed]
-* Product **[mandatory]** : protein of unknown function
-* EC number [not allowed]
-* MetaCyc Reaction [not allowed]
-* PubMedId [optional]
-* ProductType **[mandatory]**: unknown
-* Localization [not allowed]
-* BioProcess [not allowed]
-* Roles [not allowed]
-
-
-7 : Gene remnant
-----------------
-
-* Gene [not allowed]
-* Synonyms [not allowed]
-* Product **[mandatory]**: protein name (fragment)
-* EC number [not allowed]
-* MetaCyc Reaction [not allowed]
-* PubMedId [optional]
-* ProductType **[mandatory]**: unknown
-* Localization [not allowed]
-* BioProcess [not allowed]
-* Roles [not allowed]
 
 
 =====
@@ -980,6 +939,7 @@ How to read InterProScan results
 * **Eval**: E value
 * **IP description**: Description of the InterPro family
 * **IP GO**: Gene Ontology terms associated with the InterPro family
+
 
 
 
