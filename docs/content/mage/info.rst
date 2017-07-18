@@ -125,15 +125,6 @@ What are the different "Product type" categories?
 * m : membrane component
 * lp : lipoprotein
 * cp : cell process
-* c : carrier
-* e : enzyme
-* f : factor
-* m : membrane component
-* r : regulator
-* s : structure
-* t : transporter
-* rc : receptor
-* cp : cell process
 * ph : phenotype
 * h : extrachromosomal origin
 
