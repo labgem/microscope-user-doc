@@ -19,7 +19,7 @@ The predicted CDSs are indicated by rectangles on each frame.
 
 The blue lines symbolize the coding prediction curve. They increase when coding probability is high and drop when the coding probability is low.
 
-.. image:: img/GB_overview1.png
+.. image:: img/BG_overview1.png
 
 
 What is the meaning of the Genomic Object color code ?
@@ -39,15 +39,17 @@ How to move along the sequence ?
 
 If several genes have been annotated with the same gene name, the window will move to the first occurrence of these genes on the genome sequence.
 
-.. image:: img/img3.png
+.. image:: img/viewer_navigate.png
 
 
-Why sometimes genes are framed with a black line?
+Why sometimes genes are into a dark area ?
 -------------------------------------------------
 
-.. image:: img/img4.png
+.. image:: img/viewer_selection.png
 
-This is a way to quickly identify a specific gene when annotator use the Move To functionalities:
+There are different ways to select a specific gene:
+
+* From right click on a gene or synteny and use **Center** option
 
 * From result tables: 
 
@@ -58,8 +60,46 @@ This is a way to quickly identify a specific gene when annotator use the Move To
 
 .. image:: img/img5.png
 
-After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding gene, which will be framed with a black line.
+After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding gene and the gene area will be highlight.
 
+
+What is the Matrix ?
+--------------------
+
+For a given genome several gene Matrices can be built for gene detection. You can select a given matrix be using the **Matrix** menu located below the genomic map. Then click on **View**: the Coding prediction curves are updated.
+
+How to access a gene’s information ?
+------------------------------------
+
+* 1) Enter a specific gene name or gene label into the right-most edit button below the genomic map, then click on **Getinfo** (opens an editable Genomic Object annotation window)
+* 2) Click on a gene label in the table annotation editor (read-only window)
+* 3) Click directly on a genomic object in the genomic map (editable annotation window)
+* 4) Right-click on a genomic object in the genomic map then select **Open** option (editable annotation window)
+
+How to access the annotation history of a genomic object ?
+----------------------------------------------------------
+
+.. image:: img/historic.PNG
+
+Click on the **History icon** in located the table of genomic objects or in the Gene Annotation Editor window toolbar. 
+The history opens in a new window, allowing you to follow the annotation’s evolution as well as the identity of previous annotators. You can send an email to an annotator by clicking on his/her login name.
+
+.. image:: img/gene_history.png
+
+How to use the "Export to Gene Cart" button ?
+---------------------------------------------
+
+The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart. 
+If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data. 
+You can access to your gene carts via the `Gene Cart Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ .
+
+Can I create a new genomic object ?
+-----------------------------------
+
+The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a pop-up will open, you have to choose the type of object you want to create, then the Genomic Object Editor window opens. 
+You have to manually fill in all fields to create your new object. You have to specify its Begin, End, Frame, Mutation, Product, ... Then click on **SAVE**.
+
+* Please note that you can’t delete a genomic object from the database.
 
 How to read the table of annotated genomic objects ?
 ----------------------------------------------------
@@ -82,43 +122,6 @@ How to read the table of annotated genomic objects ?
 * **Mw**: Molecular weight in Daltons
 * **Pi**: Isoelectric point
 * **History**: Access to the annotation history of the genomic object
-
-What is the Matrix ?
---------------------
-
-For a given genome several gene Matrices can be built for gene detection. You can select a given matrix be using the **Matrix** menu located below the genomic map. Then click on **View**: the Coding prediction curves are updated.
-
-How to access a gene’s information ?
-------------------------------------
-
-* 1) Enter a specific gene name or gene label into the right-most edit button below the genomic map, then click on **Getinfo** (opens an editable Genomic Object annotation window)
-* 2) Click on a gene label in the table annotation editor (read-only window)
-* 3) Click directly on a genomic object in the genomic map (editable annotation window)
-
-How to access the annotation history of a genomic object ?
-----------------------------------------------------------
-
-Click on the **History icon** in located the table of genomic objects or in the Gene Annotation Editor window toolbar. 
-The history opens in a new window, allowing you to follow the annotation’s evolution as well as the identity of previous annotators. You can send an email to an annotator by clicking on his/her login name.
-
-.. image:: img/img6.png
-
-How to use the "Export to Gene Cart" button ?
----------------------------------------------
-
-The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart. 
-If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data. 
-You can access to your gene carts via the `Gene Cart Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ .
-
-Can I create a new genomic object ?
------------------------------------
-
-The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a Genomic Object Editor window opens. 
-You have to manually fill in all fields to create your new object. You have to specify its Type, Begin, End, Frame, Mutation, Product, ... Then click on **SAVE**.
-
-.. tip::
-	* If you don’t have any modification rights on a sequence, the **SAVE** button is replaced by a **MAIL** button. In this case your proposition of a new genomic object is emailed to the project leader.
-	* Please note that you can’t delete a genomic object from the database.
 
 Which program is used to detect the repeats ?
 ---------------------------------------------
@@ -196,7 +199,7 @@ The «Switch» button (1), between the genome browser and the synteny maps, allo
 * the taxon choice for the representation with species grouped by taxonomy (Phylum, Class, Order, Family, Species).
 * the default organism / taxonomy entries selection, so you can manage your own selections.
 
-.. image:: img/img8.png
+.. image:: img/viewer_option.png
 	:width: 100%
 
 How to read the synteny maps with representation by pairs of genomes?
@@ -212,7 +215,8 @@ The filling of a rectangle reflects the alignment quality between the 2 proteins
 
  
 
-.. image:: img/img9.png
+.. image:: img/synteny.PNG
+
 
  
 
