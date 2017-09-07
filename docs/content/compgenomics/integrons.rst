@@ -31,9 +31,9 @@ IntegronFinder is a tool that detects integrons in DNA sequences with high accur
 This tool also annotates gene casettes however we use our own annotations to make it run.
 IntegronFinder distinguishes 3 types of elements:
 
-•	Complete integron: integron including an integrase and at least one attC site
-•	In0 element: integron integrase only, without any attC site nearby
-•	CALIN element: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites
+* Complete integron: integron including an integrase and at least one attC site
+* In0 element: integron integrase only, without any attC site nearby
+* CALIN element: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites
 
 .. image:: img/IFelements.png
 
@@ -49,18 +49,13 @@ How to access to Integrons data ?
 
 IntegronFinder predictions are available through the **Comparative Genomics** section, in the main navigation menu.
 
+
 What is the 'Integron clusters' table?
 --------------------------------------------------------
 
 This table enumerates all integron clusters predicted for the selected organism and its replicons.
 
 .. image:: img/integronFinder_prediction.png
-
-
-IntegronFinder identifies 3 types of integrons complete, CALIN and In0.
-* Complete integrons include an integrase and at least one attC site
-* The In0 elements are composed of an integron integrase and no attC sites 
-* The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites.
 
 
 
@@ -73,9 +68,11 @@ The table **Integron Elements** shows all attachment sites (attC, attI) and prom
 
 .. image:: img/integron_elements.png
 
+
 The table **Integron Integrase** provides information on the identified integrase of the predicted integron.
 
 .. image:: img/integron_integrase.png
+
 
 The table **Genomic objects** provides information regarding the genomic objects included into the integron. You can export the genes by clicking on **Export to Gene Cart**.
 
