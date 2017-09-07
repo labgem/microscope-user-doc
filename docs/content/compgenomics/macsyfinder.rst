@@ -12,7 +12,7 @@ Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfind
 
 **Reference:** 
 
-`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
+`Abby SS, *et al.* 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
 
 
 What type of Macromolecular systems can be detected?
@@ -21,7 +21,7 @@ What type of Macromolecular systems can be detected?
 MacSyFinder can detect :
 
 * CRISPR-Cas systems: Clustered regularly interspaced short palindromic repeats (CRISPR) arrays and their associated Cas (CRISPR-associated) proteins form the CRISPR-Cas system. CRISPR-Cas are sophisticated adaptive immune systems that rely on small RNAs for sequence-specific targeting of foreign nucleic acids such as viruses and plasmids.
-* a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (Abby et al, Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_
+* a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (`Abby SS *et al.*, Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_)
 
 
 How to access to MacSyFinder predictions?
@@ -33,7 +33,7 @@ MacSyFinder predictions are available through the **Comparative Genomics** secti
 What is the 'Macromolecular Systems' table?
 --------------------------------------------------------
 
-This table enumerates all integron clusters predicted for the selected organism and its replicons.
+This table enumerates all macromolecular systems predicted for the selected organism and its replicons.
 
 .. image:: img/macromolecular_systems.png
 
