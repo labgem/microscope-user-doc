@@ -23,7 +23,7 @@ How to access to the secondary metabolites gene clusters predicted by antiSMASH?
 Secondary metabolites gene clusters predictions are available through the **Metabolism** section, in the main navigation menu.
 
 
-What is the **Predicted secondary metabolite clusters**  table?
+What is the "Predicted secondary metabolite clusters"  table?
 ------------------
 
 This table enumerates all secondary metabolite clusters predicted for the selected organism and its replicons.
@@ -32,7 +32,7 @@ This table enumerates all secondary metabolite clusters predicted for the select
 
 Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 
-How to explore this secondary metabolite clusters?
+How to explore a secondary metabolite cluster?
 ---------------------------------------
 
 The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_ 
