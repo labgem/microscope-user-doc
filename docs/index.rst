@@ -66,6 +66,8 @@ Comparative Genomics
    content/compgenomics/pancoreTool
    content/compgenomics/card
    content/compgenomics/virulence
+   content/compgenomics/integrons
+   content/compgenomics/macsyfinder
 
 ==========
 Metabolism
