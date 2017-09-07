@@ -21,7 +21,7 @@ Insertion at the attI site allows expression of an incoming cassettte, driven by
 
 **Reference:**
 
-`Gillings MR. 2014. Integrons: past, present, and future <http://mmbr.asm.org/content/78/2/257.full.pdf+html?sid=37df918b-9e26-4064-83a8-1576a4012c7d>`. Microbiol Mol Biol Rev 78:257–277. 10.1128/MMBR.00056-13.
+`Gillings MR. 2014. Integrons: past, present, and future. Microbiol Mol Biol Rev 78:257–277. <https://www.ncbi.nlm.nih.gov/pubmed/24847022>`
 
 
 What is IntegronFinder?
@@ -59,7 +59,7 @@ This table enumerates all integron clusters predicted for the selected organism 
 
 
 
-How to explore the Integron clusters?
+How to explore Integron clusters?
 --------------------------------------------------------
 
 The IntegronFinder cluster visualization window can be accessed by clicking on any cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
@@ -69,9 +69,11 @@ The table **Integron Elements** shows all attachment sites (attC, attI) and prom
 .. image:: img/integron_elements.png
 
 
+
 The table **Integron Integrase** provides information on the identified integrase of the predicted integron.
 
 .. image:: img/integron_integrase.png
+
 
 
 The table **Genomic objects** provides information regarding the genomic objects included into the integron. You can export the genes by clicking on **Export to Gene Cart**.
