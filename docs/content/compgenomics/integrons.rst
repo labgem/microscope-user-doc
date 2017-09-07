@@ -21,7 +21,7 @@ Insertion at the attI site allows expression of an incoming cassettte, driven by
 
 **Reference:**
 
-`Gillings MR. 2014. Integrons: past, present, and future. Microbiol Mol Biol Rev 78:257–277. <https://www.ncbi.nlm.nih.gov/pubmed/24847022>`
+`Gillings MR. 2014. Integrons: past, present, and future. Microbiol Mol Biol Rev 78:257–277. <https://www.ncbi.nlm.nih.gov/pubmed/24847022>`_
 
 
 What is IntegronFinder?
