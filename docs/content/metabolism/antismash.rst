@@ -7,7 +7,7 @@ What is antiSMASH?
 
 Antismash is a tool predicting secondary metabolite cluster
 
-Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about `antiSMASH <http://antismash.secondarymetabolites.org/about.html>`_
+Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`_
 
 How to access to the antiSMASH predictions?
 -----------------------------------------------
