@@ -1,35 +1,72 @@
-#######################
-Macromolecular Systems
-#######################
+######################
+Macromolecular Systems 
+######################
 
-What is MacSyFinder ?
+What is MacSyFinder?
 -------------------------------------------------------
 
-Macromolecular System Finder (MacSyFinder) is a tool that provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutio
+Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
 
-•	intI : a gene which encodes for an integron integrase whose protein catalyzes recombination between incoming gene cassettes and the second feature, an integron-associated recombination site.
+Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
 
-.. image:: img/IFelements.png
 
-|
+**Reference:** 
 
-Know more about `Integrons <https://www.researchgate.net/publication/262533269_Integrons_Past_Present_and_Future>`_
+`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
 
-Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
+What type of Macromolecular systems can be detected?
+----------------------------------------------------------
 
-|
+MacSyFinder can detect :
+* CRISPR-Cas systems: Clustered regularly interspaced short palindromic repeats (CRISPR) arrays and their associated Cas (CRISPR-associated) proteins form the CRISPR-Cas system. CRISPR-Cas are sophisticated adaptive immune systems that rely on small RNAs for sequence-specific targeting of foreign nucleic acids such as viruses and plasmids.
+* a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (Abby et al, Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_
 
-**References:**
 
-|
+How to access to MacSyFinder predictions?
+----------------------------------------------------------
 
-`Gillings MR. 2014. Integrons: past, present, and future<http://mmbr.asm.org/content/78/2/257.full.pdf+html?sid=37df918b-9e26-4064-83a8-1576a4012c7d>`. Microbiol Mol Biol Rev 78:257–277. 10.1128/MMBR.00056-13.
+MacSyFinder predictions are available through the **Comparative Genomics** section, in the main navigation menu.
 
-`Identification and analysis of integrons and cassette arrays in bacterial genomes<https://academic.oup.com/nar/article/44/10/4539/2516972/Identification-and-analysis-of-integrons-and>`. Jean Cury; Thomas Jove; Marie Touchon; Bertrand Neron; Eduardo PC Rocha. Nucleic Acids Research 2016;
 
-How to access to Integrons data ?
--------------------------------------------------------
+What is the 'Macromolecular Systems' table?
+--------------------------------------------------------
 
-IntegronFinder predictions are available through the Comparative Genomics section, in the main navigation menu.
+This table enumerates all integron clusters predicted for the selected organism and its replicons.
 
-#TO BE CONTINUED
+.. image:: img/macromolecular_systems.png
+
+
+* **System id**: identifier of the system in the organism
+* **System:	type** of system detected by MacSyFinder
+* **Replicon name**: identification of the replicon
+* **Replicon type**: chromosome, plasmid or WGS
+* **Begin** /	**End**:	Position of the system on the replicon
+* **Locus type**:	single or multi locus
+* **Mandatory present**:	list of mandatory genes of the system identified in the organism
+* **Mandatory missing**:	ist of mandatory genes of the system not detected in the organism
+* **Nb of mandatory present**: number of mandatory genes of the system identified in the organism
+* **Nb of mandatory missing**: number of mandatory genes of the system not detected in the organism
+* **Nb of accessory present**: number of accessory genes of the system identified in the organism
+
+
+
+
+How to explore a Macromolecular System?
+--------------------------------------------------------
+
+The MacSyFinder System visualization window can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+
+.. image:: img/macSy_syst.png
+
+The table **Genomic objects** provides information regarding the genomic objects composing the Macromolecular System such as :
+* **Label**, **Begin**, **End**, **Gene**, **Product**: correspond to the annotation of the object in MicroScope
+* **Gene status**:	mandatory or accessory, as defined in MacSyFinder
+* **MacSy label**:	gene label proposed by MacSyFinder
+* **Eval**:	Evalue of the match with MacSyFinder models
+* **Query coverage**: coverage of the match on the genomic object
+* **Subject coverage**:	coverage of the match on the MacSyFinder model
+* **Begin match**:	begin position of the match on the genomic object
+* **End match**: end position of the match on the genomic object
+
+You can export the genes by clicking on **Export to Gene Cart**.
+
