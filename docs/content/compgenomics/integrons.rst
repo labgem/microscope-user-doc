@@ -2,7 +2,7 @@
 Integron
 ######################
 
-What are Integrons and IntegronFinder?
+What are Integrons?
 -------------------------------------------------------
 
 Integrons are versatile gene acquisition systems commonly found in bacterial genomes. They are ancient elements that are a hot spot for genomic complexity, generating phenotypic diversity and shaping adaptive responses.
@@ -19,6 +19,14 @@ Insertion at the attI site allows expression of an incoming cassettte, driven by
 
 .. image:: img/integronfunctionning.png
 
+**Reference:**
+
+`Gillings MR. 2014. Integrons: past, present, and future <http://mmbr.asm.org/content/78/2/257.full.pdf+html?sid=37df918b-9e26-4064-83a8-1576a4012c7d>`. Microbiol Mol Biol Rev 78:257–277. 10.1128/MMBR.00056-13.
+
+
+What is IntegronFinder?
+-------------------------------------------------------
+
 IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
 This tool also annotates gene casettes however we use our own annotations to make it run.
 IntegronFinder distinguishes 3 types of elements:
@@ -29,21 +37,12 @@ IntegronFinder distinguishes 3 types of elements:
 
 .. image:: img/IFelements.png
 
-|
-
-Know more about `Integrons <https://www.researchgate.net/publication/262533269_Integrons_Past_Present_and_Future>`_
-
 Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
 
-|
+**Reference:**
+`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
 
-**References:**
 
-|
-
-`Gillings MR. 2014. Integrons: past, present, and future<http://mmbr.asm.org/content/78/2/257.full.pdf+html?sid=37df918b-9e26-4064-83a8-1576a4012c7d>`. Microbiol Mol Biol Rev 78:257–277. 10.1128/MMBR.00056-13.
-
-`Identification and analysis of integrons and cassette arrays in bacterial genomes<https://academic.oup.com/nar/article/44/10/4539/2516972/Identification-and-analysis-of-integrons-and>`. Jean Cury; Thomas Jove; Marie Touchon; Bertrand Neron; Eduardo PC Rocha. Nucleic Acids Research 2016;
 
 How to access to Integrons data ?
 -------------------------------------------------------
