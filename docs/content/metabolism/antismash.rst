@@ -26,11 +26,11 @@ Secondary metabolites gene clusters predictions are available through the **Meta
 What is the "Predicted secondary metabolite clusters"  table?
 ------------------
 
-This table enumerates all secondary metabolite clusters predicted for the selected organism and its replicons.
+This table enumerates all secondary metabolite clusters predicted for the selected organism and its replicons.Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 
 .. image:: img/antiSMASH._prediction.PNG 
 
-Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
+
 
 How to explore a secondary metabolite cluster?
 ---------------------------------------
