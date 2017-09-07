@@ -14,10 +14,12 @@ Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfind
 
 `Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
 
+
 What type of Macromolecular systems can be detected?
 ----------------------------------------------------------
 
 MacSyFinder can detect :
+
 * CRISPR-Cas systems: Clustered regularly interspaced short palindromic repeats (CRISPR) arrays and their associated Cas (CRISPR-associated) proteins form the CRISPR-Cas system. CRISPR-Cas are sophisticated adaptive immune systems that rely on small RNAs for sequence-specific targeting of foreign nucleic acids such as viruses and plasmids.
 * a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (Abby et al, Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_
 
@@ -59,6 +61,7 @@ The MacSyFinder System visualization window can be accessed by clicking on any c
 .. image:: img/macSy_syst.png
 
 The table **Genomic objects** provides information regarding the genomic objects composing the Macromolecular System such as :
+
 * **Label**, **Begin**, **End**, **Gene**, **Product**: correspond to the annotation of the object in MicroScope
 * **Gene status**:	mandatory or accessory, as defined in MacSyFinder
 * **MacSy label**:	gene label proposed by MacSyFinder
