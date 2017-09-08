@@ -1180,115 +1180,116 @@ LengthQ: length of the sequence
 Eval: Evalues of the alignment
 Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
 
-	=========
-	CARD
-	=========
+=========
+Resistome
+=========
 
 
-	What is CARD?
-	------------------
-	The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+What is CARD?
+------------------
+
+The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 
-	Citations:
+Citations:
 
-	`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
-
-
-	`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
+`McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
 
 
-	How to read CARD results:
-
-	.. image:: img/CARD_Homologs_annot.PNG
-
-	.. image:: img/CARD_Variants_annot.PNG
-
-	* **ARO id**: ARO number with a link on CARD website
-	* **Hit Type**: Perfect, Strict or Loose
-	* **Score**: Blast bitscore
-	* **Eval**: Blast e-value
-	* **Ident**: Blast aa identity %
-	* **CARD Name**: name of the protein/gene in CARD
-	* **CARD Synonyms**: synonym names
-	* **CARD Organism**: organism of the reference sequence
-	* **CARD SNP**: predicted SNPs confering the resistance
-	* **CARD Description**: description of the protein/gene in CARD
-	* **Resistance to**: antibiotic terms related to the resistance
-	* **Mechanisms**: mechanism involved in Antibiotic Resistance
-	* **PubMedId**: related publications
-
-	You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Antibiotic Resistance** tab in the Comparative Genomics menu.
+`Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
 
 
-	==========
-	Virulence
-	==========
+How to read CARD results:
+
+.. image:: img/CARD_Homologs_annot.PNG
+
+.. image:: img/CARD_Variants_annot.PNG
+
+* **ARO id**: ARO number with a link on CARD website
+* **Hit Type**: Perfect, Strict or Loose
+* **Score**: Blast bitscore
+* **Eval**: Blast e-value
+* **Ident**: Blast aa identity %
+* **CARD Name**: name of the protein/gene in CARD
+* **CARD Synonyms**: synonym names
+* **CARD Organism**: organism of the reference sequence
+* **CARD SNP**: predicted SNPs confering the resistance
+* **CARD Description**: description of the protein/gene in CARD
+* **Resistance to**: antibiotic terms related to the resistance
+* **Mechanisms**: mechanism involved in Antibiotic Resistance
+* **PubMedId**: related publications
+
+You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
-	What is VirulenceDB?
-	-------------------------------------------------------
-
-	VirulenceDB is a virulence genes database build using three sets of data:
-
-	•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
-	•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
-	•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
-
-	The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
-	New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
-
-	|
-
-	Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
-
-	Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
-
-	|
-
-	**References:**
-
-	|
-
-	Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
-
-	Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-	J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
+==========
+Virulome
+==========
 
 
-	How to read the table of results?
+What is VirulenceDB?
+-------------------------------------------------------
+
+VirulenceDB is a virulence genes database build using three sets of data:
+
+•	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
+•	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
+•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+
+The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
+New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+
+|
+
+Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
+
+Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
+
+|
+
+**References:**
+
+|
+
+Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+
+Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
 
 
-	•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
-	•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
-	•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
+How to read the table of results?
 
-	|
 
-	**Additionnal information on VF classes:**
+•	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
+•	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
+•	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
 
-	|
+|
 
-	They are divided into 4 main classes as proposed by VFDB:
+**Additionnal information on VF classes:**
 
-	•	Offensive virulence factors
-	•	Defensive virulence factors
-	•	Nonspecific virulence factors
-	•	Regulation of virulence-associated genes
+|
 
-	A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
+They are divided into 4 main classes as proposed by VFDB:
 
-	So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
+•	Offensive virulence factors
+•	Defensive virulence factors
+•	Nonspecific virulence factors
+•	Regulation of virulence-associated genes
 
-	1. Offensive virulence factors
+A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
 
-	  1.1 Invasion
+So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
 
-	2. Defensive virulence factors
+1. Offensive virulence factors
 
-	  2.1 Antiphagocytosis
+  1.1 Invasion
 
-	You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.
+2. Defensive virulence factors
+
+  2.1 Antiphagocytosis
+
+You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
 	
 ==========
 IntegronFinder
@@ -1305,8 +1306,6 @@ IntegronFinder distinguishes 3 types of elements:
 * Complete integron: integron including an integrase and at least one attC site
 * In0 element: integron integrase only, without any attC site nearby
 * CALIN element: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites
-
-.. image:: img/IFelements.png
 
 Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
 
