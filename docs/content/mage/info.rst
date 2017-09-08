@@ -1290,16 +1290,16 @@ Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indic
 
 	You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulence** tab in the Comparative Genomics menu.
 	
-	==========
-	IntegronFinder
-	==========
+==========
+IntegronFinder
+==========
 
 
-	What is IntegronFinder?
-	-------------------------------------------------------
+What is IntegronFinder?
+-------------------------------------------------------
 
-	IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
-	This tool also annotates gene casettes however we use our own annotations to make it run.
+IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
+This tool also annotates gene casettes however we use our own annotations to make it run.
 IntegronFinder distinguishes 3 types of elements:
 
 * Complete integron: integron including an integrase and at least one attC site
@@ -1308,66 +1308,66 @@ IntegronFinder distinguishes 3 types of elements:
 
 .. image:: img/IFelements.png
 
-	Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
+Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
 
-	**Reference:**
-	`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
+**Reference:**
+`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
 
 
 
-	How to read the results?
-	-------------------------------------------------------
-	The **IntegronFinder** dataset appears if the genomic object correspond to an integron integrase. The table shows :
+How to read the results?
+-------------------------------------------------------
+The **IntegronFinder** dataset appears if the genomic object correspond to an integron integrase. The table shows :
 
-	* **Integron id**: Id number of the integron to which belongs the integrase
-	* **Integron begin** / **Integron end**: position of the integron on the replicon
-	* **Integron type**: complete, CALIN or In0
-	* **Eval**: Evalue of the match with the HMM integrase
+* **Integron id**: Id number of the integron to which belongs the integrase
+* **Integron begin** / **Integron end**: position of the integron on the replicon
+* **Integron type**: complete, CALIN or In0
+* **Eval**: Evalue of the match with the HMM integrase
 
 .. image:: img/integronFinder_integrase.png
 
-	How to explore Integron clusters?
-	--------------------------------------------------------
+How to explore Integron clusters?
+--------------------------------------------------------
 
-	The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
+The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
 	
-	==========
-	MacSyFinder
-	==========
+==========
+MacSyFinder
+==========
 
 
-	What is MacSyFinder?
-	-------------------------------------------------------
+What is MacSyFinder?
+-------------------------------------------------------
 
-	Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
+Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
 
-	Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
+Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
 
 
-	**Reference:** 
+**Reference:** 
 
-	`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
+`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
 	
 
-	How to read the results?
-	-------------------------------------------------------
-	The **MacSyfinder** dataset appears if the genomic object correspond to a macromolecular system predicted by MacSyFinder The table shows :
+How to read the results?
+-------------------------------------------------------
+The **MacSyfinder** dataset appears if the genomic object correspond to a macromolecular system predicted by MacSyFinder The table shows :
 
-	* **System id**: Id number of the macromolecular system to which belongs the gene
-	* **Mandatory present**:	
-	* **Begin/End**:	
-	* **Gene status**:	
-	* **MacSy label**: label proposed by MacSyFinder
-	* **Eval**: Evalue of the match
-	* **Query coverage**: coverage of the match on the query sequence
-	* **Subject coverage**:	coverage of the match with MacSyfinder model
-	* **Begin match	/ End match**: position of the match on the query sequence
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **Mandatory present**:	
+* **Begin/End**:	
+* **Gene status**:	
+* **MacSy label**: label proposed by MacSyFinder
+* **Eval**: Evalue of the match
+* **Query coverage**: coverage of the match on the query sequence
+* **Subject coverage**:	coverage of the match with MacSyfinder model
+* **Begin match	/ End match**: position of the match on the query sequence
 
 .. image:: img/MacSyFinder_gene.png
 
 
-	How to explore a Macromolecular System?
-	--------------------------------------------------------
+How to explore a Macromolecular System?
+--------------------------------------------------------
 
-	The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
 	
