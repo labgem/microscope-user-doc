@@ -20,7 +20,7 @@ NB : requesting information via the GetInfo button only calls up a read-only Gen
 Overview of the Gene Annotation Editor
 --------------------------------------
 
-.. image:: img/overview.png
+.. image:: img/overview0.png
 
 The Gene Annotation Editor window is made of 4 sections:
 
@@ -58,14 +58,14 @@ Expert annotation of gene function
 How to fill the Gene Annotation form?
 -------------------------------------
 
-As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results.
+As shown in the figure below, not all fields can be modified by the annotator. Furthermore, some of them are required and other are optional. These fields have to be filled after the careful analysis of the different methods results. If your are working on other object than CDS, you may have a different form, if a required field for CDS appear in your form, it's still required.
 
-.. image:: img/editor2.png
+.. image:: img/editor2.PNG
 
 .. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
 
 
-What are the different annotation "Status"es?
+What are the different annotation "Status"?
 ---------------------------------------------
 
 * **inProgress** : the annotator has not finished the expert annotation
@@ -106,37 +106,27 @@ How to fill the "Mutation" field?
 * **partial** => the CDS is a gene fragment
 * **gene remnant** => the CDS is a highly degraded gene fragment
 * **selenocysteine** => the CDS contains a Selenocysteine in its sequence
+* **pyrrolysine** => the CDS contains a pyrrolysine in its sequence
 
 
 What are the different "Product type" categories?
 -------------------------------------------------
 
-* c : carrier
-* cp : cell process
+* u : unknown
+* n : RNA
 * e : enzyme
 * f : factor
-* h : extrachromosomal origin
-* l : leader peptide
-* lp : lipoprotein
-* m : membrane component
-* n : RNA
-* o : ORF of unknown function
-* pc : putative carrier
-* pcp : putative cell process
-* pe : putative enzyme
-* pf : putative factor
-* ph : phenotype
-* pm : putative membrane component
-* pr : putative regulator
-* prc : putative receptor
-* ps : putative structure
-* pt : putative transporter
 * r : regulator
+* c : carrier
+* t : transporter
 * rc : receptor
 * s : structure
-* t : transporter
-
-
+* l : leader peptide
+* m : membrane component
+* lp : lipoprotein
+* cp : cell process
+* ph : phenotype
+* h : extrachromosomal origin
 
 How to use the "MetaCyc reaction" field?
 ----------------------------------------
@@ -270,10 +260,10 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
 
 
-How to use the "Comments" field?
+How to use the "Additional data" field?
 --------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project. This field is not exported to the Genbank file at the end of the annotation process.
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
 
 
 
@@ -286,17 +276,14 @@ This information is not given by the automatic functional annotation procedure, 
 
 The different classes are:
 
-* **1a : Function experimentally demonstrated in the studied strain**
-* **1b : Function experimentally demonstrated in the studied species**
-* **1c : Function experimentally demonstrated in the studied genus**
-* **2a : Function of homologous gene experimentally demonstrated in an other organism**
-* **2b : Function of strongly homologous gene**
-* **3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology**
-* **4 : Homologs of previously reported genes of unknown function**
-* **5 : No homology to any previously reported sequences**
-* **6 : Doubtful CDS**. A doubtful CDS is a CDS for which the annotator is not sure that it codes for a protein. If this CDS really seems like a false prediction, he will then choose the **Artefact** status.
-* **7 : Gene remnant**
-
+* **1a : Function from experimental evidences in the studied strain**
+* **1b : Function from experimental evidences in the studied species**
+* **1c : Function from experimental evidences in the studied genus**
+* **2a : Function from experimental evidences in other organisms**
+* **2b : Function from indirect experimental evidences (e.g. phenotypes)**
+* **3 : Putative function from multiple computational evidences**
+* **4 : Unknown function but conserved in other organisms**
+* **5 : Unknown function**
 
 How to choose the "Class" annotation category?
 ----------------------------------------------
@@ -310,130 +297,102 @@ How to choose the "Class" annotation category?
 Annotation Rules
 ================
 
-.. image:: img/annotation1.png
+.. image:: img/new_annotation.png
 	:width: 80%
 
 
 Considering the Class field, here are some basic annotation rules:
 
-1 a/b/c: Function experimentally demonstrated in the studied organism/species/genus
+.. image:: img/coherence_rule.png
+
+1 a/b/c: Function from experimental evidences in the studied organism/species/genus
 -----------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synonyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
-* PubMedId **[mandatory]**
-* ProductType **[mandatory]**
+* PubMedId **[known]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-2a : Function of homologous gene experimentally demonstrated in an other organism
+2a : Function from experimental evidences in other organism
 ---------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synomyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
-* PubMedId **[mandatory]**
-* ProductType **[mandatory]**
+* PubMedId **[known]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-2b : Function of strongly homologous gene
------------------------------------------
+2b : Function from indirect experimental evidences (e.g. phenotypes)
+----------------------------------------------------------------------------------
 
 * Gene [optional]
 * Synonyms [optional]
-* Product **[mandatory]**
+* Product **[known]**
 * EC number [optional]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-3 : Function proposed based on presence of conserved amino acid motif, structural feature or limited homology
+3 : Putative function from multiple computational evidences
 -------------------------------------------------------------------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]**: putative function
+* Product **[putative function]**: 
 * EC number [optional]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: putative function
+* ProductType **[known]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-4 : Homologs of previously reported genes of unknown function
+4 : Unknown function but conserved in other organisms
 -------------------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]** : conserved (exported/membrane) protein of unknown function (; [domain description])
+* Product **[conserved ... protein of unknown function ... ]**
 * EC number [not allowed]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: unknown
+* ProductType **[u : unknown]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
 
 
-5 : No homology to any previously reported sequences
+5 : Unknown function 
 ----------------------------------------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[mandatory]**: (exported/membrane) protein of unknown function
+* Product **[protein of unknown function]**
 * EC number [not allowed]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
-* ProductType **[mandatory]**: unknown
+* ProductType **[u : unknown]**
 * Localization [optional]
 * BioProcess [optional]
 * Roles [optional]
-
-
-6 : Doubtful CDS
-----------------
-
-* Gene [not allowed]
-* Synonyms [not allowed]
-* Product **[mandatory]** : protein of unknown function
-* EC number [not allowed]
-* MetaCyc Reaction [not allowed]
-* PubMedId [optional]
-* ProductType **[mandatory]**: unknown
-* Localization [not allowed]
-* BioProcess [not allowed]
-* Roles [not allowed]
-
-
-7 : Gene remnant
-----------------
-
-* Gene [not allowed]
-* Synonyms [not allowed]
-* Product **[mandatory]**: protein name (fragment)
-* EC number [not allowed]
-* MetaCyc Reaction [not allowed]
-* PubMedId [optional]
-* ProductType **[mandatory]**: unknown
-* Localization [not allowed]
-* BioProcess [not allowed]
-* Roles [not allowed]
 
 
 =====
@@ -744,43 +703,6 @@ How to read the result table
 * **EndB**: End of the alignment for the protein of the database
 * **LengthB**: Length of the protein of the database
 
-
-
-=====
-HAMAP
-=====
-
-What is HAMAP?
---------------
-
-HAMAP (High-quality Automated and Manual Annotation of microbial Proteomes) is a system, based on manual protein annotation, that identifies and semi-automatically annotates proteins that are part of well-conserved families or subfamilies: the HAMAP families. HAMAP is based on manually created family rules and is applied to bacterial, archaeal and plastid-encoded proteins.
-
-**More**: http://www.expasy.ch/sprot/hamap/
-
-**Reference**:
-
-`HAMAP: a database of completely sequenced microbial proteome sets and manually curated microbial protein families in UniProtKB/Swiss-Prot. Lima T et al (2009) Nucleic Acids Res. 2009 Jan;37(Database issue):D471-8. <http://www.ncbi.nlm.nih.gov/pubmed/18849571>`_
-
-
-How to read HAMAP results?
---------------------------
-
-.. image:: img/hamap.png
-	:width: 100%
-
-* **HAMAP Id**: gives the corresponding HAMAP family identifier. If you click on it, it will open a new window on the HAMAP website, giving you a full description of the family.
-* **Evidence**: gives an indication about the strength of the hit. The value can be:
-	* **high**: the sequence is considered to be trusted member of the HAMAP family.
-	* **medium**:the sequence is considered as a putative member of the HAMAP family
-* **Gene name**: gives the gene name (if any)
-* **Product**: gives the product description
-* **EC Number**: gives the EC number (if any)
-* **Comments**: gives some insight into the corresponding function or the subcellular location of the protein.
-* **Keywords**: describes a list of keywords related to the function of the HAMAP family.
-
-
-
-
 ===============================
 Similarities SwissProt / TrEMBL
 ===============================
@@ -991,11 +913,14 @@ InterPro combines a number of databases (referred to as member databases) that u
 
 The member databases use a number of approaches:
 
-* **ProDom**: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
-* **PROSITE patterns**: provider of simple regular expressions.
-* **PROSITE** and **HAMAP profiles**: provide sequence matrices.
-* **PRINTS** provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
-* **PANTHER, PIRSF, Pfam, SMART, TIGRFAMs, Gene3D** and **SUPERFAMILY**: providers of hidden Markov models (HMMs).
+* `PRODOM <http://prodom.prabi.fr/prodom/current/html/home.php>`_: provider of sequence-clusters built from UniProtKB using PSI-BLAST.
+* `PROFILE <http://prosite.expasy.org/>`_ (PROSITE patterns): provider of simple regular expressions.
+* `PROFILE <http://prosite.expasy.org/>`_ and `HAMAP <http://hamap.expasy.org/cgi-bin/unirule/unirule_browse.cgi?browse=description&context=HAMAP>`_: provide sequence matrices.
+* `PRINTS <http://130.88.97.239/dbbrowser/sprint/>`_ provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
+* `PANTHER <http://www.pantherdb.org/>`_, `PIRSF <http://pir.georgetown.edu/>`_,  `PFAM <http://pfam.xfam.org/>`_, `SMART <http://smart.embl-heidelberg.de/>`_, `TIGRFAMs <http://www.jcvi.org/cgi-bin/tigrfams/index.cgi>`_, `GENE3D <http://www.cathdb.info/>`_ and `SSF <http://supfam.org/SUPERFAMILY/>`_ (SUPERFAMILY): providers of hidden Markov models (HMMs). 
+* `CDD <https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml>`_ Conserved Domains and Protein Classification 
+* `SFLD <http://sfld.rbvi.ucsf.edu/django/>`_ A hierarchical classification of enzymes that relates specific sequence-structure features to specific chemical capabilities
+
 
 Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. `HAMAP`_ profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
 
@@ -1014,6 +939,7 @@ How to read InterProScan results?
 * **Eval**: E value
 * **IP description**: Description of the InterPro family
 * **IP GO**: Gene Ontology terms associated with the InterPro family
+
 
 
 
@@ -1200,6 +1126,7 @@ Citations:
 
 
 How to read CARD results:
+--------------------------
 
 .. image:: img/CARD_Homologs_annot.PNG
 
@@ -1251,14 +1178,13 @@ Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinde
 
 |
 
-Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+`Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697. <https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkv1239>`_
 
-Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
-
+`Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510. <http://jcm.asm.org/content/52/5/1501.full>`_
 
 How to read the table of results?
-
+----------------------------------------
 
 •	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
 •	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
@@ -1291,9 +1217,9 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
 
 You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
 	
-==========
+=============
 IntegronFinder
-==========
+=============
 
 
 What is IntegronFinder?
@@ -1369,4 +1295,3 @@ How to explore a Macromolecular System?
 --------------------------------------------------------
 
 The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
-	

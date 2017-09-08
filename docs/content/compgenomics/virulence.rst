@@ -1,5 +1,5 @@
 ######################
-Virulence
+Virulome
 ######################
 
 What is VirulenceDB?
