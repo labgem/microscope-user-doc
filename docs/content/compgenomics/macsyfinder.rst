@@ -56,4 +56,4 @@ This table enumerates all macromolecular systems predicted for the selected orga
 How to explore a Macromolecular System?
 --------------------------------------------------------
 
-The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macsyfinder_system.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
