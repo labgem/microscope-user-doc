@@ -62,7 +62,7 @@ This table enumerates all integron clusters predicted for the selected organism 
 How to explore Integron clusters?
 --------------------------------------------------------
 
-The `IntegronFinder cluster visualization<https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on any cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
+The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on any cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
 
 
 
