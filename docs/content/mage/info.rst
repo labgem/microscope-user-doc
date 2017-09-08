@@ -924,7 +924,7 @@ The member databases use a number of approaches:
 
 Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. `HAMAP`_ profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
 
-How to read InterProScan results
+How to read InterProScan results?
 --------------------------------
 
 .. image:: img/inter.png
@@ -957,7 +957,7 @@ Reference:
 `SignalP 4.0: discriminating signal peptides from transmembrane regions. Thomas Nordahl Petersen, Søren Brunak, Gunnar von Heijne & Henrik Nielsen. Nature Methods, 8:785-786, 2011. <http://www.ncbi.nlm.nih.gov/pubmed/21959131>`_
 
 
-How to read SignalP results
+How to read SignalP results?
 ---------------------------
 
 .. image:: img/signal.png
@@ -988,7 +988,7 @@ TMHMM (version 2.0c) is a program for the prediction of transmembrane helices ba
 `Krogh, A., et al. (2001) Prediction transmembrane protein topology with a hidden markov model: application to complete genomes. J. Mol. Biol., 305, 567-580 <http://www.ncbi.nlm.nih.gov/pubmed/11152613>`_
 
 
-How to read TMhmm results
+How to read TMhmm results?
 -------------------------
 
 .. image:: img/tmhmm.png
@@ -1126,6 +1126,7 @@ Citations:
 
 
 How to read CARD results:
+--------------------------
 
 .. image:: img/CARD_Homologs_annot.PNG
 
@@ -1177,14 +1178,13 @@ Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinde
 
 |
 
-Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697.
+`Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697. <https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkv1239>`_
 
-Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510.
-
+`Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
+J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510. <http://jcm.asm.org/content/52/5/1501.full>`_
 
 How to read the table of results?
-
+----------------------------------------
 
 •	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
 •	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
@@ -1216,3 +1216,82 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
   2.1 Antiphagocytosis
 
 You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
+	
+=============
+IntegronFinder
+=============
+
+
+What is IntegronFinder?
+-------------------------------------------------------
+
+IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
+This tool also annotates gene casettes however we use our own annotations to make it run.
+IntegronFinder distinguishes 3 types of elements:
+
+* Complete integron: integron including an integrase and at least one attC site
+* In0 element: integron integrase only, without any attC site nearby
+* CALIN element: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites
+
+Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
+
+**Reference:**
+`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
+
+
+
+How to read the results?
+-------------------------------------------------------
+The **IntegronFinder** dataset appears if the genomic object correspond to an integron integrase. The table shows :
+
+* **Integron id**: Id number of the integron to which belongs the integrase
+* **Integron begin** / **Integron end**: position of the integron on the replicon
+* **Integron type**: complete, CALIN or In0
+* **Eval**: Evalue of the match with the HMM integrase
+
+.. image:: img/integronFinder_integrase.png
+
+How to explore Integron clusters?
+--------------------------------------------------------
+
+The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
+	
+==========
+MacSyFinder
+==========
+
+
+What is MacSyFinder?
+-------------------------------------------------------
+
+Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
+
+Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
+
+
+**Reference:** 
+
+`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
+	
+
+How to read the results?
+-------------------------------------------------------
+The **MacSyfinder** dataset appears if the genomic object correspond to a macromolecular system predicted by MacSyFinder The table shows :
+
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **Mandatory present**:	
+* **Begin/End**:	
+* **Gene status**:	
+* **MacSy label**: label proposed by MacSyFinder
+* **Eval**: Evalue of the match
+* **Query coverage**: coverage of the match on the query sequence
+* **Subject coverage**:	coverage of the match with MacSyfinder model
+* **Begin match	/ End match**: position of the match on the query sequence
+
+.. image:: img/MacSyFinder_gene.png
+
+
+How to explore a Macromolecular System?
+--------------------------------------------------------
+
+The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
