@@ -91,8 +91,14 @@ The common dataset are these ones:
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
 * **TMhmm Results**: will return genes of your selected sequence matching TMhmm entries
 * **Coiled Coil Results**: will return genes of your selected sequence that code for proteins with a coiled coil structure
-* **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s).
-
+* **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s)
+* **antiSMASH results**: will return genes of your selected sequence being part of a biosynthetic gene cluster predicted by antiSMASH
+* **Resistome results**: will return genes of your selected sequence matching described antibiotic resistance entries
+* **Virulome results**: will return genes of your selected sequence matching described virulence factor entries
+* **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method
+* **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN
+* **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder
+* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gne cluster predicted by MacSyFinder
 
 What are the Fields?
 --------------------
