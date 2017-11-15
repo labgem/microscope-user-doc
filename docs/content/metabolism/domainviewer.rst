@@ -37,7 +37,7 @@ In case of NRPS/PKS cluster type, the predicted peptide monomer composition may 
 |
 |
 
-Thanks to `https://cdkdepict-openchem.rhcloud.com/depict.html <https://cdkdepict-openchem.rhcloud.com/depict.html>`_ for Picture's displays 
+Thanks to `http://www.simolecule.com/cdkdepict/depict.html <http://www.simolecule.com/cdkdepict/depict.html>`_ for Picture's displays 
 
 |
 |
