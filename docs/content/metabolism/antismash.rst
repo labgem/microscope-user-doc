@@ -33,6 +33,20 @@ This table enumerates all secondary metabolite clusters predicted for the select
 
 
 
+What is the "Adjusted cluster coordinates"  table?
+------------------
+
+This table enumerates all secondary metabolite clusters alternative coordinates predicted for the selected organism and its replicons.
+
+.. image:: img/antiSMASH_alternative_coord.PNG 
+
+
+Cluster Prediction: classical antiSMASH prediction, it's the core coordinates with an extention.
+
+Cluster Border: gene cluster borders are predict using `ClusterFinder algorithm <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123684/>`_ . 
+
+Cluster Core: cluster coordinates are limited to the "main" gene use for characterization of secondary metabolite.
+
 How to explore a secondary metabolite cluster?
 ---------------------------------------
 
