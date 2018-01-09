@@ -29,9 +29,15 @@ All the boxes in the **viewer** can be mouse over to obtain summarized informati
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction and its visualization are displayed.
 
+Cluster Prediction: classical antiSMASH prediction, it's the core coordinates with an extention.
+
+Cluster Border: gene cluster borders are predict using `ClusterFinder algorithm <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123684/>`_ . 
+
+Cluster Core: cluster coordinates are limited to the "main" gene use for characterization of secondary metabolite.
 
 
-.. image:: img/antiSMASH3_viewer.PNG
+
+.. image:: img/antiSMASH4_viewer.PNG
 
 
 |
@@ -57,7 +63,7 @@ The **MIBiG Clusters Similarities** table provides information about similar kno
 
 The **Genomic Objects** table provides informations regarding the genomic objects depicted in the graphical representation.
 
-.. image:: img/antiSMASH3_Feature.PNG
+.. image:: img/antiSMASH4_Feature.PNG
 
 |
 |
