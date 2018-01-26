@@ -28,6 +28,8 @@ The use of orthology predictions for functional annotation permits a higher prec
 (i.e. BLAST searches), as it avoids transferring annotations from close paralogs 
 (duplicate genes with a higher chance of being involved in functional divergence).
 
+We run eggnog-mapper using EGGNOGDB and diamond for the alignement.
+
 .. image:: img/EGGNOG.PNG
 
 **More**: https://github.com/jhcepas/eggnog-mapper/wiki
