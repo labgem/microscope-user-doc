@@ -845,6 +845,19 @@ The first column indicates the identifier of the COG family the protein is simil
 .. tip:: A protein is classified in a COG if it has at least 3 Best Hits with proteins classified in the same COG and being members of 3 different clades. A protein can thus be classified in more than one COG.
 
 
+========
+EGGNOG
+========
+
+What is EGGNOG?
+-----------------
+
+It uses precomputed orthologous groups and phylogenies from the eggNOG database to transfer functional information from fine-grained orthologs only.
+
+**More**: http://eggnogdb.embl.de/#/app/methods
+
+**Reference**: `eggNOG 4.5: a hierarchical orthology framework with improved functionalannotations for eukaryotic, prokaryotic and viral sequences. Jaime Huerta-Cepas, Damian Szklarczyk & al. Nucl. Acids Res. (04 January 2016) 44 (D1): D286-D293. <https://doi.org/10.1093/nar/gkv1248>`_
+
 
 ======
 FigFam
