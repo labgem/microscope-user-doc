@@ -112,14 +112,16 @@ Select one or several organisms to export data in RDF to load it for example in 
 The RDF file format used by MicroScope platform is the `Turtle format <https://www.w3.org/TR/turtle/>`__.
 
 MicroScope Ontology
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 .. image:: img/rdf_mso_diagram.svg
+   :alt: img/rdf_mso_diagram.png
 
 ____________________________________________________________________________
 
 .. figure:: img/rdf_example_partial_entities_diagram.svg
-
+   :alt: img/rdf_example_partial_entities_diagram.png
+   
    Partial example of data representation using MicroScope Ontology.
 
 
