@@ -114,12 +114,12 @@ The RDF file format used by MicroScope platform is the `Turtle format <https://w
 MicroScope Ontology
 ^^^^^^^^^^^^^^^^^^^
 
-.. image:: img/rdf_mso_diagram.png
+.. image:: img/rdf_mso_diagram.svg
    :alt: MicroScope Ontology (see online documentation).
 
 ____________________________________________________________________________
 
-.. figure:: img/rdf_example_partial_entities_diagram.png
+.. figure:: img/rdf_example_partial_entities_diagram.svg
    :alt: Partial example of data representation using MicroScope Ontology (see online documentation).
 
    Partial example of data representation using MicroScope Ontology.
