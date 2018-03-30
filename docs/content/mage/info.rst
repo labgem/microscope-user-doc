@@ -303,7 +303,9 @@ Annotation Rules
 
 Considering the Class field, here are some basic annotation rules:
 
-.. image:: img/coherence_rule.png
+.. image:: img/user_table_coherence.png
+
+.. image:: img/user_schema_coherence.png
 
 1 a/b/c: Function from experimental evidences in the studied organism/species/genus
 -----------------------------------------------------------------------------------
