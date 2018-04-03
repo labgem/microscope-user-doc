@@ -35,7 +35,7 @@ MaGe
    content/mage/overlapCDS
    content/mage/bilanAnnotationExpert
    content/mage/badEC
-   content/mage/labelOldNew
+   content/mage/labelCPDOldNew
 
 =============
 Genomic Tools
