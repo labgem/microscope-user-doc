@@ -1,5 +1,12 @@
 #########################
-Expert Annotation Summary 
+Annotation Summary 
 #########################
 
-Provides a general statistical overview of genes annotations through a distribution between Product Types, Cellular Localizations or Evidence Classes. These statistics concern only expert annotations in a same replicon. Automatic ones are not computed.
+Provides a general statistical overview of genes annotations through a distribution between Product Types, Cellular Localizations or Evidence Classes in a same replicon.
+
+
+.. image:: img/Annot_summary.PNG
+
+.. image:: img/Annot_summary2.PNG
+
+.. image:: img/Annot_summary3.PNG
