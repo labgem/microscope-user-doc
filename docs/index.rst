@@ -33,8 +33,8 @@ MaGe
    content/mage/info
    content/mage/doubloonGenes
    content/mage/overlapCDS
-   content/mage/bilanAnnotationExpert
    content/mage/badEC
+   content/mage/bilanAnnotationExpert
    content/mage/labelCPDOldNew
 
 =============
@@ -57,7 +57,8 @@ Comparative Genomics
 .. toctree::
    :caption: Comparative Genomics
    :maxdepth: 2
-
+   
+   content/compgenomics/genoclust
    content/compgenomics/phyloprofil
    content/compgenomics/genomicIsland
    content/compgenomics/linePlotForm
