@@ -3,7 +3,7 @@
 ===================
 
 
-This interface allows the user to select a set of genomes and display a tree compute from a distance matrix where the distances strongly correlates the Average Nucleotide Identity (ANI). From this distance matrix, we group these genomes in order to get clusters close to the "species cluster" (ANI >= 94%).
+This interface allows the user to select a set of genomes and display a tree. It is constructed, from a distance matrix where the distances strongly correlates the Average Nucleotide Identity (ANI), with a neighbor joining algorithm. From this distance matrix, we group these genomes in order to get clusters close to the "species cluster" (ANI >= 94%).
 
 
 .. image:: img/genoclust.png
@@ -14,7 +14,7 @@ Distance Matrix And ANI
 In order to quickly calculate the pairwise genome distance, we use Mash. Mash extends the MinHash dimensionality-reduction technique to include a pairwise mutation distance and P value significance test. Mash distances strongly correlates ANI like: :math:`D = 1 - ANI`.
 
 
-ANI represents the average nucleotide identity of all orthologous genes shared between any two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI). It closely reflect the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species ( :math:`94\%\simeq70\%{}` DNA-DNA hybridization ). 
+ANI represents the average nucleotide identity of all orthologous genes shared between any two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI). It closely reflect the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species ( :math:`94\% ANI \simeq70\%{}` DNA-DNA hybridization ). 
 
 Know More about `Mash <https://github.com/marbl/Mash>`_
 
@@ -22,6 +22,12 @@ Know More about `Mash <https://github.com/marbl/Mash>`_
 `1.Konstantinidis, K. T. & Tiedje, J. M. Genomic insights that advance the species definition for prokaryotes. Proc Natl Acad Sci U S A 102, 2567–2572 (2005). <http://www.pnas.org.insb.bib.cnrs.fr/content/102/7/2567>`_
 `2.Ondov, B. D. et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biology 17, 132 (2016). <https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x>`_
 
+
+
+Tree Construction
+-----------------
+
+A tree is constructed from the Mash distance matrix. This tree is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_
 
 
 Genome Clustering
