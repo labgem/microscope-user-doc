@@ -77,7 +77,7 @@ Results : RGP description
 	* **Begin**: RGP begin position.
 	* **End**: RGP end position.
 	* **Length**: RGP length.
-	* **Feature Score**: score associated with GI features (arbitrary score for sorting the table by feature: one feature = one point)‏.
+	* **Feature Score**: score associated with GI features (arbitrary score for sorting the table by feature: one feature = one point).
 	* **Feature**: Features associated with RGPs (tRNA, misc_RNA, integrase, other mobility gene, overlapping SIGI-HMM, overlapping Alien Hunter/IVOM region)
 	* **Specificity Percentage** (one column by compared organism): % CDS in RGP not involved in a synteny. (algorithm allowed blocks of 2 consecutives genes in synteny inside RGPs).
 	
