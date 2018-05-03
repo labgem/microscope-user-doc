@@ -1,3 +1,5 @@
+.. _genome-overview:
+
 ###############
 Genome Overview 
 ###############
