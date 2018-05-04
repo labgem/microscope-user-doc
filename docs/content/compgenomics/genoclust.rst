@@ -9,7 +9,7 @@ The tree is constructed from the pairwise distances (see `Pairwise Genome Distan
 Moreover, the genomes are grouped in "species cluster" according to the pairwise distance (see `Clustering Genomes`_).
 The interface also display the cluster to which the organism belong.
 
-Note that you cannot select genomes for which CheckM detected more than 0.5% contamination or less than 90% completeness.
+Note that you cannot select genomes for which CheckM detected more than 5% contamination or less than 90% completeness.
 You can consult CheckM results for all genomes in the :ref:`genome-overview` page.
 
 Interface Overview
