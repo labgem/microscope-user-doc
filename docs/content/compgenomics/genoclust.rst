@@ -12,7 +12,7 @@ The interface also display the cluster to which the organism belong.
 
 Note that genomes for which CheckM detected more than 5% contamination or less than 90% completeness are not assigned to MICGC clusters.
 Such genomes will however appear in the organism selector and in the tree.
-Note that you can consult CheckM results in the :ref:`genome-overview` page.
+You can consult CheckM results in the :ref:`genome-overview` page.
 
 Interface Overview
 ------------------
