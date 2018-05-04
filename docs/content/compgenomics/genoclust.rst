@@ -7,16 +7,18 @@ This interface allows the user to select a set of genomes and display a tree tha
 The tree is constructed from the pairwise distances (see `Pairwise Genome Distance and ANI`_) between the selected genomes using a neighbor joining algorithm (see `Tree Construction`_).
 
 Moreover, the genomes are grouped in "species cluster" according to the pairwise distance (see `Clustering Genomes`_).
+Those clusters are called MicroScope Genome Cluster (MICGC for short).
 The interface also display the cluster to which the organism belong.
 
-Note that you cannot select genomes for which CheckM detected more than 5% contamination or less than 90% completeness.
-You can consult CheckM results for all genomes in the :ref:`genome-overview` page.
+Note that genomes for which CheckM detected more than 5% contamination or less than 90% completeness are not assigned to MICGC clusters.
+Such genomes will however appear in the organism selector and in the tree.
+Note that you can consult CheckM results in the :ref:`genome-overview` page.
 
 Interface Overview
 ------------------
 
 Below is a screenshot of the genome selection interface.
-It allows to select organisms according to the NCBI taxonomy, by strain name or by genome cluster.
+It allows to select organisms according to the NCBI taxonomy, by strain name or by MICGC cluster.
 The upper list is the list of all the available organisms in MicroScope.
 The lower list is the list of currently selected organisms that will be used for the tree.
 The user can add organisms or remove organisms in the lower list using the green and red arrows.
