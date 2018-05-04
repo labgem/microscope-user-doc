@@ -4,3 +4,4 @@ docs/content/compgenomics/genoclust.latex
 docs/content/compgenomics/genoclust.html
 *.aux
 *.log
+_build

@@ -14,6 +14,13 @@ Note that genomes for which CheckM detected more than 5% contamination or less t
 Such genomes will however appear in the organism selector and are displayed in black in the tree.
 You can consult CheckM results in the :ref:`genome-overview` page.
 
+.. figure:: img/genoclust-workflow.png
+   :align: center
+		    
+   Microscope Genome Cluster (MICGC) workflow.
+
+
+
 Interface Overview
 ------------------
 
