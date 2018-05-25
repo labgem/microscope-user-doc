@@ -1131,6 +1131,9 @@ What is CARD?
 
 The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
+We compare MicroScope gene against CARD using `RGI <https://card.mcmaster.ca/analyze/rgi>`_:
+
+Resistance Gene Identifier (RGI) integrates ARO, bioinformatics models and molecular reference sequence data to broadly analyze antibiotic resistance at the genome level. This software use different models (CARD Proteins Homologs, CARD Proteins Variants ...) to detect the AMR.
 
 Citations:
 
@@ -1154,11 +1157,13 @@ How to read CARD results:
 * **Ident**: Blast aa identity %
 * **CARD Name**: name of the protein/gene in CARD
 * **CARD Synonyms**: synonym names
+* **CARD family**: family of the protein/gene in CARD
 * **CARD Organism**: organism of the reference sequence
-* **CARD SNP**: predicted SNPs confering the resistance
+* **CARD SNP**: predicted SNPs confering the resistance (mutation is included in the detection model)
 * **CARD Description**: description of the protein/gene in CARD
-* **Resistance to**: antibiotic terms related to the resistance
+* **Mechanisms class**: class of mechanism involved in Antibiotic Resistance
 * **Mechanisms**: mechanism involved in Antibiotic Resistance
+* **Resistance to**: antibiotic terms related to the resistance
 * **PubMedId**: related publications
 
 You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
