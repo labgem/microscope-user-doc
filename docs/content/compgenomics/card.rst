@@ -51,7 +51,7 @@ Protein homolog models detect a protein sequence based on its similarity to a cu
 The table **CARD Proteins Variants** shows all CDS results with a 'strict' or 'loose' hit for the **protein variant model**.
 
 Protein variant models are similar to protein homolog models, they detect the presence of a protein sequence based on its similarity to a curated reference sequence, but secondarily search submitted query sequences for curated sets of mutations shown clinically to confer resistance relative to wild-type. This model includes a protein reference sequence, a curated BLASTP cut-off, and mapped resistance variants (single resistance variants, insertions, deletions, co-dependent resistance variants, nonsense SNPs, and/or frameshift mutations). 
-Regardless of BLASTP bitscore, **if a sequence does not contain one of the mapped resistance variants, it is not considered a match** and not detected by the protein variant model. If the matches score is better than the cutoff the hit will be label as 'strict' otherwise it will be a 'loose' (there is not 'perfect' for this models).
+Regardless of BLASTP bitscore, **if a sequence does not contain one of the mapped resistance variants, it is not considered a match** and not detected by the protein variant model. If the matche score is better than the cutoff the hit will be label as 'strict' otherwise it will be a 'loose' (there is not 'perfect' for this models).
 
 
 .. image:: img/CARD_Variants.PNG
