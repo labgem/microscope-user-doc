@@ -56,6 +56,11 @@ You can download COG automatic classification (http://www.ncbi.nlm.nih.gov/COG/)
 
 * Genome (All the COG automatic annotation)
 
+You can download EGGNOG automatic classification (http://eggnogdb.embl.de/#/app/home) (Also available in Organism mode):
+
+* Genome (All the EGGNOG automatic annotation)
+
+
 finally, you can obtain the `Microcyc pathway <https://biocyc.org/download.shtml>`_
 
 
