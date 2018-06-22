@@ -15,7 +15,7 @@ How to read the interface?
 
 * **The Single Mode**:
 
-.. image:: img/key1.png
+.. image:: img/search_by_keyword.png
 	:width: 100%
 
 * **Item #1**. `Dataset selection <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-about-the-dataset>`_.
