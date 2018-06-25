@@ -30,7 +30,7 @@ How to read the interface?
 	
 * **The Multiple Mode**
 
-.. image:: img/search_by_keyword_multiple.png
+.. image:: img/search_by_keyword_multiple.PNG
 	:width: 100%
 
 
