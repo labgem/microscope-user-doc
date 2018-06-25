@@ -18,19 +18,19 @@ How to read the interface?
 .. image:: img/search_by_keyword.png
 	:width: 100%
 
-* **Item #1**. `Dataset selection <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-about-the-dataset>`_.
-* **Item #2**. `Fields selection <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-are-the-fields>`_.
-* **Item #3**. `Optional Filters <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-are-filters>`_.
-* **Item #4**. Gene Carts selection, for searching within their content. (optional)
-* **Item #5**. Words you want to match (options: *All the words / At least one word / Exact phrase*).
-* **Item #6**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
-* **Item #7**. Replicon selection. The search will be performed on this replicon’s annotations.
-
+* **Item #1**. Replicon selection. The search will be performed on this replicon’s annotations.
+* **Item #2**. Gene Carts selection, for searching within their content. (optional)
+* **Item #3**. `Dataset selection <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-about-the-dataset>`_.
+* **Item #4**. `Fields selection <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-are-the-fields>`_.
+* **Item #5**. `Optional Filters <http://microscope.readthedocs.org/en/latest/content/search/keywords.html#what-are-filters>`_.
+* **Item #6**. Search all data of the selected dataset for the chosen replicon (*Get all data*).
+* **Item #7**. Words you want to match (options: *All the words / At least one word / Exact phrase*).
+* **Item #7**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
 
 	
 * **The Multiple Mode**
 
-.. image:: img/key2.png
+.. image:: img/search_by_keyword_multiple.png
 	:width: 100%
 
 
