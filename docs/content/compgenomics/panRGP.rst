@@ -47,7 +47,7 @@ What is a panRGP ?
 
 The goal of panRGP is to efficiently extract RGPs within a partitioned pangenome graph. 
 
-Based on the partitioned pangenome content of a given genome, the algorithm uses the chaining of gene families partitions to determine the RGPs within this genome, relying on a double pass linked-list partitioning method
+Based on the partitioned pangenome content of a given genome (so after projection), the algorithm uses the chaining of gene families partitions to determine the RGPs within this genome, relying on a double pass linked-list partitioning method
 
 .. image:: img/panRGP.png
 
