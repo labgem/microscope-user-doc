@@ -21,8 +21,8 @@ Partitions:
 Finally, as illustrated below, PPanGGOLiN projects on each organism the result of the graph partionning.
 
 .. image:: img/projection.png
-   :align: right
-   :scale: 50 %
+   :width: 800 px
+   :align: center
 
 **More information:** `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_
 
