@@ -46,11 +46,21 @@ Studying those regions are known to encode virulence, antimicrobial resistance f
 What is a panRGP ?
 -------------------------------------------------------
 
-The goal of panRGP is to efficiently extract RGPs within a partitioned pangenome graph. Firstly, PanRGP needs to extract each gene with its matching partition from the PPanGGOLiN output. Based on its content, the algorithm uses the chaining of gene families partitions to determine the RGPs within a given genome, relying on a double pass linked-list partitioning method
+The goal of panRGP is to efficiently extract RGPs within a partitioned pangenome graph. 
+
+Based on the partitioned pangenome content of a given genome, the algorithm uses the chaining of gene families partitions to determine the RGPs within this genome, relying on a double pass linked-list partitioning method
 
 .. image:: img/panRGP.png
 
-The algorithm uses a sequence of genes that are represented by their family’s partition (persistent: yellow; shell: green; blue:cloud). (1) A score is attributed to sets of consecutive genes, based on their partition. Persistent genes get a score of −(3) x (x being the number of consecutive genes) and both cloud and shell ones get a score of +1; (2) Consecutive persistent genes (preserved region) and consecutive cloud and shell genes (variable region) are regrouped in nodes; (3) Each node representing a preserved region is evaluated to determine if it should be grouped with its surrounding node(s), therefore being considered as a gap in the variable region it will results in. This is done only if the addition of its score with the minimum score of its neighboring RGP node(s) is at equals to 0 or more; (4) All nodes have been processed, so variable regions can be parsed to extract the genes they encompass. Here, a RGP of 5 genes (3 shell, 1 persistent and 1 cloud) and one of 1 gene (1 cloud) are obtained.
+The algorithm uses a sequence of genes that are represented by their family’s partition (**persistent: yellow**; **shell: green**; **blue:cloud**). 
+
+(1) A score is attributed to group of consecutive genes, based on their partition. Persistent genes get a score of −(3) x (x being the number of consecutive genes) and both cloud and shell genes get a score of +1; 
+
+(2) Consecutive persistent genes (preserved region) and consecutive cloud and shell genes (variable region) are regrouped in nodes;
+
+(3) Each node representing a preserved region is evaluated to determine if it should be grouped with its surrounding node(s) or being considered as a gap in the potential variable region. The "node merge" is done only if the addition of its score with the minimum score of its neighboring RGP node(s) is at equals to 0 or more;
+
+(4) All nodes have been processed, so variable regions can be parsed to extract the genes they encompass. Here, a RGP of 5 genes (3 shell, 1 persistent and 1 cloud) and one of 2 gene (2 cloud) are obtained. 
 
 How to access to panRGP data ?
 -------------------------------------------------------
