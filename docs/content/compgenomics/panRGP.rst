@@ -1,24 +1,35 @@
-######################
-panRGP
-######################
+##########################################
+Regions of Genomic Plasticity - panRGP
+##########################################
 
 What is PPanGGOLiN ?
 -------------------------------------------------------
 
-This PPanGGOLiN compiles the genomic content of a species (A) also named a pangenome. It relies on a graph approach to model pangenomes in which nodes and edges represent families of homologous genes (B and C, not included in the pipeline) and chromosomal neighborhood information, respectively. This approach thus takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+This tool compiles the genomic content of a MICGC (A) (group of organism made with our method of  `Genome Clustering <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_ to make a pangenome. It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes (B and C) made with `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ (stringent parameter) and neighborhood information. This approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+
 
 Partitions:
-1) Persistent genome: equivalent to a relaxed core genome (genes conserved in all but a few genomes);
-2) Shell genome: genes having intermediate frequencies corresponding to moderately conserved genes potentially associated to environmental adaptation capabilities
-3) Cloud genome: genes found at a very low frequency.
+
+1) Persistent genome: equivalent to a relaxed core genome (genes conserved in almost all genomes).
+
+2) Shell genome: genes having intermediate frequencies corresponding to moderately conserved genes (potentially associated to environmental adaptation capabilities).
+
+3) Cloud genome: genes found at very low frequencies (potentially newly integrated genes).
 
 .. image:: img/ppanggolin.png
 
-When referenced, PPanGGOLiN will generate a graph projection of every organism. In other terms, it will parse all genomes used to build the pangenome and it will project the corresponding part of the graph on it. This means that instead of a succession of genes, the organisms will be represented by the succession of their corresponding gene family partitions (i.e. persistent, shell and cloud).
+ PPanGGOLiN will generate a graph projection of every organism. 
 
 **Reference:**
 
 .. PPanGGOLiN: https://github.com/ggautreau/PPanGGOLiN
+
+
+
+.. Warning:: Genomes are not computed using PPanGGOLiN: 
+
+ 1) Genomes for which CheckM detected more than 5% contamination or less than 90% completeness are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ).  
+ 2) If MICGC contains less than 15 organisms this analysis is not performed to ensure the statistical robustness of the method. 
 
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
