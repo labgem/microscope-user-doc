@@ -21,9 +21,10 @@ Partitions:
 Finally, as illustrated below, PPanGGOLiN projects on each organism the result of the graph partionning.
 
 .. image:: img/projection.png
+   :align: right
+   :scale: 50 %
 
 **More information:** `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_
-
 
 .. Warning:: Genomes are not computed using PPanGGOLiN: 
 
