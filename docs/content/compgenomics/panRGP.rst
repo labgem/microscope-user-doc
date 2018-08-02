@@ -18,7 +18,7 @@ Partitions:
 
 .. image:: img/ppanggolin.png
 
- PPanGGOLiN will generate a graph projection of every organism. 
+PPanGGOLiN will generate a graph projection of every organism. 
 
 **Reference:**
 
@@ -34,7 +34,10 @@ Partitions:
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
 
-Following the definition given by Ogier et al., 2010, we define a Region of Genomic Plasticity (RGP) as both integrated Mobile Genetic Elements (MGEs) and hypervariable segments that are likely to be the result of deletions of DNA regions in one or more strains (gene loss). Studying those regions is of particular medical, environmental or industrial interest as they are known to encode virulence and antimicrobial resistance factors, and to harbor genes conferring specific adaptation (pathogenicity, symbiosis properties, detoxification ...).
+A RGP is a region of a genome structurally not present in related other(s). The RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.  
+Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
+
+Studying those regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).
 
 **Reference:**
 
