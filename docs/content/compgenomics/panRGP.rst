@@ -18,7 +18,9 @@ Partitions:
 
 .. image:: img/ppanggolin.png
 
-PPanGGOLiN will generate a graph projection of every organism. 
+Finally, as illustrated below, PPanGGOLiN projects on each organism the result of the graph partionning.
+
+.. image:: img/projection.png
 
 **More information:** `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_
 
