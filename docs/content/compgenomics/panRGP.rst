@@ -20,10 +20,7 @@ Partitions:
 
 PPanGGOLiN will generate a graph projection of every organism. 
 
-**Reference:**
-
-.. PPanGGOLiN: https://github.com/ggautreau/PPanGGOLiN
-
+**More information:** `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_
 
 
 .. Warning:: Genomes are not computed using PPanGGOLiN: 
