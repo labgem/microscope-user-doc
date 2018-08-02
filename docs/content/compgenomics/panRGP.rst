@@ -51,11 +51,12 @@ Based on the partitioned pangenome content of a given genome, the algorithm uses
 
 The algorithm uses a sequence of genes that are represented by their family’s partition (**persistent: yellow**; **shell: green**; **blue:cloud**). 
 
-(1) A score is attributed to group of consecutive genes, based on their partition. Persistent genes get a score of −(3) x (x being the number of consecutive genes) and both cloud and shell genes get a score of +1.
+(1) A score is attributed to group of consecutive genes, based on their partition. Persistent genes get a score of 
+.. math:: -(3)^x (x+1 being the number of consecutive genes) and both cloud and shell genes get a score of +1.
 
 (2) Consecutive persistent genes (preserved region) and consecutive cloud and shell genes (variable region) are regrouped in nodes.
 
-(3) Each node representing a preserved region is evaluated to determine if it should be grouped with its surrounding node(s) or being considered as a gap in the potential variable region. The "node merge" is done only if the addition of its score with the minimum score of its neighboring RGP node(s) is positive.
+(3) Each node representing a preserved region is evaluated to determine if it should be grouped with its surrounding node(s) or being seperated into 2 potential variable regions. The "node merge" is done only if the sum of the score of the preserved region and the minimum score of its neighboring RGP node is positive or equals to 0 (to allow a few persistant gene into a RGP).
 
 (4) All nodes have been processed, so variable regions can be parsed to extract the genes they encompass. Here, a RGP of 5 genes (3 shell, 1 persistent and 1 cloud) and one of 2 gene (2 cloud) are obtained. 
 
