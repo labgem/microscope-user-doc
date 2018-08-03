@@ -61,6 +61,7 @@ Comparative Genomics
    content/compgenomics/genoclust
    content/compgenomics/phyloprofil
    content/compgenomics/genomicIsland
+   content/compgenomics/panRGP
    content/compgenomics/linePlotForm
    content/compgenomics/fusfis
    content/compgenomics/GOstats
