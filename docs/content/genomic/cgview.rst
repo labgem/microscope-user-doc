@@ -42,3 +42,11 @@ Only the 5 first buttons are active on the toolbar:
 
 If you click on a gene name/label it open the corresponding Gene window giving you access the full annotation of the gene.
 
+
+.. Tip:: HELP: if the application doesn't work, it means your web browser doesn't support java or you have java disabled (get the last version of java here: http://www.java.com/)
+ 
+ you need to allow our software to run without certificate by adding an exception list:
+        1. check this FAQ: http://java.com/en/download/faq/exception_sitelist.xml
+        2. add this URL to the exception list https://www.genoscope.cns.fr/
+
+
