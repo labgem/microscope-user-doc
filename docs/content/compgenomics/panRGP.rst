@@ -52,7 +52,8 @@ Based on the partitioned pangenome content of a given genome (so after projectio
 
 .. image:: img/panRGP.png
 
-The algorithm uses a sequence of genes that are represented by their family’s partition (**persistent: yellow**; **shell: green**; **blue:cloud**).
+The algorithm uses a sequence of genes that are represented by their family’s partition 
+(**persistent: yellow**; **shell: green**; **cloud:blue**).
 
 (1) A score is attributed to group of consecutive genes, based on their partition. Both cloud and shell genes get a score of +1.  Assuming than x+1 being the number of consecutive genes, persistent genes get a score of:  
 
