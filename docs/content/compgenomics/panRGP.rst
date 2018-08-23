@@ -67,6 +67,8 @@ The algorithm uses a sequence of genes that are represented by their family’s 
 
 (4) All nodes have been processed, so variable regions can be parsed to extract the genes they encompass. Here, a RGP of 5 genes (3 shell, 1 persistent and 1 cloud) and one of 2 gene (2 cloud) are obtained.
 
+.. Note:: The RGP have to be composed of at least 2 genes and have a lenght of 5000n minimum.
+
 How to access to panRGP data ?
 -------------------------------------------------------
 
