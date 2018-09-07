@@ -21,6 +21,6 @@ To personalize the resistance/virulence search within the RGP, you can set align
 The "Matching RGPs within Genome Cluster" table compares the given RGP with the predicted ones in the other organisms of the same MICGC (see method of  `Genome Clustering <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_ ). 
 The percentage of shared gene families correspond to the number of  `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ (MicroScope gene families) that are present in the RGP of the compared organism. 
 
-You may change the filter parameter "% coverage" to change the minimal value of "Shared gene families (%)" in the table.
+You may use the filter parameter "% coverage" to change the minimal value of "Shared gene families (%)" in the table.
 
 .. image:: img/RGPexplorer2.PNG
