@@ -52,7 +52,7 @@ The panRGP method browses the genes along the genome to determine the RGP bounda
 
 .. math:: \sum\limits_{i=1}^{n} -(3^{i-1})
 
-- In steps 3 & 4, a persistent group is merged with its surrounding shell/cloud groups if its score (absolute value) is less than or equal to the minimum score of the neighboring shell/cloud groups. In this case, the presistent genes will be considered as part of the RGP). In this example, a RGP of 5 genes (3 shells, 1 persistent and 1 cloud) and one of 2 gene (2 clouds) are obtained.
+- In steps 3 & 4, a persistent group is merged with its surrounding shell/cloud groups if its score (absolute value) is less than or equal to the minimum score of the neighboring shell/cloud groups. In this case, the presistent genes will be considered as part of the RGP. In this example, a RGP of 5 genes (3 shells, 1 persistent and 1 cloud) and one of 2 gene (2 clouds) are obtained.
 
 .. Note:: RGPs must be composed of at least 2 genes and have a minimum length of 5 kb to be detected.
 
