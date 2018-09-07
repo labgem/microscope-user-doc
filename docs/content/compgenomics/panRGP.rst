@@ -5,7 +5,7 @@ Regions of Genomic Plasticity - panRGP
 What is PPanGGOLiN ?
 -------------------------------------------------------
 
-The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software that computes pangenomes for each `MicroScope Genome Cluster <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_  (MICGC correspond to clusters of genomes from the same species) (A). PPanGGOLiN relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software.  PPanGGOLiN computes pangenomes for each `MicroScope Genome Cluster <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_  (MICGC correspond to clusters of genomes from the same species) (A). It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
 
 
 **Pangenome Graph Partitions:**
@@ -41,26 +41,20 @@ These regions are known to encode virulence, antimicrobial resistance factors an
 What is a panRGP ?
 -------------------------------------------------------
 
-The goal of panRGP is to efficiently detect RGPs within a partitioned pangenome graph. Based on the projection of the partitioned PPanGGOLiN graph on a given genome, the algorithm detects sets of consecutive genes that are members of the shell or cloud genomes.
+The goal of panRGP is to efficiently detect RGPs within a partitioned pangenome graph. Based on the projection of the partitioned PPanGGOLiN graph on a given genome, the method defines as a RGP a set of consecutive genes that are members of the shell or cloud genomes.
+
+The panRGP method browses the genes along the genome to determine the RGP boundaries using a score-based algorithm as shown in the figure below.(**persistent: yellow**; **shell: green**; **cloud:blue**).
 
 .. image:: img/panRGP.png
 
-The algorithm uses a sequence of genes that are represented by their family’s partition 
-(**persistent: yellow**; **shell: green**; **cloud:blue**).
 
-(1) A score is attributed to group of consecutive genes, based on their partition. Both cloud and shell genes get a score of +1.  Assuming than x+1 being the number of consecutive genes, persistent genes get a score of:  
+- In steps 1 & 2, groups of consecutive persistent or shell/cloud genes are made and a score is computed. For groups of shell/cloud genes, the score corresponds to the number of genes. For persistent groups, the score is calculated as follow  (where n is the number of consecutive persistent genes): 
 
-.. math:: -(3)^x 
+.. math:: \sum\limits_{i=1}^{n} -(3^{i-1})
 
-(2) Consecutive persistent genes (preserved region) and consecutive cloud and shell genes (variable region) are regrouped in nodes. 
+- In steps 3 & 4, a persistent group is merged with its surrounding shell/cloud groups if its score (absolute value) is less than or equal to the minimum score of the neighboring shell/cloud groups. In this case, the presitent genes will be considered as part of the RGP). In this example, a RGP of 5 genes (3 shells, 1 persistent and 1 cloud) and one of 2 gene (2 clouds) are obtained.
 
-
-(3) Each node representing a preserved region is evaluated to determine if it should be grouped with its surrounding node(s) or being seperated into 2 potential variable regions. The "node merge" is done only if the sum of the score of the preserved region and the minimum score of its neighboring RGP node is positive or equals to 0 (to allow a few persistant gene into a RGP). 
-
-
-(4) All nodes have been processed, so variable regions can be parsed to extract the genes they encompass. Here, a RGP of 5 genes (3 shell, 1 persistent and 1 cloud) and one of 2 gene (2 cloud) are obtained.
-
-.. Note:: The RGP have to be composed of at least 2 genes and have a lenght of 5000n minimum.
+.. Note:: RGPs must be composed of at least 2 genes and have a minimum length of 5 kb to be detected.
 
 How to access to panRGP data ?
 -------------------------------------------------------
