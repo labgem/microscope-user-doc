@@ -5,26 +5,24 @@ Regions of Genomic Plasticity - panRGP
 What is PPanGGOLiN ?
 -------------------------------------------------------
 
-This tool compiles the genomic content of a MICGC (A) ( group of organism made with our method of  `Genome Clustering <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_ ) to make a pangenome. It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes (B and C) made with `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ (stringent parameter) and neighborhood information. This approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software that computes pangenomes for each `MicroScope Genome Cluster <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_  (MICGC correspond to clusters of genomes from the same species) (A). PPanGGOLiN relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
 
 
-Partitions:
+**Pangenome Graph Partitions:**
 
 1) Persistent genome: equivalent to a relaxed core genome (genes conserved in almost all genomes).
 
 2) Shell genome: genes having intermediate frequencies corresponding to moderately conserved genes (potentially associated to environmental adaptation capabilities).
 
-3) Cloud genome: genes found at very low frequencies (potentially newly integrated genes).
+3) Cloud genome: genes found at very low frequencies (potentially newly transferred genes).
 
 .. image:: img/ppanggolin.png
 
-Finally, as illustrated below, PPanGGOLiN projects on each organism the result of the graph partionning.
+As illustrated below, the PPanGGOLiN classification can be projected on each genome of the analyzed MICGC:
 
 .. image:: img/projection.png
-   :width: 800 px
-   :align: center
 
-**More information:** `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_
+**More information about PPanGGOLiN is available `here <https://github.com/ggautreau/PPanGGOLiN>`_.**
 
 .. Warning:: Genomes are not computed using PPanGGOLiN: 
 
