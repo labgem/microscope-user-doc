@@ -24,18 +24,15 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 
 **More information about PPanGGOLiN is available `here <https://github.com/ggautreau/PPanGGOLiN>`_.**
 
-.. Warning:: Genomes are not computed using PPanGGOLiN: 
-
- 1) Genomes for which CheckM detected more than 5% contamination or less than 90% completeness are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ).  
- 2) If MICGC contains less than 15 organisms this analysis is not performed to ensure the statistical robustness of the method. 
+.. Warning:: The panRGP tool is executed only on MIGC containing at least 15 strains. Please also note that we exlclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ). 
 
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
 
-A RGP is a region of a genome structurally not present in related other(s). The RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.  
+A RGP is a region of a genome structurally not present in related others. RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.  
 Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
 
-Studying those regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).
+These regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).
 
 **Reference:**
 
@@ -44,9 +41,7 @@ Studying those regions are known to encode virulence, antimicrobial resistance f
 What is a panRGP ?
 -------------------------------------------------------
 
-The goal of panRGP is to efficiently extract RGPs within a partitioned pangenome graph. 
-
-Based on the partitioned pangenome content of a given genome (so after projection), the algorithm uses the chaining of gene families partitions to determine the RGPs within this genome, relying on a double pass linked-list partitioning method
+The goal of panRGP is to efficiently detect RGPs within a partitioned pangenome graph. Based on the projection of the partitioned PPanGGOLiN graph on a given genome, the algorithm detects sets of consecutive genes that are members of the shell or cloud genomes.
 
 .. image:: img/panRGP.png
 
