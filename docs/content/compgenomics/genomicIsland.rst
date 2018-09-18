@@ -1,6 +1,6 @@
-#############################
-Regions of Genomic Plasticity
-#############################
+###################################################
+Regions of Genomic Plasticity - RGP Finder 
+###################################################
 
 This interface allows the user to search for potentially horizontally transferred genes (HGT) which are gathered in genomic regions (Region of Genomic Plasticity). Basically, an RGP is a region of a genome structurally not present in related other(s). The RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains. Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
 
