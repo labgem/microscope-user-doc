@@ -758,7 +758,7 @@ How to read SwissProt and TrEMBL results?
 UniFIRE
 ========
 
-.. image:: img/unirule_example.PNG
+.. image:: img/example_unifire.PNG
 
 What is the UniFIRE ?
 ---------------------
@@ -772,9 +772,9 @@ How to read UniFIRE results ?
 ------------------------------
 
 
-* **UniRule** : rule id
-* **Annotation type** : prediction type inferred 
-* **Annotation value** : annotation inferred
+* **UniRule** : Rule id
+* **Annotation type** : Prediction type inferred 
+* **Annotation value** : Annotation inferred
 * **Begin** :  Start position of the predicted features 
 * **End** : Enf position of the predicted features
 * **UniRule Source** : Source rule id
