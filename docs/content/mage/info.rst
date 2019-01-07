@@ -770,13 +770,13 @@ How to read UniFIRE results ?
 ------------------------------
 
 
-* **UNI Rule** : rule id
-* **UNI Annotation type** : prediction type inferred 
-* **UNI annotation value** : annotation inferred
+* **UniRule** : rule id
+* **Annotation type** : prediction type inferred 
+* **Annotation value** : annotation inferred
 * **Begin** :  Start position of the predicted features 
 * **End** : Enf position of the predicted features
-* **UNI Source** : Source rule id
-* **UNI Method** : Source rule
+* **UniRule Source** : Source rule id
+* **UniRule Method** : Source rule
 
 =====
 PRIAM
