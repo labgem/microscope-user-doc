@@ -758,7 +758,7 @@ How to read SwissProt and TrEMBL results?
 UniFIRE
 ========
 
-.. image:: img/example_unifire.png
+.. image:: img/unifire_example.PNG
 
 What is the UniFIRE ?
 ---------------------
