@@ -90,8 +90,8 @@ What are the different "Type" categories?
 * tRNA
 * rRNA
 * misc_RNA
-* intron
-* exon
+* tmRNA
+* ncRNA
 * IS
 * misc_feature
 * promoter
