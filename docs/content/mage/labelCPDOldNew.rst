@@ -4,17 +4,39 @@ Annotation Mapping
 
 Only available for users having an account on MicroScope.
 
-Provides CDS label (i.e, locus_tag) correspondences between a new version of the genome being annotated/analysed (progression of the sequencing step) and the old one(s).
+Provides label (i.e, locus_tag) correspondences between a new version of the genome being annotated/analysed (progression of the sequencing step) and the old one(s).
 
 =================================
 Report Methods
 =================================
-At the moment the report is only perform with CDS (and fCDS).
+At the moment the report is perform with:
+
+* CDS
+* fCDS
+* tRNA
+* rRNA
+* misc_RNA
+* tmRNA
+* ncRNA
+* IS
+* misc_feature
+* promoter
 
 In order to report the annotation from the previous version of the sequence to the updated one, we perform several BLAST analyses:
 
+.. image:: img/Gene_report.png
+
+* **CDS mapping**:
+
 * 1- We use BLASTp between all the CDS automatically found in both sequences by the MicroScope annotation pipeline. We make a correspondence using the filter (pos>=100 and lrap=1) for the genes with the same length (AA) with Bidirectional Best Hits.
 * 2- We perform a tBLASTn using genes which have been validated (annotated) or manually created by the user on the previous version of the sequence (if these genes have not passed the first BLAST filter) on the new sequence. We make a correspondence using the filter (pos>=100) for the genes with the same length (nucleic).
+
+.. image:: img/Gene_report.png
+
+* **Other Object mapping**:
+All other object type (tRNA, rRNA, misc_RNA, tmRNA, ncRNA, IS, misc_feature, promoter) are compute using BLASTn.
+
+* 1- We use BLASTn between all the validated (annotated) RNAs in the previous version of the sequence and all the MicroScope predicted RNA. We make a correspondence using the filter (pos>=100 and lrap=1).
 
 
 =================================
