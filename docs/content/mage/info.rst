@@ -232,7 +232,7 @@ What are the different "Localization" categories?
 What is the "BioProcess" classification?
 ----------------------------------------
 
-This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_
+This functional classification is based on the CMR JCVI Role IDs.
 
 This field is optionally filled in during the expert annotation process.
 
@@ -240,7 +240,7 @@ This field is optionally filled in during the expert annotation process.
 What is the "Roles" classification?
 -----------------------------------
 
-This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
+This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli.
 
 **Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_
 
