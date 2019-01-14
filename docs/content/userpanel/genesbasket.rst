@@ -10,7 +10,7 @@ The result of many tools available in the MicroScope platform is a list of candi
 Gene Cart Overview
 ------------------
 
-.. image:: img/gene_card_doc.png
+.. image:: img/gene_card_doc.PNG
 
 * **Item #1. Create / Add a new Cart:**
  
