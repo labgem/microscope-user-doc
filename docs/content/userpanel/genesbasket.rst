@@ -58,6 +58,9 @@ Gene Cart Overview
  
 	Delete definitively a Gene Cart. ( **Warning: the content will also be deleted** ).
 
+* **Item #10. Delete Gene Cart:**
+ 
+	Export the gene annotation in tsv format file.
 	
 How to move Genomic Objects to another Gene Cart?
 -------------------------------------------------
