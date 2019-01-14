@@ -10,7 +10,7 @@ The result of many tools available in the MicroScope platform is a list of candi
 Gene Cart Overview
 ------------------
 
-.. image:: img/bas1.png
+.. image:: img/gene_card_doc.png
 
 * **Item #1. Create / Add a new Cart:**
  
@@ -206,14 +206,6 @@ How to fill a Gene Cart with some Genomic Objects?
 --------------------------------------------------
 
 Some MicroScope’s tools allow the possibility to save Genomic Objects into a Gene Cart.
-
-These tools are:
-
-* `Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_
-* `Genes Phyloprofile <http://microscope.readthedocs.org/en/latest/content/compgenomics/phyloprofil.html>`_
-* `Search by Keywords <http://microscope.readthedocs.org/en/latest/content/search/keywords.html>`_
-* `Evolution Projects Results <http://microscope.readthedocs.org/en/latest/content/expdata/NGSProjectEvo.html>`_
-
 Overall, check for the availability of a **EXPORT TO GENE** CART button above a Genomic Objects list.
 
 1. Click on the **EXPORT TO GENE CART** button to open the ’Export Interface’ popup.
