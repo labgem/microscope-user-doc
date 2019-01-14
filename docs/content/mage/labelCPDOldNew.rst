@@ -9,7 +9,7 @@ Provides label (i.e, locus_tag) correspondences between a new version of the gen
 =================================
 Report Methods
 =================================
-At the moment the report is perform with:
+At the moment the report is perform with these objects:
 
 * CDS
 * fCDS
@@ -36,8 +36,8 @@ In order to report the annotation from the previous version of the sequence to t
 * **Other Object mapping**:
 All other object type (tRNA, rRNA, misc_RNA, tmRNA, ncRNA, IS, misc_feature, promoter) are compute using BLASTn.
 
-* 1- We use BLASTn between all the validated (annotated) RNAs in the previous version of the sequence and all the MicroScope predicted RNA. We make a correspondence using the filter (pos>=100 and lrap=1).
-
+* 1- We use BLASTn between all the validated (annotated) RNAs in the previous version of the sequence and all the MicroScope predicted RNA on the new sequence version. We make a correspondence using the filter (pos>=100 and lrap=1).
+* 2- An another BLASTn is perform using the IS, misc_feature, promoter and RNA validated in the previous sequence (the RNA with no hit during the last BLAST) against the current sequence. We artificially increase the object size to have a better specificity, and we make a correspondence using the filter (pos>=100 and lrap=1) on the enlarge version.
 
 =================================
 Manually report
@@ -45,10 +45,12 @@ Manually report
 
 In few cases, the correspondences may not have been established automatically between the previous and the current version.
 
-It can be caused by 3 types of issues when we try to make the correspondences:
+It can be caused by several types of issues when we try to make the correspondences:
 
-* **multiple mapping**: Several genes on the old sequence matched the same gene on the new sequence. It happens if the genes are identical (same best BLASTp possible match), you then have to chose which annotation to transfer to the gene on the new sequence.
-* **Ambiguous mapping**: Two (or more) genes have the same stop codon but the identity between them is not good enough to report the annotation (the start codon is different). You have to check if the genes are the same and decide to report the annotation or not, adjust the start or not ...
+* **Ambiguous mapping**: Two (or more) genes/objects have the same stop codon but the identity between them is not good enough to report the annotation (the start codon is different). You have to check if the genes/objects are the same and decide to report the annotation or not, adjust the start or not ...
+* **multiple mapping**: Several objects on the old sequence matched the same genomic object on the new sequence. It happens if the objects are identical (same best BLAST possible match), you then have to chose which annotation to transfer to the object on the new sequence.
+* **Multiple mapping for new Object**: Several objects on the old sequence matched the same coordinates on the new sequence. If needed, you have to  `create <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#Can I create a new genomic object ?>`_ the object on the new sequence then copy the annotation you wish to transfer...
+* **Area too fragmented**: The considered objects are too close to contig edge to perform the BLAST analysis with enought specificity.
 * **No mapping**: no significant hit on the new sequence.
 
-In order to solve these cases, the user have to manually check these CDS using specifics informations given in the different results tables and the gene information window.
+In order to solve these cases, you have to manually check these CDS/objects using specifics informations given in the different results tables and the gene information window.
