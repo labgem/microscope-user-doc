@@ -77,7 +77,7 @@ The "Strict pan-genome components" table represents a summary of the `exact core
 
 The "PPanGGOLiN pan-genome components" table gives the number of genes and MICFAM families for each PPanGGOLiN partition.
 
-You can extract all these genes in fasta format (nucleic and proteic),csv with their annotation or in a gene card to do further analysis on them.
+You can extract all these genes in fasta format (nucleic and proteic),tsv with their annotation or in a gene card to do further analysis on them.
 
 .. image:: img/panRGPpartitionnement.PNG
 
