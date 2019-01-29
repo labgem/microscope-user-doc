@@ -178,7 +178,9 @@ How to perform a search
 How to refine a search?
 -----------------------
 
-After having performed a search and assuming you got some results, you can choose to refine them by proceeding a new search within this set of results. For this, you have to proceed the exact same way than previously, except you’ll have to click on the **EXPLORE MORE** button instead of the **NEW SEARCH** one. This method provides a good way to refine successively a set of candidate genes.
+* After having performed a search and assuming you got some results, you can choose to extract some data about the genes within your set of results by using the **Get Genes** button.
+
+* After having performed a search and assuming you got some results, you can choose to refine them by proceeding a new search within this set of results. For this, you have to proceed the exact same way than previously, except you’ll have to click on the **EXPLORE MORE** button instead of the **NEW SEARCH** one. By doing this, a **Get Genes** will be perform, and the genes within your previous set of result will be provide as input of your current search. This method provides a good way to refine successively a set of candidate genes.
 
 
 How to read search results?
