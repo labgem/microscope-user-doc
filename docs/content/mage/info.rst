@@ -232,7 +232,7 @@ What are the different "Localization" categories?
 What is the "BioProcess" classification?
 ----------------------------------------
 
-This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_
+This functional classification is based on the CMR JCVI Role IDs.
 
 This field is optionally filled in during the expert annotation process.
 
@@ -240,7 +240,7 @@ This field is optionally filled in during the expert annotation process.
 What is the "Roles" classification?
 -----------------------------------
 
-This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
+This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli.
 
 **Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_
 
@@ -754,7 +754,31 @@ How to read SwissProt and TrEMBL results?
 * **EndB**: End of the alignment for the protein of the database
 * **LengthB**: Length of the protein of the database
 
+========
+UniFIRE
+========
 
+.. image:: img/example_unifire.PNG
+
+What is the UniFIRE ?
+---------------------
+
+**UniFire** (the UNIprot Functional annotation Inference Rule Engine) is a tool to apply the UniProt annotation rules. Two set of rule are applied : 
+
+* The **SAAS** rules (Statistical Automatic Annotation System). This rules is generated automatic from expertly annotated entries in UniProtKB/Swiss-Prot.(https://www.uniprot.org/help/saas)
+* The **UniRules** (The Unified Rule) are devised and tested by experienced curators using experimental data from manually annotated entries.(https://www.uniprot.org/help/unirule)
+
+How to read UniFIRE results ?
+------------------------------
+
+
+* **UniRule** : Rule id
+* **Annotation type** : Prediction type inferred 
+* **Annotation value** : Annotation inferred
+* **Begin** :  Start position of the predicted features 
+* **End** : Enf position of the predicted features
+* **UniRule Source** : Source rule id
+* **UniRule Method** : Source rule
 
 =====
 PRIAM
