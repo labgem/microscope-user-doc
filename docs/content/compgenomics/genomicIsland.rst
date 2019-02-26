@@ -42,9 +42,7 @@ How to read the interface?
 Results : circular view
 -----------------------
 
-.. image:: img/RGPFinder.PNG
-
-.. image:: img/RGPFinder2.PNG
+.. image:: img/island2.png
 
 * **item A**: query organism information.
 
@@ -54,6 +52,7 @@ Results : circular view
 
 	* **New analysis**: return to the main page of the tool.
 	* **Compared Organisms details**: display table with compared organisms name.
+	* **RGP Region Prediction table**: move to predicted RGP table.
 	* **Predicted SIGI Regions table**: display SIGI-HMM predicted regions table.
 	* **Predicted IVOM Regions table**: display Alien Hunter/IVOM regions table.
 	
@@ -69,9 +68,9 @@ Results : circular view
 Results : RGP description
 -------------------------
 
+.. image:: img/island3.png
 
-
-* **item E**: RGP prediction table.
+* **item A**: RGP prediction table.
 
 	* **MoveTo**: display MaGe viewer centered on selected RGP region.
 	* **Label**: predicted RGP label (link to exploration page of the selected RGP region).
@@ -81,11 +80,8 @@ Results : RGP description
 	* **Feature Score**: score associated with GI features (arbitrary score for sorting the table by feature: one feature = one point).
 	* **Feature**: Features associated with RGPs (tRNA, misc_RNA, integrase, other mobility gene, overlapping SIGI-HMM, overlapping Alien Hunter/IVOM region)
 	* **Specificity Percentage** (one column by compared organism): % CDS in RGP not involved in a synteny. (algorithm allowed blocks of 2 consecutives genes in synteny inside RGPs).
-
 	
-* **item F** : link to explore selected RGP or SIGIVOM region.
-
-* **item G** : overlapping SIGI and IVOM table on 50% of the smallest region = SIGIVOM regions.
+* **item B** : overlapping SIGI and IVOM table on 50% of the smallest region = SIGIVOM regions.
 
 	* **MoveTo**: display MaGe viewer centered on selected SIGIVOM region.
 	* **Label**: predicted SIGIVOM label (link to explore selected SIGIVOM region).
@@ -94,7 +90,8 @@ Results : RGP description
 	* **Length**: SIGIVOM length.
 	* **SIGI Label**: SIGI region label component.
 	* **IVOM Label**: Alien Hunter/IVOM label component.
-
+	
+* **item C** :link to explore selected RGP or SIGIVOM region.
 
 
 Results : RGP or SIGIVOM exploration
