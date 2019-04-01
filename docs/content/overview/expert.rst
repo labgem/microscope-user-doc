@@ -223,9 +223,9 @@ What is Circular Genome View?
 
 **Reference**: `Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005 Feb 15;21(4):537-9 <http://www.ncbi.nlm.nih.gov/pubmed/15479716>`_
 
-.. Important:: Note that:
+.. Important::
 
-    Since version 3.12.2, **MicroScope** uses a fork of the applet which allow to export images directly from the GUI.
+    Note that, since version 3.12.2, **MicroScope** uses a fork of the applet which allows to export images directly from the GUI.
     The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
     The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
 
@@ -245,13 +245,13 @@ From left to right, the buttons are:
 * Export to file
 
 The `Legend` checkbox allows to show/hide the legend.
-The `Full view labels` allows to show/hide the labels when there is no zoom.
+The `Full view labels` checkbox allows to show/hide the labels when showing the entire map.
 
 If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
 
-.. Tip:: If the application doesn't work, it means you don't have installed java (get the latest version of java here: https://www.java.com/)
+.. Tip::
+    If the application doesn't work, it means that Java is not installed on your computer (get the latest version of java `here <https://www.java.com/>`_)
 
-    You must allow our software to run without certificate by adding an exception list:
-
-        #. check this FAQ: http://java.com/en/download/faq/exception_sitelist.xml
-        #. add this URL to the exception list https://www.genoscope.cns.fr/
+.. Tip::
+    You must allow our software to run without certificate by adding https://www.genoscope.cns.fr/ to the exception list.
+    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
