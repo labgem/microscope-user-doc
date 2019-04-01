@@ -225,9 +225,9 @@ What is Circular Genome View?
 
 .. Important:: Note that:
 
-Since version 3.12.2, **MicroScope** uses a fork of the applet which allow to export images directly from the GUI.
-The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
-The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
+    Since version 3.12.2, **MicroScope** uses a fork of the applet which allow to export images directly from the GUI.
+    The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
+    The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
 
 You can use the CG View toolbar to navigate into the circular map.
 
@@ -249,9 +249,9 @@ The `Full view labels` allows to show/hide the labels when there is no zoom.
 
 If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
 
-.. Tip:: HELP: if the application doesn't work, it means you don't have installed java (get the latest version of java here: https://www.java.com/)
+.. Tip:: If the application doesn't work, it means you don't have installed java (get the latest version of java here: https://www.java.com/)
 
-You must allow our software to run without certificate by adding an exception list:
+    You must allow our software to run without certificate by adding an exception list:
 
-# check this FAQ: http://java.com/en/download/faq/exception_sitelist.xml
-# add this URL to the exception list https://www.genoscope.cns.fr/
+        #. check this FAQ: http://java.com/en/download/faq/exception_sitelist.xml
+        #. add this URL to the exception list https://www.genoscope.cns.fr/
