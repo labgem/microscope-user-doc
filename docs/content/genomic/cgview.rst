@@ -5,7 +5,7 @@ Circular Genome View
 How to use the Circular Genome View?
 ------------------------------------
 
-This tool is based on **CGView** (see :ref:`_cgview`).
+This tool is based on **CGView** (see :ref:`cgview`).
 
 When you select the **Circular Genome View** functionality you obtain a global circular map of the selected sequence. Circles display (from the outside):
 
