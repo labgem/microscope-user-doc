@@ -24,14 +24,14 @@ At the moment the report is perform with these objects:
 
 In order to report the annotation from the previous version of the sequence to the updated one, we perform several BLAST analyses:
 
-.. image:: img/Gene_report.png
+.. image:: img/WF_report1.png
 
 * **CDS mapping**:
 
 * 1- We use BLASTp between all the CDS automatically found in both sequences by the MicroScope annotation pipeline. We make a correspondence using the filter (pos>=100 and lrap=1) for the genes with the same length (AA) with Bidirectional Best Hits.
 * 2- We perform a tBLASTn using genes which have been validated (annotated) or manually created by the user on the previous version of the sequence (if these genes have not passed the first BLAST filter) on the new sequence. We make a correspondence using the filter (pos>=100) for the genes with the same length (nucleic).
 
-.. image:: img/Gene_report.png
+.. image:: img/WF_report2.png
 
 * **Other Object mapping**:
 All other object type (tRNA, rRNA, misc_RNA, tmRNA, ncRNA, IS, misc_feature, promoter) are compute using BLASTn.
@@ -46,6 +46,8 @@ Manually report
 In few cases, the correspondences may not have been established automatically between the previous and the current version.
 
 It can be caused by several types of issues when we try to make the correspondences:
+
+.. image:: img/mapping_tables_list.PNG
 
 * **Ambiguous mapping**: Two (or more) genes/objects have the same stop codon but the identity between them is not good enough to report the annotation (the start codon is different). You have to check if the genes/objects are the same and decide to report the annotation or not, adjust the start or not ...
 * **multiple mapping**: Several objects on the old sequence matched the same genomic object on the new sequence. It happens if the objects are identical (same best BLAST possible match), you then have to chose which annotation to transfer to the object on the new sequence (most of the time, it's duplicate gene on the previous sequence ie: transposase).
