@@ -39,7 +39,7 @@ VirulenceDB predictions are available through the Comparative Genomics section, 
 How virulence predictions are made ?
 -------------------------------------------------------
 
-Genomic objects predicted by the Microscope platform are blasted against the three virulence databases using blastp.
+Genomic objects predicted by the Microscope platform are blasted against the three virulence databases using blastp or blastn.
 Blast results are filtered using **e-value** lower than 1e :sup:`-2`, **identities** upper than 30% and **minlrap** upper than 0.8 .
 
 
@@ -49,7 +49,7 @@ How to use this tool ?
 
 You can access your virulence predictions according to the taxonomy of your strain (minimal identity threshold = 30 %)
 
-.. image:: img/filtrevirulence.PNG
+.. image:: img/virulence.PNG
 
 •	All organism will display results regardless of the tax_id of your strain (identity filter: default=30%)
 
@@ -61,6 +61,10 @@ Note : As Shigella and Escherichia coli could genotypically be considered the sa
 
 
 The "Only best hit" button will display result for the best hit only, meanning that you get results from OrderQ=1.
+
+The blastn result are linked to gene label using their coordinates. If at least 50% of the gene is inside the blastn results coordinates or the result is include within the gene, we make a link between the gene and the blastn result.
+
+.. Note:: The blastn virulence detection data are only available on this page.
 
 
 How to read the table of results?

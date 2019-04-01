@@ -69,7 +69,7 @@ In the genome cluster information table, you can find out which MICGC your organ
 
 .. Note:: You may not have access to all the organisms used to compute the RGPs, as some may have restricted access based on annotator access rights.
 
-You can visualize the genome partition in a circular representation using `CGView <https://microscope.readthedocs.io/en/latest/content/genomic/cgview.html>`_
+You can visualize the genome partition in a circular representation using CGView (see :ref:`cgview`).
 
 .. image:: img/panRGPpage1.PNG
 
