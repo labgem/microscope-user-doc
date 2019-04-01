@@ -48,8 +48,8 @@ In few cases, the correspondences may not have been established automatically be
 It can be caused by several types of issues when we try to make the correspondences:
 
 * **Ambiguous mapping**: Two (or more) genes/objects have the same stop codon but the identity between them is not good enough to report the annotation (the start codon is different). You have to check if the genes/objects are the same and decide to report the annotation or not, adjust the start or not ...
-* **multiple mapping**: Several objects on the old sequence matched the same genomic object on the new sequence. It happens if the objects are identical (same best BLAST possible match), you then have to chose which annotation to transfer to the object on the new sequence.
-* **Multiple mapping for new Object**: Several objects on the old sequence matched the same coordinates on the new sequence. If needed, you have to  `create <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#can-i-create-a-new-genomic-object>`_ the object on the new sequence then copy the annotation you wish to transfer...
+* **multiple mapping**: Several objects on the old sequence matched the same genomic object on the new sequence. It happens if the objects are identical (same best BLAST possible match), you then have to chose which annotation to transfer to the object on the new sequence (most of the time, it's duplicate gene on the previous sequence ie: transposase).
+* **Multiple mapping for new Object**: Several objects on the old sequence matched the same coordinates on the new sequence (with no object predict on this coordinates on the new sequence). If needed, you have to  `create <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#can-i-create-a-new-genomic-object>`_ the object on the new sequence then copy the annotation you wish to transfer...
 * **Area too fragmented**: The considered objects are too close to contig edge to perform the BLAST analysis with enought specificity.
 * **No mapping**: no significant hit on the new sequence.
 
