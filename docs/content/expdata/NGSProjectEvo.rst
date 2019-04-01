@@ -241,7 +241,7 @@ And to detect potential hot spots of mutations.
 How to use this tool?
 ---------------------
 
-This tool is based on the CGView (see :ref:`_cgview`).
+This tool is based on the CGView (see :ref:`cgview`).
 
 .. image:: img/evo11.png
 	:width: 100%
