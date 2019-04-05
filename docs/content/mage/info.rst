@@ -538,7 +538,6 @@ How to read the result table?
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
-* **Essentiality**: Indicates if this protein is essential for the organism or no
 * **PubMedId**: PubMed references linked to the annotation of the protein
 * **Locustag MG1655**: locus tag of the gene in the regulon of LeuO in E Coli K12 **(??)**
 * **Locustag W3110**: locus tag of the gene in the NarP regulon of E Coli K12 **(??)**
@@ -592,8 +591,46 @@ How to read the result table?
 * **BeginB**: Start of the alignment for the database protein
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
-* **Essentiality**: Indicates if this protein is essential for the organism or no
 * **PubMedId**: PubMed references linked to the annotation of the protein
+
+
+===============
+Essential genes
+===============
+
+This menu indicates BLAST hit for the current Genomic Object against the essential gene database for gene with "essential" status.
+
+This dataset come from `Database of Essential Genes (DEG) <http://www.essentialgene.org/>`_ . DEG hosts records of currently available essential genomic elements, such as protein-coding genes and non-coding RNAs, among bacteria, archaea and eukaryotes. Essential genes in a bacterium constitute a minimal genome, forming a set of functional modules, which play key roles in the emerging field, synthetic biology.
+DEG database has been improved with data from Acinetobacter baylyi ADP1 and Neisseria meningitidis 8013, two highly curated genome in MicroScope.
+
+**Reference**: `Hao Luo, Yan Lin, Feng Gao, Chun-Ting Zhang and Ren Zhang, (2014) DEG 10, an update of the Database of Essential Genes that includes both protein-coding genes and non-coding genomic elements. Nucleic Acids Research 42, D574-D580. <https://dx.doi.org/10.1093%2Fnar%2Fgkt1131>`_
+
+
+
+How to read the result table?
+-----------------------------
+
+* **Label**: Label of the protein in DEG
+* **Organism**: reference organism in DEG
+* **Gene**: Gene name of the protein in DEG
+* **PB id**: Uniprot ID of the database protein. If you click on this Id, you can access the Uniprot profile of the protein, giving you various informations about it
+* **Product**: Product description of the protein in DEG
+* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Ident%**: Percentage of identity between the studied protein and the database protein
+* **Eval**: E value of the BLAST result
+* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **Exp condition**: Experimental condition for essential characterization 
+* **PubMedId**: PubMed references linked to the annotation of the protein
+* **Source**: Source of the reference data (DEG or MicroScope)
+* **BeginQ**: Start of the alignment for the studied protein
+* **EndQ**: End of the alignment for the studied protein
+* **LengthQ**: Length of the studied protein
+* **BeginB**: Start of the alignment for the database protein
+* **EndB**: End of the alignment for the database protein
+* **LengthB**: Length of the database protein
+
 
 
 
