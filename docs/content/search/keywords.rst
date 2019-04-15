@@ -64,13 +64,6 @@ The common dataset are these ones:
 
 **Bacillus Subtilis**: will return BlastP/Synteny results of your selected sequence against SubtiList data which contains Bacillus Subtilis expert annotations.
 
-**E. coli essential genes (Gerdes, PEC, Keio)**: will return BlastP/Synteny results of your selected sequence against Escherichia Coli essential genes.
-
-**P. aeruginosa essential genes**: will return BlastP/Synteny results of your selected sequence against Putida Aeruginosa essential genes.
-
-**B. subtilis essential genes**: will return BlastP/Synteny results of your selected sequence against Bacillus Subtilis essential genes.
-
-
 **Relational tables of PkGDB**:
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
@@ -87,6 +80,7 @@ The common dataset are these ones:
 * **InterPro**: will return genes of your selected sequence matching InterPro entries
 * **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
 * **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
+* **Essential gene results**: will return genes of your selected sequence matching Essential gene entries
 * **PsortB Results**: will return genes of your selected sequence matching PSortB entries
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
 * **TMhmm Results**: will return genes of your selected sequence matching TMhmm entries
