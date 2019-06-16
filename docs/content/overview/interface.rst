@@ -100,8 +100,6 @@ Each result table provides buttons called *Copy* (1) and *CSV* (2).
 
 .. image:: img/copy.png
 
-.. warning:: Please note that these buttons need `Adobe Flash Player <https://get.adobe.com/fr/flashplayer/>`_ to be installed on your browser to work properly.
-
 
 * Using the *Copy* button will copy to clipboard each row of your result table in a tab-delimited text format
 
