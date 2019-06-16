@@ -212,6 +212,8 @@ Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.ni
 
 `Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`_
 
+.. _cgview:
+
 What is Circular Genome View?
 -----------------------------
 
@@ -220,3 +222,36 @@ What is Circular Genome View?
 **More**: http://wishart.biology.ualberta.ca/cgview/index.html
 
 **Reference**: `Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005 Feb 15;21(4):537-9 <http://www.ncbi.nlm.nih.gov/pubmed/15479716>`_
+
+.. Important::
+
+    Note that, since version 3.12.2, **MicroScope** uses a fork of the applet which allows to export images directly from the GUI.
+    The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
+    The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
+
+You can use the CG View toolbar to navigate into the circular map.
+
+.. image:: img/cgview.png
+
+From left to right, the buttons are:
+
+* Zoom out
+* Zoom in
+* View entire map
+* Move counterclockwise
+* Move clockwise
+* Show position in the status bar
+* Show help in the status bar
+* Export to file
+
+The `Legend` checkbox allows to show/hide the legend.
+The `Full view labels` checkbox allows to show/hide the labels when showing the entire map.
+
+If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
+
+.. Tip::
+    If the application doesn't work, it means that Java is not installed on your computer (get the latest version of java `here <https://www.java.com/>`_)
+
+.. Tip::
+    You must allow our software to run without certificate by adding https://www.genoscope.cns.fr/ to the exception list.
+    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
