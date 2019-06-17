@@ -26,7 +26,7 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 
 **More information about PPanGGOLiN is available** `here <https://github.com/ggautreau/PPanGGOLiN>`_.
 
-.. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains. Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ). 
+.. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains. Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ).
 
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
