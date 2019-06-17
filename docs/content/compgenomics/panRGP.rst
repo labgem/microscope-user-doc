@@ -1,3 +1,5 @@
+.. _panRGP:
+
 ##########################################
 Regions of Genomic Plasticity - panRGP
 ##########################################
@@ -29,7 +31,7 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
 
-A RGP is a region of a genome structurally not present in related others. RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.  
+A RGP is a region of a genome structurally not present in related others. RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.
 Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
 
 These regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).

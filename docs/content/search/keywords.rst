@@ -27,7 +27,7 @@ How to read the interface?
 * **Item #7**. Words you want to match (options: *All the words / At least one word / Exact phrase*).
 * **Item #7**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
 
-	
+
 * **The Multiple Mode**
 
 .. image:: img/search_by_keyword_multiple.PNG
@@ -60,9 +60,9 @@ The common dataset are these ones:
 
 **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
 
-**Escherichia Coli**: will return BlastP/Synteny results of your selected sequence against updated Escherichia Coli annotations.
+**Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
 
-**Bacillus Subtilis**: will return BlastP/Synteny results of your selected sequence against SubtiList data which contains Bacillus Subtilis expert annotations.
+**Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
 
 **Relational tables of PkGDB**:
 
@@ -92,7 +92,8 @@ The common dataset are these ones:
 * **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method
 * **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder
-* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gne cluster predicted by MacSyFinder
+* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder
+* **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`
 
 What are the Fields?
 --------------------
