@@ -16,7 +16,7 @@ You can consult CheckM results in the :ref:`genome-overview` page.
 
 .. figure:: img/genoclust-workflow.png
    :align: center
-		    
+
    Microscope Genome Cluster (MICGC) workflow.
 
 
@@ -88,7 +88,7 @@ Export
 By clicking on the "Export" button:
 
   - the tree can be exported in SVG or Newick format
-  - the distances can be exported in TSV format (as a matrix or as a pairwise list).
+  - the distances can be exported in TSV format (as a matrix or as a pairwise list)
 
 **Reference:**
 
