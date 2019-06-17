@@ -68,6 +68,8 @@ Tree Construction
 
 A tree is constructed from the Mash distance matrix. This tree is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
 
+This algorithm can assign a negative length to a branch.
+In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`_ for more information).
 
 Clustering Genomes
 ------------------
@@ -79,6 +81,14 @@ In order to construct these species clusters, we remove the pairwise genome dist
 From our test, we obtain better results to reconstruct `Progenome <http://progenomes.embl.de/>`_ species clusters with a threshold of 0.06 (*i.e.* :math:`\text{ANI} \geq 94\%`) for Mash distances, kmer size = 18 and sketch size = 5000.
 
 To detect the communities, we use the `louvain community detection algorithm <https://github.com/taynaud/python-louvain/>`_.
+
+Export
+------
+
+By clicking on the "Export" button:
+
+  - the tree can be exported in SVG or Newick format
+  - the distances can be exported in TSV format (as a matrix or as a pairwise list).
 
 **Reference:**
 
