@@ -539,8 +539,8 @@ How to read the result table?
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
 * **PubMedId**: PubMed references linked to the annotation of the protein
-* **Locustag MG1655**: locus tag of the gene in the regulon of LeuO in E Coli K12 **(??)**
-* **Locustag W3110**: locus tag of the gene in the NarP regulon of E Coli K12 **(??)**
+* **Locustag MG1655**: locus tag of the gene in the regulon of LeuO in E coli K12 **(??)**
+* **Locustag W3110**: locus tag of the gene in the NarP regulon of E coli K12 **(??)**
 * **Protein complex**: Indicates if the database protein is part of a protein complex
 * **Transporter classification**: If the database protein is a transporter, indicates the family this transporter is part of
 * **Transcription regulator family**: If the database protein is a transcription regulator, indicates the family this transcription regulator is part of
@@ -1242,10 +1242,10 @@ VirulenceDB is a virulence genes database build using three sets of data:
 
 •	The core dataset from VFDB (setA), which is composed of genes associated with experimentally verified virulence factors (VFs) for 53 bacterial species
 •	The VirulenceFinder dataset which includes virulence genes for Listeria, Staphylococcus aureus, Escherichia coli/Shigella and Enterococcus
-•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_ref).
+•	A manually curated dataset of reference virulence genes for Escherichia coli (Coli_Ref).
 
 The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
-New virulence factors have also been added to VirulenceFinder and Coli_ref database to describe as best as possible the gene functions.
+New virulence factors have also been added to VirulenceFinder and Coli_Ref database to describe as best as possible the gene functions.
 
 |
 
@@ -1284,7 +1284,7 @@ They are divided into 4 main classes as proposed by VFDB:
 •	Nonspecific virulence factors
 •	Regulation of virulence-associated genes
 
-A gene can be involved in many classes. For exemple, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
+A gene can be involved in many classes. For example, the gene kpsE (Capsule polysaccharide export inner-membrane protein KpsE) from E. coli can act both as an offensive virulence factor and a defensive virulence factor.
 
 So the VF classes corresponding is “Offensive virulence factors, Invasion, Defensive virulence factors, Antiphagocytosis“ which correspond to :
 
@@ -1297,7 +1297,7 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
   2.1 Antiphagocytosis
 
 You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
-	
+
 =============
 IntegronFinder
 =============

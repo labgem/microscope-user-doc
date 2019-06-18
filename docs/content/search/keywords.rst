@@ -39,7 +39,9 @@ What about the Dataset?
 
 The available dataset list is project-specific, even if the main part of dataset list is common to all projects. Each dataset corresponds to a specific type of data in our database, PkGDB.
 
-Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.). Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia Coli, Bacillus Subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMhmm results, etc.). In the last two cases, the functional annotation of the candidate genes may differ from that ones in the selected hit.
+Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.).
+Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia coli, Bacillus subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMhmm results, etc.).
+In the last two cases, the functional annotation of the candidate genes may differ from those in the selected hit.
 
 The use of a given dataset over another one will depend of the kind of data the annotator looks for.
 
