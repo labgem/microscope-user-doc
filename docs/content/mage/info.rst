@@ -359,7 +359,7 @@ Considering the Class field, here are some basic annotation rules:
 
 * Gene [not allowed]
 * Synonyms [not allowed]
-* Product **[putative function]**: 
+* Product **[putative function]**:
 * EC number [optional]
 * MetaCyc Reaction [optional]
 * PubMedId [optional]
@@ -384,8 +384,8 @@ Considering the Class field, here are some basic annotation rules:
 * Roles [optional]
 
 
-5 : Unknown function 
-----------------------------------------------------
+5 : Unknown function
+--------------------
 
 * Gene [not allowed]
 * Synonyms [not allowed]
@@ -413,9 +413,9 @@ This menu gives the beginning and the end of the gene sequence according to diff
 * **Begin**: give the leftmost beginning of the CDS according to the expert or automatic annotation
 * **End**: give the ending of the CDS according to the expert or automatic annotation
 * **AMIGene Start**: gives the start according to AMIGene
-* **AMIGene Lpcod**: gives the coding probability on the lenght End-Begin +1 according to AMIGene
-* **AMIGene Apcod**: gives the lenght End-AMstart +1 according to AMIGene
-* **Matrix**: gives the matrix number (see `Overview <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_)
+* **AMIGene Lpcod**: gives the coding probability on the length End-Begin +1 according to AMIGene
+* **AMIGene Apcod**: gives the length End-AMstart +1 according to AMIGene
+* **Matrix**: gives the matrix number (see :ref:`here <viewer_matrix>`)
 * **SHOW Begin**: gives the position of the first nucelic acid of the CDS according to SHOW
 * **SHOW End**: gives the position of the last nucelic acid of the CDS according to SHOW
 * **SHOW Proba** : gives the coding probability on the lenght End-SHOW begin +1 according to SHOW
@@ -431,7 +431,7 @@ Compositional features
 Gene compositional features
 ---------------------------
 
-This section gives the different compositional features of the studied gene, determined by ??.
+This section gives the different compositional features of the studied gene, determined by GenProtFeat.
 
 .. image:: img/gene.png
 
@@ -448,7 +448,7 @@ This section gives the different compositional features of the studied gene, det
 Protein compositional features
 ------------------------------
 
-*In progress*
+This section gives the different compositional features of the studied gene, determined by GenProtFeat.
 
 .. image:: img/protein.png
 
@@ -484,12 +484,12 @@ How to read the result table?
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Gene**: Gene name of the protein
 * **Product**: Product description of the protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -528,12 +528,12 @@ How to read the result table?
 * **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
 * **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
 * **Localization**: Cellular localisation of the protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -581,12 +581,12 @@ How to read the result table?
 * **BioProcess**: Functional categories associated with the protein using the **BioProcess** Functional classification
 * **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
 * **Localization**: Cellular localisation of the protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -617,12 +617,12 @@ How to read the result table?
 * **Gene**: Gene name of the protein in DEG
 * **PB id**: Uniprot ID of the database protein. If you click on this Id, you can access the Uniprot profile of the protein, giving you various informations about it
 * **Product**: Product description of the protein in DEG
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **Exp condition**: Experimental condition for essential characterization 
 * **PubMedId**: PubMed references linked to the annotation of the protein
 * **Source**: Source of the reference data (DEG or MicroScope)
@@ -654,12 +654,12 @@ How to read the result table?
 * **Evidence**: Status of the annotation.
 * **Gene**: Gene name of the genomic object
 * **Product**: Product description of the protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB** : see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB** : see :ref:`BLAST results <expert_blast_results>`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -685,12 +685,12 @@ How to read the result table?
 * **Organism**: Organism name. If you click on the name, you access to the sequences on the NCBI website
 * **Gene**: Gene name of the protein
 * **Product**: Product description of the protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **Roles**: Functional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
 * **Localization**: Cellular localisation of the protein
@@ -731,12 +731,12 @@ How to read the result table
 * **Label**: Label of the database protein. If you click on the label, you can access the Gene annotation window (Syntonome) or to the corresponding NCBI entry (Syntonome RefSeq)
 * **Gene**: Gene name of the database protein
 * **Product**: Product description of the database protein
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **BeginQ**: Start of the alignment for the studied protein
 * **EndQ**: End of the alignment for the studied protein
 * **LengthQ**: Length of the studied protein
@@ -773,12 +773,12 @@ How to read SwissProt and TrEMBL results?
 
 * **PB id**: Uniprot ID of the database protein. If you click on this Id, you can access the Uniprot profile of the protein, giving you various informations about it.
 * **Exp**: Indicates if there is PubMed references for the database protein. If there is at least one article, the mention "IPMed?" is written in this column.
-* **maxLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **minLrap**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
+* **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **ident%**: Percentage of identity between the studied protein and the database protein
 * **Eval**: E value of the BLAST result
-* **OrderQ**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
-* **OrderB**: see `BLAST results <http://microscope.readthedocs.org/en/latest/content/overview/expert.html#blast-results>`_
+* **OrderQ**: see :ref:`BLAST results <expert_blast_results>`
+* **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **Gene**: Gene name of the database protein
 * **Description**: Product description of the database protein
 * **EC Number**: gives the EC number (if any)
