@@ -250,7 +250,6 @@ This functional classification corresponds to the MultiFun classification which 
 This field is optionally filled in during the expert annotation process.
 
 
-
 How to use the "PubmedID" field?
 --------------------------------
 
@@ -264,7 +263,7 @@ If this field is filled you will have a direct access to the publications on Pub
 
 
 How to use the "Additional data" field?
---------------------------------
+---------------------------------------
 
 The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
 
@@ -997,14 +996,14 @@ The member databases use a number of approaches:
 * `PROFILE <http://prosite.expasy.org/>`_ and `HAMAP <http://hamap.expasy.org/cgi-bin/unirule/unirule_browse.cgi?browse=description&context=HAMAP>`_: provide sequence matrices.
 * `PRINTS <http://130.88.97.239/dbbrowser/sprint/>`_ provider of fingerprints, which are groups of aligned, un-weighted Position Specific Sequence Matrices (PSSMs).
 * `PANTHER <http://www.pantherdb.org/>`_, `PIRSF <http://pir.georgetown.edu/>`_,  `PFAM <http://pfam.xfam.org/>`_, `SMART <http://smart.embl-heidelberg.de/>`_, `TIGRFAMs <http://www.jcvi.org/cgi-bin/tigrfams/index.cgi>`_, `GENE3D <http://www.cathdb.info/>`_ and `SSF <http://supfam.org/SUPERFAMILY/>`_ (SUPERFAMILY): providers of hidden Markov models (HMMs). 
-* `CDD <https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml>`_ Conserved Domains and Protein Classification 
+* `CDD <https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd.shtml>`_ Conserved Domains and Protein Classification
 * `SFLD <http://sfld.rbvi.ucsf.edu/django/>`_ A hierarchical classification of enzymes that relates specific sequence-structure features to specific chemical capabilities
 
 
 Diagnostically, these resources have different areas of optimum application owing to the different underlying analysis methods. In terms of family coverage, the protein signature databases are similar in size but differ in content. While all of the methods share a common interest in protein sequence classification, some focus on divergent domains (e.g., Pfam), some focus on functional sites (e.g., PROSITE), and others focus on families, specialising in hierarchical definitions from superfamily down to subfamily levels in order to pin-point specific functions (e.g., PRINTS). TIGRFAMs focus on building HMMs for functionally equivalent proteins and PIRSF always produces HMMs over the full length of a protein and have protein length restrictions to gather family members. `HAMAP`_ profiles are manually created by expert curators they identify proteins that are part of well-conserved bacterial, archaeal and plastid-encoded proteins families or subfamilies. PANTHER build HMMs based on the divergence of function within families. SUPERFAMILY and Gene3D are based on structure using the SCOP and CATH superfamilies, respectively, as a basis for building HMMs.
 
 How to read InterProScan results?
---------------------------------
+---------------------------------
 
 .. image:: img/inter.png
 
@@ -1019,15 +1018,12 @@ How to read InterProScan results?
 * **IP description**: Description of the InterPro family
 * **IP GO**: Gene Ontology terms associated with the InterPro family
 
-
-
-
 =======
 SignalP
 =======
 
-What is SignalP ?
------------------
+What is SignalP?
+----------------
 
 SignalP (version 4.1) predicts the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms: Gram-positive prokaryotes, Gram-negative prokaryotes, and eukaryotes. The method incorporates a prediction of cleavage sites and a signal peptide/non-signal peptide prediction based on a combination of several artificial neural networks and hidden Markov models.
 
@@ -1037,7 +1033,7 @@ Reference:
 
 
 How to read SignalP results?
----------------------------
+----------------------------
 
 .. image:: img/signal.png
 
@@ -1046,8 +1042,6 @@ How to read SignalP results?
 * The last 2 columns indicate the positions between which the cleavage is supposed to occur.
 
 .. tip:: A signal peptide has a average size of 30 aa.
-
-
 
 =====
 TMhmm
@@ -1068,7 +1062,7 @@ TMHMM (version 2.0c) is a program for the prediction of transmembrane helices ba
 
 
 How to read TMhmm results?
--------------------------
+--------------------------
 
 .. image:: img/tmhmm.png
 
@@ -1154,6 +1148,7 @@ Citation:
 How to read LipoP results:
 
 .. image:: img/lipoP.PNG
+
 Type: type of the signal peptide (SPI or SPII)
 Score: detection score
 Margin: difference between the best and the second best score.
@@ -1274,11 +1269,7 @@ How to read the table of results?
 •	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
 •	Result interpretation: Score from Blast, E-value, orderQ (rank of the BLAST hit for the protein of the query genome) and orderB (rank of the BLAST hit for the protein of the virulence database).
 
-|
-
-**Additionnal information on VF classes:**
-
-|
+**Additional information on VF classes:**
 
 They are divided into 4 main classes as proposed by VFDB:
 
@@ -1301,13 +1292,12 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
 
 You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
 
-=============
+==============
 IntegronFinder
-=============
-
+==============
 
 What is IntegronFinder?
--------------------------------------------------------
+-----------------------
 
 IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
 This tool also annotates gene casettes however we use our own annotations to make it run.
@@ -1339,10 +1329,10 @@ How to explore Integron clusters?
 --------------------------------------------------------
 
 The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
-	
-==========
+
+===========
 MacSyFinder
-==========
+===========
 
 
 What is MacSyFinder?
