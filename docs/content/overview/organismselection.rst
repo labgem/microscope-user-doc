@@ -19,11 +19,11 @@ Since version 3.13.0, **MicroScope** use an internally developed organism select
 Different kind of selector
 ===========================
 
-There are two kind of complexes selector in the plateform for selection of **Genomes** or selection of **Sequence**.  
+There are two kind of complex selectors in the plateform for selection of **Genomes** or selection of **Sequence**.  
 
-Selection of **Genomes** mean you are going to select the entire organism including all the replicon.  
+Selection of **Genomes** means you are going to select the entire organism including all the replicon.  
 
-Selection of **Sequence** mean you are going to select the replicon you want to work on.  
+Selection of **Sequence** means you are going to select the replicon you want to work on.  
 
 According to the tool you are willing to use, you may be asked to use one of the selector. They both work the same way and have to be use like describe bellow.
 
@@ -38,7 +38,7 @@ You can now select your organism(s) by writing the organism name in the **search
 Select them by cliking on their name in the **pre-selection zone** (first selection zone) and 
 use the green arrow to transfer them in the **selection zone** (second selection zone).
 You may add more genome to the **selection zone** using the same mechanism, or remove some of them using the red button.
-When satisfied by the orgnism list in the **selection zone**, you can use the for your analysis by clicking ont "Save".
+When satisfied by the organism list in the **selection zone**, you can use them for your analysis by clicking ont "Save".
 
 =================
 Step by Step use
@@ -50,7 +50,7 @@ Once the selector is open, you have to find the organism(s) you are interested i
 Pre-selection
 =================
 
-The **pre-selection zone** allow you to see all organisms accessible of the plateform and make filter on them before selecting them.
+The **pre-selection zone** allows you to see all organisms accessible of the plateform and make filter on them before selecting them.
 
 How the **search field** works ?
 ------------------------------------
@@ -113,9 +113,9 @@ What is it for ?
 ------------------------------------
 
 The **selection zone** is there to allow you to see all the selected organisms for the analysis.
-You can remove some of them by moving the mouse with the button down and pressing the red button th remove them from the **selection zone**. If the active filter allow them, they will appear in the **pre-selection zone**.  
+You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **selection zone**. If the active filter allow them, they will appear in the **pre-selection zone**.  
 
-When you are satified with your selection, press the save button to continu the analysis.
+When you are satisfied with your selection, press the save button to continu the analysis.
 
 What is "Advance filter" ?
 ------------------------------------
@@ -132,9 +132,9 @@ This button cancels all the changes done in the current selector (*i.e* the list
 
 Reset functionality
 ------------------------------------
-The reser button will change both zones (**selection zone** and **pre-selection zone**) to their initial value (*i.e* when the page was opened).
+The reset button will change both zones (**selection zone** and **pre-selection zone**) to their initial value (*i.e* when the page was opened).
 
 Save functionality
 ------------------------------------
 
-Allow the save of your organisms/sequences list for further analysis.
+This button allows the save of your organisms/sequences list for further analysis.
