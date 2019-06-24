@@ -3,12 +3,12 @@
 ===================
 
 
-This interface allows the user to select a set of genomes and display a tree that group them by genomic similarity.
+This interface allows the user to select a set of genomes and display a tree that groups them by genomic similarity.
 The tree is constructed from the pairwise distances (see `Pairwise Genome Distance and ANI`_) between the selected genomes using a neighbor joining algorithm (see `Tree Construction`_).
 
 Moreover, the genomes are grouped in "species cluster" according to the pairwise distance (see `Clustering Genomes`_).
 Those clusters are called MicroScope Genome Cluster (MICGC for short).
-The interface also display the cluster to which the organism belong.
+The interface also displays the cluster to which the organism belong.
 
 Note that genomes for which CheckM detected more than 5% contamination or less than 90% completeness are not assigned to MICGC clusters.
 Such genomes will however appear in the organism selector and are displayed in black in the tree.
@@ -50,10 +50,13 @@ Contaminated or incomplete genomes (not associated to MICGC clusters) are displa
 Pairwise Genome Distance and ANI
 --------------------------------
 
-In order to quickly calculate the pairwise genome distance, we use Mash. Mash extends the MinHash dimensionality-reduction technique to include a pairwise mutation distance and a statistical significance test. Mash distance strongly correlates with the Average Nucleotide Identity (ANI). If :math:`D` denotes the Mash distance then :math:`D \simeq 1 - \text{ANI}`.
+In order to quickly calculate the pairwise genome distance, we use Mash. Mash extends the MinHash dimensionality-reduction technique to include a pairwise mutation distance and a statistical significance test.
+Mash distance strongly correlates with the Average Nucleotide Identity (ANI).
+If :math:`D` denotes the Mash distance then :math:`D \simeq 1 - \text{ANI}`.
 
 
-ANI represents the average nucleotide identity between homologous genomic regions shared by two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI). It closely reflect the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}` ).
+ANI represents the average nucleotide identity between homologous genomic regions shared by two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI).
+It closely reflects the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}`).
 
 To know now more about Mash, see `here <https://github.com/marbl/Mash>`_.
 
