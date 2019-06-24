@@ -106,7 +106,7 @@ To select you organisms, move the mouse with the button down on the wanted organ
 	* You can select the group of organism by double clicking on the bold tittle inside the **pre-selection zone**.
 
 ===================
-selection zone
+Selection zone
 ===================
 
 What is it for ?
@@ -122,9 +122,9 @@ What is "Advance filter" ?
 
 This part allow you to make filter in the **selection zone** to remove more efficiently organisms. It works exactly the same as the first **search field**.
 
-===================
-other parts
-===================
+=======================
+Other functionalities
+=======================
 
 Cancel functionality
 ------------------------------------
