@@ -1,3 +1,5 @@
+.. _genecarts:
+
 ##########
 Gene Carts
 ##########

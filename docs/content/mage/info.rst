@@ -1,3 +1,5 @@
+.. _mage:
+
 ######################
 Gene annotation editor
 ######################
@@ -64,6 +66,7 @@ As shown in the figure below, not all fields can be modified by the annotator. F
 
 .. tip:: If one of the required field is missing or wrongly filled a warning will appear in the window.
 
+.. _mage_status:
 
 What are the different annotation "Status"?
 ---------------------------------------------
@@ -265,7 +268,7 @@ How to use the "Additional data" field?
 
 The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
 
-
+.. _mage_class_field:
 
 How to use the "Class" field?
 -----------------------------
