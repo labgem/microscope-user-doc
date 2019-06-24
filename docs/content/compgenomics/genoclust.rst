@@ -81,7 +81,8 @@ Typically, two bacteria belong to the same species when :math:`\text{ANI} \geq 9
 
 In order to construct these species clusters, we remove the pairwise genome distances that don't match this ANI threshold. Then we extract communities from that network.
 
-From our test, we obtain better results to reconstruct `Progenome <http://progenomes.embl.de/>`_ species clusters with a threshold of 0.06 (*i.e.* :math:`\text{ANI} \geq 94\%`) for Mash distances, kmer size = 18 and sketch size = 5000.
+From our tests, the best parameters to reconstruct `Progenome <http://progenomes.embl.de/>`_ species clusters are a threshold of 0.06 for Mash distances  (*i.e.* :math:`\text{ANI} \geq 94\%`), kmer size = 18 and sketch size = 5000.
+We use those parameters.
 
 To detect the communities, we use the `louvain community detection algorithm <https://github.com/taynaud/python-louvain/>`_.
 
