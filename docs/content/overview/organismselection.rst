@@ -38,7 +38,7 @@ You can now select your organism(s) by writing the organism name in the **search
 Select them by cliking on their name in the **pre-selection zone** (first selection zone) and 
 use the green arrow to transfer them in the **selection zone** (second selection zone).
 You may add more genome to the **selection zone** using the same mechanism, or remove some of them using the red button.
-When satisfied by the organism list in the **selection zone**, you can use them for your analysis by clicking ont "Save".
+When satisfied by the organism list in the **selection zone**, you can use them for your analysis by clicking on "Save".
 
 =================
 Step by Step use
