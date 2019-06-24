@@ -5,7 +5,7 @@ Genome Browser
 ##############
 
 ==============================
-Overview of the Genome Browser 
+Overview of the Genome Browser
 ==============================
 
 Organisation of the genomic map
@@ -53,7 +53,7 @@ There are different ways to select a specific gene:
 
 * From right click on a gene or synteny and use **Center** option
 
-* From result tables: 
+* From result tables:
 
 .. image:: img/imgintermediaire.png
 	:width: 10%
@@ -84,7 +84,7 @@ How to access the annotation history of a genomic object ?
 
 .. image:: img/historic.PNG
 
-Click on the **History icon** in located the table of genomic objects or in the Gene Annotation Editor window toolbar. 
+Click on the **History icon** in located the table of genomic objects or in the Gene Annotation Editor window toolbar.
 The history opens in a new window, allowing you to follow the annotation’s evolution as well as the identity of previous annotators. You can send an email to an annotator by clicking on his/her login name.
 
 .. image:: img/gene_history.png
@@ -92,14 +92,14 @@ The history opens in a new window, allowing you to follow the annotation’s evo
 How to use the "Export to Gene Cart" button ?
 ---------------------------------------------
 
-The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart. 
-If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data. 
-You can access to your gene carts via the `Gene Cart Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ .
+The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart.
+If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data.
+You can access to your gene carts via the :ref:`Gene Cart Interface <gencarts>`.
 
 Can I create a new genomic object ?
 -----------------------------------
 
-The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a pop-up will open, you have to choose the type of object you want to create, then the Genomic Object Editor window opens. 
+The **NEW** button located below the genomic map allows you to create a new genomic object. If you click on the button, a pop-up will open, you have to choose the type of object you want to create, then the Genomic Object Editor window opens.
 You have to manually fill in all fields to create your new object. You have to specify its Begin, End, Frame, Mutation, Product, ... Then click on **SAVE**.
 
 * Please note that you can’t delete a genomic object from the database.
@@ -116,7 +116,7 @@ How to read the table of annotated genomic objects ?
 * **Length**: length of the genomic object, in nucleotides
 * **Frame**: reading frame of the genomic object
 * **Product**: description of the gene product of the genomic object
-* **Matrix**: reference number for the matrix which has been used to predict the genomic object (see below)
+* **Matrix**: reference number for the matrix which has been used to predict the genomic object (see :ref:`viewer_matrix`)
 * **Evidence**: automatic/validated/artefact // inprogress/finished/curated
 * **AmiGene Status**: no/Wrong/New
 * **GC content**: GC content of the sequence of the genomic object
@@ -162,7 +162,7 @@ If you click on a repeat region label, you obtain the detailed list of the repea
 .. _viewer_synteny:
 
 =========
-Syntenies 
+Syntenies
 =========
 
 What is a synteny ?
@@ -189,8 +189,8 @@ What is a synteny ?
 What are the different display modes for syntenies vizualisation?
 -----------------------------------------------------------------
 
-Two modes are available for the representation of the syntenies : 
-(1)A representation by pairs of genomes from PkGDB database and from NCBI databank. 
+Two modes are available for the representation of the syntenies :
+(1)A representation by pairs of genomes from PkGDB database and from NCBI databank.
 (2)A representation with species grouped by taxonomy.
 
 How to switch from a mode to another one?
