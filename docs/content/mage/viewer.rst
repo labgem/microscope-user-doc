@@ -1,3 +1,5 @@
+.. _viewer:
+
 ##############
 Genome Browser
 ##############
@@ -62,6 +64,7 @@ There are different ways to select a specific gene:
 
 After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding gene and the gene area will be highlight.
 
+.. _viewer_matrix:
 
 What is the Matrix ?
 --------------------
@@ -156,7 +159,7 @@ If you click on a repeat region label, you obtain the detailed list of the repea
 * **Length2**: Length of the second unit in bp
 * **Ident%**: Identity percentage between the 2 repeat units
 
-
+.. _viewer_synteny:
 
 =========
 Syntenies 
