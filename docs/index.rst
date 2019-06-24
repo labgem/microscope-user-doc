@@ -19,7 +19,8 @@ MicroScope Platform Overview
    content/overview/technical
    content/overview/login
    content/overview/latestnews
-
+   content/overview/organismselection
+   
 ====
 MaGe
 ====
