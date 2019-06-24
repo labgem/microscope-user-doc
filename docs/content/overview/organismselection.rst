@@ -112,9 +112,15 @@ selection zone
 What is it for ?
 ------------------------------------
 
+The **selection zone** is there to allow you to see all the selected organisms for the analysis.
+You can remove some of them by moving the mouse with the button down and pressing the red button th remove them from the **selection zone**. If the active filter allow them, they will appear in the **pre-selection zone**.  
+
+When you are satified with your selection, press the save button to continu the analysis.
 
 What is "Advance filter" ?
 ------------------------------------
+
+This part allow you to make filter in the **selection zone** to remove more efficiently organisms. It works exactly the same as the first **search field**.
 
 ===================
 other parts
@@ -122,7 +128,13 @@ other parts
 
 Cancel functionality
 ------------------------------------
+This button cancels all the changes done in the current selector (*i.e* the list of selected organims is not changed).
+
 Reset functionality
 ------------------------------------
+The reser button will change both zones (**selection zone** and **pre-selection zone**) to their initial value (*i.e* when the page was opened).
+
 Save functionality
 ------------------------------------
+
+Allow the save of your organisms/sequences list for further analysis.
