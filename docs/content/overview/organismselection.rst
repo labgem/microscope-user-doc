@@ -71,7 +71,7 @@ Writing in the **search field**, will bring suggestions to you. These suggestion
 What are the filters ?
 ------------------------------------
 
-Using one of the suggestion will allow you to make filter, which is usefull to pre-select the organisms you will want to work on. Making a filter will put all the organisms following it in the **pre-selection zone**. You can add several filter to improve the accuracy of your pre-selection.
+Using one of the suggestion will allow you to make filter, which is usefull to pre-select the organisms you will want to work on. Making a filter will put all the organisms following it in the **pre-selection zone**. You can add several filters to improve the accuracy of your pre-selection.
 
 .. image:: img/selector_filter.PNG
 
@@ -88,11 +88,11 @@ You can change the display output of the **pre-selection zone** (and **selection
 
 .. image:: img/selector_display.PNG
 
-The display by "species" with "Acinetobacter" filter active group all pre-selected organism by species.
+The display by "species" with "Acinetobacter" filter active will group all pre-selected organism by species.
 
 .. image:: img/selector_display2.PNG
 
-The display by "genus" with "Acinetobacter" filter active show all the 32 organisms in one single group.
+The display by "genus" with "Acinetobacter" filter active will show all the 32 organisms in one single group.
 
 
 How to select my organisms of interest ?
@@ -115,7 +115,7 @@ What is it for ?
 The **selection zone** is there to allow you to see all the selected organisms for the analysis.
 You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **selection zone**. If the active filter allow them, they will appear in the **pre-selection zone**.  
 
-When you are satisfied with your selection, press the save button to continu the analysis.
+When you are satisfied with your selection, press the save button to continue the analysis.
 
 What is "Advance filter" ?
 ------------------------------------
