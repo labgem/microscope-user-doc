@@ -47,7 +47,10 @@ Contaminated or incomplete genomes (not associated to MICGC clusters) are displa
 
 .. _micgc:
 
-.. image:: img/genoclust-modif.png
+.. figure:: img/genoclust-modif.png
+   :align: center
+
+   MICGC and Tree.
 
 Pairwise Genome Distance and ANI
 --------------------------------
