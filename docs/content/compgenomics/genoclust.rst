@@ -60,7 +60,7 @@ If :math:`D` denotes the Mash distance then :math:`D \simeq 1 - \text{ANI}`.
 ANI represents the average nucleotide identity between homologous genomic regions shared by two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI).
 It closely reflects the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}`).
 
-To know now more about Mash, see `here <https://github.com/marbl/Mash>`_.
+To know now more about Mash, see `here <https://github.com/marbl/Mash>`__.
 
 **Reference:**
 
@@ -74,7 +74,7 @@ Tree Construction
 A tree is constructed from the Mash distance matrix. This tree is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
 
 This algorithm can assign a negative length to a branch.
-In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`_ for more information).
+In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`__ for more information).
 
 Clustering Genomes
 ------------------
