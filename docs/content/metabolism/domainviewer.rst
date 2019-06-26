@@ -1,3 +1,5 @@
+.. _domainviewer:
+
 ###############################
 AntiSMASH cluster visualization
 ###############################
@@ -5,8 +7,7 @@ AntiSMASH cluster visualization
 What is antiSMASH?
 ------------------
 
-Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#antismash>`_ about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`_
-
+Know  :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`_
 
 
 How can I visualize the clusters predicted by antiSMASH?
@@ -18,20 +19,20 @@ You can also use the main navigation menu in the **Metabolism** section to obtai
 This page enumerates all secondary metabolite clusters detected for the selected organism and its replicons.
 
 
-What informations are in this window?
+What information are in this window?
 --------------------------------------------------------
 This window allows you to visualize the antiSMASH cluster predictions and its genomic context.
 
-The boxes in the middle of the viewer (on the blue line) represent the predicted domains of the predicted secondary metabolite genes.  
-The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element'). 'misc_feature' object will appear at the bottom of the viewer. 
+The boxes in the middle of the viewer (on the blue line) represent the predicted domains of the predicted secondary metabolite genes.
+The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element'). 'misc_feature' object will appear at the bottom of the viewer.
 
-All the boxes in the **viewer** can be mouse over to obtain summarized informations about them. The genomic object data are also described in the **Genomic Objects** table below. 
+All the boxes in the **viewer** can be mouse over to obtain summarized informations about them. The genomic object data are also described in the **Genomic Objects** table below.
 
 In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well, if this composition is specific enough, the smile prediction and its visualization are displayed.
 
-Cluster Prediction: classical antiSMASH prediction, it corresponds to the Cluster core coordinates with an extention.
+Cluster Prediction: classical antiSMASH prediction, it corresponds to the Cluster core coordinates with an extension.
 
-Cluster Border: Improved prediction of gene cluster boundaries using `ClusterFinder algorithm <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123684/>`_ These estimations are based on frequencies of locally encoded protein domains detected by Pfam (based on these being either more or less BGC-like). 
+Cluster Border: Improved prediction of gene cluster boundaries using `ClusterFinder algorithm <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123684/>`_ These estimations are based on frequencies of locally encoded protein domains detected by Pfam (based on these being either more or less BGC-like).
 
 Cluster Core: cluster coordinates correspond to the "main" genes used for characterization of secondary metabolite.
 
@@ -43,7 +44,7 @@ Cluster Core: cluster coordinates correspond to the "main" genes used for charac
 |
 |
 
-Thanks to `http://www.simolecule.com/cdkdepict/depict.html <http://www.simolecule.com/cdkdepict/depict.html>`_ for Picture's displays 
+Thanks to `simolecule <http://www.simolecule.com/cdkdepict/depict.html>`_ for Picture's displays.
 
 |
 |
@@ -61,7 +62,7 @@ The **MIBiG Clusters Similarities** table provides information about similar kno
 |
 
 
-The **Genomic Objects** table provides informations regarding the genomic objects depicted in the graphical representation.
+The **Genomic Objects** table provides information regarding the genomic objects depicted in the graphical representation.
 
 .. image:: img/antiSMASH4_Feature.PNG
 
@@ -69,12 +70,12 @@ The **Genomic Objects** table provides informations regarding the genomic object
 |
 
 
-The **Tailoring Clusters Similarities** table provides informations about genes which may be involved in tailoring reactions. By clicking on the number, you can access to the Pubmed related publication.
+The **Tailoring Clusters Similarities** table provides information about genes which may be involved in tailoring reactions. By clicking on the number, you can access to the Pubmed related publication.
 
-* The 6 first columns help to know more about the predict tailoring clusters. 
+* The 6 first columns help to know more about the predict tailoring clusters.
 * *Label* column gives the MicroScope gene label.
-* *TC protein id* , *TC gene name* and *Protein description* give informations about genes which compose the tailoring cluster.
-* *% identity*, *Coverage* and *e-values* give some mathematical informations about the match between tailoring gene and MicroScope one.
+* *TC protein id* , *TC gene name* and *Protein description* give information about genes which compose the tailoring cluster.
+* *% identity*, *Coverage* and *e-values* give some mathematical information about the match between tailoring gene and MicroScope one.
 
 
 .. image:: img/antiSMASH3_Tailoringcluster.PNG

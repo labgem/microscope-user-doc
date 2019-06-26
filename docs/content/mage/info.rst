@@ -1070,6 +1070,9 @@ The table of results indicates the begin and end positions of detected alpha-hel
 
 .. tip:: As protein can be called « membranar » if it contains more than 3 alpha-helices.
 
+
+.. _mage_antiSMASH:
+
 =========
 AntiSMASH
 =========
