@@ -1,3 +1,5 @@
+.. _rnaseq_Overview:
+
 ###############
 RNAseq Overview
 ###############
@@ -10,15 +12,15 @@ RNA-Seq homepage displays the list of available projects.
 
 .. image:: img/over1.png
 
-By Clicking on the arrow available on the left of each project, user can expand the associated experiment(s). 
-Users can choose to select the whole project or pick up one specific experiment by using radio buttons. 
+By Clicking on the arrow available on the left of each project, user can expand the associated experiment(s).
+Users can choose to select the whole project or pick up one specific experiment by using radio buttons.
 
-Selecting a whole project will allow the user to use `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseq.html#integrative-genomics-browser>`_ tool (IGV - http://www.broadinstitute.org/igv/), whereas choosing a specific experiment will open the access to more functionalities:
+Selecting a whole project will allow the user to use :ref:`Integrative Genomics Viewer <rnaseq_IGV>` tool, whereas choosing a specific experiment will open the access to more functionalities:
 
 * Overview tool (**Item #1**)
-* `Read Count Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqReadCountAnalysis.html>`_  (**Item #2**)
-* `Differential Expression Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqDiffExprAnalysis.html>`_  (**Item #3**)
-* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqIGV.html>`_ (**Item #4**)
+* :ref:`Read Count Analysis <rnaseq_ReadCountAnalysis>` (**Item #2**)
+* :ref:`Differential Expression Analysis <rnaseq_DiffExprAnalysis>` (**Item #3**)
+* :ref:`Integrative Genomics Viewer <rnaseq_IGV>` (**Item #4**)
 
 
 Overviewing RNA-Seq experiments results

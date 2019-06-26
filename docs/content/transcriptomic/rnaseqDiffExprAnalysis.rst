@@ -1,3 +1,5 @@
+.. _rnaseq_DiffExprAnalysis:
+
 #######################################
 RNASeq Differential Expression Analysis
 #######################################

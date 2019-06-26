@@ -1,3 +1,5 @@
+.. _rnaseq_ReadCountAnalysis:
+
 ##########################
 RNAseq Read Count Analysis
 ##########################
