@@ -1,6 +1,5 @@
-
 #####################
-Secondary metabolites 
+Secondary metabolites
 #####################
 
 What are secondary metabolites?
@@ -19,26 +18,26 @@ Know  `more <https://microscope.readthedocs.io/en/latest/content/mage/info.html#
 
 
 How to access to the secondary metabolites gene clusters predicted by antiSMASH?
------------------------------------------------
+--------------------------------------------------------------------------------
 
 Secondary metabolites gene clusters predictions are available through the **Metabolism** section, in the main navigation menu.
 
 
 What is the "Predicted secondary metabolite clusters"  table?
-------------------
+-------------------------------------------------------------
 
 This table enumerates all secondary metabolite clusters predicted for the selected organism and its replicons.Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 
-.. image:: img/antiSMASH._prediction.PNG 
+.. image:: img/antiSMASH._prediction.PNG
 
 
 
 What is the "Adjusted cluster coordinates"  table?
-------------------
+--------------------------------------------------
 
 This table enumerates all secondary metabolite clusters alternative coordinates predicted for the selected organism and its replicons.
 
-.. image:: img/antiSMASH_alternative_coord.PNG 
+.. image:: img/antiSMASH_alternative_coord.PNG
 
 
 Cluster Prediction: classical antiSMASH prediction, it corresponds to the Cluster core coordinates with an extention.
@@ -48,7 +47,7 @@ Cluster Border: Improved prediction of gene cluster boundaries using `ClusterFin
 Cluster Core: cluster coordinates correspond to the "main" genes used for characterization of secondary metabolite.
 
 How to explore a secondary metabolite cluster?
----------------------------------------
+----------------------------------------------
 
 The `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_ 
 can be accessed by clicking on any cluster number in the **Cluster** field.

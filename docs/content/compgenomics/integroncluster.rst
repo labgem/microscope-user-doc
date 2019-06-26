@@ -1,6 +1,6 @@
-##########
+###################################
 How to explore an Integron cluster?
-##########
+###################################
 
 The IntegronFinder cluster visualization window  allows you to access to a detailled description of the integron structure.
 

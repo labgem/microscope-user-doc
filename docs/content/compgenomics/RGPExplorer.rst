@@ -1,6 +1,6 @@
-##########
+######################
 How to explore an RGP?
-##########
+######################
 
 The RGP visualization page allows you to access a detailed description of the RGP composition.
 
