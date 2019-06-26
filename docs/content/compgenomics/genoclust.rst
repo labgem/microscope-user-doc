@@ -45,6 +45,8 @@ Next to each organism, the name of the MICGC cluster is displayed.
 The user can click on the species cluster to get more information (in this example, the user selected the cluster `MICGC13`).
 Contaminated or incomplete genomes (not associated to MICGC clusters) are displayed in black in the tree.
 
+.. _micgc:
+
 .. image:: img/genoclust-modif.png
 
 Pairwise Genome Distance and ANI
