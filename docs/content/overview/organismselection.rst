@@ -1,20 +1,34 @@
 .. _selector:
 
-##################
-Organism Selector
-##################
+###############################
+Sequence and Organism selectors
+###############################
 
-Since version 3.13.0, **MicroScope** use an internally developed organism selector.
+Since version 3.13.0, **MicroScope** the selection of sequences and genomes is based on a new selector
+which allows efficient selection in large lists, selection based on several criteria and suggestions.
 
-There are two kinds of complex selectors in the platform for selection of **Genomes** or selection of **Sequence**.
-
-Selection of **Genomes** means that you are going to select the entire organism including all the replicon.
+Selection of **Genome** means that you are going to select the entire organism including all the replicons.
 
 Selection of **Sequence** means that you are going to select the replicon you want to work on.
 
-According to the tool you are willing to use, you may be asked to use one of the selector.
-They both work the same way and have to be use like described below.
+There are two kinds of selectors in the platform:
 
+  - the :ref:`simple-selector` used to select a single genome.
+  - the :ref:`multiple-selector` used to select several sequences or genomes based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
+
+According to the tool you are willing to use, you may be asked to use one of the selector.
+
+.. _simple-selector:
+
+---------------
+Simple Selector
+---------------
+
+.. _multiple-selector:
+
+----------------
+Multiple Selector
+----------------
 
 Overview
 ========
