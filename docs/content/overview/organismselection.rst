@@ -20,15 +20,15 @@ According to the tool you are willing to use, you may be asked to use one of the
 
 .. _simple-selector:
 
----------------
+***************
 Simple Selector
----------------
+***************
 
 .. _multiple-selector:
 
-----------------
+*****************
 Multiple Selector
-----------------
+*****************
 
 Overview
 ========
@@ -135,7 +135,7 @@ This part allow you to make filter in the **selection zone** to remove more effi
 It works exactly the same as the first **search field**.
 
 Other features
-===============
+--------------
 
 **Cancel** button
 ~~~~~~~~~~~~~~~~~
