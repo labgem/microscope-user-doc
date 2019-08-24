@@ -5,10 +5,11 @@ Sequence and Organism selectors
 ###############################
 
 Since version 3.13.0, **MicroScope** the selection of sequences and genomes is based on a new selector
-which allows efficient selection in large lists, selection based on several criteria and suggestions.
+that has been designed to allow interactive and efficient selection of several sequences or genomes
+in large lists.
+It features selection based on several criteria and suggestions.
 
-Selection of **Genome** means that you are going to select the entire organism including all the replicons.
-
+In this section, selection of **Genome** means that you are going to select the entire organism including all the replicons.
 Selection of **Sequence** means that you are going to select the replicon you want to work on.
 
 There are two kinds of selectors in the platform:
