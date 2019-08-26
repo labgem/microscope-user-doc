@@ -31,7 +31,7 @@ The fields:
 
 can be use to filter blast result.   
 
-This form use the advanced organism selector to select the reference organisms.
+This form uses the advanced organism selector to select the reference organisms.
 See :ref:`here <advanced-selector>` for help on how to use it.
 
 .. image:: img/blast.png
@@ -65,7 +65,7 @@ Examples :
 
   * **ATTCCAGATC**: this pattern describes all sequences which contain the subsequence 'ATTCCAGATC'.
 
-This form use the simple organism selector to select the reference organism.
+This form uses the simple organism selector to select the reference organism.
 See :ref:`here <simple-selector>` for help on how to use it.
 
 .. image:: img/pattern.png
