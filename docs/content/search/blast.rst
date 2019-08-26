@@ -8,9 +8,9 @@ The Basic Local Alignment Search Tool finds regions of local similarity between 
 
 .. _blast_searches:
 
-########################
+**************
 Blast Searches
-########################
+**************
 
 We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement. All query must be in fasta format.
 
@@ -39,9 +39,9 @@ See :ref:`here <advanced-selector>` for help on how to use it.
 
 .. _pattern_searches:
 
-########################
+****************
 Pattern Searches
-########################
+****************
 
 We use `EMBOSS <http://emboss.sourceforge.net/apps/>`_ tools to run pattern search (fuzznuc and fuzzpro). 
 
