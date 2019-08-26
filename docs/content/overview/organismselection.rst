@@ -1,8 +1,8 @@
 .. _selector:
 
-###############################
-Sequence and Organism selectors
-###############################
+#############################
+Sequence and Genome selection
+#############################
 
 Since version 3.13.0, **MicroScope** the selection of sequences and genomes is based on a new selector
 that has been designed to allow interactive and efficient selection of several sequences or genomes
@@ -12,11 +12,7 @@ It features selection based on several criteria and suggestions.
 In this section, selection of **Genome** means that you are going to select the entire organism including all the replicons.
 Selection of **Sequence** means that you are going to select the replicon you want to work on.
 
-There are two kinds of selectors in the platform:
-
-  - the :ref:`simple-selector` used to select a single genome.
-  - the :ref:`multiple-selector` used to select several sequences or genomes based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
-
+There are two kinds of selectors in the platform which are described in the following sections.
 According to the tool you are willing to use, you may be asked to use one of the selector.
 
 .. _simple-selector:
@@ -25,11 +21,25 @@ According to the tool you are willing to use, you may be asked to use one of the
 Simple Selector
 ***************
 
-.. _multiple-selector:
+This selector is used to select a single genome based on the strain name.
+It's similar to the old genome selector in MicroScope but offers suggestion.
+
+This selector is used for instance in the following pages:
+
+  - :ref:`pattern_searches`
+
+.. _advanced-selector:
 
 *****************
-Multiple Selector
+Advanced Selector
 *****************
+
+This selector is used to select one or several sequences or genomes based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
+
+This selector is used for instance in the following pages:
+
+  - :ref:`phyloprofile`
+  - :ref:`blast_searches`
 
 Overview
 ========
