@@ -65,4 +65,7 @@ Examples :
 
   * **ATTCCAGATC**: this pattern describes all sequences which contain the subsequence 'ATTCCAGATC'.
 
-.. image:: img/pattern.PNG
+This form use the simple organism selector to select the reference organism.
+See :ref:`here <simple-selector>` for help on how to use it.
+
+.. image:: img/pattern.png
