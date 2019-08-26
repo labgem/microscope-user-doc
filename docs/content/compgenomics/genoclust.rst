@@ -1,3 +1,5 @@
+.. _genoclust:
+
 ===================
  Genome Clustering
 ===================
@@ -25,21 +27,15 @@ Interface Overview
 ------------------
 
 Below is a screenshot of the genome selection interface.
-It allows to select organisms according to the NCBI taxonomy, by strain name or by MICGC cluster.
-The upper list is the list of all the available organisms in MicroScope.
-The lower list is the list of currently selected organisms that will be used for the tree.
-The user can add organisms or remove organisms in the lower list using the green and red arrows.
 
-.. image:: img/organism-selector-1.png
+.. image:: img/genoclust-interface.png
 
-Both list are searchable.
-For each criteria, the user can choose exact matching or partial matching and can use several criteria to refine the search.
-In this example, the user searched MicroScope organisms in the `Actinobactearia` phylum and whose strain name contains `bifi`.
+The first part uses the advanced genome selector to select the organisms on which the tree will be computed.
+See :ref:`here <advanced-selector>` for help on how to use this selector.
 
-.. image:: img/organism-selector-2.png
+Next by clicking "Save and Run", the tree is computed and displayed under **Results**.
 
-Next by clicking "Save and Run", the tree is computed.
-Below is a screenshot of the tree obtained with those organisms.
+Below is a screenshot of a tree.
 The user can navigate within the tree.
 Next to each organism, the name of the MICGC cluster is displayed.
 The user can click on the species cluster to get more information (in this example, the user selected the cluster `MICGC13`).
