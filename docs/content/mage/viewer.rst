@@ -51,19 +51,23 @@ There is a contextual menu in the genome browser, you may obtain different optio
 .. image:: img/BG_overview2bis.png
 
 Right click on a genomic object:
+
 * Open: open the gene annotation editor
 * Center: the Genome Browser will be reloaded and centered around the corresponding object.
 * Zoom: the Genome Browser will be reloaded and centered around the corresponding object and the browser length will adapt.
 * Getseq: extract the sequence of the select object.
 
 Right click on an area:
+
 * New: allow you to annotate a new object
 
 Right click on a selected area:
+
 * Pathways: find into KEGG pathway prediction the object in the considerate area 
 * New: allow you to annotate a new object
 
 Right click on a synteny:
+
 * Open: open the synteny window
 * GeneInfo: open the gene information page
 * MoveTo: the Genome Browser will be reloaded and centered around the corresponding object in the new selected sequence and the browser length will adapt.
