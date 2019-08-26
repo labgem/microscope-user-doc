@@ -88,6 +88,9 @@ The form is composed of two organism lists:
 * In the left-hand list, at least two genomes to analyze must be selected.
 * In the **optional** right-hand list, one or several genomes can be selected. In this case, the component of these organisms to exclude must be chosen (*at least two "excluded genomes" must be selected for the core and variable components*). 
 
+This form uses complex organism selectors to select the organisms of interest.
+See :ref:`here <simple-selector>` for help on how to use this selectors.
+
 MICFAM parameters must be selected according to the desired confidence level.
 
 And the pan/core-genome evolution (boxplots) can be disabled with the checkbox (faster computation with many organisms).
