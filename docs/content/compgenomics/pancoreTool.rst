@@ -89,7 +89,7 @@ The form is composed of two organism lists:
 * In the **optional** right-hand list, one or several genomes can be selected. In this case, the component of these organisms to exclude must be chosen (*at least two "excluded genomes" must be selected for the core and variable components*). 
 
 This form uses complex organism selectors to select the organisms of interest.
-See :ref:`here <simple-selector>` for help on how to use this selectors.
+See :ref:`here <simple-selector>` for help on how to use this selector.
 
 MICFAM parameters must be selected according to the desired confidence level.
 
