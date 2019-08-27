@@ -57,6 +57,8 @@
     <image
        sodipodi:absref="/home/mdubois/Code/microscope-user-doc/docs/content/search/img/search_by_keyword_base.png"
        xlink:href="search_by_keyword_base.png"
+       inkscape:export-ydpi="96"
+       inkscape:export-xdpi="96"
        width="258.57199"
        height="240.03"
        preserveAspectRatio="none"
@@ -70,48 +72,62 @@
        width="191.09772"
        height="12.561667"
        x="35.546848"
-       y="49.764942" />
+       y="49.764942"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#b3a2c7;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect826-6"
        width="25.320557"
        height="12.758884"
        x="52.478943"
-       y="64.2379" />
+       y="64.2379"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#fac090;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect826-64"
        width="50.804428"
        height="73.522339"
        x="-19.105267"
-       y="99.169304" />
+       y="99.169304"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#ffff04;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect826-64-9"
        width="25.978188"
        height="74.0867"
        x="34.020103"
-       y="99.169304" />
+       y="99.169304"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#c7c7c7;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect826-64-5"
        width="55.963345"
        height="17.559998"
        x="62.517197"
-       y="99.169304" />
+       y="99.169304"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <rect
        style="fill:none;fill-opacity:1;stroke:#948a54;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect826-64-5-0"
        width="22.023077"
        height="9.5448742"
        x="61.585793"
-       y="163.18198" />
+       y="163.18198"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#953735;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="159.77342"
        y="201.224"
-       id="text932"><tspan
+       id="text932"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan930"
          x="159.77342"
@@ -123,16 +139,22 @@
        cx="163.15939"
        cy="197.44501"
        rx="8.0180855"
-       ry="7.7508163" />
+       ry="7.7508163"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#00b050;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path936-8"
        cx="163.15939"
        cy="179.66869"
        rx="8.0180855"
-       ry="7.7508163" />
+       ry="7.7508163"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
     <g
-       id="g1058">
+       id="g1058"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -142,7 +164,9 @@
          style="fill:none;fill-opacity:1;stroke:#558ed5;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
-       id="g1078">
+       id="g1078"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -163,7 +187,9 @@
            sodipodi:role="line">5</tspan></text>
     </g>
     <g
-       id="g1073">
+       id="g1073"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -184,7 +210,9 @@
            sodipodi:role="line">4</tspan></text>
     </g>
     <g
-       id="g1068">
+       id="g1068"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -205,7 +233,9 @@
            sodipodi:role="line">3</tspan></text>
     </g>
     <g
-       id="g1063">
+       id="g1063"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -230,14 +260,18 @@
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6498d9;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="45.717857"
        y="44.2789"
-       id="text932-7"><tspan
+       id="text932-7"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan930-11"
          x="45.717857"
          y="44.2789"
          style="fill:#6498d9;fill-opacity:1;stroke-width:0.26458332">1</tspan></text>
     <g
-       id="g1083">
+       id="g1083"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
       <ellipse
          ry="7.7508163"
          rx="8.0180855"
@@ -262,7 +296,9 @@
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00b050;fill-opacity:1;stroke:none;stroke-width:0.26458332;stroke-opacity:0"
        x="159.97717"
        y="183.08026"
-       id="text932-8"><tspan
+       id="text932-8"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
          sodipodi:role="line"
          id="tspan930-6"
          x="159.97717"
