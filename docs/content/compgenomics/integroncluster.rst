@@ -1,3 +1,5 @@
+.. _integron-cluster-vizualization:
+
 ###################################
 How to explore an Integron cluster?
 ###################################

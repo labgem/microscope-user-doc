@@ -1,3 +1,5 @@
+.. _card:
+
 ######################
 Resistome
 ######################
@@ -7,8 +9,10 @@ What is CARD?
 
 The CARD is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models at McMaster University.
 
-Know  more about `CARD <https://card.mcmaster.ca/home>`_
+Learn more about CARD `here <https://card.mcmaster.ca/home>`_.
 
+.. Don't use CARD as the name since that would make
+   a duplicate with the label.
 
 **References:** 
 

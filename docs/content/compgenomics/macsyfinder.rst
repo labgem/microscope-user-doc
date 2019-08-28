@@ -1,5 +1,7 @@
+.. _macsyfinder:
+
 ######################
-Macromolecular Systems 
+Macromolecular Systems
 ######################
 
 What is MacSyFinder?
@@ -7,8 +9,10 @@ What is MacSyFinder?
 
 Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
 
-Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
+Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_.
 
+.. Don't use MacSyFinder as the name since that would make
+   a duplicate with the label.
 
 **Reference:** 
 
@@ -56,4 +60,4 @@ This table enumerates all macromolecular systems predicted for the selected orga
 How to explore a Macromolecular System?
 --------------------------------------------------------
 
-The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macsyfinder_system.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.

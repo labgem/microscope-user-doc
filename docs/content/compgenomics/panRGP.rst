@@ -7,7 +7,7 @@ Regions of Genomic Plasticity - panRGP
 What is PPanGGOLiN ?
 -------------------------------------------------------
 
-The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software.  PPanGGOLiN computes pangenomes for each `MicroScope Genome Cluster <https://microscope.readthedocs.io/en/latest/content/compgenomics/genoclust.html>`_  (MICGC correspond to clusters of genomes from the same species) (A). It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from `MICFAM <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html#how-the-analysis-is-computed>`_ computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software.  PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <micgc>`  (MICGC correspond to clusters of genomes from the same species) (A). It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from :ref:`MICFAM <pancore-analysis>` computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
 
 
 **Pangenome Graph Partitions:**
@@ -26,7 +26,7 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 
 **More information about PPanGGOLiN is available** `here <https://github.com/ggautreau/PPanGGOLiN>`_.
 
-.. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains. Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see `Genome Overview <https://microscope.readthedocs.io/en/latest/content/genomic/overview.html>`_ ).
+.. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains. Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see :ref:`Genome Overview <genome-overview>`).
 
 What is a Region of Genomic Plasticity (RGP) ?
 -------------------------------------------------------
@@ -75,7 +75,7 @@ You can visualize the genome partition in a circular representation using CGView
 
 .. image:: img/panRGPpage1.PNG
 
-The "Strict pan-genome components" table represents a summary of the `exact core-variable analysis <https://microscope.readthedocs.io/en/latest/content/compgenomics/pancoreTool.html>`_
+The "Strict pan-genome components" table represents a summary of the :ref:`exact core-variable analysis <pancore>`.
 
 The "PPanGGOLiN pan-genome components" table gives the number of genes and MICFAM families for each PPanGGOLiN partition.
 
@@ -89,13 +89,13 @@ Finally, the "Regions of Genomic Plasticity" table gives you an overview of all 
 
 For each RGP, the number of genes predicted by other methods is indicated:
 
- - Resistance genes: Antibiotic resistance prediction using `CARD method <https://microscope.readthedocs.io/en/latest/content/compgenomics/card.html>`_
- - Virulence genes: `Virulence prediction <https://microscope.readthedocs.io/en/latest/content/compgenomics/virulence.html>`_
- - Biosythetic gene clusters: `AntiSMASH Prediction <https://microscope.readthedocs.io/en/latest/content/metabolism/antismash.html>`_
- - Macromolecular systems: `MacSyFinder Prediction <https://microscope.readthedocs.io/en/latest/content/compgenomics/macsyfinder.html>`_
- - Integrons: `IntegronFinder Prediction <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron.html>`_
+ - Resistance genes: Antibiotic resistance prediction using :ref:`CARD method <card>`
+ - Virulence genes: :ref:`Virulence prediction <virulence>`
+ - Biosythetic gene clusters: :ref:`AntiSMASH Prediction <antiSMASH>`
+ - Macromolecular systems: :ref:`MacSyFinder Prediction <macsyfinder>`
+ - Integrons: :ref:`IntegronFinder Prediction <integron>`
 
 How to explore panRGP ?
 --------------------------------------------------------
 
-The `RGP visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/RGPExplorer.html>`_ window can be accessed by clicking on any RGP number in the RGP id field. This window allows you to access to a detailed description of the RGP.
+The :ref:`RGP visualization <rgpexplorer>` window can be accessed by clicking on any RGP number in the RGP id field. This window allows you to access to a detailed description of the RGP.

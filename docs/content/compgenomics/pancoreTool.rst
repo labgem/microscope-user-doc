@@ -1,3 +1,5 @@
+.. _pancore:
+
 ###############
 Pan/Core Genome
 ###############
@@ -30,6 +32,8 @@ This tool allows the users to :
 * Determine the common and variable genome proportion for each genome
 * Extract core-genome, variable-genome and strain specific sequences and annotations.
 
+
+.. _pancore-analysis:
 
 How the analysis is computed?
 -----------------------------
