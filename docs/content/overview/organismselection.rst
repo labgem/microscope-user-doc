@@ -85,44 +85,72 @@ The selector opens as shown below:
 
 .. image:: img/selector_partname.png
 
-You can now select your organism(s) by writing the organism name in the **search field**.
-Select them by clicking on their name in the **pre-selection zone** (first selection zone) and
-use the green arrow to transfer them in the **selection zone** (second selection zone).
-You may add more genome to the **selection zone** using the same mechanism, or remove some of them using the red button.
-When satisfied by the organism list in the **selection zone**, you can use them for your analysis by clicking on "Save".
+The window is divided in 5 parts:
+
+  - the **Search Field** is used to create filters on the list of objects from the data source
+  - the **Pre-selection Zone** is used to select objects among the objects that match the filters
+  - the **Selection Zone** shows the list of currently selected objects
+  - the **Add/Remove buttons** allows to transfer objects between the Pre-selection Zone and the Selection Zone
+
+The general usage of the selectors is as follows.
+You can use the **Search Field** to filters the list of all objects from the
+data source (see :ref:`search-field` for detailled explanation on this).
+The **Pre-selection Zone** will display the objects that match the filters.
+You can then select objects from this list and add them to the **Selection Zone** with the green arrow.
+
+If you want to remove objects from the **Selection Zone**, select them and use the red arrow.
+See :ref:`selection-zone` to learn more about the **Selection Zone** (including the use of filters in it).
+
+You can use the **Pre-selection Zone** several times with different filters.
+This allows to create arbitrarily complicated selections.
+
+When satisfied with the list in the **Selection Zone**, click on **Save**.
+The selection window will close and you will return to the page you are interested in
+for further analysis.
+
+The **Reset** button will revert both zones (**Selection Zone** and **Pre-selection Zone**)
+to their initial value (*i.e.* when the page was opened).
+The selection window stays open so you can restart the selection.
+
+The **Cancel** button button cancels all the changes done in the current selector
+(*i.e* the list of selected organisms is not changed) and closes the selection window.
 
 Step by Step use
-=================
+================
 
-Once the selector is open, you have to find the organism(s) you are interested in by using the **search field**
+Once the selector is open, you have to find the object(s) you are interested in by using the **Search Field**
 
-Pre-selection
--------------
+.. _preselection-zone:
 
-The **pre-selection zone** allows you to see all organisms accessible of the platform and make filter on them before selecting them.
+Pre-selection Zone
+------------------
+
+The **Pre-selection Zone** allows you to see all objects and filters them before selecting.
+
+.. _search-field:
 
 How the **search field** works ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Writing in the **search field**, will bring suggestions to you.
+Writing in the **Search Field**, will bring suggestions to you.
 These suggestions can be changed by using the drop down menu on the left:
 
-* - *Strain name*/*Sequence* filters by name of organism/sequence
+* *Strain name*/*Sequence* filters by name of organism/sequence
 
 .. image:: img/selector_search.PNG
 
-* - *Taxonomy* filters by taxonomic information
+* *Taxonomy* filters by taxonomic information
 
 .. image:: img/selector_search2.PNG
 
-* - *MICGC* allows to select an entire :ref:`MICGC <micgc>` (organism group)
+* *MICGC* allows to select an entire :ref:`MICGC <micgc>` (organism group)
 
 
 What are the filters ?
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Using one of the suggestion will allow you to make filter, which is useful to pre-select the organisms you will want to work on.
-Making a filter will put all the organisms following it in the **pre-selection zone**.
+Making a filter will put all the organisms following it in the **Pre-selection Zone**.
 You can add several filters to improve the accuracy of your pre-selection.
 
 .. image:: img/selector_filter.PNG
@@ -136,7 +164,7 @@ We add to the "Acinetobacter" filter an other filter call "bauma" in order to se
 What is the display menu?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-You can change the display output of the **pre-selection zone** (and **selection zone**) by changing the value of the display drop down menu (top right of the screen).
+You can change the display output of the **pre-selection zone** (and **Selection Zone**) by changing the value of the display drop down menu (top right of the screen).
 
 .. image:: img/selector_display.PNG
 
@@ -150,46 +178,31 @@ The display by "genus" with "Acinetobacter" filter active will show all the 32 o
 How to select my organisms of interest?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-To select you organisms, move the mouse with the button down on the wanted organisms in the **pre-selection zone** (shift + click works too).
-Then press the green button to put them in the **selection zone**.
+To select you organisms, move the mouse with the button down on the wanted organisms in the **Pre-selection Zone** (shift + click works too).
+Then press the green button to put them in the **Selection Zone**.
 
 
 .. tip::
 	* You can make your own filter by pressing *enter* at any time in the **search field**.
-	* You can select the group of organism by double clicking on the bold tittle inside the **pre-selection zone**.
+	* You can select the group of organism by double clicking on the bold tittle inside the **Pre-selection Zone**.
 
-Selection zone
+.. _selection-zone:
+
+Selection Zone
 --------------
 
 What is it for?
 ~~~~~~~~~~~~~~~
 
-The **selection zone** is there to allow you to see all the selected organisms for the analysis.
-You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **selection zone**.
-If the active filter allow them, they will appear in the **pre-selection zone**.
+The **Selection Zone** is there to allow you to see all the selected organisms for the analysis.
+You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **Selection Zone**.
+If the active filter allow them, they will appear in the **Pre-selection Zone**.
 
 When you are satisfied with your selection, press the save button to continue the analysis.
 
 What is "Advanced filter"?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-This part allow you to make filter in the **selection zone** to remove more efficiently organisms.
+This part allow you to make filter in the **Selection Zone** to remove more efficiently organisms.
 It works exactly the same as the first **search field**.
 
-Other features
---------------
-
-**Cancel** button
-~~~~~~~~~~~~~~~~~
-
-This button cancels all the changes done in the current selector (*i.e* the list of selected organisms is not changed).
-
-**Reset** button
-~~~~~~~~~~~~~~~~
-
-The reset button will change both zones (**selection zone** and **pre-selection zone**) to their initial value (*i.e.* when the page was opened).
-
-**Save** button
-~~~~~~~~~~~~~~~
-
-This button allows the save the list of organisms/sequences for further analysis.
