@@ -1,18 +1,29 @@
-###################################################
-Regions of Genomic Plasticity - RGP Finder 
-###################################################
+.. _rgpfinder:
 
-This interface allows the user to search for potentially horizontally transferred genes (HGT) which are gathered in genomic regions (Region of Genomic Plasticity). Basically, an RGP is a region of a genome structurally not present in related other(s). The RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains. Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
+##########################################
+Regions of Genomic Plasticity - RGP Finder
+##########################################
 
-RGP finder method is mainly a comparative method. Algorithm first starts with identification of synteny breaks (at least 5kb) between a query genome and other close ones from the our database, the RGPs.
+This interface allows the user to search for potentially horizontally transferred genes (HGT) which are gathered in genomic regions (Region of Genomic Plasticity).
+Basically, an RGP is a region of a genome structurally not present in related other(s).
+The RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains. Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
 
-Then it ’scan’ RGPs for well known HGT features (tRNA hotspot, mobility genes) to help characterize them. In addition, two compositional methods are also used to capture other kinds of signals of the query sequence. AlienHunter (Vernikos and Parkhill, 2006) and SIGI-HMM (Waack et al., 2006). GC deviation is also compute. Consensus regions between comparative and compositional results can be viewed and explored.
+RGP finder method is mainly a comparative method.
+Algorithm first starts with identification of synteny breaks (at least 5kb) between a query genome and other close ones from the our database, the RGPs.
 
-AlienHunter : An Interpolated Variable Order Motif (IVOM) exploits compositional biases using variable order motif distributions (2mer to 8mer). The tool is launched with it’s default values and results are stored in databases for each query genome.
+Then it "scan" RGPs for well known HGT features (tRNA hotspot, mobility genes) to help characterize them.
+In addition, two compositional methods are also used to capture other kinds of signals of the query sequence.
+AlienHunter (Vernikos and Parkhill, 2006) and SIGI-HMM (Waack et al., 2006).
+GC deviation is also computed.
+Consensus regions between comparative and compositional results can be viewed and explored.
 
-SIGI-HMM : SIGI-HMM is a sequence composition method that is part of the Columbo package. This method uses a Hidden MArkov Model (HMM) and measures codon usage to identify possible Genomic Islands (GIs).
+AlienHunter : An Interpolated Variable Order Motif (IVOM) exploits compositional biases using variable order motif distributions (2mer to 8mer).
+The tool is launched with it’s default values and results are stored in databases for each query genome.
 
-We associate an IVOM or a SIGI-HMM region region with a RGP if these regions overlap themselves over at least 50% of the smallest one.
+SIGI-HMM : SIGI-HMM is a sequence composition method that is part of the Columbo package.
+This method uses a Hidden Markov Model (HMM) and measures codon usage to identify possible Genomic Islands (GIs).
+
+We associate an IVOM or a SIGI-HMM region with a RGP if these regions overlap themselves over at least 50% of the smallest one.
 
 Then the graphical interfaces associated to this tool are useful to explore in detail the predicted regions, using also the comparative genomic context available in MaGe.
 
