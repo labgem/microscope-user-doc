@@ -24,9 +24,33 @@ Simple Selector
 This selector is used to select a single genome based on the strain name.
 It's similar to the old genome selector in MicroScope but offers suggestion.
 
-This selector is used for instance in the following pages:
+This selector is used in the homepage to select the reference genome
+and more generally in pages where you must select a reference genome (e.g. :ref:`lineplot`).
+
+It is also used for instance in the following pages:
 
   - :ref:`pattern_searches`
+
+When the page opens, the selector is displayed like this (it may take some time to load):
+
+.. image:: img/simple_selector.png
+
+To select an organism, type in some characters of its strain name.
+A list of organisms matching this characters will open.
+From this list, you can select the organism you want.
+
+For example, if you type "esche", the following list will open:
+
+.. image:: img/simple_selector_esche.png
+
+Note that the search is case-insensitive.
+
+Also you can type any character (not just the beginning).
+For example, if you type "k12", the following list will open:
+
+.. image:: img/simple_selector_k12.png
+
+Note that the exact appearance of this selector may depend on the page.
 
 .. _advanced-selector:
 
