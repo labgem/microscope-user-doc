@@ -11,9 +11,15 @@ It features selection based on several criteria and suggestions.
 
 In this section, selection of **Genome** means that you are going to select the entire organism including all the replicons.
 Selection of **Sequence** means that you are going to select the replicon you want to work on.
+When talking indistinctively of genomes or sequence, we use the term *object*.
 
-There are two kinds of selectors in the platform which are described in the following sections.
-According to the tool you are willing to use, you may be asked to use one of the selector.
+Sequences and genomes come either from **MicroScope** (PkGDB) or from **NCBI RefSeq**.
+
+There are two kinds of selectors in the platform (the :ref:`simple-selector` and the :ref:`advanced-selector`) which are described in the following sections.
+Generally speaking a page use either a simple selector or 1 or 2 advanced ones.
+However, some pages use several selectors (of any type), from **PkGDB** or **NCBI RefSeq**.
+For instance, the :ref:`keywords` page use a simple selector in single mode and
+an advanced selector in multiple mode.
 
 .. _simple-selector:
 
