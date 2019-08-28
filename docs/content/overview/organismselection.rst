@@ -87,18 +87,27 @@ The selector opens as shown below:
 
 The window is divided in 5 parts:
 
-  - the **Search Field** is used to create filters on the list of objects from the data source
+  - the **Search Criterion** and **Search Field** are used to create filters on the list of objects from the data source; see :ref:`search-field-filters` for detailled explanation on those fields
   - the **Pre-selection Zone** is used to select objects among the objects that match the filters
   - the **Selection Zone** shows the list of currently selected objects
   - the **Add/Remove buttons** allows to transfer objects between the Pre-selection Zone and the Selection Zone
 
 The general usage of the selectors is as follows.
-You can use the **Search Field** to filters the list of all objects from the
-data source (see :ref:`search-field` for detailled explanation on this).
-The **Pre-selection Zone** will display the objects that match the filters.
-You can then select objects from this list and add them to the **Selection Zone** with the green arrow.
+You can use the **Search Criterion** and **Search Field** to filter
+the list of all objects from the data source.
 
-If you want to remove objects from the **Selection Zone**, select them and use the red arrow.
+Filters can be constructed from:
+
+ * the *Strain name* when selecting a genome or the *sequence* name when selecting a sequence
+ * the *Taxonomy* of the organism
+ * the *MICGC* to which the organism belong (see :ref:`MICGC <micgc>`)
+
+See :ref:`search-field-filters` for detailled explanation on filters.
+
+The **Pre-selection Zone** will display the objects that match the filters.
+You can then select objects from this list and add them to the **Selection Zone** with the **Add Button** (green arrow).
+
+If you want to remove objects from the **Selection Zone**, select them and use the **Remove Button** (red arrow).
 See :ref:`selection-zone` to learn more about the **Selection Zone** (including the use of filters in it).
 
 You can use the **Pre-selection Zone** several times with different filters.
@@ -115,56 +124,85 @@ The selection window stays open so you can restart the selection.
 The **Cancel** button button cancels all the changes done in the current selector
 (*i.e* the list of selected organisms is not changed) and closes the selection window.
 
-Step by Step use
-================
+Example
+=======
 
-Once the selector is open, you have to find the object(s) you are interested in by using the **Search Field**
+In this example, will we show how to select some organisms from the phylum Actinobacteria
+and whose strain name contains some characters.
 
-.. _preselection-zone:
-
-Pre-selection Zone
+Select by taxonomy
 ------------------
 
-The **Pre-selection Zone** allows you to see all objects and filters them before selecting.
+The first step is to filter organisms in the Actinobacteria phylum.
+To do so, opens the selector and select *Taxonomy* in the **Search Criterion**.
+Then type "actinobacteria" in the **Search Field**.
+You will notice that suggestions are shown as you type.
 
-.. _search-field:
+.. image:: img/advanced-selector-select-actinobacteria.png
 
-How the **search field** works ?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The filters are shown in the drop down list.
+In taxonomy mode, the filters can operate on any taxonomic level.
+Click on "Actinobacteria".
 
-Writing in the **Search Field**, will bring suggestions to you.
-These suggestions can be changed by using the drop down menu on the left:
+The list of all organisms in the Actinobacteria phylum is then in the **Pre-selection Zone**. 
+
+.. image:: img/advanced-selector-list-actinobacteria-genus.png
+
+Note that the filter and the number of organisms filtered appear on the interface.
+In this example, we have specified the phylum exactly.
+Hence the filter is "phylum is 'Actinobacteria'".
+See :ref:`filters` for more detailled explanations.
+
+By default, organisms are grouped by Genus.
+Use the "Display by" menu to group by phylum.
+
+.. image:: img/advanced-selector-list-actinobacteria-phylum.png
+
+Select by strain name
+---------------------
+
+TODO
+
+Detailled description
+=====================
+
+.. _search-field-filters:
+
+The search field and the filters
+--------------------------------
+
+The **Search Criterion** allows to choose on which aspect you want to filter.
+Typing in the **Search Field**, will bring suggestions.
 
 * *Strain name*/*Sequence* filters by name of organism/sequence
 
-.. image:: img/selector_search.PNG
+  .. image:: img/selector_search.PNG
 
 * *Taxonomy* filters by taxonomic information
 
-.. image:: img/selector_search2.PNG
+  .. image:: img/selector_search2.PNG
 
-* *MICGC* allows to select an entire :ref:`MICGC <micgc>` (organism group)
+Those suggestion are in fact filters.
+There are 2 kinds of filters:
 
+  - partial filter (shown in red in the image below): the genus must contain "Acinetobacter"
+  - exact filter (shown in green in the image below): the genus must be exactly "Acinetobacter"
 
-What are the filters ?
-~~~~~~~~~~~~~~~~~~~~~~
+Pressing *enter* at any time in the **Search Field** creates partial filter.
 
-Using one of the suggestion will allow you to make filter, which is useful to pre-select the organisms you will want to work on.
-Making a filter will put all the organisms following it in the **Pre-selection Zone**.
+.. image:: img/advanced_selector_search.png
+
+Clicking on a filter will add it.
+
 You can add several filters to improve the accuracy of your pre-selection.
 
-.. image:: img/selector_filter.PNG
-
-Here, we pre-select all the "Acinetobacter" and find 32 organisms.
-
-.. image:: img/selector_filter2.PNG
-
-We add to the "Acinetobacter" filter an other filter call "bauma" in order to select all the baumannii inside the Acinetobacter group. We pre-select 16 organisms.
+To remove a filter, click on the little "x" next to its name.
 
 What is the display menu?
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
-You can change the display output of the **pre-selection zone** (and **Selection Zone**) by changing the value of the display drop down menu (top right of the screen).
+By default, objects in the **Pre-selection Zone** and **Selection Zone** are grouped bu genus.
+You can change this by changing the value of the display drop down menu.
 
 .. image:: img/selector_display.PNG
 
@@ -174,25 +212,20 @@ The display by "species" with "Acinetobacter" filter active will group all pre-s
 
 The display by "genus" with "Acinetobacter" filter active will show all the 32 organisms in one single group.
 
-
 How to select my organisms of interest?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 To select you organisms, move the mouse with the button down on the wanted organisms in the **Pre-selection Zone** (shift + click works too).
 Then press the green button to put them in the **Selection Zone**.
 
 
 .. tip::
-	* You can make your own filter by pressing *enter* at any time in the **search field**.
-	* You can select the group of organism by double clicking on the bold tittle inside the **Pre-selection Zone**.
+   You can select the group of organism by double clicking on the bold tittle inside the **Pre-selection Zone**.
 
 .. _selection-zone:
 
 Selection Zone
 --------------
-
-What is it for?
-~~~~~~~~~~~~~~~
 
 The **Selection Zone** is there to allow you to see all the selected organisms for the analysis.
 You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **Selection Zone**.
@@ -201,8 +234,7 @@ If the active filter allow them, they will appear in the **Pre-selection Zone**.
 When you are satisfied with your selection, press the save button to continue the analysis.
 
 What is "Advanced filter"?
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------
 
 This part allow you to make filter in the **Selection Zone** to remove more efficiently organisms.
 It works exactly the same as the first **search field**.
-
