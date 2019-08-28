@@ -87,7 +87,7 @@ The selector opens as shown below:
 
 The window is divided in 5 parts:
 
-  - the **Search Criterion** and **Search Field** are used to create filters on the list of objects from the data source; see :ref:`search-field-filters` for detailled explanation on those fields
+  - the **Search Criterion** and **Search Field** are used to create filters on the list of objects from the data source; see :ref:`search-field-filters` for detailed explanation on those fields
   - the **Pre-selection Zone** is used to select objects among the objects that match the filters
   - the **Selection Zone** shows the list of currently selected objects
   - the **Add/Remove buttons** allows to transfer objects between the Pre-selection Zone and the Selection Zone
@@ -161,10 +161,31 @@ Use the "Display by" menu to group by phylum.
 Select by strain name
 ---------------------
 
-TODO
+We will now select organisms whose strain name contains "bifi".
+To do so, select "Strain" in the **Search Criterion** and type "bifi" in the **Search Field**.
 
-Detailled description
-=====================
+.. image:: img/advanced-selector-select-bifi.png
+
+The list of organisms that match both filters is displayed:
+
+.. image:: img/advanced-selector-list-bifi.png
+
+Final selection
+---------------
+
+We can now select some organisms from the filtered list in **Pre-selection Zone**.
+To do so, simply select one of them by clicking on it and click on the **Add Button**.
+
+.. image:: img/advanced-selector-selection.png
+
+As you can see, the number of organisms in the **Pre-selection Zone** is updated.
+See :ref:`select-organisms-of-interest` for detailled description.
+
+Congratulations, you have made your first advanced selection in MicroScope !
+The rest of this page explains some details about the advanced selector.
+
+Detailed description
+====================
 
 .. _search-field-filters:
 
@@ -211,6 +232,8 @@ The display by "species" with "Acinetobacter" filter active will group all pre-s
 .. image:: img/selector_display2.PNG
 
 The display by "genus" with "Acinetobacter" filter active will show all the 32 organisms in one single group.
+
+.. _select-organisms-of-interest:
 
 How to select my organisms of interest?
 ---------------------------------------
