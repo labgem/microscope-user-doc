@@ -1113,7 +1113,7 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 
 .. image:: img/antiSMASH3_annotation.PNG
 
-* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the `AntiSMASH cluster visualisation window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_.
+* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
 * **antiSMASH annotation**: gene annotation proposed by the tool
 * **domains detected**: predicted domains, if any.
 
@@ -1131,7 +1131,7 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the `AntiSMASH cluster visualization window <https://microscope.readthedocs.io/en/latest/content/metabolism/domainviewer.html>`_ by clicking on the number indicated in the **Cluster** field of the antiSMASH annotation table.
+You can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Cluster** field of the antiSMASH annotation table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
 
@@ -1331,7 +1331,7 @@ The **IntegronFinder** dataset appears if the genomic object correspond to an in
 How to explore Integron clusters?
 --------------------------------------------------------
 
-The `IntegronFinder cluster visualization <https://microscope.readthedocs.io/en/latest/content/compgenomics/integron_viewer.html>`_ window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
+The :ref:`IntegronFinder cluster visualization <integron-cluster-vizualisation>` window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
 
 ===========
 MacSyFinder
@@ -1371,4 +1371,4 @@ The **MacSyfinder** dataset appears if the genomic object correspond to a macrom
 How to explore a Macromolecular System?
 --------------------------------------------------------
 
-The `MacSyFinder System visualization window <https://microscope.readthedocs.io/en/latest/content/compgenomics/macromolecular_systems.html>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
