@@ -64,12 +64,13 @@ For example, if you type "k12", the following list will open:
 Advanced Selector
 *****************
 
-This selector is used to select one or several sequences or genomes based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
+This selector is used to select one or several objects based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
 
 This selector is used for instance in the following pages:
 
   - :ref:`phyloprofile`
   - :ref:`blast_searches`
+  - :ref:`genoclust`
 
 Overview
 ========
