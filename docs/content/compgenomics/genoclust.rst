@@ -1,6 +1,8 @@
-===================
+.. _genoclust:
+
+==================
  Genome Clustering
-===================
+==================
 
 
 This interface allows the user to select a set of genomes and display a tree that groups them by genomic similarity.
