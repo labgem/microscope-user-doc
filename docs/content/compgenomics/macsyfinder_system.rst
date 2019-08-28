@@ -1,3 +1,4 @@
+.. _macromolecular-system-vizualization:
 
 ########################################
 How to explore a Macromolecular System?
