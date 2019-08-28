@@ -41,6 +41,8 @@ When the page opens, the selector is displayed like this (it may take some time 
 
 .. image:: img/simple_selector.png
 
+Note that the exact appearance of this selector may depend on the page.
+
 To select an organism, type in some characters of its strain name.
 A list of organisms matching this characters will open.
 From this list, you can select the organism you want.
@@ -55,8 +57,6 @@ Also you can type any character (not just the beginning).
 For example, if you type "k12", the following list will open:
 
 .. image:: img/simple_selector_k12.png
-
-Note that the exact appearance of this selector may depend on the page.
 
 .. _advanced-selector:
 
