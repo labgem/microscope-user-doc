@@ -38,7 +38,7 @@ This selector is used to select:
 It's similar to the old selector in MicroScope but offers suggestions.
 
 This selector is used in the homepage to select the reference genome
-and more generally in pages where you must select a reference object (e.g. :ref:`lineplot`). 
+and more generally in pages where you must select a reference object (e.g. :ref:`lineplot`).
 
 It is also used for instance in the following pages:
 
@@ -165,7 +165,7 @@ The list of all genomes in the Actinobacteria phylum is now in the **Pre-selecti
 Note that the filter and the number of genomes filtered appear on the interface.
 In this example, we have specified the phylum exactly.
 Hence the filter is "phylum is 'Actinobacteria'".
-See :ref:`filters` for more detailled explanations.
+See :ref:`search-field-filters` for more detailled explanations.
 
 By default, genomes are grouped by Genus.
 Use the "Display by" menu to group by phylum.
