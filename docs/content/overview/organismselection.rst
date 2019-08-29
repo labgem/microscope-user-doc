@@ -16,10 +16,13 @@ When talking indistinctly of genome or sequence, we use the term **object**.
 Sequences and genomes come either from **MicroScope** (PkGDB) or from **NCBI RefSeq**.
 
 There are two kinds of selectors in the platform (the :ref:`simple-selector` and the :ref:`advanced-selector`) which are described in the following sections.
+
 Generally speaking a page use either a simple selector or 1 or 2 advanced ones.
-However, some pages use several selectors (of any type), from **PkGDB** or **NCBI RefSeq**.
 For instance, the :ref:`keywords` page use a simple selector in single mode and
 an advanced selector in multiple mode.
+
+However, some pages use several selectors (of any type), using both **PkGDB** or **NCBI RefSeq**.
+For instance, the :ref:`phyloprofile` page uses 4 advanced selectors (2 from **PkGDB** and 2 from **RefSeq**).
 
 .. _simple-selector:
 
@@ -27,15 +30,20 @@ an advanced selector in multiple mode.
 Simple Selector
 ***************
 
-This selector is used to select a single genome based on the strain name.
-It's similar to the old genome selector in MicroScope but offers suggestion.
+This selector is used to select:
+
+  - a single genome based on the strain name
+  - a single sequence based on the sequence name
+
+It's similar to the old selector in MicroScope but offers suggestions.
 
 This selector is used in the homepage to select the reference genome
-and more generally in pages where you must select a reference genome (e.g. :ref:`lineplot`).
+and more generally in pages where you must select a reference object (e.g. :ref:`lineplot`). 
 
 It is also used for instance in the following pages:
 
-  - :ref:`pattern_searches`
+  - :ref:`pattern_searches` (for **Sequence Selection**)
+  - :ref:`viewer` (for **Genome Selection** but coupled with a replicon selector)
 
 When the page opens, the selector is displayed like this (it may take some time to load):
 
@@ -43,7 +51,11 @@ When the page opens, the selector is displayed like this (it may take some time 
 
 Note that the exact appearance of this selector may depend on the page.
 
-To select an genome, write in some characters of its strain name.
+Example
+=======
+
+To select a reference genome on the home page,
+type in some characters of its strain name.
 A list of genomes matching this characters will open.
 From this list, you can select the genome you want.
 
@@ -68,9 +80,9 @@ This selector is used to select one or several objects based on the NCBI taxonom
 
 This selector is used for instance in the following pages:
 
-  - :ref:`phyloprofile`
-  - :ref:`blast_searches`
-  - :ref:`genoclust`
+  - :ref:`blast_searches` (for **Sequence Selection**)
+  - :ref:`genoclust` (for **Genome Selection**)
+  - :ref:`phyloprofile` (for **Genome Selection** and **Sequence Selection**)
 
 Overview
 ========
@@ -88,7 +100,7 @@ The selector opens as shown below:
 The window is divided in 5 parts:
 
   - the **Search Criterion** and **Search Field** are used to create filters on the list of objects from the data source; see :ref:`search-field-filters` for detailed explanation on those fields
-  - the **Pre-selection Zone** is used to select objects among the filters matches
+  - the **Pre-selection Zone** is used to select objects among the filters results
   - the **Selection Zone** shows the list of currently selected objects
   - the **Add/Remove buttons** allows to transfer objects between the Pre-selection Zone and the Selection Zone
 
@@ -98,7 +110,7 @@ the list of all objects from the data source.
 
 Filters can be constructed from:
 
- * the *Strain name* when selecting a genome or the sequence name when selecting an object
+ * the *Strain name* when selecting a genome or the *Sequence* when selecting a sequence
  * the *Taxonomy* of the object (genome or sequence)
  * the *MICGC* to which the object belong (see :ref:`MICGC <micgc>`)
 
@@ -127,8 +139,10 @@ The **Cancel** button button cancels all the changes done in the current selecto
 Example
 =======
 
-In this example, will we show how to select some organisms (with the advanced genome selector) from the phylum Actinobacteria
-and whose strain name contains some characters.
+In this example, will we show how to use the advanced selector to select some genomes
+from the phylum Actinobacteria and whose strain name contains some characters.
+
+If you want to select sequences, the procedure is similar (the main difference being that the **Search Criterion** contains *Sequence* and not *Strain name*).
 
 Select by taxonomy
 ------------------
@@ -162,7 +176,7 @@ Select by strain name
 ---------------------
 
 We will now select genomes whose strain name contains "bifi".
-To do so, select "Strain" (or "Sequence" in sequence selector) in the **Search Criterion** and type "bifi" in the **Search Field**.
+To do so, select *Strain name* in the **Search Criterion** and type "bifi" in the **Search Field**.
 
 .. image:: img/advanced-selector-select-bifi.png
 
@@ -203,6 +217,8 @@ Typing in the **Search Field**, will bring suggestions.
 
   .. image:: img/selector_search2.PNG
 
+* *MICGC* filters objects in a :ref:`micgc`
+
 Those suggestions are in fact filters.
 There are 2 kinds of filters:
 
@@ -238,7 +254,7 @@ The display by "genus" with "Acinetobacter" filter active will show all the 32 g
 How to select my organisms of interest?
 ---------------------------------------
 
-To select you genome/sequence, move the mouse with the button down on the wanted genomes in the **Pre-selection Zone** (shift + click works too).
+To select an object, move the mouse with the button down on the wanted genomes in the **Pre-selection Zone** (shift + click works too).
 Then press the green button to put them in the **Selection Zone**.
 
 
@@ -250,7 +266,7 @@ Then press the green button to put them in the **Selection Zone**.
 Selection Zone
 --------------
 
-The **Selection Zone** is there to allow you to see all the selected genome/sequence for the analysis.
+The **Selection Zone** is there to allow you to see all the selected object for the analysis.
 You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **Selection Zone**.
 If the active filter allow them, they will appear in the **Pre-selection Zone**.
 
@@ -259,5 +275,5 @@ When you are satisfied with your selection, press the save button to continue th
 What is "Advanced filter"?
 --------------------------
 
-This part allow you to make filter in the **Selection Zone** to remove more efficiently genomes/sequences.
+This part allow you to make filter in the **Selection Zone** to remove objects more efficiently.
 It works exactly the same as the first **search field**.
