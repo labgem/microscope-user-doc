@@ -45,6 +45,9 @@ It is also used for instance in the following pages:
   - :ref:`pattern_searches` (for **Sequence Selection**)
   - :ref:`viewer` (for **Genome Selection** but coupled with a replicon selector)
 
+Note that your :ref:`favourite organisms <favourite-organisms>` will always
+show up first in this selector.
+
 When the page opens, the selector is displayed like this (it may take some time to load):
 
 .. image:: img/simple_selector.png
@@ -83,6 +86,7 @@ This selector is used for instance in the following pages:
   - :ref:`blast_searches` (for **Sequence Selection**)
   - :ref:`genoclust` (for **Genome Selection**)
   - :ref:`phyloprofile` (for **Genome Selection** and **Sequence Selection**)
+  - :ref:`favourite-organisms` (for **Genome Selection**)
 
 Overview
 ========
