@@ -1,12 +1,16 @@
+.. _blast_pattern_searches:
+
 ########################
 Blast & Pattern Searches
 ########################
 
 The Basic Local Alignment Search Tool finds regions of local similarity between sequences. The program compares nucleotidic or protein sequences to sequence(s) stored in our database (PkGDB), and it computes the statistical significance of matches. This interface allows the user to compare the sequences at the nucleic level (BlastN BlastX) or proteic level (BlastP and tBlastN) or to search for nucleic or proteic patterns (Prosite format).
 
-########################
+.. _blast_searches:
+
+**************
 Blast Searches
-########################
+**************
 
 We use `ncbi-blast <https://blast.ncbi.nlm.nih.gov/Blast.cgi>`_ tools to run blast alignement. All query must be in fasta format.
 
@@ -27,12 +31,17 @@ The fields:
 
 can be use to filter blast result.   
 
+This form uses the advanced selector (in **Sequence Selection** mode) to select the reference sequences.
+See :ref:`here <advanced-selector>` for help on how to use it.
 
-.. image:: img/blast.PNG
+.. image:: img/blast.png
 
-########################
+
+.. _pattern_searches:
+
+****************
 Pattern Searches
-########################
+****************
 
 We use `EMBOSS <http://emboss.sourceforge.net/apps/>`_ tools to run pattern search (fuzznuc and fuzzpro). 
 
@@ -48,17 +57,15 @@ Protein and nucleic pattern search require a pattern in `prosite format <http://
 
 Examples :
 
-  **[AC]-x-V-x(4)-{ED}**
-This pattern is translated as: [Ala or Cys]-any-Val-any-any-any-any-{any but Glu or Asp}
+  * **[AC]-x-V-x(4)-{ED}**: this pattern is translated as: [Ala or Cys]-any-Val-any-any-any-any-{any but Glu or Asp}.
 
-  **< A-x-[ST](2)-x(0,1)-V**
-This pattern, which must be in the N-terminal of the sequence ('<'), is translated as: Ala-any-[Ser or Thr]-[Ser or Thr]-(any or none)-Val
+  * **< A-x-[ST](2)-x(0,1)-V**: this pattern, which must be in the N-terminal of the sequence ('<'), is translated as: Ala-any-[Ser or Thr]-[Ser or Thr]-(any or none)-Val.
 
-  **IIRIFHLRNI**
-This pattern describes all sequences which contain the subsequence 'IIRIFHLRNI'.
+  * **IIRIFHLRNI**: this pattern describes all sequences which contain the subsequence 'IIRIFHLRNI'.
 
+  * **ATTCCAGATC**: this pattern describes all sequences which contain the subsequence 'ATTCCAGATC'.
 
-  **ATTCCAGATC**
-This pattern describes all sequences which contain the subsequence 'ATTCCAGATC'.
+This form uses the simple selector (in **Sequence Selection** mode) to select the reference sequence.
+See :ref:`here <simple-selector>` for help on how to use it.
 
-.. image:: img/pattern.PNG
+.. image:: img/pattern.png

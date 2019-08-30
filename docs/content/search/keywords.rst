@@ -1,3 +1,5 @@
+.. _keywords:
+
 ####################
 Keywords Search Tool
 ####################
@@ -14,12 +16,15 @@ What are Single/Multiple Modes?
 How to read the interface?
 --------------------------
 
-* **The Single Mode**:
+The Single Mode
+~~~~~~~~~~~~~~~
 
 .. image:: img/search_by_keyword.png
 	:width: 100%
 
 * **Item #1**. Replicon selection. The search will be performed on this replicon’s annotations.
+  This interface uses the simple selector (in **Sequence Selection** mode).
+  See :ref:`here <simple-selector>` for help on this selector.
 * **Item #2**. Gene Carts selection, for searching within their content. (optional)
 * **Item #3**. Dataset selection (see :ref:`datasets`).
 * **Item #4**. Fields selection (see :ref:`fields`).
@@ -29,10 +34,14 @@ How to read the interface?
 * **Item #7**. Words you don’t want to match (options: *All the words / At least one word / Exact phrase*).
 
 
-* **The Multiple Mode**
-
-.. image:: img/search_by_keyword_multiple.PNG
+The Multiple Mode
+~~~~~~~~~~~~~~~~~
+ 
+.. image:: img/search_by_keyword_multiple.png
 	:width: 100%
+
+The interface is rather similar but uses the advanced selector (in **Sequence Selection** mode).
+See :ref:`here <advanced-selector>` for help on how to use this selector.
 
 .. _datasets:
 
@@ -138,7 +147,8 @@ How to read the With / Without keyword fields and their options?
 How to perform a search
 -----------------------
 
-* **Single Mode**
+Single Mode
+~~~~~~~~~~~
 
 	* **1**. Select the reference replicon you want to explore (see **Item #1** :ref:`here <interface>`)
 	* **2**. Select eventually one or more Gene(s) Cart(s) (see **Item #2** :ref:`here <interface>`, optional).
@@ -157,7 +167,8 @@ How to perform a search
 	* **8**. Browse the results. Matched keywords will be highlighted in yellow.
 	* **9**. Eventually, proceed to a Refined Search from the previous results, or :ref:`export the results into a Gene Cart <genecarts>`.
 
-* **Multiple Mode**
+Multiple Mode
+~~~~~~~~~~~~~
 
 	* **1**. Select one or more reference replicon(s) you want to explore (see **Item #1** :ref:`here <interface>`) **OR** select one or more Gene(s) Cart(s) (see **Item #2** :ref:`here <interface>`, optional).
 
