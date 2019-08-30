@@ -24,7 +24,7 @@ Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondaryme
 Kai Blin, Simon Shaw, Katharina Steinke, Rasmus Villebro, Nadine Ziemert, Sang Yup Lee, Marnix H Medema, & Tilmann Weber
 Nucleic Acids Research (2019). <https://doi.org/10.1093/nar/gkz310>`_
 
-These result are link to The Minimum Information about a Biosynthetic Gene cluster (`MIBiG <https://mibig.secondarymetabolites.org/`__) database.
+These result are link to The Minimum Information about a Biosynthetic Gene cluster (MIBiG) database.
 
 `Medema M.H., et al. (2015) Minimum Information about a Biosynthetic Gene cluster. Nat Chem Biol. Sep;11(9):625-31. <http://www.ncbi.nlm.nih.gov/pubmed/26284661>`_
 
