@@ -56,14 +56,14 @@ MIBiG completion
 
 Completion calcul is as follow :
 
-nb_of_hit = number of genes with blast hit between antiSMASH predicted region and MIBiG region
+nb_of_hit = number of genes with blast hit in the antiSMASH predicted region and MIBiG region
 
 nb_of_mibig_gene = number of MIBiG genes (all of them) in the MIBIG curated region
 
 .. math:: nb_of_hit/nb_of_mibig_gene
 
 Meaning that when 2 or more genes in a single MIBiG curated region are similar, the same gene in pkgdb can hit on these MIBiG gene.
-When that happen, the completion can be higher than 1 (represented by 1*).
+When that happen, the completion can be higher than 1 (represented by 1* or the real number).
 
 
 
