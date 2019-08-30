@@ -56,9 +56,9 @@ MIBiG completion
 
 Completion calcul is as follow :
 
-nb_of_hit = number of gene with blast hit between antiSMASH predicted region and MIBiG Region
+nb_of_hit = number of genes with blast hit between antiSMASH predicted region and MIBiG region
 
-nb_of_mibig_gene = number of MIBiG gene (all of them) in the MIBIG curated region
+nb_of_mibig_gene = number of MIBiG genes (all of them) in the MIBIG curated region
 
 .. math:: nb_of_hit/nb_of_mibig_gene
 
