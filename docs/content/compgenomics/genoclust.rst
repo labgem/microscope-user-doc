@@ -30,7 +30,7 @@ Below is a screenshot of the genome selection interface.
 
 .. image:: img/genoclust-interface.png
 
-The first part uses the advanced genome selector to select the organisms on which the tree will be computed.
+The first part uses the advanced selector (in **Genome Selection** mode) to select the genomes on which the tree will be computed.
 See :ref:`here <advanced-selector>` for help on how to use this selector.
 
 Next by clicking "Save and Run", the tree is computed and displayed under **Results**.

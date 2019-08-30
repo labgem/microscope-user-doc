@@ -13,7 +13,7 @@ This functionality is disabled for guests and only available for logged Annotato
 How to make my own selection of favourites organisms?
 -----------------------------------------------------
 
-This functionnality uses the advanced organism selector.
+This functionnality uses the advanced selector (in **Genome Selection** mode).
 See :ref:`here <advanced-selector>` for help on how to use it.
 
 When you open the selector, the list of your current favourite organisms

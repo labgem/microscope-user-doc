@@ -22,7 +22,7 @@ How to read the interface?
 
 * **item D**: Use this form to search for specific genes in your reference genome compared to a selection of organisms/replicons coming from PkGDB and/or RefSeq databases. 
 
-Forms **C** and **D** use the advanced organism selector.
+Forms **C** and **D** use the advanced selector (in **Genome Selection** mode).
 See :ref:`here <advanced-selector>` for help on how to use it.
 
 .. tip:: You can mix the use of **item C** and **item D** to perform a very sensitive search. For example: get CDS of *Acinetobacter baylyi ADP1* (reference genome, item A) which have homologs in *Acinetobacter baumannii 6013113* and Acinetobacter baumannii AB0057 (item C), but **NO** homologs in *Acinetobacter baumannii AYE* (item D)

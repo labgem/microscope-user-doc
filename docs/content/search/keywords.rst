@@ -22,7 +22,9 @@ The Single Mode
 .. image:: img/search_by_keyword.png
 	:width: 100%
 
-* **Item #1**. Replicon selection. The search will be performed on this replicon’s annotations. See :ref:`here <simple-selector>` for help on this selector.
+* **Item #1**. Replicon selection. The search will be performed on this replicon’s annotations.
+  This interface uses the simple selector (in **Sequence Selection** mode).
+  See :ref:`here <simple-selector>` for help on this selector.
 * **Item #2**. Gene Carts selection, for searching within their content. (optional)
 * **Item #3**. Dataset selection (see :ref:`datasets`).
 * **Item #4**. Fields selection (see :ref:`fields`).
@@ -38,7 +40,7 @@ The Multiple Mode
 .. image:: img/search_by_keyword_multiple.png
 	:width: 100%
 
-The interface is rather similar but uses the advanced selector.
+The interface is rather similar but uses the advanced selector (in **Sequence Selection** mode).
 See :ref:`here <advanced-selector>` for help on how to use this selector.
 
 .. _datasets:
