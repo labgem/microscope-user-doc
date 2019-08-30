@@ -20,6 +20,13 @@ Antismash is a tool predicting secondary metabolite gene clusters in bacterial g
 
 Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`__
 
+`antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline
+Kai Blin, Simon Shaw, Katharina Steinke, Rasmus Villebro, Nadine Ziemert, Sang Yup Lee, Marnix H Medema, & Tilmann Weber
+Nucleic Acids Research (2019). <https://doi.org/10.1093/nar/gkz310>`_
+
+These result are link to The Minimum Information about a Biosynthetic Gene cluster (`MIBiG <https://mibig.secondarymetabolites.org/`__) database.
+
+`Medema M.H., et al. (2015) Minimum Information about a Biosynthetic Gene cluster. Nat Chem Biol. Sep;11(9):625-31. <http://www.ncbi.nlm.nih.gov/pubmed/26284661>`_
 
 How to access to the secondary metabolites gene clusters predicted by antiSMASH?
 --------------------------------------------------------------------------------
@@ -35,21 +42,30 @@ Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 
 .. image:: img/antiSMASH._prediction.PNG
 
+* *Region type* region type predicted by antiSMASH
+* *MIBiG* link to MIBiG best hit (if any)
+* *Completion* completion of the best hit between MIBiG region and antiSMASH prediction region 
+* *Product* product of the MIBiG compound
+* *Type* type of the  MIBiG compound
 
 
-What is the "Adjusted cluster coordinates"  table?
---------------------------------------------------
+.. _mibig_completion:
 
-This table enumerates all secondary metabolite clusters alternative coordinates predicted for the selected organism and its replicons.
+MIBiG completion
+------------------
 
-.. image:: img/antiSMASH_alternative_coord.PNG
+Completion calcul is as follow :
+
+nb_of_hit = number of gene with blast hit between antiSMASH predicted region and MIBiG Region
+
+nb_of_mibig_gene = number of MIBiG gene (all of them) in the MIBIG curated region
+
+.. math:: nb_of_hit/nb_of_mibig_gene
+
+Meaning that when 2 or more genes in a single MIBiG curated region are similar, the same gene in pkgdb can hit on these MIBiG gene.
+When that happen, the completion can be higher than 1 (represented by 1*).
 
 
-Cluster Prediction: classical antiSMASH prediction, it corresponds to the Cluster core coordinates with an extension.
-
-Cluster Border: Improved prediction of gene cluster boundaries using `ClusterFinder algorithm <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4123684/>`_ These estimations are based on frequencies of locally encoded protein domains detected by Pfam (based on these being either more or less BGC-like).
-
-Cluster Core: cluster coordinates correspond to the "main" genes used for characterization of secondary metabolite.
 
 How to explore a secondary metabolite cluster?
 ----------------------------------------------
