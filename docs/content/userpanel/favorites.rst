@@ -5,9 +5,10 @@ My Favourite Organisms
 ######################
 
 MicroScope allows to select up to 50 favourite organisms.
-Those organisms are showed first when using the :ref:`selector` for faster access.
+Those organisms are showed first when using the :ref:`selector` for faster access
+(see :ref:`favourite-organisms-usage`).
 
-This functionality is disabled for Guests, and only available for logged Annotators.
+This functionality is disabled for guests and only available for logged Annotators.
 
 How to make my own selection of favourites organisms?
 -----------------------------------------------------
@@ -26,6 +27,8 @@ You can use the **Cancel**, **Reset** and **Save** buttons.
 Once on the page, click on the **SET SELECTION** button to validate.
 
 .. image:: img/favorites-interface_base.png
+
+.. _favourite-organisms-usage:
 
 How to use my favourites organisms selection?
 ---------------------------------------------
