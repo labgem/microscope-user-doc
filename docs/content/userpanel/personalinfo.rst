@@ -1,6 +1,8 @@
-#####################
-Personal Informations
-#####################
+.. _personal-information:
+
+####################
+Personal Information
+####################
  
 This interface provides the functionality to set or update your professional informations. 
 You can access to this interface at the condition you have an active account on the MicroScope platform.
