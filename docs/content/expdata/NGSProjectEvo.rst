@@ -1,10 +1,8 @@
+.. _evolution-projects:
+
 ##################
 Evolution Projects
 ##################
- 
-
-
-
 
 ===========
 First steps
