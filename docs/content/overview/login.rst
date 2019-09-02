@@ -25,7 +25,7 @@ After your account has been created, you will receive an automated message from 
 
 Use this information in order to login into your account and get access to private sequences and annotation rights.
 
-On the `Login Interface of the Navigation Menu <http://microscope.readthedocs.org/en/latest/content/overview/interface.html>`_ (item #1), near the *welcome guest* message,
+On the :ref:`Login Interface of the Navigation Menu <interface-overview>` (item #1), near the *welcome guest* message,
 
 * fill the **username** field with **your_username**
 * fill the **password** field with **your_password** .
@@ -37,7 +37,7 @@ On the `Login Interface of the Navigation Menu <http://microscope.readthedocs.or
 
 Once you’re logged, the Login Interface will be replaced by your Firstname, your Lastname and a *LOGOUT* button.
 
-On your first login, you’ll be redirected to the `Personal Informations Interface <http://microscope.readthedocs.org/en/latest/content/userpanel/personalinfo.html>`_ where you’ll be prompted to fill in or update required data before using the platform.
+On your first login, you’ll be redirected to the :ref:`Personal Informations Interface <personal-information>` where you’ll be prompted to fill in or update required data before using the platform.
 
 .. note:: **For security reasons, as soon as you finished your daily work, do not forget to click on the LOGOUT button in order to close the session and disconnect yourself from our servers.**
 
@@ -50,4 +50,4 @@ Our first advice is « **DO NOT PANIC!** »
 
 The `Microscope projects <https://www.genoscope.cns.fr/agc/microscope/home/index.php>`_  still exists, but now the system is fully transparent for all users. Once connected to your account, you will have access to the full list of Public and Private Sequences according to your Project, and get the annotation rights as defined in your account settings.
 
-You can manage your own set of preferred organisms (for exemple, your Project’s specific organisms) in a **Quick Access Menu**, by using the `My Favourite Organisms <http://microscope.readthedocs.org/en/latest/content/userpanel/favourites.html>`_
+You can manage your own set of preferred organisms (for exemple, your Project’s specific organisms) in a **Quick Access Menu**, by using the :ref:`My Favourite Organisms <favourite-organisms>`.
