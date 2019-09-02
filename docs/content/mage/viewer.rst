@@ -283,6 +283,7 @@ If you click on a synteny group, it opens a popup *synton visualization window* 
 
 .. image:: img/img14.png
 
+.. _viewer-artemis:
 
 =======
 Artemis 
