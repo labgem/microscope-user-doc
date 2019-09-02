@@ -14,7 +14,7 @@ By Clicking on the arrow available on the left of each project, user can expand 
 
 Selecting a project will allow the user to use :
 
-* `Overview tool <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqOverview.html>`_ (**Item #1**)
-* `Read Count Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqReadCountAnalysis.html>`_  (**Item #2**)
-* `Differential Expression Analysis <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqDiffExprAnalysis.html>`_  (**Item #3**)
-* `Integrative Genomics Viewer <http://microscope.readthedocs.org/en/latest/content/transcriptomic/rnaseqIGV.html>`_ (IGV - http://www.broadinstitute.org/igv/) (**Item #4**)
+* :ref:`Overview tool <rnaseq_Overview>` (**Item #1**)
+* :ref:`Read Count Analysis <rnaseq_ReadCountAnalysis>` (**Item #2**)
+* :ref:`Differential Expression Analysis <rnaseq_DiffExprAnalysis>` (**Item #3**)
+* :ref:`Integrative Genomics Viewer <rnaseq_IGV>` (IGV - http://www.broadinstitute.org/igv/) (**Item #4**)
