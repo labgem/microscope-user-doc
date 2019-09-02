@@ -231,6 +231,7 @@ What are the different "Localization" categories?
 * 10 : Secreted
 * 11 : Membrane
 
+.. _mage-bioprocess:
 
 What is the "BioProcess" classification?
 ----------------------------------------
@@ -239,6 +240,7 @@ This functional classification is based on the CMR JCVI Role IDs.
 
 This field is optionally filled in during the expert annotation process.
 
+.. _mage-roles:
 
 What is the "Roles" classification?
 -----------------------------------
