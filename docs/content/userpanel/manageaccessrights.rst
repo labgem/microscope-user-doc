@@ -1,3 +1,5 @@
+.. _access-rights-management:
+
 ########################
 Access Rights Management
 ########################

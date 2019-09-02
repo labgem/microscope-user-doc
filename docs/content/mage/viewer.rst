@@ -124,6 +124,8 @@ The **Export to Gene Cart** button allows you to export all genomic objects cont
 If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data.
 You can access to your gene carts via the :ref:`Gene Cart Interface <genecarts>`.
 
+.. _viewer-create:
+
 Can I create a new genomic object ?
 -----------------------------------
 
