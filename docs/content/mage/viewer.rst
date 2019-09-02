@@ -21,7 +21,7 @@ The predicted CDSs are indicated by rectangles on each frame.
 
 The blue lines symbolize the coding prediction curve. They increase when coding probability is high and drop when the coding probability is low.
 
-.. image:: img/BG_overview1.png
+.. image:: img/BG_overview1bis.png
 
 
 What is the meaning of the Genomic Object color code ?
@@ -37,21 +37,49 @@ How to move along the sequence ?
 
 1) You can navigate along the selected sequence by using the grey arrows located on the left and right sides of the genomic map.
 2) You can also enter directly a genomic coordinate and then click on **VIEW**.
-3) Enter a gene name (e.g. dnaA) or a gene label (e.g., ECK0001) and click on **Move to**. The map is centered on the requested Genomic object.
+3) Enter a gene name (e.g. dnaA) or a gene label (e.g., ECK0001) and click on **Move to**. The map is centered on the requested Genomic object or region.
 
 If several genes have been annotated with the same gene name, the window will move to the first occurrence of these genes on the genome sequence.
 
 .. image:: img/viewer_navigate.png
 
-
-Why sometimes genes are into a dark area ?
+What does the right click do ?
 -------------------------------------------------
 
-.. image:: img/viewer_selection.png
+There is a contextual menu in the genome browser, you may obtain different option depending of your position.
+
+.. image:: img/BG_overview2bis.png
+
+Right click on a genomic object:
+
+* Open: open the gene annotation editor
+* Center: the Genome Browser will be reloaded and centered around the corresponding object.
+* Zoom: the Genome Browser will be reloaded and centered around the corresponding object and the browser length will adapt.
+* Getseq: extract the sequence of the select object.
+
+Right click on an area:
+
+* New: allow you to annotate a new object
+
+Right click on a selected area:
+
+* Pathways: find into KEGG pathway prediction the object in the considerate area 
+* New: allow you to annotate a new object
+
+Right click on a synteny:
+
+* Open: open the synteny window
+* GeneInfo: open the gene information page
+* MoveTo: the Genome Browser will be reloaded and centered around the corresponding object in the new selected sequence and the browser length will adapt.
+
+Why sometimes is there a dark area ?
+-------------------------------------------------
+
+.. image:: img/BG_overview3.PNG
 
 There are different ways to select a specific gene:
 
-* From right click on a gene or synteny and use **Center** option
+* From right click on a gene or synteny and use **Center** or **Zoom** option
 
 * From result tables:
 
@@ -62,7 +90,7 @@ There are different ways to select a specific gene:
 
 .. image:: img/img5.png
 
-After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding gene and the gene area will be highlight.
+After a *Move To* action, the Genome Browser will be reloaded and centered around the corresponding area or gene and the selected area will be highlight.
 
 .. _viewer_matrix:
 
