@@ -30,8 +30,8 @@ How to read the table of results?
 
 * **1**. Export functions. This section allows users to make all genes (or subsets of genes) available for other analysis tools. 3 main operations are possible here:
 
-	* Select subsets of genes (by selecting checkboxes on the first column) and export them into a `Gene Cart <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html>`_ by using the “Export To Gene Cart” button.
-	* See one selected gene into the `MaGe Genome Browser <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html>`_ by clicking on the magnifying glass.
+	* Select subsets of genes (by selecting checkboxes on the first column) and export them into a :ref:`Gene Cart <genecarts>` by using the “Export To Gene Cart” button.
+	* See one selected gene into the :ref:`MaGe Genome Browser <viewer>` by clicking on the magnifying glass.
 	* Direct link to the selected gene in Integrative Genome Viewer.
 	* Direct link to MeV.
 	* Direct link to MicroCyC.
