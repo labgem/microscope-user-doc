@@ -1230,7 +1230,7 @@ How to read CARD results:
 * **Resistance to**: antibiotic terms related to the resistance
 * **PubMedId**: related publications
 
-You can access to the `CARD Result page <../compgenomics/card.html>`_ by clicking on  **Resistome** tab in the Comparative Genomics menu.
+You can access to the :ref:`CARD Result page <card>` by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
 ==========
@@ -1295,7 +1295,7 @@ So the VF classes corresponding is “Offensive virulence factors, Invasion, Def
 
   2.1 Antiphagocytosis
 
-You can access to the `Virulence Result page <../compgenomics/virulence.html>`_ by clicking on  **Virulome** tab in the Comparative Genomics menu.
+You can access to the :ref:`Virulence Result page <virulence>` by clicking on  **Virulome** tab in the Comparative Genomics menu.
 
 ==============
 IntegronFinder

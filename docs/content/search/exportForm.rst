@@ -69,7 +69,7 @@ Extract region:
 
 .. image:: img/download_extract_region.PNG
 
-* Select the *Begin*, *End* positions and precise the strand you want to get. The default values correspond to the region where the `Genome Browser <../mage/viewer.html>`_ is centered.
+* Select the *Begin*, *End* positions and precise the strand you want to get. The default values correspond to the region where the :ref:`Genome Browser <viewer>` is centered.
 
 The **Sequence** part allow you to extract the sequence (nucleic) in fasta format in the coordinate.
 
@@ -103,9 +103,9 @@ Extract Classification
 
 .. image:: img/download_extract_classification.PNG
 
-Get the complete `Role Classification <../mage/info.html#what-is-the-roles-classification>`_ in a text format.
+Get the complete :ref:`Role Classification <mage-roles>` in a text format.
 
-Get the complete `BioProcess Classification <../mage/info.html#what-is-the-bioprocess-classification>`_ in a text format.
+Get the complete :ref:`BioProcess Classification <mage-bioprocess>` in a text format.
 
 Export Organism Data to RDF
 ---------------------------
