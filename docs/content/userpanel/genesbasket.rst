@@ -26,23 +26,23 @@ Gene Cart Overview
 
 	This menu allows the user to perform operations on Gene Carts content.
 	
-		* `Move <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-move-genomic-objects-to-another-gene-cart>`_ a selection of Genomic Objects contained in a Gene Cart into another one.
-		* `Copy <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-copy-genomic-objects-to-another-gene-cart>`_ a selection of Genomic Objects contained in a Gene Cart into another one.
-		* `Delete <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-delete-genomic-objects-from-gene-cart>`_ a selection of Genomic Objects from Gene Cart.
+		* :ref:`Move <genecarts-move>` a selection of Genomic Objects contained in a Gene Cart into another one.
+		* :ref:`Copy <genecarts-copy>` a selection of Genomic Objects contained in a Gene Cart into another one.
+		* :ref:`Delete <genecarts-delete>` a selection of Genomic Objects from Gene Cart.
 	
 * **Item #4. Gene Carts operations:**
 	
 	This menu allows the user to perform operations on Gene Carts.
 
-		* Get the `Intersection <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-get-the-intersection-between-2-gene-carts>`_ between 2 Gene Carts content and move the result into a new Cart.
-		* Get the `Difference <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-get-the-difference-between-2-gene-carts>`_ between 2 Gene Carts content and move the result into a new Cart.
-		* `Merge <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-merge-2-gene-carts>`_ the content of 2 Gene Carts into a new Cart.
+		* Get the :ref:`intersection <genecarts-intersection>` between 2 Gene Carts content and move the result into a new Cart.
+		* Get the :ref:`difference <genecarts-difference>` between 2 Gene Carts content and move the result into a new Cart.
+		* :ref:`Merge <genecarts-merge>` the content of 2 Gene Carts into a new Cart.
 
 .. tip:: You can do this kind of operations **only on 2 Gene Carts at a same time**.
 
 * **Item #5. Gene Cart name:**
 
-	`Change the name <http://microscope.readthedocs.org/en/latest/content/userpanel/genesbasket.html#how-to-rename-a-gene-cart>`_ of a Gene Cart.
+	:ref:`Change the name <genecarts-rename>` of a Gene Cart.
 
 * **Item #6. FASTA tool:**
 
@@ -63,7 +63,9 @@ Gene Cart Overview
 * **Item #10. Delete Gene Cart:**
  
 	Export the gene annotation in tsv format file.
-	
+
+.. _genecarts-move:
+
 How to move Genomic Objects to another Gene Cart?
 -------------------------------------------------
 
@@ -83,6 +85,7 @@ How to move Genomic Objects to another Gene Cart?
 .. image:: img/bas4.png
 	:width: 100%
 
+.. _genecarts-copy:
 
 How to copy Genomic Objects to another Gene Cart?
 -------------------------------------------------
@@ -103,6 +106,7 @@ How to copy Genomic Objects to another Gene Cart?
 .. image:: img/bas7.png
 	:width: 100%
 
+.. _genecarts-delete:
 
 How to delete Genomic Objects from Gene Cart?
 ---------------------------------------------
@@ -118,6 +122,7 @@ How to delete Genomic Objects from Gene Cart?
 .. image:: img/bas9.png
 	:width: 100%
 
+.. _genecarts-intersection:
 
 How to get the intersection between 2 Gene Carts?
 -------------------------------------------------
@@ -140,6 +145,7 @@ How to get the intersection between 2 Gene Carts?
 .. image:: img/bas12.png
 	:width: 100%
 
+.. _genecarts-difference:
 
 How to get the difference between 2 Gene Carts?
 -----------------------------------------------
@@ -161,6 +167,7 @@ How to get the difference between 2 Gene Carts?
 
 .. image:: img/bas15.png
 
+.. _genecarts-merge:
 
 How to merge 2 Gene Carts?
 --------------------------
@@ -183,6 +190,7 @@ How to merge 2 Gene Carts?
 .. image:: img/bas18.png
 	:width: 100%
 
+.. _genecarts-rename:
 
 How to rename a Gene Cart?
 --------------------------
