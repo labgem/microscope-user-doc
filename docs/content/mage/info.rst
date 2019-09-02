@@ -407,7 +407,7 @@ Start
 
 *In progress*
 
-This menu gives the beginning and the end of the gene sequence according to different softwares. If the indicated start and stops seems to be wrong when compared to those given by the softwares, you can correct them by using Artemis (see `Artemis <http://microscope.readthedocs.org/en/latest/content/mage/viewer.html#artemis>`_).
+This menu gives the beginning and the end of the gene sequence according to different softwares. If the indicated start and stops seems to be wrong when compared to those given by the softwares, you can correct them by using Artemis (see :ref:`Artemis <viewer-artemis>`).
 
 .. image:: img/start.png
 
