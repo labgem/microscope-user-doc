@@ -96,6 +96,9 @@ By clicking on the "Export" button:
   - the tree can be exported in SVG or Newick format
   - the distances can be exported in TSV format (as a matrix or as a pairwise list)
 
+Note that due to limitations of the Newick format, some characters in the strain name (namely ``,``, ``;``, ``:``, ``(`` and ```)``) are not exported.
+To circumvent this, you can choose to replace the strain name by the NCBI taxid when exporting to Newick.
+
 **Reference:**
 
 1. `Blondel, V. D., Guillaume, J.-L., Lambiotte, R. & Lefebvre, E. Fast unfolding of communities in large networks. J. Stat. Mech. 2008, P10008 (2008). <http://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008/meta>`_
