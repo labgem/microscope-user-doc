@@ -28,7 +28,8 @@ What information are in this window?
 This window allows you to visualize the antiSMASH cluster predictions and its genomic context.
 
 The boxes in the middle of the viewer (on the blue line) represent the predicted domains of the predicted secondary metabolite genes.
-The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented ('CDS','fCDS','tRNA','rRNA','misc_RNA','ncRNA','tmRNA','misc_feature','mobile_element'). 'misc_feature' object will appear at the bottom of the viewer.
+The other boxes in the viewer represent the genomic object existing in the region. Only some type of genomic object are represented (``CDS``, ``fCDS``, ``tRNA``, ``rRNA``, ``misc_RNA``, ``ncRNA``, ``tmRNA``, ``misc_feature``, ``mobile_element``).
+``misc_feature`` object will appear at the bottom of the viewer.
 
 All the boxes in the **viewer** can be mouse over to obtain summarized informations about them. The genomic object data are also described in the **Genomic Objects** table below.
 
@@ -65,14 +66,17 @@ This table help to know more on biosynthetic gene clusters by comparaison with M
 .. image:: img/antiSMASH5_Knownproto.PNG
 
 This table help to know more on biosynthetic gene clusters by comparaison with MIBiG reference database on the considered proto-cluster. This is useful when there is several proto-cluster in the same region to try to caracterize each proto-cluster.
-The completion calcul is very similar than before:
 
-nb_of_hit = number of genes with blast hit in antiSMASH predicted proto-cluster that are "flagged" biosynthetic or biosynthetic-additional  and MIBiG region.
+The completion is computed as follow :
 
-nb_of_mibig_gene = number of MIBiG genes (all of them) in the MIBIG curated region
+.. math::
 
-.. math:: nb_of_hit/nb_of_mibig_gene
+   \text{Completion}=\frac{\text{nb\_of\_hit}}{\text{nb\_of\_mibig\_gene}}
 
+Where:
+
+  * :math:`\text{nb\_of\_hit}` = number of genes with blast hit in the antiSMASH predicted region and MIBiG region
+  * :math:`\text{nb\_of\_mibig\_gene}` = number of MIBiG genes (all of them) in the MIBIG curated region
 
 |
 |

@@ -22,7 +22,7 @@ Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondaryme
 
 `Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
 
-These result are link to The Minimum Information about a Biosynthetic Gene cluster (MIBiG) database.
+These result are linked to The Minimum Information about a Biosynthetic Gene cluster (MIBiG) database.
 
 `Medema M.H., et al. (2015) Minimum Information about a Biosynthetic Gene cluster. Nat Chem Biol. Sep;11(9):625-31. <http://www.ncbi.nlm.nih.gov/pubmed/26284661>`_
 
@@ -52,13 +52,16 @@ Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 MIBiG completion
 ------------------
 
-Completion calcul is as follow :
+The completion is computed as follow :
 
-nb_of_hit = number of genes with blast hit in the antiSMASH predicted region and MIBiG region
+.. math::
 
-nb_of_mibig_gene = number of MIBiG genes (all of them) in the MIBIG curated region
+   \text{Completion}=\frac{\text{nb\_of\_hit}}{\text{nb\_of\_mibig\_gene}}
 
-.. math:: nb_of_hit/nb_of_mibig_gene
+Where:
+
+  * :math:`\text{nb\_of\_hit}` = number of genes with blast hit in the antiSMASH predicted region and MIBiG region
+  * :math:`\text{nb\_of\_mibig\_gene}` = number of MIBiG genes (all of them) in the MIBIG curated region
 
 Meaning that when 2 or more genes in a single MIBiG curated region are similar, the same gene in pkgdb can hit on these MIBiG gene.
 When that happen, the completion can be higher than 1 (represented by 1* or the real number).
