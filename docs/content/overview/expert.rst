@@ -208,11 +208,7 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **References:** 
 
-
-`antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline
-Kai Blin, Simon Shaw, Katharina Steinke, Rasmus Villebro, Nadine Ziemert, Sang Yup Lee, Marnix H Medema, & Tilmann Weber
-Nucleic Acids Research (2019). <https://doi.org/10.1093/nar/gkz310>`_
-
+`Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
 
 .. _cgview:
 
