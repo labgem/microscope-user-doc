@@ -66,10 +66,14 @@ To know now more about Mash, see `here <https://github.com/marbl/Mash>`__.
 Tree Construction
 -----------------
 
-A tree is constructed from the Mash distance matrix. This tree is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
+The tree is constructed from the Mash distance matrix.
+It is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
 
 This algorithm can assign negative length to a branch.
 In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`_ for more information).
+
+Note that we insert a virtual organism that is very far from all others organisms when computing the tree.
+The tree is then re-rooted at this outgroup (which is not displayed).
 
 Clustering Genomes
 ------------------
