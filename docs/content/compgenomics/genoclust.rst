@@ -57,7 +57,7 @@ ANI represents the average nucleotide identity between homologous genomic region
 It closely reflects the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}`).
 Typically, two bacteria belong to the same species when :math:`\text{ANI} \geq 95\%` (*i.e.* :math:`D \leq 0.05`).
 
-To know now more about Mash, see `here <https://github.com/marbl/Mash>`_.
+To know now more about Mash, see `their website <https://github.com/marbl/Mash>`_.
 
 **Reference:**
 
