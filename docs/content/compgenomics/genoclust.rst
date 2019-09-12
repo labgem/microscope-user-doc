@@ -21,8 +21,6 @@ You can consult CheckM results in the :ref:`genome-overview` page.
 
    Microscope Genome Cluster (MICGC) workflow.
 
-
-
 Interface Overview
 ------------------
 
@@ -55,7 +53,6 @@ In order to quickly calculate the pairwise genome distance, we use Mash. Mash ex
 Mash distance strongly correlates with the Average Nucleotide Identity (ANI).
 If :math:`D` denotes the Mash distance then :math:`D \simeq 1 - \text{ANI}`.
 
-
 ANI represents the average nucleotide identity between homologous genomic regions shared by two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI).
 It closely reflects the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}`).
 
@@ -65,7 +62,6 @@ To know now more about Mash, see `here <https://github.com/marbl/Mash>`__.
 
 1. `Konstantinidis, K. T. & Tiedje, J. M. Genomic insights that advance the species definition for prokaryotes. Proc Natl Acad Sci U S A 102, 2567–2572 (2005). <http://www.pnas.org.insb.bib.cnrs.fr/content/102/7/2567>`_
 2. `Ondov, B. D. et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biology 17, 132 (2016). <https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x>`_
-
 
 Tree Construction
 -----------------
@@ -102,3 +98,4 @@ To circumvent this, you can choose to replace the strain name by the NCBI taxid 
 **Reference:**
 
 1. `Blondel, V. D., Guillaume, J.-L., Lambiotte, R. & Lefebvre, E. Fast unfolding of communities in large networks. J. Stat. Mech. 2008, P10008 (2008). <http://iopscience.iop.org/article/10.1088/1742-5468/2008/10/P10008/meta>`_
+
