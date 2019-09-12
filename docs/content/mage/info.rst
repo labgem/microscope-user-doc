@@ -1090,23 +1090,18 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **References:**
 
-`Tilmann W., et al. (2015) antiSMASH 3.0 - a comprehensive resource for the genome mining of biosynthetic gene clusters Nucleic Acids Research. Jul 1;43(W1):W237-43. <http://www.ncbi.nlm.nih.gov/pubmed/25948579>`_
+`Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
 
-`Blin K., et al. (2013) antiSMASH 2.0 — a versatile platform for genome mining of secondary metabolite producers.
-Nucleic Acids Research. Jul;41(Web Server issue):W204-12 <http://www.ncbi.nlm.nih.gov/pubmed/23737449>`_
-
-`Medema M.H., et al. (2011) antiSMASH: Rapid identification, annotation and analysis of secondary metabolite biosynthesis gene clusters.Nucleic Acids Research. Jul;39(Web Server issue):W339-46. <http://www.ncbi.nlm.nih.gov/pubmed/21672958>`_
-
-What type of secondary metabolites can antiSMASH 3.0.5 predict?
+What type of secondary metabolites can antiSMASH 5.0.0 predict?
 ---------------------------------------------------------------
+
 * **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, other PKS), Non-ribosomal peptide synthetase
 
-
-* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate, arylpolyene, resorcinol, ladderane, PUFA, linaridin, cyanobactin, glycocin, lassopeptide, sactipeptide, bottromycin, microcin, microviridin, proteusin, blactam, amglyccycl
+* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate, arylpolyene, resorcinol, ladderane, PUFA, linaridin, cyanobactin, glycocin, lassopeptide, sactipeptide, bottromycin, microcin, microviridin, proteusin, blactam, amglyccycl ...
 
 * **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
-How to read antiSMASH 3.0.5 results?
+How to read antiSMASH 5.0.0 results?
 ------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
@@ -1121,10 +1116,9 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 
 **The antiSMASH domains dataset:**
 
-.. image:: img/antiSMASH3_domain.PNG
+.. image:: img/AS5_domain.PNG
 
 * **Type**: domain type
-* **Subtype**: protein type proposed by antiSMASH
 * **Begin**: begin of the match on the sequence
 * **End**: end of the match on the sequence
 * **Score**: BLAST score
