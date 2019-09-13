@@ -4,6 +4,9 @@
 How to explore a Macromolecular System?
 ########################################
 
+.. warning::
+   Documentation on CRISPRCasFinder will be available soon.
+
 The MacSyFinder System visualization allows you to access to a detailled description of a selected Macromolecular System.
 
 .. image:: img/macSy_syst.png
