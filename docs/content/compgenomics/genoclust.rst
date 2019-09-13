@@ -21,8 +21,6 @@ You can consult CheckM results in the :ref:`genome-overview` page.
 
    Microscope Genome Cluster (MICGC) workflow.
 
-
-
 Interface Overview
 ------------------
 
@@ -55,38 +53,55 @@ In order to quickly calculate the pairwise genome distance, we use Mash. Mash ex
 Mash distance strongly correlates with the Average Nucleotide Identity (ANI).
 If :math:`D` denotes the Mash distance then :math:`D \simeq 1 - \text{ANI}`.
 
-
 ANI represents the average nucleotide identity between homologous genomic regions shared by two genomes and offers robust resolution between strains of the same or closely related species (80-100% ANI).
 It closely reflects the traditional microbiological concept of DNA-DNA hybridization relatedness for defining species (:math:`94\% \text{ANI} \simeq70\% \text{DNA-DNA hybridization}`).
+Typically, two bacteria belong to the same species when :math:`\text{ANI} \geq 95\%` (*i.e.* :math:`D \leq 0.05`).
 
-To know now more about Mash, see `here <https://github.com/marbl/Mash>`__.
+To know now more about Mash, see `their website <https://github.com/marbl/Mash>`_.
 
 **Reference:**
 
 1. `Konstantinidis, K. T. & Tiedje, J. M. Genomic insights that advance the species definition for prokaryotes. Proc Natl Acad Sci U S A 102, 2567–2572 (2005). <http://www.pnas.org.insb.bib.cnrs.fr/content/102/7/2567>`_
 2. `Ondov, B. D. et al. Mash: fast genome and metagenome distance estimation using MinHash. Genome Biology 17, 132 (2016). <https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0997-x>`_
 
-
 Tree Construction
 -----------------
 
-A tree is constructed from the Mash distance matrix. This tree is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
+The tree is constructed from the Mash distance matrix.
+It is computed dynamically directly in the browser using a `rapid neighbour joining algorithm <https://github.com/biosustain/neighbor-joining>`_.
 
-This algorithm can assign a negative length to a branch.
-In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`__ for more information).
+This algorithm can assign negative length to a branch.
+In order to avoid that and to keep the total distance between an adjacent pair of terminal nodes unchanged, we set negative branch length to zero and transfer the difference to the adjacent branch (see `here <https://www.sequentix.de/gelquest/help/neighbor_joining_method.htm>`_ for more information).
+
+Note that we insert a virtual organism that is very far from all others organisms when computing the tree.
+The tree is then re-rooted at this outgroup (which is not displayed).
 
 Clustering Genomes
 ------------------
 
-Typically, two bacteria belong to the same species when :math:`\text{ANI} \geq 95\%` (*i.e.* :math:`D \leq 0.05`).
+The goal is to detect groups of genomes (the clusters) that are close together
+(in the sense of the Mash distance) and far from other groups.
 
-In order to construct these species clusters, we remove the pairwise genome distances that don't match this ANI threshold.
-Then we extract communities from that network.
+We use an approach that originates from network science called community detection.
 
-From our tests, the best parameters to reconstruct `Progenome <http://progenomes.embl.de/>`_ species clusters are a threshold of 0.06 for Mash distances  (*i.e.* :math:`\text{ANI} \geq 94\%`), kmer size = 18 and sketch size = 5000.
-We use those parameters.
+The first step is to create a network of genomes.
+The process is as follows:
 
-To detect the communities, we use the `louvain community detection algorithm <https://github.com/taynaud/python-louvain/>`_.
+  * first, all nodes are pairwise connected: the length of the edge is Mash distance between the 2 organisms - see **step 3** on the figure;
+  * second, as we want groups that overlap with traditional species, we remove edges that are longer than a given threshold - see **step 4** on the figure;
+  * third, we use CheckM to remove incomplete or contaminated genomes - see **step 5** on the figure.
+
+The goal of those steps is to produce a biologically relevent network.
+
+Then we extract communities from that network with the `louvain community detection algorithm <https://github.com/taynaud/python-louvain/>`_ - see **step 6** on the figure.
+
+The parameters were chosen to provide the best reconstruction of `Progenome <http://progenomes.embl.de/>`_ species clusters.
+The selected parameters are:
+
+  * Mash distances are computed with kmer size = 18 and sketch size = 5000;
+  * distances above 0.06 (*i.e.* :math:`\text{ANI} \le 94\%`) are removed;
+  * contamination must be below 5% and completeness above 90%;
+  * the resolution parameter used for louvain is 2.
 
 Export
 ------
@@ -95,6 +110,9 @@ By clicking on the "Export" button:
 
   - the tree can be exported in SVG or Newick format
   - the distances can be exported in TSV format (as a matrix or as a pairwise list)
+
+Note that due to limitations of the Newick format, some characters in the strain name (namely ``,``, ``;``, ``:``, ``(`` and ```)``) are not exported.
+To circumvent this, you can choose to replace the strain name by the NCBI taxid when exporting to Newick.
 
 **Reference:**
 
