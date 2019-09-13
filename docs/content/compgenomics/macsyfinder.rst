@@ -4,6 +4,11 @@
 Macromolecular Systems
 ######################
 
+.. warning::
+   Documentation on CRISPRCasFinder will be available soon.
+
+.. Au boulot, Mylène !
+
 What is MacSyFinder?
 -------------------------------------------------------
 
