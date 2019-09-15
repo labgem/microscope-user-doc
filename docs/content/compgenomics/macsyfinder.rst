@@ -79,13 +79,15 @@ What is the 'CRISPR' table?
 
 This table enumerates all CRSIPR and Cas predicted for the selected organism and its replicons.
 
+.. image:: img/ADP1_CRISPRCasFinder.PNG
+
 * **System id**: identifier of the system in the organism
 * **System:	type** of system detected ( CRISPR or Cas)
 * **Replicon name**: identification of the replicon
 * **Replicon type**: chromosome, plasmid or WGS
 * **Begin** /	**End**:	Position of the system on the replicon
 * **Nb spacers / genes**: Number of CRISPR spacers / Number of CAS gene
-* **Consensus repeat / Present gene **: Consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory cas genes
+* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory cas genes
 * **Confidence level**:	Notation level given by CRISPRCasFinder (see more)
 
 How to explore a Macromolecular System?
