@@ -31,7 +31,7 @@ Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macs
 What is CRISPRCasFinder ?
 -------------------------
 
-CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on Vmatch ( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
+CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
 
 .. image:: img/CRISPR_confidence_lvl.PNG
 
@@ -39,8 +39,9 @@ More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-sacla
 
 **Reference:** 
 
-`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research <https://doi.org/10.1093/nar/gky425/>`_.
+`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research <https://doi.org/10.1093/nar/gky425>`_.
 
+`Abouelhoda et al. 2004, Ohlebusch E. Replacing suffix trees with enhanced suffix arrays. J. Discrete Algorithms <https://doi.org/10.1016/S1570-8667(03)00065-0>`_.
 
 How to access to MacSyFinder and CRISPRCasFinder predictions?
 ----------------------------------------------------------
@@ -82,7 +83,7 @@ This table enumerates all CRSIPR and Cas predicted for the selected organism and
 * **Begin** /	**End**:	Position of the system on the replicon
 * **Nb spacers / genes**: Number of CRISPR spacers / Number of CAS gene
 * **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory cas genes
-* **Confidence level**:	Notation level given by CRISPRCasFinder (see more)
+* **Evience level**:	Notation level given by CRISPRCasFinder (see more)
 
 How to explore a Macromolecular System?
 --------------------------------------------------------
