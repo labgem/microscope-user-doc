@@ -4,9 +4,6 @@
 How to explore a Macromolecular System?
 ########################################
 
-.. warning::
-   Documentation on CRISPRCasFinder will be available soon.
-
 The MacSyFinder System visualization allows you to access to a detailled description of a selected Macromolecular System.
 
 .. image:: img/macSy_syst.png
@@ -23,4 +20,18 @@ The table **Genomic objects** provides information regarding the genomic objects
 * **End match**: end position of the match on the genomic object
 
 You can export the genes by clicking on **Export to Gene Cart**.
+
+#########################
+How to explore a CRISPR ?
+#########################
+
+The table **CRISPR Sequences** provides all repeats and spacers containing into the seleted CRISPR :
+
+.. image:: img/CRISPR_pop_up.PNG
+
+* **Sequence type**: 'CRISPR_dr' if the sequence is a direct repeat or 'CRISPR_spacer' if the sequence is a spacer
+* **Begin/End**: Position of the sequence on the replicon	
+* **Length**:	Length of the sequence
+* **Sequence**: Nucleic acid sequence
+
 
