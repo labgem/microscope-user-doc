@@ -4,10 +4,11 @@
 Macromolecular Systems
 ######################
 
-.. warning::
-   Documentation on CRISPRCasFinder will be available soon.
+What type of Macromolecular systems can be detected?
+----------------------------------------------------------
 
-.. Au boulot, Mylène !
+* a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (`Abby SS et al., Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_)
+* CRISPR-Cas systems: Clustered regularly interspaced short palindromic repeats (CRISPR) arrays and their associated Cas (CRISPR-associated) proteins form the CRISPR-Cas system. CRISPR-Cas are sophisticated adaptive immune systems that rely on small RNAs for sequence-specific targeting of foreign nucleic acids such as viruses and plasmids.
 
 What is MacSyFinder?
 --------------------
@@ -30,6 +31,14 @@ Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macs
 What is CRISPRCasFinder ?
 -------------------------
 
+CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on Vmatch ( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), a high index mean that repeats of the CRISPR are very well conserved. Secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
+
+
+
+* Level 1 :  Array made of one to three spacers
+* Level 2 :  EBcon  < 70
+* Level 3 :  EBcon  >=70 and percentage identity of spacers  > 8%
+* Level 4 :  EBcon  >=70 and percentage identity of spacers  =< 8%
 
 
 More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_.
@@ -37,15 +46,6 @@ More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-sacla
 **Reference:** 
 
 _`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research, <https://doi.org/10.1093/nar/gky425/>`_.
-
-
-What type of Macromolecular systems can be detected?
-----------------------------------------------------------
-
-MacSyFinder can detect :
-
-* CRISPR-Cas systems: Clustered regularly interspaced short palindromic repeats (CRISPR) arrays and their associated Cas (CRISPR-associated) proteins form the CRISPR-Cas system. CRISPR-Cas are sophisticated adaptive immune systems that rely on small RNAs for sequence-specific targeting of foreign nucleic acids such as viruses and plasmids.
-* a broad range of secretion systems: T1SS, T2SS,T3SS,T4SS, T5SS, T6SS, T9SS, Flg, T4P, Tad (`Abby SS et al., Sci. Rep. 2016 <https://www.ncbi.nlm.nih.gov/pubmed/26979785>`_)
 
 
 How to access to MacSyFinder and CRISPRCasFinder predictions?
