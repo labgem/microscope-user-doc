@@ -74,10 +74,10 @@ This table enumerates all macromolecular systems predicted for the selected orga
 * **Nb of mandatory missing**: number of mandatory genes of the system not detected in the organism
 * **Nb of accessory present**: number of accessory genes of the system identified in the organism
 
-What is the 'CRISPR' table?
+What is the 'CRISPR' table ?
 --------------------------------------------------------
 
-This table enumerates all CRISPR and Cas predicted for the selected organism and its replicons.
+This table display all CRISPR detected by CRISPRCasFinder and all Cas detected by MacSyFinder. 
 
 .. image:: img/CRISPR_table_ADP1.PNG
 
