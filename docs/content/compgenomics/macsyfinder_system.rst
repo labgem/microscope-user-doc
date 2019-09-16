@@ -29,7 +29,7 @@ The table **CRISPR Sequences** provides all repeats and spacers containing into 
 
 .. image:: img/CRISPR_pop_up.PNG
 
-* **Sequence type**: 'CRISPR_dr' if the sequence is a direct repeat or 'CRISPR_spacer' if the sequence is a spacer
+* **Sequence type**: "CRISPR_dr" if the sequence is a direct repeat or "CRISPR_spacer" if the sequence is a spacer
 * **Begin/End**: Position of the sequence on the replicon	
 * **Length**:	Length of the sequence
 * **Sequence**: Nucleic acid sequence
