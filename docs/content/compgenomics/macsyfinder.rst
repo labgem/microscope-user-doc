@@ -32,7 +32,11 @@ What is CRISPRCasFinder ?
 -------------------------
 
 CRISPRCasFinder is a tool allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on 
-`Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
+`Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate an evidence level with each CRISPR detected using 3 criteria :
+
+* An entropy-based conservation index of repeats (EBcon);
+* The number of spacers ;
+* The overall percentage identity of spacers.
 
 .. image:: img/CRISPR_confidence_lvl.PNG
 
@@ -73,7 +77,7 @@ This table enumerates all macromolecular systems predicted for the selected orga
 What is the 'CRISPR' table?
 --------------------------------------------------------
 
-This table enumerates all CRSIPR and Cas predicted for the selected organism and its replicons.
+This table enumerates all CRISPR and Cas predicted for the selected organism and its replicons.
 
 .. image:: img/ADP1_CRISPRCasFinder.PNG
 
@@ -82,9 +86,9 @@ This table enumerates all CRSIPR and Cas predicted for the selected organism and
 * **Replicon name**: identification of the replicon
 * **Replicon type**: chromosome, plasmid or WGS
 * **Begin** /	**End**:	Position of the system on the replicon
-* **Nb spacers / genes**: Number of CRISPR spacers / Number of CAS gene
-* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory cas genes
-* **Evience level**:	Notation level given by CRISPRCasFinder (see more)
+* **Nb spacers / genes**: Number of CRISPR spacers / Number of Cas genes
+* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory Cas genes
+* **Evidence level**: Evidence level given by CRISPRCasFinder (see more)
 
 How to explore a Macromolecular System?
 --------------------------------------------------------
