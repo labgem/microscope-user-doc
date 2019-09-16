@@ -31,14 +31,7 @@ Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macs
 What is CRISPRCasFinder ?
 -------------------------
 
-CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on Vmatch ( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), a high index mean that repeats of the CRISPR are very well conserved. Secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
-
-
-
-* Level 1 :  Array made of one to three spacers
-* Level 2 :  EBcon  < 70
-* Level 3 :  EBcon  >=70 and percentage identity of spacers  > 8%
-* Level 4 :  EBcon  >=70 and percentage identity of spacers  =< 8%
+CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on Vmatch ( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
 
 
 More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_.
