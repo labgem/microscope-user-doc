@@ -31,7 +31,8 @@ Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macs
 What is CRISPRCasFinder ?
 -------------------------
 
-CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_( a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
+CRISPRCasFinder is a Perl script allowing to identify CRISPR arrays and Cas proteins. The CRISPR detection is based on 
+`Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identify all repeat sequences regularly spaced. CRISPRCasFinder associate a notation level with each CRISPR detected. This evidence level is established using several criteria. Firstly, an index conservation of repeats based on Entropy (EBcon), secondly, the number of spacer and finally the overall percentage identity of this spacers. Four level can be attributed :
 
 .. image:: img/CRISPR_confidence_lvl.PNG
 
@@ -88,4 +89,4 @@ This table enumerates all CRSIPR and Cas predicted for the selected organism and
 How to explore a Macromolecular System?
 --------------------------------------------------------
 
-The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+The :ref: `MacSyFinder System visualization window <macromolecular-system-vizualization>`_ can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
