@@ -79,7 +79,7 @@ What is the 'CRISPR' table?
 
 This table enumerates all CRISPR and Cas predicted for the selected organism and its replicons.
 
-.. image:: img/ADP1_CRISPRCasFinder.PNG
+.. image:: img/CRISPR_table_ADP1.PNG
 
 * **System id**: identifier of the system in the organism
 * **System:	type** of system detected ( CRISPR or Cas)
