@@ -45,7 +45,7 @@ CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 c
 More information about CRISPRCasFinder see `<https://crisprcas.i2bc.paris-saclay.fr/>`_. 
 
 .. Note::
-    Note that in MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
+    In MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
     Cas systems are detected by MacSyFinder.
 
 **References:** 
