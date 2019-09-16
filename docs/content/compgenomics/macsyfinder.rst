@@ -40,7 +40,11 @@ CRISPRCasFinder is a tool allowing to identify CRISPR arrays and Cas proteins. T
 
 .. image:: img/CRISPR_confidence_lvl.PNG
 
-More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_.
+More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_. 
+
+.. Note::
+Note that in MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
+Cas systems are detected by MacSyFinder.
 
 **Reference:** 
 
