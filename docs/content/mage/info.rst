@@ -1043,7 +1043,7 @@ How to read SignalP results?
 * The second column gives the estimated probability (number between 0 and 1) that the sequence contains a signal peptide.
 * The last 2 columns indicate the positions between which the cleavage is supposed to occur.
 
-.. tip:: A signal peptide has a average size of 30 aa.
+.. tip:: A signal peptide has an average size of 30 aa.
 
 =====
 TMHMM
@@ -1070,7 +1070,7 @@ How to read TMHMM results?
 
 The table of results indicates the begin and end positions of detected alpha-helices for the protein sequence. It also gives the location (inside/outside) of the fragments in between the helices.
 
-.. tip:: As protein can be called « membranar » if it contains more than 3 alpha-helices.
+.. tip:: A protein can be called « membranar » if it contains more than 3 alpha-helices.
 
 
 .. _mage_antiSMASH:
