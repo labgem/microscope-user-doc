@@ -721,8 +721,8 @@ These sections give access to the list of syntons which contain homologs to the 
 * from RefSeq for the **Syntonome RefSeq** section
 
 
-How to read the result table
-----------------------------
+How to read Syntonome results?
+------------------------------
 
 .. image:: img/synt.png
 
@@ -801,16 +801,16 @@ UniFIRE
 
 .. image:: img/example_unifire.PNG
 
-What is the UniFIRE ?
----------------------
+What is the UniFIRE?
+--------------------
 
 **UniFire** (the UNIprot Functional annotation Inference Rule Engine) is a tool to apply the UniProt annotation rules. Two set of rule are applied : 
 
 * The **SAAS** rules (Statistical Automatic Annotation System). This rules is generated automatic from expertly annotated entries in UniProtKB/Swiss-Prot.(https://www.uniprot.org/help/saas)
 * The **UniRules** (The Unified Rule) are devised and tested by experienced curators using experimental data from manually annotated entries.(https://www.uniprot.org/help/unirule)
 
-How to read UniFIRE results ?
-------------------------------
+How to read UniFIRE results?
+-----------------------------
 
 
 * **UniRule** : Rule id
@@ -877,8 +877,8 @@ The presence or absence of a MetaCyc metabolic pathway is predicted by the  `Pat
 `P. Karp, S. Paley, and P. Romero "The Pathway Tools Software," Bioinformatics 18:S225-32 2002 <http://www.ncbi.nlm.nih.gov/pubmed/12169551>`_
 
 
-How to read this results?
--------------------------
+How to read MetaCyc results?
+----------------------------
 
 All pathways listed in this table are those predicted as present in this organism. Clicking on the name of a pathway opens its table of reactions content.
 
@@ -1131,53 +1131,59 @@ You can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
 
-=========
+=====
 LipoP
-=========
+=====
 
 
 What is LipoP?
-------------------
+--------------
 
 `LipoP <http://www.cbs.dtu.dk/services/LipoP/>`_ is a method to predict lipoprotein signal peptide. It is based on Hidden Markov Model (HMM) which discriminate lipoproteins (SPaseII-cleaved proteins), SPaseI-cleaved proteins, cytoplasmic proteins and transmembrane proteins. Although LipoP1.0 has been trained on sequences from Gram-negative bacteria only, the following paper (Methods for the bioinformatic identification of bacterial lipoproteins encoded in the genomes of Gram-positive bacteria; O. Rahman, S. P. Cummings, D. J. Harrington and I. C. Sutcliffe; World Journal of Microbiology and Biotechnology 24(11):2377-2382 (2008)) reports that it has good performance on sequences from Gram-positive bacteria also.
-Citation:
+
+**References:**
+
 `Prediction of lipoprotein signal peptides in Gram-negative bacteria. A. S. Juncker, H. Willenbrock, G. von Heijne, H. Nielsen, S. Brunak and A. Krogh. Protein Sci. 12(8):1652-62, 2003 <http://onlinelibrary.wiley.com/doi/10.1110/ps.0303703/abstract>`_
 
-
-How to read LipoP results:
+How to read LipoP results?
+--------------------------
 
 .. image:: img/lipoP.PNG
 
-Type: type of the signal peptide (SPI or SPII)
-Score: detection score
-Margin: difference between the best and the second best score.
-Pos1 and Pos2 indicate the positions between which the cleavage is supposed to occur
+* **Type:** type of the signal peptide (SPI or SPII)
+* **Score:** detection score
+* **Margin:** difference between the best and the second best score.
+* **Pos1** and **Pos2** indicate the positions between which the cleavage is supposed to occur
 
-=========
+=====
 dbCAN
-=========
+=====
 
 
 What is dbCAN?
-------------------
+--------------
 
 `dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family.
-Citations: `Yin Y*, Mao X*, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_
+
+**References:**
+
+`Yin Y, Mao X, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_
 
 
-How to read dbCAN results:
+How to read dbCAN results?
+--------------------------
 
 .. image:: img/dbcan.PNG
 
-CAZy_fam: name of the CAZy family (linked to the corresponding CAZy’s family web page).
-BeginB: position, on the HMM, of the beginning of the alignment between the sequence and the HMM.
-EndB: position, on the HMM, of the end of the alignment between the sequence and the HMM.
-LengthB: Length of the HMM.
-BeginQ: position, on the sequence, of the beginning of the alignment between the sequence and the HMM
-EndQ: position, on the sequence, of the end of the alignment between the sequence and the HMM
-LengthQ: length of the sequence
-Eval: Evalues of the alignment
-Coverage: Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
+* **CAZy_fam:** name of the CAZy family (linked to the corresponding CAZy’s family web page).
+* **BeginB:** position, on the HMM, of the beginning of the alignment between the sequence and the HMM.
+* **EndB:** position, on the HMM, of the end of the alignment between the sequence and the HMM.
+* **LengthB:** Length of the HMM.
+* **BeginQ:** position, on the sequence, of the beginning of the alignment between the sequence and the HMM
+* **EndQ:** position, on the sequence, of the end of the alignment between the sequence and the HMM
+* **LengthQ:** length of the sequence
+* **Eval:** Evalues of the alignment
+* **Coverage:** Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
 
 =========
 Resistome
@@ -1185,7 +1191,7 @@ Resistome
 
 
 What is CARD?
-------------------
+-------------
 
 The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
@@ -1193,7 +1199,7 @@ We compare MicroScope gene against CARD using `RGI <https://card.mcmaster.ca/ana
 
 Resistance Gene Identifier (RGI) integrates ARO, bioinformatics models and molecular reference sequence data to broadly analyze antibiotic resistance at the genome level. This software use different models (CARD Proteins Homologs, CARD Proteins Variants ...) to detect the AMR.
 
-Citations:
+**References:**
 
 `McArthur et al. 2013. The Comprehensive Antibiotic Resistance Database. Antimicrobial Agents and Chemotherapy, 57, 3348-3357. [PMID 23650175] <http://www.ncbi.nlm.nih.gov/pubmed/23650175>`_
 
@@ -1201,7 +1207,7 @@ Citations:
 `Jia et al. 2016. CARD 2017: expansion and model-centric curation of the comprehensive antibiotic resistance database. Nucleic Acid Research. [PMID 27789705] <http://www.ncbi.nlm.nih.gov/pubmed/27789705>`_
 
 
-How to read CARD results:
+How to read CARD results ?
 --------------------------
 
 .. image:: img/CARD_Homologs_annot.PNG
@@ -1227,13 +1233,13 @@ How to read CARD results:
 You can access to the :ref:`CARD Result page <card>` by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 
-==========
+========
 Virulome
-==========
+========
 
 
 What is VirulenceDB?
--------------------------------------------------------
+--------------------
 
 VirulenceDB is a virulence genes database build using three sets of data:
 
@@ -1244,25 +1250,19 @@ VirulenceDB is a virulence genes database build using three sets of data:
 The original virulence factors classification from VFDB has been hierarchically attributed to each gene as frequently as possible, in order to provide a functional interpretation of your results.
 New virulence factors have also been added to VirulenceFinder and Coli_Ref database to describe as best as possible the gene functions.
 
-|
-
 Know more about `VFDB <http://www.mgc.ac.cn/VFs/>`_
 
 Know more about `VirulenceFinder <https://cge.cbs.dtu.dk/services/VirulenceFinder/>`_
 
-|
-
 **References:**
 
-|
 
 `Chen LH, Zheng DD, Liu B, Yang J and Jin Q, 2016. VFDB 2016: hierarchical and refined dataset for big data analysis-10 years on. Nucleic Acids Res. 44(Database issue):D694-D697. <https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkv1239>`_
 
-`Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM.
-J. Clin. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli.  Micobiol. 2014. 52(5): 1501-1510. <http://jcm.asm.org/content/52/5/1501.full>`_
+`Joensen KG, Scheutz F, Lund O, Hasman H, Kaas RS, Nielsen EM, Aarestrup FM. Real-time whole-genome sequencing for routine typing, surveillance, and outbreak detection of verotoxigenic Escherichia coli. J. Clin. Micobiol. 2014. 52(5): 1501-1510. <http://jcm.asm.org/content/52/5/1501.full>`_
 
-How to read the table of results?
-----------------------------------------
+How to read Virulome results?
+-----------------------------
 
 •	Label / Gene / Product : Label, name of the gene and its product predicted by the Microscope platform
 •	Virulence gene description : Vir Organism, Vir Gene, VF name, VF classes, VF pathotypes, VF structure, VF function, VF characteristic, VF mechanism
@@ -1313,8 +1313,9 @@ Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/
 
 
 
-How to read the results?
--------------------------------------------------------
+How to read IntegronFinder results?
+-----------------------------------
+
 The **IntegronFinder** dataset appears if the genomic object correspond to an integron integrase. The table shows :
 
 * **Integron id**: Id number of the integron to which belongs the integrase
@@ -1325,7 +1326,7 @@ The **IntegronFinder** dataset appears if the genomic object correspond to an in
 .. image:: img/integronFinder_integrase.png
 
 How to explore Integron clusters?
---------------------------------------------------------
+---------------------------------
 
 The :ref:`IntegronFinder cluster visualization <integron-cluster-vizualization>` window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
 
@@ -1335,7 +1336,7 @@ MacSyFinder
 
 
 What is MacSyFinder?
--------------------------------------------------------
+--------------------
 
 Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
 
@@ -1347,8 +1348,9 @@ Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfind
 `Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
 	
 
-How to read the results?
--------------------------------------------------------
+How to read MacSyFinder results?
+--------------------------------
+
 The **MacSyfinder** dataset appears if the genomic object correspond to a macromolecular system predicted by MacSyFinder The table shows :
 
 * **System id**: Id number of the macromolecular system to which belongs the gene
@@ -1365,6 +1367,6 @@ The **MacSyfinder** dataset appears if the genomic object correspond to a macrom
 
 
 How to explore a Macromolecular System?
---------------------------------------------------------
+---------------------------------------
 
 The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
