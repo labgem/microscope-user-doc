@@ -51,7 +51,7 @@ What about the Dataset?
 The available dataset list is project-specific, even if the main part of dataset list is common to all projects. Each dataset corresponds to a specific type of data in our database, PkGDB.
 
 Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.).
-Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia coli, Bacillus subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMhmm results, etc.).
+Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia coli, Bacillus subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMHMM results, etc.).
 In the last two cases, the functional annotation of the candidate genes may differ from those in the selected hit.
 
 The use of a given dataset over another one will depend of the kind of data the annotator looks for.
@@ -96,7 +96,7 @@ The common dataset are these ones:
 * **Essential gene results**: will return genes of your selected sequence matching Essential gene entries
 * **PsortB Results**: will return genes of your selected sequence matching PSortB entries
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
-* **TMhmm Results**: will return genes of your selected sequence matching TMhmm entries
+* **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries
 * **Coiled Coil Results**: will return genes of your selected sequence that code for proteins with a coiled coil structure
 * **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s)
 * **antiSMASH results**: will return genes of your selected sequence being part of a biosynthetic gene cluster predicted by antiSMASH

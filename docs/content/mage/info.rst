@@ -1046,10 +1046,10 @@ How to read SignalP results?
 .. tip:: A signal peptide has a average size of 30 aa.
 
 =====
-TMhmm
+TMHMM
 =====
 
-What is TMhmm?
+What is TMHMM?
 --------------
 
 TMHMM (version 2.0c) is a program for the prediction of transmembrane helices based on a hidden Markov model. The program reads a fasta-formatted protein sequence and predicts locations of transmembrane, intracellular and extracellular regions.
@@ -1063,7 +1063,7 @@ TMHMM (version 2.0c) is a program for the prediction of transmembrane helices ba
 `Krogh, A., et al. (2001) Prediction transmembrane protein topology with a hidden markov model: application to complete genomes. J. Mol. Biol., 305, 567-580 <http://www.ncbi.nlm.nih.gov/pubmed/11152613>`_
 
 
-How to read TMhmm results?
+How to read TMHMM results?
 --------------------------
 
 .. image:: img/tmhmm.png
