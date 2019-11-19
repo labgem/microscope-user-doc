@@ -13,10 +13,10 @@ How to access to the Gene Annotation Editor?
 
 There are two ways of accessing the Gene Annotation Editor:
 
-* 1- click on a genomic object on the genomic map
-* 2- click on a label in the table of genomic objects which is below the genomic map
+1. click on a genomic object on the genomic map
+2. click on a label in the table of genomic objects which is below the genomic map
 
-NB : requesting information via the GetInfo button only calls up a read-only Gene Annotation Editor window.
+.. important:: requesting information via the GetInfo button only calls up a read-only Gene Annotation Editor window.
 
 
 Overview of the Gene Annotation Editor
@@ -115,21 +115,21 @@ How to fill the "Mutation" field?
 What are the different "Product type" categories?
 -------------------------------------------------
 
-* u : unknown
-* n : RNA
-* e : enzyme
-* f : factor
-* r : regulator
-* c : carrier
-* t : transporter
-* rc : receptor
-* s : structure
-* l : leader peptide
-* m : membrane component
-* lp : lipoprotein
-* cp : cell process
-* ph : phenotype
-* h : extrachromosomal origin
+* **u :** unknown
+* **n :** RNA
+* **e :** enzyme
+* **f :** factor
+* **r :** regulator
+* **c :** carrier
+* **t :** transporter
+* **rc :** receptor
+* **s :** structure
+* **l :** leader peptide
+* **m :** membrane component
+* **lp :** lipoprotein
+* **cp :** cell process
+* **ph :** phenotype
+* **h :** extrachromosomal origin
 
 How to use the "MetaCyc reaction" field?
 ----------------------------------------
@@ -139,9 +139,9 @@ This field allows user to link one ore more metabolic reactions from MetaCyc (Bi
 .. image:: img/editor4.png
 
 
-* a - Reactions presented at the top of the field have been manually curated by an annotator.
-* b - A multiple selection list gives quick access to all predicted (unselected) or curated (selected) reactions linked to this gene.
-* c - A search box allows one to quickly access MetaCyc reactions corresponding to either EC numbers from previous EC number field or a given keyword.
+* **a:** Reactions presented at the top of the field have been manually curated by an annotator.
+* **b:** A multiple selection list gives quick access to all predicted (unselected) or curated (selected) reactions linked to this gene.
+* **c:** A search box allows one to quickly access MetaCyc reactions corresponding to either EC numbers from previous EC number field or a given keyword.
 
 **Search box :**
 
@@ -167,7 +167,7 @@ And in some cases :
 
 * If the reaction has no known coding genes but belongs to a pathway predicted to exist in the current organism, a clickable link to the MetaCyc pathway description is given (eg. fourth row of the example).
 
-The “Reset” button deletes all results
+The “Reset” button deletes all results.
 
 
 How to use the "Rhea reaction" field?
@@ -192,10 +192,10 @@ The keyword search will look for all Rhea reactions having an identifier, a name
 
 Rhea reactions are present in 4 exemplary according to the direction :
 
-* bidirectional : <=>
-* left to right : =>
-* right to left : <=
-* unknown (master reaction) : <?>
+* **bidirectional :** <=>
+* **left to right :** =>
+* **right to left :** <=
+* ***unknown (master reaction) :** <?>
 
 .. image:: img/editor7.png
 
@@ -219,17 +219,17 @@ For each reaction in the result set, check-box allows to add a reaction from the
 What are the different "Localization" categories?
 -------------------------------------------------
 
-* 1 : Unknown
-* 2 : Cytoplasmic
-* 3 : Fimbrial
-* 4 : Flagellar
-* 5 : Inner membrane protein
-* 6 : Inner membrane-associated
-* 7 : Outer membrane protein
-* 8 : Outer membrane-associated
-* 9 : Periplasmic
-* 10 : Secreted
-* 11 : Membrane
+* **1 :** Unknown
+* **2 :** Cytoplasmic
+* **3 :** Fimbrial
+* **4 :** Flagellar
+* **5 :** Inner membrane protein
+* **6 :** Inner membrane-associated
+* **7 :** Outer membrane protein
+* **8 :** Outer membrane-associated
+* **9 :** Periplasmic
+* **10 :** Secreted
+* **11 :** Membrane
 
 .. _mage-bioprocess:
 
@@ -280,14 +280,14 @@ This information is not given by the automatic functional annotation procedure, 
 
 The different classes are:
 
-* **1a : Function from experimental evidences in the studied strain**
-* **1b : Function from experimental evidences in the studied species**
-* **1c : Function from experimental evidences in the studied genus**
-* **2a : Function from experimental evidences in other organisms**
-* **2b : Function from indirect experimental evidences (e.g. phenotypes)**
-* **3 : Putative function from multiple computational evidences**
-* **4 : Unknown function but conserved in other organisms**
-* **5 : Unknown function**
+* **1a :** Function from experimental evidences in the studied strain
+* **1b :** Function from experimental evidences in the studied species
+* **1c :** Function from experimental evidences in the studied genus
+* **2a :** Function from experimental evidences in other organisms
+* **2b :** Function from indirect experimental evidences (e.g. phenotypes)
+* **3 :** Putative function from multiple computational evidences
+* **4 :** Unknown function but conserved in other organisms
+* **5 :** Unknown function
 
 How to choose the "Class" annotation category?
 ----------------------------------------------
