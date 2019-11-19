@@ -28,7 +28,7 @@ The Gene Annotation Editor window is made of 4 sections:
 
 * a **toolbar** that allows access to different functionalities
 * the **current annotation** of the genomic object. This section can be modified by the annotator (with sufficient rights).
-* the **primary annotation** of the genomic object. It correspond to the MicroScope pipeline automatic annotation (if it is a first annotation) or to the databank annotation (if it is a reannotation project).
+* the **primary annotation** of the genomic object. It corresponds to the MicroScope pipeline automatic annotation (if it is a first annotation) or to the databank annotation (if it is a reannotation project).
 * the **Method results** section. This section gives an access to the results obtained by the different tools used for the syntactic and functional annotation process.
 
 
@@ -39,13 +39,14 @@ How to use the Gene Annotation Editor toolbar?
 
 It contains several buttons allowing access to different functionalities:
 
-* the sequence (nucleic and protein) of the genomic object
-* the annotation history of the genomic object
-* **5’/3’**: the sequence (nucleic and protein) of the genomic object
+* the first button allows to open the genomic object in the viewer
+* the second button allows to access the sequence (nucleic and protein) of the genomic object
+* the third button allows to access the annotation history of the genomic object
+* **5’/3’**: the nucleic sequence of the genomic object + the nucleic context
 * **TrEMBL alignments**: visualisation of the alignments with TrEMBL best hits
 * **SwissProt alignments**: visualisation of the alignments with SwissProt best hits
 * **Phyloprofile**: this tool provides a list of all CDSs (from all replicons) that have the same phylogenetic profile (presence/absence of homologue in others species) than the current genomic object. Note: query can be slow.
-* **PubMed**: this functionality opens a new window that shows the references that have been linked to this genomic object on PubMed
+* **PubMed**: this functionality opens a new window that shows the references that have been linked to this genomic object on PubMed (this button is not displayed if no reference are linked to this Genomic Object)
 * **KEGG**: this functionality opens the KEGG description corresponding to the annotated EC number(s)
 * **Brenda**: this functionality opens the Brenda entry corresponding to the annotated EC number(s)
 * **MicroCyc**: this functionality opens a new window showing information related to the genomic object in the MicroCyc database
@@ -178,9 +179,9 @@ This field allows user to link one ore more metabolic reactions from **Rhea** to
 .. image:: img/editor6.png
 
 
-* a - Reactions presented at the top of the field have been manually curated by an annotator.
-* b - A multiple selection list gives quick access to all curated reactions linked to this gene.
-* c - A search box allows one to quickly access Rhea reactions corresponding to either EC numbers from previous EC number field or a given keyword.
+* **a:** Reactions presented at the top of the field have been manually curated by an annotator.
+* **b:** A multiple selection list gives quick access to all curated reactions linked to this gene.
+* **c:** A search box allows one to quickly access Rhea reactions corresponding to either EC numbers from previous EC number field or a given keyword.
 
 **Search box :**
 
@@ -213,7 +214,7 @@ The “Reset” button deletes all results
 
 **How to link a new reaction :**
 
-For each reaction in the result set, check-box allows to add a reaction from the result set to the select element. All reactions selected in the multiple selection list will be saved as validated and linked to this gene. Unselecting a reaction in this list will remove this link from the curated data.
+For each reaction in the result set, check-box allows to add a reaction from the result set to the selected element. All reactions selected in the multiple selection list will be saved as validated and linked to this gene. Unselecting a reaction in this list will remove this link from the curated data.
 
 
 What are the different "Localization" categories?
@@ -252,7 +253,7 @@ This functional classification corresponds to the MultiFun classification which 
 This field is optionally filled in during the expert annotation process.
 
 
-How to use the "PubmedID" field?
+How to use the "PubMedID" field?
 --------------------------------
 
 The PubMedID or PMID correspond to the index of a publication on the PubMed section of the NCBI website. You can fill this field when you want to link a publication to your annotation. If you want to enter several publications, you simply have to write the PMIDs separated by commas.
@@ -261,7 +262,7 @@ You will find the PMID of a publication directly on Pubmed as shown on the figur
 
 .. image:: img/editor3.png
 
-If this field is filled you will have a direct access to the publications on PubMed by clicking on the **Pubmed** button on top of the Gene annotation editor window.
+If this field is filled you will have a direct access to the publications on PubMed by clicking on the **PubMed** button on top of the Gene annotation editor window.
 
 
 How to use the "Additional data" field?
@@ -411,9 +412,9 @@ This menu gives the beginning and the end of the gene sequence according to diff
 
 .. image:: img/start.png
 
-* **Strand**: indicates if the CDS is on the direct strand (D) or on the reverse strand (R).
-* **Begin**: give the leftmost beginning of the CDS according to the expert or automatic annotation
-* **End**: give the ending of the CDS according to the expert or automatic annotation
+* **Strand**: indicates if the CDS is on the direct strand (D) or on the reverse strand (R)
+* **Begin**: give the leftmost beginning of the CDS according to the expert or automatic annotations
+* **End**: give the ending of the CDS according to the expert or automatic annotations
 * **AMIGene Start**: gives the start according to AMIGene
 * **AMIGene Lpcod**: gives the coding probability on the length End-Begin +1 according to AMIGene
 * **AMIGene Apcod**: gives the length End-AMstart +1 according to AMIGene
@@ -507,9 +508,9 @@ E. coli K12
 
 *In progress*
 
-This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli K12*, if any.
+This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Escherichia coli* K12, if any.
 
-This dataset is a useful reference since E. coli is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
+This dataset is a useful reference since *E. coli* is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
 
 .. tip:: This dataset can help you to complete your expert annotation.
 
@@ -563,7 +564,7 @@ B. subtilis
 
 This menu indicates the best BLAST hit for the current Genomic Object against the genome of *Bacillus subtilis*, if any.
 
-This dataset is a useful reference since B. subtilis is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
+This dataset is a useful reference since *B. subtilis* is a very well known bacteria, with a carefully annotated genome and large quantities of experimental data and publications are available.
 
 .. tip:: This dataset can help you to complete your expert annotation.
 
@@ -582,7 +583,7 @@ How to read the result table?
 * **Product type**: Description of the product type of the protein
 * **BioProcess**: Functional categories associated with the protein using the **BioProcess** Functional classification
 * **Reaction**: If any, gives the reactions implying the database protein (reactions given by Rhea and MetaCyc)
-* **Localization**: Cellular localisation of the protein
+* **Localization**: Cellular localization of the protein
 * **maxLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **minLrap**: see :ref:`BLAST results <expert_blast_results>`
 * **Ident%**: Percentage of identity between the studied protein and the database protein
@@ -695,7 +696,7 @@ How to read the result table?
 * **OrderB**: see :ref:`BLAST results <expert_blast_results>`
 * **Roles**: Functional categories associated with the protein using the **Roles** functional classification
 * **ECnumber**: EC number associated with the protein, if any
-* **Localization**: Cellular localisation of the protein
+* **Localization**: Cellular localization of the protein
 * **BioProcess**: Functional categories associated with the protein using the **BioProcess** functional classification
 * **Product type**: Description of the product type of the protein
 * **PubMedId**: PubMed references linked to the annotation of the protein
@@ -1166,7 +1167,7 @@ dbCAN
 What is dbCAN?
 --------------
 
-`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describe the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN propose an Hidden Markov Model (HMM) for each CAZy family.
+`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN proposes an Hidden Markov Model (HMM) for each CAZy family.
 
 **References:**
 
