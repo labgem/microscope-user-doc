@@ -1011,12 +1011,12 @@ How to read InterProScan results?
 
 
 * **IP id**: Identifier of the InterPro entry. Click on it to access the full description of the InterPro entry.
-* **Method**: Method used to obtain the result. It corresponds to one of the member databases.
-* **Method id**: Identifier of the entry in the method that generated the result. Click on it to access the full description of the entry.
-* **Method Name**: Name associated with the entry by the method.
-* **Begin**: Begin of the match on the sequence (if applicable).
-* **End**: End of the match on the sequence (if applicable).
-* **maxLrap**: See :ref:`BLAST results <expert_blast_results>` (if applicable).
+* **Method**: Method used to obtain the result. It corresponds to one of the member database methods of InterPro.
+* **Method id**: Identifier of the method entry that generated the result. Click on it to access the full description of the method entry.
+* **Method Name**: Name of the method entry.
+* **Begin**: Beginning of the match on the query sequence.
+* **End**: End of the match on the query sequence.
+* **maxLrap**: Alignment coverage on the query sequence. See :ref:`BLAST results <expert_blast_results>`.
 * **Eval/Score**: E-value or score of the match (if applicable).
 * **IP name**: Name of the InterPro entry.
 * **IP type**: Type of the InterPro entry.
