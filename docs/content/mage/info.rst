@@ -1010,15 +1010,18 @@ How to read InterProScan results?
 .. image:: img/inter.png
 
 
-* **IP id**: Identifier of the InterPro family. Click on it to access to the full description of the InterPro entry.
-* **Method**: Method used in obtaining the result. It corresponds to one of the member databases.
-* **Method id**: Identifier of the member database family that generated the result. Click on it to access to the full description of the family.
-* **Method description**: Generic name associated with the InterPro family description
-* **Begin**: Begin of the match on the sequence
-* **End**: End of the match on the sequence
-* **Eval**: E value
-* **IP description**: Description of the InterPro family
-* **IP GO**: Gene Ontology terms associated with the InterPro family
+* **IP id**: Identifier of the InterPro entry. Click on it to access the full description of the InterPro entry.
+* **Method**: Method used to obtain the result. It corresponds to one of the member databases.
+* **Method id**: Identifier of the entry in the method that generated the result. Click on it to access the full description of the entry.
+* **Method Name**: Name associated with the entry by the method.
+* **Begin**: Begin of the match on the sequence (if applicable).
+* **End**: End of the match on the sequence (if applicable).
+* **maxLrap**: See :ref:`BLAST results <expert_blast_results>` (if applicable).
+* **Eval/Score**: E-value or score of the match (if applicable).
+* **IP name**: Name of the InterPro entry.
+* **IP type**: Type of the InterPro entry.
+* **IP description**: Description of the InterPro entry.
+* **Gene Ontology**: Gene Ontology terms associated with the InterPro entry.
 
 =======
 SignalP
