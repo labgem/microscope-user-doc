@@ -183,7 +183,7 @@ The “Data” button allows the users to download formatted data. To read and p
 
 **R commands**::
 
-	data<-read.table("boxplot.txt", sep="\t", header=TRUE, check.names=FALSE) 
+	data<-lapply(strsplit(readLines("boxplot_core.txt"), "\t"), as.integer)
 	boxplot(data)
 
 Venn Diagram (Organism number less than 6)
