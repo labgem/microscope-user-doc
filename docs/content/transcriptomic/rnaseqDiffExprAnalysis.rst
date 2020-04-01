@@ -7,7 +7,9 @@ RNASeq Differential Expression Analysis
 How to read Differential Expression Analysis interface?
 -------------------------------------------------------
 
-This tool evaluates the difference in expression level of genes for two experimental conditions and highlights those for which this difference is statistically significant. Results can be obtained by following 6 steps, described below:
+This page allows to display and interpret the difference in expression level of genes for two (or more) experimental conditions and highlights those for which this difference is statistically significant.
+Results can be obtained by following 6 steps, described below:
+
 
 .. image:: img/diff1.png
 
