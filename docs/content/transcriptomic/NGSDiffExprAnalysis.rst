@@ -8,10 +8,10 @@ How to read Differential Expression Analysis interface?
 
 This page allows to display the difference in expression level of genes for two (or more) experimental conditions, highlights those for which this difference is statistically significant and it offers tools to interpret the results.
 
-**The differential analysis is computed by DESeq tool.
-Before the 5th November 2019 DESeq v1.4.1 was used.
-Since this date DESeq2 v1.22.2 is used.**
-
+.. warning::
+  The differential analysis is computed by DESeq.
+  Before 5th November 2019 DESeq v1.4.1 was used.
+  Since this date DESeq2 v1.22.2 is used.
 
 Results can be obtained by following 6 steps, described below:
 
@@ -22,13 +22,13 @@ Results can be obtained by following 6 steps, described below:
 * **3**. If several choices are available, you can choose the experimental protocol.
 * **4**. The *p-value adjusted* (padj) column contains the p-values, adjusted for multiple testing with the Benjamini-Hochberg procedure (see the standard R function p.adjust), which controls false *discovery rate* (FDR) . It’s possible to restrict the result for the ones which are under a fixed FDR cut-off. *Example : A FDR adjusted p-value (or q-value) of 0.05 implies that 5% of significant tests will result in false positives.*
 * **5**. Select at least one B condition to compare to A condition (which will be used as reference).
-* **6**. Graphical Option :
+* **6**. Graphical Options :
 
 	* Choose to have all the fields of the result table or a light version. The fields will be fully described in the next section.
-	* If several B conditions are chosen, the fixed FDR cut-off can be fixed in all comparisons or in at least one comparisons for each gene.
+	* If several B conditions are chosen, the fixed FDR cut-off can be fixed in all comparisons or in at least one comparison for each gene.
 
 How to read the Results ?
--------------------------------
+-------------------------
 
 The differential analysis results are divided in 3 sections:
 
@@ -46,13 +46,13 @@ More in detail:
 	Below, an horizontal bar chart display global statistics for the selected comparison(s).
 
 		* **Total number of Genomic Objects (GO type)** = number of Genomic Objects from the analysis according to the GO type restriction of the analysis form.
-		* **Total number of significant DEG (FDR cut-off)** = number of significant Differentially Expressed Genes according to the FDR cut-off restriction of thea nalysis form.	
+		* **Total number of significant DEG (FDR cut-off)** = number of significant Differentially Expressed Genes according to the FDR cut-off restriction of the analysis form.	
 		* **Number of filtered significant DEG (abs(L2FoldChange))** = number of significant Differentially Expressed Genes according to the abs(L2FoldChange) cut off of the analysis form.
 			(Note that these genes are those displayed in the result table below).
 		* **Number of over-expressed genes** = Number of over-expressed genes from the third point.
 		* **Number of under-expressed genes** = Number from under-expressed genes from the third point.
 			
-		The **Export bar chart to SVG** button allows to save the plot as svg file.	
+		The **Export bar chart to SVG** button allows to save the plot in the SVG format.	
 
 	**Note that when several comparisons are selected, a list allows the user to choose for each one the corresponding bar chart.**
 
@@ -62,10 +62,10 @@ More in detail:
 		The MA-plot is a plot of log2 Fold Change (~expression level ratio between conditions) against the log2 of mean normalized count (~expression level).
 		It provides a global and useful overview of the Differentially Expressed Genes for a comparison.
 
-			In orange, significant differentially expressed genes acccording to the FDR cut-off constraint of the selection form.
-			In blue, non significant genes acccording to the FDR cut-off constraint of the selection form.
+			In orange, significant differentially expressed genes according to the FDR cut-off constraint of the selection form.
+			In blue, non significant genes according to the FDR cut-off constraint of the selection form.
 
-			In clear color (orange or blue), the filtered genes according to abs(L2FoldChange) constraint of the selection form.
+			In clear colour (orange or blue), the filtered genes according to abs(L2FoldChange) constraint of the selection form.
 			Note that significant genes could be filtered out.
 		
 			Mouse over a gene in the MA-plot magnifies the point representing it and displays additional information about the gene.
@@ -84,7 +84,7 @@ More in detail:
 		
 		Click on a gene of the MA-plot locks the gene and allows to display additional information about it in the Counts plot for each experiment when mouse over.
 			* **Label** = Label of the selected gene.
-			* **Replicate** = Name of the experiment (replicate of the corresponding experimentl condition).
+			* **Replicate** = Name of the experiment (replicate of the corresponding experimental condition).
 			* **Normalized count** = Gene count after normalization.
 			* **Raw count** = Raw read counts of the gene.
 			
@@ -96,15 +96,14 @@ More in detail:
 		
 		Click on row in the differential expressed genes table highlight its information row, selects and locks the corresponding point in the MA-plot then displays its Counts plot.
 		
-		You can also download the two plots (MA-plot and Counts plot) in svg format.
+		You can also download the two plots (MA-plot and Counts plot) in the SVG format.
 		
 		Note that when several comparisons are selected, a list allows the user to choose the plots to display.
-
 
 	
 **B - The second part of the results is the table of the significant Differentially Expressed Genes.**
 
-This table is the central part of the result page and displays information about the significant Differentially Expressed Genes after filtering by the constraints of selection form.
+This table is the central part of the result page and displays information about the significant Differentially Expressed Genes after filtering by the constraints of the selection form.
 
 **Case 1 : One B condition selected.**
 
@@ -193,48 +192,50 @@ Note that if several comparisons are selected, only the first one can be save in
 		* **gene fraction in class** = Fraction of genes associated with an eggNOG functional category from all the current Genomic Object in the genome with the same functional category. 
 		* **% of genes in class** = Percentage of the previous result.
 
-Tips: the eggNOG functional categories:
-
-
-| INFORMATION STORAGE AND PROCESSING
-|	[J] Translation, ribosomal structure and biogenesis
-|	[A] RNA processing and modification
-|	[K] Transcription
-|	[L] Replication, recombination and repair
-|	[B] Chromatin structure and dynamics
-
-| CELLULAR PROCESSES AND SIGNALING
-|	[D] Cell cycle control, cell division, chromosome partitioning
-|	[Y] Nuclear structure
-|	[V] Defense mechanisms
-|	[T] Signal transduction mechanisms
-|	[M] Cell wall/membrane/envelope biogenesis
-|	[N] Cell motility
-|	[Z] Cytoskeleton
-|	[W] Extracellular structures
-|	[U] Intracellular trafficking, secretion, and vesicular transport
-|	[O] Posttranslational modification, protein turnover, chaperones
-
-| METABOLISM
-|	[C] Energy production and conversion
-|	[G] Carbohydrate transport and metabolism
-|	[E] Amino acid transport and metabolism
-|	[F] Nucleotide transport and metabolism
-|	[H] Coenzyme transport and metabolism
-|	[I] Lipid transport and metabolism
-|	[P] Inorganic ion transport and metabolism
-|	[Q] Secondary metabolites biosynthesis, transport and catabolism
-
-| POORLY CHARACTERIZED
-|	[R] General function prediction only
-|	[S] Function unknown
+.. tip:: the eggNOG functional categories:
+  
+  | INFORMATION STORAGE AND PROCESSING
+  |	[J] Translation, ribosomal structure and biogenesis
+  |	[A] RNA processing and modification
+  |	[K] Transcription
+  |	[L] Replication, recombination and repair
+  |	[B] Chromatin structure and dynamics
+  
+  | CELLULAR PROCESSES AND SIGNALING
+  |	[D] Cell cycle control, cell division, chromosome partitioning
+  |	[Y] Nuclear structure
+  |	[V] Defense mechanisms
+  |	[T] Signal transduction mechanisms
+  |	[M] Cell wall/membrane/envelope biogenesis
+  |	[N] Cell motility
+  |	[Z] Cytoskeleton
+  |	[W] Extracellular structures
+  |	[U] Intracellular trafficking, secretion, and vesicular transport
+  |	[O] Posttranslational modification, protein turnover, chaperones
+  
+  | METABOLISM
+  |	[C] Energy production and conversion
+  |	[G] Carbohydrate transport and metabolism
+  |	[E] Amino acid transport and metabolism
+  |	[F] Nucleotide transport and metabolism
+  |	[H] Coenzyme transport and metabolism
+  |	[I] Lipid transport and metabolism
+  |	[P] Inorganic ion transport and metabolism
+  |	[Q] Secondary metabolites biosynthesis, transport and catabolism
+  
+  | POORLY CHARACTERIZED
+  |	[R] General function prediction only
+  |	[S] Function unknown
 
 
 **3** - The tab **MicroCyc Pathways** shows information about the metabolic pathway matching the differential expressed genes of the analysis.
 
-MicroCyc is a collection of microbial Pathway/Genome Databases (PGDBs) which are created in the context of the MicroScope projects. They are supported by the Pathway tools software developed by Peter Karp and his team at SRI international. These PGDBs were generated using the PathoLogic module which computes an initial set of pathways by comparing a genome annotations to the metabolic reference database MetaCyc.
+MicroCyc is a collection of microbial Pathway/Genome Databases (PGDBs) which are created in the context of the MicroScope project.
+They are supported by the Pathway tools software developed by Peter Karp and his team at SRI international.
+These PGDBs were generated using the PathoLogic module which computes an initial set of pathways by comparing genome annotation to the metabolic reference database MetaCyc.
 
-For each studied genome, the annotation data is extracted from our Prokaryotic Genome DataBase (PkGDB) which benefit both the (re)annotation process performed in our group (AGC), the enzymatic function prediction computed with the PRIAM software, and the expert work for functional annotation made by a various community of biologists using the MaGe system. These automatically generated PGDBs (Tier3) are updated every day.
+For each studied genome, the annotation data is extracted from our Prokaryotic Genome DataBase (PkGDB) which benefits from the (re)annotation process performed in our group (LABGeM), from the enzymatic function prediction computed with the PRIAM software and from the expert work for functional annotation made by a various community of biologists using MicroScope.
+These automatically generated PGDBs (Tier3) are updated every day.
 
 * **MoveTo** = view the gene in the MaGe viewer.
 * **Label** = gene label.
@@ -243,6 +244,7 @@ For each studied genome, the annotation data is extracted from our Prokaryotic G
 * **EC number** = specify enzyme-catalyzed reactions.
 * **MetaCyc Reaction** = Metacyc Reaction name.
 * **Reaction Status** = annotation status of the Metacyc Reaction. 
-* **Pathway** = Metacyc Metabolica Patway associated with the Reaction.
+* **Pathway** = Metacyc Metabolic Pathway associated with the Reaction.
 * **Pathway Class** = Pathway class name.
 * **log2 fold change** = shrinked differential expression ratio in base 2.
+
