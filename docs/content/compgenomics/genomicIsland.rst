@@ -25,7 +25,7 @@ In addition, two compositional methods are also used to capture other kinds of s
 We associate an IVOM or a SIGI-HMM region with a RGP if these regions overlap over at least 50% of the smallest one.
 Those regions are called SIGIVOM regions.
 
-GC deviation is also computed.
+GC percent deviation is also computed.
 
 The graphical interfaces associated with this tool combined with the comparative genomic context available in MaGe are useful to explore in detail the predicted regions.
 Consensus regions between comparative and compositional results can be viewed and explored.
@@ -38,53 +38,49 @@ How to read the interface?
 * **item A**: use the «Change» button to set the query genome that will be used for the comparison.
               The current genome is displayed at the top of the window.
 
-* **item B**: list of organisms in PkGDB (you can choose one or several organisms).
+* **item B**: list of genomes in PkGDB (you can choose one or several genomes).
 
-* **item C**: list of RefSeq organisms (you can choose one or several organisms).
+* **item C**: list of RefSeq genomes (you can choose one or several genomes).
 
 * **item D**: percentage of genes conserved in synteny with the query genome.
 
-* **item E**: compositional results availability :
+* **item E**: compositional results availability:
 
-	* **green** : Alien Hunter (IVOM) or SIGI-HMM results are available for the query genome.
-	* **red** : Alien Hunter (IVOM) or SIGI-HMM results are not available for the query genome.
+	* **green**: Alien Hunter (IVOM) or SIGI-HMM results are available for the query genome.
+	* **red**: Alien Hunter (IVOM) or SIGI-HMM results are not available for the query genome.
 
-* **item F**: when one or several organisms of PkGDB and/or RefSeq have been chosen click here to launch the comparison.
+* **item F**: when one or several genomes of PkGDB and/or RefSeq have been chosen click here to launch the comparison.
 
-.. tip:: Try to choose related organisms to avoid too much rearrangements from distant species (use item D).
-	 The predicted regions depend on the reference organisms selected for comparison.
-	 If you select phylogenetically unrelated organisms in term of synteny the predicted regions will then not only belong to flexible gene pool (HGT) but from taxon specific regions.
+.. tip:: Try to choose related genomes to avoid too much rearrangements from distant species (use item D).
+	 The predicted regions depend on the reference genomes selected for comparison.
+	 If you select phylogenetically unrelated genomes in term of synteny the predicted regions will then not only belong to flexible gene pool (HGT) but from taxon specific regions.
 
 
-Results : circular view
------------------------
+Results: RGP prediction
+------------------------
 
 .. image:: img/RGPFinder.PNG
 
 .. image:: img/RGPFinder2.PNG
 
-* **item A**: query organism information.
+* **item A**: query genome information.
 
 * **item B**: number of predicted RGPs.
 
 * **item C**: navigation panel:
 
 	* **New analysis**: return to the main page of the tool.
-	* **Compared Organisms details**: display the name of the reference organisms.
+	* **Compared Organisms details**: display the name of the reference genomes.
 	* **Predicted SIGI Regions table**: display SIGI-HMM predicted regions.
 	* **Predicted IVOM Regions table**: display Alien Hunter/IVOM regions.
-	
-* **item D**: circular view legend:
+
+* **item D**: legend of the CGView representation:
 
 	* **pink**: tRNA positions.
-	* **black**: predicted RGPs. Note that the RGP positions are the extension of the comparisons between the query sequence and all the reference organisms.
+	* **black**: predicted RGPs.
 	* **purple**: SIGI-HMM results.
 	* **blue**: Alien Hunter/IVOM results.
-	* **gray**: RGP absent from **ALL** the reference organisms.
-	
-	
-Results : RGP description
--------------------------
+	* **gray**: RGP absent from **ALL** the reference genomes.
 
 * **item E**: RGP prediction table:
 
@@ -95,12 +91,12 @@ Results : RGP description
 	* **Length**: RGP length.
 	* **Feature Score**: score associated with GI features (arbitrary score for sorting the table by feature: one feature = one point).
 	* **Feature**: features associated with RGPs (tRNA, misc_RNA, integrase, other mobility gene, SIGIVOM region).
-	* **Specificity Percentage** (one column by reference organism): % of CDS in RGP not involved in a synteny **OR** involved in groups of 2 genes in synteny inside a RGP (see description of the method).
+	* **Specificity Percentage** (one column by reference genome): % of CDS in RGP not involved in a synteny **OR** involved in groups of 2 genes in synteny inside a RGP (see description of the method).
 
 	
-* **item F** : link to explore selected RGP or SIGIVOM region.
+* **item F**: link to explore selected RGP or SIGIVOM region.
 
-* **item G** : table of SIGIVOM regions:
+* **item G**: table of SIGIVOM regions:
 
 	* **MoveTo**: display MaGe viewer centered on selected SIGIVOM region.
 	* **Label**: predicted SIGIVOM label (link to explore the selected SIGIVOM region).
@@ -111,7 +107,7 @@ Results : RGP description
 	* **IVOM Label**: Alien Hunter/IVOM label component.
 
 
-Results : RGP or SIGIVOM exploration
+Results: RGP or SIGIVOM exploration
 ------------------------------------
 
 .. image:: img/island4.png
@@ -122,9 +118,9 @@ Clicking on a region label (RGP or SIGIVOM region) display information on the se
 
 * **item B**: export genes in the region to a gene cart.
 
-* **item C**: color intensity Bblance in correlation with similarity results. Modify minLrap, maxLrap or identity % to view gene correspondences in reference organisms.
+* **item C**: color intensity Bblance in correlation with similarity results. Modify minLrap, maxLrap or identity % to view gene correspondences in reference genomes.
 
-* **item D**: region table : Each line in the table represents information about a gene. White background represents genes before and after the region (four genes at each side of the region).
+* **item D**: region table: Each line in the table represents information about a gene. White background represents genes before and after the region (four genes at each side of the region).
 
 	* **MoveTo**: display MaGe viewer centered on selected gene.
 	* **Label**: gene label.
@@ -138,7 +134,7 @@ Clicking on a region label (RGP or SIGIVOM region) display information on the se
 	* **SIGI**: purple if gene belongs to a SIGI-HMM region.
 	* **IVOM**: purple if gene belongs to an IVOM region.
 	* **Codon Adapt. Index**: CAI of the gene.
-	* **Gene correspondence** (one column by reference organism): gene similarity correspondence with genes in reference organisms:
+	* **Gene correspondence** (one column by reference genome): gene similarity correspondence with genes in reference genomes:
 	
 		* **red**: no similarity above the identity defined in **item C**
 		* **red with mentioned "no corresp"**: no similarity at all.
