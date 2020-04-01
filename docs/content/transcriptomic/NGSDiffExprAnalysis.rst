@@ -36,7 +36,7 @@ The differential analysis results are divided in 3 sections:
 * **B**. The second section is the table of the filtered Differentially Expressed Genes.
 * **C**. The last section displays information for analysing and interpreting the results.
 
-.. image:: img/rd7.svg
+.. image:: img/rd7.png
 
 More in detail:
 
