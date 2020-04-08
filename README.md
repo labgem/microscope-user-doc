@@ -7,4 +7,4 @@ Documentation of the MicroScope Platform:
 https://microscope.readthedocs.org
 
 MicroScope platform URL:
-https://mage.genoscope.cns.fr/agc/microscope
+https://mage.genoscope.cns.fr/microscope
