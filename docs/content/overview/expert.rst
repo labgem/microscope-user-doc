@@ -215,7 +215,9 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 What is Circular Genome View?
 -----------------------------
 
-**CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes. Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web. Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
+**CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes.
+Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web.
+Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
 
 **More**: http://wishart.biology.ualberta.ca/cgview/index.html
 
@@ -227,7 +229,7 @@ What is Circular Genome View?
     The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
     The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
 
-You can use the CG View toolbar to navigate into the circular map.
+You can use the CGView toolbar to navigate into the circular map.
 
 .. image:: img/cgview.png
 
