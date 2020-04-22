@@ -141,8 +141,8 @@ Prefixes
    PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-   PREFIX mso: <http://www.genoscope.cns.fr/agc/microscope/ontology/#>
-   PREFIX mage: <http://www.genoscope.cns.fr/agc/microscope/mage/info.php?id=>
+   PREFIX mso: <https://mage.genoscope.cns.fr/microscope/ontology/#>
+   PREFIX mage: <https://mage.genoscope.cns.fr/microscope/mage/info.php?id=>
    PREFIX dcterms: <http://purl.org/dc/terms/>
    PREFIX dc: <http://purl.org/dc/elements/1.1/>
    PREFIX obo: <http://purl.obolibrary.org/obo/>

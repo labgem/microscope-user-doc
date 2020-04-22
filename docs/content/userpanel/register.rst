@@ -32,7 +32,7 @@ When you submit the registration form, an automated email will be sent to the kn
 
 	This is an automated message from LABGeM about a MicroScope account registration. 
 	Please click on the activation link below in order to activate your MicroScope’s account and receive a second automated email containing your account password. 
-	https://www.genoscope.cns.fr/agc/microscope/userpanel/register.php?registrationkey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+	https://mage.genoscope.cns.fr/microscope/userpanel/register.php?registrationkey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
 
 	This link will be valid for 2 weeks from this day. 
 
@@ -46,7 +46,7 @@ Then, a second email containing your username and password information for your 
 
 	This is an automated message from LABGeM: your MicroScope account is now fully active. 
 
-	The Microscope web interface URL is : https://www.genoscope.cns.fr/agc/microscope 
+	The Microscope web interface URL is : https://mage.genoscope.cns.fr/microscope 
 
 	Your login : your_username 
 	Your password : your_password 

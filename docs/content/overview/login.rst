@@ -12,7 +12,7 @@ After your account has been created, you will receive an automated message from 
  	
 	This is an automated message from LABGeM: **your MicroScope account is now fully active**.
  	
-	The Microscope web interface URL is : https://www.genoscope.cns.fr/agc/microscope
+	The Microscope web interface URL is : https://mage.genoscope.cns.fr/microscope
  	
 	Your login : **your_username**.
  	
@@ -48,6 +48,6 @@ Why can’t I connect directly to my Project?
 
 Our first advice is « **DO NOT PANIC!** » 
 
-The `Microscope projects <https://www.genoscope.cns.fr/agc/microscope/home/index.php>`_  still exists, but now the system is fully transparent for all users. Once connected to your account, you will have access to the full list of Public and Private Sequences according to your Project, and get the annotation rights as defined in your account settings.
+The `Microscope projects <https://mage.genoscope.cns.fr/microscope/home/index.php>`_  still exists, but now the system is fully transparent for all users. Once connected to your account, you will have access to the full list of Public and Private Sequences according to your Project, and get the annotation rights as defined in your account settings.
 
 You can manage your own set of preferred organisms (for exemple, your Project’s specific organisms) in a **Quick Access Menu**, by using the :ref:`My Favourite Organisms <favourite-organisms>`.

@@ -17,7 +17,7 @@ How to proceed for a new password?
 
 	This is an automated message from LABGeM about your MicroScope account: a request has been made for a new password.
 
-	Please click on the activation link below in order to get a new password for your MicroScope’s account: https://www.genoscope.cns.fr/agc/microscope/userpanel/requestpassword.php?requestkey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	Please click on the activation link below in order to get a new password for your MicroScope’s account: https://mage.genoscope.cns.fr/microscope/userpanel/requestpassword.php?requestkey=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 	This link will be valid for 2 weeks from this day.
 
