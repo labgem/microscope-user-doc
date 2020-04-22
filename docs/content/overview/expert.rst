@@ -251,5 +251,5 @@ If you click on a gene name/label the corresponding Gene window will be opened g
     If the application doesn't work, it means that Java is not installed on your computer (get the latest version of java `here <https://www.java.com/>`_)
 
 .. Tip::
-    You must allow our software to run without certificate by adding https://www.genoscope.cns.fr/ to the exception list.
+    You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
     Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
