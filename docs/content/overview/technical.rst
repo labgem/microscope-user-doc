@@ -20,12 +20,12 @@ General requirements
 Java Web Start
 ==============
 
-`Java Web Start <https://www.java.com/en/download/faq/java_webstart.xml/>`_ is needed for several functionalities (CGView, IGV, tMeV, etc.).
+Java Web Start is needed for several functionalities (CGView, IGV, tMeV, etc.).
+Please visit `this page <https://www.java.com/en/download/faq/java_webstart.xml/>`_ to install it.
 
 .. Warning::
     Java Web Start is deprecated.
     We currently support Java 8 only.
 
-.. Tip::
-    You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
-    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
+You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
+Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
