@@ -218,6 +218,7 @@ What is Circular Genome View?
 **CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes.
 Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web.
 Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
+See how to use :ref:`JWS`.
 
 **More**: http://wishart.biology.ualberta.ca/cgview/index.html
 
@@ -248,10 +249,3 @@ The `Legend` checkbox allows to show/hide the legend.
 The `Full view labels` checkbox allows to show/hide the labels when showing the entire map.
 
 If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
-
-.. Tip::
-    If the application doesn't work, it means that Java is not installed on your computer (get the latest version of java `here <https://www.java.com/>`_)
-
-.. Tip::
-    You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
-    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
