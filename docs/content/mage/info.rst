@@ -29,7 +29,7 @@ The Gene Annotation Editor window is made of 5 sections:
 * a **toolbar** that allows access to different functionalities
 * the **current annotation** of the genomic object. This section can be modified by the annotator (with sufficient rights).
 * the **primary annotation** of the genomic object. It corresponds to the MicroScope pipeline automatic annotation (if it is a first annotation) or to the databank annotation (if it is a reannotation project).
-* the **Feature / Experimental data** section. This section provides access to some features of the gene (i.e. star codon prediction, nucleic or amino-acid composition) and to experimental data if any (e.g. SNPs/InDels).
+* the **Feature / Experimental data** section. This section provides access to some features of the gene (i.e. star codon prediction, nucleic or amino-acid composition) and to experimental data if any (e.g. gene essentiality, transposon mutants, SNPs/InDels).
 * the **Method results** section. This section gives an access to the results obtained by the different tools used for the syntactic and functional annotation process.
 
 
@@ -600,17 +600,17 @@ How to read the result table?
 * **PubMedId**: PubMed references linked to the annotation of the protein
 
 
-===============
-Essential genes
-===============
+=====================
+DB of essential genes
+=====================
 
 This menu gives BLAST hits for the current Genomic Object against the essential gene database for genes with "essential" status.
 
-This dataset comes from `Database of Essential Genes (DEG) <http://www.essentialgene.org/>`_ . DEG hosts records of currently available essential genomic elements, such as protein-coding genes and non-coding RNAs, among bacteria, archaea and eukaryotes. Essential genes in a bacterium constitute a minimal genome, forming a set of functional modules, which play key roles in the emerging field, synthetic biology.
+This dataset comes from `Database of Essential Genes (DEG) <http://www.essentialgene.org/>`_ .
+DEG hosts records of currently available essential genomic elements, such as protein-coding genes and non-coding RNAs, among bacteria, archaea and eukaryotes. Essential genes in a bacterium constitute a minimal genome, forming a set of functional modules, which play key roles in the emerging field, synthetic biology.
 DEG database has been improved with data from Acinetobacter baylyi ADP1 and Neisseria meningitidis 8013, two highly curated genome in MicroScope.
 
 **Reference**: `Hao Luo, Yan Lin, Feng Gao, Chun-Ting Zhang and Ren Zhang, (2014) DEG 10, an update of the Database of Essential Genes that includes both protein-coding genes and non-coding genomic elements. Nucleic Acids Research 42, D574-D580. <https://dx.doi.org/10.1093%2Fnar%2Fgkt1131>`_
-
 
 
 How to read the result table?
