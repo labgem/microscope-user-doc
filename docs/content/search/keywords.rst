@@ -67,6 +67,7 @@ The common dataset are these ones:
 * **Genomic Object Features**: will return the gene or protein features such as GC%, MW, Pi, etc.
 * **Annotation Comments**: allows to search within the Comments specific field of the Gene Editor.
 * **Annotation Note**: Same as above, but within the Note field of the Gene Editor.
+* **Gene essentiality status**: essentiality of the genes according to experimental data from mutant collections.
 
 **Comparative results on reference Annotations**:
 
@@ -92,7 +93,7 @@ The common dataset are these ones:
 * **InterPro**: will return genes of your selected sequence matching InterPro entries
 * **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
 * **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
-* **Essential gene results**: will return genes of your selected sequence matching Essential gene entries
+* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
 * **PsortB Results**: will return genes of your selected sequence matching PSortB entries
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
 * **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries
