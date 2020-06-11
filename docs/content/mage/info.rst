@@ -24,11 +24,12 @@ Overview of the Gene Annotation Editor
 
 .. image:: img/overview0.png
 
-The Gene Annotation Editor window is made of 4 sections:
+The Gene Annotation Editor window is made of 5 sections:
 
 * a **toolbar** that allows access to different functionalities
 * the **current annotation** of the genomic object. This section can be modified by the annotator (with sufficient rights).
 * the **primary annotation** of the genomic object. It corresponds to the MicroScope pipeline automatic annotation (if it is a first annotation) or to the databank annotation (if it is a reannotation project).
+* the **Feature / Experimental data** section. This section provides access to some features of the gene (i.e. star codon prediction, nucleic or amino-acid composition) and to experimental data if any (e.g. SNPs/InDels).
 * the **Method results** section. This section gives an access to the results obtained by the different tools used for the syntactic and functional annotation process.
 
 
