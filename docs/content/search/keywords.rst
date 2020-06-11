@@ -58,7 +58,7 @@ The use of a given dataset over another one will depend of the kind of data the 
 
 The common dataset are these ones:
 
-**Gene annotation or features:**
+1. **Gene annotation or features:**
 
 * **Gene Annotations**: allows to search into automatic and expert annotations (validated genes) of a selected sequence.
 * **MaGe Curated Annotations**: for searching within only all validated genes.
@@ -69,17 +69,14 @@ The common dataset are these ones:
 * **Annotation Note**: Same as above, but within the Note field of the Gene Editor.
 * **Gene essentiality status**: essentiality of the genes according to experimental data from mutant collections.
 
-**Comparative results on reference Annotations**:
+2. **Comparative results on reference Annotations**:
 
-**Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
+* **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
+* **Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
+* **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
+* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
 
-**Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
-
-**Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
-
-**DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
-
-**Comparative or funtional methods results:**
+3. **Comparative or funtional methods results:**
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
 * **CHP in Synteny**: will return genes of your selected sequence annotated as Conserved Hypothetical Protein and involved in a synteny.
