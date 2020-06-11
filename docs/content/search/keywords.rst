@@ -77,6 +77,8 @@ The common dataset are these ones:
 
 **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
 
+**DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
+
 **Comparative or funtional methods results:**
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
@@ -93,7 +95,6 @@ The common dataset are these ones:
 * **InterPro**: will return genes of your selected sequence matching InterPro entries
 * **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
 * **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
-* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
 * **PsortB Results**: will return genes of your selected sequence matching PSortB entries
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
 * **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries
