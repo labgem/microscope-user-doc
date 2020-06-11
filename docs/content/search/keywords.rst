@@ -58,7 +58,7 @@ The use of a given dataset over another one will depend of the kind of data the 
 
 The common dataset are these ones:
 
-**Central table of PkGDB:**
+**Gene annotation or features:**
 
 * **Gene Annotations**: allows to search into automatic and expert annotations (validated genes) of a selected sequence.
 * **MaGe Curated Annotations**: for searching within only all validated genes.
@@ -68,8 +68,7 @@ The common dataset are these ones:
 * **Annotation Comments**: allows to search within the Comments specific field of the Gene Editor.
 * **Annotation Note**: Same as above, but within the Note field of the Gene Editor.
 
-
-**Reference Annotations**:
+**Comparative results on reference Annotations**:
 
 **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
 
@@ -77,7 +76,7 @@ The common dataset are these ones:
 
 **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
 
-**Relational tables of PkGDB**:
+**Comparative or funtional methods results:**
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
 * **CHP in Synteny**: will return genes of your selected sequence annotated as Conserved Hypothetical Protein and involved in a synteny.
