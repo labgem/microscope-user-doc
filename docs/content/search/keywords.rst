@@ -58,7 +58,7 @@ The use of a given dataset over another one will depend of the kind of data the 
 
 The common dataset are these ones:
 
-**Central table of PkGDB:**
+1. **Gene annotation or features:**
 
 * **Gene Annotations**: allows to search into automatic and expert annotations (validated genes) of a selected sequence.
 * **MaGe Curated Annotations**: for searching within only all validated genes.
@@ -67,17 +67,16 @@ The common dataset are these ones:
 * **Genomic Object Features**: will return the gene or protein features such as GC%, MW, Pi, etc.
 * **Annotation Comments**: allows to search within the Comments specific field of the Gene Editor.
 * **Annotation Note**: Same as above, but within the Note field of the Gene Editor.
+* **Gene essentiality status**: essentiality of the genes according to experimental data from mutant collections.
 
+2. **Comparative results on reference Annotations**:
 
-**Reference Annotations**:
+* **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
+* **Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
+* **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
+* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
 
-**Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
-
-**Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
-
-**Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
-
-**Relational tables of PkGDB**:
+3. **Comparative or funtional methods results:**
 
 * **Putative Enzyme in Synteny**: will return genes of your selected sequence which are annotated as Putative Enzyme and involved in a synteny.
 * **CHP in Synteny**: will return genes of your selected sequence annotated as Conserved Hypothetical Protein and involved in a synteny.
@@ -93,7 +92,6 @@ The common dataset are these ones:
 * **InterPro**: will return genes of your selected sequence matching InterPro entries
 * **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
 * **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
-* **Essential gene results**: will return genes of your selected sequence matching Essential gene entries
 * **PsortB Results**: will return genes of your selected sequence matching PSortB entries
 * **SignalP Results**: will return genes of your selected sequence matching SignalP entries
 * **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries
