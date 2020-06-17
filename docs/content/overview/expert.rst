@@ -224,6 +224,7 @@ Starting with information of one genome and the features to visualize, CGView co
 **Reference**: `Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005 Feb 15;21(4):537-9 <http://www.ncbi.nlm.nih.gov/pubmed/15479716>`_
 
 .. Tip::
+   CGView is based on the Java Web Start technology.
    See how to use :ref:`JWS`.
 
 .. Important::
