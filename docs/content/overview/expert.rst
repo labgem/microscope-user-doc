@@ -128,7 +128,7 @@ PRIAM is a method for automated enzyme detection in a fully sequenced genome, ba
 What are MetaCyc Pathways?
 --------------------------
 
-MetaCyc pathways are metabolic networks as define in the MetaCyc Database.
+MetaCyc pathways are metabolic networks as defined in the MetaCyc Database.
 
 `Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_ 
 
