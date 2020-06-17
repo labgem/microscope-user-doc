@@ -61,13 +61,6 @@ Repeat detection is performed by the Repsek program.
 
 **Reference**: `Achaz G, Boyer F, Rocha EP, Viari A, Coissac E. Repseek, a tool to retrieve approximate repeats from large DNA sequences. Bioinformatics. 2007 Jan1;23(1):119-21. <http://www.ncbi.nlm.nih.gov/pubmed/17038345>`_
 
-What is Artemis?
-----------------
-Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses. It also supports all six-frame translations. It has been developed at the Sanger Institute.
-
-**More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
-
-**Reference**: `Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
 
 What is the "BioProcess" classification?
 ----------------------------------------
@@ -209,6 +202,24 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 **References:**
 
 `Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
+
+.. _artemis:
+
+What is Artemis?
+----------------
+
+Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses.
+It also supports all six-frame translations.
+It has been developed at the Sanger Institute.
+
+.. Tip::
+   Artemis is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+**More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
+
+**Reference**: `Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
+
 
 .. _cgview:
 
