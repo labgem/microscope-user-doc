@@ -17,7 +17,7 @@ This tool combines, for one query genome, two different neighbourhoods in order 
 How to use this tool?
 ---------------------
 
-You just have to choose the metabolic database of reference in the tool’s header, by clicking on KEGG ou MicroCyc button. Then, wait for the computation results.
+You just have to choose the metabolic database of reference in the tool’s header, by clicking on KEGG or MicroCyc button. Then, wait for the computation results.
 
 
 How to read this table?
