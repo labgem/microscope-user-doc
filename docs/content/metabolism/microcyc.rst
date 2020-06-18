@@ -13,3 +13,12 @@ These automatically generated PGDBs (Tier3) are updated every day.
 
 .. image:: img/microcyc.png
 
+.. Warning::
+   Access to MicroCyc, requires authentification.
+   The password is generated internally and has a limited lifespan
+   (generally speaking you should not need to enter this password
+   but pages that link to MicroCyc results will usually show it in case your browser asks for login).
+   This means that if you keep a page open, the password may become invalid
+   and thus you wont be able to refresh the page.
+   In that case, refresh the page linking to MicroCyc and reopen the link.
+
