@@ -275,6 +275,6 @@ MeV supports many different input formats, and provides an intuitive graphical i
 **More**: https://sourceforge.net/projects/mev-tm4/
 
 .. Tip::
-   Artemis is based on the Java Web Start technology.
+   MEV is based on the Java Web Start technology.
    See how to use :ref:`JWS`.
 
