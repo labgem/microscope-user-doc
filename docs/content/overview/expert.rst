@@ -263,3 +263,18 @@ The `Legend` checkbox allows to show/hide the legend.
 The `Full view labels` checkbox allows to show/hide the labels when showing the entire map.
 
 If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
+
+.. _mev:
+
+What is MeV ?
+-------------
+
+MeV (Multiple Experiment Viewer) is a Java tool for genomic data analysis.
+MeV supports many different input formats, and provides an intuitive graphical interface for clustering, classification, statistical analysis and theme discovery.
+
+**More**: https://sourceforge.net/projects/mev-tm4/
+
+.. Tip::
+   Artemis is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
