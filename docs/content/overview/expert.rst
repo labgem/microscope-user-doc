@@ -278,3 +278,17 @@ MeV supports many different input formats, and provides an intuitive graphical i
    MEV is based on the Java Web Start technology.
    See how to use :ref:`JWS`.
 
+.. _jalview:
+
+What is JalView ?
+-----------------
+
+Jalview is a free, open source program developed for the interactive editing, analysis and visualization of multiple sequence alignments.
+It can also work with sequence annotation, secondary structure information, phylogenetic trees and 3D molecular structures.
+
+**More**: http://www.jalview.org/
+
+.. Tip::
+   JalView is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
