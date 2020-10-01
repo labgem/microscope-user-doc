@@ -292,3 +292,53 @@ It can also work with sequence annotation, secondary structure information, phyl
    JalView is based on the Java Web Start technology.
    See how to use :ref:`JWS`.
 
+.. _igv:
+
+What is IGV ?
+-------------
+
+The Integrative Genomics Viewer (IGV) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.
+It supports flexible integration of all the common types of genomic data and metadata, investigator-generated or publicly available, loaded from local or cloud sources.
+
+It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <rnaseq_Overview>`, :ref:`Read Count <rnaseq_ReadCountAnalysis>` and :ref:`DESeq Analysis <rnaseq_DiffExprAnalysis>`)
+to allow the visualization of the coverage of the reference genome by the reads and to qualitatively compare coverage for various samples (experimental conditions or clones).
+
+**More**: https://software.broadinstitute.org/software/igv/
+
+.. Tip::
+   IGV is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+After clicking the “*Launch IGV*” button the first window appears with a lower part already displaying the annotations of the reference genome (see below).
+
+.. image:: img/gen1.png
+
+Section **#1** contains genome annotations. Colors corresponding to a specific genomic object are:
+
+* red : CDS
+* yellow : fCDS
+* green : tRNA
+* blue : rRNA, miscRNA
+
+To see genome coverage, users can load data in the drop down menu “*File/Load from Server*”.
+A list of available datasets for import will then appear in a new window. Tick the checkbox corresponding to the experiments to load in the browser and click “*OK*”.
+
+.. image:: img/gen2.png
+
+.. note:: **Warning**: The loading process may take a while, so please be patient!
+
+Then, the coverage is visible :
+
+.. image:: img/gen3.png
+
+Users can also organize the display :
+*Example : to compare the same type of experiment user can group forward and reverse experiment. (just click and drag)*
+
+.. image:: img/gen4.png
+
+Users can enlarge the view by drag’n dropping the mouse on the area of interest.
+
+.. image:: img/gen5.png
+
+It is possible to zoom in to see gene sequence and translation.
+

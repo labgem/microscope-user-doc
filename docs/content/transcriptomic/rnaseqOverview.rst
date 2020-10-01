@@ -15,12 +15,12 @@ RNA-Seq homepage displays the list of available projects.
 By Clicking on the arrow available on the left of each project, user can expand the associated experiment(s).
 Users can choose to select the whole project or pick up one specific experiment by using radio buttons.
 
-Selecting a whole project will allow the user to use :ref:`Integrative Genomics Viewer <rnaseq_IGV>` tool, whereas choosing a specific experiment will open the access to more functionalities:
+Selecting a whole project will allow the user to use :ref:`Integrative Genomics Viewer <igv>` tool, whereas choosing a specific experiment will open the access to more functionalities:
 
 * Overview tool (**Item #1**)
 * :ref:`Read Count Analysis <rnaseq_ReadCountAnalysis>` (**Item #2**)
 * :ref:`Differential Expression Analysis <rnaseq_DiffExprAnalysis>` (**Item #3**)
-* :ref:`Integrative Genomics Viewer <rnaseq_IGV>` (**Item #4**)
+* :ref:`Integrative Genomics Viewer <igv>` (**Item #4**)
 
 
 Overviewing RNA-Seq experiments results

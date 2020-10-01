@@ -19,7 +19,7 @@ Selecting a project will allow the user to use :
 
 * :ref:`Overview tool <rnaseq_Overview>` (**Item #1**)
 * :ref:`Analysis <evolution-projects>` (**Item #2**)
-* :ref:`Integrative Genomics Viewer <rnaseq_IGV>` (IGV - http://www.broadinstitute.org/igv/) (**Item #3**)
+* :ref:`Integrative Genomics Viewer <igv>` (**Item #3**)
 
 Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
 
