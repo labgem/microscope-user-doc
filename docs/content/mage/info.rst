@@ -841,8 +841,8 @@ For KO assignement, we use **KofamScan**, a tool to homology search against a da
 
 * `Minoru Kanehisa et al. KEGG as a reference resource for gene and protein annotation. Nucleic Acids Res, 44:D457–D462, 2020 <https://pubmed.ncbi.nlm.nih.gov/26476454>`_
 
-How to read Predited KEGG Orthologs results?
---------------------------------------------
+How to read KOfamScan results?
+--------------------------------
 
 * **KO** : ID number of KEGG Orthologs entry
 * **Score** :  Score of the match
