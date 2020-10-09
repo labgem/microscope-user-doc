@@ -823,6 +823,34 @@ How to read UniFIRE results?
 * **UniRule Source** : Source rule id
 * **UniRule Method** : Source rule
 
+========================
+Predited KEGG Orthologs
+========================
+
+.. image:: img/predicted_kegg_orthologs.PNG
+
+What is the Predited KEGG Orthologs?
+------------------------------------
+The KO **KEGG Orthology** is a database of molecular functions represented in terms of functional orthologs. The KO assignment of a gene allow to identify a function and define a molecular networks. 
+
+For KO assignement, we use **KofamScan**, a tool to homology search against a database of profile hidden Markov models (**KOfam**) with pre-computed adaptive score thresholds. In MicroScope, only the results that matches with a score exceeding the pre-computed threshold and a E-value lower than or equal to 0.01 are visualizable.
+ 
+**Reference**: 
+
+* `Takuya Aramaki et al. KofamKOALA: KEGG Ortholog assignment based on profile HMM and adaptive score threshold, Bioinformatics, btz859, 2019 <https://pubmed.ncbi.nlm.nih.gov/31742321>`_
+
+* `Minoru Kanehisa et al. KEGG as a reference resource for gene and protein annotation. Nucleic Acids Res, 44:D457–D462, 2020 <https://pubmed.ncbi.nlm.nih.gov/26476454>`_
+
+How to read KOfamScan results?
+--------------------------------
+
+* **KO** : ID number of KEGG Orthologs entry
+* **Score** :  Score of the match
+* **Threshold** : Pre-computed adaptive score for each KOfam
+* **Eval** :  E value of the match 
+* **KO Definition** : Functional description of KO
+* **EC number** :  EC number associated with KO
+
 =====
 PRIAM
 =====
