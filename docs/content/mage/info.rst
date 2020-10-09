@@ -829,8 +829,8 @@ Predited KEGG Orthologs
 
 .. image:: img/predicted_kegg_orthologs.PNG
 
-What is the Predited KEGG Orthologs?
-------------------------------------
+What are KEGG Orthologs ?
+-------------------------
 The KO **KEGG Orthology** is a database of molecular functions represented in terms of functional orthologs. The KO assignment of a gene allow to identify a function and define a molecular networks. 
 
 For KO assignement, we use **KofamScan**, a tool to homology search against a database of profile hidden Markov models (**KOfam**) with pre-computed adaptive score thresholds. In MicroScope, only the results that matches with a score exceeding the pre-computed threshold and a E-value lower than or equal to 0.01 are visualizable.
