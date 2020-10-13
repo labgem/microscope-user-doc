@@ -823,9 +823,9 @@ How to read UniFIRE results?
 * **UniRule Source** : Source rule id
 * **UniRule Method** : Source rule
 
-========================
-Predited KEGG Orthologs
-========================
+=========
+KOfamScan
+=========
 
 .. image:: img/predicted_kegg_orthologs.PNG
 
