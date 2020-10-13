@@ -827,7 +827,7 @@ How to read UniFIRE results?
 KOfamScan
 =========
 
-.. image:: img/predicted_kegg_orthologs.PNG
+.. image:: img/kofamscan.PNG
 
 What is KOfamScan?
 -------------------
