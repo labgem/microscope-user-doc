@@ -848,7 +848,7 @@ How to read KOfamScan results ?
 * **Score** :  Score of the match
 * **Threshold** : Pre-computed adaptive score for each KOfam
 * **Eval** :  E-value of the match 
-* **KO Definition** : Functional description KO
+* **KO Definition** : Functional description of KO
 * **EC number** :  EC number associated with the KO
 
 =====
