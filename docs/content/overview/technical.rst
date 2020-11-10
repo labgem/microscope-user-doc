@@ -27,5 +27,7 @@ Please visit `this page <https://www.java.com/en/download/faq/java_webstart.xml/
     Java Web Start is deprecated.
     We currently support Java 8 only.
 
-You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
-Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
+.. Tip::
+    If the application doesn't work you may need some additional configuration steps.
+    You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
+    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
