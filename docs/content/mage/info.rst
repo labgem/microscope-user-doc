@@ -831,7 +831,8 @@ KOfamScan
 
 What is KOfamScan?
 -------------------
-The KO **KEGG Orthology** is a database of molecular functions represented in terms of functional orthologs. The KO assignment of a gene allows to identify a function and define a molecular networks. 
+The KO **KEGG Orthology** is a database of molecular functions represented in terms of functional orthologs.
+The KO assignment of a gene allows to predict a function and an associated biological process.
 
 For KO assignement, we use **KOfamScan**, a tool to homology search against a database of profile hidden Markov models (**KOfam**) with pre-computed adaptive score thresholds. In MicroScope, only the results that match with a score exceeding the pre-computed threshold and a E-value lower than or equal to 0.01 are shown.
  
