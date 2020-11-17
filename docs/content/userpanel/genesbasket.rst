@@ -4,7 +4,9 @@
 Gene Carts
 ##########
 
-The result of many tools available in the MicroScope platform is a list of candidate genes which can be saved in a «Gene Cart». The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch  `JalView tool <http://www.jalview.org/>`_ to perform multiple alignments, etc. Moreover these carts can be explored using the Keywords Search tool.
+The result of many tools available in the MicroScope platform is a list of candidate genes which can be saved in a «Gene Cart».
+The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch :ref:`JalView <jalview>` to perform multiple alignments, etc.
+Moreover these carts can be explored using the Keywords Search tool.
 
 .. tip:: Gene Carts content is saved within your account settings, so your selections will persist into our databases even if you logout from your session.
 
@@ -50,7 +52,7 @@ Gene Cart Overview
 	
 * **Item #7. JalView tool:**
 
-	Launch the `JalView <http://www.jalview.org/>`_ tool (Nucleic or Proteic) for a given Gene Cart content.
+	Launch :ref:`JalView <jalview>` (Nucleic or Proteic) for a given Gene Cart content.
 
 * **Item #8. Export Gene Cart:**
 

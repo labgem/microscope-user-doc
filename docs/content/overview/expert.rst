@@ -61,18 +61,11 @@ Repeat detection is performed by the Repsek program.
 
 **Reference**: `Achaz G, Boyer F, Rocha EP, Viari A, Coissac E. Repseek, a tool to retrieve approximate repeats from large DNA sequences. Bioinformatics. 2007 Jan1;23(1):119-21. <http://www.ncbi.nlm.nih.gov/pubmed/17038345>`_
 
-What is Artemis?
-----------------
-Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses. It also supports all six-frame translations. It has been developed at the Sanger Institute.
-
-**More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
-
-**Reference**: `Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
 
 What is the "BioProcess" classification?
 ----------------------------------------
 
-This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_ 
+This functional classification is based on the `CMR JCVI Role IDs. <http://www.jcvi.org/cms/research/past-projects/cmr/overview/>`_
 
 This field is optionally filled in during the expert annotation process.
 
@@ -82,7 +75,7 @@ What is the "Roles" classification?
 
 This functional classification corresponds to the MultiFun classification which has been developed by Monica Riley for E. coli (http://genprotec.mbl.edu/).
 
-**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_ 
+**Reference**:`Serres MH, Riley M. MultiFun, a multifunctional classification scheme for Escherichia coli K-12 gene products. Microb Comp Genomics. 2000;5(4):205-22. <http://www.ncbi.nlm.nih.gov/pubmed/11471834>`_
 
 This field is optionally filled in during the expert annotation process.
 
@@ -122,15 +115,15 @@ PRIAM is a method for automated enzyme detection in a fully sequenced genome, ba
 
 **More**: http://priam.prabi.fr/
 
-**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_ 
+**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
 
 
 What are MetaCyc Pathways?
 --------------------------
 
-MetaCyc pathways are metabolic networks as define in the MetaCyc Database.
+MetaCyc pathways are metabolic networks as defined in the MetaCyc Database.
 
-`Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_ 
+`Caspi et al., 2010, "The MetaCyc Database of metabolic pathways and enzymes and the BioCyc collection of Pathway/Genome Databases", Nucleic Acids Research <http://www.ncbi.nlm.nih.gov/pubmed/19850718>`_
 
 The presence or absence of a MetaCyc metabolic pathway is predicted by the  `Pathway-tools <http://bioinformatics.ai.sri.com/ptools/>`_ algorithm in this organism.
 
@@ -162,7 +155,7 @@ PsortB is an open-source tool for protein sub-cellular localization prediction i
 
 **More**: http://www.psort.org/
 
-**Reference**: `Gardy JL et al (2005) PSORTb v.2.0: expanded prediction of bacterial protein subcellular localization and insights gained from comparative proteome analysis. Bioinformatics. Mar1;21(5):617-23. Epub 2004 Oct 22. <http://www.ncbi.nlm.nih.gov/pubmed/15501914>`_ 
+**Reference**: `Gardy JL et al (2005) PSORTb v.2.0: expanded prediction of bacterial protein subcellular localization and insights gained from comparative proteome analysis. Bioinformatics. Mar1;21(5):617-23. Epub 2004 Oct 22. <http://www.ncbi.nlm.nih.gov/pubmed/15501914>`_
 
 
 
@@ -206,20 +199,44 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **More:** http://antismash.secondarymetabolites.org/
 
-**References:** 
+**References:**
 
 `Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
+
+.. _artemis:
+
+What is Artemis?
+----------------
+
+Artemis is a free genome viewer and annotation tool that allows visualisation of sequence features and the results of sequence analyses.
+It also supports all six-frame translations.
+It has been developed at the Sanger Institute.
+
+.. Tip::
+   Artemis is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+**More**: `http://www.sanger.ac.uk/resources/software/artemis/ <http://www.sanger.ac.uk/resources/software/artemis/>`_
+
+**Reference**: `Rutherford K, Parkhill J, Crook J, Horsnell T, Rice P, Rajandream MA, Barrell B. Artemis: sequence visualization and annotation. Bioinformatics. 2000 Oct;16(10):944-5 <http://www.ncbi.nlm.nih.gov/pubmed/11120685>`_
+
 
 .. _cgview:
 
 What is Circular Genome View?
 -----------------------------
 
-**CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes. Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web. Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
+**CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes.
+Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web.
+Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
 
 **More**: http://wishart.biology.ualberta.ca/cgview/index.html
 
 **Reference**: `Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005 Feb 15;21(4):537-9 <http://www.ncbi.nlm.nih.gov/pubmed/15479716>`_
+
+.. Tip::
+   CGView is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
 
 .. Important::
 
@@ -227,7 +244,7 @@ What is Circular Genome View?
     The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
     The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
 
-You can use the CG View toolbar to navigate into the circular map.
+You can use the CGView toolbar to navigate into the circular map.
 
 .. image:: img/cgview.png
 
@@ -247,9 +264,81 @@ The `Full view labels` checkbox allows to show/hide the labels when showing the 
 
 If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
 
-.. Tip::
-    If the application doesn't work, it means that Java is not installed on your computer (get the latest version of java `here <https://www.java.com/>`_)
+.. _mev:
+
+What is MeV ?
+-------------
+
+MeV (Multiple Experiment Viewer) is a Java tool for genomic data analysis.
+MeV supports many different input formats, and provides an intuitive graphical interface for clustering, classification, statistical analysis and theme discovery.
+
+**More**: https://sourceforge.net/projects/mev-tm4/
 
 .. Tip::
-    You must allow our software to run without certificate by adding https://mage.genoscope.cns.fr/ to the exception list.
-    Read `this FAQ <http://java.com/en/download/faq/exception_sitelist.xml>`_ to know how to proceed.
+   MEV is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+.. _jalview:
+
+What is JalView ?
+-----------------
+
+Jalview is a free, open source program developed for the interactive editing, analysis and visualization of multiple sequence alignments.
+It can also work with sequence annotation, secondary structure information, phylogenetic trees and 3D molecular structures.
+
+**More**: http://www.jalview.org/
+
+.. Tip::
+   JalView is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+.. _igv:
+
+What is IGV ?
+-------------
+
+The Integrative Genomics Viewer (IGV) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.
+It supports flexible integration of all the common types of genomic data and metadata, investigator-generated or publicly available, loaded from local or cloud sources.
+
+It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <rnaseq_Overview>`, :ref:`Read Count <rnaseq_ReadCountAnalysis>` and :ref:`DESeq Analysis <rnaseq_DiffExprAnalysis>`)
+to allow the visualization of the coverage of the reference genome by the reads and to qualitatively compare coverage for various samples (experimental conditions or clones).
+
+**More**: https://software.broadinstitute.org/software/igv/
+
+.. Tip::
+   IGV is based on the Java Web Start technology.
+   See how to use :ref:`JWS`.
+
+After clicking the “*Launch IGV*” button the first window appears with a lower part already displaying the annotations of the reference genome (see below).
+
+.. image:: img/gen1.png
+
+Section **#1** contains genome annotations. Colors corresponding to a specific genomic object are:
+
+* red : CDS
+* yellow : fCDS
+* green : tRNA
+* blue : rRNA, miscRNA
+
+To see genome coverage, users can load data in the drop down menu “*File/Load from Server*”.
+A list of available datasets for import will then appear in a new window. Tick the checkbox corresponding to the experiments to load in the browser and click “*OK*”.
+
+.. image:: img/gen2.png
+
+.. note:: **Warning**: The loading process may take a while, so please be patient!
+
+Then, the coverage is visible :
+
+.. image:: img/gen3.png
+
+Users can also organize the display :
+*Example : to compare the same type of experiment user can group forward and reverse experiment. (just click and drag)*
+
+.. image:: img/gen4.png
+
+Users can enlarge the view by drag’n dropping the mouse on the area of interest.
+
+.. image:: img/gen5.png
+
+It is possible to zoom in to see gene sequence and translation.
+
