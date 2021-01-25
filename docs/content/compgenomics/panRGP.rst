@@ -7,7 +7,7 @@ Regions of Genomic Plasticity - panRGP
 What is PPanGGOLiN ?
 -------------------------------------------------------
 
-The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/ggautreau/PPanGGOLiN>`_ software.  PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <micgc>`  (MICGC correspond to clusters of genomes from the same species) (A). It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from :ref:`MICFAM <pancore-analysis>` computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
+The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/labgem/PPanGGOLiN>`_ software.  PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <micgc>`  (MICGC correspond to clusters of genomes from the same species) (A). It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C). Homologous families are from :ref:`MICFAM <pancore-analysis>` computed with stringent parameters (80% of aa identity and 80% of alignment coverage). PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F). More precisely, the method depends upon an Expectation/Maximization algorithm based on Bernoulli Mixture Model (E.a) coupled with a Markov Random field (E.b).
 
 
 **Pangenome Graph Partitions:**
@@ -24,7 +24,7 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 
 .. image:: img/projection.png
 
-**More information about PPanGGOLiN is available** `here <https://github.com/ggautreau/PPanGGOLiN>`_.
+**More information about PPanGGOLiN is available** `here <https://github.com/labgem/PPanGGOLiN>`_.
 
 .. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains. Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see :ref:`Genome Overview <genome-overview>`).
 
