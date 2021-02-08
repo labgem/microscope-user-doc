@@ -50,7 +50,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'MicroScope User Doc'
-copyright = u'2019'
+copyright = u'2021'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
