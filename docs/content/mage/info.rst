@@ -852,46 +852,6 @@ How to read KOfamScan results ?
 * **KO Definition** : Functional description of KO
 * **EC number** :  EC number associated with the KO
 
-=====
-PRIAM
-=====
-
-What is PRIAM?
---------------
-
-PRIAM is a method for automated enzyme detection in a fully sequenced genome, based on all sequences available in the ENZYME database (http://www.expasy.ch/enzyme/). PRIAM relies on sets of position-specific score matrices (PSSMs) automatically tailored for each ENZYME entry. The whole Swiss-Prot database has been used to parametrise and to assess the method.
-
-**More**: http://priam.prabi.fr/
-
-**Reference**: `Clotilde Claudel-Renard, Claude Chevalet, Thomas Faraut and Daniel Kahn / Enzyme-specific profiles for genome annotation: PRIAM Nucleic Acids Research, 2003, Vol. 31, No. 22 6633-6639 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
-
-
-How to read PRIAM EC number results?
-------------------------------------
-
-.. image:: img/priam.png
-	:width: 100%
-
-* **EC_id**: EC number
-* **Evidence**: gives the confidence level associated to the match. It can be:
-	* **high**: the match between the PRIAM profile and the sequence is very good (low E value and full alignment).
-	* **medium**: there is only a partial alignment between the PRIAM profile and the sequence
-	* **low**: there are better results with other PRIAM profiles matching to the sequence
-* **profil**: reference number of the PRIAM profile that matches to the sequence.
-* **lengthprof**: Length of the PRIAM profile
-* **Eval**: E value of the match
-* **Ident**: Identity of the match
-* **begin**: first position of the alignment
-* **end**: last position of the alignment
-* **lmatch**: length of the alignment between the sequence and the profile
-* **de**: enzyme description
-* **an**: alternative name
-* **ca**: description of the reaction catalysed
-* **cf**: cofactor needed for the reaction, if any
-* **cc**: some comments about the enzymatic activity
-
-
-
 ==========================
 Predicted MetaCyc Pathways
 ==========================
