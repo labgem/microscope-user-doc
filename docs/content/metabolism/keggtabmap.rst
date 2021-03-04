@@ -6,7 +6,7 @@ Kegg metabolic pathways
 How to read the table ?
 -----------------------
 
-img/keggtabmap_table.PNG
+.. image:: img/keggtabmap_table.PNG
 
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Region**: '+' indicate the genes presence in the region of interest and '-' indicate abscence
@@ -26,4 +26,4 @@ How to explore the KEGG map ?
 
 On the KEGG map (4), reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow. More details are available by clicking on items of the map and. The Reload button allows the user to come back in this his exploration work.
 
-img/keggtabmap_map.PNG
+.. image:: img/keggtabmap_map.PNG
