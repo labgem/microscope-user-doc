@@ -6,6 +6,8 @@ Kegg metabolic pathways
 How to read the table ?
 -----------------------
 
+../img/keggtabmap_table.PNG
+
 * **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
 * **Region**: '+' indicate the genes presence in the region of interest and '-' indicate abscence
 * **Gene**: Gene name of the protein
@@ -15,8 +17,13 @@ How to read the table ?
 * **Enzyme Description**: description of enzymatic function
 * **KO**: ID number of KEGG Ortholog entry
 * **KO Definition**: Functional description of KO
-* **KO EC number **: EC number associated with the KO
+* **KO EC number**: EC number associated with the KO
 
 In the table (3), each line describes a gene related to an enzymatic reaction or a KO of this pathway. EC numbers (enzymatic functions) and the predictions of KofamScan are useful to construct these links. The « region » column indicates the genes presence/absence in the region of interest.
 
-On the KEGG maps (4), reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow. More details are available by clicking on items of the map and. The Reload button allows the user to come back in this his exploration work.
+How to explore the KEGG map ?
+-----------------------------
+
+On the KEGG map (4), reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow. More details are available by clicking on items of the map and. The Reload button allows the user to come back in this his exploration work.
+
+../img/keggtabmap_map.PNG
