@@ -6,7 +6,7 @@ Kegg map
 How to read the table ?
 -----------------------
 
-In the table, each line describes a gene related to an enzymatic reaction or a KO of this pathway. 
+In the table, each line describes a gene related to an enzymatic reaction and a KO in this pathway. 
 
 .. image:: img/keggtabmap_table.PNG
 
