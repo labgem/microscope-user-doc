@@ -16,7 +16,7 @@ In the table, each line describes a gene related to an enzymatic reaction and a 
 * **EC number**: EC number associated with the protein
 * **Product**: Product description of the protein
 * **Evidence**: Status of the annotation: "validated" means the gene is manual annotated and "automatic" means the gene annotation come from automatic annotation system
-* **Enzyme Description**: description of enzymatic function
+* **KEGG map EC**: description of enzymatic function involved in the pathway
 * **KO**: ID number of KEGG Ortholog entry
 * **KO Definition**: Functional description of KO
 * **KO EC number**: EC number associated with the KO
