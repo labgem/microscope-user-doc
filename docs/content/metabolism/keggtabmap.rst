@@ -3,28 +3,28 @@
 KEGG map
 ########
 
-How to read the table ?
------------------------
+How to read the table?
+----------------------
 
-In the table, each line describes a gene related to an enzymatic reaction and a KO number (KEGG Orthology) in this pathway. 
+This table lists the genes associated with the given KEGG pathway, either by their annotated EC numbers or by their KO (KEGG Orthology) family. KO families are predicted by the KOfamScan software.
+
 
 .. image:: img/keggtabmap_table.PNG
 
-* **Label**: Label of the protein. If you click on the label, you access to the Gene annotation window
-* **Region**: '+' indicate the genes presence in the region selected and '-' indicate abscence
-* **Gene**: Gene name of the protein
-* **EC number**: EC number associated with the protein
+* **Label**: Label of the gene. If you click on the label, you access to the Gene annotation window
+* **Region**: '+' means the genes is present in the selected region the genome browser. ‘-‘ indicates that the gene is found elsewhere on the genome.
+* **Gene**: The gene name
+* **EC number**: annotated EC numbers for the gene 
 * **Product**: Product description of the protein
-* **Evidence**: Status of the annotation: "validated" means the gene is manual annotated and "automatic" means the gene annotation come from automatic annotation system
-* **KEGG map EC**: Description of enzymatic functions involved in the pathway
-* **KO**: ID number of KEGG Ortholog entry
-* **KO Definition**: Functional description of KO
-* **KO EC number**: EC number associated with the KO
+* **Evidence**: Status of the annotation: "validated" means the gene is manually annotated and "automatic" means the gene annotation comes from automatic annotation procedure
+* **KEGG map EC**: list of EC numbers with their description that are involved in the pathway
+* **KO**: ID number of KEGG Ortholog family entry
+* **KO Definition**: Functional description of the KO
+* **KO EC number**: EC numbers associated with the KO
 
-How to explore the KEGG map ?
------------------------------
+How to explore the KEGG map?
+----------------------------
 
-On the KEGG map, reactions matching genome annotations are highlighted in green and reaction matching region annotations are highlighted in yellow.
-More details are available by clicking on items of the map and the Reload button allows the user to come back in this his exploration work.
+On the KEGG map, reactions matching gene annotations by their EC number or their predicted KO family are highlighted in yellow if the gene is present in the selected region of the genome browser or in green if the gene is found elsewhere on the genome.
 
 .. image:: img/keggtabmap_map.PNG
