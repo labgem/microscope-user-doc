@@ -1,6 +1,6 @@
 
 ########
-Kegg map
+KEGG MAP
 ########
 
 How to read the table ?
