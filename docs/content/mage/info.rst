@@ -877,8 +877,6 @@ All pathways listed in this table are those predicted as present in this organis
 
 .. image:: img/metacyc.png
 
-
-
 ========
 COGnitor
 ========
@@ -910,7 +908,7 @@ EGGNOG
 ========
 
 What is EGGNOG?
------------------
+---------------
 
 It uses precomputed orthologous groups and phylogenies from the eggNOG database to transfer functional information from fine-grained orthologs only.
 
