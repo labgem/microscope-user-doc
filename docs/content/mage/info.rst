@@ -823,6 +823,8 @@ How to read UniFIRE results?
 * **UniRule Source** : Source rule id
 * **UniRule Method** : Source rule
 
+.. _mage_kofamscan:
+
 =========
 KOfamScan
 =========

@@ -6,7 +6,8 @@ KEGG map
 How to read the table?
 ----------------------
 
-This table lists the genes associated with the given KEGG pathway, either by their annotated EC numbers or by their KO (KEGG Orthology) family. KO families are predicted by the `KOfamScan <https://microscope.readthedocs.io/en/microscope-removepriam/content/mage/info.html?highlight=kofamscan#what-is-kofamscan/>`_ software.
+This table lists the genes associated with the given KEGG pathway, either by their annotated EC numbers or by their KO (KEGG Orthology) family.
+KO families are predicted by the :ref:`mage_kofamscan` software.
 
 
 .. image:: img/keggtabmap_table.PNG
