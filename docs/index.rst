@@ -81,7 +81,6 @@ Metabolism
    content/metabolism/microcyc
    content/metabolism/kegg
    content/metabolism/metabolicprofil
-   content/metabolism/syntenyPath
    content/metabolism/pathwayCuration
    content/metabolism/antismash
 
