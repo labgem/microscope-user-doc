@@ -7,12 +7,12 @@ Why should I need to create an account?
 
 This interface is dedicated to new account registration. Creating an account on the MicroScope platform will allow you:
 
+* to request for a delivery of service.
 * to save some personal settings.
 * to save Genes Carts.
 * to set a list of favourite organisms.
 * to be informed directly about LABGeM’s communications.
 * to participate to user surveys.
-* to request for a delivery of service (in a near future)
 
 
 What information is needed to create a new account?
