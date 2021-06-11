@@ -25,9 +25,9 @@ Two display modes are available:
 
 * the second one, « **Order by Users** », will list all the users that have access to genomes belonging to the administrator.
 
-.. note:: status (« **Private** » or « **Public** ») is currently set by LABGeM team. By default we set the status this way:
+.. note:: status (« **Private** » or « **Public** ») is currently set by the LABGeM team. By default we set the status this way:
 
-	* If the genome is a newly sequenced one, we will set the status to « **Private** » when we deliver the data on MicroScope, and we will give « **Administrator** » access rights to the submitter of the corresponding Delivery of Service.
+	* If the genome is a newly sequenced one, we will set the status to « **Private** » when we deliver the data on MicroScope, and we will give « **Administrator** » access right to the submitter of the corresponding Delivery of Service.
 	* If the genome is coming from a public databank (RefSeq sequence, for example), the default status will be « **Public** », and no one will be set as « **Administrator** », except if you plan to re-annotate the genome (in this case, you have to contact us)
 
 If you click on the *down arrow* on the left of an genome / user name, you will display the details about access rights on this genome / of this user.
@@ -52,7 +52,7 @@ For now, we provide 3 access rights levels:
 How to Change Access Rights?
 ----------------------------
 
-To change the user access rights, simply select the desired access level from the select menu, then the update will be performed automatically.
+To change the user access rights, simply select the desired access right from the select menu, then the update will be performed automatically.
 Selecting « **Remove** » will delete all access rights of the given user on this genome.
 For « **Private** » genomes, it means that the user won't be able to see the genome anymore.
 
@@ -60,7 +60,7 @@ For « **Private** » genomes, it means that the user won't be able to see the g
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: img/man2.png
 
-All users having access to the corresponding genome are grouped by access right level: first, the user having « **Administrator** » access right, then users having « **View & Annotate** » access rights and at the end, users having « **View Only** » access rights.
+All users having access to the corresponding genome are grouped by access right level: first, users having « **Administrator** » access right, users having « **View & Annotate** » access right and at the end, users having « **View Only** » access right.
 
 Additional data about users are also available:
 
@@ -68,7 +68,7 @@ Additional data about users are also available:
 	* User email
 	* User account creation date
 	* Last login date on MicroScope (not necessarily on the genome you are looking at)
-	* Last date the user access rights has been modified by an administrator
+	* Last date the user access rights have been modified by an administrator
 
 « **Order by Users** » view
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -80,7 +80,7 @@ For a given user, will be listed all the genomes for which:
 	* user have access rights
 	* you have administrator access level
 
-Please note that an user may have also access rights for genomes you are not administrator of.
+Please note that a user may have also access rights for genomes you are not administrator of.
 In this case, corresponding genomes will not be displayed.
 
 Additional data are also available:
@@ -88,7 +88,7 @@ Additional data are also available:
 	* Genome name
 	* Related sequences (chromosomes, plasmids)
 	* Genome status (« **Private** »/« **Public** »)
-	* The last date the user access rights has been modified by an administrator
+	* The last date the user access rights have been modified by an administrator
 
 .. note:: There are some restrictions about the access rights an administrator can select:
 
@@ -99,7 +99,7 @@ Additional data are also available:
 How to give Access Rights to a new user?
 ----------------------------------------
 
-To add new access rights to a new user or set a same access rights to several genomes or users, click on the green button called « **+ Add New Access Rights** ».
+To add new access rights to a new user or set a same access right to several genomes or users, click on the green button called « **+ Add New Access Rights** ».
 You will be redirected into another interface with 3 steps:
 
 .. image:: img/man4.png
