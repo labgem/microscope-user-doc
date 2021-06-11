@@ -9,6 +9,36 @@ This interface allows the administrators of a genome to manage the access rights
 .. note:: Only annotators defined as « Genome Administrators » are allowed to use this functionality.
    See below for an explanation of what an administrator is.
 
+Genome status and access rights
+-------------------------------
+
+What are the different Access Rights?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For now, we provide 3 access rights:
+
+* « **View Only** »: this level is the basic one.
+  Users having this access right will be able to see the genome and the corresponding data on MicroScope but will not be able to annotate a sequence.
+* « **View & Annotate** »: users having this access right are able to view the genome and to annotate it.
+* « **Administrator** » : this level is the higher level (users having this right are called « administrators » of the genome).
+  Administrators can view and annotate a genome and are able to set access rights for other people.
+  Note that you can set several administrators on the same genome.
+
+« **Private** » or « **Public** » genomes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In MicroScope a genome can be considered « **Private** » or « **Public** »:
+
+	* « **Public** » status means everyone will have « **View Only** » access right on the corresponding genome/sequences in MicroScope.
+  Other access rights, such as « **View & Annotate** », must be be granted to users by an administrator.
+	* « **Private** » status means that only people having access rights granted by an administrator will be able to view or annotate the genome / sequence.
+  In order for other user to see a « **Private** » genome, an administrator must give them the « **View Only** » or « **View & Annotate** » access right to users.
+
+.. note:: status (« **Private** » or « **Public** ») is currently set by the LABGeM team. By default we set the status this way:
+
+	* If the genome is a newly sequenced one, we will set the status to « **Private** » when we deliver the data on MicroScope, and we will give « **Administrator** » access right to the submitter of the corresponding Delivery of Service.
+	* If the genome is coming from a public databank (RefSeq sequence, for example), the default status will be « **Public** », and no one will be set as « **Administrator** », except if you plan to re-annotate the genome (in this case, you have to contact us)
+
 
 How to read the interface?
 --------------------------
@@ -18,35 +48,10 @@ How to read the interface?
 Two display modes are available:
 
 * the first one (default), « **Order by Genomes** », will display all genomes for which the user have administration rights.
-  Each genome is either « **Private** » or « **Public** »:
-
-	* « **Public** » status means everyone will have « **View Only** » access rights on the corresponding genome/sequences in MicroScope. Other access rights, such like « **View & Annotate** », must be be granted to users by an administrator.
-	* « **Private** » status means that only people having access rights granted by an administrator will be able to view or annotate the genome / sequence.
 
 * the second one, « **Order by Users** », will list all the users that have access to genomes belonging to the administrator.
 
-.. note:: status (« **Private** » or « **Public** ») is currently set by the LABGeM team. By default we set the status this way:
-
-	* If the genome is a newly sequenced one, we will set the status to « **Private** » when we deliver the data on MicroScope, and we will give « **Administrator** » access right to the submitter of the corresponding Delivery of Service.
-	* If the genome is coming from a public databank (RefSeq sequence, for example), the default status will be « **Public** », and no one will be set as « **Administrator** », except if you plan to re-annotate the genome (in this case, you have to contact us)
-
 If you click on the *down arrow* on the left of an genome / user name, you will display the details about access rights on this genome / of this user.
-
-
-What are the different Access Rights?
--------------------------------------
-
-For now, we provide 3 access rights levels:
-
-* « **View Only** »: this level is the basic one.
-  Users having this access rights will be able to see the genome and the corresponding data on MicroScope but will not be able to annotate a sequence.
-  Please note that for a « **Public** » genome, everyone has the « **View Only** » access right.
-  For « **Private** » genomes, an administrator will need to give a « **View Only** » access rights to users.
-* « **View & Annotate** »: users having this access rights level are able to view the genome and to annotate it.
-* « **Administrator** » : this level is the higher level (users having this right are called « administrators » of the genome).
-  Administrators can annotate a genome and have full management rights on it.
-  Administrators are able to set access rights for other people.
-  Note that you can set several administrators on the same genome.
 
 
 How to Change Access Rights?
