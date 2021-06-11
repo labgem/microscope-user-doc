@@ -4,9 +4,10 @@
 Access Rights Management
 ########################
 
-This interface is made for« Organism Administrators » and allows management of users access rights on organisms.
+This interface allows the administrators of a genome to manage the access rights.
 
-.. note:: **Only annotators defined as «Organism Administrators» are allowed to use this functionality. By default, «Organism Administrators» are users who submit a Delivery of Service asking for a Genome integration into MicroScope: when the organism is delivered by LABGeM team on the MicroScope platform, the Delivery of service submitter is set with an additional access right, that will allow him to manage access rights of other users on corresponding organisms**
+.. note:: Only annotators defined as « Genome Administrators » are allowed to use this functionality.
+   See below for an explanation of what an administrator is.
 
 
 How to read the interface?
@@ -16,84 +17,99 @@ How to read the interface?
 
 Two display modes are available:
 
-* the first one (default one), «**Order by Organisms**», will display all organisms for which the user have administration rights. Each organism, for which you are administrator, has a status called «**Private**» or «**Public**»:
+* the first one (default), « **Order by Genomes** », will display all genomes for which the user have administration rights.
+  Each genome is either « **Private** » or « **Public** »:
 
-	* «**Public**» status means everyone will have «View Only» access rights on the corresponding organism/sequences in MicroScope. Other access rights, such like «View & Annotate» access rights will need to be granted to users by an administrator.
-	* «**Private**» status means that only people having access rights granted by an administrator will be able to «View» or «Annotate» the organism / sequence.
+	* « **Public** » status means everyone will have « **View Only** » access rights on the corresponding genome/sequences in MicroScope. Other access rights, such like « **View & Annotate** », must be be granted to users by an administrator.
+	* « **Private** » status means that only people having access rights granted by an administrator will be able to view or annotate the genome / sequence.
 
-* the second one, «Order by Users», will list all the users that have access to organisms belonging to the administrator.
+* the second one, « **Order by Users** », will list all the users that have access to genomes belonging to the administrator.
 
-.. note:: «**Private**» or «**Public**» status are currently set by LABGeM team. By default we set the status this way:
+.. note:: status (« **Private** » or « **Public** ») is currently set by LABGeM team. By default we set the status this way:
 
-	* If the organism is a new sequenced one, we will set the status to «**Private**» when we deliver the data on MicroScope, and we will give «Administrator» access level to the submitter of the corresponding Delivery of Service.
-	* If the organism is coming from a public databank (RefSeq sequence, for example), the default status will be «**Public**», and no one will be set as «Administrator», except if you plan to re-annotate the organism (in this case, you have to contact us)
+	* If the genome is a newly sequenced one, we will set the status to « **Private** » when we deliver the data on MicroScope, and we will give « **Administrator** » access rights to the submitter of the corresponding Delivery of Service.
+	* If the genome is coming from a public databank (RefSeq sequence, for example), the default status will be « **Public** », and no one will be set as « **Administrator** », except if you plan to re-annotate the genome (in this case, you have to contact us)
 
-If you click on the *down arrow* on the left of an organism / user name, you will display the details about access rights on this organism / of this user.
+If you click on the *down arrow* on the left of an genome / user name, you will display the details about access rights on this genome / of this user.
 
 
 What are the different Access Rights?
 -------------------------------------
 
-For now, we provide 4 main access rights levels:
+For now, we provide 3 access rights levels:
 
-* «**Administrator**» : this level is the higher one. Administrator will have full management rights on the organism. Administrator will be able to set access rights for other people. Note that you can set several Administrators on a same organism. Also, Administrator have annotation access rights on their organisms.
-* «**View & Annotate**»: users having this access rights level, will only be able to «Annotate» and «View» the organism and the corresponding data on MicroScope.
-* «**View Only**»: this level is the basic one. People having view access rights will not be able to annotate a sequence. Please note that for a «Public» organism, everyone has «View Only» access rights. For «Private» organisms, an administrator will need to give a «View» access rights to users.
-* «**Remove**»: will delete the access rights of a given user.
+* « **View Only** »: this level is the basic one.
+  Users having this access rights will be able to see the genome and the corresponding data on MicroScope but will not be able to annotate a sequence.
+  Please note that for a « **Public** » genome, everyone has the « **View Only** » access right.
+  For « **Private** » genomes, an administrator will need to give a « **View Only** » access rights to users.
+* « **View & Annotate** »: users having this access rights level are able to view the genome and to annotate it.
+* « **Administrator** » : this level is the higher level (users having this right are called « administrators » of the genome).
+  Administrators can annotate a genome and have full management rights on it.
+  Administrators are able to set access rights for other people.
+  Note that you can set several administrators on the same genome.
 
 
 How to Change Access Rights?
 ----------------------------
 
 To change the user access rights, simply select the desired access level from the select menu, then the update will be performed automatically.
+Selecting « **Remove** » will delete all access rights of the given user on this genome.
+For « **Private** » genomes, it means that the user won't be able to see the genome anymore.
 
-* «**Order by Organisms**» View
-
+« **Order by Genomes** » view
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: img/man2.png
 
-All users having access to the corresponding organism are grouped by access right level: first, **Administrators**, then users having **View & Annotate** access rights and at the end, users having View Only access rights.
+All users having access to the corresponding genome are grouped by access right level: first, the user having « **Administrator** » access right, then users having « **View & Annotate** » access rights and at the end, users having « **View Only** » access rights.
 
-*Additional data about users are also available:*
+Additional data about users are also available:
 
-	* *User name*
-	* *User email*
-	* *User account creation date*
-	* *User last login date on MicroScope (and not necessarily on the organism you are looking at)*
-	* *the last date the user access rights has been modified by an administrator*
+	* User name
+	* User email
+	* User account creation date
+	* Last login date on MicroScope (not necessarily on the genome you are looking at)
+	* Last date the user access rights has been modified by an administrator
 
-* «**Order by Users**» View
+« **Order by Users** » view
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: img/man3.png
 
-For a given user, will be listed all the organisms for which:
+For a given user, will be listed all the genomes for which:
 
 	* user have access rights
 	* you have administrator access level
 
-Please note that an user may have also access rights for organisms you are not administrator of. In this case, corresponding organisms will not be displayed.
+Please note that an user may have also access rights for genomes you are not administrator of.
+In this case, corresponding genomes will not be displayed.
 
-*Additional data are also available:*
+Additional data are also available:
 
-	* *Organism name*
-	* *related sequences (chromosomes, plasmids)*
-	* *Organism status (private/public)*
-	* *the last date the user access rights has been modified by an administrator*
+	* Genome name
+	* Related sequences (chromosomes, plasmids)
+	* Genome status (« **Private** »/« **Public** »)
+	* The last date the user access rights has been modified by an administrator
 
-.. note:: There is some restrictions about access rights an administrator can select:
+.. note:: There are some restrictions about the access rights an administrator can select:
 
 	* an administrator can not change is own access rights. If an administrator, for some reasons, wants to drop his access level, he will need to set administrator access rights to another user. Then, this user will be allowed to drop the access level of the first administrator.
-	* an administrator can not set a «View Only» access right to users on «Public» organisms, since these organisms are accessible for everyone.
+	* an administrator can not set a « **View Only** » access right to users on « **Public** » genomes, since those genomes are accessible for everyone.
 	
 	
 How to give Access Rights to a new user?
 ----------------------------------------
 
-To add new access rights to a new user, or set a same access rights to several organisms or users, click on the green button called «**+ Add New Access Rights**»
-
-Then, you will be redirected into another interface with 3 steps:
+To add new access rights to a new user or set a same access rights to several genomes or users, click on the green button called « **+ Add New Access Rights** ».
+You will be redirected into another interface with 3 steps:
 
 .. image:: img/man4.png
 
-* **Step 1**: this menu will list all the organisms you are administrator of. Select all the organisms for which you want to grant access rights.
-* **Step 2**: this menu will list all the users that currently have access rights on the organisms you are administrator of. Select all the users for who you want to update access rights. If an user is missing in this list, you can add him by filling the upper field and click on «**ADD NEW USER**» button. You will have to **fill the field with the user email address used for his account creation**. So, be sure that people have already a MicroScope account before trying to give them access rights on your organisms.
-* **Step 3**: select the access level you want to give to your selection. Then save.
+* **Step 1**: this advanced selector will list all the genomes you are administrator of.
+  Use it to select all the genomes for which you want to grant access rights.
+  In the example, « Acinetobacter baylyi ADP1 » has been selected.
+* **Step 2**: this list contains all the users that currently have access rights on the genomes you are administrator of (the names have been blurred in the example).
+  Select all the users for who you want to update access rights.
+  If a user is missing in this list, you can add him by filling the upper field and click on « **ADD NEW USER** » button.
+  You will have to **fill the field with the user email address used for his account creation**.
+  So, be sure that people have already a MicroScope account before trying to give them access rights on your genomes.
+* **Step 3**: select the access level you want to give to your selection and save.
