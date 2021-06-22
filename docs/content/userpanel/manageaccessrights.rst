@@ -1,8 +1,8 @@
-.. _access-rights-management:
+.. _access-right-management:
 
-########################
-Access Rights Management
-########################
+#######################
+Access Right Management
+#######################
 
 This interface allows the administrators of a genome to manage the access rights.
 
@@ -64,7 +64,7 @@ For « **Private** » genomes, it means that the user won't be able to see the g
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. image:: img/man2.png
 
-All users having access to the corresponding genome are grouped by access right level: first, users having « **Administrator** » access right, users having « **View & Annotate** » access right and at the end, users having « **View Only** » access right.
+All users having access to the corresponding genome are grouped by access right level: first, then users having « **Administrator** » access right, users having « **View & Annotate** » access right and at the end, users having « **View Only** » access right.
 
 Additional data about users are also available:
 
@@ -81,7 +81,7 @@ Additional data about users are also available:
 
 For a given user, will be listed all the genomes for which:
 
-  * user have access rights
+  * user has some access rights
   * you have administrator access level
 
 Please note that a user may have also access rights for genomes you are not administrator of.
