@@ -91,6 +91,8 @@ This selector is used for instance in the following pages:
 Overview
 ========
 
+This section will show how to select some genomes but the process is the same for sequences.
+
 When the page opens, the selector is displayed like below (it may take some time to load):
 
 .. image:: img/selector_closed.png
