@@ -95,7 +95,7 @@ When the page opens, the selector is displayed like below (it may take some time
 
 .. image:: img/selector_closed.png
 
-To start selecting organisms click on the **Edit** button.
+To start selecting genomes click on the **Edit** button.
 The selector opens as shown below:
 
 
@@ -138,7 +138,7 @@ to their initial value (*i.e.* when the page was opened).
 The selection window stays open so you can restart the selection.
 
 The **Cancel** button button cancels all the changes done in the current selector
-(*i.e* the list of selected organisms is not changed) and closes the selection window.
+(*i.e* the list of selected genomes is not changed) and closes the selection window.
 
 Example
 =======
@@ -197,7 +197,7 @@ To do so, simply select one of them by clicking on it and click on the **Add But
 .. image:: img/advanced-selector-selection.png
 
 As you can see, the number of genomes in the **Pre-selection Zone** is updated.
-See :ref:`select-organisms-of-interest` for detailled description.
+See :ref:`select-objects-of-interest` for a detailled description of how to select them.
 
 Congratulations, you have made your first advanced selection in MicroScope !
 The rest of this page explains some details about the advanced selector.
@@ -253,10 +253,10 @@ The display by "species" with "Acinetobacter" filter active will organize all pr
 
 The display by "genus" with "Acinetobacter" filter active will show all the 32 genomes in one single group.
 
-.. _select-organisms-of-interest:
+.. _select-objects-of-interest:
 
-How to select my organisms of interest?
----------------------------------------
+How to select objects of interest?
+----------------------------------
 
 To select an object, move the mouse with the button down on the wanted genomes in the **Pre-selection Zone** (shift + click works too).
 Then press the green button to put them in the **Selection Zone**.
