@@ -56,7 +56,7 @@ In the last two cases, the functional annotation of the candidate genes may diff
 
 The use of a given dataset over another one will depend of the kind of data the annotator looks for.
 
-The common dataset are these ones:
+The common dataset are:
 
 1. **Gene annotation or features:**
 
@@ -74,7 +74,7 @@ The common dataset are these ones:
 * **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
 * **Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
 * **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
-* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries
+* **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries.
 
 3. **Comparative or funtional methods results:**
 
@@ -88,23 +88,23 @@ The common dataset are these ones:
 * **KOfamScan**: will return genes of your selected sequence having KEGG Ortholog entries (KO) predicted by KOfamScan.
 * **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
-* **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries
-* **InterPro**: will return genes of your selected sequence matching InterPro entries
-* **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries
-* **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries
-* **PsortB Results**: will return genes of your selected sequence matching PSortB entries
-* **SignalP Results**: will return genes of your selected sequence matching SignalP entries
-* **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries
-* **Coiled Coil Results**: will return genes of your selected sequence that code for proteins with a coiled coil structure
-* **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s)
-* **antiSMASH results**: will return genes of your selected sequence being part of a biosynthetic gene cluster predicted by antiSMASH
-* **Resistome results**: will return genes of your selected sequence matching described antibiotic resistance entries
-* **Virulome results**: will return genes of your selected sequence matching described virulence factor entries
-* **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method
-* **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN
-* **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder
-* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder
-* **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`
+* **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries.
+* **InterPro**: will return genes of your selected sequence matching InterPro entries.
+* **KEGG Pathways**: will return genes of your selected sequence matching KEGG Pathways entries.
+* **MicroCyc Pathways**: will return genes of your selected sequence matching MicroCyc Pathways entries.
+* **PsortB Results**: will return genes of your selected sequence matching PSortB entries.
+* **SignalP Results**: will return genes of your selected sequence matching SignalP entries.
+* **TMHMM Results**: will return genes of your selected sequence matching TMHMM entries.
+* **Coiled Coil Results**: will return genes of your selected sequence that code for proteins with a coiled coil structure.
+* **Genes with SNP(s) and/or InDel(s)**: will return genes of your selected sequence having SNP(s) and/or InDel(s).
+* **antiSMASH results**: will return genes of your selected sequence being part of a biosynthetic gene cluster predicted by antiSMASH.
+* **Resistome results**: will return genes of your selected sequence matching described antibiotic resistance entries.
+* **Virulome results**: will return genes of your selected sequence matching described virulence factor entries.
+* **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method.
+* **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN.
+* **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
+* **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
+* **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
 
 .. _fields:
 
