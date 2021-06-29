@@ -266,8 +266,8 @@ Then press the green button to put them in the **Selection Zone**.
 
 .. _selection-zone:
 
-Selection Zone
---------------
+The selection zone
+------------------
 
 The **Selection Zone** is there to allow you to see all the selected object for the analysis.
 You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **Selection Zone**.
