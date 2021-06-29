@@ -101,7 +101,7 @@ The common dataset are:
 * **Resistome results**: will return genes of your selected sequence matching described antibiotic resistance entries.
 * **Virulome results**: will return genes of your selected sequence matching described virulence factor entries.
 * **LipoP results**: will return genes of your selected sequence corresponding to putative lipoproteins according to LipoP method.
-* **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by dbCAN.
+* **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries classified by :ref:`mage_dbCAN`.
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.

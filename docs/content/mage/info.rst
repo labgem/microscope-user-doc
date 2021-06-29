@@ -1149,35 +1149,34 @@ How to read LipoP results?
 * **Margin:** difference between the best and the second best score.
 * **Pos1** and **Pos2** indicate the positions between which the cleavage is supposed to occur
 
+.. _mage_dbCAN:
+
 =====
 dbCAN
 =====
 
-
 What is dbCAN?
 --------------
 
-`dbCAN <http://csbl.bmb.uga.edu/dbCAN/index.php>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. dbCAN proposes an Hidden Markov Model (HMM) for each CAZy family.
+`dbCAN2 <http://bcb.unl.edu/dbCAN2/>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.
+dbCAN2 uses several tools to detect for automated CAZyme annotation.
 
 **References:**
 
-`Yin Y, Mao X, Yang JC, Chen X, Mao F and Xu Y, dbCAN: a web resource for automated carbohydrate-active enzyme annotation, Nucleic Acids Res. 2012  <http://nar.oxfordjournals.org/content/40/W1/W445.long>`_
+`Zhang H,  Yohe T, Huang L, Entwistle S, Wu P, Yang Z, Busk PK, Xu Y, Yin Y, dbCAN2: a meta server for automated carbohydrate-active enzyme annotation, Nucleic Acids Research <https://doi.org/10.1093/nar/gky418>`_
 
 
 How to read dbCAN results?
 --------------------------
 
-.. image:: img/dbcan.PNG
+.. image:: img/dbcan.png
 
 * **CAZy_fam:** name of the CAZy family (linked to the corresponding CAZy’s family web page).
-* **BeginB:** position, on the HMM, of the beginning of the alignment between the sequence and the HMM.
-* **EndB:** position, on the HMM, of the end of the alignment between the sequence and the HMM.
-* **LengthB:** Length of the HMM.
-* **BeginQ:** position, on the sequence, of the beginning of the alignment between the sequence and the HMM
-* **EndQ:** position, on the sequence, of the end of the alignment between the sequence and the HMM
-* **LengthQ:** length of the sequence
-* **Eval:** Evalues of the alignment
-* **Coverage:** Coverage of the HMM coverage= (endB-beginB)/lengthB. It gives an indication about how complete the module is.
+* **CAZy_subfam:** name of the CAZy subfamily (linked to the corresponding CAZy’s subfamily web page).
+* **Begin:** position, on the HMM, of the beginning of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
+* **End:** position, on the HMM, of the end of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
+* **Method:** method by which this correspondance was found.
+* **Number of tools:** number of tools that found the same correspondance as this one.
 
 =========
 Resistome
