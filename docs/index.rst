@@ -20,6 +20,7 @@ MicroScope Platform Overview
    content/overview/login
    content/overview/latestnews
    content/overview/selection
+   content/overview/metadata
    
 ====
 MaGe

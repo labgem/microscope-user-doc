@@ -1,5 +1,9 @@
 .. _selector:
 
+.. TODO:
+   We don't mention strain metadata for now because it's not in the public instance.
+   See also :ref:`metadata`
+
 #############################
 Sequence and Genome selection
 #############################
@@ -79,7 +83,7 @@ For example, if you type "k12", the following list will open:
 Advanced Selector
 *****************
 
-This selector is used to select one or several objects based on the NCBI taxonomy, strain name or :ref:`MICGC <genoclust>`.
+This selector is used to select one or several objects based on a combination of search.
 
 This selector is used for instance in the following pages:
 
@@ -114,8 +118,10 @@ the list of all objects from the data source.
 Filters can be constructed from:
 
  * the *Strain name* when selecting a genome or the *Sequence* when selecting a sequence
- * the *Taxonomy* of the object (genome or sequence)
+ * the *Taxonomy* of the object
  * the *MICGC* to which the object belong (see :ref:`genoclust`)
+ * some *Metadata* about the species of the object (see :ref:`species_metadata`)
+.. TODO: add strain metadata here
 
 See :ref:`search-field-filters` for detailled explanation on filters.
 
@@ -221,6 +227,12 @@ Typing in the **Search Field**, will bring suggestions.
   .. image:: img/selector_search2.png
 
 * *MICGC* filters objects in a MICGC (see :ref:`genoclust`)
+
+* *Species metadata* filters by metadata about the species of the object
+
+  .. image:: img/selector_search3.png
+
+.. TODO: add strain metadata here
 
 Those suggestions are in fact filters.
 There are 2 kinds of filters:
