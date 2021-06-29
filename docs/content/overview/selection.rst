@@ -91,15 +91,12 @@ This selector is used for instance in the following pages:
 Overview
 ========
 
-This section will show how to select some genomes but the process is the same for sequences.
-
 When the page opens, the selector is displayed like below (it may take some time to load):
 
 .. image:: img/selector_closed.png
 
-To start selecting genomes click on the **Edit** button.
+To start selecting objects click on the **Edit** button.
 The selector opens as shown below:
-
 
 .. image:: img/selector_partname.png
 
@@ -140,7 +137,7 @@ to their initial value (*i.e.* when the page was opened).
 The selection window stays open so you can restart the selection.
 
 The **Cancel** button button cancels all the changes done in the current selector
-(*i.e* the list of selected genomes is not changed) and closes the selection window.
+(*i.e* the list of selected objects is not changed) and closes the selection window.
 
 Example
 =======
