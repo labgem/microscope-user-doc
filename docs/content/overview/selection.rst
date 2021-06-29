@@ -79,7 +79,7 @@ For example, if you type "k12", the following list will open:
 Advanced Selector
 *****************
 
-This selector is used to select one or several objects based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
+This selector is used to select one or several objects based on the NCBI taxonomy, strain name or :ref:`MICGC <genoclust>`.
 
 This selector is used for instance in the following pages:
 
@@ -118,7 +118,7 @@ Filters can be constructed from:
 
  * the *Strain name* when selecting a genome or the *Sequence* when selecting a sequence
  * the *Taxonomy* of the object (genome or sequence)
- * the *MICGC* to which the object belong (see :ref:`MICGC <micgc>`)
+ * the *MICGC* to which the object belong (see :ref:`genoclust`)
 
 See :ref:`search-field-filters` for detailled explanation on filters.
 
@@ -223,7 +223,7 @@ Typing in the **Search Field**, will bring suggestions.
 
   .. image:: img/selector_search2.PNG
 
-* *MICGC* filters objects in a :ref:`micgc`
+* *MICGC* filters objects in a MICGC (see :ref:`genoclust`)
 
 Those suggestions are in fact filters.
 There are 2 kinds of filters:
