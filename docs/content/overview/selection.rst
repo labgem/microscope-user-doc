@@ -214,11 +214,11 @@ Typing in the **Search Field**, will bring suggestions.
 
 * *Strain name*/*Sequence* filters by name of genome/sequence
 
-  .. image:: img/selector_search.PNG
+  .. image:: img/selector_search.png
 
 * *Taxonomy* filters by taxonomic (NCBI based) information
 
-  .. image:: img/selector_search2.PNG
+  .. image:: img/selector_search2.png
 
 * *MICGC* filters objects in a MICGC (see :ref:`genoclust`)
 
@@ -244,11 +244,11 @@ What is the display menu?
 By default, objects in the **Pre-selection Zone** and **Selection Zone** are grouped by genus.
 You can change this by modifying the value of the display drop down menu.
 
-.. image:: img/selector_display.PNG
+.. image:: img/selector_display.png
 
 The display by "species" with "Acinetobacter" filter active will organize all pre-selected genome by species.
 
-.. image:: img/selector_display2.PNG
+.. image:: img/selector_display2.png
 
 The display by "genus" with "Acinetobacter" filter active will show all the 32 genomes in one single group.
 
