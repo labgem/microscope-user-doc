@@ -1158,8 +1158,15 @@ dbCAN
 What is dbCAN?
 --------------
 
-`dbCAN2 <http://bcb.unl.edu/dbCAN2/>`_ is a method for the automated detection of carbohydrate active enzyme classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.
-dbCAN2 uses several tools to detect for automated CAZyme annotation.
+`dbCAN2 <http://bcb.unl.edu/dbCAN2/>`_ is a method for the automated detection of carbohydrate active enzyme (CAZyme).
+They are classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.
+dbCAN2 uses 3 different tools to assign CAZyme annotation:
+
+  - **HMMER:**: which compares sequences against a library of CAZy families signature (with **HMMscan**)
+  - **Diamond:** which compares sequences against a library of sequences classified into CAZy families
+  - **Hotpep:** which compares sequences against a library of conserved peptides for the CAZy families
+
+We currently use dbCAN2 v3 (see `here <http://bcb.unl.edu/dbCAN2/download/Tools/>`_).
 
 **References:**
 
@@ -1171,12 +1178,14 @@ How to read dbCAN results?
 
 .. image:: img/dbcan.png
 
+Each line presents a correspondance between the genomic object and a CAZy found by one of the tools used by dbCAN2:
+
 * **CAZy_fam:** name of the CAZy family (linked to the corresponding CAZy’s family web page).
 * **CAZy_subfam:** name of the CAZy subfamily (linked to the corresponding CAZy’s subfamily web page).
 * **Begin:** position, on the HMM, of the beginning of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
 * **End:** position, on the HMM, of the end of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
 * **Method:** method by which this correspondance was found.
-* **Number of tools:** number of tools that found the same correspondance as this one.
+* **Number of tools:** number of tools that found the same correspondance as this one. If > 2, the prediction is considered correct.
 
 =========
 Resistome
