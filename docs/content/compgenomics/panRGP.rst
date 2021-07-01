@@ -8,7 +8,7 @@ What is PPanGGOLiN ?
 --------------------
 
 The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/labgem/PPanGGOLiN>`_ software.
-PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <micgc>`  (MICGC correspond to clusters of genomes from the same species) (A).
+PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <genoclust>`  (MICGC correspond to clusters of genomes from the same species) (A).
 It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C).
 Homologous families are from :ref:`MICFAM <pancore-analysis>` computed with stringent parameters (80% of aa identity and 80% of alignment coverage).
 PPanGGOLiN approach takes into account both graph topology (D.a) and occurrences of genes (D.b) to classify gene families into three partitions (i.e. persistent genome, shell genome and cloud genome) yielding to what we called Partitioned Pangenome Graphs (F).
