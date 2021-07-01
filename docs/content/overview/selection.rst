@@ -121,7 +121,8 @@ Filters can be constructed from:
  * the *Taxonomy* of the object
  * the *MICGC* to which the object belong (see :ref:`genoclust`)
  * some *Metadata* about the species of the object (see :ref:`species_metadata`)
-.. TODO: add strain metadata here
+
+.. TODO: add strain metadata above
 
 See :ref:`search-field-filters` for detailled explanation on filters.
 
