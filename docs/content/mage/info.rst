@@ -1162,7 +1162,7 @@ What is dbCAN?
 They are classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.
 dbCAN2 uses 3 different tools to assign CAZyme annotation:
 
-  - **HMMER:**: which compares sequences against a library of CAZy families signature (with **HMMscan**)
+  - **HMMER:** which compares sequences against a library of CAZy families signature (with **HMMscan**)
   - **Diamond:** which compares sequences against a library of sequences classified into CAZy families
   - **Hotpep:** which compares sequences against a library of conserved peptides for the CAZy families
 
