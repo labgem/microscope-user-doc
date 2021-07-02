@@ -1,5 +1,9 @@
 .. _selector:
 
+.. TODO:
+   We don't mention strain metadata for now because it's not in the public instance.
+   See also :ref:`metadata`
+
 #############################
 Sequence and Genome selection
 #############################
@@ -79,7 +83,7 @@ For example, if you type "k12", the following list will open:
 Advanced Selector
 *****************
 
-This selector is used to select one or several objects based on the NCBI taxonomy, strain name or :ref:`MICGC <micgc>`.
+This selector is used to select one or several objects based on a combination of search.
 
 This selector is used for instance in the following pages:
 
@@ -95,9 +99,8 @@ When the page opens, the selector is displayed like below (it may take some time
 
 .. image:: img/selector_closed.png
 
-To start selecting organisms click on the **Edit** button.
+To start selecting objects click on the **Edit** button.
 The selector opens as shown below:
-
 
 .. image:: img/selector_partname.png
 
@@ -115,8 +118,11 @@ the list of all objects from the data source.
 Filters can be constructed from:
 
  * the *Strain name* when selecting a genome or the *Sequence* when selecting a sequence
- * the *Taxonomy* of the object (genome or sequence)
- * the *MICGC* to which the object belong (see :ref:`MICGC <micgc>`)
+ * the *Taxonomy* of the object
+ * the *MICGC* to which the object belong (see :ref:`genoclust`)
+ * some *Metadata* about the species of the object (see :ref:`species_metadata`)
+
+.. TODO: add strain metadata above
 
 See :ref:`search-field-filters` for detailled explanation on filters.
 
@@ -138,7 +144,7 @@ to their initial value (*i.e.* when the page was opened).
 The selection window stays open so you can restart the selection.
 
 The **Cancel** button button cancels all the changes done in the current selector
-(*i.e* the list of selected organisms is not changed) and closes the selection window.
+(*i.e* the list of selected objects is not changed) and closes the selection window.
 
 Example
 =======
@@ -197,7 +203,7 @@ To do so, simply select one of them by clicking on it and click on the **Add But
 .. image:: img/advanced-selector-selection.png
 
 As you can see, the number of genomes in the **Pre-selection Zone** is updated.
-See :ref:`select-organisms-of-interest` for detailled description.
+See :ref:`select-objects-of-interest` for a detailled description of how to select them.
 
 Congratulations, you have made your first advanced selection in MicroScope !
 The rest of this page explains some details about the advanced selector.
@@ -215,13 +221,19 @@ Typing in the **Search Field**, will bring suggestions.
 
 * *Strain name*/*Sequence* filters by name of genome/sequence
 
-  .. image:: img/selector_search.PNG
+  .. image:: img/selector_search.png
 
 * *Taxonomy* filters by taxonomic (NCBI based) information
 
-  .. image:: img/selector_search2.PNG
+  .. image:: img/selector_search2.png
 
-* *MICGC* filters objects in a :ref:`micgc`
+* *MICGC* filters objects in a MICGC (see :ref:`genoclust`)
+
+* *Species metadata* filters by metadata about the species of the object
+
+  .. image:: img/selector_search3.png
+
+.. TODO: add strain metadata here
 
 Those suggestions are in fact filters.
 There are 2 kinds of filters:
@@ -245,18 +257,18 @@ What is the display menu?
 By default, objects in the **Pre-selection Zone** and **Selection Zone** are grouped by genus.
 You can change this by modifying the value of the display drop down menu.
 
-.. image:: img/selector_display.PNG
+.. image:: img/selector_display.png
 
 The display by "species" with "Acinetobacter" filter active will organize all pre-selected genome by species.
 
-.. image:: img/selector_display2.PNG
+.. image:: img/selector_display2.png
 
 The display by "genus" with "Acinetobacter" filter active will show all the 32 genomes in one single group.
 
-.. _select-organisms-of-interest:
+.. _select-objects-of-interest:
 
-How to select my organisms of interest?
----------------------------------------
+How to select objects of interest?
+----------------------------------
 
 To select an object, move the mouse with the button down on the wanted genomes in the **Pre-selection Zone** (shift + click works too).
 Then press the green button to put them in the **Selection Zone**.
@@ -267,8 +279,8 @@ Then press the green button to put them in the **Selection Zone**.
 
 .. _selection-zone:
 
-Selection Zone
---------------
+The selection zone
+------------------
 
 The **Selection Zone** is there to allow you to see all the selected object for the analysis.
 You can remove some of them by moving the mouse with the button down and pressing the red button to remove them from the **Selection Zone**.
