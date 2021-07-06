@@ -1,8 +1,8 @@
-.. _selector:
-
 .. TODO:
    We don't mention strain metadata for now because it's not in the public instance.
    See also :ref:`metadata`
+
+.. _selector:
 
 #############################
 Sequence and Genome selection
