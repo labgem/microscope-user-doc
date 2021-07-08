@@ -1,123 +1,136 @@
+.. _export:
+
 ###########
 Export Data
 ###########
 
+This page allows to export data from MicroScope in several formats.
+The page has 2 modes.
+They are presented below with their export possibilities.
+
+*************
 Replicon mode
--------------
+*************
 
 .. image:: img/download_extract_replicon.png
 
-This tool allows to retrieve from a specific organism data stored in PkGDB : complete sequences, non coding DNA, coding sequences (nucleic or proteic), annotated data on genomic objects.
+This tool allows to retrieve data stored in PkGDB from a specific sequence.
+These information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, GFF, Tab delimited).
+Moreover, data on role categories used in MicroScope, and/or MicroCyc metabolic Pathway/Genome database (PGDBs) can be downloaded too.
+See below for a more precise presentation.
 
-These information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, GFF, Tab delimited). Moreover, data on role categories used in MicroScope, and/or MicroCyc metabolic Pathway/Genome database (PGDBs) can be downloaded too.
+To use this mode, first, select a reference replicon from the :ref:`CHANGE button (Item #2) <interface-overview>` available in the top right corner of the interface.
+Or select an organism from your :ref:`Favourite Organisms <favourite-organisms>` selection.
 
-First, select a reference replicon from the :ref:`CHANGE button (Item #2) <interface>` available in the top right corner of the interface. Or select an organism from your :ref:`Favourite Organisms <favourite-organisms>` selection.
-
-Organism mode
--------------
-
-.. image:: img/download_extract_organism.png
-
-This tool allows to retrieve from a group of organism sequences data stored in PkGDB. Extraction of several organisms may take several minutes.
-
+.. _export_replicon_genome:
 
 Extract genome
---------------
+==============
 
 .. image:: img/download_extract_genome.png
 
-In both mode, you can extract the genome(s):
+This part allows you to download the sequence in various formats.
+You can choose to extract:
 
-* Pseudomolecule (all the genomes)
-* Contigs (genomes split by contigs)
-* Scaffolds (genomes split by scaffolds)
+* the pseudomolecule
+* the contigs
+* the scaffolds
 
-In all the formats: `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_, `GENBANK <http://www.ncbi.nlm.nih.gov/genbank/>`_,  `EMBL <http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html>`_, `GFF3 <https://en.wikipedia.org/wiki/General_feature_format>`_
-
+Use the drop down list to choose the format among:
+* `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_
+* `GENBANK <http://www.ncbi.nlm.nih.gov/genbank/>`_
+* `EMBL <http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html>`_
+* `GFF3 <https://en.wikipedia.org/wiki/General_feature_format>`_.
 
 Extract data
-------------
+============
 
 .. image:: img/download_extract_data.png
 
-In replicon mode, you can extract in `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_:
+The first line of buttons allows to download several parts of the sequence (in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format):
 
-* CDSs (All the CDS of the genome in nucleic)
-* Proteins (All the CDS of the genome in proteic)
-* Repeats (All the repeat region of the genome in nucleic)
-* ncRNAs (All the non-coding RNA of the genome in nucleic)
+* **CDSs** will download the nucleic sequence of all the CDS of the sequence
+* **Proteins** will download the proteic sequence of all the CDS of the sequence
+* **Repeats** will download the nucleic sequence of the repeated regions of the sequence
+* **ncRNAs** will download the nucleic sequence of all the non-coding RNAs of the sequence
 
-You can also extract in Tabulation delimited format:
+The second line allows to extract the annotations (in tabulation delimited format):
 
-* Genome (All the current genomic objects annotation)
-* Auto (All the automatic genomic objects annotation)
+* **Genome** will download the current annotation of all genomic objects in the sequence
+* **Auto** will download the automatic annotation of all genomic objects in the sequence
 
-You can download COG automatic classification (http://www.ncbi.nlm.nih.gov/COG/):
 
-* Genome (All the COG automatic annotation)
+The **Genome** button on the third line allows to download the :ref:`cog`.
 
-You can download EGGNOG automatic classification (http://eggnogdb.embl.de/#/app/home) (Also available in Organism mode):
-
-* Genome (All the EGGNOG automatic annotation)
-
+The **Genome** button on the fourth line allows to download the :ref:`eggnog`.
 
 Finally, you can obtain the :ref:`Microcyc pathways <microcyc>`.
 
-
-Extract region
---------------
+Extract a region
+================
 
 .. image:: img/download_extract_region.png
 
-* Select the *Begin*, *End* positions and precise the strand you want to get. The default values correspond to the region where the :ref:`Genome Browser <viewer>` is centered.
+The first line allows you to extract a region of the nucleic sequence: select the *Begin*, *End* positions and precise the strand you want to get.
+The default values correspond to the region where the :ref:`Genome Browser <viewer>` is centered.
+The data are exported in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format.
+Click on **Extract** to retrieve the results.
 
-The **Sequence** part allow you to extract the sequence (nucleic) in fasta format in the coordinate.
-
-The second part allow you  to extract the annotation in different format (genbank, embl, gff3, tabulation).
-
-Activating the **Full Sequence** option allows you to obtain the annotation of the objects in the region with the coordinates on the full sequence.
-If this option is disabled, you will obtain the genome sequence and the annotation within the region but the location will be recomputed.
-
+The second part allow you to extract the annotations of the objects in the region indicated by *Begin* and *End*.
+With the **Full Sequence** option, you will obtain the annotation of the objects in the region with the coordinates on the full sequence.
+If this option is disabled, you will obtain the annotation within the region but the location will be computed relatively to the region (in this case, the sequence of the region is included).
+Use the drop down list to choose the format.
 
 Noncoding DNA
--------------
+=============
 
 .. image:: img/download_extract_ncrna.png
 
-Extract the ncDNA sequences from a genome. Indicate a minimal length and include, if necessary, the RNAs.
-
+Extract the ncDNA sequences from a genome.
+Indicate a minimal length and include, if necessary, the RNAs.
 
 Extract a sequence fragment
----------------------------
+===========================
 
-.. image:: img/download_extract_label.png
+.. image:: img/download_extract_fragment.png
 
-You can extract a sequence fragment:
-
-* Indicate directly a Genomic Object Label to extract and manage, if necessary, the 5’/3’ extension length.
-
+This tool allows to  extract a sequence fragment by indicating the label of the Genomic Object to extract and the 5’/3’ extension length.
 
 Extract Classification
-----------------------
+======================
 
 .. image:: img/download_extract_classification.png
 
-Get the complete :ref:`Role Classification <mage-roles>` in a text format.
+The **Role Classification** button allows to get the complete :ref:`Role Classification <mage-roles>` in a text format.
 
-Get the complete :ref:`BioProcess Classification <mage-bioprocess>` in a text format.
+The **BioProcess Classification** button allows to get the complete :ref:`BioProcess Classification <mage-bioprocess>` in a text format.
 
+*************
+Organism mode
+*************
 
-Export Organism Data to RDF
----------------------------
+.. image:: img/download_extract_organism.png
+
+This tool allows to retrieve data stored in PkGDB from a group of genomes.
+Extraction of several genomes may take several minutes.
+This page uses the :ref:`advanced-selector` to select the genomes to export.
+
+The **Extract Genome** and **EGGNOG** parts are similar to the **Replicon** mode
+except of course they retrieve information for all the selected genomes.
+
+Therefore, we only describe the **Export Data as RDF** part is described.
+
+Export Data as RDF
+==================
 
 .. image:: img/rdf_button_screenshot.png
 
-Select one or several organisms to export data in RDF to load it for example in a SPARQL triplestore.
+Select one or several genomes to export data in RDF to load it for example in a SPARQL triplestore.
 
-The RDF file format used by MicroScope platform is the `Turtle format <https://www.w3.org/TR/turtle/>`__.
+The RDF file format used by the MicroScope platform is the `Turtle format <https://www.w3.org/TR/turtle/>`_.
 
 MicroScope Ontology
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 .. image:: img/rdf_mso_diagram.svg
    :alt: MicroScope Ontology (see online documentation).
@@ -131,10 +144,10 @@ ____________________________________________________________________________
 
 
 SPARQL Request examples
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 Prefixes
-"""""""""
+^^^^^^^^
 
 .. code-block:: sparql
 
@@ -156,7 +169,7 @@ Prefixes
    PREFIX metacyc: <https://metacyc.org/META/NEW-IMAGE?type=NIL&object=>
 
 Requests
-""""""""
+^^^^^^^^
 
 .. code-block:: sparql
 
