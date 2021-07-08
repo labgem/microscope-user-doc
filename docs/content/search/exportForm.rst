@@ -12,6 +12,8 @@ They are presented below with their export possibilities.
 Replicon mode
 *************
 
+Here is an overview of this mode:
+
 .. image:: img/download_extract_replicon.png
 
 This tool allows to retrieve data stored in PkGDB from a specific sequence.
@@ -21,6 +23,7 @@ See below for a more precise presentation.
 
 To use this mode, first, select a reference replicon from the :ref:`CHANGE button (Item #2) <interface-overview>` available in the top right corner of the interface.
 Or select an organism from your :ref:`Favourite Organisms <favourite-organisms>` selection.
+After that, you can use the various export possibilities described below.
 
 .. _export_replicon_genome:
 
@@ -37,10 +40,11 @@ You can choose to extract:
 * the scaffolds
 
 Use the drop down list to choose the format among:
+
 * `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_
 * `GENBANK <http://www.ncbi.nlm.nih.gov/genbank/>`_
 * `EMBL <http://www.ebi.ac.uk/embl/Documentation/User_manual/usrman.html>`_
-* `GFF3 <https://en.wikipedia.org/wiki/General_feature_format>`_.
+* `GFF3 <https://en.wikipedia.org/wiki/General_feature_format>`_
 
 Extract data
 ============
@@ -64,21 +68,23 @@ The **Genome** button on the third line allows to download the :ref:`cog`.
 
 The **Genome** button on the fourth line allows to download the :ref:`eggnog`.
 
-Finally, you can obtain the :ref:`Microcyc pathways <microcyc>`.
+Finally, you can obtain the :ref:`Microcyc pathways <microcyc>` with the last button.
 
 Extract a region
 ================
 
 .. image:: img/download_extract_region.png
 
-The first line allows you to extract a region of the nucleic sequence: select the *Begin*, *End* positions and precise the strand you want to get.
+The first line allows you to extract a region of the nucleic sequence: select the *Begin*, *End* positions and the strand you want to get.
 The default values correspond to the region where the :ref:`Genome Browser <viewer>` is centered.
-The data are exported in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format.
 Click on **Extract** to retrieve the results.
+The data are exported in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format.
 
-The second part allow you to extract the annotations of the objects in the region indicated by *Begin* and *End*.
-With the **Full Sequence** option, you will obtain the annotation of the objects in the region with the coordinates on the full sequence.
-If this option is disabled, you will obtain the annotation within the region but the location will be computed relatively to the region (in this case, the sequence of the region is included).
+The second part allow you to extract the annotations of the objects in the region indicated by *Begin* and *End*:
+
+* With the **Full Sequence** option, you will obtain the annotation of the objects in the region with the coordinates on the full sequence.
+* If this option is disabled, you will obtain the annotation within the region but the location will be computed relatively to the region (in this case, the sequence of the region is included).
+
 Use the drop down list to choose the format.
 
 Noncoding DNA
@@ -86,8 +92,9 @@ Noncoding DNA
 
 .. image:: img/download_extract_ncrna.png
 
-Extract the ncDNA sequences from a genome.
+This part allows to extract the ncDNA sequences from a sequence.
 Indicate a minimal length and include, if necessary, the RNAs.
+Click **Extract** to retrieve the data.
 
 Extract a sequence fragment
 ===========================
@@ -109,6 +116,8 @@ The **BioProcess Classification** button allows to get the complete :ref:`BioPro
 Organism mode
 *************
 
+Here is an overview of this mode:
+
 .. image:: img/download_extract_organism.png
 
 This tool allows to retrieve data stored in PkGDB from a group of genomes.
@@ -118,15 +127,14 @@ This page uses the :ref:`advanced-selector` to select the genomes to export.
 The **Extract Genome** and **EGGNOG** parts are similar to the **Replicon** mode
 except of course they retrieve information for all the selected genomes.
 
-Therefore, we only describe the **Export Data as RDF** part is described.
+Therefore, we will only describe the **Export Data as RDF** part.
 
 Export Data as RDF
 ==================
 
 .. image:: img/rdf_button_screenshot.png
 
-Select one or several genomes to export data in RDF to load it for example in a SPARQL triplestore.
-
+This tool is used to export data in RDF to load it for example in a SPARQL triplestore.
 The RDF file format used by the MicroScope platform is the `Turtle format <https://www.w3.org/TR/turtle/>`_.
 
 MicroScope Ontology
