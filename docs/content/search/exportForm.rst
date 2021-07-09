@@ -17,12 +17,11 @@ Here is an overview of this mode:
 .. image:: img/download_extract_replicon.png
 
 This tool allows to retrieve data stored in PkGDB from a specific sequence.
-These information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, GFF, Tab delimited).
+This information can be downloaded in the most common file formats (EMBL, GenBank, Fasta, GFF, tab delimited).
 Moreover, data on role categories used in MicroScope, and/or MicroCyc metabolic Pathway/Genome database (PGDBs) can be downloaded too.
 See below for a more precise presentation.
 
-To use this mode, first, select a reference replicon from the :ref:`CHANGE button (Item #2) <interface-overview>` available in the top right corner of the interface.
-Or select an organism from your :ref:`Favourite Organisms <favourite-organisms>` selection.
+To use this mode, first select a sequence and a reference replicon with the :ref:`simple-selector` at the top right corner of the interface.
 After that, you can use the various export possibilities described below.
 
 .. _export_replicon_genome:
@@ -35,7 +34,7 @@ Extract genome
 This part allows you to download the sequence in various formats.
 You can choose to extract:
 
-* the pseudomolecule
+* the pseudomolecule (concatenated contigs or complete sequence if the genome is finished)
 * the contigs
 * the scaffolds
 
@@ -54,11 +53,11 @@ Extract data
 The first line of buttons allows to download several parts of the sequence (in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format):
 
 * **CDSs** will download the nucleic sequence of all the CDS of the sequence
-* **Proteins** will download the proteic sequence of all the CDS of the sequence
+* **Proteins** will download the protein sequence of all the CDS of the sequence
 * **Repeats** will download the nucleic sequence of the repeated regions of the sequence
 * **ncRNAs** will download the nucleic sequence of all the non-coding RNAs of the sequence
 
-The second line allows to extract the annotations (in tabulation delimited format):
+The second line allows to extract the annotations (in a tab delimited format):
 
 * **Genome** will download the current annotation of all genomic objects in the sequence
 * **Auto** will download the automatic annotation of all genomic objects in the sequence
@@ -68,7 +67,7 @@ The **Genome** button on the third line allows to download the :ref:`cog`.
 
 The **Genome** button on the fourth line allows to download the :ref:`eggnog`.
 
-Finally, you can obtain the :ref:`Microcyc pathways <microcyc>` with the last button.
+Finally, you can download the MicroCyc Pathway/Genome Database of the selected genome with the last button.
 
 Extract a region
 ================
@@ -76,14 +75,14 @@ Extract a region
 .. image:: img/download_extract_region.png
 
 The first line allows you to extract a region of the nucleic sequence: select the *Begin*, *End* positions and the strand you want to get.
-The default values correspond to the region where the :ref:`Genome Browser <viewer>` is centered.
+The default values correspond to the current region of the :ref:`Genome Browser <viewer>`.
 Click on **Extract** to retrieve the results.
 The data are exported in the `FASTA <http://www.ncbi.nlm.nih.gov/blast/fasta.shtml>`_ format.
 
-The second part allow you to extract the annotations of the objects in the region indicated by *Begin* and *End*:
+The second part allow you to extract annotations of the objects in the region indicated by *Begin* and *End*:
 
 * With the **Full Sequence** option, you will obtain the annotation of the objects in the region with the coordinates on the full sequence.
-* If this option is disabled, you will obtain the annotation within the region but the location will be computed relatively to the region (in this case, the sequence of the region is included).
+* If this option is disabled, you will obtain the annotation within the region but the location will be computed relatively to the region (in this case, only the sequence of the region is included).
 
 Use the drop down list to choose the format.
 
@@ -101,7 +100,7 @@ Extract a sequence fragment
 
 .. image:: img/download_extract_fragment.png
 
-This tool allows to  extract a sequence fragment by indicating the label of the Genomic Object to extract and the 5’/3’ extension length.
+This tool allows to extract a sequence fragment around a genomic object by indicating its label and the 5'/3' extension length.
 
 Extract Classification
 ======================
