@@ -42,12 +42,11 @@ This selector is used to select:
 It's similar to the old selector in MicroScope but offers suggestions.
 
 This selector is used in the homepage to select the reference genome
-and more generally in pages where you must select a reference object (e.g. :ref:`lineplot`).
-
-It is also used for instance in the following pages:
+and more generally in pages where you must select a reference object
+for instance:
 
   - :ref:`pattern_searches` (for **Sequence Selection**)
-  - :ref:`viewer` (for **Genome Selection** but coupled with a replicon selector)
+  - :ref:`lineplot` (for **Sequence Selection**)
 
 Note that your :ref:`favourite organisms <favourite-organisms>` will always
 show up first in this selector.
@@ -57,6 +56,12 @@ When the page opens, the selector is displayed like this (it may take some time 
 .. image:: img/simple_selector.png
 
 Note that the exact appearance of this selector may depend on the page.
+
+This selector is also used in the top right corner of some pages in **Genome Selection** mode coupled with a replicon selector for instance in the :ref:`viewer` as shown below.
+
+.. image:: img/simple_selector_header.png
+
+This allows to quickly change the reference genome and the replicon.
 
 Example
 =======
