@@ -5,7 +5,7 @@ My Favourite Organisms
 ######################
 
 MicroScope allows to select up to 50 favourite organisms.
-Those organisms are showed first when using the :ref:`selector` for faster access
+Those organisms are showed first when using the :ref:`selector <selector>` for faster access
 (see :ref:`favourite-organisms-usage`).
 
 This functionality is disabled for guests and only available for logged Annotators.
