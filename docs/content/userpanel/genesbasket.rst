@@ -4,12 +4,12 @@
 Gene Carts
 ##########
 
-The result of many tools available in the MicroScope platform is a list of candidate genes which can be saved in a «Gene Cart».
+The result of many tools available in the MicroScope platform (e.g `Keyword Search <keywords>`) is a list of candidate genes which can be saved in a «Gene Cart».
 The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch :ref:`JalView <jalview>` to perform multiple alignments, etc.
 Moreover these carts can be explored using the Keywords Search tool.
 
 .. tip:: Gene Carts content is saved within your account settings, so your selections will persist into our databases even if you logout from your session.
-
+.. warning:: For performance issues, Gene Carts are limited to 300 000 genes.
 
 Gene Cart Overview
 ------------------
@@ -40,7 +40,7 @@ Gene Cart Overview
 		* Get the :ref:`difference <genecarts-difference>` between 2 Gene Carts content and move the result into a new Cart.
 		* :ref:`Merge <genecarts-merge>` the content of 2 Gene Carts into a new Cart.
 
-.. tip:: You can do this kind of operations **only on 2 Gene Carts at a same time**.
+.. tip:: This kind of operations can be performed with **only 2 Gene Carts at a time**.
 
 * **Item #5. Gene Cart name:**
 
