@@ -4,7 +4,7 @@
 Gene Carts
 ##########
 
-The result of many tools available in the MicroScope platform (e.g `Keyword Search <keywords>`) is a list of candidate genes which can be saved in a «Gene Cart».
+The result of many tools available in the MicroScope platform (e.g :ref:`Keyword Search <keywords>`) is a list of candidate genes which can be saved in a «Gene Cart».
 The «Gene Carts» interface allows the user to perform various operations on these gene carts: intersection, union, difference, download corresponding nucleic or protein sequences, launch :ref:`JalView <jalview>` to perform multiple alignments, etc.
 Moreover these carts can be explored using the Keywords Search tool.
 
