@@ -23,8 +23,9 @@ Both must be unique else the system won't allow you to create a new account.
 
 The tooltips indicate if the fields are incorrectly formatted.
 The rules are as follows:
+
   - for the username: lower case non-accented letters, or digits, no space, 3 to 20 characters
-  - for your first and last name: only non-accented letters, spaces, ``-`` and ``'``; your last name will be convertED to capital letters
+  - for your first and last name: only non-accented letters, spaces, ``-`` and ``'``; your last name will be converted to capital letters
   - for the name of your institution, laboratory and address: non-accented letters, digits, spaces and some characters (``_``, ``(``, ``)``, ``&``, ``,``, ``/``, ``.``, ``'``, ``\``, and ``-``)
 
 .. image:: img/reg1.png
