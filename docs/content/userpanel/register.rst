@@ -17,9 +17,15 @@ Creating an account on the MicroScope platform will allow you to:
 What information is needed to create a new account?
 ---------------------------------------------------
 
-Fill in all the required fields.
-The most important ones are the email address and the chosen username (lower case letters, or digits, no space, 3 to 20 characters).
+Fill in all the required fields (see the image below to find which are mandatory).
+The most important ones are the email address and the chosen username.
 Both must be unique else the system won't allow you to create a new account.
+
+The tooltips indicate if the fields are incorrectly formatted.
+The rules are as follows:
+  - for the username: lower case non-accented letters, or digits, no space, 3 to 20 characters
+  - for your first and last name: only non-accented letters, spaces, ``-`` and ``'``; your last name will be convertED to capital letters
+  - for the name of your institution, laboratory and address: non-accented letters, digits, spaces and some characters (``_``, ``(``, ``)``, ``&``, ``,``, ``/``, ``.``, ``'``, ``\``, and ``-``)
 
 .. image:: img/reg1.png
 
