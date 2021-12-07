@@ -5,21 +5,27 @@ Personal Information
 ####################
 
 This interface provides the functionality to set or update your personal information.
-You can access this interface at the condition you have an active account on the MicroScope platform.
+You can access this interface at the condition you have an active account on the MicroScope platform (see :ref:`register`).
+See the `Privacy Notice <https://mage.genoscope.cns.fr/microscope/about/privacynotice.php>` for more information.
 
-I logged in for the first time, why can't I navigate through MicroScope's tools ?
----------------------------------------------------------------------------------
+The E-mail address is the most important information we need, considering we'll send our official communications to this address.
+So, make sure to use an active and functional address.
 
-The first time you log into the Microscope platform, you'll be automatically redirected on this interface.
-The definitive registration will be complete as soon as all the required fields are filled and saved by clicking
-on the Update Data button.
+Note that once in a year you will be redirected to this page when you log in.
+This is done to check and update this information.
 
-How do we use these informations?
----------------------------------
+Which information is needed ?
+-----------------------------
 
-The E-mail address you provide is the most important information we need, considering we'll send our official communications to this E-mail address.
-So, make sure to give us an active and functional E-mail address.
+The information needed is the same that is needed to create an account.
 
-Please note that we do not make any commercial use of this information.
+However, if you created your account several years ago, this may have changed.
+In this case, you will have to provide those information during the annual review.
+
+How are those data used ?
+-------------------------
+
 The data is used by the LABGeM team to make statistics about users and will not be transmitted to
 any third-party.
+Please note that we do not make any commercial use of this information.
+
