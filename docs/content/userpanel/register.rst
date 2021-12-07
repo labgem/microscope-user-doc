@@ -1,3 +1,5 @@
+.. _register:
+
 ###################
 Register an Account
 ###################
@@ -30,6 +32,7 @@ The rules are as follows:
 
 .. image:: img/reg1.png
 
+Please, see :ref:`personal-information` for more information about your personal information and how to update them.
 
 What is the process?
 --------------------
