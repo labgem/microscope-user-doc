@@ -6,7 +6,7 @@ Personal Information
 
 This interface provides the functionality to set or update your personal information.
 You can access this interface at the condition you have an active account on the MicroScope platform (see :ref:`register`).
-See the `Privacy Notice <https://mage.genoscope.cns.fr/microscope/about/privacynotice.php>` for more information.
+See the `Privacy Notice <https://mage.genoscope.cns.fr/microscope/about/privacynotice.php>`__ for more information.
 
 The E-mail address is the most important information we need, considering we'll send our official communications to this address.
 So, make sure to use an active and functional address.
