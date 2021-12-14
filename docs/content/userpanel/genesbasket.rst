@@ -9,7 +9,9 @@ The «Gene Carts» interface allows the user to perform various operations on th
 Moreover these carts can be explored using the Keywords Search tool.
 
 .. tip:: Gene Carts content is saved within your account settings, so your selections will persist into our databases even if you logout from your session.
-.. warning:: For performance issues, Gene Carts are limited to 300 000 genes.
+
+.. warning:: For performance reasons, a gene cart can't hold more than 300 000 genes.
+   Also, you can't create more than 21 gene carts.
 
 Gene Cart Overview
 ------------------
