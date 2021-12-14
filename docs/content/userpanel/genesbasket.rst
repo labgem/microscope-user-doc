@@ -64,7 +64,7 @@ Gene Cart Overview
  
 	Delete definitively a Gene Cart. ( **Warning: the content will also be deleted** ).
 
-* **Item #10. Delete Gene Cart:**
+* **Item #10. Annotation tool:**
  
 	Export the gene annotation in tsv format file.
 
