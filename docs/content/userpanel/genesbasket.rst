@@ -144,7 +144,7 @@ How to get the intersection between 2 Gene Carts?
 3. Click on the CARTS: **INTERSECT** button
 4. The intersection between the 2 Gene Carts content will be moved into a new Cart, called by default ’**INTERSECT**’. 
 
-.. warning:: **If you need to perform another ’Intersect Operation’, do not forget to rename the Cart called ’INTERSECT’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Intersect Operation’, do not forget to rename the Cart called ’INTERSECT’. Else, the content will be overwritten.**
 
 .. image:: img/bas12.png
 	:width: 100%
@@ -167,7 +167,7 @@ How to get the difference between 2 Gene Carts?
 3. Click on the **CARTS: DIFFERENCE** button.
 4. The difference between the 2 Gene Carts content will be moved into a new Cart, called by default ’**DIFFERENCE**’. 
 
-.. warning:: **If you need to perform another ’Difference Operation’, do not forget to rename the Cart called ’DIFFERENCE’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Difference Operation’, do not forget to rename the Cart called ’DIFFERENCE’. Else, the content will be overwritten.**
 
 .. image:: img/bas15.png
 
@@ -181,7 +181,7 @@ How to merge 2 Gene Carts?
 .. image:: img/bas16.png
 	:width: 100%
 
-2. In the select menu, choose the 2 Gene Carts you want to merge. This means **the content of the Carts will be merged into a new one** (Doubloons will be removed).
+2. In the select menu, choose the 2 Gene Carts you want to merge. This means **the content of the Carts will be merged into a new one** (duplicates will be removed).
 
 .. image:: img/bas17.png
 	:width: 25%
@@ -189,7 +189,7 @@ How to merge 2 Gene Carts?
 3. Click on the **CARTS: MERGE** button.
 4. The Genomic Objects of the 2 Gene Carts will be moved into a new Cart, called by default ’**MERGE**’. 
 
-.. warning:: **If you need to perform another ’Merge Operation’, do not forget to rename the Cart called ’MERGE’. Else, the content will be overwrited.**
+.. warning:: **If you need to perform another ’Merge Operation’, do not forget to rename the Cart called ’MERGE’. Else, the content will be overwritten.**
 
 .. image:: img/bas18.png
 	:width: 100%
