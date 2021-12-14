@@ -78,13 +78,13 @@ How to move Genomic Objects to another gene cart?
 .. image:: img/bas2.png
 	:width: 100%
 
-2. In the select menu, choose the gene cart where you want to copy this selection. It will be the ’destination’ cart.
+2. In the select menu, choose the gene cart where you want to copy this selection. It will be the 'destination' cart.
 
 .. image:: img/bas3.png
 	:width: 25%
 
 3. Click on the **MOVE SELECTION TO** button.
-4. The Genomic Objects selected in the first cart will be deleted and moved into the ’destination’ cart.
+4. The Genomic Objects selected in the first cart will be deleted and moved into the 'destination' cart.
 
 .. image:: img/bas4.png
 	:width: 100%
@@ -99,13 +99,13 @@ How to copy Genomic Objects to another gene cart?
 .. image:: img/bas5.png
 	:width: 100%
 
-2. In the select menu, choose the gene cart where you want to copy this selection. It will be the ’destination’ cart.
+2. In the select menu, choose the gene cart where you want to copy this selection. It will be the 'destination' cart.
 
 .. image:: img/bas6.png
 	:width: 25%
 
 3. Click on the **COPY SELECTION TO** button.
-4. The Genomic Objects selected in the first cart will be copied into the ’destination’ cart. These Genomic Objects will remain in the first cart and won’t be deleted.
+4. The Genomic Objects selected in the first cart will be copied into the 'destination' cart. These Genomic Objects will remain in the first cart and won't be deleted.
 
 .. image:: img/bas7.png
 	:width: 100%
@@ -121,7 +121,7 @@ How to delete Genomic Objects from a gene cart?
 	:width: 100%
 
 2. Click on the **DELETE SELECTION** button.
-3. The selected Genomic Objects will be deleted from the cart. ( **Warning: the delete will be definitive and you’ll lost the genomic objects from the cart** ).
+3. The selected Genomic Objects will be deleted from the cart. ( **Warning: the delete will be definitive and you'll lost the genomic objects from the cart** ).
 
 .. image:: img/bas9.png
 	:width: 100%
@@ -136,15 +136,15 @@ How to get the intersection between 2 gene carts?
 .. image:: img/bas10.png
 	:width: 100%
 
-2. In the select menu, choose the 2 gene carts you want to intersect. This means **you’ll get the common Genomic Objects contained in the 2 carts**.
+2. In the select menu, choose the 2 gene carts you want to intersect. This means **you'll get the common Genomic Objects contained in the 2 carts**.
 
 .. image:: img/bas11.png
 	:width: 25%
 
 3. Click on the CARTS: **INTERSECT** button
-4. The intersection between the 2 gene carts content will be moved into a new cart, called by default ’**INTERSECT**’. 
+4. The intersection between the 2 gene carts content will be moved into a new cart, called by default '**INTERSECT**'. 
 
-.. warning:: **If you need to perform another ’Intersect Operation’, do not forget to rename the cart called ’INTERSECT’. Else, the content will be overwritten.**
+.. warning:: **If you need to perform another 'Intersect Operation', do not forget to rename the cart called 'INTERSECT'. Else, the content will be overwritten.**
 
 .. image:: img/bas12.png
 	:width: 100%
@@ -159,15 +159,15 @@ How to get the difference between 2 gene carts?
 .. image:: img/bas13.png
 	:width: 100%
 
-2. In the select menu, choose the 2 gene carts you want to get the difference. This means **you’ll get the specific Genomic Objects of each cart** (The common Genomic Objects will be removed).
+2. In the select menu, choose the 2 gene carts you want to get the difference. This means **you'll get the specific Genomic Objects of each cart** (The common Genomic Objects will be removed).
 
 .. image:: img/bas14.png
 	:width: 25%
 
 3. Click on the **CARTS: DIFFERENCE** button.
-4. The difference between the 2 gene carts content will be moved into a new cart, called by default ’**DIFFERENCE**’. 
+4. The difference between the 2 gene carts content will be moved into a new cart, called by default '**DIFFERENCE**'. 
 
-.. warning:: **If you need to perform another ’Difference Operation’, do not forget to rename the cart called ’DIFFERENCE’. Else, the content will be overwritten.**
+.. warning:: **If you need to perform another 'Difference Operation', do not forget to rename the cart called 'DIFFERENCE'. Else, the content will be overwritten.**
 
 .. image:: img/bas15.png
 
@@ -187,9 +187,9 @@ How to merge 2 gene carts?
 	:width: 25%
 
 3. Click on the **CARTS: MERGE** button.
-4. The Genomic Objects of the 2 gene carts will be moved into a new cart, called by default ’**MERGE**’. 
+4. The Genomic Objects of the 2 gene carts will be moved into a new cart, called by default '**MERGE**'. 
 
-.. warning:: **If you need to perform another ’Merge Operation’, do not forget to rename the cart called ’MERGE’. Else, the content will be overwritten.**
+.. warning:: **If you need to perform another 'Merge Operation', do not forget to rename the cart called 'MERGE'. Else, the content will be overwritten.**
 
 .. image:: img/bas18.png
 	:width: 100%
@@ -203,7 +203,7 @@ Please note:
 - Allowed characters for names are **[a-z], [0-9], _ , -** and **+**. 
 - Names based on **numeric-only** characters are not allowed.
 
-1. Click on the cart’s name you want to change.
+1. Click on the cart's name you want to change.
 
 .. image:: img/bas19.png
 	:width: 100%
@@ -219,13 +219,13 @@ Please note:
 How to fill a gene cart with some Genomic Objects?
 --------------------------------------------------
 
-Some MicroScope’s tools allow the possibility to save Genomic Objects into a gene cart.
+Some MicroScope's tools allow the possibility to save Genomic Objects into a gene cart.
 Overall, check for the availability of a **EXPORT TO GENE** CART button above a Genomic Objects list.
 
-1. Click on the **EXPORT TO GENE CART** button to open the ’Export Interface’ popup.
+1. Click on the **EXPORT TO GENE CART** button to open the 'Export Interface' popup.
 
 .. image:: img/bas21.png
 
-2. Select your ’destination’ cart in the select menu. (Create a new one if necessary by clicking on the **NEW CART** button).
+2. Select your 'destination' cart in the select menu. (Create a new one if necessary by clicking on the **NEW CART** button).
 3. Click on the **SAVE** button.
-4. All the Genomic Objects listed below the **EXPORT TO GENE CART** button will be transferred and saved into your ’destination’ cart.
+4. All the Genomic Objects listed below the **EXPORT TO GENE CART** button will be transferred and saved into your 'destination' cart.
