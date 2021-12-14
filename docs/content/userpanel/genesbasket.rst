@@ -26,7 +26,7 @@ Gene Cart Overview
  
 	Select a XML file containing gene cart data from your computer by using the «**Browse**» button, then click on the «**Upload Cart**» button to import the XML file content into the gene cart interface.
 	
-* **Item #3. Genomic Objects operations:**
+* **Item #3. Gene cart content editing:**
 
 	This menu allows the user to perform operations on gene carts content.
 	
@@ -34,7 +34,7 @@ Gene Cart Overview
 		* :ref:`Copy <genecarts-copy>` a selection of Genomic Objects contained in a gene cart into another one.
 		* :ref:`Delete <genecarts-delete>` a selection of Genomic Objects from gene cart.
 	
-* **Item #4. Gene carts operations:**
+* **Item #4. Set operations:**
 	
 	This menu allows the user to perform operations on gene carts.
 
