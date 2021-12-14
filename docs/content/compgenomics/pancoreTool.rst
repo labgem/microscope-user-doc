@@ -143,7 +143,7 @@ After the analysis submission, a result page is provided:
 	* *End*: sequence end position
 	* *Length*: length of the CDS.
 
-It also allows the users to export these genes in gene carts (availables in the **User Panel** section).
+It also allows the users to export these genes to a :ref:`gene cart <genecarts>`.
 
 
 How to read the gene count table?
