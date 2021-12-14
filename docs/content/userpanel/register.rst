@@ -12,8 +12,7 @@ Creating an account on the MicroScope platform will allow you to:
 
 * request for a delivery of service.
 * save :ref:`user preferences <display-preferences>`.
-* save :ref:`genecarts`.
-* save a list of :ref:`favourite organisms <favourite-organisms>`.
+* save :ref:`genecarts` and :ref:`genomecarts`.
 * receive the newsletter and participate in user surveys.
 
 What information is needed to create a new account?

@@ -131,7 +131,7 @@ User Panel
 
    content/userpanel/displaypref
    content/userpanel/genesbasket
-   content/userpanel/favorites
+   content/userpanel/genomecarts
    content/userpanel/personalinfo
    content/userpanel/requestpassword
    content/userpanel/manageaccessrights
