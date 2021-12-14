@@ -227,6 +227,7 @@ How to export and save results in a Gene Cart?
 
 Once you get some results, an **EXPORT TO GENE CART** button will be available above the results list. Click on this button and follow the instructions about the Gene Cart functionality.
 
+.. _keywords-from-genecart:
 
 How to explore within a Gene Cart content?
 ------------------------------------------
