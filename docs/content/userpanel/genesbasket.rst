@@ -41,6 +41,10 @@ Generally speaking, check for the availability of a **Export To Gene Cart** butt
 
 .. image:: img/export_gene_cart.png
 
+If there are more than 300 000 genes to export, the window will display an error as shown below.
+
+.. image:: img/genesbasketpopup_error.png
+
 To export the list:
 
 1. Click on the **Export To Gene Cart** button.
@@ -53,6 +57,10 @@ To export the list:
 
 All the Genomic Objects listed below the **Export To Gene Cart** button will be saved into the destination cart.
 If a genomic object is already in the cart, it won't be added twice.
+If the size of the resulting gene cart is more than 300 000 genes, the window will display an error and the cart won't be saved as shown below.
+The window remains open so you can select another gene cart.
+
+.. image:: img/genesbasketpopup_error_cart.png
 
 .. _genecarts-interface:
 
