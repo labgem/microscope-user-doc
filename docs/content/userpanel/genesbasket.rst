@@ -46,7 +46,7 @@ To export the list:
 1. Click on the **Export To Gene Cart** button.
    This will to open the 'Export Interface' in a new window.
 
-.. image:: img/genebasketpopup.png
+.. image:: img/genesbasketpopup.png
 
 2. Select your destination cart in the select menu or create a new one if necessary by clicking on the **NEW CART** button.
 3. Click on the **SAVE** button.
