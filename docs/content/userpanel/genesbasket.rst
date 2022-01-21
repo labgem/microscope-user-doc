@@ -14,15 +14,15 @@ Introduction
 ************
 
 When using MicroScope you will often use its tools to find a list of genes sharing some features (same function, etc.).
-Gene carts are a useful tools to save such a list of genes and to explore them for instance with the :ref:`keywords` tool (see :ref:`here <keywords-from-genecart>` for more details).
-Technically speaking a gene cart is a named set of genes (or other genomic objects) from one or several genomes.
+Using Gene carts, you will be able to save a list of genes from results obtained through various MicroScope tools.
+The contents of these carts can be extracted or explored for instance with the :ref:`keywords` tool (see :ref:`here <keywords-from-genecart>` for more details).
+Technically speaking a gene cart is a named set of genes from one or several genomes.
 
-A gene cart can be created in several ways.
-For instance, the genes displayed in the :ref:`viewer` can be exported in a gene cart.
-Another possibility is to export the result of one tool ore several tools into a gene cart.
-The last possibility is to combine carts via set operations to create new carts.
-
-This page presents :ref:`the interface to export the result of a tool into a cart <genecarts-popup>` and :ref:`the interface to manage gene carts <genecarts-interface>` (available in the **User Panel** section).
+A gene cart can be created in several ways:
+  1. From a result page: for instance, the genes displayed in the :ref:`viewer` can be exported in a gene cart.
+     See :ref:`the interface to export the result of a tool into a cart <genecarts-popup>`.
+  2. By combining other carts.
+     See :ref:`the interface to manage gene carts <genecarts-interface>` (available in the **User Panel** section).
 
 .. tip:: If you have :ref:`an account <register>`, the content of gene carts is saved within your account settings, so your selection will persist even if you logout.
 
@@ -36,27 +36,26 @@ How to export the result of a tool to a gene cart?
 **************************************************
 
 Some tools allow the possibility to save Genomic Objects into a gene cart.
+Using the  **Export To Gene Cart** button that is above results tables as shown below, you will be able to save the corresponding Genomic Objects into a gene cart.
 For instance, this is the case in the :ref:`keywords`, in the :ref:`rgpfinder` tool, in the :ref:`rnaseq_DiffExprAnalysis` tool or in the :ref:`viewer`.
-Generally speaking, check for the availability of a **Export To Gene Cart** button above a table as shown below.
 
 .. image:: img/export_gene_cart.png
 
-If there are more than 300 000 genes to export, the window will display an error as shown below.
+If you try to export more than 300 000 genes in a cart, an error will be displayed as shown below.
 
 .. image:: img/genesbasketpopup_error.png
 
-To export the list:
+To save the list:
 
 1. Click on the **Export To Gene Cart** button.
-   This will to open the 'Export Interface' in a new window.
+   This will open the 'Export Interface' in a new window.
 
 .. image:: img/genesbasketpopup.png
 
 2. Select your destination cart in the select menu or create a new one if necessary by clicking on the **NEW CART** button.
 3. Click on the **SAVE** button.
 
-All the Genomic Objects listed below the **Export To Gene Cart** button will be saved into the destination cart.
-If a genomic object is already in the cart, it won't be added twice.
+If a genomic object is already present in the cart, it won't be added.
 If the size of the resulting gene cart is more than 300 000 genes, the window will display an error and the cart won't be saved as shown below.
 The window remains open so you can select another gene cart.
 
@@ -72,7 +71,7 @@ The « Gene Cart » interface allows users to perform various operations on thei
   - create or upload a cart
   - export a cart
   - delete a cart
-  - copy or move genomic objects from one cart to another or delete objects from a cart
+  - copy or move Genomic Objects from one cart to another or delete objects from a cart
   - use set operations (intersection, union, difference) on 2 gene carts
   - download the corresponding nucleic or protein sequences
   - launch :ref:`JalView <jalview>` to perform multiple alignments, etc.
@@ -86,11 +85,11 @@ The image below presents an overview of the interface.
 
 * **Item #1. Create / Add a new gene cart:**
  
-	By default, the system creates 1 gene cart. But, by clicking on this button you can add up to **20** new gene carts to your account.
+	By default, the system creates a gene cart named **Basket_1**. By clicking on this button you can add up to **20** new gene carts to your account.
 	
 * **Item #2. Upload a gene cart:**
  
-	Select a XML file containing gene cart data from your computer by using the «**Browse**» button, then click on the «**Upload Cart**» button to import the XML file content into the gene cart interface.
+	Select a XML file containing gene cart data (obtained from the Export cart functionality - see Item #8) from your computer by using the «**Browse**» button, then click on the «**Upload Cart**» button to import the XML file content into a new gene cart.
 	
 * **Item #3. Gene cart content editing:**
 
@@ -98,7 +97,7 @@ The image below presents an overview of the interface.
 	
 		* :ref:`Move <genecarts-move>` a selection of Genomic Objects contained in a gene cart into another one.
 		* :ref:`Copy <genecarts-copy>` a selection of Genomic Objects contained in a gene cart into another one.
-		* :ref:`Delete <genecarts-delete>` a selection of Genomic Objects from gene cart.
+		* :ref:`Delete <genecarts-delete>` a selection of Genomic Objects from a gene cart.
 	
 * **Item #4. Set operations:**
 	
@@ -116,7 +115,7 @@ The image below presents an overview of the interface.
 
 * **Item #6. FASTA tool:**
 
-	Export the Nucleic or Proteic content of a gene cart in FASTA format.
+	Export the Nucleic or Protein sequences of the Genomic Objects contained in a gene cart in FASTA format.
 	
 * **Item #7. JalView tool:**
 
@@ -128,11 +127,10 @@ The image below presents an overview of the interface.
 
 * **Item #9. Delete gene cart:**
  
-	Delete definitively a gene cart. ( **Warning: the content will also be deleted** ).
-
-* **Item #10. Annotation tool:**
+	Delete	Delete definitively a gene cart. ( **Warning: there is no confirmation** ).
+em #10. Annotation:**
  
-	Export the gene annotation in tsv format file.
+	Export the gene annotation in tsv format.
 
 .. _genecarts-move:
 
@@ -165,7 +163,7 @@ How to copy Genomic Objects to another gene cart?
 .. image:: img/bas5.png
 	:width: 100%
 
-2. In the select menu, choose the gene cart where you want to copy this selection. It will be the 'destination' cart.
+2. In the select menu, choose the gene cart where you want to move this selection. It will be the 'destination' cart.
 
 .. image:: img/bas6.png
 	:width: 25%
@@ -187,7 +185,7 @@ How to delete Genomic Objects from a gene cart?
 	:width: 100%
 
 2. Click on the **DELETE SELECTION** button.
-3. The selected Genomic Objects will be deleted from the cart. ( **Warning: the delete will be definitive and you'll lost the genomic objects from the cart** ).
+3. The selected Genomic Objects will be deleted from the cart. ( **Warning: there is no confirmation** ).
 
 .. image:: img/bas9.png
 	:width: 100%
