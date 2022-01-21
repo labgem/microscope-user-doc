@@ -14,9 +14,10 @@ Introduction
 ************
 
 When using MicroScope you will often use its tools to find a list of genes sharing some features (same function, etc.).
-Using Gene carts, you will be able to save a list of genes from results obtained through various MicroScope tools.
+Using Gene carts, you will be able to save a list of Genomic Objects (like CDS) from results obtained through various MicroScope tools.
 The contents of these carts can be extracted or explored for instance with the :ref:`keywords` tool (see :ref:`here <keywords-from-genecart>` for more details).
-Technically speaking a gene cart is a named set of genes from one or several genomes.
+Technically speaking a gene cart is a named set of Genomic Objects from one or several genomes.
+For the sake of simplicity, we will use "gene" and "Genomic Object" interchangeably.
 
 A gene cart can be created in several ways:
   1. From a result page: for instance, the genes displayed in the :ref:`viewer` can be exported in a gene cart.
