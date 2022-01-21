@@ -128,7 +128,8 @@ The image below presents an overview of the interface.
 * **Item #9. Delete gene cart:**
  
 	Delete	Delete definitively a gene cart. ( **Warning: there is no confirmation** ).
-em #10. Annotation:**
+
+* **Item #10. Annotation:**
  
 	Export the gene annotation in tsv format.
 
