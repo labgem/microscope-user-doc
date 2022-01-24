@@ -95,6 +95,7 @@ Searches
 
    content/search/blast
    content/search/keywords
+   content/search/globalkeywordsearch
    content/search/exportForm
 
 ===============
