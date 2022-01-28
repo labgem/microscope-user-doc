@@ -116,7 +116,7 @@ Clicking on a region label (RGP or SIGIVOM region) display information on the se
 
 * **item A**: region label, begin position and end position.
 
-* **item B**: export genes in the region to a gene cart.
+* **item B**: export genes in the region to a :ref:`gene cart <genecarts>`.
 
 * **item C**: color intensity Bblance in correlation with similarity results. Modify minLrap, maxLrap or identity % to view gene correspondences in reference genomes.
 
