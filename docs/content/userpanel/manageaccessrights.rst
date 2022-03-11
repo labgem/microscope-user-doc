@@ -9,6 +9,8 @@ This interface allows the administrators of a genome to manage the access rights
 .. note:: Only annotators defined as « Genome Administrators » are allowed to use this functionality.
    See below for an explanation of what an administrator is.
 
+.. _genome-status-access-rights:
+
 Genome status and access rights
 -------------------------------
 
