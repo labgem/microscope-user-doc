@@ -269,7 +269,7 @@ If this field is filled you will have a direct access to the publications on Pub
 How to use the "Additional data" field?
 ---------------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators.
 
 .. _mage_class_field:
 

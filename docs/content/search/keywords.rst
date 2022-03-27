@@ -48,8 +48,7 @@ See :ref:`here <advanced-selector>` for help on how to use this selector.
 What about the Dataset?
 -----------------------
 
-The available dataset list is project-specific, even if the main part of dataset list is common to all projects. Each dataset corresponds to a specific type of data in our database, PkGDB.
-
+Each dataset corresponds to a specific type of data in our database.
 Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.).
 Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia coli, Bacillus subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMHMM results, etc.).
 In the last two cases, the functional annotation of the candidate genes may differ from those in the selected hit.
@@ -105,6 +104,8 @@ The common dataset are:
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
+
+Note that a few specific organisms use taylored datasets.
 
 .. _fields:
 

@@ -25,7 +25,8 @@ How to use the Main Navigation Menu?
 	
 * **Item #1. Login Interface:** 
 
-Fill the *username* and *password* fields as described in the Email sent to you at account creation. After you login, you will have access to all public sequences, as well as private sequences corresponding to your project.
+Fill the *username* and *password* fields as described in the Email sent to you at account creation.
+After you login, you will have access to all public sequences, as well as private sequences to which you have access (see :ref:`here <access-right-management>` for more information).
 
 * **Item #2. Reference Sequence selection menu:** 
 
