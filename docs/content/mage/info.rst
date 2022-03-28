@@ -637,15 +637,11 @@ How to read the result table?
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
 
+=================
+Favourite Genomes
+=================
 
-
-
-
-===============
-Genomes/Project
-===============
-
-This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are linked to the current annotation Project.
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from your :ref:`favourite organisms <favourite-organisms>`.
 
 These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
 

@@ -70,7 +70,6 @@ The common dataset are:
 
 2. **Comparative results on reference Annotations**:
 
-* **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
 * **Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
 * **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
 * **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries.
