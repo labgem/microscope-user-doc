@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="158.20859mm"
+   height="15.033957mm"
+   viewBox="0 0 158.20859 15.033956"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="navigation.svg"
+   inkscape:export-filename="/home/mdubois/Code/microscope-user-doc/docs/content/overview/img/navigation.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.96102398"
+     inkscape:cx="152.44157"
+     inkscape:cy="48.906168"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="213.10168,50.29265"
+       orientation="0,-1"
+       id="guide21844" />
+    <sodipodi:guide
+       position="213.43922,57.681979"
+       orientation="0,-1"
+       id="guide21928" />
+    <sodipodi:guide
+       position="62.332909,14.512716"
+       orientation="0,-1"
+       id="guide21930" />
+    <sodipodi:guide
+       position="64.825339,29.125448"
+       orientation="0,-1"
+       id="guide1105" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-15.063405,-181.45438)">
+    <image
+       width="327.81876"
+       height="41.804165"
+       preserveAspectRatio="none"
+       xlink:href="navigation_base.png"
+       id="image1021"
+       x="-155.06268"
+       y="182.69586" />
+    <rect
+       style="fill:none;stroke:#f03936;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect904"
+       width="294.52548"
+       height="12.740047"
+       x="-136.30821"
+       y="199.06274" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f03936;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="135.27562"
+       y="224.67252"
+       id="text2404"><tspan
+         sodipodi:role="line"
+         id="tspan2402"
+         style="fill:#f03936;fill-opacity:1;stroke-width:0.264583"
+         x="135.27562"
+         y="224.67252">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#81d41a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-98.515091"
+       y="227.36769"
+       id="text2404-3"
+       inkscape:export-filename="/home/mdubois/Code/microscope-user-doc/docs/content/overview/img/text2404-3.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan2402-9"
+         style="fill:#81d41a;fill-opacity:1;stroke-width:0.264583"
+         x="-98.515091"
+         y="227.36769">3</tspan></text>
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#f03936;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path13587"
+       cx="138.55801"
+       cy="220.9158"
+       r="5.76191" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#81d41a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path13587-3-6-5"
+       cx="-95.646255"
+       cy="223.68762"
+       r="5.76191" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#81d41a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect16562"
+       width="47.833904"
+       height="7.5398378"
+       x="-153.10503"
+       y="219.14653" />
+    <circle
+       style="fill:none;fill-opacity:1;stroke:#00a933;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path13587-3-6-6"
+       cx="2.718277"
+       cy="188.83264"
+       r="5.76191" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#00a933;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect21842"
+       width="157.20859"
+       height="14.033957"
+       x="15.563405"
+       y="181.95438" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#00a933;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-0.56682587"
+       y="192.26955"
+       id="text2404-4"><tspan
+         sodipodi:role="line"
+         id="tspan2402-8"
+         style="fill:#00a933;fill-opacity:1;stroke-width:0.264583"
+         x="-0.56682587"
+         y="192.26955">2</tspan></text>
+  </g>
+</svg>

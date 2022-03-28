@@ -9,49 +9,55 @@ Interface
 Overview
 ========
 
-.. image:: img/img1.png
-    :width: 100%
+The picture below gives an overview of the interface (in this case the :ref:`viewer`).
+
+.. image:: img/overview.png
+
+The window is composed of several parts:
+
+  1. Login Interface: this parts allows you to log in (see :ref:`here <login>` for more information).
+     Once logged in, you will have access to all public sequences, as well as private sequences to which you have access (see :ref:`here <access-right-management>` for more information).
+     Some functionalities are accessible only if you are logged in.
+     You can also click on the **SIGN UP** button to :ref:`register`.
+  2. Navigation interface: this part of the interface allows to navigate between the tools, change the reference sequence, etc. (see below for a detailled description).
+  3. Quick documentation sidebar: this comopnent offers a quick description of the current page.
+  4. Link to documentation: clicking on this button will redirect to the help page of the current page.
+  5. Result part: the central part of the interface is used to display the results of the current page.
+     Many pages use tables to display the results (see below for a detailled description of the tables).
+
+MicroScope is organized around the notion of **tools** (also called **methods**).
+That is, most pages display the result of a tool which is often computed by a dedicated external tool.
+Some exceptions to this rule are:
+  - the :ref:`mage`
+  - the :ref:`keywords` in Multiple Mode
+
+Also many pages  use a reference genome or a reference sequence.
+The current object is displayed in the top right corner of the navifation interface and on the page itself.
 
 
-===============
-Navigation Menu
-===============
+====================
+Navigation interface
+====================
 
+The navigation interface is composed of several parts:
 
-How to use the Main Navigation Menu?
-------------------------------------
+.. image:: img/navigation.png
 
-.. image:: img/img2.png
-	
-* **Item #1. Login Interface:** 
+* **Item #1. Navigation menu:**
 
-Fill the *username* and *password* fields as described in the Email sent to you at account creation.
-After you login, you will have access to all public sequences, as well as private sequences to which you have access (see :ref:`here <access-right-management>` for more information).
+This menu is used to navigate between the different tools.
+Tools are grouped into sections (the entries you see on the image).
+The organization of this tutorial matches those sections.
 
-* **Item #2. Reference Sequence selection menu:** 
+* **Item #2. Sequence selector \& Genome selector:** 
 
-From this menu, you can select your Reference Genome/Replicon. Click on the *Change* button to open a popup organism selection interface, select your reference organism, then click on the *Set Selection* button. This action will reload the main webpage with the data corresponding to the Organism you selected as reference.
-
-The popup interface will display all the Organisms for which you have, at least, *Read rights*. This corresponds to Public sequences + Account Restricted sequences.
-
-The select menu below the *Change* button lists the corresponding organism replicons. Change the selection in this submenu to switch to the replicon you want to explore.
-
-.. tip:: After logging in, you will have access to the **My Favourite Organisms** functionality available in the **User Panel** section. Considering you have registered some favourites in our database with this interface, you’ll note that if you hover your mouse pointer the *Change* button, a popup will appear. This lists your favourite organism selection. By clicking on one of this organisms, the system will set this one as the new reference organism. This allows a quick access to a personal set of organisms.
-
+This component is used to switch use this menu to switch to another replicon of the current genome
+or to change the current genome.
+See :ref:`here <simple-selector>` for more information.
 
 * **Item #3. Navigation Submenu:** 
 
-During your exploration and annotation work, this menu will indicate your position in the MicroScope’s tools tree, offering users an easy way to locate themselves on the platform.
-
-* **Item #4. Text Format functionality:** 
-
-This button will export the displayed web page into a text-converted file easily importable into a spreadsheet like Microsoft Excel or OpenOffice Calc. 
-Click on the button, save the file to your computer, then load it into your preferred spreadsheet program. This file is dynamically created, so you may have to edit (delete) some of the content in order to keep only the data of interest.
-
-* **Item #5. Help button:**
-
-By clicking on this button, you’ll be redirected to the MicroScope Tutorial. You will get a list of help articles related to the tool you’re using at the moment. In case of no correspondences, you’ll be invited to browse the whole content of the tutorial.
-
+During your exploration and annotation work, this menu will indicate your position in MicroScope’s tools tree, offering users an easy way to locate themselves on the platform.
 
 
 ======================
