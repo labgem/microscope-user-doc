@@ -41,13 +41,3 @@ On your first login, you’ll be redirected to the :ref:`Personal Informations I
 
 .. note:: **For security reasons, as soon as you finished your daily work, do not forget to click on the LOGOUT button in order to close the session and disconnect yourself from our servers.**
 
-
-
-Why can’t I connect directly to my Project?
--------------------------------------------
-
-Our first advice is « **DO NOT PANIC!** » 
-
-The `Microscope projects <https://mage.genoscope.cns.fr/microscope/home/index.php>`_  still exists, but now the system is fully transparent for all users. Once connected to your account, you will have access to the full list of Public and Private Sequences according to your Project, and get the annotation rights as defined in your account settings.
-
-You can manage your own set of preferred organisms (for exemple, your Project’s specific organisms) in a **Quick Access Menu**, by using the :ref:`My Favourite Organisms <favourite-organisms>`.

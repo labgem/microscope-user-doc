@@ -229,13 +229,7 @@ Note that if several comparisons are selected, only the first one can be save in
 
 
 **3** - The tab **MicroCyc Pathways** shows information about the metabolic pathway matching the differential expressed genes of the analysis.
-
-MicroCyc is a collection of microbial Pathway/Genome Databases (PGDBs) which are created in the context of the MicroScope project.
-They are supported by the Pathway tools software developed by Peter Karp and his team at SRI international.
-These PGDBs were generated using the PathoLogic module which computes an initial set of pathways by comparing genome annotation to the metabolic reference database MetaCyc.
-
-For each studied genome, the annotation data is extracted from our Prokaryotic Genome DataBase (PkGDB) which benefits from the (re)annotation process performed in our group (LABGeM), from the enzymatic function prediction computed with the PRIAM software and from the expert work for functional annotation made by a various community of biologists using MicroScope.
-These automatically generated PGDBs (Tier3) are updated every day.
+See :ref:`here <microcyc>` for more information.
 
 * **MoveTo** = view the gene in the MaGe viewer.
 * **Label** = gene label.

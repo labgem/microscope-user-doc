@@ -121,8 +121,7 @@ How to use the "Export to Gene Cart" button ?
 ---------------------------------------------
 
 The **Export to Gene Cart** button allows you to export all genomic objects contained in the genomic map to a Gene Cart.
-If you click on the button, a new window opens, offering the choice of creating a new cart or to selecting a pre-existing cart in which store the data.
-You can access to your gene carts via the :ref:`Gene Cart Interface <genecarts>`.
+See :ref:`here <genecarts-popup>` for more help.
 
 .. _viewer-create:
 
