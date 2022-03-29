@@ -9,14 +9,9 @@ Interface
 Overview
 ========
 
-MicroScope's interface is organized around the notion of **tools** (also called **methods**).
-That is, most pages display the results computed by a dedicated tool for the current **reference genome** or a **reference sequence**.
-The current object is displayed in the top right corner of the navifation interface and on the page itself.
-
-Some exceptions to this rule are:
-
-* the :ref:`mage`
-* the :ref:`keywords` in Multiple Mode
+MicroScope's interface is organized around the notion of **tools** (also called **methods**):
+most pages display the results computed by a dedicated tool for the current **reference genome** or a **reference sequence**
+(the name of the current sequence or genome is displayed in the top right corner of the navigation interface).
 
 The picture below gives an overview of the typical interface (in this case the :ref:`viewer`):
 
@@ -46,12 +41,10 @@ The navigation interface is composed of several parts:
 * **Item #1. Navigation menu:** This menu is used to navigate between the different tools.
   Tools are grouped into sections (the entries you see on the image).
   The organization of this tutorial matches those sections.
+  **Item #2** displays the current section and tool.
 
-* **Item #2. Sequence selector \& Genome selector:** This component is used to switch to another replicon of the current genome or to change the current genome.
+* **Item #3. Sequence selector \& Genome selector:** This component is used to switch to another replicon of the current genome or to change the current genome.
   See :ref:`here <simple-selector>` for more information.
-
-* **Item #3. Navigation Submenu:** As you explore and annotate, this menu will show you your position in the MicroScope tool tree, providing users with an easy way to locate themselves on the platform.
-
 
 ======================
 Browsing Result Tables 

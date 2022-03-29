@@ -32,7 +32,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.96102398"
-     inkscape:cx="152.44157"
+     inkscape:cx="-369.91793"
      inkscape:cy="48.906168"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
@@ -94,7 +94,7 @@
          y="224.67252">1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#81d41a;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f03936;fill-opacity:1;stroke:none;stroke-width:0.264583"
        x="-98.515091"
        y="227.36769"
        id="text2404-3"
@@ -103,9 +103,9 @@
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan2402-9"
-         style="fill:#81d41a;fill-opacity:1;stroke-width:0.264583"
+         style="fill:#f03936;fill-opacity:1;stroke-width:0.264583"
          x="-98.515091"
-         y="227.36769">3</tspan></text>
+         y="227.36769">2</tspan></text>
     <circle
        style="fill:none;fill-opacity:1;stroke:#f03936;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
        id="path13587"
@@ -113,13 +113,13 @@
        cy="220.9158"
        r="5.76191" />
     <circle
-       style="fill:none;fill-opacity:1;stroke:#81d41a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#f03936;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path13587-3-6-5"
        cx="-95.646255"
        cy="223.68762"
        r="5.76191" />
     <rect
-       style="fill:none;fill-opacity:1;stroke:#81d41a;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#f03936;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect16562"
        width="47.833904"
        height="7.5398378"
@@ -148,6 +148,6 @@
          id="tspan2402-8"
          style="fill:#00a933;fill-opacity:1;stroke-width:0.264583"
          x="-0.56682587"
-         y="192.26955">2</tspan></text>
+         y="192.26955">3</tspan></text>
   </g>
 </svg>
