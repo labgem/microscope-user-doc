@@ -24,6 +24,22 @@ This cart can be accessed quickly in some tools because they are integrated in t
 .. warning:: The name of the Genome Cart can not be longer than 30 characters.
      Also, only standard letters and numbers are allowed (it can't contain spaces and special characters) and the name can't contain only numbers.
 
+
+.. _genomecarts-magic-carts:
+
+***********
+Magic carts
+***********
+
+Above the carts managed on this page, MicroScope maintains 2 « magic » carts:
+
+* **My_Genomes:** This cart contains the genome of which you are **Administrator** (see :ref:`access-right-management`).
+* **Recently_Used:** This cart contains the last 20 genomes used as reference.
+
+Those carts are not displayed here (since their content is not editable) but they appear in the :ref:`advanced-selector`.
+They can't be chosen as favourites.
+
+
 *************************
 Overview of the interface
 *************************
