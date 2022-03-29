@@ -90,8 +90,7 @@ To rename a cart, click on its name in **Item 3**: an input area will be display
 
 Then press **OK** or **Cancel**.
 
-If you enter an invalid name (according to the rules stated above), the cart won't be renamed as shown below:
-<TODO>
+If you enter an invalid name (according to the rules stated above), the cart won't be renamed.
 
 .. _genomecarts-favourite-cart:
 
