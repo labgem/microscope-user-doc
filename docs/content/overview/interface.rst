@@ -14,8 +14,9 @@ That is, most pages display the results computed by a dedicated tool for the cur
 The current object is displayed in the top right corner of the navifation interface and on the page itself.
 
 Some exceptions to this rule are:
-  - the :ref:`mage`
-  - the :ref:`keywords` in Multiple Mode
+
+* the :ref:`mage`
+* the :ref:`keywords` in Multiple Mode
 
 The picture below gives an overview of the typical interface (in this case the :ref:`viewer`):
 
