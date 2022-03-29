@@ -48,8 +48,17 @@ for instance:
   - :ref:`pattern_searches` (for **Sequence Selection**)
   - :ref:`lineplot` (for **Sequence Selection**)
 
-Note that your :ref:`favourite organisms <favourite-organisms>` will always
-show up first in this selector.
+
+.. _simple-selector-genomecarts:
+
+Integration with Genome Carts
+=============================
+
+Note that the content of :ref:`your favourite cart <genomecarts-favourite-cart>` (if any) will always show up first in this selector.
+
+
+How to use it?
+==============
 
 When the page opens, the selector is displayed like this (it may take some time to load):
 
@@ -62,6 +71,7 @@ This selector is also used in the top right corner of some pages in **Genome Sel
 .. image:: img/simple_selector_header.png
 
 This allows to quickly change the reference genome and the replicon.
+
 
 Example
 =======
@@ -95,7 +105,20 @@ This selector is used for instance in the following pages:
   - :ref:`blast_searches` (for **Sequence Selection**)
   - :ref:`genoclust` (for **Genome Selection**)
   - :ref:`phyloprofile` (for **Genome Selection** and **Sequence Selection**)
-  - :ref:`favourite-organisms` (for **Genome Selection**)
+
+
+.. _advanced-selector-genomecarts:
+
+Integration with Genome Carts
+=============================
+
+:ref:`genomecarts` (including :ref:`genomecarts-magic-carts`) are integrated in the advanced selector in two ways:
+
+#. First, you can use them as a search criteria (see below).
+   This allows to quickly preselect the content of one or several carts based on their names.
+#. Second a quick selector allows to directly select the content of a cart without opening the selector.
+
+Note that the « magic » carts are always displayed last.
 
 Overview
 ========
@@ -104,7 +127,28 @@ When the page opens, the selector is displayed like below (it may take some time
 
 .. image:: img/selector_closed.png
 
-To start selecting objects click on the **Edit** button.
+
+To select genomes you can either use the **Quick selector** or use the **Edit button**.
+Those 2 methods are described below.
+
+
+Quick selector
+--------------
+
+The quick selector is a way to select the content of a :ref:`Genome Cart <genomecarts>` (including the magic carts).
+Clicking on the **Quick selector** will open a popup as below:
+
+.. image:: img/quick_selector.png
+   :align: center
+
+From this, you can select a Genome Cart and click **Load**.
+Clicking **Cancel** will close the popup without changing the content.
+
+
+Edition
+-------
+
+To start selecting objects click on the **Edit button**.
 The selector opens as shown below:
 
 .. image:: img/selector_partname.png
@@ -126,6 +170,7 @@ Filters can be constructed from:
  * the *Taxonomy* of the object
  * the *MICGC* to which the object belong (see :ref:`genoclust`)
  * some *Metadata* about the species of the object (see :ref:`species_metadata`)
+ * the name of your :ref:`genomecarts`
 
 .. TODO: add strain metadata above
 
@@ -151,6 +196,7 @@ The selection window stays open so you can restart the selection.
 The **Cancel** button button cancels all the changes done in the current selector
 (*i.e* the list of selected objects is not changed) and closes the selection window.
 
+
 Example
 =======
 
@@ -173,7 +219,7 @@ Filters are shown in the drop down list.
 In taxonomy mode, filters can operate on any taxonomic level.
 Click on "Actinobacteria".
 
-The list of all genomes in the Actinobacteria phylum is now in the **Pre-selection Zone**. 
+The list of all genomes in the Actinobacteria phylum is now in the **Pre-selection Zone**.
 
 .. image:: img/advanced-selector-list-actinobacteria-genus.png
 
