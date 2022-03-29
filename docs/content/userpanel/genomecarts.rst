@@ -83,10 +83,12 @@ Note that if you delete your favourite cart, you will have to choose a new one (
 How to rename a Genome Cart?
 ============================
 
-To rename a cart, click on it's name in **Item 3**: a input area will be display so you can type in the new name and then press **OK** or **Cancel** as shown below.
+To rename a cart, click on its name in **Item 3**: an input area will be displayed so you can type in the new name and as shown below.
 
 .. image:: img/genomecarts_rename.png
    :align: center
+
+Then press **OK** or **Cancel**.
 
 If you enter an invalid name (according to the rules stated above), the cart won't be renamed as shown below:
 <TODO>
