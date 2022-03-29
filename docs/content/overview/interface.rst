@@ -9,7 +9,15 @@ Interface
 Overview
 ========
 
-The picture below gives an overview of the interface (in this case the :ref:`viewer`).
+MicroScope's interface is organized around the notion of **tools** (also called **methods**).
+That is, most pages display the results computed by a dedicated tool for the current **reference genome** or a **reference sequence**.
+The current object is displayed in the top right corner of the navifation interface and on the page itself.
+
+Some exceptions to this rule are:
+  - the :ref:`mage`
+  - the :ref:`keywords` in Multiple Mode
+
+The picture below gives an overview of the typical interface (in this case the :ref:`viewer`):
 
 .. image:: img/overview.png
 
@@ -24,16 +32,6 @@ The window is composed of several parts:
 * **Item #4 Link to documentation:** clicking on this button will redirect to the help page of the current page.
 * **Item #5 Result part:** the central part of the interface is used to display the results of the current page.
   Many pages use tables to display the results (see below for a detailled description of the tables).
-
-
-MicroScope is organized around the notion of **tools** (also called **methods**).
-That is, most pages display the result of a tool which is often computed by a dedicated external tool.
-Some exceptions to this rule are:
-  - the :ref:`mage`
-  - the :ref:`keywords` in Multiple Mode
-
-Also many pages  use a reference genome or a reference sequence.
-The current object is displayed in the top right corner of the navifation interface and on the page itself.
 
 
 ====================
