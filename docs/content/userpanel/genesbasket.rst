@@ -1,9 +1,9 @@
-.. _genecarts:
-
 .. TODO
     Move presentation of gene carts (including how to export from a tool) in overview.
     This page will be about the User Cart interface.
     Correct presentation of set operations.
+
+.. _genecarts:
 
 ##########
 Gene Carts
