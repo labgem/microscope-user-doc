@@ -1,6 +1,5 @@
 .. TODO:
-   Precise how to create them
-   Add information in :ref:`advanced-selector` and how to select the favourite
+   Add information in :ref:`selector` and clarify references here (not always advanced-selector)
    Remove favorites.rst and convert links/mentions (in particular in overview.rst and interface.rst)
 
 .. _genomecarts:
@@ -10,11 +9,15 @@ Genome Carts
 ############
 
 A « Genome Cart » is a (named) list of related genomes.
-Genome carts are integrated in the :ref:`advanced-selector` (both for genome and sequence selection) to select them quickly.
 The idea is that you can create your own groups of genomes (for instance for different projects).
+Genome carts are integrated in the :ref:`advanced-selector` (both for genome and sequence selection) so you can select them quickly in the various tools.
+This integration is based on their name so be sure to use meaningful names.
+See :ref:`here <advanced-selector-genomecarts>` for more information.
 
 Among those carts, you can (optionnally) choose a special one, called the « favourite » (this replace the list of favourite organisms found in previous versions).
-This cart can be accessed quickly in some tools because they are integrated in the :ref:`advanced-selector`.
+This cart is integrated in the :ref:`simple-selector` (see :ref:`here <simple-selector-genomecarts>` for more information).
+
+This page allows to create, edit, rename and delete carts and to select the favourite.
 
 .. tip:: The content of genome carts is saved within your account settings, so it will persist even if you logout from your session.
 
@@ -69,7 +72,7 @@ How to edit a Genome Cart?
 As mentionned, the content of the cart can be manipulated with the selector.
 See :ref:`here <advanced-selector>` on how to do that.
 This interface allows to easily manipulate cart content.
-For instance, it's very easy to merge two carts: open the interface of a cart, select the cart you want to merge in
+For instance, it's easy to merge two carts: open the interface of a cart, select the cart you want to merge in
 add it's content in the cart and save.
 
 
