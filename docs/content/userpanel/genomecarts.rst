@@ -1,7 +1,3 @@
-.. TODO:
-   Add information in :ref:`selector` and clarify references here (not always advanced-selector)
-   Remove favorites.rst and convert links/mentions (in particular in overview.rst and interface.rst)
-
 .. _genomecarts:
 
 ############
