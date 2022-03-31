@@ -85,7 +85,6 @@ Metabolism
    content/metabolism/pathwayCuration
    content/metabolism/antismash
 
-
 ========
 Searches
 ========
@@ -129,10 +128,11 @@ User Panel
    :caption: User Panel
    :maxdepth: 2
 
+   content/userpanel/personalinfo
    content/userpanel/displaypref
    content/userpanel/genesbasket
-   content/userpanel/favorites
-   content/userpanel/personalinfo
-   content/userpanel/requestpassword
-   content/userpanel/manageaccessrights
+   content/userpanel/genomecarts
    content/userpanel/register
+   content/userpanel/requestpassword
+   content/userpanel/mygenomes
+   content/userpanel/manageaccessrights

@@ -641,7 +641,7 @@ How to read the result table?
 Favourite Genomes
 =================
 
-This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from your :ref:`favourite organisms <favourite-organisms>`.
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from your :ref:`favourite genome cart <genomecarts-favourite-cart>`.
 
 These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
 
