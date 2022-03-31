@@ -144,6 +144,8 @@ Clicking on the **Quick selector** will open a popup as below:
 From this, you can select a Genome Cart and click **Load**.
 Clicking **Cancel** will close the popup without changing the content.
 
+If a cart is too large or too small for a given selector, you won't be able to select it with the **Quick selector**.
+
 
 Edition
 -------
