@@ -270,9 +270,11 @@ How to merge 2 gene carts?
 How to rename a gene cart?
 ==========================
 
-Please note: 
-- Allowed characters for names are **[a-z], [0-9], _ , -** and **+**. 
-- Names based on **numeric-only** characters are not allowed.
+.. note::
+   Please note that:
+
+   * Allowed characters for names are standard letters (lower or uppercase), numbers, ``_`` , ``-`` and ``+``. 
+   * Names can't contain numbers only.
 
 1. Click on the cart's name you want to change.
 
