@@ -21,7 +21,7 @@ This page allows to create, edit, rename and delete carts and to select a favour
     Also, you can't create more than 10 genome carts.
 
 .. warning:: The name of the Genome Cart can not be longer than 30 characters.
-     Also, only standard letters, numbers and a few characters (`_`, `+`, `-`) are allowed (no spaces or special characters) and the name can't contain only numbers.
+     Also, only standard letters, numbers and a few characters (``_``, ``+``, ``-``) are allowed (no spaces or special characters) and the name can't contain only numbers.
      Last but not least, you can't use the name of the « magic » carts (see below).
 
 
