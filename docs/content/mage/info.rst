@@ -873,31 +873,6 @@ All pathways listed in this table are those predicted as present in this organis
 
 .. image:: img/metacyc.png
 
-========
-COGnitor
-========
-
-What is COGnitor?
------------------
-
-COGnitor compares a sequence to the COG database by using BLASTP. Clusters of Orthologous Groups of proteins (COGs) were established by comparing protein sequences encoded in complete genomes, representing major phylogenetic lineages. Each COG consists of individual proteins or groups of paralogs from at least 3 lineages and thus corresponds to an ancient conserved domain.
-
-**More**: http://www.ncbi.nlm.nih.gov/COG/
-
-**Reference**:
-
-`Tatusov RL, Koonin EV, Lipman DJ. A genomic perspective on protein families. Science. 1997 Oct 24;278(5338):631-7. <http://www.ncbi.nlm.nih.gov/pubmed/9381173>`_
-
-How to read COGnitor results?
------------------------------
-
-.. image:: img/cog.png
-
-
-The first column indicates the identifier of the COG family the protein is similar to. If you click on the identifier, a new window will pop-up, presenting the COG’s description page on the NCBI website. The second column gives the similarity score and the third and fourth columns give the amino acid positions between which the proteins align. The last 2 columns indicate the general class to which the COG belongs and the function describing the COG family
-
-.. tip:: A protein is classified in a COG if it has at least 3 Best Hits with proteins classified in the same COG and being members of 3 different clades. A protein can thus be classified in more than one COG.
-
 
 ========
 EGGNOG
