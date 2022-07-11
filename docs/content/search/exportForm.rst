@@ -62,9 +62,6 @@ The second line allows to extract the annotations (in a tab delimited format):
 * **Genome** will download the current annotation of all genomic objects in the sequence
 * **Auto** will download the automatic annotation of all genomic objects in the sequence
 
-
-The **Genome** button on the third line allows to download the :ref:`cog`.
-
 The **Genome** button on the fourth line allows to download the :ref:`eggnog`.
 
 Finally, you can download the MicroCyc Pathway/Genome Database of the selected genome with the last button.
