@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg2"
+   width="3236"
+   height="2257"
+   viewBox="0 0 3236 2257"
+   sodipodi:docname="meta1.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/meta1.png"
+   inkscape:export-xdpi="93.807373"
+   inkscape:export-ydpi="93.807373"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6">
+    <rect
+       x="1637.6794"
+       y="732.27344"
+       width="93.582993"
+       height="127.13295"
+       id="rect65960" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient30972">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop30968" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop30970" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient28988"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop28986" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3362"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3360" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath304">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd"
+         id="rect306"
+         width="1921.4415"
+         height="1083.7958"
+         x="1997.0752"
+         y="733.4436" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath412">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd"
+         id="rect414"
+         width="1544.2677"
+         height="861.59204"
+         x="2255.2527"
+         y="889.14917" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath520">
+      <rect
+         style="fill:#0000ff;fill-rule:evenodd"
+         id="rect522"
+         width="1266.2561"
+         height="841.98364"
+         x="2421.4478"
+         y="905.13849" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient30972"
+       id="linearGradient30978"
+       x1="1575.1886"
+       y1="788.09058"
+       x2="1593.5519"
+       y2="788.09058"
+       gradientUnits="userSpaceOnUse" />
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath931">
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:1.92527"
+         id="rect933"
+         width="1037.8064"
+         height="723.88037"
+         x="534.23676"
+         y="347.98657" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="namedview4"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     showgrid="false"
+     inkscape:zoom="0.26124924"
+     inkscape:cx="1379.9083"
+     inkscape:cy="987.56268"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g8" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g8"
+     transform="translate(-333.31372,-18.831558)">
+    <image
+       width="3236"
+       height="2257"
+       preserveAspectRatio="none"
+       xlink:href="meta1_base.png"
+       id="image1047"
+       x="333.31372"
+       y="18.831558" />
+    <text
+       xml:space="preserve"
+       id="text65958"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect65960);fill:#000000;fill-opacity:1;stroke:none" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#369634;stroke-width:9.41259;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path67884-5"
+       ry="65.40023"
+       rx="66.762291"
+       cy="749.11652"
+       cx="1969.7103"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#911eed;stroke-width:9.8643;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path67884-6"
+       ry="65.174362"
+       rx="73.577843"
+       cy="1317.5077"
+       cx="1006.1934"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff8f1f;stroke-width:9.03641;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect557"
+       width="701.19965"
+       height="199.30763"
+       x="374.3092"
+       y="175.7372"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#ff0015;stroke-width:10.5807;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4712"
+       width="1315.3257"
+       height="453.77191"
+       x="499.68732"
+       y="783.50171"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#369634;stroke-width:10.6749;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect9842"
+       width="1213.271"
+       height="1085.2767"
+       x="2036.2333"
+       y="726.99347"
+       ry="0"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#911eed;stroke-width:10.8468;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect10250"
+       width="507.83948"
+       height="80.260086"
+       x="419.68723"
+       y="1246.5044"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8f1f;fill-opacity:1;stroke:none;stroke-width:2.86987;stroke-opacity:1"
+       x="1061.2469"
+       y="273.13834"
+       id="text6901"
+       transform="scale(1.05709,0.94599324)"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         id="tspan6899"
+         x="1061.2469"
+         y="273.13834"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff8f1f;fill-opacity:1;stroke:none;stroke-width:2.86987;stroke-opacity:1"
+         sodipodi:role="line">1</tspan></text>
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ff8f1f;stroke-width:9.8643;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path67884"
+       ry="65.174362"
+       rx="73.578003"
+       cy="229.21523"
+       cx="1157.0087"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#ff0015;stroke-width:9.36875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path67884-3"
+       ry="65.42215"
+       rx="66.119804"
+       cy="786.78979"
+       cx="430.01544"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0015;fill-opacity:1;stroke:none;stroke-width:2.8076"
+       x="398.25763"
+       y="819.10443"
+       id="text74229"
+       transform="scale(1.0001848,0.99981524)"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan74227"
+         x="398.25763"
+         y="819.10443"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0015;fill-opacity:1;stroke:none;stroke-width:2.8076;stroke-opacity:1">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#911eed;fill-opacity:1;stroke:none;stroke-width:2.86987"
+       x="921.51794"
+       y="1421.912"
+       id="text90374"
+       transform="scale(1.05709,0.94599324)"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan90372"
+         x="921.51794"
+         y="1421.912"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:2.86987">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#369634;fill-opacity:1;stroke:none;stroke-width:3.38047"
+       x="1920.377"
+       y="782.992"
+       id="text107527"
+       transform="scale(1.0052009,0.994826)"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan107525"
+         x="1920.377"
+         y="782.992"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:3.38047">4</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#ff0015;stroke-width:3.77953;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path123339"
+       sodipodi:type="arc"
+       sodipodi:cx="411.61484"
+       sodipodi:cy="808.92627"
+       sodipodi:rx="89.494804"
+       sodipodi:ry="47.370384"
+       sodipodi:start="0"
+       sodipodi:end="0.069166002"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m 501.10964,808.92627 a 89.494804,47.370384 0 0 1 -0.21398,3.27381"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#256fcf;stroke-width:9.8643;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path67884-63"
+       ry="65.174362"
+       rx="73.577843"
+       cy="1864.955"
+       cx="1962.3806"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#256fcf;stroke-width:9.99414;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect12718"
+       width="711.73193"
+       height="85.037712"
+       x="2037.3839"
+       y="1822.7065"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#256fcf;fill-opacity:1;stroke:none;stroke-width:2.86987"
+       x="1825.6163"
+       y="2005.4178"
+       id="text118608"
+       transform="scale(1.05709,0.94599324)"
+       inkscape:transform-center-x="-34.946658"
+       inkscape:transform-center-y="-12.004056"
+       inkscape:export-filename="/home/lcoffion/Code/microscope-user-doc/docs/content/metabolism/img/image10.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan118606"
+         x="1825.6163"
+         y="2005.4178"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:93.4753px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#256fcf;fill-opacity:1;stroke-width:2.86987">5</tspan></text>
+    <rect
+       style="fill:none;stroke:#ea7f12;stroke-width:20;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect905"
+       width="170.40439"
+       height="110.80247"
+       x="386.05316"
+       y="2153.5547" />
+    <ellipse
+       style="fill:#ffffff;fill-opacity:1;stroke:#ea7f12;stroke-width:19.2311;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path7252"
+       cx="644.65179"
+       cy="2146.9177"
+       rx="81.922218"
+       ry="82.382294" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:113.333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ea7f12;fill-opacity:1;stroke:none"
+       x="603.95154"
+       y="2185.5955"
+       id="text11626"><tspan
+         sodipodi:role="line"
+         id="tspan24773"
+         x="603.95154"
+         y="2185.5955">6</tspan></text>
+  </g>
+</svg>
