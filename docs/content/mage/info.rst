@@ -1166,7 +1166,7 @@ Resistome
 What is CARD?
 -------------
 
-The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+The `CARD <https://card.mcmaster.ca/home>`_ is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 We compare MicroScope gene against CARD using `RGI <https://card.mcmaster.ca/analyze/rgi>`_:
 
