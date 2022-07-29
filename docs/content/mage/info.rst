@@ -1158,6 +1158,48 @@ Each line presents a correspondance between the genomic object and a CAZy found 
 * **Method:** method by which this correspondance was found.
 * **Number of tools:** number of tools that found the same correspondance as this one. If > 2, the prediction is considered correct.
 
+.. _mage_SulfAtlas:
+
+=========
+SulfAtlas
+=========
+
+What is SulfAtlas?
+------------------
+
+SulfAtlas is a tool for the automated detection of sulfatases.
+They are classified into the `SulfAtlas database <https://sulfatlas.sb-roscoff.fr/sulfatlas/>`_.
+From each SulfAtlas family and sub-family an HMM was generated.
+Thresholds have been manually defined.
+
+**References:**
+
+  * `Barbeyron T., Brillet-Guéguen L., Carré W., Carrière C., Caron C., Czjzek M., Hoebeke M., Michel G. 2016. Matching the Diversity of Sulfated Biomolecules: Creation of a Classification Database for Sulfatases Reflecting Their Substrate Specificity. PLoS One <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164846>`_
+
+  * Mark Stam, Pernelle Lelièvre, Mark Hoebeke, Erwan Corre, Tristan Barbeyron & Gurvan Michel, SulfAtlas, the sulfatase database: state of the art and new developments (manuscript in preparation)
+
+How to read SulfAtlas results?
+------------------------------
+
+.. image:: img/sulfatlas.png
+
+Each line presents a correspondence between a region of the genomic object and an HMM profile:
+
+* **SulfAtlas classification**: name of the SulfAtlas family/sub-family
+* **Eval**: e-value of the alignment
+* **Score**: score of the alignment
+* **Begin**: start position of the alignment on the protein sequence
+* **End**: end position of the alignment on the protein sequence
+* **Domain Coverage**: percentage of the sulfatase domain covered by the domain detected into the protein
+* **Evidence level**: give an level of evidence:
+
+  * **probable fragment** means that the detected domain on the protein covers less than 80% of the sulfatase domain.
+  * **low** means that the alignment score is under the threshold to assign the domain to a specific family/sub-family but high enough to consider that this domain is a sulfatase.
+  * **high** means that the prediction is correct.
+
+* **EC numbers**: prediction of EC numbers, based on the EC numbers present into the SulfAtlas sub-family
+* **Comment**: Possible comment
+
 =========
 Resistome
 =========
