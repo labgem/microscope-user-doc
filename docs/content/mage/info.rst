@@ -1173,10 +1173,7 @@ From each SulfAtlas family and sub-family an HMM was generated.
 Thresholds have been manually defined.
 
 **References:**
-
-  * `Barbeyron T., Brillet-Guéguen L., Carré W., Carrière C., Caron C., Czjzek M., Hoebeke M., Michel G. 2016. Matching the Diversity of Sulfated Biomolecules: Creation of a Classification Database for Sulfatases Reflecting Their Substrate Specificity. PLoS One <https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164846>`_
-
-  * Mark Stam, Pernelle Lelièvre, Mark Hoebeke, Erwan Corre, Tristan Barbeyron & Gurvan Michel, SulfAtlas, the sulfatase database: state of the art and new developments (manuscript in preparation)
+  Mark Stam, Pernelle Lelièvre, Mark Hoebeke, Erwan Corre, Tristan Barbeyron & Gurvan Michel, SulfAtlas, the sulfatase database: state of the art and new developments (manuscript in preparation)
 
 How to read SulfAtlas results?
 ------------------------------
