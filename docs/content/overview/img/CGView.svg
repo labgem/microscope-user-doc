@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1442"
+   width="1160"
+   height="1023"
+   viewBox="0 0 1160 1023"
+   sodipodi:docname="CGView.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/cnorroy/Workspace/microscope-user-doc/docs/content/overview/img/CGView.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1446" />
+  <sodipodi:namedview
+     id="namedview1444"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.8191721"
+     inkscape:cx="541.40027"
+     inkscape:cy="461.44149"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1448" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1448"
+     transform="translate(-248.66898,-98.780174)">
+    <image
+       width="1160"
+       height="1023"
+       preserveAspectRatio="none"
+       style="image-rendering:optimizeQuality"
+       xlink:href="CGView_base.png"
+       id="image919"
+       x="248.66898"
+       y="98.780174" />
+    <circle
+       style="fill:none;stroke:#1fa31f;stroke-width:2.89134;fill-opacity:1;stroke-opacity:1"
+       id="path1520"
+       cx="748.70575"
+       cy="641.14276"
+       r="26.598883" />
+    <circle
+       style="fill:none;stroke:#3d26eb;stroke-width:2.89134;stroke-opacity:1"
+       id="path1520-3"
+       cx="1153.7922"
+       cy="211.63518"
+       r="26.598883" />
+    <circle
+       style="fill:none;stroke:#b532a6;stroke-width:2.89134;stroke-opacity:1"
+       id="path1520-6"
+       cx="898.81049"
+       cy="1090.7858"
+       r="26.598883" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#1fa31f;fill-opacity:1;stroke:none"
+       x="735.86298"
+       y="654.1604"
+       id="text4846"><tspan
+         sodipodi:role="line"
+         id="tspan4844"
+         x="735.86298"
+         y="654.1604"
+         style="fill:#1fa31f;fill-opacity:1">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#b532a6;fill-opacity:1;stroke:none;stroke-opacity:1"
+       x="886.89386"
+       y="1103.8186"
+       id="text16680"><tspan
+         sodipodi:role="line"
+         id="tspan16678"
+         x="886.89386"
+         y="1103.8186">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#3d26eb;fill-opacity:1;stroke:none"
+       x="1143.1387"
+       y="226.19315"
+       id="text30778"><tspan
+         sodipodi:role="line"
+         id="tspan30776"
+         x="1143.1387"
+         y="226.19315">2</tspan></text>
+  </g>
+</svg>

@@ -20,7 +20,7 @@ General requirements
 Java Web Start
 ==============
 
-Java Web Start is needed for several functionalities (CGView, IGV, tMeV, etc.).
+Java Web Start is needed for several functionalities (IGV, tMeV, etc.).
 Please visit `this page <https://www.java.com/en/download/faq/java_webstart.xml/>`_ to install it.
 
 .. Warning::

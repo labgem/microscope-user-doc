@@ -266,7 +266,7 @@ This tool is based on CGView (see :ref:`cgview`).
 	* the portion of the reference sequence which must be screened, and
 	* the length of the mutations.
 
-4. Launch the CGView applet.
+4. Launch CGView.
 
 .. tip:: You can decide which Genomic Objects (GOs) and corresponding labels will be displayed on the circular map thanks to the two selection lists situated next to the CGView button.
 
@@ -274,12 +274,10 @@ This tool is based on CGView (see :ref:`cgview`).
 What can you see on the graphical representation?
 -------------------------------------------------
 
-Circles display (from the outside): 
-**(1)** Predicted mutational events (SNPs, insertions, deletions ). 
-**(2)** Predicted CDSs transcribed in the clockwise direction (Primary/Automatic annotations, MicroScope automatic annotation with a reference genome, MaGe validated annotations). 
-**(3)** Predicted CDSs transcribed in the counterclockwise direction (Primary/Automatic annotations, MicroScope automatic annotation with a reference genome, MaGe validated annotations). 
-**(4)** Transposable elements and pseudogenes.
+Tracks (from the outside):
 
-**Tip1**: Each GO label encompasses a link to the information form of the Genomic Object considered. 
-**Tip2**: If you mouseover a mutation label, a more complete description will appear at the bottom of the CGView applet. 
-**Tip3**: The image obtained can be downloaded in the .svgz format (hyperlink just under the applet)
+1. Predicted CDSs transcribed in the negative strand
+   (automatic annotations in **purple**, automatic annotations transfered from reference genome in **orange**, validated annotations in **red**).
+2. Predicted CDSs transcribed in the positive strand (same colors as above).
+3. Transposases (**green**) and pseudogenes (**yellow**).
+4. Predicted mutational events (SNPs in **brown**, insertions in **blue**, deletions in **green**).
