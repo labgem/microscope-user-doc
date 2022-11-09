@@ -114,7 +114,7 @@ This table is the central part of the result page and displays information about
 	* Select subsets of genes (by selecting checkboxes on the first column) and export them into a :ref:`Gene Cart <genecarts>` by using the “Export To Gene Cart” button.
 	* See one selected gene into the :ref:`MaGe Genome Browser <viewer>` by clicking on the magnifying glass.
 	* Direct link to the selected gene in Integrative Genome Viewer.
-	* Direct link to MeV.
+	* Direct link to :ref:`Morpheus <morpheus>`.
 	* Direct link to MicroCyC.
 	
 * **2**. The second part reports the main genomic object features : Label (Link to more Genomic Object information), Type, Name, Product, Begin, End, Length, Frame.

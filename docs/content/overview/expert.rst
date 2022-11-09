@@ -256,19 +256,15 @@ The user interface is made of 3 parts:
    * download an image of the viewer (as a PNG)
    * toggle label visibility
 
-.. _mev:
+.. _morpheus:
 
-What is MeV ?
--------------
+What is Morpheus ?
+------------------
 
-MeV (Multiple Experiment Viewer) is a Java tool for genomic data analysis.
-MeV supports many different input formats, and provides an intuitive graphical interface for clustering, classification, statistical analysis and theme discovery.
+Morpheus is a versatile matrix visualization and analysis software.
+View your dataset as a heat map, then explore the interactive tools in Morpheus. Cluster, create new annotations, search, filter, sort, display charts, and more.
 
-**More**: https://sourceforge.net/projects/mev-tm4/
-
-.. Tip::
-   MEV is based on the Java Web Start technology.
-   See how to use :ref:`JWS`.
+**More**: https://software.broadinstitute.org/morpheus/documentation.html
 
 .. _jalview:
 
