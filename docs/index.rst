@@ -71,6 +71,7 @@ Comparative Genomics
    content/compgenomics/virulence
    content/compgenomics/integron
    content/compgenomics/macsyfinder
+   content/compgenomics/prophages_defense_systems
 
 ==========
 Metabolism

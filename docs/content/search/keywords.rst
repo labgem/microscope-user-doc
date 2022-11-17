@@ -102,6 +102,8 @@ The common dataset are:
 * **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries predicted by :ref:`mage_dbCAN`.
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
+* **Prophages**: will return genes of your selected sequence being part of a prophage region predicted by Phigaro.
+* **Defense Systems**: wiil return genes of your selected sequence being part of a defense system predicted by DefenseFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
 
 Note that a few specific organisms use taylored datasets.

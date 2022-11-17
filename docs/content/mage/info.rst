@@ -1368,3 +1368,71 @@ How to explore a Macromolecular System?
 ---------------------------------------
 
 The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+
+=======
+Phigaro
+=======
+
+What is Phigaro?
+----------------
+
+Phigaro is a standalone command-line application that is able to detect prophage regions taking raw genome and metagenome assemblies as an input.
+It also produces dynamic annotated "prophage genome maps" and marks possible transposon insertion spots inside prophages.
+It is applicable for mining prophage regions from large metagenomic datasets.
+Phigaro uses the `pVOG HMM profiles <http://dmk-brain.ecn.uiowa.edu/pVOGs/>`_ to detect bacteriophage genes.
+
+Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
+
+**Reference:**
+
+`Elizaveta V. Starikova, Polina O. Tikhonova, Nikita A. Prianichnikov, Chris M. Rands, Evgeny M. Zdobnov, Vadim M. Govorun Phigaro: high throughput prophage sequence annotation <https://doi.org/10.1093/bioinformatics/btaa250>`_
+
+.. note::
+  By default Phigaro predicts genes by using Prodigal.
+  However we use the gene calling provided by our own pipeline.
+
+How to read Phigaro results?
+----------------------------
+
+The **Phigaro** dataset appears if the genomic object correspond to a prophage predicted by Phigaro The table shows :
+
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **Prophage id**: Id number of the prophage to which belongs the gene;
+  clicking on this opens the :ref:`prophage visualization interface <how-to-explore-a-prophage>`
+* **pVOG**: the pVOG corresponding to the genomic object (if any);
+  clicking on this will open the detailed description of the pVOG
+* **Eval**: E-value of the match between the genomic object and the pVOG
+
+.. image:: img/Phigaro_gene.png
+
+=============
+DefenseFinder
+=============
+
+What is Defense Finder?
+-----------------------
+
+DefenseFinder is a program to systematically detect known anti-phage systems based on MacSyFinder.
+The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the
+detection of a given system.
+A system can also contain neutral proteins.
+
+Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
+
+**Reference:**
+
+`"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://www.nature.com/articles/s41467-022-30269-9.pdf>`_
+
+How to read DefenseFinder results?
+----------------------------------
+
+The **DefenseFinder** dataset appears if the genomic object correspond to a defense system predicted by DefenseFinder The table shows :
+
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **System name**: Id number of the defense system to which belongs the gene;
+  clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
+* **Protein name**: Name of the protein
+* **Status**: Mandatory, accessory or neutral, as defined by MacSyFinder
+* **Eval**: E-value of the match with MacSyFinder models
+
+.. image:: img/DefenseFinder_gene.png
