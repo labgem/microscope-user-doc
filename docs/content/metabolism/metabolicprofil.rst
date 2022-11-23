@@ -50,6 +50,10 @@ The interface of the tool is organized as follows:
 
 Once the database, the genomes and the pathways have been selected, click on the View button (**Item #6**) to launch the analysis.
 
+.. image:: img/meta4.png
+
+Once the computations are done, you have access to the BioCyc Statistics, :ref:`Morpheus <morpheus>` and you can export the results as a TSV file.
+
 How to read the result table?
 ------------------------------
 
