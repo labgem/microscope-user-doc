@@ -261,10 +261,20 @@ The user interface is made of 3 parts:
 What is Morpheus ?
 ------------------
 
-Morpheus is a versatile matrix visualization and analysis software.
+Morpheus is a versatile matrix visualization and analysis software inside your web browser.
 View your dataset as a heat map, then explore the interactive tools in Morpheus. Cluster, create new annotations, search, filter, sort, display charts, and more.
 
 **More**: https://software.broadinstitute.org/morpheus/documentation.html
+
+Morpheus is integrated in several tools in MicroScope.
+
+.. warning::
+   The Morpheus window gives you access to the whole Morpheus application.
+   This means that you have access to all the features of Morpheus including loading local data not related to MicroScope.
+   Be careful when using it to avoid confusion.
+
+   Also note that some clustering metrics seems to not produce results.
+   In this case, try using a different metric.
 
 .. _jalview:
 
