@@ -262,11 +262,15 @@ What is Morpheus ?
 ------------------
 
 Morpheus is a versatile matrix visualization and analysis software inside your web browser.
-View your dataset as a heat map, then explore the interactive tools in Morpheus. Cluster, create new annotations, search, filter, sort, display charts, and more.
+Morpheus allows to visualize a dataset as a heat map and explore it with interactive tools.
+This allows to cluster, create new annotations, search, filter, sort, display charts, and more.
 
 **More**: https://software.broadinstitute.org/morpheus/documentation.html
 
 Morpheus is integrated in several tools in MicroScope.
+
+.. Tip::
+   Morpheus replaces MeV (Multiple Experiment Viewer) which was unsupported and based on obsolete technology.
 
 .. warning::
    The Morpheus window gives you access to the whole Morpheus application.
