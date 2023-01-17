@@ -1,3 +1,5 @@
+.. _NGSReadCountAnalysis:
+
 #############################
 RNAseq V2 Read Count Analysis
 #############################

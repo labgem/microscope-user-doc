@@ -1,3 +1,5 @@
+.. _NGSDiffExprAnalysis:
+
 ##########################################
 RNAseq V2 Differential Expression Analysis
 ##########################################

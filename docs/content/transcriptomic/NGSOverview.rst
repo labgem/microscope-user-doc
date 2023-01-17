@@ -1,3 +1,5 @@
+.. _NGSOverview:
+
 ##################
 RNAseq V2 Overview
 ##################

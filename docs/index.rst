@@ -103,9 +103,6 @@ Transcriptomics
    :maxdepth: 2
 
    content/transcriptomic/NGSProjectRNAseq
-   content/transcriptomic/rnaseqOverview
-   content/transcriptomic/rnaseqReadCountAnalysis
-   content/transcriptomic/rnaseqDiffExprAnalysis
    content/transcriptomic/NGSOverview
    content/transcriptomic/NGSReadCountAnalysis
    content/transcriptomic/NGSDiffExprAnalysis
