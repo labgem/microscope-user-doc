@@ -1,5 +1,8 @@
 .. _evolution-projects:
 
+.. TODO:
+   Replace images with real formulas
+
 ##################
 Evolution Projects
 ##################
@@ -10,6 +13,13 @@ First steps
 
 How to begin?
 -------------
+
+Variant Discovery homepage displays the list of available projects.
+
+By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
+
+.. image:: img/variantProject.png
+
 
 Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
 
@@ -164,7 +174,7 @@ Then, the procedure is quite similar in the two analysis modes:
 	* the numbers of lineages and clones in which you’d like to retrieve the same mutations or mutated GOs.
 	* the standpoint of your analysis: inclusion of all the evolved clones or selection of clones sampled at a specific timepoint.
 
-2. If you want, you can play with:
+3. If you want, you can play with:
 
 	* the nature of the relevant mutations,
 	* their location on the reference genome (in the "Shared Mutations" mode only),
@@ -173,7 +183,7 @@ Then, the procedure is quite similar in the two analysis modes:
 	* the portion of the reference sequence which must be screened, and
 	* the length of the mutations.
 
-	4. Submit your query.
+4. Submit your query.
 	
 	
 How to read the table of results?
