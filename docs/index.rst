@@ -21,7 +21,7 @@ MicroScope Platform Overview
    content/overview/latestnews
    content/overview/selection
    content/overview/metadata
-   
+
 ====
 MaGe
 ====
@@ -56,7 +56,7 @@ Comparative Genomics
 .. toctree::
    :caption: Comparative Genomics
    :maxdepth: 2
-   
+
    content/compgenomics/genoclust
    content/compgenomics/phyloprofil
    content/compgenomics/genomicIsland
@@ -84,6 +84,19 @@ Metabolism
    content/metabolism/pathwayCuration
    content/metabolism/antismash
 
+=================
+Experimental Data
+=================
+.. toctree::
+   :caption: Experimental Data
+   :maxdepth: 2
+
+   content/expdata/NGSProjectEvo
+   content/expdata/NGSProjectRNAseq
+   content/expdata/NGSOverview
+   content/expdata/NGSReadCountAnalysis
+   content/expdata/NGSDiffExprAnalysis
+
 ========
 Searches
 ========
@@ -94,27 +107,6 @@ Searches
    content/search/blast
    content/search/keywords
    content/search/exportForm
-
-===============
-Transcriptomics
-===============
-.. toctree::
-   :caption: Transcriptomics
-   :maxdepth: 2
-
-   content/transcriptomic/NGSProjectRNAseq
-   content/transcriptomic/NGSOverview
-   content/transcriptomic/NGSReadCountAnalysis
-   content/transcriptomic/NGSDiffExprAnalysis
-
-=================
-Variant Discovery
-=================
-.. toctree::
-   :caption: Variant Discovery
-   :maxdepth: 2
-
-   content/expdata/NGSProjectEvo
 
 ==========
 User Panel
