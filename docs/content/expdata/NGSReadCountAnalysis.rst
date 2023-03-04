@@ -7,7 +7,8 @@ RNAseq V2 Read Count Analysis
 Analyzing Read Count
 --------------------
 
-According to this tool, it is possible to know exactly how many reads matched a given genomic object of the reference sequence. Results are accessible following a 5 steps process which is described below.
+According to this tool, it is possible to know exactly how many reads matched a given genomic object of the reference sequence for a RNA-Seq or Variant profiling experiment.
+Results are accessible following a 5 steps process which is described below.
 
 .. image:: img/rd1.png
 

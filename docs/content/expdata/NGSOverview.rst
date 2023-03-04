@@ -5,9 +5,10 @@ RNAseq V2 Overview
 ##################
 
 
-Overviewing RNA-Seq or Evolution experiments results
+Overviewing RNA-Seq or Variant profiling experiments results
 
-This section allows users to have a complete summary of the mapping process for each experiment that have been performed on the studied organism. Results are reported in tables that can be easily expanded/collapsed by clicking on the small horizontal arrow.
+This page allows users to have a complete summary of the mapping process for each experiment that have been performed on the studied organism.
+Results are reported in tables that can be easily expanded/collapsed by clicking on the small horizontal arrow.
 
 An Example is given below in the case of *Helicobacter Pylori* public data :
 

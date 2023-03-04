@@ -1,11 +1,11 @@
 .. _evolution-projects:
 
 .. TODO:
-   Replace images with real formulas
+   Replace evo2.png and evo3.png with real formulas
 
-##################
-Evolution Projects
-##################
+##########################
+Variant profiling projects
+##########################
 
 ===========
 First steps
@@ -14,7 +14,7 @@ First steps
 How to begin?
 -------------
 
-Variant Discovery homepage displays the list of available projects.
+Variant profiling homepage displays the list of available projects.
 
 By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
 

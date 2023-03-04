@@ -5,8 +5,8 @@ RNAseq V2 Differential Expression Analysis
 ##########################################
 
 
-How to read Differential Expression Analysis interface?
--------------------------------------------------------
+How to use Differential Expression Analysis interface?
+------------------------------------------------------
 
 This page allows to display the difference in expression level of genes for two (or more) experimental conditions, highlights those for which this difference is statistically significant and it offers tools to interpret the results.
 
