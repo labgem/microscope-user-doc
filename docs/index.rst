@@ -97,7 +97,7 @@ Experimental Data
    content/expdata/NGSReadCountAnalysis
    content/expdata/NGSDiffExprAnalysis
    content/expdata/NGSEvoAnalysis
-   content/expdata/NGSEvoSniperSNP
+   content/expdata/NGSEvoSniperSNPs
 
 ========
 Searches
