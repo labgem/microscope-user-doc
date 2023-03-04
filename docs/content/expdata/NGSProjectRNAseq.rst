@@ -4,7 +4,6 @@ Getting Started
 
 .. TODO:
    Is image OK ?
-   img/start2.png seems unused (and similar to img/start1.png).
    First sentence is weird
    Remove V2 in titles of other sections ?
 

@@ -18,8 +18,7 @@ Variant Discovery homepage displays the list of available projects.
 
 By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
 
-.. image:: img/variantProject.png
-
+.. image:: img/start2.png
 
 Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
 
