@@ -1,8 +1,8 @@
 .. _NGSDiffExprAnalysis:
 
-##########################################
-RNAseq V2 Differential Expression Analysis
-##########################################
+################################
+Differential Expression Analysis
+################################
 
 
 How to use Differential Expression Analysis interface?

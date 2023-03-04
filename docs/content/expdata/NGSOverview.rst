@@ -1,9 +1,10 @@
 .. _NGSOverview:
 
-##################
-RNAseq V2 Overview
-##################
+.. This page is used for RNA-Seq and Variant profiling projects
 
+################
+Mapping Overview
+################
 
 Overviewing RNA-Seq or Variant profiling experiments results
 

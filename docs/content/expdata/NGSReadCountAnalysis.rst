@@ -1,11 +1,10 @@
 .. _NGSReadCountAnalysis:
 
-#############################
-RNAseq V2 Read Count Analysis
-#############################
+.. This page is used for RNA-Seq and Variant profiling projects
 
-Analyzing Read Count
---------------------
+###################
+Read Count Analysis
+###################
 
 According to this tool, it is possible to know exactly how many reads matched a given genomic object of the reference sequence for a RNA-Seq or Variant profiling experiment.
 Results are accessible following a 5 steps process which is described below.

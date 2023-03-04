@@ -1,6 +1,8 @@
-###############
-Getting Started
-###############
+.. _NGSProjectRNAseq:
+
+#########################
+RNA-Seq analysis projects
+#########################
 
 .. TODO:
    Is image OK ?
