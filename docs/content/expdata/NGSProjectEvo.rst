@@ -20,11 +20,6 @@ By Clicking on the arrow available on the left of each project, user can expand 
 
 .. image:: img/start2.png
 
-Once your evolution project selected (1 and 2), just click one of the radio buttons to switch between the different exploration modes (3):
-
-.. image:: img/evo1.png
-	:width: 100%
-
 * **Comparative analysis** => Click here for more details.
 * **Parallelism analysis** => Click here for more details.
 * **Graphical analysis** => Click here for more details.
