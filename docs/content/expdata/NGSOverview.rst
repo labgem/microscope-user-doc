@@ -2,9 +2,9 @@
 
 .. This page is used for RNA-Seq and Variant profiling projects
 
-################
-Mapping Overview
-################
+##################################
+Mapping Overview (Variant/RNA-Seq)
+##################################
 
 Overviewing RNA-Seq or Variant profiling experiments results
 
