@@ -18,8 +18,7 @@ Selecting a project will allow the user to use :
 * :ref:`Overview tool <NGSOverview>` (**Item #1**)
 * :ref:`Read Count Analysis <NGSReadCountAnalysis>` (**Item #2**)
 * :ref:`NGSEvoAnalysis` (**Item #3**)
-* :ref:`NGSEvoSniperSNP` (**Item #4**)
-* :ref:`Integrative Genomics Viewer <igv>` (**Item #5**)
+* :ref:`Integrative Genomics Viewer <igv>` (**Item #4**)
 
 What is the meaning of the score computed by SNiPer for each variation?
 -----------------------------------------------------------------------

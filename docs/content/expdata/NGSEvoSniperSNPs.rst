@@ -1,5 +1,0 @@
-.. _NGSEvoSniperSNP:
-
-#############
-SNPs Overview
-#############
