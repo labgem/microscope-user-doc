@@ -2,7 +2,6 @@
 
 .. TODO:
    Update screen shots (old names, old projects, presence of NGSEvoSniperSNPs)
-   Replace evo2.png and evo3.png with real formulas
 
 ##########################
 Variant profiling projects
@@ -20,22 +19,3 @@ Selecting a project will allow the user to use :
 * :ref:`Read Count Analysis <NGSReadCountAnalysis>` (**Item #2**)
 * :ref:`NGSEvoAnalysis` (**Item #3**)
 * :ref:`Integrative Genomics Viewer <igv>` (**Item #4**)
-
-What is the meaning of the score computed by SNiPer for each variation?
------------------------------------------------------------------------
-
-For each reported mutation, a **score**, which is meant to indicate the confidence one can have in the prediction, is computed:
-
-* SNP_score=
-
-.. image:: img/evo2.png
-
-* Local-coverage : Number of reads containing the new base with a high quality.
-* Total-coverage : Total number of reads containing the new base.
-
-indel_score=
-
-.. image:: img/evo3.png
-
-* Local-coverage : Number of reads containing the indel.
-* Total-coverage : Total number of reads mapping the mutated position.

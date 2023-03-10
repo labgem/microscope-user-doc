@@ -1,10 +1,41 @@
 .. _NGSEvoAnalysis:
 
+.. TODO:
+   Replace evo2.png and evo3.png with real formulas and clarify them
+
 ################
 Variant analysis
 ################
 
 This page allows to perform several kind of analysis on a variant profiling project.
+
+============
+Introduction
+============
+
+What is the meaning of the score computed by SNiPer for each variation?
+-----------------------------------------------------------------------
+
+For each reported mutation, a **score**, which is meant to indicate the confidence one can have in the prediction, is computed:
+
+For SNPs, the score is:
+
+SNP_score=
+
+.. image:: img/evo2.png
+
+* Local-coverage : Number of reads containing the new base with a high quality.
+* Total-coverage : Total number of reads containing the new base.
+
+
+For InDels, the score is:
+
+indel_score=
+
+.. image:: img/evo3.png
+
+* Local-coverage : Number of reads containing the indel.
+* Total-coverage : Total number of reads mapping the mutated position.
 
 ====================
 Comparative Analysis
