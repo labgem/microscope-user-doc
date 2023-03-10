@@ -1,6 +1,7 @@
 .. _NGSProjectEvo:
 
 .. TODO:
+   Update screen shots (old names, old projects, presence of NGSEvoSniperSNPs)
    Replace evo2.png and evo3.png with real formulas
 
 ##########################

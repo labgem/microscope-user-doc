@@ -1,13 +1,12 @@
 .. _NGSProjectRNAseq:
 
+.. TODO:
+   Update screen shots (old names, old projects)
+   First sentence is weird
+
 #########################
 RNA-Seq analysis projects
 #########################
-
-.. TODO:
-   Is image OK ?
-   First sentence is weird
-   Remove V2 in titles of other sections ?
 
 RNA-Seq homepage displays the list of available projects.
 
