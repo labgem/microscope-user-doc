@@ -1,7 +1,7 @@
-.. _NGSProjectEvo:
-
 .. TODO:
    Update screen shots (old names, old projects, presence of NGSEvoSniperSNPs)
+
+.. _NGSProjectEvo:
 
 ##########################
 Variant profiling projects

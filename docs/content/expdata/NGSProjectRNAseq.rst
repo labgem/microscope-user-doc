@@ -1,8 +1,8 @@
-.. _NGSProjectRNAseq:
-
 .. TODO:
    Update screen shots (old names, old projects)
    First sentence is weird
+
+.. _NGSProjectRNAseq:
 
 #########################
 RNA-Seq analysis projects
