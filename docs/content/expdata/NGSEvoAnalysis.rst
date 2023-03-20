@@ -1,9 +1,9 @@
-.. _NGSEvoAnalysis:
-
 .. TODO:
    Notation are slightly ambiguous
    Move formulas near table description (not sure about that)
    Use S_{bio} and S_{tech} in table description
+
+.. _NGSEvoAnalysis:
 
 ################
 Variant analysis
