@@ -1,7 +1,9 @@
 .. _NGSEvoAnalysis:
 
 .. TODO:
-   Replace evo2.png and evo3.png with real formulas and clarify them
+   Notation are slightly ambiguous
+   Move formulas near table description (not sure about that)
+   Use S_{bio} and S_{tech} in table description
 
 ################
 Variant analysis
@@ -16,26 +18,63 @@ Introduction
 What is the meaning of the score computed by SNiPer for each variation?
 -----------------------------------------------------------------------
 
-For each reported mutation, a **score**, which is meant to indicate the confidence one can have in the prediction, is computed:
+For each reported mutation, a **score**, which is meant to indicate the confidence one can have in the prediction, is computed.
+The exact score depends on the nature of the mutation but is always of the form:
 
-For SNPs, the score is:
+.. math::
+   S = 0.5 \times S_{bio} + 0.5 \times S_{tech}
 
-SNP_score=
+For SNPs or insertions
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: img/evo2.png
+SNPs and insertions are treated in the same way as the new event is a nucleotide.
+Using:
 
-* Local-coverage : Number of reads containing the new base with a high quality.
-* Total-coverage : Total number of reads containing the new base.
+* :math:`qcov^{+}_{mut}`: number of high quality reads on the :math:`+` strand
+* :math:`qcov^{-}_{mut}`: number of high quality reads on the :math:`-` strand
+* :math:`cov^{+}_{mut}`: number of low quality reads on the :math:`+` strand
+* :math:`cov^{-}_{mut}`: number of low quality reads on the :math:`-` strand
+* :math:`cov_{mut}`: number of reads supporting the mutation (this is a shorthand for :math:`qcov^{+}_{mut} + cov^{+}_{mut} + qcov^{-}_{mut} + cov^{-}_{mut}`)
+* :math:`cov`: total read coverage
 
+:math:`S_{bio}` reads:
 
-For InDels, the score is:
+.. math::
+   S_{bio} = \frac{cov_{mut}}{cov}
 
-indel_score=
+And :math:`S_{tech}` reads:
 
-.. image:: img/evo3.png
+.. math::
+   S_{tech} = quality \times {strand\ bias}
 
-* Local-coverage : Number of reads containing the indel.
-* Total-coverage : Total number of reads mapping the mutated position.
+Where:
+
+.. math::
+   quality = \frac{ qcov^{+}_{mut} + qcov^{-}_{mut} }{ cov_{mut} }
+
+And:
+
+.. math::
+   strand\ bias = 1 - {\left\lbrace 1 - 2 \times \frac{ qcov^{+}_{mut} }{ qcov^{+}_{mut} + qcov^{-}_{mut} } \right\rbrace}^2
+
+For deletions
+^^^^^^^^^^^^^
+
+Using:
+
+* :math:`cov^{+}_{del}`: number of reads on the :math:`+` strand
+* :math:`cov^{-}_{del}`: number of reads on the :math:`-` strand
+* :math:`cov_{del} = cov^{+}_{del} + cov^{-}_{del}`
+
+:math:`S_{bio}` reads:
+  
+.. math::
+   S_{bio} = \frac{cov_{del}}{cov}
+
+And :math:`S_{tech}` reads:
+
+.. math::
+   S_{tech} = 1 - {\left\lbrace 1 - 2 \times \frac{ cov^{+}_{del} }{ cov_{del} } \right\rbrace}^2
 
 ====================
 Comparative Analysis
