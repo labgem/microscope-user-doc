@@ -8,7 +8,7 @@ Prophages & Defense Systems
 Overview
 ********
 
-This page displays prophage and defense systems found in the genome.
+This page displays prophages and defense systems found in the genome.
 
 A prophage is a bacteriophage genome that is integrated within a prokaryote genome.
 We use Phigaro to detect such regions.
