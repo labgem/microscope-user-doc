@@ -1,6 +1,3 @@
-.. TODO:
-   Use S_{bio} and S_{tech} in table description
-
 .. _NGSEvoAnalysis:
 
 ################
@@ -15,6 +12,8 @@ To address variant profiling, we designed a bioinformatic pipeline, called SNiPe
 between sequencing reads of evolved clones and the genomic reference sequence of their ancestor.
 Based on the `SSAHA2 <https://www.sanger.ac.uk/tool/ssaha2-0/>`_ package, SNiPer takes into account raw sequencing data and associated qualities to discriminate between true variations and sequencing errors.
 This page allows to perform several kind of analysis on a variant profiling project.
+
+.. _NGSEvoAnalysis_SNiPer_score:
 
 What is the meaning of the score computed by SNiPer for each variation?
 -----------------------------------------------------------------------
@@ -135,22 +134,21 @@ You have one table of results for each reference sequence selected. Each result 
 
 **B**. In the right part of the table, **mutations are described according to the displayed characteristics chosen by you and allocated to the clones they belong to**.
 
-	* Whatever the displayed characteristics chosen, you will have access to a full mutation description if you mouseover a mutation: Mutation type | [SNP type] | Nuc. change | [Nuc. change effect] | [Codon change] | [AA change] | [AA change effect] | Numerical score | Fractional score | Sequencing technology | Read type | Source
-
 Fields in brackets are specified for SNP events only.
 
-		* *Mutation type*: ’SNP’, ’insertion’ or ’deletion’.
-		* *SNP type*: ’hom’ (homozygous), ’hez’ (heterozygous), ’xyx’ (the variant of heterozygous SNPs like X -> Y/X).
-		* *Nuc(leotide) change*: ref_base/new_base.
-		* *Nuc(leotide) change effect*: ’ts’ (transition) or ’tv’ (transversion).
-		* *Codon change*: ref_codon/new_codon.
-		* *AA change*: ref_AA pos_AA new_AA.
-		* *AA change effect*: ’syn’ (synonymous), ’missense’ or ’nonsense’.
-		* *Numerical score*.
-		* *Fractional score*: local_coverage/total_coverage.
-		* *Sequencing technology*: ’solexa’ or ’454’.
-		* *Read type*: ’se’ (single-end) or ’pe’ (paired-end).
-		* *Source*: ’automatic’ (SNiPer’s prediction) or ’validated’ (experimental validation).
+		* *Nucleotide change*: ref_base/new_base.
+		* *Mutation type*: 'SNP', 'insertion' or 'deletion'.
+		* [*Nucleotide change effect*: 'ts' (transition) or 'tv' (transversion).
+		* [*Codon change*]: ref_codon/new_codon.
+		* [*AA change*]: ref_AA pos_AA new_AA.
+		* [*AA change effect*]: 'syn' (synonymous), 'missense' or 'nonsense'.
+		* *Numerical score*: :math:`S` (see :ref:`score definition above <NGSEvoAnalysis_SNiPer_score>`)
+		* *Fractional score*: :math:`S_{bio}` (see :ref:`score definition above <NGSEvoAnalysis_SNiPer_score>`)
+		* *Sequencing technology*: 'solexa' or '454'.
+		* *Read type*: 'se' (single-end) or 'pe' (paired-end).
+		* *Source*: 'automatic' (SNiPer's prediction) or 'validated' (experimental validation).
+
+ 	* Whatever the displayed characteristics chosen, you will have access to a full mutation description if you mouseover a mutation: Nuc. change | [Mutation type] | [Nuc. change effect] | [Codon change] | [AA change] | [AA change effect] | Numerical score | Fractional score | Sequencing technology | Read type | Source
 
 	* If you look carefully, evolved clones are grouped by lineage and ordered according to their timepoint in each lineage. As a consequence, the dynamics of genomic changes can easily be drawn during the studied evolutionary time.
 
