@@ -7,11 +7,14 @@
 Variant analysis
 ################
 
-This page allows to perform several kind of analysis on a variant profiling project.
-
 ============
 Introduction
 ============
+
+To address variant profiling, we designed a bioinformatic pipeline, called SNiPer, which allows the comparison and the detection of small variations (SNPs and InDels)
+between sequencing reads of evolved clones and the genomic reference sequence of their ancestor.
+Based on the `SSAHA2 <https://www.sanger.ac.uk/tool/ssaha2-0/>`_ package, SNiPer takes into account raw sequencing data and associated qualities to discriminate between true variations and sequencing errors.
+This page allows to perform several kind of analysis on a variant profiling project.
 
 What is the meaning of the score computed by SNiPer for each variation?
 -----------------------------------------------------------------------
