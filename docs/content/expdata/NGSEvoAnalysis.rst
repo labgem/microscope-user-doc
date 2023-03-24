@@ -1,6 +1,4 @@
 .. TODO:
-   Notation are slightly ambiguous
-   Move formulas near table description (not sure about that)
    Use S_{bio} and S_{tech} in table description
 
 .. _NGSEvoAnalysis:
@@ -19,6 +17,8 @@ What is the meaning of the score computed by SNiPer for each variation?
 -----------------------------------------------------------------------
 
 For each reported mutation, a **score**, which is meant to indicate the confidence one can have in the prediction, is computed.
+This score is reported in the tables described below.
+
 The exact score depends on the nature of the mutation but is always of the form:
 
 .. math::
@@ -27,14 +27,13 @@ The exact score depends on the nature of the mutation but is always of the form:
 For SNPs or insertions
 ^^^^^^^^^^^^^^^^^^^^^^
 
-SNPs and insertions are treated in the same way as the new event is a nucleotide.
+Insertions are treated as SNPs as the new event is a nucleotide.
+
 Using:
 
-* :math:`qcov^{+}_{mut}`: number of high quality reads on the :math:`+` strand
-* :math:`qcov^{-}_{mut}`: number of high quality reads on the :math:`-` strand
-* :math:`cov^{+}_{mut}`: number of low quality reads on the :math:`+` strand
-* :math:`cov^{-}_{mut}`: number of low quality reads on the :math:`-` strand
-* :math:`cov_{mut}`: number of reads supporting the mutation (this is a shorthand for :math:`qcov^{+}_{mut} + cov^{+}_{mut} + qcov^{-}_{mut} + cov^{-}_{mut}`)
+* :math:`cov_{mut}`: number of reads supporting the mutation
+* :math:`qcov^{+}_{mut}`: number reads supporting the mutation with high quality nucleotide (i.e. :math:`Phred\ quality\ score \geq 23` ) on the :math:`+` strand
+* :math:`qcov^{-}_{mut}`: number reads supporting the mutation with high quality nucleotide (i.e. :math:`Phred\ quality\ score \geq 23` ) on the :math:`-` strand
 * :math:`cov`: total read coverage
 
 :math:`S_{bio}` reads:
@@ -45,12 +44,12 @@ Using:
 And :math:`S_{tech}` reads:
 
 .. math::
-   S_{tech} = quality \times {strand\ bias}
+   S_{tech} = {quality\ score} \times {strand\ bias}
 
 Where:
 
 .. math::
-   quality = \frac{ qcov^{+}_{mut} + qcov^{-}_{mut} }{ cov_{mut} }
+   quality\ score = \frac{ qcov^{+}_{mut} + qcov^{-}_{mut} }{ cov_{mut} }
 
 And:
 
