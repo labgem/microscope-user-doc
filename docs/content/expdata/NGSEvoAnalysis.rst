@@ -68,7 +68,7 @@ Using:
 * :math:`cov_{del} = cov^{+}_{del} + cov^{-}_{del}`
 
 :math:`S_{bio}` reads:
-  
+
 .. math::
    S_{bio} = \frac{cov_{del}}{cov}
 
@@ -94,7 +94,7 @@ How to use this tool?
 	:width: 100%
 
 1. Choose one or several reference sequences.
-2. Select at least one clone or lineage in which you’d like to find mutational events, and optionally one or several clones/lineages from which the selected mutations are absent.
+2. Select at least one clone or lineage in which you'd like to find mutational events, and optionally one or several clones/lineages from which the selected mutations are absent.
 3. If you want, you can play with:
 
 	* the nature of the relevant mutations,
@@ -193,7 +193,7 @@ Then, the procedure is quite similar in the two analysis modes:
 2. Specify:
 
 	* the way you define identical mutations, knowing that, by default, they must have the same position on the reference sequence (in the "Shared Mutations" mode only).
-	* the numbers of lineages and clones in which you’d like to retrieve the same mutations or mutated GOs.
+	* the numbers of lineages and clones in which you'd like to retrieve the same mutations or mutated GOs.
 	* the standpoint of your analysis: inclusion of all the evolved clones or selection of clones sampled at a specific timepoint.
 
 3. If you want, you can play with:
@@ -245,7 +245,7 @@ How to read the table of results?
 
 	* **MoveTo**: Click on the icon glass to access to the genomic map of the reference sequence centered around the mutated GO.
 	* **GO Label**: Each label encompasses a link to the information form of the Genomic Object considered.
-	* **GO Type**: ’CDS’, ’fCDS’, ’rRNA’, ’tRNA’ or ’misc_RNA’.
+	* **GO Type**: 'CDS', 'fCDS', 'rRNA', 'tRNA' or 'misc_RNA'.
 	* **GO Description**: [GO_gene_name] | GO_product | GO_begin | GO_end | GO_frame
 
 **2) Distribution of the clones sharing the same mutated GOs according to the lineage they belong to:**
@@ -262,7 +262,7 @@ Graphical Analysis
 What is the aim of the Graphical Analysis tool?
 -----------------------------------------------
 
-To visualize the distribution of a specific clone’s mutations along the circular representation of a reference genome.
+To visualize the distribution of a specific clone's mutations along the circular representation of a reference genome.
 
 And to detect potential hot spots of mutations.
 
