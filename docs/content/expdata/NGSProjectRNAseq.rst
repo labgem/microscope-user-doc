@@ -1,7 +1,3 @@
-.. TODO:
-   Update screen shots (old names, old projects)
-   First sentence is weird
-
 .. _NGSProjectRNAseq:
 
 #########################
@@ -16,7 +12,7 @@ RNA-Seq homepage displays the list of available projects.
 
 By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
 
-.. image:: img/start1.png
+.. image:: img/NGSProjectRNASeq.png
 
 Selecting a project will allow the user to use :
 
