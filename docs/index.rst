@@ -92,7 +92,7 @@ Experimental Data
    :maxdepth: 2
 
    content/expdata/NGSProjectEvo
-   content/expdata/NGSProjectRNAseq
+   content/expdata/NGSProjectRNASeq
    content/expdata/NGSOverview
    content/expdata/NGSReadCountAnalysis
    content/expdata/NGSDiffExprAnalysis
