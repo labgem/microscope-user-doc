@@ -8,6 +8,10 @@
 RNA-Seq analysis projects
 #########################
 
+Next-Generation Sequencing (NGS) protocols provide powerful new approaches to study transcriptomes.
+These approaches, called RNA-Seq, consist in converting transcripts to cDNAs, which are then sequenced with high coverage.
+This functionality offers different tools to explore transcriptomics data.
+
 RNA-Seq homepage displays the list of available projects.
 
 By Clicking on the arrow available on the left of each project, user can expand the associated functionalities.
