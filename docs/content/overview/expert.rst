@@ -302,7 +302,7 @@ What is IGV ?
 The Integrative Genomics Viewer (IGV) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.
 It supports flexible integration of all the common types of genomic data and metadata, investigator-generated or publicly available, loaded from local or cloud sources.
 
-It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <rnaseq_Overview>`, :ref:`Read Count <rnaseq_ReadCountAnalysis>` and :ref:`DESeq Analysis <rnaseq_DiffExprAnalysis>`)
+It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <NGSOverview>`, :ref:`Read Count <NGSReadCountAnalysis>` and :ref:`DESeq Analysis <NGSDiffExprAnalysis>`)
 to allow the visualization of the coverage of the reference genome by the reads and to qualitatively compare coverage for various samples (experimental conditions or clones).
 
 **More**: https://software.broadinstitute.org/software/igv/

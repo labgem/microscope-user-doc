@@ -1,11 +1,15 @@
-##################
-RNAseq V2 Overview
-##################
+.. _NGSOverview:
 
+.. This page is used for RNA-Seq and Variant profiling projects
 
-Overviewing RNA-Seq or Evolution experiments results
+##################################
+Mapping Overview (Variant/RNA-Seq)
+##################################
 
-This section allows users to have a complete summary of the mapping process for each experiment that have been performed on the studied organism. Results are reported in tables that can be easily expanded/collapsed by clicking on the small horizontal arrow.
+Overviewing RNA-Seq or Variant profiling experiments results
+
+This page allows users to have a complete summary of the mapping process for each experiment that have been performed on the studied organism.
+Results are reported in tables that can be easily expanded/collapsed by clicking on the small horizontal arrow.
 
 An Example is given below in the case of *Helicobacter Pylori* public data :
 

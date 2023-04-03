@@ -38,7 +38,7 @@ How to export the result of a tool to a gene cart?
 
 Some tools allow the possibility to save Genomic Objects into a gene cart.
 Using the **Export To Gene Cart** button that is above result tables as shown below, you will be able to save the corresponding Genomic Objects into a new cart or into an existing cart.
-For instance, this is the case in the :ref:`keywords`, in the :ref:`rgpfinder` tool, in the :ref:`rnaseq_DiffExprAnalysis` tool or in the :ref:`viewer`.
+For instance, this is the case in the :ref:`keywords`, in the :ref:`rgpfinder` tool, in the :ref:`NGSDiffExprAnalysis` tool or in the :ref:`viewer`.
 
 .. image:: img/export_gene_cart.png
 
