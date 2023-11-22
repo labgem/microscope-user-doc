@@ -1091,7 +1091,7 @@ AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation a
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Cluster** field of the antiSMASH annotation table.
+You can access to the :ref:`antiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Region id** field of the antiSMASH annotation table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
 

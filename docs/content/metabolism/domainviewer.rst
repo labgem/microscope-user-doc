@@ -17,14 +17,14 @@ Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondaryme
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the **AntiSMASH cluster visualization** window by clicking on the number indicated in the Cluster field in the antiSMASH result table.
+You can access to the **antiSMASH cluster visualization** window by clicking on the number indicated in the **Region ID** field in the antiSMASH result table.
 
-You can also use the main navigation menu in the **Metabolism** section to obtain the **AntiSMASH predictions** page.
+You can also use the main navigation menu in the **Metabolism** section and **Secondary Metabolites** subsection to obtain the :ref:`antiSMASH predictions page <antiSMASH>`.
 This page enumerates all secondary metabolite clusters detected for the selected organism and its replicons.
 
 
 What information are in this window?
---------------------------------------------------------
+------------------------------------
 This window allows you to visualize the antiSMASH cluster predictions and its genomic context.
 
 The boxes in the middle of the viewer (on the blue line) represent the predicted domains of the predicted secondary metabolite genes.
@@ -83,6 +83,9 @@ This table help to know more on biosynthetic gene clusters by comparaison with M
 
 This table help to know more on biosynthetic gene clusters by comparaison with MIBiG reference database on the considered proto-cluster. This is useful when there is several proto-cluster in the same region to try to caracterize each proto-cluster.
 
+
+.. _mibig_completion:
+
 The completion is computed as follow :
 
 .. math::
@@ -92,7 +95,7 @@ The completion is computed as follow :
 Where:
 
   * :math:`\text{nb\_of\_hit}` = number of genes with blast hit in the antiSMASH predicted region and MIBiG region
-  * :math:`\text{nb\_of\_mibig\_gene}` = number of MIBiG genes (all of them) in the MIBIG curated region
+  * :math:`\text{nb\_of\_mibig\_gene}` = number of all genes in the MIBiG curated region
 
 |
 |
@@ -114,8 +117,9 @@ The **Genomic Objects** table provides information regarding the genomic objects
   It can be: *biosynthetic*, *biosynthetic-additional*, *regulatory*, *transport*, *other*.
 * **Domain type**: Type of the genomic object's domains predicted by antiSMASH if any.
 
-Status *biosynthetic* mean that the considered gene is important (core) to the secondary metabolite system.
-Status *biosynthetic-additional* mean that the considered gene is part of the secondary metabolite system.
+Status *biosynthetic* means that the considered gene is a major part or the core of the secondary metabolite system.
+
+Status *biosynthetic-additional* means that the considered gene is part of the secondary metabolite system.
 
 |
 |
@@ -158,7 +162,7 @@ These tables show the correspondence between proto-cluster/candidate-cluster and
 |
 
 What is the meaning of the color code in the AntiSMASH cluster visualisation window?
--------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------
 
 .. image:: img/antiSMASH6_colorcode_features.png
 
