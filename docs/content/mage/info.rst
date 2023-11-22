@@ -1056,14 +1056,10 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 `Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
 
-What type of secondary metabolites can antiSMASH 5.0.0 predict?
+What type of secondary metabolites can antiSMASH 6.1.1 predict?
 ---------------------------------------------------------------
 
-* **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, other PKS), Non-ribosomal peptide synthetase
-
-* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate, arylpolyene, resorcinol, ladderane, PUFA, linaridin, cyanobactin, glycocin, lassopeptide, sactipeptide, bottromycin, microcin, microviridin, proteusin, blactam, amglyccycl ...
-
-* **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
+The list of all secondary metabolites predicted by antiSMASH is available in the `glossary section of the antiSMASH documentation <https://docs.antismash.secondarymetabolites.org/glossary/>`_.
 
 How to read antiSMASH 6.1.1 results?
 ------------------------------------
