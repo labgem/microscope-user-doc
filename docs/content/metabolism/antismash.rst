@@ -39,13 +39,16 @@ What is the "Predicted secondary metabolite clusters"  table?
 This table enumerates all secondary metabolite clusters predicted for the selected organism and its replicons.
 Each predicted cluster is associated to a **Cluster type** defined by antiSMASH.
 
-.. image:: img/antiSMASH._prediction.PNG
+.. image:: img/antiSMASH6_regions_tab.png
 
-* *Region type* region type predicted by antiSMASH
-* *MIBiG* link to MIBiG best hit (if any)
-* *Completion* completion of the best hit between MIBiG region and antiSMASH prediction region 
-* *Product* product of the MIBiG compound
-* *Type* type of the  MIBiG compound
+* **Region id**: Identifier of the region. Click on it to open the detailled :ref:`antiSMASH cluster visualization window <domainviewer>` page,
+  which allows you to visualize the full antiSMASH cluster prediction and its genomic context.
+* **Replicon name** and **Replicon type** give characteristics of the replicon where the region is found.
+* **Begin**, **End** and **Length** give informations about the location and the length of the region on the sequence.
+* **Region type**: Type of the region, predicted by antiSMASH.
+* **MIBiG**: MIBiG region identifier with the best hit (if any), click on it to open the MIBiG website page related to this MIBiG.
+* **Completion**: Completion of the best hit between MIBiG region and antiSMASH predicted region (if any hit). See below for more information about its computation.
+* **Product** and **Type**: Product and type of the MIBiG compound.
 
 
 .. _mibig_completion:

@@ -40,8 +40,13 @@ Proto-cluster: antiSMASH Proto-cluster prediction, gene core + neighbourhoods pr
 Candidate cluster: contain 1 or more proto-cluster, useful for modelisation of hybrid region.
 
 
-.. image:: img/antiSMASH5_viewer.PNG
+.. image:: img/antiSMASH6_domainviewer_window.png
 
+* **Item #1**: Viewer
+* **Item #2**: Region description section
+* **Item #3**: 'Knownclusters' section
+* **Item #4**: 'Genomic Objects' section
+* **Item #5**: 'Clusters' section
 
 |
 |
@@ -57,13 +62,24 @@ The **MIBiG Clusters Similarities** table provides information about similar kno
 `Kautsar S.A., et al. (2020) MIBiG 2.0: a repository for biosynthetic gene clusters of known function. Nucleic acids research vol. 48, D454-D458. <https://doi.org/10.1093/nar/gkz882>`_
 
 
-.. image:: img/antiSMASH5_Knowncluster.PNG
+.. image:: img/antiSMASH6_knownclusters_tab.png
+
+* **MIBiG** and **Locus**: Identifier and locus of the MIBiG hit corresponding to the region. Click on the identifier to open the corresponding MIBiG website page.
+* **Product** and **Type**: Product and type of the MIBiG compound.
+* **Completion**: Completion of the hit between MIBiG region and antiSMASH predicted region (see :ref:`below <mibig_completion>` for more information about its computation).
+
 
 This table help to know more on biosynthetic gene clusters by comparaison with MIBiG reference database on all the region.
 
 :ref:`know more about completion calcul <mibig_completion>`
 
-.. image:: img/antiSMASH5_Knownproto.PNG
+.. image:: img/antiSMASH6_knownprotoclusters_tab.png
+
+* **Protocluster id**: Protocluster identifier.
+* **MIBiG** and **Locus**: Identifier and locus of the MIBiG region which hit on the protocluster. Click on it to open the MIBiG website page related to this MIBiG.
+* **Product** and **Type**: Product and type of the MIBiG compound.
+* **Completion**: Completion of the hit between MIBiG region and antiSMASH predicted protocluster (see :ref:`below <mibig_completion>` for more information about its computation).
+
 
 This table help to know more on biosynthetic gene clusters by comparaison with MIBiG reference database on the considered proto-cluster. This is useful when there is several proto-cluster in the same region to try to caracterize each proto-cluster.
 
@@ -84,7 +100,19 @@ Where:
 
 The **Genomic Objects** table provides information regarding the genomic objects depicted in the graphical representation.
 
-.. image:: img/antiSMASH5_Feature.PNG
+.. image:: img/antiSMASH6_go_tab.png
+
+* **Label**: Label of the genomic object.
+* **Begin** and **End**: Location of the genomic object on the sequence.
+* **Frame**: Reading frame of the genomic object.
+* **Gene**: Gene name if any.
+* **Evidence**: *automatic*/*validated*/*artefact* // *inprogress*/*finished*/*curated*
+* **Type**: CDS, fCDS, tRNA, rRNA, misc_RNA, ncRNA, tmRNA, misc_feature, mobile_element.
+* **Product**: Description of the gene product of the genomic object.
+* **antiSMASH annotation**: Display notably (if any) the predicted domains and SMCOG (Secondary Metabolite Clusters of Orthologous Groups) class.
+* **Status**: Genomic object type predicted by antiSMASH if any.
+  It can be: *biosynthetic*, *biosynthetic-additional*, *regulatory*, *transport*, *other*.
+* **Domain type**: Type of the genomic object's domains predicted by antiSMASH if any.
 
 Status *biosynthetic* mean that the considered gene is important (core) to the secondary metabolite system.
 Status *biosynthetic-additional* mean that the considered gene is part of the secondary metabolite system.
@@ -95,20 +123,34 @@ Status *biosynthetic-additional* mean that the considered gene is part of the se
 
 The **Tailoring Clusters Similarities** table provides information about genes which may be involved in tailoring reactions. By clicking on the number, you can access to the Pubmed related publication.
 
-* The 6 first columns help to know more about the predict tailoring clusters.
-* *Label* column gives the MicroScope gene label.
-* *TC protein id* , *TC gene name* and *Protein description* give information about genes which compose the tailoring cluster.
-* *% identity*, *Coverage* and *e-values* give some mathematical information about the match between tailoring gene and MicroScope one.
+.. image:: img/antiSMASH6_tailoringclusters_tab.png
 
-
-.. image:: img/antiSMASH3_Tailoringcluster.PNG
+* **TC label**, **Natural product**, **TC product class**, **PubMedId** and **Completion** help to known more about predicted tailoring clusters.
+* **Label** gives the MicroScope gene label.
+* **TC protein id**, **TC gene name** and **Protein description** give characteristics about genes which compose the tailoring cluster.
+* **% identity**, **Coverage** and **Evalue** give some mathematical indicators about the match between tailoring gene and MicroScope gene.
 
 |
 |
 
 
 
-.. image:: img/antiSMASH5_corres.PNG
+.. image:: img/antiSMASH6_protoclusters_tab.png
+
+* **Candidate id**: Identifier of the candidate in which the protocluster is found.
+* **Protocluster id**: Identifier of the protocluster.
+* **Begin** and **End**: Location of the protocluster on the sequence.
+* **Type**: Type of the protocluster.
+* **Core begin** and **Core end**: Location of the protocluster core on the sequence.
+
+.. image:: img/antiSMASH6_candidateclusters_tab.png
+
+* **Candidate id**: Identifier of the candidate cluster.
+* **Begin** and **End**: Location of the candidate cluster on the sequence.
+* **Type**: Type of the candidate cluster
+* **Peptide monomer composition**: Composition of the predicted peptide monomer in case of NRPS/PKS cluster type, if any.
+* **Smile**: Smile prediction of the peptide monomer if the composition is specific enough.
+
 
 These tables show the correspondence between proto-cluster/candidate-cluster and the list of the cancidate-clusters.
 
@@ -118,5 +160,7 @@ These tables show the correspondence between proto-cluster/candidate-cluster and
 What is the meaning of the color code in the AntiSMASH cluster visualisation window?
 -------------------------------------------------------------------------------------------
 
-.. image:: img/antiSMASH3_domain_color_code.PNG
-.. image:: img/antiSMASH3_Feature_color_code.PNG
+.. image:: img/antiSMASH6_colorcode_features.png
+
+.. image:: img/antiSMASH6_colorcode_domains.png
+

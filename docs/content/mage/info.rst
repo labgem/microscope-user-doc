@@ -1065,28 +1065,28 @@ What type of secondary metabolites can antiSMASH 5.0.0 predict?
 
 * **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
 
-How to read antiSMASH 5.0.0 results?
+How to read antiSMASH 6.1.1 results?
 ------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
 
 **The antiSMASH annotation dataset:**
 
-.. image:: img/antiSMASH3_annotation.PNG
+.. image:: img/antiSMASH6_annotations.png
 
-* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
-* **antiSMASH annotation**: gene annotation proposed by the tool
-* **domains detected**: predicted domains, if any.
+* **Region id**: antiSMASH region number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
+* **antiSMASH annotation**: Gene annotation proposed by the tool.
+* **Domains Detected**: Predicted domains, if any.
 
 **The antiSMASH domains dataset:**
 
-.. image:: img/AS5_domain.PNG
+.. image:: img/antiSMASH6_domains.png
 
-* **Type**: domain type
-* **Begin**: begin of the match on the sequence
-* **End**: end of the match on the sequence
-* **Score**: BLAST score
-* **E-value**: BLAST E-value
+* **Type**: Domain type.
+* **Begin** and **End**: Location of the match on the sequence.
+* **Score**: BLAST score.
+* **E-value**: BLAST E-value.
+* **Substrate specificity**: Substrate specificity of the domain predicted by antiSMASH, if any.
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
