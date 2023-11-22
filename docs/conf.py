@@ -17,7 +17,7 @@ import os
 sys.path.insert(0, os.path.abspath('../'))
 
 #from microscope-user-doc import __version__ as version
-version = '3.16.1'
+version = '3.16.2'
 # -- General configuration -----------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
