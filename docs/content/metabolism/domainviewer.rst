@@ -7,7 +7,7 @@ AntiSMASH cluster visualization
 What is antiSMASH?
 ------------------
 
-Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`_.
+Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`__.
 
 **Reference:**
 
