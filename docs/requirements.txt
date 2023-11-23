@@ -1,9 +1,7 @@
 # File: docs/requirements.txt (see #8731)
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#using-a-configuration-file
 
-sphinx==3.4.3
-sphinx_rtd_theme==0.5.1
-readthedocs-sphinx-search==0.1.0rc3
-# docutils >= 0.18 breaks sphinx (https://github.com/sphinx-doc/sphinx/issues/9727, https://github.com/readthedocs/readthedocs.org/issues/8616)
-# In fact docutils > 0.16 also breaks RTD (https://github.com/readthedocs/sphinx_rtd_theme/issues/1115)
-docutils==0.16.0
+# See #10318 for current versions
+sphinx==5.3.0
+sphinx_rtd_theme==1.1.1
+readthedocs-sphinx-search==0.1.1
