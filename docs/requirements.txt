@@ -1,4 +1,4 @@
-# File: docs/requirements.txt
+# File: docs/requirements.txt (see #8731)
 # See https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#using-a-configuration-file
 
 sphinx==3.4.3
