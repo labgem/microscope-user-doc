@@ -48,8 +48,7 @@ See :ref:`here <advanced-selector>` for help on how to use this selector.
 What about the Dataset?
 -----------------------
 
-The available dataset list is project-specific, even if the main part of dataset list is common to all projects. Each dataset corresponds to a specific type of data in our database, PkGDB.
-
+Each dataset corresponds to a specific type of data in our database.
 Some dataset refers to the central table of PkGDB and will return a list of candidate genes matching the keywords search for the selected sequence (Gene Annotations, MaGe Curated Annotations, etc.).
 Some others will match a set of reference annotations showing similarities with the selected sequence (Escherichia coli, Bacillus subtilis, etc.), or will refer to relational tables of PkGDB containing the results of a specific method (Swissprot, TrEMBL, InterPro, TMHMM results, etc.).
 In the last two cases, the functional annotation of the candidate genes may differ from those in the selected hit.
@@ -71,7 +70,6 @@ The common dataset are:
 
 2. **Comparative results on reference Annotations**:
 
-* **Genomes of the Project**: will return BlastP/Synteny results of your selected sequence against the set of genomes of the MicroScope project where the selected sequence is involved to.
 * **Escherichia coli**: will return BlastP/Synteny results of your selected sequence against Escherichia coli expert annotations.
 * **Bacillus subtilis**: will return BlastP/Synteny results of your selected sequence against Bacillus subtilis expert annotations.
 * **DB of essential gene results**: will return genes of your selected sequence matching Essential gene entries.
@@ -86,7 +84,6 @@ The common dataset are:
 * **TrEMBL EXP**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **TrEMBL** dataset.
 * **UniFIRE**: `UniFire <https://www.uniprot.org/help/automatic_annotation>`_ (the UNIprot Functional annotation Inference Rule Engine) is a tool to apply the UniProt annotation rules.
 * **KOfamScan**: will return genes of your selected sequence having KEGG Ortholog entries (KO) predicted by KOfamScan.
-* **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
 * **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries.
 * **InterPro**: will return genes of your selected sequence matching InterPro entries.
@@ -104,7 +101,11 @@ The common dataset are:
 * **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries predicted by :ref:`mage_dbCAN`.
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
+* **Prophages**: will return genes of your selected sequence being part of a prophage region predicted by Phigaro.
+* **Defense Systems**: wiil return genes of your selected sequence being part of a defense system predicted by DefenseFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
+
+Note that a few specific organisms use taylored datasets.
 
 .. _fields:
 
@@ -227,6 +228,7 @@ How to export and save results in a Gene Cart?
 
 Once you get some results, an **EXPORT TO GENE CART** button will be available above the results list. Click on this button and follow the instructions about the Gene Cart functionality.
 
+.. _keywords-from-genecart:
 
 How to explore within a Gene Cart content?
 ------------------------------------------

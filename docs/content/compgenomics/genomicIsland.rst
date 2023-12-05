@@ -74,13 +74,16 @@ Results: RGP prediction
 	* **Predicted SIGI Regions table**: display SIGI-HMM predicted regions.
 	* **Predicted IVOM Regions table**: display Alien Hunter/IVOM regions.
 
-* **item D**: legend of the CGView representation:
+* **item D**: Circular Genome Viewer (see :ref:`cgview`).
+  Tracks (from the outside):
 
-	* **pink**: tRNA positions.
-	* **black**: predicted RGPs.
-	* **purple**: SIGI-HMM results.
-	* **blue**: Alien Hunter/IVOM results.
-	* **gray**: RGP absent from **ALL** the reference genomes.
+    1. GC Content
+    2. tRNA positions (**green**).
+    3. Alien Hunter/IVOM results (**blue**).
+    4. SIGI-HMM results (**purple**).
+    5. predicted RGPs (**red**).
+    6. RGP absent from **ALL** the reference genomes (**yellow**).
+    7. GC Skew
 
 * **item E**: RGP prediction table:
 
@@ -116,7 +119,7 @@ Clicking on a region label (RGP or SIGIVOM region) display information on the se
 
 * **item A**: region label, begin position and end position.
 
-* **item B**: export genes in the region to a gene cart.
+* **item B**: export genes in the region to a :ref:`gene cart <genecarts>`.
 
 * **item C**: color intensity Bblance in correlation with similarity results. Modify minLrap, maxLrap or identity % to view gene correspondences in reference genomes.
 

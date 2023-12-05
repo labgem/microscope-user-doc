@@ -269,7 +269,7 @@ If this field is filled you will have a direct access to the publications on Pub
 How to use the "Additional data" field?
 ---------------------------------------
 
-The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators from the project.
+The **Comments** field is dedicated to the annotators who want to leave some notes for themselves or for others annotators.
 
 .. _mage_class_field:
 
@@ -637,15 +637,11 @@ How to read the result table?
 * **EndB**: End of the alignment for the database protein
 * **LengthB**: Length of the database protein
 
+=================
+Favourite Genomes
+=================
 
-
-
-
-===============
-Genomes/Project
-===============
-
-This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from other PkGDB genomes that are linked to the current annotation Project.
+This section indicates the best BLAST hits for the current Genomic Object with Genomic Objects from your :ref:`favourite genome cart <genomecarts-favourite-cart>`.
 
 These other Genomic Objects having been automatically (re-)annotated using the MaGe platform, and maybe even been manually annotated/curated by MaGe users, can serve as informative references for your own annotations.
 
@@ -877,31 +873,6 @@ All pathways listed in this table are those predicted as present in this organis
 
 .. image:: img/metacyc.png
 
-========
-COGnitor
-========
-
-What is COGnitor?
------------------
-
-COGnitor compares a sequence to the COG database by using BLASTP. Clusters of Orthologous Groups of proteins (COGs) were established by comparing protein sequences encoded in complete genomes, representing major phylogenetic lineages. Each COG consists of individual proteins or groups of paralogs from at least 3 lineages and thus corresponds to an ancient conserved domain.
-
-**More**: http://www.ncbi.nlm.nih.gov/COG/
-
-**Reference**:
-
-`Tatusov RL, Koonin EV, Lipman DJ. A genomic perspective on protein families. Science. 1997 Oct 24;278(5338):631-7. <http://www.ncbi.nlm.nih.gov/pubmed/9381173>`_
-
-How to read COGnitor results?
------------------------------
-
-.. image:: img/cog.png
-
-
-The first column indicates the identifier of the COG family the protein is similar to. If you click on the identifier, a new window will pop-up, presenting the COG’s description page on the NCBI website. The second column gives the similarity score and the third and fourth columns give the amino acid positions between which the proteins align. The last 2 columns indicate the general class to which the COG belongs and the function describing the COG family
-
-.. tip:: A protein is classified in a COG if it has at least 3 Best Hits with proteins classified in the same COG and being members of 3 different clades. A protein can thus be classified in more than one COG.
-
 
 ========
 EGGNOG
@@ -1079,49 +1050,44 @@ What is antiSMASH?
 
 antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
 
-
-**More:** http://antismash.secondarymetabolites.org/
+**More:** http://antismash.secondarymetabolites.org/#!/about
 
 **References:**
 
-`Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
+`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
 
-What type of secondary metabolites can antiSMASH 5.0.0 predict?
+What type of secondary metabolites can antiSMASH 6.1.1 predict?
 ---------------------------------------------------------------
 
-* **NRPS/PKS type metabolites:** Polyketide synthases (Type I PKS, Trans-AT type I PKS, Type II PKS, Type III PKS, other PKS), Non-ribosomal peptide synthetase
+The list of all secondary metabolites predicted by antiSMASH is available in the `glossary section of the antiSMASH documentation <https://docs.antismash.secondarymetabolites.org/glossary/>`_.
 
-* **Ribosomal encoded metabolite:** Terpene, Lantipeptides, Bacteriocin (bacteriocin or other unspecified ribosomally synthesised and post-translationally modified peptide product (RiPP) cluster), Beta-lactams, Aminoglycosides, Aminocoumarins, Siderophores, Ectoines, Butyrolactones, Indoles, Nucleosides, Phosphoglycolipids, Melanins, Oligosaccharide, Furan, Homoserine lactone, Thiopeptide, Phenazine, Phosphonate, arylpolyene, resorcinol, ladderane, PUFA, linaridin, cyanobactin, glycocin, lassopeptide, sactipeptide, bottromycin, microcin, microviridin, proteusin, blactam, amglyccycl ...
-
-* **Other:** Cluster containing a secondary metabolite-related protein that does not fit into any other category
-
-How to read antiSMASH 5.0.0 results?
+How to read antiSMASH 6.1.1 results?
 ------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
 
 **The antiSMASH annotation dataset:**
 
-.. image:: img/antiSMASH3_annotation.PNG
+.. image:: img/antiSMASH6_annotations.png
 
-* **cluster**: antiSMASH cluster number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
-* **antiSMASH annotation**: gene annotation proposed by the tool
-* **domains detected**: predicted domains, if any.
+* **Region id**: antiSMASH region number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
+* **antiSMASH annotation**: Gene annotation proposed by the tool.
+* **Domains Detected**: Predicted domains, if any.
 
 **The antiSMASH domains dataset:**
 
-.. image:: img/AS5_domain.PNG
+.. image:: img/antiSMASH6_domains.png
 
-* **Type**: domain type
-* **Begin**: begin of the match on the sequence
-* **End**: end of the match on the sequence
-* **Score**: BLAST score
-* **E-value**: BLAST E-value
+* **Type**: Domain type.
+* **Begin** and **End**: Location of the match on the sequence.
+* **Score**: BLAST score.
+* **E-value**: BLAST E-value.
+* **Substrate specificity**: Substrate specificity of the domain predicted by antiSMASH, if any.
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Cluster** field of the antiSMASH annotation table.
+You can access to the :ref:`antiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Region id** field of the antiSMASH annotation table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
 
@@ -1187,6 +1153,45 @@ Each line presents a correspondance between the genomic object and a CAZy found 
 * **Method:** method by which this correspondance was found.
 * **Number of tools:** number of tools that found the same correspondance as this one. If > 2, the prediction is considered correct.
 
+.. _mage_SulfAtlas:
+
+=========
+SulfAtlas
+=========
+
+What is SulfAtlas?
+------------------
+
+SulfAtlas is a tool for the automated detection of sulfatases.
+They are classified into the `SulfAtlas database <https://sulfatlas.sb-roscoff.fr/sulfatlas/>`_.
+From each SulfAtlas family and sub-family an HMM was generated.
+Thresholds have been manually defined.
+
+**References:**
+  Mark Stam, Pernelle Lelièvre, Mark Hoebeke, Erwan Corre, Tristan Barbeyron & Gurvan Michel, SulfAtlas, the sulfatase database: state of the art and new developments (manuscript in preparation)
+
+How to read SulfAtlas results?
+------------------------------
+
+.. image:: img/sulfatlas.png
+
+Each line presents a correspondence between a region of the genomic object and an HMM profile:
+
+* **SulfAtlas classification**: name of the SulfAtlas family/sub-family
+* **Eval**: e-value of the alignment
+* **Score**: score of the alignment
+* **Begin**: start position of the alignment on the protein sequence
+* **End**: end position of the alignment on the protein sequence
+* **Domain Coverage**: percentage of the sulfatase domain covered by the domain detected into the protein
+* **Evidence level**: give an level of evidence:
+
+  * **probable fragment** means that the detected domain on the protein covers less than 80% of the sulfatase domain.
+  * **low** means that the alignment score is under the threshold to assign the domain to a specific family/sub-family but high enough to consider that this domain is a sulfatase.
+  * **high** means that the prediction is correct.
+
+* **EC numbers**: prediction of EC numbers, based on the EC numbers present into the SulfAtlas sub-family
+* **Comment**: Possible comment
+
 =========
 Resistome
 =========
@@ -1195,7 +1200,7 @@ Resistome
 What is CARD?
 -------------
 
-The `CARD <https://card.mcmaster.ca/home>`_   is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
+The `CARD <https://card.mcmaster.ca/home>`_ is a rigorously curated collection of known resistance determinants and associated antibiotics, organized by the Antibiotic Resistance Ontology (ARO) and AntiMicrobial Resistance (AMR) gene detection models.
 
 We compare MicroScope gene against CARD using `RGI <https://card.mcmaster.ca/analyze/rgi>`_:
 
@@ -1372,3 +1377,71 @@ How to explore a Macromolecular System?
 ---------------------------------------
 
 The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+
+=======
+Phigaro
+=======
+
+What is Phigaro?
+----------------
+
+Phigaro is a standalone command-line application that is able to detect prophage regions taking raw genome and metagenome assemblies as an input.
+It also produces dynamic annotated "prophage genome maps" and marks possible transposon insertion spots inside prophages.
+It is applicable for mining prophage regions from large metagenomic datasets.
+Phigaro uses the `pVOG HMM profiles <http://dmk-brain.ecn.uiowa.edu/pVOGs/>`_ to detect bacteriophage genes.
+
+Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
+
+**Reference:**
+
+`Elizaveta V. Starikova, Polina O. Tikhonova, Nikita A. Prianichnikov, Chris M. Rands, Evgeny M. Zdobnov, Vadim M. Govorun Phigaro: high throughput prophage sequence annotation <https://doi.org/10.1093/bioinformatics/btaa250>`_
+
+.. note::
+  By default Phigaro predicts genes by using Prodigal.
+  However we use the gene calling provided by our own pipeline.
+
+How to read Phigaro results?
+----------------------------
+
+The **Phigaro** dataset appears if the genomic object correspond to a prophage predicted by Phigaro The table shows :
+
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **Prophage id**: Id number of the prophage to which belongs the gene;
+  clicking on this opens the :ref:`prophage visualization interface <how-to-explore-a-prophage>`
+* **pVOG**: the pVOG corresponding to the genomic object (if any);
+  clicking on this will open the detailed description of the pVOG
+* **Eval**: E-value of the match between the genomic object and the pVOG
+
+.. image:: img/Phigaro_gene.png
+
+=============
+DefenseFinder
+=============
+
+What is Defense Finder?
+-----------------------
+
+DefenseFinder is a program to systematically detect known anti-phage systems based on MacSyFinder.
+The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the
+detection of a given system.
+A system can also contain neutral proteins.
+
+Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
+
+**Reference:**
+
+`"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://www.nature.com/articles/s41467-022-30269-9.pdf>`_
+
+How to read DefenseFinder results?
+----------------------------------
+
+The **DefenseFinder** dataset appears if the genomic object correspond to a defense system predicted by DefenseFinder The table shows :
+
+* **System id**: Id number of the macromolecular system to which belongs the gene
+* **System name**: Id number of the defense system to which belongs the gene;
+  clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
+* **Protein name**: Name of the protein
+* **Status**: Mandatory, accessory or neutral, as defined by MacSyFinder
+* **Eval**: E-value of the match with MacSyFinder models
+
+.. image:: img/DefenseFinder_gene.png

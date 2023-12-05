@@ -85,6 +85,16 @@ You can visualize the genome partition in a circular representation using CGView
 
 .. image:: img/panRGPpage1.PNG
 
+Tracks (from the outside):
+
+1. GC Content
+2. CDSs in the negative strand: **yellow** for persistent genome, **green** for shell genome and  **blue** for cloud genome
+3. CDSs in the positive strand (same color code as above)
+4. Predicted RGPs (**red**)
+5. Alien Hunter/IVOM results (**purple**)
+6. tRNAs (**green**), rRNAs (**blue**), misc RNAs (**grey**), pseudogenes (**sea green**), transposases (**chocolate**) and others (**orange**)
+7. GC Skew
+
 The "Strict pan-genome components" table represents a summary of the :ref:`exact core-variable analysis <pancore>`.
 
 The "PPanGGOLiN pan-genome components" table gives the number of genes and MICFAM families for each PPanGGOLiN partition.

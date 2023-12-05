@@ -21,7 +21,7 @@ MicroScope Platform Overview
    content/overview/latestnews
    content/overview/selection
    content/overview/metadata
-   
+
 ====
 MaGe
 ====
@@ -47,7 +47,6 @@ Genomic Tools
    content/genomic/overview
    content/genomic/cgview
    content/genomic/syntenyTandem
-   content/genomic/classifCOG
    content/genomic/classifEGGNOG
    content/genomic/minGeneSet
 
@@ -57,7 +56,7 @@ Comparative Genomics
 .. toctree::
    :caption: Comparative Genomics
    :maxdepth: 2
-   
+
    content/compgenomics/genoclust
    content/compgenomics/phyloprofil
    content/compgenomics/genomicIsland
@@ -71,6 +70,7 @@ Comparative Genomics
    content/compgenomics/virulence
    content/compgenomics/integron
    content/compgenomics/macsyfinder
+   content/compgenomics/prophages_defense_systems
 
 ==========
 Metabolism
@@ -85,6 +85,19 @@ Metabolism
    content/metabolism/pathwayCuration
    content/metabolism/antismash
 
+=================
+Experimental Data
+=================
+.. toctree::
+   :caption: Experimental Data
+   :maxdepth: 2
+
+   content/expdata/NGSProjectEvo
+   content/expdata/NGSProjectRNASeq
+   content/expdata/NGSOverview
+   content/expdata/NGSReadCountAnalysis
+   content/expdata/NGSDiffExprAnalysis
+   content/expdata/NGSEvoAnalysis
 
 ========
 Searches
@@ -98,31 +111,6 @@ Searches
    content/search/globalkeywordsearch
    content/search/exportForm
 
-===============
-Transcriptomics
-===============
-.. toctree::
-   :caption: Transcriptomics
-   :maxdepth: 2
-
-   content/transcriptomic/NGSProjectRNAseq
-   content/transcriptomic/rnaseqOverview
-   content/transcriptomic/rnaseqReadCountAnalysis
-   content/transcriptomic/rnaseqDiffExprAnalysis
-   content/transcriptomic/NGSOverview
-   content/transcriptomic/NGSReadCountAnalysis
-   content/transcriptomic/NGSDiffExprAnalysis
-
-=================
-Variant Discovery
-=================
-.. toctree::
-   :caption: Variant Discovery
-   :maxdepth: 2
-
-   content/expdata/NGSProjectEvo
-   content/expdata/sniperRes
-
 ==========
 User Panel
 ==========
@@ -130,10 +118,11 @@ User Panel
    :caption: User Panel
    :maxdepth: 2
 
+   content/userpanel/personalinfo
    content/userpanel/displaypref
    content/userpanel/genesbasket
-   content/userpanel/favorites
-   content/userpanel/personalinfo
-   content/userpanel/requestpassword
-   content/userpanel/manageaccessrights
+   content/userpanel/genomecarts
    content/userpanel/register
+   content/userpanel/requestpassword
+   content/userpanel/mygenomes
+   content/userpanel/manageaccessrights

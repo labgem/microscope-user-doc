@@ -120,18 +120,6 @@ The presence or absence of a MetaCyc metabolic pathway is predicted by the  `Pat
 `P. Karp, S. Paley, and P. Romero "The Pathway Tools Software," Bioinformatics 18:S225-32 2002 <http://www.ncbi.nlm.nih.gov/pubmed/12169551>`_
 
 
-What is COGnitor?
------------------
-
-COGnitor compares a sequence to the COG database by using BLASTP. Clusters of Orthologous Groups of proteins (COGs) were established by comparing protein sequences encoded in complete genomes, representing major phylogenetic lineages. Each COG consists of individual proteins or groups of paralogs from at least 3 lineages and thus corresponds to an ancient conserved domain.
-
-**More**: http://www.ncbi.nlm.nih.gov/COG/
-
-**Reference**:
-
-`Tatusov RL, Koonin EV, Lipman DJ. A genomic perspective on protein families. Science. 1997 Oct 24;278(5338):631-7. <http://www.ncbi.nlm.nih.gov/pubmed/9381173>`_
-
-
 What is FigFam?
 ---------------
 “FIGfams, a new collection of over 100 000 protein families that are the product of manual curation and close strain comparison. Using the Subsystem approach the manual curation is carried out, ensuring a previously unattained degree of throughput and consistency. FIGfams are based on over 950 000 manually annotated proteins and across many hundred Bacteria and Archaea. Associated with each FIGfam is a two-tiered, rapid, accurate decision procedure to determine family membership for new proteins. FIGfams are freely available under an open source license.” (quote from http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2777423/ )
@@ -187,11 +175,11 @@ What is antiSMASH?
 antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
 
 
-**More:** http://antismash.secondarymetabolites.org/
+**More:** http://antismash.secondarymetabolites.org/#!/about
 
 **References:**
 
-`Blin, K. et al. (2019) antiSMASH 5.0: updates to the secondary metabolite genome mining pipeline. Nucleic Acids Research, 47, W81–W87. <https://doi.org/10.1093/nar/gkz310>`_
+`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
 
 .. _artemis:
 
@@ -213,60 +201,84 @@ It has been developed at the Sanger Institute.
 
 .. _cgview:
 
-What is Circular Genome View?
------------------------------
+What is CGView?
+---------------
 
-**CGView** is a Java package which allows to produce high quality, zoomable maps of circular genomes.
-Its primary purpose is to serve as a component of sequence annotation pipelines, as a mean of generating visual output suitable for the web.
-Starting with information of one genome and the features to visualize, CGView converts the input into a graphical map (PNG, JPG, or Scalable Vector Graphics format) and completes it with labels, a title, legends, and footnotes.
+CGView (see `<https://js.cgview.ca/>`_) is a Circular Genome Viewing tool for visualizing and interacting with small genomes. 
+This tool is integrated on several pages of MicroScope.
 
-**More**: http://wishart.biology.ualberta.ca/cgview/index.html
+The viewer displays several rings called tracks (see below).
+Each track displays one or several types of objects.
+An object (or feature) can be represented:
 
-**Reference**: `Stothard P, Wishart DS. Circular genome visualization and exploration using CGView. Bioinformatics. 2005 Feb 15;21(4):537-9 <http://www.ncbi.nlm.nih.gov/pubmed/15479716>`_
+* as an arrow for features localized on a specific strand;
+  in this case, the track is composed of 2 rings: the outermost one displays the negative strand and the innermost one the positive strand
+  (usually with the same color code)
+* as a rectangle for features not localized on a specific strand
+* as a bar plot for numeric features such as GC content and GC skew
+
+In the example below, from the outside:
+
+* the first track displays the GC content
+* the second track displays one type of features (the CDS),
+* the third track displays several types of features
+  corresponding to various types of RNA
+* etc.
+
+.. Warning: the base image is also used in cgview.rst
+.. image:: img/CGView.png
+
+The tracks, their features and the color coding are chosen on each page to display the relevant informations
+but the user interface presented here is the same.
+
+The user interface is made of 3 parts:
+
+ 1. The viewer itself.
+    You can zoom in and out and move along the sequence directly.
+    You can hover a feature to get more details about it.
+    The feature may be linked to other pages (indicated by the text *Click for more details*).
+    The innermost track contains the sequence.
+
+ 2. The panel on the right allows to control the appearance of the graph.
+    Each track is represented by a box (in bold font) and each type of features in a track is represented by a checkbox.
+    You can toggle the visibility of the whole track or of individual type by clicking on it.
+    You can also drag & drop the tracks to change their order on the viewer.
+
+ 3. The panel under the viewer shows buttons with neat functionalities.
+    From left to right, you can :
+
+   * recenter the view
+   * zoom in
+   * zoom out
+   * move to the left
+   * move to the right
+   * switch between linear and circular view
+   * download an image of the viewer (as a PNG)
+   * toggle label visibility
+
+.. _morpheus:
+
+What is Morpheus ?
+------------------
+
+Morpheus is a versatile matrix visualization and analysis software inside your web browser.
+Morpheus allows to visualize a dataset as a heat map and explore it with interactive tools.
+This allows to cluster, create new annotations, search, filter, sort, display charts, and more.
+
+**More**: https://software.broadinstitute.org/morpheus/documentation.html
+
+Morpheus is integrated in several tools in MicroScope.
 
 .. Tip::
-   CGView is based on the Java Web Start technology.
-   See how to use :ref:`JWS`.
+   Morpheus replaces MeV (Multiple Experiment Viewer) which was unsupported and based on obsolete technology.
 
-.. Important::
+.. warning::
+   The Morpheus window gives you access to the whole Morpheus application.
+   This means that you have access to all the features of Morpheus including loading local data not related to MicroScope.
+   Be careful when using it to avoid confusion.
 
-    Note that, since version 3.12.2, **MicroScope** uses a fork of the applet which allows to export images directly from the GUI.
-    The Wishart Research Group is working on a new version of **CGView** implemented in JavaScript and we are working toward adapting it.
-    The Java version of **CGView** is no longer under active development and is based on a deprecated technology.
-
-You can use the CGView toolbar to navigate into the circular map.
-
-.. image:: img/cgview.png
-
-From left to right, the buttons are:
-
-* Zoom out
-* Zoom in
-* View entire map
-* Move counterclockwise
-* Move clockwise
-* Show position in the status bar
-* Show help in the status bar
-* Export to file
-
-The `Legend` checkbox allows to show/hide the legend.
-The `Full view labels` checkbox allows to show/hide the labels when showing the entire map.
-
-If you click on a gene name/label the corresponding Gene window will be opened giving you access the full annotation of the gene.
-
-.. _mev:
-
-What is MeV ?
--------------
-
-MeV (Multiple Experiment Viewer) is a Java tool for genomic data analysis.
-MeV supports many different input formats, and provides an intuitive graphical interface for clustering, classification, statistical analysis and theme discovery.
-
-**More**: https://sourceforge.net/projects/mev-tm4/
-
-.. Tip::
-   MEV is based on the Java Web Start technology.
-   See how to use :ref:`JWS`.
+   Also note that some clustering metrics seems to not produce results.
+   In this case, try using a different metric.
 
 .. _jalview:
 
@@ -290,7 +302,7 @@ What is IGV ?
 The Integrative Genomics Viewer (IGV) is a high-performance, easy-to-use, interactive tool for the visual exploration of genomic data.
 It supports flexible integration of all the common types of genomic data and metadata, investigator-generated or publicly available, loaded from local or cloud sources.
 
-It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <rnaseq_Overview>`, :ref:`Read Count <rnaseq_ReadCountAnalysis>` and :ref:`DESeq Analysis <rnaseq_DiffExprAnalysis>`)
+It is mainly used in RNASeq and variant analysis (see for instance :ref:`RNA-Seq homepage <NGSOverview>`, :ref:`Read Count <NGSReadCountAnalysis>` and :ref:`DESeq Analysis <NGSDiffExprAnalysis>`)
 to allow the visualization of the coverage of the reference genome by the reads and to qualitatively compare coverage for various samples (experimental conditions or clones).
 
 **More**: https://software.broadinstitute.org/software/igv/

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg34758"
+   width="1686"
+   height="932"
+   viewBox="0 0 1686 932"
+   sodipodi:docname="RGPfinder.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/cnorroy/Workspace/microscope-user-doc/docs/content/compgenomics/img/RGPFinder.PNG"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs34762" />
+  <sodipodi:namedview
+     id="namedview34760"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.76986951"
+     inkscape:cx="946.26426"
+     inkscape:cy="-113.00616"
+     inkscape:window-width="1920"
+     inkscape:window-height="1163"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg34758" />
+  <image
+     width="1458"
+     height="937"
+     preserveAspectRatio="none"
+     style="image-rendering:optimizeQuality"
+     xlink:href="RGPFinder.png"
+     id="image1461"
+     x="221.16101"
+     y="-32.062378" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g34764">
+    <rect
+       style="fill:none;stroke:#0000ff;stroke-width:3.09258;stroke-opacity:1"
+       id="rect34847"
+       width="483.60132"
+       height="52.435516"
+       x="975.09338"
+       y="-32.30138"
+       ry="0.7969414" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#0000ff;fill-opacity:1;stroke:none"
+       x="936.9942"
+       y="8.8894939"
+       id="text40313"><tspan
+         sodipodi:role="line"
+         id="tspan40311"
+         x="936.9942"
+         y="8.8894939">A</tspan></text>
+    <rect
+       style="fill:none;stroke:#eded13;stroke-width:3.00603;stroke-opacity:1"
+       id="rect45937"
+       width="185.13806"
+       height="27.262129"
+       x="254.17239"
+       y="37.057842"
+       ry="0.80000001" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#eded13;fill-opacity:1;stroke:none;stroke-opacity:1"
+       x="220.70769"
+       y="65.195427"
+       id="text49351"><tspan
+         sodipodi:role="line"
+         id="tspan49349"
+         x="220.70769"
+         y="65.195427">B</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#009611;stroke-width:3.17178;stroke-opacity:1"
+       id="rect55092"
+       width="877.32367"
+       height="33.97353"
+       x="258.19534"
+       y="82.189896"
+       ry="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#009611;fill-opacity:1;stroke:none"
+       x="225.41283"
+       y="113.8849"
+       id="text59840"><tspan
+         sodipodi:role="line"
+         id="tspan59838"
+         x="225.41283"
+         y="113.8849">C</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#dc0200;stroke-width:3.3757;stroke-opacity:1"
+       id="rect62116"
+       width="1007.9838"
+       height="539.06439"
+       x="660.79816"
+       y="129.2334" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#dc0200;fill-opacity:1;stroke:none"
+       x="622.20367"
+       y="416.93857"
+       id="text65332"><tspan
+         sodipodi:role="line"
+         id="tspan65330"
+         x="622.20367"
+         y="416.93857">D</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#780090;stroke-width:2.81591;stroke-opacity:1"
+       id="rect68494"
+       width="1458"
+       height="218.76118"
+       x="221.16101"
+       y="686.17645" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#780090;fill-opacity:1;stroke:none"
+       x="220.00989"
+       y="675.55072"
+       id="text71798"
+       inkscape:transform-center-x="7.7935285"
+       inkscape:transform-center-y="40.804399"><tspan
+         sodipodi:role="line"
+         id="tspan71796"
+         x="220.00989"
+         y="675.55072">E</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#ca7a00;stroke-width:3.10001;stroke-opacity:1"
+       id="rect97804"
+       width="55.852978"
+       height="19.812984"
+       x="337.70212"
+       y="823.65601" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;fill:#ca7a00;fill-opacity:1;stroke:none"
+       x="303.82077"
+       y="848.75891"
+       id="text105420"
+       inkscape:export-filename="/home/cnorroy/Workspace/microscope-user-doc/docs/content/compgenomics/img/RGPFinder.PNG"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96"><tspan
+         sodipodi:role="line"
+         id="tspan105418"
+         x="303.82077"
+         y="848.75891">F</tspan></text>
+  </g>
+</svg>
