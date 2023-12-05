@@ -1,22 +1,23 @@
-####################
-Circular Genome View
-####################
+.. This file should be named circulargenomeviewer.rst to avoid confusion
+   with the presentation of CGView
 
-How to use the Circular Genome View?
-------------------------------------
+######################
+Circular Genome Viewer
+######################
 
+How to use the Circular Genome Viewer?
+--------------------------------------
+
+The **Circular Genome View** functionality displays a circular map of the selected sequence.
 This tool is based on **CGView** (see :ref:`cgview`).
 
-When you select the **Circular Genome View** functionality you obtain a global circular map of the selected sequence. Circles display (from the outside):
+.. Trick: we use the (base) image used to present CGView
+.. image:: ../overview/img/CGView_base.png
 
-1. Gene GC percent deviation (gene GC% - genome mean GC%).
-2. Predicted CDSs transcribed in the clockwise direction.
-3. Predicted CDSs transcribed in the counterclockwise direction.
-4. Gene GC skew (G-C/G+C).
-5. rRNA (blue), tRNA (green), misc_RNA (orange), transposable elements (chocolate) and pseudogenes (yellow).
+Tracks (from the outside):
 
-Genes displayed in (2) and (3) are color-coded according different categories:
-
-* red and blue, MaGe validated annotations ;
-* orange: MicroScope automatic annotation with a reference genome ;
-* purple: Primary / Automatic annotations.
+1. GC content (GC% - genome mean GC%).
+2. Predicted CDSs on the negative strand.
+3. Predicted CDSs on the positive strand.
+4. tRNAs (**green**), rRNAs (**blue**), misc RNAs (**grey**), pseudogenes (**sea green**), transposases (**chocolate**) and others (**orange**).
+5. GC skew (G-C/G+C).

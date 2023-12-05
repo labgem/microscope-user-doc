@@ -84,7 +84,6 @@ The common dataset are:
 * **TrEMBL EXP**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **TrEMBL** dataset.
 * **UniFIRE**: `UniFire <https://www.uniprot.org/help/automatic_annotation>`_ (the UNIprot Functional annotation Inference Rule Engine) is a tool to apply the UniProt annotation rules.
 * **KOfamScan**: will return genes of your selected sequence having KEGG Ortholog entries (KO) predicted by KOfamScan.
-* **COG**: will return genes of your selected sequence involved in a `COG <http://www.ncbi.nlm.nih.gov/COG/>`_ (Clusters of Orthologous Groups of proteins).
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
 * **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries.
 * **InterPro**: will return genes of your selected sequence matching InterPro entries.
@@ -102,6 +101,8 @@ The common dataset are:
 * **dbCAN results**: will return genes of your selected sequence matching carbohydrate active enzyme entries predicted by :ref:`mage_dbCAN`.
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolacular gene cluster predicted by MacSyFinder.
+* **Prophages**: will return genes of your selected sequence being part of a prophage region predicted by Phigaro.
+* **Defense Systems**: wiil return genes of your selected sequence being part of a defense system predicted by DefenseFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
 
 Note that a few specific organisms use taylored datasets.

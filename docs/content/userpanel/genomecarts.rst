@@ -6,7 +6,7 @@ Genome Carts
 
 A « Genome Cart » is a (named) list of related genomes.
 The idea is that you can create your own groups of genomes (for instance for different projects).
-Genome carts are integrated in the :ref:`advanced-selector` (both for genome and sequence selection) of various tools so you can select their content quickly.
+Genome carts are integrated in the :ref:`advanced-selector` of various tools (both for genome and sequence selection) so you can select their content quickly.
 Be sure to use meaningful names for your carts because the search is based on their name.
 See :ref:`here <advanced-selector-genomecarts>` for more information.
 
@@ -20,7 +20,7 @@ This page allows to create, edit, rename and delete carts and to select a favour
 .. warning:: For performance reasons, a genome cart can't contain more than 500 genomes.
     Also, you can't create more than 10 genome carts.
 
-.. warning:: The name of the Genome Cart can not be longer than 30 characters.
+.. warning:: The name of the Genome Cart can not be longer than 64 characters.
      Also, only standard letters, numbers and a few characters (``_``, ``+``, ``-``) are allowed (no spaces or special characters) and the name can't contain only numbers.
      Last but not least, you can't use the name of the « magic » carts (see below).
 
@@ -31,7 +31,7 @@ This page allows to create, edit, rename and delete carts and to select a favour
 Magic carts
 ***********
 
-Above the carts managed on this page, MicroScope maintains 2 « magic » carts:
+In addition to the carts managed on this page, MicroScope maintains 2 « magic » carts:
 
 * **My_Genomes:** This cart contains all the **private genomes** to which you have access (see :ref:`access-right-management`).
   This cart can contain more than 500 genomes.
