@@ -230,7 +230,8 @@ man_pages = [
 
 
 # Example configuration for intersphinx: refer to the Python standard library.
-intersphinx_mapping = {'http://docs.python.org/': None}
+# #10319: Update to new format (even though we don't use that)
+intersphinx_mapping = {'python': ('http://docs.python.org/3', None)}
 
 
 class Mock(object):
