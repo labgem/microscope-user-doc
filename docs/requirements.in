@@ -1,6 +1,6 @@
 # Minimal requirement file used to create requirements.txt
-# Process it with pip-compile
-# See #10319 and https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#pin-your-transitive-dependencies
+# Process it with `pip-compile -r requirements.in > requirements.txt`
+# See #10319, #10422 and https://docs.readthedocs.io/en/stable/guides/reproducible-builds.html#pin-your-transitive-dependencies
 # See #10318, #10420 for current versions
 sphinx==6.2.1
 sphinx-rtd-theme==1.3.0
