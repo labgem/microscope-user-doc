@@ -172,29 +172,39 @@ Note that if several comparisons are selected, only the first one can be save in
 **2** - the tab "EGGNOG classification" includes functional information from the eggNOG orthologous groups matching Differentialy Expressed Genes of the analysis.
 
 	
-	**Over-expressed Genes classification** and **Under-expressed Genes classification** lists show detailed eggNOG functional information for each differentially expressed genes matching them.
-		* **MoveTo** = View the gene in the MaGe viewer.
-		* **Label** = Gene label.
-		* **Gene** = Gene name if any.
-		* **Product** = Gene function.
-		* **Process** = eggNOG group process.
-		* **Class ID** = eggNOG group functional category letter.
-		* **Description** = eggNOG group functional category.
-		* **OG ID** = eggNOG group id.
-		* **OG function** = eggNOG group functional description.
-		* **KEGG map** = Associated KEGG metabolic pathway map.
-		* **log2 fold change** = Log in base 2 of the Differential Expression ratio.
+**Over-expressed Genes classification in EGGNOG Orthologous Groups** and **Under-expressed Genes classification in EGGNOG Orthologous Groups** lists display informations for differentially expressed genes classified in eggNOG Orthologous Groups.
 
-	**Over-expressed EGGNOG summary** and **Under-expressed EGGNOG summary** lists display eggNOG functional classification summary based on the differentially expressed genes matching them. 
-		* **Process** = eggNOG group process.
-		* **Class ID** = eggNOG group functional category letter.
-		* **Description** = eggNOG group functional category.
-		* **gene fraction in comparison** = Fraction of genes associated with an eggNOG functional category from all the Differentially Expressed Gene of the analysis.
-		* **% of genes in comparison** = Percentage of the previous result.
-		* **gene fraction in class** = Fraction of genes associated with an eggNOG functional category from all the current Genomic Object in the genome with the same functional category. 
-		* **% of genes in class** = Percentage of the previous result.
 
-.. tip:: the eggNOG functional categories:
+.. image:: img/rd9.png
+
+	
+* **MoveTo**: View the gene in the MaGe viewer.
+* **Label**: Gene label.
+* **Gene**: Gene name if any.
+* **Product**: Product description of the protein.
+* **OG ID**: eggNOG Orthologous Group id.
+* **OG function**: eggNOG Orthologous Group functional description.
+* **KO**: KEGG Ortholog entry ID.  
+* **COG Process**: COG functional process name.
+* **COG Category**: COG functional category ID.
+* **COG Category Description**: COG functional category description.
+* **log2 fold change**: Log in base 2 of the Differential Expression ratio.
+
+**Over-expressed EGGNOG classification based on COG categories** and **Under-expressed EGGNOG classification based on COG categories** lists display statistics on differentially expressed genes classified by eggNOG in Orthologous Groups (OG) by COG functional categories.
+
+
+.. image:: img/rd10.png
+
+
+* **COG Process**: COG functional process name.
+* **COG Category**: COG functional category ID.
+* **COG Category Description**: COG functional category description.
+* **gene fraction in comparison** = Fraction of differentially expressed genes classified by eggNOG in a particular COG functional category.
+* **% of genes in comparison** = Percentage of the previous result.
+* **gene fraction in class** = Fraction of differentially expressed genes classified by eggNOG in a particular COG functional category from all the current gene in the genome associated with the same COG functional category. 
+* **% of genes in class** = Percentage of the previous result.
+
+.. tip:: COG functional categories:
   
   | INFORMATION STORAGE AND PROCESSING
   |	[J] Translation, ribosomal structure and biogenesis
@@ -232,6 +242,10 @@ Note that if several comparisons are selected, only the first one can be save in
 
 **3** - The tab **MicroCyc Pathways** shows information about the metabolic pathway matching the differential expressed genes of the analysis.
 See :ref:`here <microcyc>` for more information.
+
+
+.. image:: img/rd11.png
+
 
 * **MoveTo** = view the gene in the MaGe viewer.
 * **Label** = gene label.

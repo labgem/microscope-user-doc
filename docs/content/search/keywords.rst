@@ -84,6 +84,7 @@ The common dataset are:
 * **TrEMBL EXP**: will return genes of your selected sequence matching UniProtKB/TrEMBL entries (by using alignments constraints) which have publications with experimental results about the enzymatic function. It is a subset of **TrEMBL** dataset.
 * **UniFIRE**: `UniFire <https://www.uniprot.org/help/automatic_annotation>`_ (the UNIprot Functional annotation Inference Rule Engine) is a tool to apply the UniProt annotation rules.
 * **KOfamScan**: will return genes of your selected sequence having KEGG Ortholog entries (KO) predicted by KOfamScan.
+* **EGGNOG**: will return genes of your selected sequence classified in eggNOG Orthologous Group (OG) by eggNOG-mapper.
 * **FigFam results**: will return genes of your selected sequence associated with `FigFam <http://seed-viewer.theseed.org/seedviewer.cgi?page=FigFamViewer>`_ results.
 * **TIGRFams**: will return genes of your selected sequence matching TIGRFams entries.
 * **InterPro**: will return genes of your selected sequence matching InterPro entries.

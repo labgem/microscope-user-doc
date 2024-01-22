@@ -874,6 +874,7 @@ All pathways listed in this table are those predicted as present in this organis
 .. image:: img/metacyc.png
 
 
+
 ========
 EGGNOG
 ========
@@ -881,11 +882,39 @@ EGGNOG
 What is EGGNOG?
 ---------------
 
-It uses precomputed orthologous groups and phylogenies from the eggNOG database to transfer functional information from fine-grained orthologs only.
+eggNOG (evolutionary genealogy of genes: Non-supervised Orthologous Groups) is a public resource in which thousands of genomes are analyzed at once 
+to establish orthology relationships between all their genes. 
 
-**More**: http://eggnogdb.embl.de/#/app/methods
+An Orthologous Group (OG) is defined as a cluster of three or more homologous sequences that diverge from the same speciation event.
 
-**Reference**: `eggNOG 4.5: a hierarchical orthology framework with improved functionalannotations for eukaryotic, prokaryotic and viral sequences. Jaime Huerta-Cepas, Damian Szklarczyk & al. Nucl. Acids Res. (04 January 2016) 44 (D1): D286-D293. <https://doi.org/10.1093/nar/gkv1248>`_
+**More information about the method**: http://eggnogdb.embl.de/#/app/methods
+
+**Reference**: `eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated orthology resource based on 5090 organisms and 2502 viruses. Jaime Huerta-Cepas, Damian Szklarczyk & al. Nucleic Acids Research, Volume 47, Issue D1, 08 January 2019, Pages D309–D314. <https://doi.org/10.1093/nar/gky1085>`_
+
+eggNOG-mapper (version 2.1.12) is a tool for fast functional annotation of novel sequences. 
+It uses precomputed orthologous groups and phylogenies from the eggNOG database to transfer functional information
+We run eggnog-mapper using EGGNOGDB and diamond for the alignement.
+
+**More information about eggNOG-mapper**: http://eggnog-mapper.embl.de/
+
+**Reference**: `Fast genome-wide functional annotation through orthology assignment by eggNOG-mapper. Jaime Huerta-Cepas, Damian Szklarczyk, Lars Juhl Jensen, Christian von Mering and Peer Bork. Submitted (2016). <https://doi.org/10.1093/molbev/msx148>`_
+
+How to read eggNOG results?
+---------------------------
+
+
+.. image:: img/eggnogMage.png
+
+
+* **OG ID**: eggNOG Orthologous Group id.
+* **Score**: score of the match. 
+* **Eval**: E-value of the match.
+* **OG function**: eggNOG Orthologous Group functional description.
+* **COG Category**: COG functional category ID.
+* **COG**: Clusters of Orthologous Group name (COG).
+* **PFAM short name**: InterPro PFAM entry name.
+* **KO**: KEGG Ortholog entry ID.
+
 
 
 ======
