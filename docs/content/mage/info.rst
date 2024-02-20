@@ -1343,29 +1343,25 @@ IntegronFinder distinguishes 3 types of elements:
 * **In0 element**: Integron integrase only, without any attC site nearby,
 * **CALIN (Clusters of AttC sites Lacking integron-INtegrases) element**: CALIN are composed of at least two attC sites.
 
-Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_.
+Know more about `IntegronFinder <https://integronfinder.readthedocs.io/en/v2.0.2/>`_.
 
 **Reference:**
 
-`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
+`Néron B. et al. 2022. IntegronFinder 2.0: Identification and Analysis of Integrons across Bacteria, with a Focus on Antibiotic Resistance in Klebsiella. Microorganisms vol. 10,4 700. <https://doi.org/10.3390/microorganisms10040700>`_
 
 
 How to read IntegronFinder results ?
 ------------------------------------
 
-The **IntegronFinder** dataset appears if the genomic object corresponds to an integron integrase.
+The **IntegronFinder** dataset appears if the genomic object belongs to an integron (e.g. antibiotic resistance gene).
 
-.. image:: img/integronFinder_integrase.png
+.. image:: img/integronfinder2_restab.png
 
-* **Integron id**: Id number of the integron to which belongs the integrase.
-* **Integron begin** and **Integron end**: Position of the integron on the replicon.
-* **Integron type**: complete, In0, CALIN.
-* **Eval**: Evalue of the match with the HMM integrase.
+* **Integron id**: Identifier of the integron where the integrase is found. Click on it open the detailled :ref:`IntegronFinder cluster visualization window <integron-cluster-vizualization>` page, which allows to access to the description of the integron structure.
+* **Integron begin** and **Integron end**: Location of the integron on the sequence.
+* **Integron type**: Integron type (complete, In0, CALIN).
+* **Eval**: Evalue of the match with the integrase HMM profil.
 
-How to explore Integron clusters ?
----------------------------------
-
-The :ref:`IntegronFinder cluster visualization <integron-cluster-vizualization>` window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
 
 ===========
 MacSyFinder

@@ -40,11 +40,11 @@ IntegronFinder distinguishes 3 types of elements:
 
 .. image:: img/IFelements.png
 
-Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_.
+Know more about `IntegronFinder <https://integronfinder.readthedocs.io/en/v2.0.2/>`_.
 
 **Reference:**
 
-`Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
+`Néron B. et al. 2022. IntegronFinder 2.0: Identification and Analysis of Integrons across Bacteria, with a Focus on Antibiotic Resistance in Klebsiella. Microorganisms vol. 10,4 700. <https://doi.org/10.3390/microorganisms10040700>`_
 
 
 How to access to Integrons data ?
@@ -58,11 +58,11 @@ What is the 'Integron clusters' table ?
 
 This table enumerates all integron clusters predicted for the selected organism and its replicons.
 
-.. image:: img/integronFinder_prediction.png
+.. image:: img/integronfinder2_clustertab.png
 
-
-How to explore Integron clusters?
---------------------------------------------------------
-
-The :ref:`IntegronFinder cluster visualization <integron-cluster-vizualization>` window can be accessed by clicking on any cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
+* **Integron id**: Identifier of the integron. Click on it open the detailled :ref:`IntegronFinder cluster visualization window <integron-cluster-vizualization>` page, which allows to access to a description of the integron structure.
+* **Replicon name** and **Replicon type** give characteristics of the replicon where the integron is found.
+* **Begin**, **End** and **Length** give informations about the location and the length of the integron on the sequence.
+* **Integron type**: Type of integron (complete, In0, CALIN).
+* **Nb of attC**: Number of attC sites found in the integron.
 
