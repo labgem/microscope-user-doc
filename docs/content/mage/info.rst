@@ -1331,37 +1331,38 @@ You can access to the :ref:`Virulence Result page <virulence>` by clicking on  *
 IntegronFinder
 ==============
 
-What is IntegronFinder?
------------------------
+What is IntegronFinder ?
+------------------------
 
-IntegronFinder is a tool that detects integrons in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the dectection of essential protein, the site-specific integron integrase, and the use of Covariance Models for the detection of the recombination site, the attC site.
+**IntegronFinder** is a tool that detects **integrons** in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the detection of essential protein, the site-specific **integron integrase**, and the use of Covariance Models for the detection of the recombination site, the **attC site**.
 This tool also annotates gene casettes however we use our own annotations to make it run.
+
 IntegronFinder distinguishes 3 types of elements:
 
-* Complete integron: integron including an integrase and at least one attC site
-* In0 element: integron integrase only, without any attC site nearby
-* CALIN element: The clusters of attC sites lacking integron-integrases (CALIN) are composed of at least two attC sites
+* **Complete integron**: Integron including an integrase and at least one attC site,
+* **In0 element**: Integron integrase only, without any attC site nearby,
+* **CALIN (Clusters of AttC sites Lacking integron-INtegrases) element**: CALIN are composed of at least two attC sites.
 
-Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_
+Know more about `IntegronFinder <http://integronfinder.readthedocs.io/en/latest/>`_.
 
 **Reference:**
+
 `Cury J. et al. 2016. Identification and analysis of integrons and cassette arrays in bacterial genomes Nucleic Acids Research ; [PMID 27130947] <http://www.ncbi.nlm.nih.gov/pubmed/27130947>`_
 
 
+How to read IntegronFinder results ?
+------------------------------------
 
-How to read IntegronFinder results?
------------------------------------
-
-The **IntegronFinder** dataset appears if the genomic object correspond to an integron integrase. The table shows :
-
-* **Integron id**: Id number of the integron to which belongs the integrase
-* **Integron begin** / **Integron end**: position of the integron on the replicon
-* **Integron type**: complete, CALIN or In0
-* **Eval**: Evalue of the match with the HMM integrase
+The **IntegronFinder** dataset appears if the genomic object corresponds to an integron integrase.
 
 .. image:: img/integronFinder_integrase.png
 
-How to explore Integron clusters?
+* **Integron id**: Id number of the integron to which belongs the integrase.
+* **Integron begin** and **Integron end**: Position of the integron on the replicon.
+* **Integron type**: complete, In0, CALIN.
+* **Eval**: Evalue of the match with the HMM integrase.
+
+How to explore Integron clusters ?
 ---------------------------------
 
 The :ref:`IntegronFinder cluster visualization <integron-cluster-vizualization>` window can be accessed by clicking on the cluster number in the Integron Id field. This window allows you to access to a detailled description of the integron structure.
