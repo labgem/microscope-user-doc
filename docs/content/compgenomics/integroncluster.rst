@@ -17,7 +17,11 @@ Know more about `IntegronFinder <https://integronfinder.readthedocs.io/en/v2.0.2
 How to explore an Integron cluster ?
 ------------------------------------
 
-The **IntegronFinder cluster visualization** window allows you to access to a detailled description of the integron structure.
+You can access to the **IntegronFinder cluster visualization** window by clicking on the number indicated in the **Integron id** field in the **Integron clusters** table.
+
+This window allows you to access to a detailled description of the integron structure.
+
+You can also use the main navigation menu in the **Comparative Genomics** section and **Integrons** subsection to obtain the :ref:`IntegronFinder predictions page <integron>`. This page enumerates all integrons detected for the selected organism and its replicons.
 
 
 What is the 'Integron Elements' table ?
@@ -36,7 +40,7 @@ The table **Integron Elements** shows all attachment sites (**attC**, **attI**) 
 What is the 'Integron Integrase' table ?
 ----------------------------------------
 
-The table **Integron Integrase** provides informations on the identified integrase of the predicted integron.
+The table **Integron Integrase** provides characteristics of the identified integrase **intI** of the predicted integron.
 
 .. image:: img/integronfinder2_integrasetab.png
 
@@ -52,7 +56,7 @@ The table **Integron Integrase** provides informations on the identified integra
 What is the 'Genomic Objects' table ?
 -------------------------------------
 
-The table **Genomic Objects** provides informations regarding the genomic objects included into the integron.
+The table **Genomic Objects** provides informations regarding the genomic objects present in the integron.
 
 You can export the genes by clicking on **Export to Gene Cart**.
 

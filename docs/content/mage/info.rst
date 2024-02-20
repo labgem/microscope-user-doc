@@ -1334,14 +1334,13 @@ IntegronFinder
 What is IntegronFinder ?
 ------------------------
 
-**IntegronFinder** is a tool that detects **integrons** in DNA sequences with high accuracy. It is accurate because it combines the use of HMM profiles for the detection of essential protein, the site-specific **integron integrase**, and the use of Covariance Models for the detection of the recombination site, the **attC site**.
-This tool also annotates gene casettes however we use our own annotations to make it run.
+**IntegronFinder** is a tool that detects **integrons** in DNA sequences with high accuracy. It combines the use of HMM profiles for the detection of **integron integrases**, and Covariance Models for the detection of **attC sites**.
 
 IntegronFinder distinguishes 3 types of elements:
 
 * **Complete integron**: Integron including an integrase and at least one attC site,
-* **In0 element**: Integron integrase only, without any attC site nearby,
-* **CALIN (Clusters of AttC sites Lacking integron-INtegrases) element**: CALIN are composed of at least two attC sites.
+* **In0 element**: Integron including only an integrase,
+* **CALIN (Clusters of AttC sites Lacking integron-INtegrases) element**: Integron composed of at least two attC sites.
 
 Know more about `IntegronFinder <https://integronfinder.readthedocs.io/en/v2.0.2/>`_.
 
