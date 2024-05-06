@@ -1442,10 +1442,8 @@ DefenseFinder
 What is Defense Finder?
 -----------------------
 
-DefenseFinder is a program to systematically detect known anti-phage systems based on MacSyFinder.
-The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the
-detection of a given system.
-A system can also contain neutral proteins.
+**DefenseFinder** is a program to systematically detect known anti-phage systems based on MacSyFinder.
+The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a given system.
 
 Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 
@@ -1456,13 +1454,15 @@ Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 How to read DefenseFinder results?
 ----------------------------------
 
-The **DefenseFinder** dataset appears if the genomic object correspond to a defense system predicted by DefenseFinder The table shows :
+The **DefenseFinder** dataset appears if the genomic object corresponds to a defense system predicted by DefenseFinder.
+
+The table shows :
 
 * **System id**: Id number of the macromolecular system to which belongs the gene
-* **System name**: Id number of the defense system to which belongs the gene;
-  clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
+* **System name**: Id number of the defense system to which belongs the gene; clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
 * **Protein name**: Name of the protein
 * **Status**: Mandatory, accessory or neutral, as defined by MacSyFinder
 * **Eval**: E-value of the match with MacSyFinder models
 
 .. image:: img/DefenseFinder_gene.png
+

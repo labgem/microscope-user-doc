@@ -103,7 +103,7 @@ The common dataset are:
 * **IntegronFinder results**: will return genes of your selected sequence being part of an integron predicted by IntegronFinder.
 * **MacSyFinder results**: will return genes of your selected sequence being part of a macromolecular system predicted by MacSyFinder.
 * **Prophages**: will return genes of your selected sequence being part of a prophage region predicted by Phigaro.
-* **Defense Systems**: wiil return genes of your selected sequence being part of a defense system predicted by DefenseFinder.
+* **Defense Systems**: will return genes of your selected sequence being part of a defense system predicted by DefenseFinder.
 * **PanRGP results**: will return genes of your selected sequence being part of a region of genomic plasticity predicted by :ref:`panRGP`.
 
 Note that a few specific organisms use taylored datasets.

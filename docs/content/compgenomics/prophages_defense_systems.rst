@@ -39,16 +39,30 @@ Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
 What is DefenseFinder?
 ======================
 
-DefenseFinder is a program to systematically detect known anti-phage systems based on MacSyFinder.
-The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the
-detection of a given system.
-A system can also contain neutral proteins.
+**DefenseFinder** is a program to systematically detect known anti-phage systems based on :ref:`MacSyFinder<macsyfinder>`.
+The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a given system.
 
 Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 
 **Reference:**
 
-`"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://www.nature.com/articles/s41467-022-30269-9.pdf>`_
+`Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
+
+Defense systems detected by DefenseFinder are:
+
+    * a broad range of anti-phage systems (`DefenseFinder models 1.2.4 <https://github.com/mdmparis/defense-finder-models>`_): Avs, Azaca, BREX, DdmDE, Dodola, DRT, RADAR, RM, RosmerTA, SanaTA, Viperin, ...
+
+        **References:**
+            * `Tesson, F., Planel, R.,  Egorov, A., Georjon, H., Vaysset, H., Brancotte, B., Néron, B., Mordret, E., Bernheim, A., Atkinson, G., Cury, J. (2024). A Comprehensive Resource for Exploring Antiphage Defense: DefenseFinder Webservice, Wiki and Databases. bioRxiv 2024.01.25.577194. <https://doi.org/10.1101/2024.01.25.577194>`_
+
+            * `Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
+
+    * CRISPR-Cas systems (`CasFinder 3.1.0 <https://github.com/macsy-models/CasFinder>`_): CAS_Class1-Type-I, CAS_Class1-Subtype-I, CAS_Class1-Type-III, CAS_Class1-Subtype-III, CAS_Class1-Type-IV, CAS_Class1-Subtype-IV, CAS_Class2-Type-II, CAS_Class2-Subtype-II, CAS_Class2-Type-V, CAS_Class2-Subtype-V, CAS_Class2-Type-VI, CAS_Class2-Subtype-VI.
+
+        **References:**
+            * `Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
+            * `Abby, S. S., Néron, B., Ménager, H., Touchon, M., & Rocha, E. P. (2014). MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems. PloS one, 9(10), e110726. <https://doi.org/10.1371/journal.pone.0110726>`_
+
 
 What is CRISPRCasFinder?
 ========================
@@ -149,7 +163,7 @@ This interface displays the detailed description of a selected defense system.
 
 .. image:: img/defensesystem_vizualization.png
 
-The table **Genomic objects** provides information regarding the genomic objects composing the Defense System such as :
+The table **Genomic Objects** provides information regarding the genomic objects composing the defense system such as:
 
 * **Label**, **Begin**, **End**, **Gene**, **Product**: correspond to the annotation of the object in MicroScope
 * **Protein name**: name of the protein
