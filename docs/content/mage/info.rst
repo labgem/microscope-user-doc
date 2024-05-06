@@ -1449,20 +1449,17 @@ Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 
 **Reference:**
 
-`"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://www.nature.com/articles/s41467-022-30269-9.pdf>`_
+`Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
 
 How to read DefenseFinder results?
 ----------------------------------
 
 The **DefenseFinder** dataset appears if the genomic object corresponds to a defense system predicted by DefenseFinder.
 
-The table shows :
+.. image:: img/defensefinder1_datasettab.png
 
-* **System id**: Id number of the macromolecular system to which belongs the gene
-* **System name**: Id number of the defense system to which belongs the gene; clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
-* **Protein name**: Name of the protein
-* **Status**: Mandatory, accessory or neutral, as defined by MacSyFinder
-* **Eval**: E-value of the match with MacSyFinder models
-
-.. image:: img/DefenseFinder_gene.png
+* **System name**: Name of the defense system to which belongs the gene, clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
+* **Protein name**: Name of the protein detected by MacSyFinder.
+* **Status**: Status of the gene in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
+* **Eval**: E-value of the match with DefenseFinder models.
 

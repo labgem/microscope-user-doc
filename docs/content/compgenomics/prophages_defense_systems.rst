@@ -135,23 +135,21 @@ What is the Defense Systems table?
 
 This table enumerates all defense systems predicted for the selected genome
 
-.. image:: img/defensesystems_prediction.png
+.. image:: img/defensefinder1_systemstab.png
 
-* **MoveTo**: allows to display the region in the :ref:`viewer`
-* **System name**: name of the defense system;
-  clicking on this element will open an interface to explore the content of this system (see :ref:`below <how-to-explore-a-defense-system>`)
-* **Replicon name** and **Replicon type**: identification and type of the replicon on which the system is located
-* **Begin / End**: position of the defense system on the replicon
-* **Length**: length of the defense system
-* The next columns present the list and the number of mandatory, accessory and neutral proteins found in this system
-
-.. Au cas-où
-  * **Mandatory proteins in system**: list of mandatory proteins of the system identified in the genome
-  * **Nb of mandatory present**: number of mandatory proteins of the system identified in the genome
-  * **Accessory proteins in system**: list of accessory proteins of the system identified in the genome
-  * **Nb of accessory present**: number of accessory proteins of the system identified in the genome
-  * **Neutral proteins in system**: list of neutral proteins of the system identified in the genome
-  * **Nb of neutral present**: number of neutral proteins of the system identified in the genome
+* **MoveTo**: Allows to display the region in the :ref:`viewer`.
+* **System name**: Name of the defense system; clicking on it will open a detailled description of this system (see :ref:`below <how-to-explore-a-defense-system>`).
+* **System type**: Type of the defense system; clicking on it will open a description of this type of system on the DefenseFinder Wiki website.
+* **Replicon name**: Name of the replicon.
+* **Replicon type**: Type of the replicon (chromosome, plasmid, WGS).
+* **Begin** and **End**: Location of the defense system on the replicon.
+* **Length**: Length of the defense system.
+* **Mandatory proteins in system**: List of mandatory proteins of the system identified in the genome.
+* **Nb of mandatory present**: Number of mandatory proteins of the system identified in the genome.
+* **Accessory proteins in system**: List of accessory proteins of the system identified in the genome.
+* **Nb of accessory present**: Number of accessory proteins of the system identified in the genome.
+* **Neutral proteins in system**: List of neutral proteins of the system identified in the genome.
+* **Nb of neutral present**: Number of neutral proteins of the system identified in the genome.
 
 .. _how-to-explore-a-defense-system:
 
@@ -161,14 +159,17 @@ How to explore a defense system?
 The defense system visualization interface can be accessed by clicking on the **System name** field of the Defense Systems table.
 This interface displays the detailed description of a selected defense system.
 
-.. image:: img/defensesystem_vizualization.png
+.. image:: img/defensefinder1_GOtab.png
 
 The table **Genomic Objects** provides information regarding the genomic objects composing the defense system such as:
 
-* **Label**, **Begin**, **End**, **Gene**, **Product**: correspond to the annotation of the object in MicroScope
-* **Protein name**: name of the protein
-* **Eval**: e-value of the match with MacSyFinder models
-* **Status**: mandatory, accessory or neutral, as defined by MacSyFinder
+* **Label**: Label of the genomic object. Click on it allow to access to its annotation page.
+* **Begin** and **End**: Location of the genomic object on the sequence.
+* **Gene**: Gene name if any.
+* **Product**: Description of the gene product of the genomic object.
+* **Protein name**: Name of the protein detected by DefenseFinder.
+* **Eval**: e-value of the match with MacSyFinder models.
+* **Status**: Status of the protein in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
 
 You can export the genes by clicking on **Export to Gene Cart**.
 
