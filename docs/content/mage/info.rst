@@ -1366,24 +1366,27 @@ The **IntegronFinder** dataset appears if the genomic object belongs to an integ
 MacSyFinder
 ===========
 
-
 What is MacSyFinder?
 --------------------
 
-Macromolecular System Finder (MacSyFinder) provides a flexible framework to model the properties of molecular systems (cellular machinery or pathway) including their components, evolutionary associations with other systems and genetic architecture. Modelled features also include functional analogs, and the multiple uses of a same component by different systems. Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes. The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles. The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
+Macromolecular System Finder (**MacSyFinder**) provides a flexible framework to model the properties of molecular systems (cellular machinery or metabolic pathway) including their components, evolutionary associations with other systems and genetic architecture.
+Modelled features also include functional analogs, and the multiple uses of a same component by different systems.
+Models are used to search for molecular systems in complete genomes or in unstructured data like metagenomes.
+The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles.
+The assignment of hits to a given system is decided based on compliance with the content and organization of the system model.
 
 Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
 
+**Reference:**
 
-**Reference:** 
-
-`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
-	
+`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_	
 
 How to read MacSyFinder results?
 --------------------------------
 
-The **MacSyfinder** dataset appears if the genomic object correspond to a macromolecular system predicted by MacSyFinder The table shows :
+The **MacSyFinder** dataset appears if the genomic object corresponds to a macromolecular system predicted by MacSyFinder.
+
+The table shows :
 
 * **System id**: Id number of the macromolecular system to which belongs the gene
 * **Mandatory present**:	
@@ -1397,11 +1400,11 @@ The **MacSyfinder** dataset appears if the genomic object correspond to a macrom
 
 .. image:: img/MacSyFinder_gene.png
 
-
 How to explore a Macromolecular System?
 ---------------------------------------
 
 The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+
 
 =======
 Phigaro
