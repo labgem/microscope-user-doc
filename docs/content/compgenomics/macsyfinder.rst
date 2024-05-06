@@ -43,35 +43,11 @@ To search for them, MacSyFinder is run independently with each category of syste
 * `Abby, S. S., Cury, J., Guglielmini, J., Néron, B., Touchon, M., & Rocha, E. P. (2016). Identification of protein secretion systems in bacterial genomes. Scientific reports, 6, 23080. <https://doi.org/10.1038/srep23080>`_
 
 
-What is CRISPRCasFinder?
-------------------------
+How to access to MacSyFinder predictions?
+-----------------------------------------
 
-CRISPRCasFinder is a tool that allows to identify CRISPR arrays and Cas proteins.
-The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identify all regularly-interspaced repeated sequences.
-CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 criteria:
+MacSyFinder predictions are available through the **Comparative Genomics** section and the **Macromolecular Systems** subsection, in the main navigation menu.
 
-* An entropy-based conservation index of repeats (EBcon);
-* The number of spacers ;
-* The overall percentage identity of spacers.
-
-.. image:: img/CRISPR_confidence_lvl.PNG
-
-More information about CRISPRCasFinder see `<https://crisprcas.i2bc.paris-saclay.fr/>`_. 
-
-.. Note::
-    In MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
-    Cas systems are detected by MacSyFinder.
-
-**References:** 
-
-`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research <https://doi.org/10.1093/nar/gky425>`_.
-
-`Abouelhoda et al. 2004. Replacing suffix trees with enhanced suffix arrays. J. Discrete Algorithms <https://doi.org/10.1016/S1570-8667(03)00065-0>`_.
-
-How to access to MacSyFinder and CRISPRCasFinder predictions?
--------------------------------------------------------------
-
-MacSyFinder and CRISPRCasFinder predictions are available through the **Comparative Genomics** section and the **Macromolecular Systems** subsection, in the main navigation menu.
 
 What is the 'Macromolecular Systems' table?
 -------------------------------------------
@@ -92,21 +68,6 @@ This table enumerates all macromolecular systems predicted for the selected orga
 * **Nb of mandatory missing**: number of mandatory genes of the system not detected in the organism
 * **Nb of accessory present**: number of accessory genes of the system identified in the organism
 
-What is the 'CRISPR' table?
----------------------------
-
-This table displays all CRISPR detected by CRISPRCasFinder and all Cas detected by MacSyFinder. 
-
-.. image:: img/CRISPR_table_ADP1.PNG
-
-* **System id**: identifier of the system in the organism
-* **System**: type of system detected (CRISPR or Cas)
-* **Replicon name**: identification of the replicon
-* **Replicon type**: chromosome, plasmid or WGS
-* **Begin** / **End**: position of the system on the replicon
-* **Nb spacers / genes**: number of CRISPR spacers / Number of Cas genes
-* **Consensus repeat / Present gene**: consensus repeat sequence predicted by CRISPRCasFinder / list of mandatory Cas genes
-* **Evidence level**: evidence level as computed by CRISPRCasFinder
 
 How to explore a Macromolecular System?
 ---------------------------------------

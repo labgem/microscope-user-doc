@@ -16,6 +16,8 @@ We use Phigaro to detect such regions.
 A defense system is a molecular system used to defend the prokaryote against bacteriophages.
 We use DefenseFinder to detect such regions.
 
+To gather more informations about Cas system, we use CRISPRCasFinder to detect CRISPR sequences around a Cas system.
+
 What is Phigaro?
 ================
 
@@ -47,6 +49,30 @@ Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 **Reference:**
 
 `"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://www.nature.com/articles/s41467-022-30269-9.pdf>`_
+
+What is CRISPRCasFinder?
+========================
+
+**CRISPRCasFinder** is a tool that allows to identify CRISPR arrays and Cas proteins.
+The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identifies all regularly-interspaced repeated sequences.
+CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 criteria:
+
+* An entropy-based conservation index of repeats (EBcon);
+* The number of spacers ;
+* The overall percentage identity of spacers.
+
+.. image:: img/CRISPR_confidence_lvl.PNG
+
+More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_. 
+
+.. Note::
+    In MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
+    Cas systems are detected by DefenseFinder.
+
+**Reference:** 
+
+`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research <https://doi.org/10.1093/nar/gky425>`_.
+
 
 ****************************************************
 How to access Prophage & Defense System predictions?
@@ -131,3 +157,46 @@ The table **Genomic objects** provides information regarding the genomic objects
 * **Status**: mandatory, accessory or neutral, as defined by MacSyFinder
 
 You can export the genes by clicking on **Export to Gene Cart**.
+
+What is the CRISPR table?
+=========================
+
+This table displays all CRISPR detected by CRISPRCasFinder and all Cas detected by DefenseFinder for the selected genome. 
+
+.. image:: img/crisprcasfinder4_crisprtab.png
+
+* **System label**: Identifier of the system in the organism. Click on it will open a page which presents a detailled description of a CRISPR or a detailled description of a Cas system (see :ref:`below <how-to-explore-a-crisprcas-system>`).
+* **Replicon name**: Name of the replicon.
+* **Replicon type**: Type of the replicon (chromosome, plasmid, WGS).
+* **Begin** and **End**: Location of the system on the replicon.
+* **Length**: Length of the system.
+* **Nb spacers / genes**: Number of CRISPR spacers or Number of Cas genes.
+* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder or List of mandatory Cas genes predicted by DefenseFinder.
+* **Evidence level**: Evidence level as computed by CRISPRCasFinder.
+
+.. _how-to-explore-a-crisprcas-system:
+
+How to explore a CRISPR-Cas system?
+===================================
+
+The table **CRISPR Sequences** provides all repeats and spacers contained in the selected CRISPR.
+
+.. image:: img/crisprcasfinder4_crisprseq.png
+
+* **Sequence type**: ``CRISPR_dr`` if the sequence is a direct repeat or ``CRISPR_spacer`` if the sequence is a spacer.
+* **Begin** / **End**: Location of the sequence on the replicon.
+* **Length**: Length of the sequence.
+* **Sequence**: Nucleic acid sequence.
+
+The table **Genomic objects** provides information regarding the genomic objects composing the Cas system. You can export the genes by clicking on **Export to Gene Cart**.
+
+.. image:: img/crisprcasfinder4_GOtab.png
+
+* **Label**: Label of the genomic object. Click on it allow to access to its annotation page.
+* **Begin** and **End**: Location of the genomic object on the sequence.
+* **Gene**: Gene name if any.
+* **Product**: Description of the gene product of the genomic object.
+* **Protein name**: Name of the protein detected by MacSyFinder.
+* **Eval**: E-value of the match with DefenseFinder models.
+* **Status**: Status of the gene in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
+

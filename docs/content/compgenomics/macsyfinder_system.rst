@@ -43,16 +43,3 @@ The table **Genomic Objects** provides informations regarding the genomic object
 
 You can export the genes by clicking on **Export to Gene Cart**.
 
-########################
-How to explore a CRISPR?
-########################
-
-The table **CRISPR Sequences** provides all repeats and spacers contained in the selected CRISPR:
-
-.. image:: img/CRISPR_pop_up.PNG
-
-* **Sequence type**: ``CRISPR_dr`` if the sequence is a direct repeat or ``CRISPR_spacer`` if the sequence is a spacer
-* **Begin/End**: position of the sequence on the replicon
-* **Length**: length of the sequence
-* **Sequence**: nucleic acid sequence
-
