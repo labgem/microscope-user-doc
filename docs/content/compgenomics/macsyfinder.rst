@@ -14,14 +14,14 @@ Models are used to search for molecular systems in complete genomes or in unstru
 The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles.
 The assignment of hits to a given system is decided based on compliance with the content and organization of the system model. 
 
-Learn more about MacSyFinder `here <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_.
+Learn more about MacSyFinder `here <https://macsyfinder.readthedocs.io/en/latest/>`_.
 
 .. Don't use MacSyFinder as the name of the link since that would make
    a duplicate with the label.
 
 **Reference:** 
 
-`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_
+`Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S. MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes. Peer Community Journal, Volume 3 (2023), article no. e28. <https://doi.org/10.24072/pcjournal.250>`_
 
 
 What type of macromolecular systems can be detected?
@@ -54,24 +54,18 @@ What is the 'Macromolecular Systems' table?
 
 This table enumerates all macromolecular systems predicted for the selected organism and its replicons.
 
-.. image:: img/macromolecular_systems.png
+.. image:: img/macsyfinder2_systemstab.png
 
-* **System id**: identifier of the system in the organism
-* **System**: type of system detected by MacSyFinder
-* **Replicon name**: identification of the replicon
-* **Replicon type**: chromosome, plasmid or WGS
-* **Begin** / **End**: position of the system on the replicon
-* **Locus type**: single or multi locus
-* **Mandatory present**: list of mandatory genes of the system identified in the organism
-* **Mandatory missing**: list of mandatory genes of the system not detected in the organism
-* **Nb of mandatory present**: number of mandatory genes of the system identified in the organism
-* **Nb of mandatory missing**: number of mandatory genes of the system not detected in the organism
-* **Nb of accessory present**: number of accessory genes of the system identified in the organism
-
-
-How to explore a Macromolecular System?
----------------------------------------
-
-The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the **System id** field.
-This window allows you to access to a detailled description of a selected Macromolecular System.
+* **Macromolecular system**: Label of the system in the organism. Click on it open the :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` page, which allows to access to a detailled description of the selected macromolecular system.
+* **System type**: Type of system detected by MacSyFinder.
+* **Replicon name**: Identification of the replicon.
+* **Replicon type**: Type of replicon (chromosome, plasmid, WGS).
+* **Begin** / **End**: Location of the system on the replicon.
+* **Locus type**: Type of locus (single_locus, multi_loci).
+* **System wholeness**: Wholeness of the system.
+* **System score**: MacSyFinder score of the system (see `here <https://macsyfinder.readthedocs.io/en/latest/user_guide/functioning.html#c-computing-candidate-systems-scores-ordered-mode>`_ for more details about its computation).
+* **Mandatory genes present**: List of mandatory genes of the system identified in the organism.
+* **Accessory genes present**: List of accessory genes of the system identified in the organism.
+* **Nb of mandatory genes present**: Number of mandatory genes of the system identified in the organism.
+* **Nb of accessory genes present**: Number of accessory genes of the system identified in the organism.
 

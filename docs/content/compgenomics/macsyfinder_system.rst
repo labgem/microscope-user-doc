@@ -28,18 +28,20 @@ You can also use the main navigation menu in the **Comparative Genomics** sectio
 What is the 'Genomic Objects' table ?
 -------------------------------------
 
-.. image:: img/macSy_syst.png
-
 The table **Genomic Objects** provides informations regarding the genomic objects present in the macromolecular system.
 
-* **Label**, **Begin**, **End**, **Gene**, **Product**: correspond to the annotation of the object in MicroScope
-* **Gene status**: mandatory or accessory, as defined by MacSyFinder
-* **MacSy label**: gene label proposed by MacSyFinder
-* **Eval**: e-value of the match with MacSyFinder models
-* **Query coverage**: coverage of the match on the genomic object
-* **Subject coverage**: coverage of the match on the MacSyFinder model
-* **Begin match**: begin position of the match on the genomic object
-* **End match**: end position of the match on the genomic object
-
 You can export the genes by clicking on **Export to Gene Cart**.
+
+.. image:: img/macsyfinder2_GOtab.png
+
+* **Label**: Label of the genomic object. Click on it allow to access to its annotation page.
+* **Begin** and **End**: Location of the genomic object on the sequence.
+* **Gene**: Gene name if any.
+* **Product**: Description of the gene product of the genomic object.
+* **Gene status**: Status of the gene in the system (mandatory, accessory, neutral).
+* **Hit label**: Name of the MacSyFinder HMM profile which matchs with the sequence.
+* **Eval**:  Evalue of the match.
+* **Query coverage**: Coverage of the match on the sequence.
+* **Subject coverage**: Coverage of the match on the MacSyFinder HMM profile.
+* **Begin match** and **End match**: Location of the match on the sequence.
 

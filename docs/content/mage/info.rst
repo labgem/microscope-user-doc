@@ -1375,35 +1375,28 @@ Models are used to search for molecular systems in complete genomes or in unstru
 The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles.
 The assignment of hits to a given system is decided based on compliance with the content and organization of the system model.
 
-Know  more about `MacSyFinder <https://research.pasteur.fr/fr/software/macsyfinder-macsyview/>`_
+Know  more about `MacSyFinder <https://macsyfinder.readthedocs.io/en/latest/>`_
 
 **Reference:**
 
-`Abby SS, et al. 2014. MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems, PLoS ONE 2014;9(10):e110726 ; [PMID 25330359] <http://www.ncbi.nlm.nih.gov/pubmed/25330359>`_	
+`Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S. MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes. Peer Community Journal, Volume 3 (2023), article no. e28. <https://doi.org/10.24072/pcjournal.250>`_
 
 How to read MacSyFinder results?
 --------------------------------
 
 The **MacSyFinder** dataset appears if the genomic object corresponds to a macromolecular system predicted by MacSyFinder.
 
-The table shows :
+.. image:: img/macsyfinder2_datasettab.png
 
-* **System id**: Id number of the macromolecular system to which belongs the gene
-* **Mandatory present**:	
-* **Begin/End**:	
-* **Gene status**:	
-* **MacSy label**: label proposed by MacSyFinder
-* **Eval**: Evalue of the match
-* **Query coverage**: coverage of the match on the query sequence
-* **Subject coverage**:	coverage of the match with MacSyfinder model
-* **Begin match	/ End match**: position of the match on the query sequence
-
-.. image:: img/MacSyFinder_gene.png
-
-How to explore a Macromolecular System?
----------------------------------------
-
-The :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` can be accessed by clicking on any cluster number in the System Id field. This window allows you to access to a detailled description of a selected Macromolecular System.
+* **Macromolecular system**: Label of the system predicted by MacSyFinder. Click on it open the :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` page, which allows to access to a detailled description of the selected macromolecular system.
+* **Mandatory genes present**: Names of mandatory genes composing the system.
+* **Begin** and **End**: Location of the system on the sequence.
+* **Gene status**: Status of the gene in the system (mandatory, accessory, neutral)
+* **Hit label**: Name of the MacSyFinder HMM profile which matchs with the sequence.
+* **Eval**: Evalue of the match.
+* **Query coverage**: Coverage of the match on the sequence.
+* **Subject coverage**: Coverage of the match on the MacSyFinder HMM profile.
+* **Begin match** and **End match**: Location of the match on the sequence.
 
 
 =======
