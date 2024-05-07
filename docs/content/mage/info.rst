@@ -1375,7 +1375,7 @@ Models are used to search for molecular systems in complete genomes or in unstru
 The components of the systems are searched by sequence similarity using Hidden Markov model (HMM) protein profiles.
 The assignment of hits to a given system is decided based on compliance with the content and organization of the system model.
 
-Know  more about `MacSyFinder <https://macsyfinder.readthedocs.io/en/latest/>`_
+Know  more about `MacSyFinder <https://macsyfinder.readthedocs.io/en/latest/>`_.
 
 **Reference:**
 
@@ -1389,9 +1389,9 @@ The **MacSyFinder** dataset appears if the genomic object corresponds to a macro
 .. image:: img/macsyfinder2_datasettab.png
 
 * **Macromolecular system**: Label of the system predicted by MacSyFinder. Click on it open the :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` page, which allows to access to a detailled description of the selected macromolecular system.
-* **Mandatory genes present**: Names of mandatory genes composing the system.
+* **Mandatory genes present**: Names of distinct mandatory genes composing the system.
 * **Begin** and **End**: Location of the system on the sequence.
-* **Gene status**: Status of the gene in the system (mandatory, accessory, neutral)
+* **Gene status**: Status of the gene in the system (mandatory, accessory, neutral).
 * **Hit label**: Name of the MacSyFinder HMM profile which matchs with the sequence.
 * **Eval**: Evalue of the match.
 * **Query coverage**: Coverage of the match on the sequence.
@@ -1458,7 +1458,7 @@ The **DefenseFinder** dataset appears if the genomic object corresponds to a def
 
 .. image:: img/defensefinder1_datasettab.png
 
-* **System name**: Name of the defense system to which belongs the gene, clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`
+* **System name**: Name of the defense system to which belongs the gene, clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`.
 * **Protein name**: Name of the protein detected by MacSyFinder.
 * **Status**: Status of the gene in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
 * **Eval**: E-value of the match with DefenseFinder models.

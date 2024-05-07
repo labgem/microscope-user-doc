@@ -64,8 +64,8 @@ This table enumerates all macromolecular systems predicted for the selected orga
 * **Locus type**: Type of locus (single_locus, multi_loci).
 * **System wholeness**: Wholeness of the system.
 * **System score**: MacSyFinder score of the system (see `here <https://macsyfinder.readthedocs.io/en/latest/user_guide/functioning.html#c-computing-candidate-systems-scores-ordered-mode>`_ for more details about its computation).
-* **Mandatory genes present**: List of mandatory genes of the system identified in the organism.
-* **Accessory genes present**: List of accessory genes of the system identified in the organism.
+* **Mandatory genes present**: List of distinct mandatory genes of the system identified in the organism.
+* **Accessory genes present**: List of distinct accessory genes of the system identified in the organism.
 * **Nb of mandatory genes present**: Number of mandatory genes of the system identified in the organism.
 * **Nb of accessory genes present**: Number of accessory genes of the system identified in the organism.
 
