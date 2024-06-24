@@ -60,7 +60,7 @@ Defense systems detected by DefenseFinder are:
     * CRISPR-Cas systems (`CasFinder 3.1.0 <https://github.com/macsy-models/CasFinder>`_): CAS_Class1-Type-I, CAS_Class1-Subtype-I, CAS_Class1-Type-III, CAS_Class1-Subtype-III, CAS_Class1-Type-IV, CAS_Class1-Subtype-IV, CAS_Class2-Type-II, CAS_Class2-Subtype-II, CAS_Class2-Type-V, CAS_Class2-Subtype-V, CAS_Class2-Type-VI, CAS_Class2-Subtype-VI.
 
         **References:**
-            * `Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
+            * `Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
             * `Abby, S. S., Néron, B., Ménager, H., Touchon, M., & Rocha, E. P. (2014). MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems. PloS one, 9(10), e110726. <https://doi.org/10.1371/journal.pone.0110726>`_
 
 
@@ -69,10 +69,11 @@ What is CRISPRCasFinder?
 
 **CRISPRCasFinder** is a tool that allows to identify CRISPR arrays and Cas proteins.
 The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identifies all regularly-interspaced repeated sequences.
+
 CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 criteria:
 
-* An entropy-based conservation index of repeats (EBcon);
-* The number of spacers ;
+* An entropy-based conservation index of repeats (EBcon) (a high index means that CRISPR repeats are highly conserved);
+* The number of spacers;
 * The overall percentage identity of spacers.
 
 .. image:: img/CRISPR_confidence_lvl.PNG
@@ -80,13 +81,14 @@ CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 c
 More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-saclay.fr/>`_. 
 
 .. Note::
-    In MicroScope, CRISPRCasFinder is used only to detect CRISPR systems.
+    In MicroScope, CRISPRCasFinder is used only to detect CRISPR arrays.
     Cas systems are detected by DefenseFinder.
 
-**Reference:** 
+**References:** 
 
-`D. Couvin et al. 2018. CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins, Nucleic Acids Research <https://doi.org/10.1093/nar/gky425>`_.
+`Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
 
+`Grissa, I., Vergnaud, G., & Pourcel, C. (2007). CRISPRFinder: a web tool to identify clustered regularly interspaced short palindromic repeats. Nucleic acids research, 35(Web Server issue), W52–W57. <https://doi.org/10.1093/nar/gkm360>`_
 
 ****************************************************
 How to access Prophage & Defense System predictions?
@@ -199,9 +201,9 @@ The table **CRISPR Sequences** provides all repeats and spacers contained in the
 .. image:: img/crisprcasfinder4_crisprseq.png
 
 * **Sequence type**: ``CRISPR_dr`` if the sequence is a direct repeat or ``CRISPR_spacer`` if the sequence is a spacer.
-* **Begin** / **End**: Location of the sequence on the replicon.
+* **Begin** and **End**: Location of the sequence on the replicon.
 * **Length**: Length of the sequence.
-* **Sequence**: Nucleic acid sequence.
+* **Sequence**: Nucleotidic sequence.
 
 The table **Genomic objects** provides information regarding the genomic objects composing the Cas system. You can export the genes by clicking on **Export to Gene Cart**.
 
