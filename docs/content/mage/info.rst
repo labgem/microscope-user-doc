@@ -1081,42 +1081,43 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 **More:** http://antismash.secondarymetabolites.org/#!/about
 
-**References:**
+**Reference:**
 
-`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
+`Blin, Kai et al. antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation. Nucleic acids research vol. 51,W1 (2023): W46-W50. <https://doi.org/10.1093/nar/gkad344>`_
 
-What type of secondary metabolites can antiSMASH 6.1.1 predict?
----------------------------------------------------------------
+What type of secondary metabolites can antiSMASH 7.1.0.1 predict?
+-----------------------------------------------------------------
 
 The list of all secondary metabolites predicted by antiSMASH is available in the `glossary section of the antiSMASH documentation <https://docs.antismash.secondarymetabolites.org/glossary/>`_.
 
-How to read antiSMASH 6.1.1 results?
-------------------------------------
+How to read antiSMASH 7.1.0.1 results?
+--------------------------------------
 
 AntiSMASH results are presented into 2 separate datasets: antiSMASH annotation and antiSMASH domains.
 
 **The antiSMASH annotation dataset:**
 
-.. image:: img/antiSMASH6_annotations.png
+.. image:: img/antiSMASH7_annotation.png
 
-* **Region id**: antiSMASH region number. By clicking on the number, you can access to the :ref:`AntiSMASH cluster visualisation window <domainviewer>`.
-* **antiSMASH annotation**: Gene annotation proposed by the tool.
-* **Domains Detected**: Predicted domains, if any.
+* **antiSMASH Region id**: antiSMASH region number. By clicking on the number, you can access to the :ref:`antiSMASH cluster visualisation window <domainviewer>`.
+* **Status**: Gene status proposed by the tool (biosynthectic-additional, biosynthetic, transport, regulatory, resistance, other).
+* **antiSMASH annotation**: Predicted domains and/or SMCOG annotation, if any.
 
 **The antiSMASH domains dataset:**
 
-.. image:: img/antiSMASH6_domains.png
+.. image:: img/antiSMASH7_domains.png
 
-* **Type**: Domain type.
-* **Begin** and **End**: Location of the match on the sequence.
+* **Sequence**: If you click on the icon, it opens a window with the nucleic and proteic sequences of the domain.
+* **Domain type**: Domain type.
+* **Begin** and **End**: Location of the domain on the sequence.
 * **Score**: BLAST score.
 * **E-value**: BLAST E-value.
-* **Substrate specificity**: Substrate specificity of the domain predicted by antiSMASH, if any.
+* **Substrate specificity prediction**: Substrate specificity prediction of the domain predicted by antiSMASH, if any.
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the :ref:`antiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **Region id** field of the antiSMASH annotation table.
+You can access to the :ref:`antiSMASH cluster visualisation window <domainviewer>` by clicking on the number indicated in the **antiSMASH Region id** field of the antiSMASH annotation table.
 This window allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 
 

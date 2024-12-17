@@ -11,13 +11,13 @@ Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondaryme
 
 **Reference:**
 
-`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
+`Blin, Kai et al. antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation. Nucleic acids research vol. 51,W1 (2023): W46-W50. <https://doi.org/10.1093/nar/gkad344>`_
 
 
 How can I visualize the clusters predicted by antiSMASH?
 --------------------------------------------------------
 
-You can access to the **antiSMASH cluster visualization** window by clicking on the number indicated in the **Region ID** field in the antiSMASH result table.
+You can access to the **antiSMASH cluster visualization** window by clicking on the number indicated in the **antiSMASH Region ID** field in the antiSMASH result table.
 
 This window allows you to visualize the antiSMASH cluster predictions and their genomic context.
 
@@ -28,7 +28,7 @@ This page enumerates all secondary metabolite clusters detected for the selected
 What information are in this window?
 ------------------------------------
 
-.. image:: img/antiSMASH6_domainviewer_window.png
+.. image:: img/antiSMASH7_domainviewer_window.png
 
 * **Item #1**: Viewer
 * **Item #2**: Region description section
@@ -49,18 +49,18 @@ Only some type of genomic object are represented: ``CDS``, ``fCDS``, ``tRNA``, `
 
 The colored boxes (**item #2**) on the blue line in the middle of the **Viewer** represent the predicted domains of the secondary metabolite genes.
 
-The boxes at the bottom of the viewer display firstly protoclusters (**item #3**), with their core (**item #4**) and  neighborhoods (**item #5**),
+The boxes at the bottom of the viewer display firstly protoclusters (**item #3**), with their core (**item #4**) and neighborhoods (**item #5**),
 and secondly candidate clusters (**item #6**) found in this region.
 
-.. image:: img/antiSMASH6_viewer.png
+.. image:: img/antiSMASH7_viewer.png
 
 All the boxes can be mouse over to obtain summarized informations about them:
 
 * for all boxes, informations about the location and the length of the element are displayed.
 * for domains boxes, the type and the predicted substrate (if there is one) of the domain and different metrics computed by antiSMASH (score, E-value) are displayed.
-* for genomic objects boxes, there is information on annotation, gene name, product and  type of the genomic object.
+* for genomic objects boxes, there is information on annotation, gene name, product and type of the genomic object.
 * for protoclusters and core-protoclusters boxes, the type of the protocluster.
-* for candidate clusters boxes, the type and the peptide monomer composition (if any) of the candidate cluster.
+* for candidate clusters boxes, the type and the peptide polymer composition (if any) of the candidate cluster.
 
 Data on genomic objects, data on proto-clusters and data on candidate clusters are also described respectively in the following tables
 :ref:`Genomic Objects <genomic_objects_antismash>`, :ref:`Proto-clusters <protocluster>` and :ref:`Candidate-clusters <candidatecluster>`.
@@ -71,11 +71,11 @@ The color code of the different types of boxes is described in the viewer captio
 Region section
 --------------
 
-.. image:: img/antiSMASH6_regions_section.png
+.. image:: img/antiSMASH7_region_section.png
 
 This section present a brief summary of the region, with its identifier, its annotation/type and its location and length.
 
-In case of NRPS/PKS cluster type, the predicted peptide monomer composition may be indicated as well.
+In case of NRPS/PKS cluster type, the predicted peptide polymer composition may be indicated as well.
 
 If this composition is specific enough, the SMILES prediction and its visualization are displayed.
 
@@ -88,13 +88,13 @@ Knownclusters section
 These tables provide information about similar known clusters described in `MIBiG database <https://mibig.secondarymetabolites.org/>`_.
 The Minimum Information about a Biosynthetic Gene cluster (MIBiG) can help to know more on biosynthetic gene clusters, their molecular products and their related publications.
 
-`Kautsar S.A., et al. (2020) MIBiG 2.0: a repository for biosynthetic gene clusters of known function. Nucleic acids research vol. 48, D454-D458. <https://doi.org/10.1093/nar/gkz882>`_
+`Terlouw, Barbara R et al. MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters. Nucleic acids research vol. 51,D1 (2023): D603-D610. <https://doi.org/10.1093/nar/gkac1049>`_
 
 1. **MIBiG Region Similarities** table
 
   This table helps to know more on biosynthetic gene clusters by comparison with MIBiG reference database on all the region.
 
-  .. image:: img/antiSMASH6_knownclusters_tab.png
+  .. image:: img/antiSMASH7_knownclusters_tab.png
 
   * **MIBiG** and **Locus**: Identifier and locus of the MIBiG hit corresponding to the region. Click on the identifier to open the corresponding MIBiG website page.
   * **Product** and **Type**: Product and type of the MIBiG compound.
@@ -106,9 +106,9 @@ The Minimum Information about a Biosynthetic Gene cluster (MIBiG) can help to kn
 
   This is useful when there is several protocluster in the same region to try to characterize each protocluster.
 
-  See :ref:`below <protocluster>` to known more about protocluster.
+  See :ref:`below <protocluster>` to know more about protocluster.
 
-  .. image:: img/antiSMASH6_knownprotoclusters_tab.png
+  .. image:: img/antiSMASH7_knownprotoclusters_tab.png
 
   * **Protocluster id**: Protocluster identifier.
   * **MIBiG** and **Locus**: Identifier and locus of the MIBiG region which hit on the protocluster. Click on it to open the MIBiG website page related to this MIBiG.
@@ -128,18 +128,17 @@ Genomic Objects section
   Almost all fields are the same than those present in the **Genomic Objects** table of the **Genome Browser** (accessible in the **MaGe** section of the main navigation menu).
   To known more, see the documentation page of the **Genome Browser**.
 
-  .. image:: img/antiSMASH6_go_tab.png
+  .. image:: img/antiSMASH7_go_tab.png
 
   * **Label**: Label of the genomic object.
-  * **Begin** and **End**: Location of the genomic object on the sequence.
-  * **Frame**: Reading frame of the genomic object.
+  * **Begin**, **End** and **Frame**: Location of the genomic object on the sequence.
   * **Gene**: Gene name if any.
-  * **Evidence**: *automatic*/*validated*/*artefact* // *inprogress*/*finished*/*curated*
+  * **Evidence**: *automatic*/*validated*
   * **Type**: CDS, fCDS, tRNA, rRNA, misc_RNA, ncRNA, tmRNA, misc_feature, mobile_element.
   * **Product**: Description of the gene product of the genomic object.
   * **antiSMASH annotation**: Display notably (if any) the predicted domains and SMCOG (Secondary Metabolite Clusters of Orthologous Groups) class.
-  * **Status**: Genomic object type predicted by antiSMASH if any.
-    It can be: *biosynthetic*, *biosynthetic-additional*, *regulatory*, *transport*, *other*.
+  * **Status**: Genomic object status predicted by antiSMASH if any.
+    It can be: *biosynthetic*, *biosynthetic-additional*, *regulatory*, *transport*, *resistance*, *other*.
   * **Domain type**: Type of the genomic object's domains predicted by antiSMASH if any.
 
   Status *biosynthetic* means that the considered gene is a major part or the core of the secondary metabolite system.
@@ -150,11 +149,11 @@ Genomic Objects section
 
   This table provides informations about genes which may be involved in tailoring reactions.
 
-  .. image:: img/antiSMASH6_tailoringclusters_tab.png
+  .. image:: img/antiSMASH7_tailoringclusters_tab.png
 
-  * **TC label**, **Natural product**, **TC product class**, **PubMedId** and **Completion** help to known more about predicted tailoring clusters.
+  * **Tailoring Cluster label**, **Natural product**, **Tailoring Cluster product class**, **PubMedId** and **Completion** help to known more about predicted tailoring clusters.
   * **Label** gives the MicroScope gene label.
-  * **TC protein id**, **TC gene name** and **Protein description** give characteristics about genes which compose the tailoring cluster.
+  * **Tailoring Cluster protein id**, **Tailoring Cluster gene name** and **Protein description** give characteristics about genes which compose the tailoring cluster.
   * **% identity**, **Coverage** and **Evalue** give some mathematical indicators about the match between tailoring gene and MicroScope gene.
 
 
@@ -163,16 +162,17 @@ Clusters section
 
 .. _protocluster:
 
-1. **Proto-clusters** table
+1. **Protoclusters** table
 
   A protocluster is a cluster which contains a core with its neighbourhoods and has only one single product type.
 
-  .. image:: img/antiSMASH6_protoclusters_tab.png
+  .. image:: img/antiSMASH7_protoclusters_tab.png
 
   * **Candidate id**: Identifier of the candidate in which the protocluster is found.
   * **Protocluster id**: Identifier of the protocluster.
   * **Begin** and **End**: Location of the protocluster on the sequence.
-  * **Type**: Type of the protocluster.
+  * **Category**: Category of the protocluster's product.
+  * **Type**: Product of the protocluster.
   * **Core begin** and **Core end**: Location of the protocluster core on the sequence.
 
 
@@ -182,13 +182,15 @@ Clusters section
 
   A candidate cluster contains one or more protoclusters. It is useful for modelisation of hybrid regions, i.e. regions which produce two or more product types.
 
-  .. image:: img/antiSMASH6_candidateclusters_tab.png
+  .. image:: img/antiSMASH7_candidateclusters_tab.png
 
   * **Candidate id**: Identifier of the candidate cluster.
   * **Begin** and **End**: Location of the candidate cluster on the sequence.
-  * **Type**: Type of the candidate cluster
-  * **Peptide monomer composition**: Composition of the predicted peptide monomer in case of NRPS/PKS cluster type, if any.
-  * **Smile**: Smile prediction of the peptide monomer if the composition is specific enough.
+  * **Kind**: Kind of the candidate cluster.
+    It can be: **single**, **neighbouring**, **chemical-hybrid**, **interleaved**.
+    See the `antiSMASH documentation <https://docs.antismash.secondarymetabolites.org/understanding_output/regions/>`_ to known more about the several types of candidate cluster.
+  * **Peptide polymer composition**: Composition of the predicted peptide polymer in case of NRPS/PKS cluster type, if any.
+  * **SMILE**: Smile prediction of the peptide polymer if the composition is specific enough.
 
 
 .. _mibig_completion:
@@ -210,14 +212,14 @@ Where:
 
 .. _colorcode_antismash:
 
-What is the meaning of the color code in the AntiSMASH cluster visualisation window?
+What is the meaning of the color code in the antiSMASH cluster visualisation window?
 ------------------------------------------------------------------------------------
 
 1. Color code of the features
 
-  .. image:: img/antiSMASH6_colorcode_features.png
+  .. image:: img/antiSMASH7_colorcode_features.png
 
 2. Color code of the predicted domains
 
-  .. image:: img/antiSMASH6_colorcode_domains.png
+  .. image:: img/antiSMASH7_colorcode_domains.png
 

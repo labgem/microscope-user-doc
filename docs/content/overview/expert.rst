@@ -172,14 +172,14 @@ TMHMM (version 2.0c) is a program for the prediction of transmembrane helices ba
 What is antiSMASH?
 ------------------
 
-antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial and fungal genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
+antiSMASH allows the rapid genome-wide identification, annotation and analysis of secondary metabolite biosynthesis gene clusters in bacterial, fungal and plant genomes. It integrates and cross-links with a large number of in silico secondary metabolite analysis tools that have been published earlier.
 
 
 **More:** http://antismash.secondarymetabolites.org/#!/about
 
-**References:**
+**Reference:**
 
-`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
+`Blin, Kai et al. antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation. Nucleic acids research vol. 51,W1 (2023): W46-W50. <https://doi.org/10.1093/nar/gkad344>`_
 
 .. _artemis:
 

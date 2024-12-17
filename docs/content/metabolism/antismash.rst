@@ -16,15 +16,17 @@ These molecules are often synthesized in a stepwise fashion by multimodular mega
 What is antiSMASH?
 ------------------
 
-Antismash is a tool predicting secondary metabolite gene clusters in bacterial genomes.
+AntiSMASH is a tool predicting secondary metabolite gene clusters in bacterial genomes.
 
-Know :ref:`more <mage_antiSMASH>` about `antiSMASH <http://antismash.secondarymetabolites.org/#!/about>`__.
+Know :ref:`more <mage_antiSMASH>` about `antiSMASH <https://docs.antismash.secondarymetabolites.org/>`__.
 
-`Blin, K. et al. (2021) antiSMASH 6.0: improving cluster detection and comparison capabilities. Nucleic acids research vol. 49, W29-W35. <https://doi.org/10.1093/nar/gkab335>`_
+**Reference:**
+
+`Blin, Kai et al. antiSMASH 7.0: new and improved predictions for detection, regulation, chemical structures and visualisation. Nucleic acids research vol. 51,W1 (2023): W46-W50. <https://doi.org/10.1093/nar/gkad344>`_
 
 These result are linked to the `Minimum Information about a Biosynthetic Gene cluster (MIBiG) database <https://mibig.secondarymetabolites.org/>`_.
 
-`Kautsar S.A., et al. (2020) MIBiG 2.0: a repository for biosynthetic gene clusters of known function. Nucleic acids research vol. 48, D454-D458. <https://doi.org/10.1093/nar/gkz882>`_
+`Terlouw, Barbara R et al. MIBiG 3.0: a community-driven effort to annotate experimentally validated biosynthetic gene clusters. Nucleic acids research vol. 51,D1 (2023): D603-D610. <https://doi.org/10.1093/nar/gkac1049>`_
 
 
 How to access to the secondary metabolites gene clusters predicted by antiSMASH?
@@ -38,12 +40,13 @@ What is the "Predicted secondary metabolite regions" table?
 
 This table enumerates all secondary metabolite regions predicted for the selected organism and its replicons.
 
-.. image:: img/antiSMASH6_regions_tab.png
+.. image:: img/antiSMASH7_regions_tab.png
 
-* **Region id**: Identifier of the region. Click on it to open the detailled :ref:`antiSMASH cluster visualization window <domainviewer>` page,
+* **antiSMASH Region id**: Identifier of the region. Click on it to open the detailled :ref:`antiSMASH cluster visualization window <domainviewer>` page,
   which allows you to visualize the full antiSMASH cluster prediction and its genomic context.
 * **Replicon name** and **Replicon type** give characteristics of the replicon where the region is found.
 * **Begin**, **End** and **Length** give informations about the location and the length of the region on the sequence.
+* **State** indicates whether the region is complete or partial, which means that it is located on the contig edge.
 * **Region type**: Type of the region, predicted by antiSMASH.
 * **MIBiG**: MIBiG region identifier with the best hit (if any), click on it to open the MIBiG website page related to this MIBiG.
 * **Completion**: Completion of the best hit between MIBiG region and antiSMASH predicted region (if any hit). See below for more information about its computation.
@@ -65,5 +68,6 @@ Where:
   * :math:`\text{nb\_of\_mibig\_gene}` = number of all genes in the MIBiG curated region
 
 This means that when 2 or more genes in a single MIBiG curated region are similar, the same gene in pkgdb can hit on these MIBiG gene.
-When this happen, the completion can be higher than 1 (represented by 1*).
+Moreover, it's also possible that several pkgdb genes can hit on a single MIBiG gene.
+When these situations happen, the completion can be higher than 1 (represented by 1*).
 
