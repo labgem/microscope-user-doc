@@ -7,7 +7,7 @@ Regions of Genomic Plasticity - panRGP
 What is PPanGGOLiN ?
 --------------------
 
-The panRGP tool uses the inputs of  `PPanGGOLiN <https://github.com/labgem/PPanGGOLiN>`_ software.
+panRGP is an analysis method of the  `PPanGGOLiN <https://github.com/labgem/PPanGGOLiN>`_ software.
 PPanGGOLiN computes pangenomes for each :ref:`MicroScope Genome Cluster <genoclust>`  (MICGC correspond to clusters of genomes from the same species) (A).
 It relies on a graph approach to modelize pangenomes in which nodes and edges represent families of homologous genes and genomic neighborhood information, respectively (B and C).
 Homologous families are from :ref:`MICFAM <pancore-analysis>` computed with stringent parameters (80% of aa identity and 80% of alignment coverage).
@@ -28,7 +28,11 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 
 .. image:: img/projection.png
 
-**More information about PPanGGOLiN is available** `here <https://github.com/labgem/PPanGGOLiN>`_.
+**Reference:**
+
+`Gautreau G. et al. 2020 PPanGGOLiN: Depicting microbial diversity via a partitioned pangenome graph. PloS Computational Biology <https://doi.org/10.1371/journal.pcbi.1007732>`_
+
+Dedicated site: `https://github.com/labgem/PPanGGOLiN <https://github.com/labgem/PPanGGOLiN>`_
 
 .. Warning:: The panRGP tool is executed only on MICGC containing at least 15 strains.
    Please also note that we exclude genomes for which CheckM detected more than 5% contamination or less than 90% completeness as they are not assigned to MICGC cluster (see :ref:`Genome Overview <genome-overview>`).
@@ -36,37 +40,27 @@ As illustrated below, the PPanGGOLiN classification can be projected on each gen
 What is a Region of Genomic Plasticity (RGP) ?
 ----------------------------------------------
 
-A RGP is a region of a genome structurally not present in related others.
-RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.
+A RGP is a region of a genome structurally not present in related others. RGPs can be sites of insertions of integrated Mobile Genetic Elements (MGE), or the result of deletions of particular segments of DNA in one or more strains.
 Therefore, the RGP designation does not make any assumption about the evolutionary origin or genetic basis of these variable chromosomal segments.
 
-These regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).
+Large RGP arising from Horizontal gene transfer (HGT) may correspond to Genomic Islands. These regions are known to encode virulence, antimicrobial resistance factors and contains genes conferring specific adaptation functions (pathogenicity, symbiosis properties, detoxification ...).
 
 **Reference:**
 
 `Bertelli C. et al. 2018 Microbial genomic island discovery, visualization and analysis. Briefings in Bioinformatics; [PMID 29868902] <https://www.ncbi.nlm.nih.gov/pubmed/29868902>`_
 
-What is a panRGP ?
+What is panRGP ?
 ------------------
 
 The goal of panRGP is to efficiently detect RGPs within a partitioned pangenome graph.
 Based on the projection of the partitioned PPanGGOLiN graph on a given genome, the method defines as a RGP a set of consecutive genes that are members of the shell or cloud genomes.
 
-The panRGP method browses the genes along the genome to determine the RGP boundaries using a score-based algorithm as shown in the figure below (persistent: yellow, shell: green, cloud: blue).
+The panRGP method browses the genes along the genome to determine the RGP boundaries using a score-based algorithm.
 
-.. image:: img/panRGP.png
+**Reference:**
 
-- In steps 1 & 2, groups of consecutive persistent or shell/cloud genes are made and a score is computed.
-  For groups of shell/cloud genes, the score corresponds to the number of genes.
-  For persistent groups, the score is calculated as follow  (where n is the number of consecutive persistent genes):
+`Bazin A, Gautreau G, Médigue C, Vallenet D, Calteau A. panRGP: a pangenome-based method to predict genomic islands and explore their diversity. Bioinformatics. 2020;36(Suppl_2):i651-i658. <https://doi.org/10.1093/bioinformatics/btaa792>`_
 
-.. math:: \sum\limits_{i=1}^{n} -(3^{i-1})
-
-- In steps 3 & 4, a persistent group is merged with its surrounding shell/cloud groups if its score (absolute value) is less than or equal to the minimum score of the neighboring shell/cloud groups.
-  In this case, the persistent genes will be considered as part of the RGP.
-  In this example, a RGP of 5 genes (3 shells, 1 persistent and 1 cloud) and one of 2 genes (2 clouds) are obtained.
-
-.. Note:: RGPs must be composed of at least 2 genes and have a minimum length of 5 kb to be detected.
 
 How to access to panRGP data ?
 ------------------------------
@@ -83,7 +77,7 @@ The total number of organisms in the MICGC that were used to compute the RPGs is
 
 You can visualize the genome partition in a circular representation using CGView (see :ref:`cgview`).
 
-.. image:: img/panRGPpage1.PNG
+.. image:: img/panrgp_cgview.png
 
 Tracks (from the outside):
 
@@ -101,19 +95,26 @@ The "PPanGGOLiN pan-genome components" table gives the number of genes and MICFA
 
 You can extract all these genes in fasta format (nucleic and proteic), tsv with their annotation or in a gene card to do further analysis on them.
 
-.. image:: img/panRGPpartitionnement.PNG
+.. image:: img/panrgp_partitions.png
 
 Finally, the "Regions of Genomic Plasticity" table gives you an overview of all the RGPs in the given organism that were predicted by the panRGP method.
 
-.. image:: img/panRGPtable.PNG
+.. image:: img/panrgp_table.png
 
-For each RGP, the number of genes predicted by other methods is indicated:
-
- - Resistance genes: Antibiotic resistance prediction using :ref:`CARD method <card>`
- - Virulence genes: :ref:`Virulence prediction <virulence>`
- - Biosythetic gene clusters: :ref:`AntiSMASH Prediction <antiSMASH>`
- - Macromolecular systems: :ref:`MacSyFinder Prediction <macsyfinder>`
- - Integrons: :ref:`IntegronFinder Prediction <integron>`
+ - **RGP id**: Identifier of the RGP. Click on it to open the detailled :ref:`RGP visualization <rgpexplorer>` page, which allows you to access to a detailed description of the RGP.
+ - **Gene count**: Number of genes within the RGP.
+ - **Begin**, **End** and **Length** give informations about the location and the length of the RGP on the sequence.
+ - **Replicon name** and **Replicon type** give characteristics of the replicon where the region is found.
+ - **RGP state** indicates whether the region is complete or probably partial, which can happen when the RGP is located on the contig edge.
+ - **RGP score**: panRGP score of the RGP (see the panRGP paper for more details about its computation).
+ - **Persistent genes(%)**, **Shell genes (%)** and **Cloud genes (%)** give the proportion of genes within the RGP for the different partitions.
+ - **Resistance genes**: Number of genes predicted as involved in the antibiotic resistance using the :ref:`CARD method <card>`.
+ - **Virulence genes**: Number of genes predicted as involved in the virulence mecanism using the :ref:`Virulence prediction <virulence>`.
+ - **Biosynthetic gene clusters**: Number of the different regions predicted by :ref:`antiSMASH <antiSMASH>`.
+ - **Macromolecular systems**: Number of the different macromolecular systems predicted by :ref:`MacSyFinder <macsyfinder>`.
+ - **Integrons**: Number of the different integrons predicted by :ref:`IntegronFinder <integron>`.
+ - **Prophage regions**: Number of the different prophage regions predicted by :ref:`Phigaro <prophages-defense-systems>`.
+ - **Defense systems**: Number of the different defense systems predicted by :ref:`DefenseFinder <prophages-defense-systems>`.
 
 How to explore panRGP ?
 -----------------------
