@@ -98,9 +98,7 @@ You can extract all these genes in fasta format (nucleic and proteic), tsv with 
 .. image:: img/panrgp_partitions.png
 
 Finally, the "Regions of Genomic Plasticity" table gives you an overview of all the RGPs in the given organism that were predicted by the panRGP method.
-.. image:: img/panrgp_table.png
-
-
+     
  - **RGP id**: Identifier of the RGP. Click on it to open the detailled :ref:`RGP visualization <rgpexplorer>` page, which allows you to access to a detailed description of the RGP.
  - **Gene count**: Number of genes within the RGP.
  - **Begin**, **End** and **Length** give informations about the location and the length of the RGP on the sequence.
@@ -115,6 +113,8 @@ Finally, the "Regions of Genomic Plasticity" table gives you an overview of all 
  - **Integrons**: Number of the different integrons predicted by :ref:`IntegronFinder <integron>`.
  - **Prophage regions**: Number of the different prophage regions predicted by :ref:`Phigaro <prophages-defense-systems>`.
  - **Defense systems**: Number of the different defense systems predicted by :ref:`DefenseFinder <prophages-defense-systems>`.
+
+.. image:: img/panrgp_table.png
 
 How to explore panRGP ?
 -----------------------
