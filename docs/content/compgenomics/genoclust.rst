@@ -93,7 +93,7 @@ The process is as follows:
 
 The goal of those steps is to produce a biologically relevent network.
 
-Then we extract communities from that network with the `louvain community detection algorithm <https://github.com/taynaud/python-louvain/>`_ - see **step 6** on the figure.
+Then we extract communities from that network with the `louvain community detection algorithm <https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.community.louvain.louvain_partitions.html>`_ - see **step 6** on the figure.
 
 The parameters were chosen to provide the best reconstruction of `Progenome <http://progenomes.embl.de/>`_ species clusters.
 The selected parameters are:
@@ -101,7 +101,7 @@ The selected parameters are:
   * Mash distances are computed with kmer size = 18 and sketch size = 5000;
   * distances above 0.06 (*i.e.* :math:`\text{ANI} \le 94\%`) are removed;
   * contamination must be below 5% and completeness above 90%;
-  * the resolution parameter used for louvain is 2.
+  * the resolution parameter used for louvain is 1.
 
 Export
 ------
