@@ -7,8 +7,8 @@ Genome Overview
 This page provide multiple data about your organism:
 
 * Starting with general data (Gram, Taxonomy, genome length ...).
-* Then the `GTDBtk <https://github.com/Ecogenomics/GTDBTk>`_ taxonomy classification is displayed along with the method used. [1]_
-* `CheckM <https://github.com/Ecogenomics/CheckM/wiki>`_ and `CheckM2 <https://github.com/chklovski/CheckM2>`_ analysis results are presented, to assess the quality of microbial genomes in terms of completeness and contamination. [2]_ [3]_.
+* Then, the `GTDB-tk <https://github.com/Ecogenomics/GTDBTk>`_ taxonomic classification is shown, along with the method used. [1]_
+* `CheckM <https://github.com/Ecogenomics/CheckM/wiki>`_ and `CheckM2 <https://github.com/chklovski/CheckM2>`_ analysis results are presented, to assess the quality of microbial genomes in terms of completeness and contamination [2]_ [3]_.
 * And some general statistical data about a replicon, such as: Length, GC%, Ribosomal RNAs, tRNAs types, Annotations Status, Average CDS length, Repeated regions, Average intergenic length , Protein coding density, Scaffolds/Contigs numbers, etc.
 
 .. image:: img/overview.png
