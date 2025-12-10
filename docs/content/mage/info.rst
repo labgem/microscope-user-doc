@@ -1188,38 +1188,31 @@ Each line presents a result of one genomic object by one of the tool–database 
   - **dbCAN: HMMER** = line displaying HMMER's best match  of the query sequence against ``dbCAN HMMdb``.
   - **dbCAN-sub: HMMER** = line displaying HMMER's best match of the query sequence against ``dbCAN-sub HMMdb``.
 
-* **CAZy classification:**  
-  Name of the CAZy family linked to the corresponding web page. 
+* **CAZy classification:**  Name of the predicted CAZy family with a link to the corresponding CAZy web page. 
 
   - For **CAZy: DIAMOND** lines, it gives the family annotation of the matched protein sequence in ``CAZyDB``.  
   - For **dbCAN: HMMER** lines, it gives the family corresponding to the matched HMM profile in ``dbCAN HMMdb``.  
   - For **dbCAN-sub: HMMER** lines, it is the family obtained from truncating the *dbCAN-sub Classification* at the first ``_`` (example: when *dbCAN-sub Classification* is ``CE11_e22``, its *CAZy Classification* is ``CE11``).
 
-* **DIAMOND CAZyme:**  
-  Protein accession of the best diamond match of the query sequence against ``CAZyDB``.  
-  It may appear in two formats:
+* **DIAMOND CAZyme:**   Protein accession of the best diamond match of the query sequence against ``CAZyDB``.  It may appear in two formats:
 
   - **GenBank format:** a unique accession identifier assigned to a protein sequence (e.g., ``QJW36450.1``).  
   - **JGI format:**  a sequence ID and the source fasta name  
     (e.g., ``118117, Volvo1_GeneCatalog_proteins_20130703.aa.fasta``).
 
-* **DIAMOND ECnumber:**  
-  Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. Reported **by DIAMOND** when the matched sequence in ``CAZyDB`` is annotated with an EC number.
+* **DIAMOND EC number:**  Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. Reported **by DIAMOND** when the matched sequence in ``CAZyDB`` is annotated with an EC number.
 
-* **dbCAN-sub Classification:**  
-  Subfamily name of the best HMMER match of the query sequence against ``dbCAN-sub HMMdb``, linked to the corresponding web page.
+* **dbCAN-sub Classification:**  Subfamily name of the best HMMER match of the query sequence against ``dbCAN-sub HMMdb``, linked to the corresponding web page.
 
-* **dbCAN-sub Subfamily Composition:**  
-  Composition in CAZy families of sequences composing the *dbCAN-sub subfamily*. Their number of occurence in the group is given next to the family. 
+* **dbCAN-sub Subfamily Composition:**  Composition in CAZy families of sequences composing the *dbCAN-sub subfamily*. Their number of occurence in the group is given next to the family. 
 
   - Example::
 
-      ``GT4_e480`` | ``GT4:76, GT2:6`` 
+      GT4_e480 | GT4:76, GT2:6
 
     Here, subfamily ``GT4_e480`` is a cluster of sequences with 76 occurences of ``GT4`` signature and 6 occurences of ``GT2`` signature.
 
-* **dbCAN-sub ECnumber:** 
-  Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. **Predicted by dbCAN-sub** when the assigned *dbCAN-sub subfamily* has a known functional annotation.
+* **dbCAN-sub EC number:** Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. **Predicted by dbCAN-sub** when the assigned *dbCAN-sub subfamily* has a known functional annotation.
 
 * **dbCAN-sub Substrate:** Predicted substrate for each enzyme, inferred using the dbCAN-sub method.
 
@@ -1228,8 +1221,8 @@ Each line presents a result of one genomic object by one of the tool–database 
   - Example::
 
       CAZy Classification  | dbCAN-sub Classification  | EC number             | Substrate
-      -------------------- | --------------------  | -------------------- | -----------------
-      GH4                  | GH4_e6                | 3.2.1.139, 3.2.1.20  | xylan, alpha-glucan
+      -------------------- | ------------------------  | --------------------- | -----------------
+      GH4                  | GH4_e6                    | 3.2.1.139, 3.2.1.20   | xylan, alpha-glucan
 
     Here:
       - ``xylan`` is associated with EC ``3.2.1.139`` and ``GH4``.
