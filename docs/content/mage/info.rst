@@ -1158,7 +1158,7 @@ What is dbCAN?
 
 Carbohydrate-Active enZyme (CAZymes) are classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. [2]_
 
-Subfamilies constructed by `eCAMI <https://github.com/yinlabniu/eCAMI>`_ from the CAZy families are listed in the `dbCAN-sub <https://bcb.unl.edu/dbCAN_sub/>`_ website. They allow the assignment of an uncharacterized sequence to a specific EC number, providing insights into its potential enzymatic activity. In the following, they are named *dbCAN-sub subfamilies* but they can also be refered to as *eCAMI subfamilies* or even *CAZyme subfamilies*. [3]_
+dbCAN-sub is a profile Hidden Markov Model database (HMMdb) for substrate prediction at the CAZyme subfamily level. Each dbCAN-sub HMM corresponds to an `eCAMI <https://github.com/yinlabniu/eCAMI>`_ subfamily, containing protein sequences annotated by CAZy, some of which may have been experimentally characterized with EC numbers. They enable substrate prediction and provides subfamily-level annotations enriched with EC numbers and subfamily composition. In the following, they are named *dbCAN-sub subfamilies* but they can also be referred to as *eCAMI subfamilies* or even *CAZyme subfamilies*. They are listed on the `dbCAN-sub <https://bcb.unl.edu/dbCAN_sub/>`_ website.[3]_
 
 For automated CAZyme annotation, the standalone version of the dbCAN3 known as `run_dbcan <https://github.com/bcb-unl/run_dbcan>`_ conducts 3 tool–database annotation steps : 
   - **DIAMOND against CAZy** compares sequences against ``CAZyDB`` (the library of sequences classified into CAZy families) using diamond.
