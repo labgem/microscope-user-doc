@@ -1154,19 +1154,24 @@ dbCAN
 What is dbCAN?
 --------------
 
-`dbCAN2 <http://bcb.unl.edu/dbCAN2/>`_ is a method for the automated detection of carbohydrate active enzyme (CAZyme).
-They are classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds.
-dbCAN2 uses 3 different tools to assign CAZyme annotation:
+`dbCAN3 <http://bcb.unl.edu/dbCAN2/>`_ is a method for automated Carbohydrate-active enzyme ANnotation (dbCAN) and substrate annotation. The method incorporates `HMMER <http://hmmer.org/>`_, `diamond <https://github.com/bbuchfink/diamond>`_, and `dbCAN-sub <https://bcb.unl.edu/dbCAN_sub/>`_ for annotating CAZyme families and for substrate predictions. [1]_
 
-  - **HMMER:** which compares sequences against a library of CAZy families signature (with **HMMscan**)
-  - **Diamond:** which compares sequences against a library of sequences classified into CAZy families
-  - **Hotpep:** which compares sequences against a library of conserved peptides for the CAZy families
+Carbohydrate-Active enZyme (CAZymes) are classified in the `CAZy database <http://www.cazy.org/>`_ which describes the families of structurally-related catalytic and carbohydrate-binding modules (or functional domains) of enzymes that degrade, modify, or create glycosidic bonds. [2]_
 
-We currently use dbCAN2 v3 (see `here <http://bcb.unl.edu/dbCAN2/download/Tools/>`_).
+Subfamilies constructed by `eCAMI <https://github.com/yinlabniu/eCAMI>`_ from the CAZy families are listed in the `dbCAN-sub <https://bcb.unl.edu/dbCAN_sub/>`_ website. They allow the assignment of an uncharacterized sequence to a specific EC number, providing insights into its potential enzymatic activity. In the following, they are named *dbCAN-sub subfamilies* but they can also be refered to as *eCAMI subfamilies* or even *CAZyme subfamilies*. [3]_
+
+For automated CAZyme annotation, the standalone version of the dbCAN3 known as `run_dbcan <https://github.com/bcb-unl/run_dbcan>`_ conducts 3 tool–database annotation steps : 
+  - **DIAMOND against CAZy** compares sequences against ``CAZyDB`` (the library of sequences classified into CAZy families) using diamond.
+  - **HMMER against dbCAN** compares sequences against ``dbCAN HMMdb`` (the library of CAZy families HMM profiles) using HMMER. 
+  - **HMMER against dbCAN-sub** compares sequences against ``dbCAN-sub HMMdb`` (the library of dbCAN-sub subfamilies HMM profiles) using HMMER.
+
+All databases used are downloaded by the tool run_dbcan when installed and can be found at that `link <https://bcb.unl.edu/dbCAN2/download/run_dbCAN_database_total/db_current/>`_.
 
 **References:**
 
-`Zhang H,  Yohe T, Huang L, Entwistle S, Wu P, Yang Z, Busk PK, Xu Y, Yin Y, dbCAN2: a meta server for automated carbohydrate-active enzyme annotation, Nucleic Acids Research <https://doi.org/10.1093/nar/gky418>`_
+.. [1] `Jinfang Zheng, Qiwei Ge, Yuchen Yan, Xinpeng Zhang, Le Huang, Yanbin Yin, dbCAN3: automated carbohydrate-active enzyme and substrate annotation, Nucleic Acids Research, Volume 51, Issue W1, 5 July 2023, Pages W115–W121. <https://doi.org/10.1093/nar/gkad328>`_
+.. [2] `Elodie Drula, Marie-Line Garron, Suzan Dogan, Vincent Lombard, Bernard Henrissat, Nicolas Terrapon (2022) The carbohydrate-active enzyme database : functions and literature Nucleic Acids Res 50 : D571–D577. <https://doi.org/10.1093/nar/gkab1045>`_
+.. [3] `Han Zhang, Tanner Yohe, Le Huang, Sarah Entwistle, Peizhi Wu, Zhenglu Yang, Peter K Busk, Ying Xu, Yanbin Yin, dbCAN2: a meta server for automated carbohydrate-active enzyme annotation, Nucleic Acids Research, Volume 46, Issue W1, 2 July 2018, Pages W95–W101. <https://doi.org/10.1093/nar/gky418>`_
 
 
 How to read dbCAN results?
@@ -1174,14 +1179,88 @@ How to read dbCAN results?
 
 .. image:: img/dbcan.png
 
-Each line presents a correspondance between the genomic object and a CAZy found by one of the tools used by dbCAN2:
+Each line presents a result of one genomic object by one of the tool–database annotation step used by dbCAN3 (one genomic object can have multiple results and each result is on its own line):
 
-* **CAZy_fam:** name of the CAZy family (linked to the corresponding CAZy’s family web page).
-* **CAZy_subfam:** name of the CAZy subfamily (linked to the corresponding CAZy’s subfamily web page).
-* **Begin:** position, on the HMM, of the beginning of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
-* **End:** position, on the HMM, of the end of the alignment between the sequence and the HMM (only if **Method** is **HMMER**).
-* **Method:** method by which this correspondance was found.
-* **Number of tools:** number of tools that found the same correspondance as this one. If > 2, the prediction is considered correct.
+* **Method:** 
+
+  - **CAZy: DIAMOND** = line displaying DIAMOND's best match of the query sequence against ``CAZyDB``.
+  - **dbCAN: HMMER** = line displaying HMMER's best match  of the query sequence against ``dbCAN HMMdb``.
+  - **dbCAN-sub: HMMER** = line displaying HMMER's best match of the query sequence against ``dbCAN-sub HMMdb``.
+
+* **CAZy classification:**  
+  Name of the CAZy family linked to the corresponding web page. 
+
+  - For **CAZy: DIAMOND** lines, it gives the family annotation of the matched protein sequence in ``CAZyDB``.  
+  - For **dbCAN: HMMER** lines, it gives the family corresponding to the matched HMM profile in ``dbCAN HMMdb``.  
+  - For **dbCAN-sub: HMMER** lines, it is the family obtained from truncating the *dbCAN-sub Classification* at the first ``_`` (example: when *dbCAN-sub Classification* is ``CE11_e22``, its *CAZy Classification* is ``CE11``).
+
+* **DIAMOND CAZyme:**  
+  Protein accession of the best diamond match of the query sequence against ``CAZyDB``.  
+  It may appear in two formats:
+
+  - **GenBank format:** a unique accession identifier assigned to a protein sequence (e.g., ``QJW36450.1``).  
+  - **JGI format:**  a sequence ID and the source fasta name  
+    (e.g., ``118117, Volvo1_GeneCatalog_proteins_20130703.aa.fasta``).
+
+* **DIAMOND ECnumber:**  
+  Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. Reported **by DIAMOND** when the matched sequence in ``CAZyDB`` is annotated with an EC number.
+
+* **dbCAN-sub Classification:**  
+  Subfamily name of the best HMMER match of the query sequence against ``dbCAN-sub HMMdb``, linked to the corresponding web page.
+
+* **dbCAN-sub Subfamily Composition:**  
+  Composition in CAZy families of sequences composing the *dbCAN-sub subfamily*. Their number of occurence in the group is given next to the family. 
+
+  - Example::
+
+      ``GT4_e480`` | ``GT4:76, GT2:6`` 
+
+    Here, subfamily ``GT4_e480`` is a cluster of sequences with 76 occurences of ``GT4`` signature and 6 occurences of ``GT2`` signature.
+
+* **dbCAN-sub ECnumber:** 
+  Enzyme Commission number (EC number) describing the catalytic activity of the enzyme. **Predicted by dbCAN-sub** when the assigned *dbCAN-sub subfamily* has a known functional annotation.
+
+* **dbCAN-sub Substrate:** Predicted substrate for each enzyme, inferred using the dbCAN-sub method.
+
+  - Each substrate corresponds to an EC number of the enzyme subfamily.
+  - Multiple substrates and EC numbers are listed in the same order, separated by ", ".
+  - Example::
+
+      CAZy Classification  | dbCAN-sub Classification  | EC number             | Substrate
+      -------------------- | --------------------  | -------------------- | -----------------
+      GH4                  | GH4_e6                | 3.2.1.139, 3.2.1.20  | xylan, alpha-glucan
+
+    Here:
+      - ``xylan`` is associated with EC ``3.2.1.139`` and ``GH4``.
+      - ``alpha-glucan`` is associated with EC ``3.2.1.20`` and ``GH4``.
+
+  - If the EC number is incomplete or missing, dbCANsub attempts to assign the most likely substrate based on the enzyme family.
+  - **Output preserves the EC order and shows one substrate or a group of substrates separated by ";" per EC**.
+  - If no match is found, the field will display nothing, ``-`` or ``unknown``.
+  - Refer to dbCAN publication for further information. [1]_ 
+* **Coverage:** Fraction of the HMM profile covered by the alignment (reported for HMMER methods only; empty for DIAMOND results).
+* **Ident%:** Percentage of identical residues between the query and the subject sequence (reported for DIAMOND results only; empty for HMMER methods).
+* **Eval:** Expectation value of the alignment, reported by all 3 methods. Lower values indicate more significant matches.
+* **BeginQ:** Start position of the alignment on the query sequence.
+* **EndQ:** End position of the alignment on the query sequence.
+* **LengthQ:** Total length of the query sequence.
+* **BeginB:** Start position of the alignment on the subject (HMM profile or CAZy reference sequence).
+* **EndB:** End position of the alignment on the subject (HMM profile or CAZy reference sequence).
+* **LengthB:** Length of the subject sequence (HMM profile or CAZy reference).
+
+``GT2`` special case
+--------------------------
+
+One may notice that in the *dbCAN-sub Classification* column, the family ``GT2`` appears,  eventhough the standard dbCAN-sub subfamily format includes "_e". As clarified in the discussion of the related `GitHub issue <https://github.com/bcb-unl/run_dbcan/issues/44>`_, ``GT2`` is a special case in the dbCAN-sub pipeline.
+
+As a result, several information normally provided by **dbCAN-sub: HMMER** cannot be delivered by the tool itself: 
+
+- the specific ``GT2`` subfamily assignment
+- the composition of that subfamily
+- the associated EC number(s)
+- the predicted substrate
+
+In short, this behavior is expected and intrinsic to how dbCAN-sub treats the ``GT2`` family; the missing data is not an error and cannot be retrieved. Since the specific ``GT2`` subfamily assignment is missing, it's length is not be displayed.
 
 .. _mage_SulfAtlas:
 
