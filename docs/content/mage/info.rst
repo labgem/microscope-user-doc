@@ -1220,15 +1220,15 @@ Each line presents a result of one genomic object by one of the tool–database 
   - Multiple substrates and EC numbers are listed in the same order, separated by ", ".
   - Example::
 
-      CAZy Classification  | dbCAN-sub Classification  | EC number             | Substrate
-      -------------------- | ------------------------  | --------------------- | -----------------
+      CAZy Classification  | dbCAN-sub Classification  | dbCAN-sub EC number   | dbCAN-sub Substrate
+      -------------------- | ------------------------  | --------------------- | -------------------
       GH4                  | GH4_e6                    | 3.2.1.139, 3.2.1.20   | xylan, alpha-glucan
 
     Here:
       - ``xylan`` is associated with EC ``3.2.1.139`` and ``GH4``.
       - ``alpha-glucan`` is associated with EC ``3.2.1.20`` and ``GH4``.
 
-  - If the EC number is incomplete or missing, dbCANsub attempts to assign the most likely substrate based on the enzyme family.
+  - If the EC number is incomplete or missing, dbCAN-sub attempts to assign the most likely substrate based on the enzyme family.
   - **Output preserves the EC order and shows one substrate or a group of substrates separated by ";" per EC**.
   - If no match is found, the field will display nothing, ``-`` or ``unknown``.
   - Refer to dbCAN publication for further information. [1]_ 
