@@ -1160,7 +1160,8 @@ Carbohydrate-Active enZyme (CAZymes) are classified in the `CAZy database <http:
 
 dbCAN-sub is a profile Hidden Markov Model database (HMMdb) for substrate prediction at the CAZyme subfamily level. Each dbCAN-sub HMM corresponds to an `eCAMI <https://github.com/yinlabniu/eCAMI>`_ subfamily, containing protein sequences annotated by CAZy, some of which may have been experimentally characterized with EC numbers. They enable substrate prediction and provides subfamily-level annotations enriched with EC numbers and subfamily composition. In the following, they are named *dbCAN-sub subfamilies* but they can also be referred to as *eCAMI subfamilies* or even *CAZyme subfamilies*. They are listed on the `dbCAN-sub <https://bcb.unl.edu/dbCAN_sub/>`_ website. [3]_
 
-For automated CAZyme annotation, the standalone version of the dbCAN3 known as `run_dbcan <https://github.com/bcb-unl/run_dbcan>`_ conducts 3 tool–database annotation steps : 
+For automated CAZyme annotation, the standalone version of the dbCAN3 known as `run_dbcan <https://github.com/bcb-unl/run_dbcan>`_ conducts 3 tool–database annotation steps :
+
   - **DIAMOND against CAZy** compares sequences against ``CAZyDB`` (the library of sequences classified into CAZy families) using diamond.
   - **HMMER against dbCAN** compares sequences against ``dbCAN HMMdb`` (the library of CAZy families HMM profiles) using HMMER. 
   - **HMMER against dbCAN-sub** compares sequences against ``dbCAN-sub HMMdb`` (the library of dbCAN-sub subfamilies HMM profiles) using HMMER.
