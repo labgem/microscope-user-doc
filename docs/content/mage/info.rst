@@ -1162,9 +1162,9 @@ dbCAN-sub is a profile Hidden Markov Model database (HMMdb) for substrate predic
 
 For automated CAZyme annotation, the standalone version of the dbCAN3 known as `run_dbcan <https://github.com/bcb-unl/run_dbcan>`_ conducts 3 tool–database annotation steps :
 
-  - **DIAMOND against CAZy** compares sequences against ``CAZyDB`` (the library of sequences classified into CAZy families) using diamond.
-  - **HMMER against dbCAN** compares sequences against ``dbCAN HMMdb`` (the library of CAZy families HMM profiles) using HMMER. 
-  - **HMMER against dbCAN-sub** compares sequences against ``dbCAN-sub HMMdb`` (the library of dbCAN-sub subfamilies HMM profiles) using HMMER.
+* **DIAMOND against CAZy** compares sequences against ``CAZyDB`` (the library of sequences classified into CAZy families) using diamond.
+* **HMMER against dbCAN** compares sequences against ``dbCAN HMMdb`` (the library of CAZy families HMM profiles) using HMMER. 
+* **HMMER against dbCAN-sub** compares sequences against ``dbCAN-sub HMMdb`` (the library of dbCAN-sub subfamilies HMM profiles) using HMMER.
 
 All databases used are downloaded by the tool run_dbcan when installed and can be found at that `link <https://bcb.unl.edu/dbCAN2/download/run_dbCAN_database_total/db_current/>`_.
 
