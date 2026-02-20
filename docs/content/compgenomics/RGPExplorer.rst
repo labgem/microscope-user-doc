@@ -18,7 +18,7 @@ The "RGP gene content" table contains information about the genes which define t
  - **Begin**, **End** and **Length** indicate the location and the length of the genomic object on the sequence.
  - **Gene partition**: Partition of the gene (*persistent*, *shell*, *cloud*).
  - **Product** and **Product type**: Name and type of the genomic object product.
- - **Resistance** and **Res. identity %**: Antibiotic resistance prediction using the :ref:`CARD method <card>`.
+ - **Resistance and Stress** : Antibiotic resistance and stress-response prediction using the :ref:`AMRFinderPlus method <amrfinder>`.
  - **Virulence**, **Vir. identity %** and **Vir. maxLrap**: Virulence prediction using the :ref:`Virulence prediction <virulence>`.
  - **antiSMASH Region id**: Region prediction using :ref:`antiSMASH <antiSMASH>`. Click on it to open the detailled :ref:`antiSMASH cluster visualization window <domainviewer>` page.
  - **Macromolecular system**: Macromolecular system prediction using :ref:`MacSyFinder <macsyfinder>`. Click on it open the :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` page.

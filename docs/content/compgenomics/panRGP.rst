@@ -106,7 +106,7 @@ Finally, the "Regions of Genomic Plasticity" table gives you an overview of all 
  - **RGP state** indicates whether the region is complete or probably partial, which can happen when the RGP is located on the contig edge.
  - **RGP score**: panRGP score of the RGP (see the panRGP paper for more details about its computation).
  - **Persistent genes(%)**, **Shell genes (%)** and **Cloud genes (%)** give the proportion of genes within the RGP for the different partitions.
- - **Resistance genes**: Number of genes predicted as involved in the antibiotic resistance using the :ref:`CARD method <card>`.
+ - **Resistance and Stress genes**: Number of genes predicted to be involved in antibiotic resistance or stress response using the :ref:`AMRFinderPlus method <amrfinder>`.
  - **Virulence genes**: Number of genes predicted as involved in the virulence mecanism using the :ref:`Virulence prediction <virulence>`.
  - **Biosynthetic gene clusters**: Number of the different regions predicted by :ref:`antiSMASH <antiSMASH>`.
  - **Macromolecular systems**: Number of the different macromolecular systems predicted by :ref:`MacSyFinder <macsyfinder>`.
