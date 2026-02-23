@@ -1341,7 +1341,7 @@ All result fields are described in detail in the official AMRFinderPlus `documen
 * **Identity**: % amino-acid identity to reference protein if a blast alignment was detected.
 * **Alignment length**: Length of BLAST alignment in amino-acids if a blast alignment was detected.
 
-You can access to the : AMRFinderPlus Result page by clicking on  **Resistome** tab in the Comparative Genomics menu.
+You can access AMRFinderPlus result page by clicking on  **Resistome** tab in the Comparative Genomics menu.
 
 ========
 Virulome
