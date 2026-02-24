@@ -1320,11 +1320,11 @@ How to read AMRFinderPlus results?
 AMRFinderPlus is ran with the protein sequences as input using the *'plus'* option and the *'organism'* option. 
 
 1. the *'plus'* option provides results from "Plus" genes such as virulence factors, stress-response genes, etc.
-2. the *'organism'* option delivers optimized organism-specific results (only for organisms which have been curated). It screens known resistance causing point mutations specific typing (Stx Type for _Escherichia) and blacklists common, non-informative genes. 
+2. the *'organism'* option delivers optimized organism-specific results (only for organisms which have been curated). It screens for point mutations, filter out non-informative genes and indentify specific features such as stx type in *Escherichia* or pbp proteins in *Streptococcus pneumoniae* or *Neisseria gonorrhoeae*.
 
 All result fields are described in detail in the official AMRFinderPlus `documentation <https://github.com/ncbi/amr/wiki/Running-AMRFinderPlus#output-format>`_. We recommand checking this page for more details.
 
-* **Method:** Type of hit found by AMRFinderPlus among 'ALLELEP','EXACTP','PARTIALP','PARTIAL_CONTIG_ENDP','BLASTP','HMM','POINTP'. The suffix of 'P' refers to the fact that the method was employed using protein sequences. 
+* **Method:** Type of hit detected by AMRFinderPlus (ALLELEP, EXACTP, PARTIALP, PARTIAL_CONTIG_ENDP, BLASTP, HMM, POINTP). The “P” suffix denotes that the analysis was performed using protein sequences. 
 * **AMRFinderPlus Element Symbol**: Gene or gene-family symbol for protein or nucleotide hit, with a link to its entry in the `Reference Gene Catalog <https://www.ncbi.nlm.nih.gov/pathogens/refgene/>`_. 
 * **AMRFinderPlus Element Name**:  Full-text name for the protein, RNA, or point mutation.
 * **Scope**:  The AMRFinderPlus database is split into *'core'* AMR proteins that are expected to have an effect on resistance and *'plus'* proteins of interest added with less stringent inclusion criteria. These may or may not be expected to have an effect on phenotype.
@@ -1336,12 +1336,12 @@ All result fields are described in detail in the official AMRFinderPlus `documen
 * **HMM accession**:  Accession for the HMM, with a link to its entry in the `Reference HMM Catalog <https://www.ncbi.nlm.nih.gov/pathogens/hmm/>`_.
 * **HMM description**: The family name associated with the HMM.
 * **Query Length**: The length of the query protein or gene.
-* **Subject Length**: The length of the Reference protein or nucleotide in the database if a blast alignment was detected.
+* **Subject Length**: The length of the Reference protein in the database if a blast alignment was detected.
 * **Coverage**:  % of reference covered by blast hit if a blast alignment was detected.
 * **Identity**: % amino-acid identity to reference protein if a blast alignment was detected.
 * **Alignment length**: Length of BLAST alignment in amino-acids if a blast alignment was detected.
 
-You can access AMRFinderPlus result page by clicking on  **Resistome** tab in the Comparative Genomics menu.
+You can access AMRFinderPlus predictions via the Resistome page, located in the Comparative Genomics section of the main navigation menu.
 
 ========
 Virulome
