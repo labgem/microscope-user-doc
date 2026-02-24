@@ -21,7 +21,7 @@ The database is highly curated with hierarchical structure for AMR proteins, man
 How to access to the Antibiotic Resistance predictions?
 --------------------------------
 
-AMRFinderPlus predictions are available through the Comparative Genomics section, in the main navigation menu.
+AMRFinderPlus predictions are accessible via the Resistome page of the Comparative Genomics section in the main navigation menu. Results can also be queried through the “Search by Keywords” page under “Resistome results” in the Search/Export section.
 
 How to read AMRFinderPlus results?
 --------------------------------
@@ -35,7 +35,7 @@ AMRFinderPlus is ran with the protein sequences as input using the *'plus'* opti
 
 All result fields are described in detail in the official AMRFinderPlus `documentation <https://github.com/ncbi/amr/wiki/Running-AMRFinderPlus#output-format>`_. We recommand checking this page for more details.
 
-* **Method:** Type of hit found by AMRFinderPlus among 'ALLELEP','EXACTP','PARTIALP','PARTIAL_CONTIG_ENDP','BLASTP','HMM','POINTP'. The suffix of 'P' refers to the fact that the method was employed using protein sequences. 
+* **Method:** Type of hit detected by AMRFinderPlus (ALLELEP, EXACTP, PARTIALP, PARTIAL_CONTIG_ENDP, BLASTP, HMM, POINTP). The “P” suffix denotes that the analysis was performed using protein sequences. 
 * **AMRFinderPlus Element Symbol**: Gene or gene-family symbol for protein or nucleotide hit, with a link to its entry in the `Reference Gene Catalog <https://www.ncbi.nlm.nih.gov/pathogens/refgene/>`_. 
 * **AMRFinderPlus Element Name**:  Full-text name for the protein, RNA, or point mutation.
 * **Scope**:  The AMRFinderPlus database is split into *'core'* AMR proteins that are expected to have an effect on resistance and *'plus'* proteins of interest added with less stringent inclusion criteria. These may or may not be expected to have an effect on phenotype.
