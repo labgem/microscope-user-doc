@@ -47,7 +47,7 @@ All result fields are described in detail in the official AMRFinderPlus `documen
 * **HMM accession**:  Accession for the HMM, with a link to its entry in the `Reference HMM Catalog <https://www.ncbi.nlm.nih.gov/pathogens/hmm/>`_.
 * **HMM description**: The family name associated with the HMM.
 * **Query Length**: The length of the query protein or gene.
-* **Subject Length**: The length of the Reference protein or nucleotide in the database if a blast alignment was detected.
+* **Subject Length**: The length of the Reference protein in the database if a blast alignment was detected.
 * **Coverage**:  % of reference covered by blast hit if a blast alignment was detected.
 * **Identity**: % amino-acid identity to reference protein if a blast alignment was detected.
 * **Alignment length**: Length of BLAST alignment in amino-acids if a blast alignment was detected.
