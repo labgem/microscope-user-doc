@@ -21,7 +21,7 @@ The database is highly curated with hierarchical structure for AMR proteins, man
 How to access to the Antibiotic Resistance predictions?
 --------------------------------
 
-AMRFinderPlus predictions are accessible via the Resistome page of the Comparative Genomics section in the main navigation menu. Results can also be queried through the “Search by Keywords” page under “Resistome results” in the Search/Export section.
+AMRFinderPlus predictions can be accessed via the Resistome page, located in the Comparative Genomics section of the main navigation menu. Results can also be queried through the “Search by Keywords” page under “Resistome results” in the Search/Export section.
 
 How to read AMRFinderPlus results?
 --------------------------------
@@ -31,7 +31,7 @@ How to read AMRFinderPlus results?
 AMRFinderPlus is ran with the protein sequences as input using the *'plus'* option and the *'organism'* option. 
 
 1. the *'plus'* option provides results from "Plus" genes such as virulence factors, stress-response genes, etc.
-2. the *'organism'* option delivers optimized organism-specific results (only for organisms which have been curated). It screens known resistance causing point mutations specific typing (Stx Type for _Escherichia) and blacklists common, non-informative genes. 
+2. the *'organism'* option delivers optimized organism-specific results (only for organisms which have been curated). It screens for point mutations, filter out non-informative genes and indentify specific features such as stx type in Escherichia or pbp proteins in *Streptococcus pneumoniae* or *Neisseria gonorrhoeae*.
 
 All result fields are described in detail in the official AMRFinderPlus `documentation <https://github.com/ncbi/amr/wiki/Running-AMRFinderPlus#output-format>`_. We recommand checking this page for more details.
 
