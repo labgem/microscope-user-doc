@@ -34,7 +34,7 @@ Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
 
 What is DefenseFinder?
 ======================
-*DefenseFinder* is a bioinformatic tool for the systematic detection of anti-phage defense systems in prokaryotic genomes. It employs MacSyFinder and curated HMM profiles to identify known bacterial immunity mechanisms. The tool analyzes protein or nucleic sequences to find clusters of genes that constitute functional defense units. The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a each system. [2]_ [3]_ [4]_
+*DefenseFinder* is a bioinformatic tool for the systematic detection of known anti-phage defense systems in prokaryotic genomes. It employs MacSyFinder and curated HMM profiles to identify known bacterial immunity mechanisms. The tool analyzes protein or nucleic sequences to find clusters of genes that constitute functional defense units. The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a each system. [2]_ [3]_ [4]_
 
 Defense systems detected by *DefenseFinder* are:
 

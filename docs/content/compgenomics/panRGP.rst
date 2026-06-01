@@ -112,7 +112,7 @@ Finally, the "Regions of Genomic Plasticity" table gives you an overview of all 
  - **Macromolecular systems**: Number of the different macromolecular systems predicted by :ref:`MacSyFinder <macsyfinder>`.
  - **Integrons**: Number of the different integrons predicted by :ref:`IntegronFinder <integron>`.
  - **Prophage regions**: Number of the different prophage regions predicted by :ref:`Phigaro <prophages-defense-systems>`.
- - **Defense systems**: Number of the different defense (and anti-defense) systems predicted by :ref:`DefenseFinder <prophages-defense-systems>`.
+ - **Defense systems**: Number of the different defense and anti-defense systems predicted by :ref:`DefenseFinder <prophages-defense-systems>`.
 
 .. image:: img/panrgp_table.png
 
