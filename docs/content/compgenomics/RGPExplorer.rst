@@ -24,7 +24,7 @@ The "RGP gene content" table contains information about the genes which define t
  - **Macromolecular system**: Macromolecular system prediction using :ref:`MacSyFinder <macsyfinder>`. Click on it open the :ref:`MacSyFinder System visualization window <macromolecular-system-vizualization>` page.
  - **Integron id**: Integron prediction using :ref:`IntegronFinder <integron>`. Click on it open the detailled :ref:`IntegronFinder cluster visualization window <integron-cluster-vizualization>` page.
  - **Prophage id**: Prophages region predicition using :ref:`Phigaro <prophages-defense-systems>`. Clicking on this element will open an :ref:`interface <how-to-explore-a-prophage>` to explore the content of this region.
- - **System name**: Defense system prediction using :ref:`DefenseFinder <prophages-defense-systems>`. Clicking on it will open a detailled :ref:`description <how-to-explore-a-defense-system>` of this system.
+ - **System name**: Defense system type followed by its name predicted using :ref:`DefenseFinder <prophages-defense-systems>`. Clicking on it will open a detailled :ref:`description <how-to-explore-a-defense-system>` of this system.
 
 The "Matching RGPs within Genome Cluster" table compares the given RGP with the predicted ones in the other organisms of the same MICGC (see method of :ref:`Genome Clustering <genoclust>`). 
 The percentage of shared gene families correspond to the number of :ref:`MICFAM <pancore-analysis>` (MicroScope gene families) that are present in the RGP of the compared organism. 

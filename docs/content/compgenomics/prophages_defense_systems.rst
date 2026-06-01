@@ -24,13 +24,9 @@ What is Phigaro?
 Phigaro is a standalone command-line application that is able to detect prophage regions taking raw genome and metagenome assemblies as an input.
 It also produces dynamic annotated "prophage genome maps" and marks possible transposon insertion spots inside prophages.
 It is applicable for mining prophage regions from large metagenomic datasets.
-Phigaro uses the `pVOG HMM profiles <http://dmk-brain.ecn.uiowa.edu/pVOGs/>`_ to detect bacteriophage genes.
+Phigaro uses the `pVOG HMM profiles <http://dmk-brain.ecn.uiowa.edu/pVOGs/>`_ to detect bacteriophage genes. [1]_
 
 Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
-
-**Reference:**
-
-`Elizaveta V. Starikova, Polina O. Tikhonova, Nikita A. Prianichnikov, Chris M. Rands, Evgeny M. Zdobnov, Vadim M. Govorun Phigaro: high throughput prophage sequence annotation <https://doi.org/10.1093/bioinformatics/btaa250>`_
 
 .. note::
   By default Phigaro predicts genes by using Prodigal.
@@ -38,37 +34,23 @@ Know more about `Phigaro <https://github.com/bobeobibo/phigaro/>`_.
 
 What is DefenseFinder?
 ======================
+*DefenseFinder* is a bioinformatic tool for the systematic detection of known anti-phage defense systems in prokaryotic genomes. It employs MacSyFinder and curated HMM profiles to identify known bacterial immunity mechanisms. The tool analyzes protein or nucleic sequences to find clusters of genes that constitute functional defense units. The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a each system. [2]_ [3]_ [4]_
 
-**DefenseFinder** is a program to systematically detect known anti-phage systems based on :ref:`MacSyFinder<macsyfinder>`.
-The decision rules are typically defined by a list of mandatory, accessory, or forbidden proteins necessary for the detection of a given system.
+Defense systems detected by *DefenseFinder* are:
+
+    * a broad range of anti-phage systems: (`DefenseFinder models 2.0.2 <https://github.com/mdmparis/defense-finder-models>`_) Avs, Azaca, BREX, DdmDE, Dodola, DRT, RADAR, RM, RosmerTA, SanaTA, Viperin, ...
+
+    * CRISPR-Cas systems: `CasFinder 3.1.0 <https://github.com/macsy-models/CasFinder>`_ contains 535 HMM proteins profiles and can detect 6 different types and 37 different subtypes of CRISPR-Cas systems.
+
+    * antidefense systems: `AntiDefenseFinder <https://defensefinder.mdmlab.fr/wiki/general-concepts/anti-defense-systems>`_ integrated in DefenseFinder is a search tool to detect known inhibitors of prokaryotic defense systems. [5]_
 
 Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
-
-**Reference:**
-
-`Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
-
-Defense systems detected by DefenseFinder are:
-
-    * a broad range of anti-phage systems (`DefenseFinder models 1.2.4 <https://github.com/mdmparis/defense-finder-models>`_): Avs, Azaca, BREX, DdmDE, Dodola, DRT, RADAR, RM, RosmerTA, SanaTA, Viperin, ...
-
-        **References:**
-            * `Tesson, F., Planel, R.,  Egorov, A., Georjon, H., Vaysset, H., Brancotte, B., Néron, B., Mordret, E., Bernheim, A., Atkinson, G., Cury, J. (2024). A Comprehensive Resource for Exploring Antiphage Defense: DefenseFinder Webservice, Wiki and Databases. bioRxiv 2024.01.25.577194. <https://doi.org/10.1101/2024.01.25.577194>`_
-
-            * `Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
-
-    * CRISPR-Cas systems (`CasFinder 3.1.0 <https://github.com/macsy-models/CasFinder>`_): CAS_Class1-Type-I, CAS_Class1-Subtype-I, CAS_Class1-Type-III, CAS_Class1-Subtype-III, CAS_Class1-Type-IV, CAS_Class1-Subtype-IV, CAS_Class2-Type-II, CAS_Class2-Subtype-II, CAS_Class2-Type-V, CAS_Class2-Subtype-V, CAS_Class2-Type-VI, CAS_Class2-Subtype-VI.
-
-        **References:**
-            * `Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
-            * `Abby, S. S., Néron, B., Ménager, H., Touchon, M., & Rocha, E. P. (2014). MacSyFinder: a program to mine genomes for molecular systems with an application to CRISPR-Cas systems. PloS one, 9(10), e110726. <https://doi.org/10.1371/journal.pone.0110726>`_
-
 
 What is CRISPRCasFinder?
 ========================
 
 **CRISPRCasFinder** is a tool that allows to identify CRISPR arrays and Cas proteins.
-The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identifies all regularly-interspaced repeated sequences.
+The CRISPR detection is based on `Vmatch <http://www.vmatch.de/>`_ (a software for large scale sequence analysis) which identifies all regularly-interspaced repeated sequences. [6]_ [7]_
 
 CRISPRCasFinder associates an evidence level with each CRISPR detected using 3 criteria:
 
@@ -82,13 +64,7 @@ More information about CRISPRCasFinder `here <https://crisprcas.i2bc.paris-sacla
 
 .. Note::
     In MicroScope, CRISPRCasFinder is used only to detect CRISPR arrays.
-    Cas systems are detected by DefenseFinder.
-
-**References:** 
-
-`Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
-
-`Grissa, I., Vergnaud, G., & Pourcel, C. (2007). CRISPRFinder: a web tool to identify clustered regularly interspaced short palindromic repeats. Nucleic acids research, 35(Web Server issue), W52–W57. <https://doi.org/10.1093/nar/gkm360>`_
+    Cas systems are detected by *DefenseFinder*.
 
 ****************************************************
 How to access Prophage & Defense System predictions?
@@ -141,11 +117,12 @@ This table enumerates all defense systems predicted for the selected genome
 
 * **MoveTo**: Allows to display the region in the :ref:`viewer`.
 * **System name**: Name of the defense system; clicking on it will open a detailled description of this system (see :ref:`below <how-to-explore-a-defense-system>`).
-* **System type**: Type of the defense system; clicking on it will open a description of this type of system on the DefenseFinder Wiki website.
+* **System type**: Type of the defense system. Clicking on it opens the corresponding page on the *DefenseFinder* Wiki website. For systems with a "Defense" activity, the page describes the specific defense system; for systems with an "Antidefense" activity, the page provides a general overview of antidefense systems.
+* **Activity**: Biological role of the system: "Defense" corresponds to anti-phage defense systems, whereas "Antidefense" refers to mechanisms that counteract prokaryotic defense systems.
 * **Replicon name**: Name of the replicon.
 * **Replicon type**: Type of the replicon (chromosome, plasmid, WGS).
-* **Begin** and **End**: Location of the defense system on the replicon.
-* **Length**: Length of the defense system.
+* **Begin** and **End**: Location of the defense or antidefense system on the replicon.
+* **Length**: Length of the defense or antidefense system.
 * **Mandatory proteins in system**: List of mandatory proteins of the system identified in the genome.
 * **Nb of mandatory present**: Number of mandatory proteins of the system identified in the genome.
 * **Accessory proteins in system**: List of accessory proteins of the system identified in the genome.
@@ -159,7 +136,7 @@ How to explore a defense system?
 ================================
 
 The defense system visualization interface can be accessed by clicking on the **System name** field of the Defense Systems table.
-This interface displays the detailed description of a selected defense system.
+This interface displays the detailed description of a selected defense or antidefense system.
 
 .. image:: img/defensefinder1_GOtab.png
 
@@ -169,16 +146,16 @@ The table **Genomic Objects** provides information regarding the genomic objects
 * **Begin** and **End**: Location of the genomic object on the sequence.
 * **Gene**: Gene name if any.
 * **Product**: Description of the gene product of the genomic object.
-* **Protein name**: Name of the protein detected by DefenseFinder.
-* **Eval**: e-value of the match with MacSyFinder models.
-* **Status**: Status of the protein in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
+* **Protein name**: Name of the protein detected by *DefenseFinder*.
+* **Eval**: e-value of the match with *DefenseFinder* models.
+* **Status**: Status of the protein in the system (mandatory, accessory, neutral).
 
 You can export the genes by clicking on **Export to Gene Cart**.
 
 What is the CRISPR table?
 =========================
 
-This table displays all CRISPR detected by CRISPRCasFinder and all Cas detected by DefenseFinder for the selected genome. 
+This table displays all CRISPR detected by CRISPRCasFinder and all Cas detected by *DefenseFinder* for the selected genome. 
 
 .. image:: img/crisprcasfinder4_crisprtab.png
 
@@ -188,7 +165,7 @@ This table displays all CRISPR detected by CRISPRCasFinder and all Cas detected 
 * **Begin** and **End**: Location of the system on the replicon.
 * **Length**: Length of the system.
 * **Nb spacers / genes**: Number of CRISPR spacers or Number of Cas genes.
-* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder or List of mandatory Cas genes predicted by DefenseFinder.
+* **Consensus repeat / Present gene**: Consensus repeat sequence predicted by CRISPRCasFinder or List of mandatory Cas genes predicted by *DefenseFinder*.
 * **Evidence level**: Evidence level as computed by CRISPRCasFinder.
 
 .. _how-to-explore-a-crisprcas-system:
@@ -214,6 +191,15 @@ The table **Genomic objects** provides information regarding the genomic objects
 * **Gene**: Gene name if any.
 * **Product**: Description of the gene product of the genomic object.
 * **Protein name**: Name of the protein detected by MacSyFinder.
-* **Eval**: E-value of the match with DefenseFinder models.
+* **Eval**: E-value of the match with *DefenseFinder* models.
 * **Status**: Status of the gene in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
 
+
+**References:**
+ .. [1] `Elizaveta V. Starikova, Polina O. Tikhonova, Nikita A. Prianichnikov, Chris M. Rands, Evgeny M. Zdobnov, Vadim M. Govorun Phigaro: high throughput prophage sequence annotation <https://doi.org/10.1093/bioinformatics/btaa250>`_
+ .. [2] `"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://doi.org/10.1038/s41467-022-30269-9>`_
+ .. [3] `"MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes." Peer Community Journal, Volume 3 (2023), article no. e28. Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S. <https://peercommunityjournal.org/articles/10.24072/pcjournal.250/>`_
+ .. [4] `"CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins." Nucleic Acids Research 2018 Couvin D. et al. <https://doi.org/10.1093/nar/gky425>`_
+ .. [5] `Florian Tesson, Erin Huiting, Linlin Wei, Jie Ren, Matthew Johnson, Rémi Planel, Jean Cury, Yue Feng, Joseph Bondy-Denomy, Aude Bernheim, Exploring the diversity of anti-defense systems across prokaryotes, phages and mobile genetic elements, Nucleic Acids Research, Volume 53, Issue 1, 13 January 2025, gkae1171, <https://doi.org/10.1093/nar/gkae1171>`_
+ .. [6] `Couvin, D., Bernheim, A., Toffano-Nioche, C., Touchon, M., Michalik, J., Néron, B., Rocha, E. P. C., Vergnaud, G., Gautheret, D., & Pourcel, C. (2018). CRISPRCasFinder, an update of CRISPRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins. Nucleic acids research, 46(W1), W246–W251. <https://doi.org/10.1093/nar/gky425>`_
+ .. [7] `Grissa, I., Vergnaud, G., & Pourcel, C. (2007). CRISPRFinder: a web tool to identify clustered regularly interspaced short palindromic repeats. Nucleic acids research, 35(Web Server issue), W52–W57. <https://doi.org/10.1093/nar/gkm360>`_

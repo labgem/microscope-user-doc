@@ -1522,8 +1522,9 @@ The decision rules are typically defined by a list of mandatory, accessory, or f
 Know  more about `DefenseFinder <https://github.com/mdmparis/defense-finder/>`_.
 
 **Reference:**
-
-`Tesson, F., Hervé, A., Mordret, E., Touchon, M., d'Humières, C., Cury, J., & Bernheim, A. (2022). Systematic and quantitative view of the antiviral arsenal of prokaryotes. Nature communications, 13(1), 2561. <https://doi.org/10.1038/s41467-022-30269-9>`_
+ * `"Systematic and quantitative view of the antiviral arsenal of prokaryotes" Nature Communication, 2022, Tesson F., Hervé A. , Mordret E., Touchon M., d’Humières C., Cury J., Bernheim A. <https://doi.org/10.1038/s41467-022-30269-9>`_
+ * `"MacSyFinder v2: Improved modelling and search engine to identify molecular systems in genomes." Peer Community Journal, Volume 3 (2023), article no. e28. Néron, Bertrand; Denise, Rémi; Coluzzi, Charles; Touchon, Marie; Rocha, Eduardo P.C.; Abby, Sophie S. <https://peercommunityjournal.org/articles/10.24072/pcjournal.250/>`_
+ * `"CRISPRCasFinder, an update of CRISRFinder, includes a portable version, enhanced performance and integrates search for Cas proteins." Nucleic Acids Research 2018 Couvin D. et al. <https://doi.org/10.1093/nar/gky425>`_
 
 How to read DefenseFinder results?
 ----------------------------------
@@ -1531,9 +1532,9 @@ How to read DefenseFinder results?
 The **DefenseFinder** dataset appears if the genomic object corresponds to a defense system predicted by DefenseFinder.
 
 .. image:: img/defensefinder1_datasettab.png
-
+* **Activity**: Biological role of the system: "Defense" corresponds to anti-phage defense systems, whereas "Antidefense" refers to mechanisms that counteract prokaryotic defense systems.
 * **System name**: Name of the defense system to which belongs the gene, clicking on this opens the :ref:`defense system visualization interface <how-to-explore-a-defense-system>`.
-* **Protein name**: Name of the protein detected by MacSyFinder.
-* **Status**: Status of the gene in the system, as defined by MacSyFinder (mandatory, accessory, neutral).
-* **Eval**: E-value of the match with DefenseFinder models.
+* **Protein name**: Name of the protein detected.
+* **Status**: Status of the gene in the system (mandatory, accessory, neutral).
+* **Eval**: E-value of the match with *DefenseFinder* models.
 
