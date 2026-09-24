@@ -105,7 +105,7 @@ More than 99% of the protein sequences provided by UniProtKB are derived from th
 
 **More**: http://www.uniprot.org/
 
-**Reference**: `UniProt Consortium. The Universal Protein Resource (UniProt) in 2010. Nucleic Acids Res. 2010 Jan;38(Database issue):D142-8 <http://www.ncbi.nlm.nih.gov/pubmed/19843607>`_
+**Reference**: `The UniProt Consortium , UniProt: the Universal Protein Knowledgebase in 2025, Nucleic Acids Research, Volume 53, Issue D1, 6 January 2025, Pages D609–D617 <https://doi.org/10.1093/nar/gkae1010>`_
 
 
 What are MetaCyc Pathways?
