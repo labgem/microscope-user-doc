@@ -8,8 +8,7 @@ MicroCyc is a collection of microbial Pathway/Genome Databases (PGDBs) which are
 They are supported by the Pathway tools software developed by Peter Karp and his team at SRI international.
 These PGDBs were generated using the PathoLogic module which computes an initial set of pathways by comparing a genome annotations to the metabolic reference database MetaCyc.
 
-For each studied genome, the annotation data is extracted from our Prokaryotic Genome DataBase (PkGDB) which benefit both the (re)annotation process performed in our group (LABGeM), the enzymatic function prediction computed with the PRIAM software, and the expert work for functional annotation made by a various community of biologists using the MaGe system.
-These automatically generated PGDBs (Tier3) are updated every day.
+For each studied genome, annotation data are extracted from our Prokaryotic Genome DataBase (PkGDB), which benefits from the expertise of a broad community of biologists contributing to functional annotation through the platform. These automatically generated PGDBs (Tier 3) are regularly updated to incorporate the latest functional annotation updates.
 
 .. image:: img/microcyc.png
 
