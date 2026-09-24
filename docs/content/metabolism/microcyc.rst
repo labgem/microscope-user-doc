@@ -11,6 +11,7 @@ These PGDBs were generated using the PathoLogic module which computes an initial
 For each studied genome, annotation data are extracted from our Prokaryotic Genome DataBase (PkGDB), which benefits from the expertise of a broad community of biologists contributing to functional annotation through the platform. These automatically generated PGDBs (Tier 3) are regularly updated to incorporate the latest functional annotation updates.
 
 .. image:: img/microcyc.png
+   :width: 50%
 
 .. _microcyc-authentication-warning:
 
